@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">dada1be</span>
+   &#160;<span id="projectnumber">4d7fd4d</span>
    </div>
   </td>
  </tr>
@@ -163,21 +163,23 @@ $(document).ready(function(){initNavTree('_chip_device_scanner_8h_source.html','
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">void</span> ReportDevice(BluezDevice1 * device);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    GDBusObjectManager * mManager         = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    BluezAdapter1 * mAdapter              = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    GCancellable * mCancellable           = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    ChipDeviceScannerDelegate * mDelegate = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    gulong mObjectAddedSignal             = 0;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    gulong mInterfaceChangedSignal        = 0;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">bool</span> mIsScanning                      = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> mIsStopping                      = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span> RemoveDevice(BluezDevice1 * device);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    GDBusObjectManager * mManager         = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    BluezAdapter1 * mAdapter              = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    GCancellable * mCancellable           = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    ChipDeviceScannerDelegate * mDelegate = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    gulong mObjectAddedSignal             = 0;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    gulong mInterfaceChangedSignal        = 0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">bool</span> mIsScanning                      = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">bool</span> mIsStopping                      = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;};</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_main_loop_8h_html"><div class="ttname"><a href="_main_loop_8h.html">MainLoop.h</a></div></div>
@@ -211,7 +213,7 @@ $(document).ready(function(){initNavTree('_chip_device_scanner_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_73d3889ee67b63af7c3145b099b55cd9.html">Linux</a></li><li class="navelem"><a class="el" href="dir_e55d4bd46792515e15a6fa831d38d67f.html">bluez</a></li><li class="navelem"><a class="el" href="_chip_device_scanner_8h.html">ChipDeviceScanner.h</a></li>
-    <li class="footer">Generated on Mon Apr 12 2021 21:11:51 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 12 2021 22:45:37 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
