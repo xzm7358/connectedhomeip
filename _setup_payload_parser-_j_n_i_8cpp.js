@@ -1,0 +1,28 @@
+var _setup_payload_parser__j_n_i_8cpp =
+[
+    [ "_SETUP_PAYLOAD_PARSER_JNI_ERROR", "_setup_payload_parser-_j_n_i_8cpp.html#af2e10266dd21aa3424b0300337eed313", null ],
+    [ "JNI_METHOD", "_setup_payload_parser-_j_n_i_8cpp.html#afb241bbadf3a673efff8ea02c119dd4d", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_EXCEPTION_THROWN", "_setup_payload_parser-_j_n_i_8cpp.html#aa3ef343eaccc6742a6a57513273cd3d3", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_FIELD_NOT_FOUND", "_setup_payload_parser-_j_n_i_8cpp.html#a1d130eb4bf069572fdfda458bfeb098f", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_MAX", "_setup_payload_parser-_j_n_i_8cpp.html#aa32b7727c51471f7a9b1e9a09d46d103", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_METHOD_NOT_FOUND", "_setup_payload_parser-_j_n_i_8cpp.html#ab3994fb0cebb3e039a774deb882aa096", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_MIN", "_setup_payload_parser-_j_n_i_8cpp.html#ac8094b4c9dde7fcd2d3ac0cc01877391", null ],
+    [ "SETUP_PAYLOAD_PARSER_JNI_ERROR_TYPE_NOT_FOUND", "_setup_payload_parser-_j_n_i_8cpp.html#a9d2223e83200442c7fe7fef14189eb80", null ],
+    [ "if", "_setup_payload_parser-_j_n_i_8cpp.html#acc09a8ef23f912cd489a3e960529c535", null ],
+    [ "JNI_METHOD", "_setup_payload_parser-_j_n_i_8cpp.html#a1873c60604cfcd645b1a8e97e3bf7f55", null ],
+    [ "JNI_METHOD", "_setup_payload_parser-_j_n_i_8cpp.html#aa882f8885ee8a4338a4a6d2ece230b4e", null ],
+    [ "JNI_OnLoad", "_setup_payload_parser-_j_n_i_8cpp.html#aac186441c8ba05258b9e1ee3e8e669f8", null ],
+    [ "ReleaseStringUTFChars", "_setup_payload_parser-_j_n_i_8cpp.html#a0260929d674e777f432c083f0a634cb4", null ],
+    [ "ReleaseStringUTFChars", "_setup_payload_parser-_j_n_i_8cpp.html#a0269666b73edd8333bb4080734c7b0c6", null ],
+    [ "ThrowInvalidEntryCodeFormatException", "_setup_payload_parser-_j_n_i_8cpp.html#afc95faa6e86cae56a01d86450b3d59d6", null ],
+    [ "ThrowUnrecognizedQRCodeException", "_setup_payload_parser-_j_n_i_8cpp.html#aacb3abc67b9dfbac6bbcabf09dc79b13", null ],
+    [ "TransformSetupPayload", "_setup_payload_parser-_j_n_i_8cpp.html#ad375b50f46df1d7eda57a1d903527662", null ],
+    [ "TransformSetupPayload", "_setup_payload_parser-_j_n_i_8cpp.html#ad2eef2ab63421c097affedac58dda166", null ],
+    [ "entryCode", "_setup_payload_parser-_j_n_i_8cpp.html#ae4f9d4a5eba9e035368c214fdb8498fd", null ],
+    [ "entryCodeString", "_setup_payload_parser-_j_n_i_8cpp.html#ac9d12169cebd2c89033a89571a07dca6", null ],
+    [ "err", "_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4", null ],
+    [ "payload", "_setup_payload_parser-_j_n_i_8cpp.html#a5ea97d2c9a0075e8da5e7f1bd36523d5", null ],
+    [ "qrCodeObj", "_setup_payload_parser-_j_n_i_8cpp.html#a30ae58fb3ace96b9eaec07bdc715dbd3", null ],
+    [ "qrString", "_setup_payload_parser-_j_n_i_8cpp.html#adba3cfdb2051045ec06b8d7c11464c62", null ],
+    [ "self", "_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93", null ]
+];
