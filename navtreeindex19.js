@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"classchip_1_1_ble_1_1_btp_engine.html#ac692dd7df39f9ab6d265251b80991fbb":[10,0,1,1,9,0],
+"classchip_1_1_ble_1_1_btp_engine.html#ac692dd7df39f9ab6d265251b80991fbba249a056e8e8a874b649bf7f757b4befb":[10,0,1,1,9,0,1],
+"classchip_1_1_ble_1_1_btp_engine.html#ac692dd7df39f9ab6d265251b80991fbba5233c66b67a738f23cfbab1ce794e566":[10,0,1,1,9,0,2],
+"classchip_1_1_ble_1_1_btp_engine.html#ac692dd7df39f9ab6d265251b80991fbba753de884d1480d6c4a3fbf0b207d85b5":[10,0,1,1,9,0,3],
 "classchip_1_1_ble_1_1_btp_engine.html#ac692dd7df39f9ab6d265251b80991fbba92ebc2afaa5de600cfb15a86c4cb83d7":[10,0,1,1,9,0,0],
 "classchip_1_1_ble_1_1_btp_engine.html#ac901bc5f8695e472b8a02ca35e7cf3c4":[10,0,1,1,9,24],
 "classchip_1_1_ble_1_1_btp_engine.html#ad145d5836dda3db2b7493a76b171b735":[10,0,1,1,9,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html":[10,0,1,6,0],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a0140159e481c2d0de61b134ced5e06bd":[10,0,1,6,0,4],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a51c24ff7bf1c70de380a8db636bdcc15":[10,0,1,6,0,2],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a767c9cc23ede0cc2c4dccde7d98911a9":[10,0,1,6,0,0],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a9c546d317d794d56431866bc3448eb37":[10,0,1,6,0,3],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#ae27f8d9b7ec0c787c6bd03973322881a":[10,0,1,6,0,1],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html":[10,0,1,6,1],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a030ff81f08d85bf463188b06d8c71f1e":[10,0,1,6,1,15]
+"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a767c9cc23ede0cc2c4dccde7d98911a9":[10,0,1,6,0,0]
 };

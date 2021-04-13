@@ -12,7 +12,7 @@ var _e_s_p32_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_CHIPOBLE_SINGLE_CONNECTION", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#af208201041d2136b01c9062b1460651c", null ],
     [ "CHIP_DEVICE_CONFIG_DEFAULT_DEVICE_PRODUCT_REVISION", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#aac0184c3bb3b8f7e07d793ec5b82c3d6", null ],
     [ "CHIP_DEVICE_CONFIG_DEFAULT_TIME_SYNC_INTERVAL", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ad9ee6a3cebebb4e05313b63dce6c35c9", null ],
-    [ "CHIP_DEVICE_CONFIG_DEVICE_FIRMWARE_REVISION", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcb4fbd9838e23eaebac956136817dec", null ],
+    [ "CHIP_DEVICE_CONFIG_DEVICE_FIRMWARE_REVISION_STRING", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a57edde8a65c859bd33829e31fe74c2de", null ],
     [ "CHIP_DEVICE_CONFIG_DEVICE_PRODUCT_ID", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcd348c4551d05c630645358da5b24ac", null ],
     [ "CHIP_DEVICE_CONFIG_DEVICE_VENDOR_ID", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a2abef9e3d99bcbbbdf79a340ad3465cc", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIP_TIME_SERVICE_TIME_SYNC", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2", null ],

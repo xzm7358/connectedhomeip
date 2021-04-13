@@ -1,5 +1,16 @@
 var NAVTREEINDEX42 =
 {
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2":[11,0,7,10,3,1],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa":[11,0,7,10,3,12],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8":[11,0,7,10,3,0],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae":[11,0,7,10,3,10],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc":[11,0,7,10,3,2],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5":[11,0,7,10,3,9],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,10,3,8],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,10,3,11],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,10,3,5],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,10,3,7],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,10,3,13],
 "qpg6100_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,10,3],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,10,4],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#a4cbbf8da21943033fc2967e8aa475e52":[11,0,7,10,4,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX42 =
 "struct_avahi_timeout.html":[10,0,8],
 "struct_avahi_timeout.html#a13156b7cf56da4eb4c6be5fa08a9b342":[10,0,8,0],
 "struct_avahi_timeout.html#a7cc8a98d3f52ef029374cdb09c811be1":[10,0,8,4],
-"struct_avahi_timeout.html#acdbca01b224077fce326fe9dac261e71":[10,0,8,3],
-"struct_avahi_timeout.html#af23c27653d8f950b2e40b8003db665ff":[10,0,8,1],
-"struct_avahi_timeout.html#afc4eeab8341016771d0d43d83f5df199":[10,0,8,2],
-"struct_avahi_watch.html":[10,0,9],
-"struct_avahi_watch.html#a0fc963ea1064fadf30c8f3116661e896":[10,0,9,0],
-"struct_avahi_watch.html#a17ce363afafc18d22279ab10de4540d4":[10,0,9,2],
-"struct_avahi_watch.html#a2a718bf695e9d354d7f9cd0f9278f4c9":[10,0,9,4],
-"struct_avahi_watch.html#a383444fdc93cf9b1ff0dda2b4eb13caf":[10,0,9,1],
-"struct_avahi_watch.html#a6b5812295f865142ac89c73367f4d379":[10,0,9,3],
-"struct_avahi_watch.html#ad8a81b509a528c62a8c53505474f721d":[10,0,9,5],
-"structble_bond_device_entry.html":[10,0,10],
-"structble_bond_device_entry.html#a092b7b7baf90c29d65aa5af01b328910":[10,0,10,5]
+"struct_avahi_timeout.html#acdbca01b224077fce326fe9dac261e71":[10,0,8,3]
 };

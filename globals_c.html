@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d644bb0</span>
+   &#160;<span id="projectnumber">322baf6</span>
    </div>
   </td>
  </tr>
@@ -808,6 +808,9 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_c_h_i_p_device_config_8h.html#aac0184c3bb3b8f7e07d793ec5b82c3d6">CHIPDeviceConfig.h</a>
 , <a class="el" href="_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#aac0184c3bb3b8f7e07d793ec5b82c3d6">CHIPDevicePlatformConfig.h</a>
 </li>
+<li>CHIP_DEVICE_CONFIG_DEFAULT_DEVICE_PRODUCT_REVISION_STRING
+: <a class="el" href="_c_h_i_p_device_config_8h.html#a027f05e1ae8b5a1c3e5ecce72fc01c51">CHIPDeviceConfig.h</a>
+</li>
 <li>CHIP_DEVICE_CONFIG_DEFAULT_TELEMETRY_INTERVAL_MS
 : <a class="el" href="_c_h_i_p_device_config_8h.html#af107289963ac86b868271d4beff6bca6">CHIPDeviceConfig.h</a>
 </li>
@@ -820,15 +823,24 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 </li>
 <li>CHIP_DEVICE_CONFIG_DEVICE_FIRMWARE_REVISION
 : <a class="el" href="_c_h_i_p_device_config_8h.html#afcb4fbd9838e23eaebac956136817dec">CHIPDeviceConfig.h</a>
-, <a class="el" href="_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcb4fbd9838e23eaebac956136817dec">CHIPDevicePlatformConfig.h</a>
+</li>
+<li>CHIP_DEVICE_CONFIG_DEVICE_FIRMWARE_REVISION_STRING
+: <a class="el" href="_c_h_i_p_device_config_8h.html#a57edde8a65c859bd33829e31fe74c2de">CHIPDeviceConfig.h</a>
+, <a class="el" href="_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a57edde8a65c859bd33829e31fe74c2de">CHIPDevicePlatformConfig.h</a>
 </li>
 <li>CHIP_DEVICE_CONFIG_DEVICE_PRODUCT_ID
 : <a class="el" href="_c_h_i_p_device_config_8h.html#afcd348c4551d05c630645358da5b24ac">CHIPDeviceConfig.h</a>
 , <a class="el" href="_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcd348c4551d05c630645358da5b24ac">CHIPDevicePlatformConfig.h</a>
 </li>
+<li>CHIP_DEVICE_CONFIG_DEVICE_PRODUCT_NAME
+: <a class="el" href="_c_h_i_p_device_config_8h.html#acd231322b81161e91e3c1b868f998d8d">CHIPDeviceConfig.h</a>
+</li>
 <li>CHIP_DEVICE_CONFIG_DEVICE_VENDOR_ID
 : <a class="el" href="_c_h_i_p_device_config_8h.html#a2abef9e3d99bcbbbdf79a340ad3465cc">CHIPDeviceConfig.h</a>
 , <a class="el" href="_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a2abef9e3d99bcbbbdf79a340ad3465cc">CHIPDevicePlatformConfig.h</a>
+</li>
+<li>CHIP_DEVICE_CONFIG_DEVICE_VENDOR_NAME
+: <a class="el" href="_c_h_i_p_device_config_8h.html#ac1d1a8c2fc43688e70616803f78d66a3">CHIPDeviceConfig.h</a>
 </li>
 <li>CHIP_DEVICE_CONFIG_EFR32_BLE_ERROR_MIN
 : <a class="el" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ae15a451850ee06da65290313d7d18b5c">CHIPDevicePlatformConfig.h</a>
@@ -2355,9 +2367,8 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_e_f_r32_2_key_value_store_manager_impl_8h.html#ab4f84838bec6bb281b1f2a1bb30429e0">KeyValueStoreManagerImpl.h</a>
 </li>
 <li>CHIP_LOG_FILTERING
-: <a class="el" href="_e_f_r32_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80">CHIPPlatformConfig.h</a>
-, <a class="el" href="_c_h_i_p_logging_8h.html#a3aa01c76a63f43b5e827b36d1618ea80">CHIPLogging.h</a>
-, <a class="el" href="_e_s_p32_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80">CHIPPlatformConfig.h</a>
+: <a class="el" href="_c_h_i_p_logging_8h.html#a3aa01c76a63f43b5e827b36d1618ea80">CHIPLogging.h</a>
+, <a class="el" href="_e_f_r32_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80">CHIPPlatformConfig.h</a>
 </li>
 <li>CHIP_MAX_SERIALIZED_SIZE_U64
 : <a class="el" href="_serializable_integer_set_8h.html#a93b365618d3ad90c22a9348748b0945b">SerializableIntegerSet.h</a>
@@ -2412,37 +2423,36 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_system_align_size_8h.html#ab6dd27bd1167986e80e616772ea47eae">SystemAlignSize.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_ERROR_MAX
-: <a class="el" href="qpg6100_2_system_platform_config_8h.html#ad68a121d966f5b6c66401e93622b9044">SystemPlatformConfig.h</a>
+: <a class="el" href="_k32_w_2_system_platform_config_8h.html#ad68a121d966f5b6c66401e93622b9044">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#ad68a121d966f5b6c66401e93622b9044">SystemConfig.h</a>
-, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#ad68a121d966f5b6c66401e93622b9044">SystemPlatformConfig.h</a>
+, <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#ad68a121d966f5b6c66401e93622b9044">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_ERROR_MIN
 : <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753">SystemConfig.h</a>
-, <a class="el" href="qpg6100_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753">SystemPlatformConfig.h</a>
+, <a class="el" href="_e_s_p32_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_ERROR_TYPE
-: <a class="el" href="_k32_w_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc">SystemPlatformConfig.h</a>
+: <a class="el" href="qpg6100_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc">SystemConfig.h</a>
-, <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc">SystemPlatformConfig.h</a>
+, <a class="el" href="_k32_w_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_FREERTOS_LOCKING
-: <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588">SystemPlatformConfig.h</a>
+: <a class="el" href="_linux_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588">SystemConfig.h</a>
-, <a class="el" href="nrfconnect_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588">SystemPlatformConfig.h</a>
+, <a class="el" href="qpg6100_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_HEADER_RESERVE_SIZE
 : <a class="el" href="_system_config_8h.html#a5daf5dd98b8ea4a0c1eca7f865e7a2de">SystemConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_LWIP_EVENT_OBJECT_TYPE
-: <a class="el" href="_k32_w_2_system_platform_config_8h.html#a5e2fb93c4d3de6299e8e5ae683159b60">SystemPlatformConfig.h</a>
+: <a class="el" href="qpg6100_2_system_platform_config_8h.html#a5e2fb93c4d3de6299e8e5ae683159b60">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a5e2fb93c4d3de6299e8e5ae683159b60">SystemConfig.h</a>
-, <a class="el" href="qpg6100_2_system_platform_config_8h.html#a5e2fb93c4d3de6299e8e5ae683159b60">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_LWIP_EVENT_TYPE
 : <a class="el" href="_k32_w_2_system_platform_config_8h.html#a93e1fcb0afbdb506332036a03a348f68">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a93e1fcb0afbdb506332036a03a348f68">SystemConfig.h</a>
-, <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#a93e1fcb0afbdb506332036a03a348f68">SystemPlatformConfig.h</a>
+, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a93e1fcb0afbdb506332036a03a348f68">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_LWIP_EVENT_UNRESERVED_CODE
 : <a class="el" href="_system_config_8h.html#a8e4d51e43796a427d4a4ec0f2e5900ce">SystemConfig.h</a>
@@ -2455,24 +2465,24 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CHIP_SYSTEM_CONFIG_NO_LOCKING
 : <a class="el" href="qpg6100_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9">SystemConfig.h</a>
-, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9">SystemPlatformConfig.h</a>
+, <a class="el" href="_k32_w_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_NUM_TIMERS
-: <a class="el" href="_darwin_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b">SystemPlatformConfig.h</a>
+: <a class="el" href="nrfconnect_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#abca852524c4bf223f6e23416015c0c7b">SystemConfig.h</a>
-, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b">SystemPlatformConfig.h</a>
+, <a class="el" href="_k32_w_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PACKETBUFFER_CAPACITY_MAX
 : <a class="el" href="_system_config_8h.html#ae3783135bfac3f20bd27543c81484e47">SystemConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PACKETBUFFER_POOL_SIZE
-: <a class="el" href="_system_config_8h.html#a403d227152d1cd7e1989438d33efd8ba">SystemConfig.h</a>
-, <a class="el" href="_c_h_i_p_project_config_8h.html#a403d227152d1cd7e1989438d33efd8ba">CHIPProjectConfig.h</a>
+: <a class="el" href="_c_h_i_p_project_config_8h.html#a403d227152d1cd7e1989438d33efd8ba">CHIPProjectConfig.h</a>
+, <a class="el" href="_system_config_8h.html#a403d227152d1cd7e1989438d33efd8ba">SystemConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PLATFORM_PROVIDES_EVENT_FUNCTIONS
-: <a class="el" href="qpg6100_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5">SystemPlatformConfig.h</a>
+: <a class="el" href="_e_s_p32_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5">SystemConfig.h</a>
-, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5">SystemPlatformConfig.h</a>
+, <a class="el" href="_darwin_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PLATFORM_PROVIDES_LWIP_ERROR_FUNCTIONS
 : <a class="el" href="_system_config_8h.html#a68eb14e92e5dfb625a2f01ad21b01d20">SystemConfig.h</a>
@@ -2481,17 +2491,17 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_system_config_8h.html#a8a4fb91876c9cd1fcdc34b32d3511159">SystemConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PLATFORM_PROVIDES_TIME
-: <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df">SystemPlatformConfig.h</a>
+: <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df">SystemConfig.h</a>
-, <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df">SystemPlatformConfig.h</a>
+, <a class="el" href="_k32_w_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PLATFORM_PROVIDES_XTOR_FUNCTIONS
 : <a class="el" href="_system_config_8h.html#a78f14d7effd6e910a38f43fd7e0dbb7e">SystemConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_POSIX_LOCKING
-: <a class="el" href="nrfconnect_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1">SystemPlatformConfig.h</a>
+: <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1">SystemConfig.h</a>
-, <a class="el" href="cc13x2__26x2_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1">SystemPlatformConfig.h</a>
+, <a class="el" href="qpg6100_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_PROVIDE_STATISTICS
 : <a class="el" href="_system_config_8h.html#a37dcee1935e06ab74d80edc0dfa9a1ce">SystemConfig.h</a>
@@ -2517,7 +2527,7 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CHIP_SYSTEM_CONFIG_USE_POSIX_TIME_FUNCTS
 : <a class="el" href="_darwin_2_system_platform_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa">SystemConfig.h</a>
-, <a class="el" href="nrfconnect_2_system_platform_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa">SystemPlatformConfig.h</a>
+, <a class="el" href="_linux_2_system_platform_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_CONFIG_USE_SOCKETS
 : <a class="el" href="nrfconnect_2_system_platform_config_8h.html#ae934f44fbfd5e44e5ccb3cfd531872a7">SystemPlatformConfig.h</a>
@@ -2564,11 +2574,11 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <li>CHIP_SYSTEM_LWIP_ERROR_MAX
 : <a class="el" href="_e_s_p32_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f">SystemPlatformConfig.h</a>
 , <a class="el" href="_system_error_8cpp.html#a08beabeb2850e8594a07ecdf12e2b51f">SystemError.cpp</a>
-, <a class="el" href="qpg6100_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f">SystemPlatformConfig.h</a>
+, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_LWIP_ERROR_MIN
 : <a class="el" href="_system_error_8cpp.html#aa7ee58ed85cad8761d763616660d5a58">SystemError.cpp</a>
-, <a class="el" href="qpg6100_2_system_platform_config_8h.html#aa7ee58ed85cad8761d763616660d5a58">SystemPlatformConfig.h</a>
+, <a class="el" href="_e_f_r32_2_system_platform_config_8h.html#aa7ee58ed85cad8761d763616660d5a58">SystemPlatformConfig.h</a>
 </li>
 <li>CHIP_SYSTEM_NO_ERROR
 : <a class="el" href="_system_error_8h.html#a4d36b3c7fe04a93583a87a283375fd21">SystemError.h</a>
@@ -2748,7 +2758,7 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9faecbe85c3fcba5affaecd64cbc9394">CHIPDeviceController-JNI.cpp</a>
 </li>
 <li>ChipDie
-: <a class="el" href="nrfconnect_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f">CHIPPlatformConfig.h</a>
+: <a class="el" href="_linux_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f">CHIPPlatformConfig.h</a>
 </li>
 <li>ChipLogDebugBleEndPoint
 : <a class="el" href="_b_l_e_end_point_8cpp.html#a9ef2e47308af6a45d4fe6380ab697557">BLEEndPoint.cpp</a>
@@ -2769,7 +2779,7 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="_c_h_i_p_logging_8h.html#a249aa1eb2b14a04d65724529898463a5">CHIPLogging.h</a>
 </li>
 <li>ChipLogProgress()
-: <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6d7ebb3b52802cb6fc31cf800027e0ea">CHIPDeviceController-JNI.cpp</a>
+: <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a970964ab5110fcea8b6157a07003e444">CHIPDeviceController-JNI.cpp</a>
 , <a class="el" href="_c_h_i_p_logging_8h.html#a99937442450213bf02433dd819fd7050">CHIPLogging.h</a>
 , <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6d2f54068ddedfca20612505d37fd462">CHIPDeviceController-JNI.cpp</a>
 </li>
@@ -2780,8 +2790,8 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="chip_o_ble_profile_8c.html#af8d1bf7849a2980b202f8768461210a6">chipOBleProfile.c</a>
 </li>
 <li>CHIPoBLEProfile_AddService()
-: <a class="el" href="chip_o_ble_profile_8h.html#a6e087f2881861a8aa104527f168acbfe">chipOBleProfile.h</a>
-, <a class="el" href="chip_o_ble_profile_8c.html#a6e087f2881861a8aa104527f168acbfe">chipOBleProfile.c</a>
+: <a class="el" href="chip_o_ble_profile_8c.html#a6e087f2881861a8aa104527f168acbfe">chipOBleProfile.c</a>
+, <a class="el" href="chip_o_ble_profile_8h.html#a6e087f2881861a8aa104527f168acbfe">chipOBleProfile.h</a>
 </li>
 <li>chipOBleProfile_AppCBs
 : <a class="el" href="chip_o_ble_profile_8c.html#a9a25d9dd67e75f0c681ec41c752d307e">chipOBleProfile.c</a>
@@ -2822,8 +2832,8 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 : <a class="el" href="chip_o_ble_profile_8h.html#a1060dbe14fa3fb5194dcfffd5a573049">chipOBleProfile.h</a>
 </li>
 <li>CHIPoBLEProfile_SetParameter()
-: <a class="el" href="chip_o_ble_profile_8c.html#a3995baab44a25c082241b4a55d293544">chipOBleProfile.c</a>
-, <a class="el" href="chip_o_ble_profile_8h.html#a3995baab44a25c082241b4a55d293544">chipOBleProfile.h</a>
+: <a class="el" href="chip_o_ble_profile_8h.html#a3995baab44a25c082241b4a55d293544">chipOBleProfile.h</a>
+, <a class="el" href="chip_o_ble_profile_8c.html#a3995baab44a25c082241b4a55d293544">chipOBleProfile.c</a>
 </li>
 <li>CHIPOBLEPROFILE_TX_CHAR
 : <a class="el" href="chip_o_ble_profile_8h.html#a8a25f9c180cddcd59f8e93c2dfa375d3">chipOBleProfile.h</a>
@@ -2878,20 +2888,20 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 , <a class="el" href="_c_h_i_p_platform_memory_8h.html#a27cbb277260b7155d9d825b7a1b725a5">CHIPPlatformMemory.h</a>
 </li>
 <li>CHIPPlatformMemoryCalloc()
-: <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#a409fb24f73f30f6604532146238461a2">CHIPPlatformMemory.cpp</a>
-, <a class="el" href="_c_h_i_p_platform_memory_8h.html#a409fb24f73f30f6604532146238461a2">CHIPPlatformMemory.h</a>
+: <a class="el" href="_c_h_i_p_platform_memory_8h.html#a409fb24f73f30f6604532146238461a2">CHIPPlatformMemory.h</a>
+, <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#a409fb24f73f30f6604532146238461a2">CHIPPlatformMemory.cpp</a>
 </li>
 <li>CHIPPlatformMemoryFree()
 : <a class="el" href="_c_h_i_p_platform_memory_8h.html#a3e189c0fda39310573ba360343ef850e">CHIPPlatformMemory.h</a>
 , <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#a3e189c0fda39310573ba360343ef850e">CHIPPlatformMemory.cpp</a>
 </li>
 <li>CHIPPlatformMemoryInit()
-: <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#acb24756b087d7d7eeb13f86ee1c165ba">CHIPPlatformMemory.cpp</a>
-, <a class="el" href="_c_h_i_p_platform_memory_8h.html#acb24756b087d7d7eeb13f86ee1c165ba">CHIPPlatformMemory.h</a>
+: <a class="el" href="_c_h_i_p_platform_memory_8h.html#acb24756b087d7d7eeb13f86ee1c165ba">CHIPPlatformMemory.h</a>
+, <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#acb24756b087d7d7eeb13f86ee1c165ba">CHIPPlatformMemory.cpp</a>
 </li>
 <li>CHIPPlatformMemoryRealloc()
-: <a class="el" href="_c_h_i_p_platform_memory_8h.html#ae452291d5f37dc2be6af2eaf0afdc9cb">CHIPPlatformMemory.h</a>
-, <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#ae452291d5f37dc2be6af2eaf0afdc9cb">CHIPPlatformMemory.cpp</a>
+: <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#ae452291d5f37dc2be6af2eaf0afdc9cb">CHIPPlatformMemory.cpp</a>
+, <a class="el" href="_c_h_i_p_platform_memory_8h.html#ae452291d5f37dc2be6af2eaf0afdc9cb">CHIPPlatformMemory.h</a>
 </li>
 <li>CHIPPlatformMemoryShutdown()
 : <a class="el" href="_c_h_i_p_platform_memory_8cpp.html#affde314d05758ca99d26796e79d2e689">CHIPPlatformMemory.cpp</a>
@@ -3074,7 +3084,7 @@ $(document).ready(function(){initNavTree('globals_c.html',''); initResizable(); 
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 13 2021 14:32:33 for Connected Home over IP by
+    <li class="footer">Generated on Tue Apr 13 2021 15:28:20 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

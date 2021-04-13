@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a6964fe7d6ad96561a57143f0f8deab24":[11,0,7,2,4,1,21],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a79891243634d6a35221b7f5259830b17":[11,0,7,2,4,1,22],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a8c18b385831d10710c132dfb4ae8380e":[11,0,7,2,4,1,9],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a93c7873dbd399a1adf4c808829216586":[11,0,7,2,4,1,24],
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aa586ad1729b3492474b05b38a46adfe8":[11,0,7,2,4,1,19],
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aad0ee644c18904a8a63cad869e9c3218":[11,0,7,2,4,1,20],
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ab1dc817c28cd24fb6f200224bc922e7f":[11,0,7,2,4,1,23],
@@ -214,6 +218,7 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a431d07fd2cee325e841918c25e850b7b":[11,0,7,3,4,8],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a47697684558834017494951e557d9fbe":[11,0,7,3,4,41],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a48ae0d2e7642d0354a86904f0601e261":[11,0,7,3,4,23],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a57edde8a65c859bd33829e31fe74c2de":[11,0,7,3,4,12],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8":[11,0,7,3,4,6],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a5ad4f6eb970bcc46982f2e9ade0cd742":[11,0,7,3,4,25],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a5f7b51cde77b391453492c4d8407ba79":[11,0,7,3,4,20],
@@ -243,11 +248,6 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#af4f17adc59c48ce77ca360e617837170":[11,0,7,3,4,3],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#af7077975fa78cacdfba2e66b6c23a585":[11,0,7,3,4,2],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afa296d20b60a42cdfd9e5032d5d34e73":[11,0,7,3,4,38],
-"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcb4fbd9838e23eaebac956136817dec":[11,0,7,3,4,12],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcd348c4551d05c630645358da5b24ac":[11,0,7,3,4,13],
-"_e_s_p32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,3,4],
-"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,3,5],
-"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html#a0f5feb11e86368b013de4263651d5229a69c31bbb7024ed3f0c39125dbc83edf7":[11,0,7,3,5,1],
-"_e_s_p32_2_c_h_i_p_device_platform_event_8h_source.html":[11,0,7,3,5],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html":[11,0,7,3,6]
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,3,4]
 };
