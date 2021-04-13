@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e9c15e3</span>
+   &#160;<span id="projectnumber">e047d27</span>
    </div>
   </td>
  </tr>
@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade480e855f5cc1b6d324fc252c98d311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ade480e855f5cc1b6d324fc252c98d311">GetDevice</a> (<a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a> <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8a7cc02e3dc07fddda8ab93a73713ee9">deviceId</a>, <a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> **device)</td></tr>
 <tr class="memdesc:ade480e855f5cc1b6d324fc252c98d311"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is similar to the other GetDevice object, except it reads the serialized object from the persistent storage.  <a href="classchip_1_1_controller_1_1_device_controller.html#ade480e855f5cc1b6d324fc252c98d311">More...</a><br /></td></tr>
 <tr class="separator:ade480e855f5cc1b6d324fc252c98d311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec22c0f3a9e73bbc1859bfbb4f1addd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#aec22c0f3a9e73bbc1859bfbb4f1addd4">UpdateDevice</a> (<a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> *device, uint64_t fabricId)</td></tr>
+<tr class="memdesc:aec22c0f3a9e73bbc1859bfbb4f1addd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function update the device informations asynchronously using mdns.  <a href="classchip_1_1_controller_1_1_device_controller.html#aec22c0f3a9e73bbc1859bfbb4f1addd4">More...</a><br /></td></tr>
+<tr class="separator:aec22c0f3a9e73bbc1859bfbb4f1addd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4269106935ac5a0340d23fa226b32a4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a4269106935ac5a0340d23fa226b32a4e">PersistDevice</a> (<a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> *device)</td></tr>
 <tr class="separator:a4269106935ac5a0340d23fa226b32a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c75a114bfbf083f8d06b0857b65dc73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73">SetUdpListenPort</a> (uint16_t listenPort)</td></tr>
@@ -781,6 +784,45 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aec22c0f3a9e73bbc1859bfbb4f1addd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec22c0f3a9e73bbc1859bfbb4f1addd4">&#9670;&nbsp;</a></span>UpdateDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Controller::DeviceController::UpdateDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> *&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>fabricId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function update the device informations asynchronously using mdns. </p>
+<p>If new device informations has been found, it will be persisted.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">device</td><td>The input device object to update </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fabricId</td><td>The fabricId used for mdns resolution</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>CHIP_ERROR CHIP_NO_ERROR on success, or corresponding error code. </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a14224ac80371b6fd54613fac614680de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a14224ac80371b6fd54613fac614680de">&#9670;&nbsp;</a></span>mActiveDevices</h2>
@@ -1100,7 +1142,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html">DeviceController</a></li>
-    <li class="footer">Generated on Tue Apr 13 2021 05:07:23 for Connected Home over IP by
+    <li class="footer">Generated on Tue Apr 13 2021 13:41:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

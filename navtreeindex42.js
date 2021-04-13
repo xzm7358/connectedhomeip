@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,10,3,13],
 "qpg6100_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,10,3],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,10,4],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#a4cbbf8da21943033fc2967e8aa475e52":[11,0,7,10,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "struct_avahi_watch.html#a383444fdc93cf9b1ff0dda2b4eb13caf":[10,0,9,1],
 "struct_avahi_watch.html#a6b5812295f865142ac89c73367f4d379":[10,0,9,3],
 "struct_avahi_watch.html#ad8a81b509a528c62a8c53505474f721d":[10,0,9,5],
-"structble_bond_device_entry.html":[10,0,10],
-"structble_bond_device_entry.html#a092b7b7baf90c29d65aa5af01b328910":[10,0,10,5]
+"structble_bond_device_entry.html":[10,0,10]
 };

@@ -24,6 +24,7 @@ var classchip_1_1_controller_1_1_device_controller =
     [ "SetPairedDeviceList", "classchip_1_1_controller_1_1_device_controller.html#a3fe2148f4096a0b4e4f8864159253c07", null ],
     [ "SetUdpListenPort", "classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73", null ],
     [ "Shutdown", "classchip_1_1_controller_1_1_device_controller.html#aa1192c98ab1d0bef09dc3651583f8184", null ],
+    [ "UpdateDevice", "classchip_1_1_controller_1_1_device_controller.html#aec22c0f3a9e73bbc1859bfbb4f1addd4", null ],
     [ "mActiveDevices", "classchip_1_1_controller_1_1_device_controller.html#a14224ac80371b6fd54613fac614680de", null ],
     [ "mAdminId", "classchip_1_1_controller_1_1_device_controller.html#ac0fd80a31652e6d3fd1c149288242218", null ],
     [ "mAdmins", "classchip_1_1_controller_1_1_device_controller.html#ad23fb00406bf20fdb8003fdbb6b3f551", null ],
