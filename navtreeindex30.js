@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a85b9e42f73f151c4e703b751a1942658":[10,0,1,22,6,0],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed":[10,0,1,22,6,2],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#aa90b047b38e06cc060ff081a262cdced":[10,0,1,22,6,10],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#ab2a0c47c4e2fee02c2bf209acc915adf":[10,0,1,22,6,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "classchip_1_1_rendezvous_parameters.html#a1edaed6797aba9e6f9d006777572a441":[10,0,1,70,9],
 "classchip_1_1_rendezvous_parameters.html#a365fa186e5e05298fa5641dad366f87b":[10,0,1,70,28],
 "classchip_1_1_rendezvous_parameters.html#a3c0f9ba893435755403dd87d249a5a59":[10,0,1,70,3],
-"classchip_1_1_rendezvous_parameters.html#a43e849d85b4ab69aad52269898de1013":[10,0,1,70,10]
+"classchip_1_1_rendezvous_parameters.html#a43e849d85b4ab69aad52269898de1013":[10,0,1,70,10],
+"classchip_1_1_rendezvous_parameters.html#a4e69b4f545394dd8c8f8e00c6f36b658":[10,0,1,70,27]
 };

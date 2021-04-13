@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"freertos__bluetooth_8h.html#adb602b4ed278d1cee27ec5fa23a44651":[11,0,7,2,18,18],
 "freertos__bluetooth_8h.html#ae08d3e7c5e7509283470ed21ef1d3ac6":[11,0,7,2,18,10],
 "freertos__bluetooth_8h.html#ae1a519b8b478644e7273e38d438174e9":[11,0,7,2,18,4],
 "freertos__bluetooth_8h.html#ae7a6d074595992ee1ba082633ee29a7c":[11,0,7,2,18,11],
@@ -9,8 +8,8 @@ var NAVTREEINDEX38 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,18,12],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,18,19],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,18],
-"functions.html":[10,3,0],
 "functions.html":[10,3,0,0],
+"functions.html":[10,3,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
 "functions_b.html":[10,3,0,3],
@@ -66,8 +65,8 @@ var NAVTREEINDEX38 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2],
 "functions_vars.html":[10,3,2,0],
+"functions_vars.html":[10,3,2],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -124,8 +123,8 @@ var NAVTREEINDEX38 =
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a764ef8b7a2077b50d73e55041598ffc8":[10,0,1,13,3,0,1],
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a9b364b04fe292a539fd4a2bfb39f607a":[10,0,1,13,3,0,3],
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#aaa1c18022052ec53405e6539f4cde587":[10,0,1,13,3,0,9],
-"interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#ad533d9d7c128643ab4d81dd9cb79f587":[10,0,1,13,3,0,5]
+"interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#ad533d9d7c128643ab4d81dd9cb79f587":[10,0,1,13,3,0,5],
+"interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#ada0b072d87e4a6ec5d9ce06c8adcb9da":[10,0,1,13,3,0,6]
 };

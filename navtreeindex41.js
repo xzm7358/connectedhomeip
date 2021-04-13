@@ -1,6 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"platform_2_darwin_2_ble_connection_delegate_8h.html":[11,0,7,1,2],
 "platform_2_darwin_2_ble_connection_delegate_8h_source.html":[11,0,7,1,2],
 "platform_2_darwin_2_ble_platform_delegate_8h.html":[11,0,7,1,7],
 "platform_2_darwin_2_ble_platform_delegate_8h_source.html":[11,0,7,1,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX41 =
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,10,3,8],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,10,3,11],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,10,3,5],
-"qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,10,3,7]
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,10,3,7],
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,10,3,13]
 };

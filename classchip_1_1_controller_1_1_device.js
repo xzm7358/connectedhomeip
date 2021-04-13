@@ -16,7 +16,6 @@ var classchip_1_1_controller_1_1_device =
     [ "GetPairing", "classchip_1_1_controller_1_1_device.html#a0e5334ee796812f52eaf3f128454b647", null ],
     [ "Init", "classchip_1_1_controller_1_1_device.html#a118fd9e4cf3a2ef9b9d3104772ca1c04", null ],
     [ "Init", "classchip_1_1_controller_1_1_device.html#ad4ea581c238bdfe89173b917d83e2d91", null ],
-    [ "InitCommandSender", "classchip_1_1_controller_1_1_device.html#a4e09a49356b95076905ae5f2a48fe1ef", null ],
     [ "IsActive", "classchip_1_1_controller_1_1_device.html#a200d0898999aa6d26310938dbb24c427", null ],
     [ "IsSecureConnected", "classchip_1_1_controller_1_1_device.html#af5cb9e0ad40ca43185c5110faf03188d", null ],
     [ "MatchesSession", "classchip_1_1_controller_1_1_device.html#a195e6f5c116b94058c735587839f6be7", null ],

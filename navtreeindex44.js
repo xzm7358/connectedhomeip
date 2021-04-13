@@ -1,6 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"structchip_1_1_mdns_1_1_mdns_service.html#af0de63876450eec96ecb1441c84a5029":[10,0,1,22,8,6],
 "structchip_1_1_mdns_1_1_register_context.html":[10,0,1,22,11],
 "structchip_1_1_mdns_1_1_register_context.html#ad99df8194e632f4fa0bd994769bc8237":[10,0,1,22,11,0],
 "structchip_1_1_mdns_1_1_resolve_context.html":[10,0,1,22,12],
