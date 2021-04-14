@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2aa03e7</span>
+   &#160;<span id="projectnumber">b6c5aa3</span>
    </div>
   </td>
  </tr>
@@ -115,33 +115,37 @@ $(document).ready(function(){initNavTree('_span_8h_source.html',''); initResizab
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html">   30</a></span>&#160;<span class="keyword">class </span><a class="code" href="classchip_1_1_span.html">Span</a></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#af5915dd66ccd2cab94537b0aaf35e945">   33</a></span>&#160;    <a class="code" href="classchip_1_1_span.html#af5915dd66ccd2cab94537b0aaf35e945">Span</a>() : mDataBuf(nullptr), mDataLen(0) {}</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#adb49f98c54cf4870814a4cc92e7339e8">   34</a></span>&#160;    <a class="code" href="classchip_1_1_span.html#adb49f98c54cf4870814a4cc92e7339e8">Span</a>(<span class="keyword">const</span> T * databuf, <span class="keywordtype">size_t</span> datalen) : mDataBuf(databuf), mDataLen(datalen) {}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">   36</a></span>&#160;    <span class="keyword">const</span> T * <a class="code" href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">data</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mDataBuf; }</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">   37</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mDataLen; }</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c">   33</a></span>&#160;    constexpr <a class="code" href="classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c">Span</a>() : mDataBuf(nullptr), mDataLen(0) {}</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f">   34</a></span>&#160;    constexpr <a class="code" href="classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f">Span</a>(<span class="keyword">const</span> T * databuf, <span class="keywordtype">size_t</span> datalen) : mDataBuf(databuf), mDataLen(datalen) {}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N&gt;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a">   36</a></span>&#160;    constexpr <span class="keyword">explicit</span> <a class="code" href="classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a">Span</a>(<span class="keyword">const</span> T (&amp;databuf)[N]) : <a class="code" href="classchip_1_1_span.html">Span</a>(databuf, N)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> T * mDataBuf;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">size_t</span> mDataLen;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">   44</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classchip_1_1_span.html">ByteSpan</a> = <a class="code" href="classchip_1_1_span.html">Span&lt;uint8_t&gt;</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">   39</a></span>&#160;    <span class="keyword">const</span> T * <a class="code" href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">data</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mDataBuf; }</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">   40</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> mDataLen; }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">const</span> T * mDataBuf;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">size_t</span> mDataLen;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">   47</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classchip_1_1_span.html">ByteSpan</a> = <a class="code" href="classchip_1_1_span.html">Span&lt;uint8_t&gt;</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclasschip_1_1_span_html_af5915dd66ccd2cab94537b0aaf35e945"><div class="ttname"><a href="classchip_1_1_span.html#af5915dd66ccd2cab94537b0aaf35e945">chip::Span::Span</a></div><div class="ttdeci">Span()</div><div class="ttdef"><b>Definition:</b> Span.h:33</div></div>
+<div class="ttc" id="aclasschip_1_1_span_html_a81a812bf8f3c180438fa48db3571515a"><div class="ttname"><a href="classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a">chip::Span::Span</a></div><div class="ttdeci">constexpr Span(const T(&amp;databuf)[N])</div><div class="ttdef"><b>Definition:</b> Span.h:36</div></div>
+<div class="ttc" id="aclasschip_1_1_span_html_ab21bf9745daad52b8ae0344bd1a0827c"><div class="ttname"><a href="classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c">chip::Span::Span</a></div><div class="ttdeci">constexpr Span()</div><div class="ttdef"><b>Definition:</b> Span.h:33</div></div>
+<div class="ttc" id="aclasschip_1_1_span_html_a80c16e603e653096dee651000d03e07f"><div class="ttname"><a href="classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f">chip::Span::Span</a></div><div class="ttdeci">constexpr Span(const T *databuf, size_t datalen)</div><div class="ttdef"><b>Definition:</b> Span.h:34</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_span_html"><div class="ttname"><a href="classchip_1_1_span.html">chip::Span</a></div><div class="ttdoc">A wrapper class for holding objects and its length, without the ownership of it.</div><div class="ttdef"><b>Definition:</b> Span.h:30</div></div>
-<div class="ttc" id="aclasschip_1_1_span_html_adb49f98c54cf4870814a4cc92e7339e8"><div class="ttname"><a href="classchip_1_1_span.html#adb49f98c54cf4870814a4cc92e7339e8">chip::Span::Span</a></div><div class="ttdeci">Span(const T *databuf, size_t datalen)</div><div class="ttdef"><b>Definition:</b> Span.h:34</div></div>
-<div class="ttc" id="aclasschip_1_1_span_html_a177e53df954656ea1130011a91a79ac9"><div class="ttname"><a href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">chip::Span::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Span.h:37</div></div>
-<div class="ttc" id="aclasschip_1_1_span_html_ad91804232e3dfc54626d77b11045b5de"><div class="ttname"><a href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">chip::Span::data</a></div><div class="ttdeci">const T * data() const</div><div class="ttdef"><b>Definition:</b> Span.h:36</div></div>
+<div class="ttc" id="aclasschip_1_1_span_html_a177e53df954656ea1130011a91a79ac9"><div class="ttname"><a href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">chip::Span::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Span.h:40</div></div>
+<div class="ttc" id="aclasschip_1_1_span_html_ad91804232e3dfc54626d77b11045b5de"><div class="ttname"><a href="classchip_1_1_span.html#ad91804232e3dfc54626d77b11045b5de">chip::Span::data</a></div><div class="ttdeci">const T * data() const</div><div class="ttdef"><b>Definition:</b> Span.h:39</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_span_8h.html">Span.h</a></li>
-    <li class="footer">Generated on Wed Apr 14 2021 17:29:06 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 14 2021 17:42:29 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

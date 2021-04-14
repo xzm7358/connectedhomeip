@@ -238,7 +238,7 @@ var searchData=
   ['softwareupdatefinished_10104',['SoftwareUpdateFinished',['../classchip_1_1_device_layer_1_1_internal_1_1_generic_software_update_manager_impl.html#ab402ccae0e87594599f146551ca7a291',1,'chip::DeviceLayer::Internal::GenericSoftwareUpdateManagerImpl']]],
   ['spake2p_10105',['Spake2p',['../classchip_1_1_crypto_1_1_spake2p.html#a1f87d11e2013cafd4f9c73539e89a455',1,'chip::Crypto::Spake2p']]],
   ['spake2p_5fp256_5fsha256_5fhkdf_5fhmac_10106',['Spake2p_P256_SHA256_HKDF_HMAC',['../classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a1896ae3ff724e0d7e36554e1446b31b1',1,'chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC']]],
-  ['span_10107',['Span',['../classchip_1_1_span.html#af5915dd66ccd2cab94537b0aaf35e945',1,'chip::Span::Span()'],['../classchip_1_1_span.html#adb49f98c54cf4870814a4cc92e7339e8',1,'chip::Span::Span(const T *databuf, size_t datalen)']]],
+  ['span_10107',['Span',['../classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c',1,'chip::Span::Span()'],['../classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f',1,'chip::Span::Span(const T *databuf, size_t datalen)'],['../classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a',1,'chip::Span::Span(const T(&amp;databuf)[N])']]],
   ['srvrecord_10108',['SrvRecord',['../classmdns_1_1_minimal_1_1_srv_record.html#a9cbdf8e07ecdafa467f4f89fcea8f072',1,'mdns::Minimal::SrvRecord']]],
   ['srvresourcerecord_10109',['SrvResourceRecord',['../classmdns_1_1_minimal_1_1_srv_resource_record.html#a99edd6e6e6d06452a544248b6719c8d7',1,'mdns::Minimal::SrvResourceRecord']]],
   ['srvresponder_10110',['SrvResponder',['../classmdns_1_1_minimal_1_1_srv_responder.html#a14d933f2d49005041d842542d5f1a826',1,'mdns::Minimal::SrvResponder']]],

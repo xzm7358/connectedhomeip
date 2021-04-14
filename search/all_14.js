@@ -359,7 +359,7 @@ var searchData=
   ['spake2p_5fn_5fp256_5857',['spake2p_N_p256',['../namespacechip_1_1_crypto.html#a1078b57a7fff8988ffc727fd7074bcdf',1,'chip::Crypto']]],
   ['spake2p_5fp256_5fsha256_5fhkdf_5fhmac_5858',['Spake2p_P256_SHA256_HKDF_HMAC',['../classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html',1,'chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC'],['../classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a1896ae3ff724e0d7e36554e1446b31b1',1,'chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::Spake2p_P256_SHA256_HKDF_HMAC()']]],
   ['spake2popaquecontext_5859',['Spake2pOpaqueContext',['../structchip_1_1_crypto_1_1_spake2p_opaque_context.html',1,'chip::Crypto']]],
-  ['span_5860',['Span',['../classchip_1_1_span.html',1,'chip::Span&lt; T &gt;'],['../classchip_1_1_span.html#af5915dd66ccd2cab94537b0aaf35e945',1,'chip::Span::Span()'],['../classchip_1_1_span.html#adb49f98c54cf4870814a4cc92e7339e8',1,'chip::Span::Span(const T *databuf, size_t datalen)']]],
+  ['span_5860',['Span',['../classchip_1_1_span.html',1,'chip::Span&lt; T &gt;'],['../classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c',1,'chip::Span::Span()'],['../classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f',1,'chip::Span::Span(const T *databuf, size_t datalen)'],['../classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a',1,'chip::Span::Span(const T(&amp;databuf)[N])']]],
   ['span_2eh_5861',['Span.h',['../_span_8h.html',1,'']]],
   ['span_3c_20uint8_5ft_20_3e_5862',['Span&lt; uint8_t &gt;',['../classchip_1_1_span.html',1,'chip']]],
   ['srcaddress_5863',['SrcAddress',['../classchip_1_1_inet_1_1_i_p_packet_info.html#adab12616896ecc5b6ecfde985654b4d1',1,'chip::Inet::IPPacketInfo']]],
