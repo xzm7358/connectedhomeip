@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Connected Home over IP: transport/RendezvousSession.h File Reference</title>
+<title>Connected Home over IP: transport/PairingSession.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6130e4a</span>
+   &#160;<span id="projectnumber">362c5f2</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_rendezvous_session_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_pairing_session_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -87,27 +87,17 @@ $(document).ready(function(){initNavTree('_rendezvous_session_8h.html',''); init
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">RendezvousSession.h File Reference</div>  </div>
+<div class="title">PairingSession.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_c_h_i_p_core_8h_source.html">core/CHIPCore.h</a>&gt;</code><br />
-<code>#include &lt;protocols/Protocols.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="_buffer_writer_8h_source.html">support/BufferWriter.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_admin_pairing_table_8h_source.html">transport/AdminPairingTable.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_network_provisioning_8h_source.html">transport/NetworkProvisioning.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_p_a_s_e_session_8h_source.html">transport/PASESession.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_rendezvous_parameters_8h_source.html">transport/RendezvousParameters.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_rendezvous_session_delegate_8h_source.html">transport/RendezvousSessionDelegate.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_transport_mgr_8h_source.html">transport/TransportMgr.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_message_header_8h_source.html">transport/raw/MessageHeader.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_peer_address_8h_source.html">transport/raw/PeerAddress.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_c_h_i_p_error_8h_source.html">core/CHIPError.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_secure_session_8h_source.html">transport/SecureSession.h</a>&gt;</code><br />
 </div>
-<p><a href="_rendezvous_session_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="_pairing_session_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session.html">chip::RendezvousSession</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classchip_1_1_rendezvous_session.html" title="RendezvousSession establishes and maintains the first connection between a commissioner and a device.">RendezvousSession</a> establishes and maintains the first connection between a commissioner and a device.  <a href="classchip_1_1_rendezvous_session.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_pairing_session.html">chip::PairingSession</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -115,18 +105,16 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacechip"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html">chip</a></td></tr>
 <tr class="memdesc:namespacechip"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adaptation for LwIP ip4_addr_t type. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacechip_1_1_device_layer"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_device_layer.html">chip::DeviceLayer</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This file defines the CHIP RendezvousSession object that maintains a Rendezvous session. </p>
+<div class="textblock"><p>This file defines a common interface to access various types of secure pairing sessions (e.g. PASE, CASE) </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_rendezvous_session_8h.html">RendezvousSession.h</a></li>
-    <li class="footer">Generated on Wed Apr 14 2021 21:22:40 for Connected Home over IP by
+    <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_pairing_session_8h.html">PairingSession.h</a></li>
+    <li class="footer">Generated on Wed Apr 14 2021 23:36:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

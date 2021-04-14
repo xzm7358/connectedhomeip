@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6130e4a</span>
+   &#160;<span id="projectnumber">362c5f2</span>
    </div>
   </td>
  </tr>
@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('_admin_pairing_table_8h_source.html','
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a95cd4a523760af95655a0861b24e1a1c">   76</a></span>&#160;    <a class="code" href="structchip_1_1_transport_1_1_access_control_list.html">AccessControlList</a> &amp; <a class="code" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a95cd4a523760af95655a0861b24e1a1c">GetACL</a>() { <span class="keywordflow">return</span> mACL; }</div>
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a9209a0da6002322045b5cf071dcce328">   77</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a9209a0da6002322045b5cf071dcce328">SetACL</a>(<span class="keyword">const</span> <a class="code" href="structchip_1_1_transport_1_1_access_control_list.html">AccessControlList</a> &amp; acl) { mACL = acl; }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a81c4b0258ec6e701684c0e0b4ebb74eb">   79</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a81c4b0258ec6e701684c0e0b4ebb74eb">IsInitialized</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (mNodeId != <a class="code" href="namespacechip.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7">kUndefinedNodeId</a> &amp;&amp; mAdmin != <a class="code" href="namespacechip_1_1_transport.html#ae982d3ebb6bb02f2d934d254c9049011">kUndefinedAdminId</a>); }</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a81c4b0258ec6e701684c0e0b4ebb74eb">   79</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a81c4b0258ec6e701684c0e0b4ebb74eb">IsInitialized</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> (mAdmin != <a class="code" href="namespacechip_1_1_transport.html#ae982d3ebb6bb02f2d934d254c9049011">kUndefinedAdminId</a>); }</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_admin_pairing_info.html#aa07258e0a18e98b7986b1aa2e28fb0a9">   84</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_1_1_admin_pairing_info.html#aa07258e0a18e98b7986b1aa2e28fb0a9">Reset</a>()</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('_admin_pairing_table_8h_source.html','
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="structchip_1_1_transport_1_1_operational_credentials.html">OperationalCredentials</a> mOpCred;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="structchip_1_1_transport_1_1_access_control_list.html">AccessControlList</a> mACL;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">size_t</span> KeySize(); <span class="comment">// { return sizeof(kAdminTableKeyPrefix) + 2 * sizeof(AdminId); }</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">size_t</span> KeySize();</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> GenerateKey(<a class="code" href="namespacechip_1_1_transport.html#a989454069ce6e05e756eee6dfbf358d9">AdminId</a> <span class="keywordtype">id</span>, <span class="keywordtype">char</span> * key, <span class="keywordtype">size_t</span> len);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
@@ -348,7 +348,7 @@ $(document).ready(function(){initNavTree('_admin_pairing_table_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_admin_pairing_table_8h.html">AdminPairingTable.h</a></li>
-    <li class="footer">Generated on Wed Apr 14 2021 21:22:39 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 14 2021 23:36:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

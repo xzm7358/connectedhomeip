@@ -237,7 +237,8 @@ var hierarchy =
     [ "ExchangeDelegate", null, [
       [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", [
         [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
-      ] ]
+      ] ],
+      [ "chip::Controller::DeviceExchangeDelegate", "classchip_1_1_controller_1_1_device_exchange_delegate.html", null ]
     ] ],
     [ "ExchangeMgrDelegate", null, [
       [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
@@ -307,10 +308,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -344,10 +345,6 @@ var hierarchy =
     ] ],
     [ "chip::System::Mutex", "classchip_1_1_system_1_1_mutex.html", null ],
     [ "chip.native.NativeLibraryHandleMethodArguments", "classchip_1_1native_1_1_native_library_handle_method_arguments.html", null ],
-    [ "chip::NetworkProvisioning", "classchip_1_1_network_provisioning.html", null ],
-    [ "chip::NetworkProvisioningDelegate", "classchip_1_1_network_provisioning_delegate.html", [
-      [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ]
-    ] ],
     [ "chip::DeviceLayer::NFCManager", "classchip_1_1_device_layer_1_1_n_f_c_manager.html", [
       [ "chip::DeviceLayer::NFCManagerImpl", "classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html", null ]
     ] ],
@@ -414,12 +411,8 @@ var hierarchy =
     ] ],
     [ "chip::Encoding::PacketBufferWriterUtil", "classchip_1_1_encoding_1_1_packet_buffer_writer_util.html", null ],
     [ "chip::PacketHeader", "classchip_1_1_packet_header.html", null ],
+    [ "chip::PairingSession", "classchip_1_1_pairing_session.html", null ],
     [ "mdns::Minimal::ParserDelegate", "classmdns_1_1_minimal_1_1_parser_delegate.html", null ],
-    [ "chip::PASESession", "classchip_1_1_p_a_s_e_session.html", [
-      [ "chip::SecurePairingUsingTestSecret", "classchip_1_1_secure_pairing_using_test_secret.html", null ]
-    ] ],
-    [ "chip::PASESessionSerializable", "structchip_1_1_p_a_s_e_session_serializable.html", null ],
-    [ "chip::PASESessionSerialized", "structchip_1_1_p_a_s_e_session_serialized.html", null ],
     [ "chip::PayloadHeader", "classchip_1_1_payload_header.html", null ],
     [ "pbuf", null, [
       [ "chip::System::PacketBuffer", "classchip_1_1_system_1_1_packet_buffer.html", null ]
@@ -464,16 +457,12 @@ var hierarchy =
     [ "chip::DeviceLayer::PersistedStorage::ReadEntry", "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html", null ],
     [ "chip::Encoding::LittleEndian::Reader", "classchip_1_1_encoding_1_1_little_endian_1_1_reader.html", null ],
     [ "chip::ReferenceCounted< Subclass, Deletor, kInitRefCount >", "classchip_1_1_reference_counted.html", null ],
-    [ "chip::RendezvousAdvertisementDelegate", "classchip_1_1_rendezvous_advertisement_delegate.html", [
+    [ "RendezvousAdvertisementDelegate", null, [
       [ "chip::Controller::DeviceCommissionerRendezvousAdvertisementDelegate", "classchip_1_1_controller_1_1_device_commissioner_rendezvous_advertisement_delegate.html", null ]
     ] ],
-    [ "chip::RendezvousDeviceCredentialsDelegate", "classchip_1_1_rendezvous_device_credentials_delegate.html", [
-      [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ]
-    ] ],
-    [ "chip::RendezvousParameters", "classchip_1_1_rendezvous_parameters.html", null ],
+    [ "chip::RendezvousDeviceCredentialsDelegate", "classchip_1_1_rendezvous_device_credentials_delegate.html", null ],
     [ "chip::RendezvousSessionDelegate", "classchip_1_1_rendezvous_session_delegate.html", [
-      [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ],
-      [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ]
+      [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
     [ "mdns::Minimal::ReplyFilter", "classmdns_1_1_minimal_1_1_reply_filter.html", [
       [ "mdns::Minimal::QueryReplyFilter", "classmdns_1_1_minimal_1_1_query_reply_filter.html", null ]
@@ -531,9 +520,7 @@ var hierarchy =
     [ "chip::Mdns::ServiceAdvertiser", "classchip_1_1_mdns_1_1_service_advertiser.html", [
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
-    [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
-      [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ]
-    ] ],
+    [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
@@ -556,7 +543,6 @@ var hierarchy =
         [ "chip::BitMapObjectPool< T, N >", "classchip_1_1_bit_map_object_pool.html", null ]
       ] ]
     ] ],
-    [ "chip::StorablePeerConnection", "classchip_1_1_storable_peer_connection.html", null ],
     [ "chip::Shell::streamer", "structchip_1_1_shell_1_1streamer.html", null ],
     [ "chip::StringBuilderBase", "classchip_1_1_string_builder_base.html", [
       [ "chip::StringBuilder< kSize >", "classchip_1_1_string_builder.html", null ]
@@ -595,7 +581,6 @@ var hierarchy =
       [ "chip::TLV::CircularTLVWriter", "classchip_1_1_t_l_v_1_1_circular_t_l_v_writer.html", null ]
     ] ],
     [ "chip::TransportMgrDelegate", "classchip_1_1_transport_mgr_delegate.html", [
-      [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ],
       [ "chip::SecureSessionMgr", "classchip_1_1_secure_session_mgr.html", null ]
     ] ],
     [ "mdns::Minimal::TxtRecordDelegate", "classmdns_1_1_minimal_1_1_txt_record_delegate.html", null ],

@@ -15,6 +15,7 @@ var namespacechip_1_1_controller =
     [ "DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", "classchip_1_1_controller_1_1_device_commissioner" ],
     [ "DeviceCommissionerRendezvousAdvertisementDelegate", "classchip_1_1_controller_1_1_device_commissioner_rendezvous_advertisement_delegate.html", "classchip_1_1_controller_1_1_device_commissioner_rendezvous_advertisement_delegate" ],
     [ "DeviceController", "classchip_1_1_controller_1_1_device_controller.html", "classchip_1_1_controller_1_1_device_controller" ],
+    [ "DeviceExchangeDelegate", "classchip_1_1_controller_1_1_device_exchange_delegate.html", null ],
     [ "DevicePairingDelegate", "classchip_1_1_controller_1_1_device_pairing_delegate.html", "classchip_1_1_controller_1_1_device_pairing_delegate" ],
     [ "DeviceStatusDelegate", "classchip_1_1_controller_1_1_device_status_delegate.html", "classchip_1_1_controller_1_1_device_status_delegate" ],
     [ "DoorLockCluster", "classchip_1_1_controller_1_1_door_lock_cluster.html", "classchip_1_1_controller_1_1_door_lock_cluster" ],

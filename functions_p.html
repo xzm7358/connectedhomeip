@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6130e4a</span>
+   &#160;<span id="projectnumber">362c5f2</span>
    </div>
   </td>
  </tr>
@@ -103,10 +103,6 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 : <a class="el" href="classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#ac7069f1d28a7cee315576deeca997f27">chip::Encoding::PacketBufferWriterBase&lt; Writer &gt;</a>
 , <a class="el" href="classchip_1_1_encoding_1_1_packet_buffer_writer_util.html#af8bb36f998c658a0626324355e22a16f">chip::Encoding::PacketBufferWriterUtil</a>
 </li>
-<li>Pair()
-: <a class="el" href="classchip_1_1_p_a_s_e_session.html#af7a050dd7edc070c5b402b3aa994ebed">chip::PASESession</a>
-, <a class="el" href="classchip_1_1_secure_pairing_using_test_secret.html#a65f3b8efc3b58f3bcd08677434b25007">chip::SecurePairingUsingTestSecret</a>
-</li>
 <li>pairDevice()
 : <a class="el" href="classchip_1_1devicecontroller_1_1_chip_device_controller.html#ac93886960ec89a494b40c5daa05a3099">chip.devicecontroller.ChipDeviceController</a>
 </li>
@@ -124,6 +120,9 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 </li>
 <li>PairingDirection
 : <a class="el" href="classchip_1_1_secure_session_mgr.html#a1cf63ab96fbe2706784b0d87cc0516d1">chip::SecureSessionMgr</a>
+</li>
+<li>PairingSession()
+: <a class="el" href="classchip_1_1_pairing_session.html#aa62604d757a57543cd86c138ffdc1b24">chip::PairingSession</a>
 </li>
 <li>pairingState
 : <a class="el" href="classchip_1_1_chip_ble_utility_1_1_ble_device_identification_info.html#a0784091095ef2abe7a39c9a6e0768bc2">chip.ChipBleUtility.BleDeviceIdentificationInfo</a>
@@ -160,9 +159,6 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 <li>parseQrCode()
 : <a class="el" href="classchip_1_1setuppayload_1_1_setup_payload_parser.html#a38c0a4032b9c9bcf83e2865d86990685">chip.setuppayload.SetupPayloadParser</a>
 </li>
-<li>PASESession()
-: <a class="el" href="classchip_1_1_p_a_s_e_session.html#af7b6364ef0f8db1b125caaa1d2ae3105">chip::PASESession</a>
-</li>
 <li>path
 : <a class="el" href="classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#abe5909a64d334d8b1457df3141631708">chip.ChipBluezMgr.BluezDbusAdapter</a>
 , <a class="el" href="classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#a679996984edb3aca16b65a3e6b78628e">chip.ChipBluezMgr.BluezDbusDevice</a>
@@ -189,7 +185,6 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 </li>
 <li>PeerConnection()
 : <a class="el" href="classchip_1_1_c_a_s_e_session.html#a8a7a593e645a2173ac571fe93b2c44bb">chip::CASESession</a>
-, <a class="el" href="classchip_1_1_p_a_s_e_session.html#a3acddcc16822146e99d575680b888c4e">chip::PASESession</a>
 </li>
 <li>PeerConnectionState()
 : <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a1fc5ca8d653d94c292b958efa323146d">chip::Transport::PeerConnectionState</a>
@@ -440,7 +435,7 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 : <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a9e856969b8faf470fb0684abb446adce">chip::DeviceLayer::ConnectivityManagerImpl</a>
 </li>
 <li>Ptr()
-: <a class="el" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a02592fb5a69ef8a545f4d00191eba5e1">chip::Platform::Impl::ScopedMemoryBufferBase&lt; Impl &gt;</a>
+: <a class="el" href="classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a58918b926a9a4d2582bd0bc6b98aaab6">chip::Platform::Impl::ScopedMemoryBufferBase&lt; Impl &gt;</a>
 </li>
 <li>PtrResourceRecord()
 : <a class="el" href="classmdns_1_1_minimal_1_1_ptr_resource_record.html#a4e4ed8a4f3417257390754ed10b7f826">mdns::Minimal::PtrResourceRecord</a>
@@ -460,10 +455,10 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 </li>
 <li>Put()
 : <a class="el" href="classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#a3fba0c47d410187505e918c5720fb66c">chip::DeviceLayer::PersistedStorage::KeyValueStoreManager</a>
-, <a class="el" href="classchip_1_1_encoding_1_1_buffer_writer.html#a490f67b2ddfd870eee5372b1f7f9aa90">chip::Encoding::BufferWriter</a>
+, <a class="el" href="classchip_1_1_encoding_1_1_buffer_writer.html#ae4029c4436ca9d459577b1eb1740de57">chip::Encoding::BufferWriter</a>
 , <a class="el" href="classchip_1_1_encoding_1_1_endian_buffer_writer_base.html#ae9853ec1876ff7cf83904013f77afd60">chip::Encoding::EndianBufferWriterBase&lt; Derived &gt;</a>
-, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#afabb9cd44194d767d67985fe6febe34b">chip::TLV::TLVUpdater</a>
-, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a2858c9ef63b8f6569552efbbcc36a86d">chip::TLV::TLVWriter</a>
+, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a2b6a3170db885a423db7f13a61f6caf5">chip::TLV::TLVUpdater</a>
+, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a50e12437f64ba7ad4d1dc1bff0ae296e">chip::TLV::TLVWriter</a>
 , <a class="el" href="classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#ae41cd0b78c19aa587666b64ba2350b9b">mdns::Minimal::SerializedQNameIterator</a>
 </li>
 <li>Put16()
@@ -512,8 +507,8 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 : <a class="el" href="classchip_1_1tlv_1_1_t_l_v_writer.html#a2e2768adf6e60aa434c9a824ecc4d719">chip.tlv.TLVWriter</a>
 </li>
 <li>PutString()
-: <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a962ae7e357cad8388abf9c9b3278a1a6">chip::TLV::TLVUpdater</a>
-, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#af094dd2edacd68ae6acc311437a93747">chip::TLV::TLVWriter</a>
+: <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a5f1b618c3f69a0696b6d26bbc678c728">chip::TLV::TLVUpdater</a>
+, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#aabb3c0a9447736ab30f8597adb050e9f">chip::TLV::TLVWriter</a>
 </li>
 <li>PutStringF()
 : <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a077deca6abee810f01806c344fd44ac3">chip::TLV::TLVWriter</a>
@@ -530,7 +525,7 @@ $(document).ready(function(){initNavTree('functions_p.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 14 2021 21:22:43 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 14 2021 23:36:56 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

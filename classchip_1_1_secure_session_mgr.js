@@ -12,7 +12,7 @@ var classchip_1_1_secure_session_mgr =
     [ "GetTransportType", "classchip_1_1_secure_session_mgr.html#a1afe5195fb02dd83aa60abeed035bc72", null ],
     [ "HandleGroupMessageReceived", "classchip_1_1_secure_session_mgr.html#a367e0070672fbbfd2bd76f67f415d043", null ],
     [ "Init", "classchip_1_1_secure_session_mgr.html#a1e964656cd1ee12c136f0ef82bcbd3c6", null ],
-    [ "NewPairing", "classchip_1_1_secure_session_mgr.html#aba86b319532d6abe2005ee2d2a011c1e", null ],
+    [ "NewPairing", "classchip_1_1_secure_session_mgr.html#a83aa264a6ff0cf05135595291674734c", null ],
     [ "OnMessageReceived", "classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc", null ],
     [ "SendEncryptedMessage", "classchip_1_1_secure_session_mgr.html#a174d96c2c6c606695c69cbbd75ce72b1", null ],
     [ "SendMessage", "classchip_1_1_secure_session_mgr.html#aaa8334e4d7720edccd1375cf01d5dcf2", null ],

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6130e4a</span>
+   &#160;<span id="projectnumber">362c5f2</span>
    </div>
   </td>
  </tr>
@@ -133,22 +133,18 @@ $(document).ready(function(){initNavTree('_transport_mgr_base_8h_source.html',''
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr_base.html#a8a7ef7d0f0d9acd1a18b28f1b294b3a1">   45</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr_base.html#a8a7ef7d0f0d9acd1a18b28f1b294b3a1">SetSecureSessionMgr</a>(<a class="code" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a> * secureSessionMgr) { mSecureSessionMgr = secureSessionMgr; }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr_base.html#ad16945d7c76812bc7bbd69f508f73702">   47</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr_base.html#ad16945d7c76812bc7bbd69f508f73702">SetRendezvousSession</a>(<a class="code" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a> * rendezvousSessionMgr) { mRendezvous = rendezvousSessionMgr; }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr_base.html#a785f2d0b545364b3a215a2ada98313d4">HandleMessageReceived</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp; packetHeader, <span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp; peerAddress,</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                               <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a> * mSecureSessionMgr = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a> * mRendezvous       = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="classchip_1_1_transport_1_1_base.html">Transport::Base</a> * mTransport             = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr_base.html#a785f2d0b545364b3a215a2ada98313d4">HandleMessageReceived</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp; packetHeader, <span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp; peerAddress,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                               <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a> * mSecureSessionMgr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classchip_1_1_transport_1_1_base.html">Transport::Base</a> * mTransport             = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_a4d8cd391a939ca0cf409f0f283933afb"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#a4d8cd391a939ca0cf409f0f283933afb">chip::TransportMgrBase::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(const PacketHeader &amp;header, const Transport::PeerAddress &amp;address, System::PacketBufferHandle &amp;&amp;msgBuf)</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.cpp:25</div></div>
-<div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_ad16945d7c76812bc7bbd69f508f73702"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#ad16945d7c76812bc7bbd69f508f73702">chip::TransportMgrBase::SetRendezvousSession</a></div><div class="ttdeci">void SetRendezvousSession(TransportMgrDelegate *rendezvousSessionMgr)</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.h:47</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html">chip::Transport::PeerAddress</a></div><div class="ttdoc">Describes how a peer on a CHIP network can be addressed.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:57</div></div>
 <div class="ttc" id="a_message_header_8h_html"><div class="ttname"><a href="_message_header_8h.html">MessageHeader.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_base_html_a927641f0d1e6d51fcb1a9425960cfb50"><div class="ttname"><a href="classchip_1_1_transport_1_1_base.html#a927641f0d1e6d51fcb1a9425960cfb50">chip::Transport::Base::SendMessage</a></div><div class="ttdeci">virtual CHIP_ERROR SendMessage(const PacketHeader &amp;header, const PeerAddress &amp;address, System::PacketBufferHandle msgBuf)=0</div><div class="ttdoc">Send a message to the specified target.</div></div>
@@ -173,7 +169,7 @@ $(document).ready(function(){initNavTree('_transport_mgr_base_8h_source.html',''
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_a7918a7a0cf1b202ec1171b93c2793988"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#a7918a7a0cf1b202ec1171b93c2793988">chip::TransportMgrBase::Init</a></div><div class="ttdeci">CHIP_ERROR Init(Transport::Base *transport)</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.cpp:36</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_aaa344439de3f2ee97bd3e1941629f42a"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#aaa344439de3f2ee97bd3e1941629f42a">chip::Transport::PeerAddress::ToString</a></div><div class="ttdeci">void ToString(char(&amp;buf)[N]) const</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:124</div></div>
-<div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_a785f2d0b545364b3a215a2ada98313d4"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#a785f2d0b545364b3a215a2ada98313d4">chip::TransportMgrBase::HandleMessageReceived</a></div><div class="ttdeci">void HandleMessageReceived(const PacketHeader &amp;packetHeader, const Transport::PeerAddress &amp;peerAddress, System::PacketBufferHandle msg) override</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.cpp:55</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_a785f2d0b545364b3a215a2ada98313d4"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#a785f2d0b545364b3a215a2ada98313d4">chip::TransportMgrBase::HandleMessageReceived</a></div><div class="ttdeci">void HandleMessageReceived(const PacketHeader &amp;packetHeader, const Transport::PeerAddress &amp;peerAddress, System::PacketBufferHandle msg) override</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.cpp:54</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_base_html_ab0e5647d6f60186d864cb8d7d9038357"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html#ab0e5647d6f60186d864cb8d7d9038357">chip::TransportMgrBase::Close</a></div><div class="ttdeci">void Close()</div><div class="ttdef"><b>Definition:</b> TransportMgrBase.cpp:48</div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html_a9b0000281e6340c0477a884d87f579a1"><div class="ttname"><a href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a></div><div class="ttdeci">#define ChipLogError(MOD, MSG,...)</div><div class="ttdoc">Log a chip message for the specified module in the 'Error' category.</div><div class="ttdef"><b>Definition:</b> CHIPLogging.h:98</div></div>
 <div class="ttc" id="a_transport_mgr_base_8h_html"><div class="ttname"><a href="_transport_mgr_base_8h.html">TransportMgrBase.h</a></div></div>
@@ -188,7 +184,7 @@ $(document).ready(function(){initNavTree('_transport_mgr_base_8h_source.html',''
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_transport_mgr_base_8h.html">TransportMgrBase.h</a></li>
-    <li class="footer">Generated on Wed Apr 14 2021 21:22:40 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 14 2021 23:36:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
