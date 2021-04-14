@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"_secure_session_mgr_8h_source.html":[11,0,11,23],
 "_serializable_integer_set_8cpp.html":[11,0,6,3,45],
 "_serializable_integer_set_8h.html":[11,0,6,3,46],
 "_serializable_integer_set_8h.html#a93b365618d3ad90c22a9348748b0945b":[11,0,6,3,46,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "_system_layer_8cpp.html#ac5d9a3dfe8b75b54e9cce0da6025d6a3":[11,0,9,9,9],
 "_system_layer_8h.html":[11,0,9,10],
 "_system_layer_8h.html#a24a463ef5190387c347a4fd182b4af52":[11,0,9,10,4],
-"_system_layer_8h.html#a2bee848624d7ca2b509fa2f85c01b623":[11,0,9,10,7],
-"_system_layer_8h.html#a4c3282f11fe6bf42888f1dedaf3fecc9":[11,0,9,10,8]
+"_system_layer_8h.html#a2bee848624d7ca2b509fa2f85c01b623":[11,0,9,10,7]
 };

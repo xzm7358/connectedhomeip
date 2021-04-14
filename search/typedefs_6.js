@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['getkeyvaluefunct_11566',['GetKeyValueFunct',['../_chip_device_controller-_storage_delegate_8h.html#af120d613befaaf6fc63a99b47646b9b4',1,'ChipDeviceController-StorageDelegate.h']]],
-  ['getmtucallback_11567',['GetMTUCallback',['../_android_ble_platform_delegate_8h.html#a5a92122d22c552a38beedbddf918efe0',1,'AndroidBlePlatformDelegate.h']]]
+  ['getkeyvaluefunct_11567',['GetKeyValueFunct',['../_chip_device_controller-_storage_delegate_8h.html#af120d613befaaf6fc63a99b47646b9b4',1,'ChipDeviceController-StorageDelegate.h']]],
+  ['getmtucallback_11568',['GetMTUCallback',['../_android_ble_platform_delegate_8h.html#a5a92122d22c552a38beedbddf918efe0',1,'AndroidBlePlatformDelegate.h']]]
 ];

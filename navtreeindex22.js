@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"classchip_1_1_controller_1_1_groups_cluster.html#ac1d804921a3180560c065e52e514d29e":[10,0,1,11,20,4],
 "classchip_1_1_controller_1_1_groups_cluster.html#ac7b85eccdae7c474fc42390cd78d51ca":[10,0,1,11,20,2],
 "classchip_1_1_controller_1_1_groups_cluster.html#ad0abf00ab596e90e64d4c1f29342bee7":[10,0,1,11,20,8],
 "classchip_1_1_controller_1_1_ias_zone_cluster.html":[10,0,1,11,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "classchip_1_1_crypto_1_1_spake2p.html#abe9fe6fba3d0b5b347b2d06242a7624e":[10,0,1,12,9,22],
 "classchip_1_1_crypto_1_1_spake2p.html#ac3cfffa7e9d8070940d584d713ba14a8":[10,0,1,12,9,21],
 "classchip_1_1_crypto_1_1_spake2p.html#ac4293142692d45e6d81622d91380583c":[10,0,1,12,9,31],
-"classchip_1_1_crypto_1_1_spake2p.html#ac9bab66a0a2df582ce5cc4a828c91af1":[10,0,1,12,9,50],
-"classchip_1_1_crypto_1_1_spake2p.html#ad5dc4e7bd7df8f98e843db2e6c7fa5f7":[10,0,1,12,9,37]
+"classchip_1_1_crypto_1_1_spake2p.html#ac9bab66a0a2df582ce5cc4a828c91af1":[10,0,1,12,9,50]
 };

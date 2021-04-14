@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"openthread-core-cc13x2__26x2-config-check_8h.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config-check_8h_source.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config_8h.html":[11,0,7,0,23],
 "openthread-core-cc13x2__26x2-config_8h.html#a91a41770b3a538890c4a4031cbce39d1":[11,0,7,0,23,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "qpg6100_2_ble_platform_config_8h_source.html":[11,0,7,10,2],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,10,3],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7":[11,0,7,10,3,6],
-"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,10,3,4],
-"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,7,10,3,3]
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,10,3,4]
 };

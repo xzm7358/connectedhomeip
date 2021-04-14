@@ -22,6 +22,7 @@ var _e_s_p32_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_TRAIT_MANAGER", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a5f7b51cde77b391453492c4d8407ba79", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3", null ],
+    [ "CHIP_DEVICE_CONFIG_ESP32_BLE_ERROR_MIN", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a4bd746a28dfc617d8514406c2f747227", null ],
     [ "CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ac96c32acdda5b4159686e88105eae377", null ],
     [ "CHIP_DEVICE_CONFIG_EVENT_LOGGING_DEBUG_BUFFER_SIZE", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a48ae0d2e7642d0354a86904f0601e261", null ],
     [ "CHIP_DEVICE_CONFIG_EVENT_LOGGING_INFO_BUFFER_SIZE", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ac4e42896da5958ced01b7e2c2cbafdd2", null ],

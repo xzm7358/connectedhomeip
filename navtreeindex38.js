@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"freertos__bluetooth_8h.html#a30373a5462be7c79fe83bf9e6590e227":[11,0,7,2,18,7],
 "freertos__bluetooth_8h.html#a34331c74b0be386cb38cc52a0e726c1d":[11,0,7,2,18,13],
 "freertos__bluetooth_8h.html#a38c068697396dd71ecc9353e3db2417e":[11,0,7,2,18,5],
 "freertos__bluetooth_8h.html#a5900d8856b7e0eb3c61b7bd72c566f69":[11,0,7,2,18,2],
@@ -30,8 +31,8 @@ var NAVTREEINDEX38 =
 "functions_enum.html":[10,3,4],
 "functions_eval.html":[10,3,5],
 "functions_f.html":[10,3,0,7],
-"functions_func.html":[10,3,1,0],
 "functions_func.html":[10,3,1],
+"functions_func.html":[10,3,1,0],
 "functions_func_a.html":[10,3,1,1],
 "functions_func_b.html":[10,3,1,2],
 "functions_func_c.html":[10,3,1,3],
@@ -128,8 +129,8 @@ var NAVTREEINDEX38 =
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0],
 "globals.html":[11,1,0,0],
+"globals.html":[11,1,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "interface_u_u_i_d_helper.html":[10,0,21],
 "interface_u_u_i_d_helper.html#a89a0275aeaa277fef84b84a617849e3d":[10,0,21,0],
 "interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html":[10,0,1,13,1],
-"interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html#a03f7a7b0d3655034be468fc4dfe4d8bf":[10,0,1,13,1,2],
-"interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html#a542684c3eefd1456634d5856cd13ec59":[10,0,1,13,1,1]
+"interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html#a03f7a7b0d3655034be468fc4dfe4d8bf":[10,0,1,13,1,2]
 };

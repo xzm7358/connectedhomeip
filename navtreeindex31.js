@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classchip_1_1_rendezvous_device_credentials_delegate.html#aa182cdfb8df752043dd4d4b6d25aa052":[10,0,1,69,0],
 "classchip_1_1_rendezvous_device_credentials_delegate.html#aa643fabd6263085b811f2730b8244b12":[10,0,1,69,2],
 "classchip_1_1_rendezvous_device_credentials_delegate.html#aee724977b7ad6ea5b6bd965e21014e5d":[10,0,1,69,3],
 "classchip_1_1_rendezvous_device_credentials_delegate.html#af0d23095d88c25127ed546eac685a540":[10,0,1,69,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "classchip_1_1_system_1_1_layer.html#a5c9d5217af674bac407bcd6b47bd1239":[10,0,1,30,2,28],
 "classchip_1_1_system_1_1_layer.html#a5f672c83294b883d3c7a0527eebd9ac8":[10,0,1,30,2,23],
 "classchip_1_1_system_1_1_layer.html#a5fc8e7d83684dfbf9ebcccd687dde163":[10,0,1,30,2,1],
-"classchip_1_1_system_1_1_layer.html#a677ed2d7a1f388d44b247663f8dd364a":[10,0,1,30,2,17],
-"classchip_1_1_system_1_1_layer.html#a67a7b9588a31572d5026edcd2f83ae8c":[10,0,1,30,2,24]
+"classchip_1_1_system_1_1_layer.html#a677ed2d7a1f388d44b247663f8dd364a":[10,0,1,30,2,17]
 };

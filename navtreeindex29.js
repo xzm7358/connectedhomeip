@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classchip_1_1_inet_1_1_i_p_address.html#ae4fcb4c5b36e14b3b3e97f748dd7b74d":[10,0,1,17,7,16],
 "classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1":[10,0,1,17,7,11],
 "classchip_1_1_inet_1_1_i_p_address.html#af22653b0ee7cbece8ddbae2a68237d99":[10,0,1,17,7,3],
 "classchip_1_1_inet_1_1_i_p_address.html#af5d9a5b0c768886aeade1b0f5895cac9":[10,0,1,17,7,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a18ad3466e0cb296fca6cae3802abb8f2":[10,0,1,22,3,4],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a19d5a9174437b347f9bc0ef9af58bc67":[10,0,1,22,3,2],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a89a1e367aeb6713ab3c038438853bc36":[10,0,1,22,3,3],
-"classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55":[10,0,1,22,3,7],
-"classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c":[10,0,1,22,3,6]
+"classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55":[10,0,1,22,3,7]
 };

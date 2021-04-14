@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"_inet_layer_8h.html#aeb7e7a856ab7a794b05b6b63ef36ea3e":[11,0,5,19,2],
 "_inet_layer_8h_source.html":[11,0,5,19],
 "_inet_layer_basis_8cpp.html":[11,0,5,20],
 "_inet_layer_basis_8h.html":[11,0,5,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "_lifetime_persisted_counter_8h_source.html":[11,0,6,3,32],
 "_linux_2_b_l_e_manager_impl_8cpp.html":[11,0,7,6,1],
 "_linux_2_b_l_e_manager_impl_8h.html":[11,0,7,6,2],
-"_linux_2_b_l_e_manager_impl_8h_source.html":[11,0,7,6,2],
-"_linux_2_ble_platform_config_8h.html":[11,0,7,6,3]
+"_linux_2_b_l_e_manager_impl_8h_source.html":[11,0,7,6,2]
 };
