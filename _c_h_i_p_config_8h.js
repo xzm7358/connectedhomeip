@@ -11,6 +11,7 @@ var _c_h_i_p_config_8h =
     [ "CHIP_CONFIG_ALLOW_NON_STANDARD_ELLIPTIC_CURVES", "_c_h_i_p_config_8h.html#aa6bbc3183a2391b39eccd0d0072ad90d", null ],
     [ "CHIP_CONFIG_ALWAYS_USE_LEGACY_ADD_NETWORK_MESSAGE", "_c_h_i_p_config_8h.html#a5dda7b10849746d5774ee97e2941feb1", null ],
     [ "CHIP_CONFIG_BLE_PKT_RESERVED_SIZE", "_c_h_i_p_config_8h.html#adbfbbd7103867a5a6003d5bdffa2a43b", null ],
+    [ "CHIP_CONFIG_CERT_MAX_RDN_ATTRIBUTES", "_c_h_i_p_config_8h.html#a5379738ef74af38312a5ad0ad6da7c38", null ],
     [ "CHIP_CONFIG_CONNECT_IP_ADDRS", "_c_h_i_p_config_8h.html#acbbba209332b69b15067b51fcdb318e3", null ],
     [ "CHIP_CONFIG_CUSTOM_ERROR_FORMATTER", "_c_h_i_p_config_8h.html#a1918f682bae25ea0b53172175c9e7c73", null ],
     [ "CHIP_CONFIG_DEBUG_CERT_VALIDATION", "_c_h_i_p_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689", null ],

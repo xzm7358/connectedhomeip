@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"struct_avahi_timeout.html#a13156b7cf56da4eb4c6be5fa08a9b342":[10,0,8,0],
 "struct_avahi_timeout.html#a7cc8a98d3f52ef029374cdb09c811be1":[10,0,8,4],
 "struct_avahi_timeout.html#acdbca01b224077fce326fe9dac261e71":[10,0,8,3],
 "struct_avahi_timeout.html#af23c27653d8f950b2e40b8003db665ff":[10,0,8,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "structchip_1_1_mdns_1_1_get_addr_info_context.html":[10,0,1,22,5],
 "structchip_1_1_mdns_1_1_get_addr_info_context.html#a0c5d007a67c9ae5438d3d857d4a9e39e":[10,0,1,22,5,1],
 "structchip_1_1_mdns_1_1_get_addr_info_context.html#a32e7b3fb2c4ce7c3041c9b654cf18487":[10,0,1,22,5,4],
-"structchip_1_1_mdns_1_1_get_addr_info_context.html#a432912c395b46384317f1c7edaf7373a":[10,0,1,22,5,3],
-"structchip_1_1_mdns_1_1_get_addr_info_context.html#a4ab7ff525ae03989848d002ae2cad2cd":[10,0,1,22,5,2]
+"structchip_1_1_mdns_1_1_get_addr_info_context.html#a432912c395b46384317f1c7edaf7373a":[10,0,1,22,5,3]
 };

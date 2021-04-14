@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classchip_1_1_device_layer_1_1_platform_manager_impl.html#aca038dce8e4402d1c2bc186ff62bd3b6":[10,0,1,14,16,2],
 "classchip_1_1_device_layer_1_1_thread_stack_manager.html":[10,0,1,14,17],
 "classchip_1_1_device_layer_1_1_thread_stack_manager.html#a0840c7d64c58bd29a40f756ce46cb839":[10,0,1,14,17,22],
 "classchip_1_1_device_layer_1_1_thread_stack_manager.html#a1adcbce2503b97fa59993cd79d0b9351":[10,0,1,14,17,30],
@@ -84,9 +85,9 @@ var NAVTREEINDEX28 =
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ab7be1dcc6f5ca9b3357edd320a9f89a2":[10,0,1,14,18,18],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ab7f5b372e1a2f8f066fa4d50193886b4":[10,0,1,14,18,70],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ab8ace22c9303fe73f685d3a0ade9e824":[10,0,1,14,18,42],
+"classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4":[10,0,1,14,18,27],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4":[10,0,1,14,18,25],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4":[10,0,1,14,18,26],
-"classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4":[10,0,1,14,18,27],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4":[10,0,1,14,18,28],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acf8a7da825764e2183efd4dac3ea1caf":[10,0,1,14,18,52],
 "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acf8a7da825764e2183efd4dac3ea1caf":[10,0,1,14,18,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classchip_1_1_inet_1_1_i_p_address.html#ac701945cb65e92ef930cf750baf685f6":[10,0,1,17,7,22],
 "classchip_1_1_inet_1_1_i_p_address.html#acd8a68ba31e03c02fcab53314ad6cfe0":[10,0,1,17,7,12],
 "classchip_1_1_inet_1_1_i_p_address.html#acdc35bb04877b7d73976409083b9c854":[10,0,1,17,7,23],
-"classchip_1_1_inet_1_1_i_p_address.html#ad4d9654e608055c190ca5721b9e00af9":[10,0,1,17,7,1],
-"classchip_1_1_inet_1_1_i_p_address.html#ae368f6be5b32ae885a0fedbd1016d77d":[10,0,1,17,7,41]
+"classchip_1_1_inet_1_1_i_p_address.html#ad4d9654e608055c190ca5721b9e00af9":[10,0,1,17,7,1]
 };

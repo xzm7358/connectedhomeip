@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcab4b13f92f58151c933d0858ba99c3af5":[11,0,6,0,20,2,13],
 "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcabbb93ef26e3c101ff11cdd21cab08a94":[11,0,6,0,20,2,21],
 "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcac06129f6e6e15c09328365e553f1dc31":[11,0,6,0,20,2,3],
 "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcac3300a8e70ee69de76a15ddfe1ca826f":[11,0,6,0,20,2,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc":[11,0,7,1,9,2],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5":[11,0,7,1,9,10],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#a97f36984cf1171088848fadd90d6c992":[11,0,7,1,9,15],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,1,9,9],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,1,9,12]
+"_darwin_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,1,9,9]
 };

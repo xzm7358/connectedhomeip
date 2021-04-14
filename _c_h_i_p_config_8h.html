@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">b6c5aa3</span>
+   &#160;<span id="projectnumber">7d33476</span>
    </div>
   </td>
  </tr>
@@ -239,6 +239,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a3c672b35f36d62550ca388ac29d6a15d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a3c672b35f36d62550ca388ac29d6a15d">CHIP_CONFIG_ENABLE_UNSECURED_TCP_LISTEN</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memdesc:a3c672b35f36d62550ca388ac29d6a15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable support for receiving TCP connections over an unsecured network layer (for example, from a device that is provisionally joined to a 6LowPAN network but does not possess the 802.15.4 network keys).  <a href="_c_h_i_p_config_8h.html#a3c672b35f36d62550ca388ac29d6a15d">More...</a><br /></td></tr>
 <tr class="separator:a3c672b35f36d62550ca388ac29d6a15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5379738ef74af38312a5ad0ad6da7c38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a5379738ef74af38312a5ad0ad6da7c38">CHIP_CONFIG_CERT_MAX_RDN_ATTRIBUTES</a>&#160;&#160;&#160;5</td></tr>
+<tr class="memdesc:a5379738ef74af38312a5ad0ad6da7c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of Relative Distinguished Name (RDN) attributes supported by the CHIP Certificate Distinguished Names (DN).  <a href="_c_h_i_p_config_8h.html#a5379738ef74af38312a5ad0ad6da7c38">More...</a><br /></td></tr>
+<tr class="separator:a5379738ef74af38312a5ad0ad6da7c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33ef68a3fe8194463ee35f37cb1b7689"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689">CHIP_CONFIG_DEBUG_CERT_VALIDATION</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a33ef68a3fe8194463ee35f37cb1b7689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable support for debugging output from certificate validation.  <a href="_c_h_i_p_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689">More...</a><br /></td></tr>
 <tr class="separator:a33ef68a3fe8194463ee35f37cb1b7689"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -845,6 +848,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The number of bytes that chip should reserve at the front of every outgoing BLE packet for the sake of the underlying BLE stack. </p>
+
+</div>
+</div>
+<a id="a5379738ef74af38312a5ad0ad6da7c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5379738ef74af38312a5ad0ad6da7c38">&#9670;&nbsp;</a></span>CHIP_CONFIG_CERT_MAX_RDN_ATTRIBUTES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_CONFIG_CERT_MAX_RDN_ATTRIBUTES&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The maximum number of Relative Distinguished Name (RDN) attributes supported by the CHIP Certificate Distinguished Names (DN). </p>
 
 </div>
 </div>
@@ -3095,7 +3114,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_92dd4b281d099a132d4a425cb79ee964.html">core</a></li><li class="navelem"><a class="el" href="_c_h_i_p_config_8h.html">CHIPConfig.h</a></li>
-    <li class="footer">Generated on Wed Apr 14 2021 17:42:30 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 14 2021 17:44:56 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

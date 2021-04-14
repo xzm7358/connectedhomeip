@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55":[10,0,1,22,3,7],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c":[10,0,1,22,3,6],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9fe46e764b4f6ddcfe99ff1436f741ea":[10,0,1,22,3,1],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded":[10,0,1,22,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classchip_1_1_rendezvous_advertisement_delegate.html#a009b7cbd5e4df6f413290840dd713144":[10,0,1,68,1],
 "classchip_1_1_rendezvous_advertisement_delegate.html#a50359a97ff02dfc0f1e0f23d1dfa9695":[10,0,1,68,3],
 "classchip_1_1_rendezvous_advertisement_delegate.html#a53b14e704201c5efb78618bfcb8ccd28":[10,0,1,68,0],
-"classchip_1_1_rendezvous_advertisement_delegate.html#aafe82e18e6815ff596bab18e3e51f4fd":[10,0,1,68,2],
-"classchip_1_1_rendezvous_device_credentials_delegate.html":[10,0,1,69]
+"classchip_1_1_rendezvous_advertisement_delegate.html#aafe82e18e6815ff596bab18e3e51f4fd":[10,0,1,68,2]
 };
