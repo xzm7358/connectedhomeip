@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,1,9,9],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,1,9,12],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,1,9,6],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,1,9,8],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,1,9,14],
@@ -159,9 +157,8 @@ var NAVTREEINDEX7 =
 "_delegate_8h.html#ac1ca31a1471c9454ac12bd69d2c15e60":[11,0,1,1,0,4,2,1],
 "_delegate_8h.html#afb8e076c65dc611cfab4837d38eb4b8e":[11,0,1,1,0,4,2,7],
 "_delegate_8h_source.html":[11,0,1,1,0,4,2],
-"_device_address_updater_8cpp.html":[11,0,1,10],
-"_device_address_updater_8h.html":[11,0,1,11],
-"_device_address_updater_8h_source.html":[11,0,1,11],
+"_device_address_update_delegate_8h.html":[11,0,1,10],
+"_device_address_update_delegate_8h_source.html":[11,0,1,10],
 "_device_description_server_8h.html":[11,0,4,0,0,3],
 "_device_description_server_8h.html#a2c7b2e36322e5a064fea6be527001dc7":[11,0,4,0,0,3,1],
 "_device_description_server_8h_source.html":[11,0,4,0,0,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX7 =
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a281974a018e6413c99435a5302096a96":[11,0,7,2,4,1,0],
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a2ddc82dd8677d0ea69b2f71dc4e10f6a":[11,0,7,2,4,1,26],
 "_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a37a682022bba0f241515877c0b8c6a23":[11,0,7,2,4,1,14],
-"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a5c5f9de3361db07db7938bb1834f25eb":[11,0,7,2,4,1,4]
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a5c5f9de3361db07db7938bb1834f25eb":[11,0,7,2,4,1,4],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a610ab7ce23c3dd9196bc2d8fb79ed8db":[11,0,7,2,4,1,5],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a69240afcd05a9793eced11284e1806e1":[11,0,7,2,4,1,25],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a6964fe7d6ad96561a57143f0f8deab24":[11,0,7,2,4,1,21]
 };

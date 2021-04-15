@@ -1,8 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"_zephyr_2_key_value_store_manager_impl_8h.html":[11,0,7,11,6],
-"_zephyr_2_key_value_store_manager_impl_8h.html#a8ae00aec3a877f1912200f0dc921bdee":[11,0,7,11,6,2],
-"_zephyr_2_key_value_store_manager_impl_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,7,11,6,1],
 "_zephyr_2_key_value_store_manager_impl_8h_source.html":[11,0,7,11,6],
 "_zephyr_2_logging_8cpp.html":[11,0,7,11,7],
 "_zephyr_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,11,7,0],
@@ -176,8 +173,8 @@ var NAVTREEINDEX16 =
 "cc13x2__26x2-mbedtls-config_8h.html#a8a7aca10569198cf8e8dbff1c40677c6":[11,0,7,0,3,60],
 "cc13x2__26x2-mbedtls-config_8h.html#a8cc51fc9b077f5b669bc4dfba0bde43e":[11,0,7,0,3,49],
 "cc13x2__26x2-mbedtls-config_8h.html#a94cdd3a9ed91c6a2cc936916bab43806":[11,0,7,0,3,47],
-"cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,5],
 "cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,6],
+"cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,5],
 "cc13x2__26x2-mbedtls-config_8h.html#a98099ce7241e89e42ba34b79e770a0ab":[11,0,7,0,3,19],
 "cc13x2__26x2-mbedtls-config_8h.html#aa046c86ba7c3101e5128ccac09128a71":[11,0,7,0,3,26],
 "cc13x2__26x2-mbedtls-config_8h.html#aa0aaa3f0466b5ae15ff9bf176f632a3d":[11,0,7,0,3,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX16 =
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a8918057a248c253a311c7e9e67754057":[11,0,7,0,10,8],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a90e732b8888318763da3d6499a1e2981":[11,0,7,0,10,17],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a94b9d362ab031bd0da363c120c1bbd76":[11,0,7,0,10,20],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a952b9ba684754818c7394f751b821d05":[11,0,7,0,10,11]
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a952b9ba684754818c7394f751b821d05":[11,0,7,0,10,11],
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a99af5c6b6e7749b03b003ca6da7ee33a":[11,0,7,0,10,40],
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,0,10,35],
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#aa8b734a5e4a184c82af017739a2c2939":[11,0,7,0,10,19]
 };

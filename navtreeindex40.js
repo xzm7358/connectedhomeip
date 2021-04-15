@@ -1,11 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"native_2____init_____8py.html#a1c706b376f317a75a79330d28a47b321":[11,0,1,1,0,7,0,4],
-"native_2____init_____8py.html#a390c4c8145f4d40235a9f00293976ec1":[11,0,1,1,0,7,0,1],
-"native_2____init_____8py.html#a8fe9d2ce0c20249f39cfca1fe0a3f0a2":[11,0,1,1,0,7,0,2],
-"nrfconnect_2_b_l_e_manager_impl_8h.html":[11,0,7,8,0],
-"nrfconnect_2_b_l_e_manager_impl_8h_source.html":[11,0,7,8,0],
-"nrfconnect_2_ble_platform_config_8h.html":[11,0,7,8,1],
 "nrfconnect_2_ble_platform_config_8h.html#a5bcc61f14d000277dd5bbeef249ec326":[11,0,7,8,1,2],
 "nrfconnect_2_ble_platform_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727":[11,0,7,8,1,0],
 "nrfconnect_2_ble_platform_config_8h.html#acb6e2ad865d7c11a97ad1410b95ff192":[11,0,7,8,1,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX40 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8a8235aeeec672546b50876c79357c7c":[11,0,1,1,0,1,1,174],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8d5afe002227a86eee0ad614e13f02ba":[11,0,1,1,0,1,1,190],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8e8a3ecd304155aa8c78b3ba20ad3f9f":[11,0,1,1,0,1,1,84],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8fe4b455ae58824bb0b70250e5dd6cd5":[11,0,1,1,0,1,1,176]
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8fe4b455ae58824bb0b70250e5dd6cd5":[11,0,1,1,0,1,1,176],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a93c0b9aa58d798bd41bc615fab35dc80":[11,0,1,1,0,1,1,121],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9592bef16b9a1c2d7d53e2f93997f772":[11,0,1,1,0,1,1,71],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9659178e5d3a03d746e646652f4c42f0":[11,0,1,1,0,1,1,61],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a97980eba6a24cd26188cd14039255824":[11,0,1,1,0,1,1,210],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a996a5452454242f3a11e997109a1ec88":[11,0,1,1,0,1,1,81],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9adbda4058adbfdc955199319ba5b855":[11,0,1,1,0,1,1,117]
 };

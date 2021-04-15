@@ -11,7 +11,6 @@ var namespacechip_1_1_controller =
     [ "DescriptorCluster", "classchip_1_1_controller_1_1_descriptor_cluster.html", "classchip_1_1_controller_1_1_descriptor_cluster" ],
     [ "Device", "classchip_1_1_controller_1_1_device.html", "classchip_1_1_controller_1_1_device" ],
     [ "DeviceAddressUpdateDelegate", "classchip_1_1_controller_1_1_device_address_update_delegate.html", "classchip_1_1_controller_1_1_device_address_update_delegate" ],
-    [ "DeviceAddressUpdater", "classchip_1_1_controller_1_1_device_address_updater.html", "classchip_1_1_controller_1_1_device_address_updater" ],
     [ "DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", "classchip_1_1_controller_1_1_device_commissioner" ],
     [ "DeviceCommissionerRendezvousAdvertisementDelegate", "classchip_1_1_controller_1_1_device_commissioner_rendezvous_advertisement_delegate.html", "classchip_1_1_controller_1_1_device_commissioner_rendezvous_advertisement_delegate" ],
     [ "DeviceController", "classchip_1_1_controller_1_1_device_controller.html", "classchip_1_1_controller_1_1_device_controller" ],

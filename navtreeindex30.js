@@ -1,11 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classchip_1_1_mdns_1_1_mdns_contexts.html#aeef4747dde652f13942000038e6bc21e":[10,0,1,22,7,8],
-"classchip_1_1_mdns_1_1_mdns_contexts.html#af019e3a249af18c33ae7796ba9b25c94":[10,0,1,22,7,3],
-"classchip_1_1_mdns_1_1_operational_advertising_parameters.html":[10,0,1,22,9],
-"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a32ce72046cb9bd7f2728aba5379bdef7":[10,0,1,22,9,2],
-"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a7be46d4aab8b2a7b055318b776abf8c1":[10,0,1,22,9,0],
-"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a925bb9b73592485df297519eac31da37":[10,0,1,22,9,4],
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a958e75965a182ae837c7748315909eb2":[10,0,1,22,9,5],
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html#aa9372e327a522aa7790c28352d2eaf67":[10,0,1,22,9,3],
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html#adb6aff2b4d940b32da0b7de08379ae80":[10,0,1,22,9,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX30 =
 "classchip_1_1_secure_session_mgr.html#aaa8334e4d7720edccd1375cf01d5dcf2":[10,0,1,68,12],
 "classchip_1_1_secure_session_mgr.html#ab4ba2e6d227f964c01e7a8bc49dd6fc7":[10,0,1,68,3],
 "classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc":[10,0,1,68,10],
-"classchip_1_1_secure_session_mgr.html#ae1b26a2de201281656ba45865c3c673b":[10,0,1,68,13]
+"classchip_1_1_secure_session_mgr.html#ae1b26a2de201281656ba45865c3c673b":[10,0,1,68,13],
+"classchip_1_1_secure_session_mgr.html#ae70fc0f413b7aabc42b16926d3736b4b":[10,0,1,68,14],
+"classchip_1_1_secure_session_mgr.html#af692e736011b076d82659336c35ac714":[10,0,1,68,4],
+"classchip_1_1_secure_session_mgr_delegate.html":[10,0,1,69],
+"classchip_1_1_secure_session_mgr_delegate.html#a442943959a155aa466e8acbee3378474":[10,0,1,69,3],
+"classchip_1_1_secure_session_mgr_delegate.html#a535d0c12acc11c289daabfa831905a7c":[10,0,1,69,4],
+"classchip_1_1_secure_session_mgr_delegate.html#a6ef871da2d2d0c320bd1dce317e20bb3":[10,0,1,69,2]
 };

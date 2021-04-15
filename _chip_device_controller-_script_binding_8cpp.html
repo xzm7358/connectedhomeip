@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">672cf76</span>
+   &#160;<span id="projectnumber">f5f9134</span>
    </div>
   </td>
  </tr>
@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('_chip_device_controller-_script_bindin
 <code>#include &lt;app/InteractionModelEngine.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_device_8h_source.html">controller/CHIPDevice.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_device_controller_8h_source.html">controller/CHIPDeviceController.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_device_address_updater_8h_source.html">controller/DeviceAddressUpdater.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_resolver_8h_source.html">mdns/Resolver.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
@@ -128,8 +127,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a3b2721abe1e5ed6911eb5db3715a7b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a3b2721abe1e5ed6911eb5db3715a7b55">pychip_DeviceController_NewDeviceController</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> **outDevCtrl, <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> localDeviceId)</td></tr>
 <tr class="separator:a3b2721abe1e5ed6911eb5db3715a7b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fb7af2e02abe3528f22498f05ebc4f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a0fb7af2e02abe3528f22498f05ebc4f4">pychip_DeviceController_DeleteDeviceController</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, <a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> *addressUpdater)</td></tr>
-<tr class="separator:a0fb7af2e02abe3528f22498f05ebc4f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4521063b73e8f9261e801a9feb098f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a4521063b73e8f9261e801a9feb098f56">pychip_DeviceController_DeleteDeviceController</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl)</td></tr>
+<tr class="separator:a4521063b73e8f9261e801a9feb098f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb12c5a805beef9e9d0eddca0192e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a2cb12c5a805beef9e9d0eddca0192e61">pychip_DeviceController_GetAddressAndPort</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> nodeId, char *outAddress, uint64_t maxAddressLen, uint16_t *outPort)</td></tr>
 <tr class="separator:a2cb12c5a805beef9e9d0eddca0192e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addba9c13155f8930afaa5f69f7086e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#addba9c13155f8930afaa5f69f7086e0e">pychip_DeviceController_ConnectBLE</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, uint16_t discriminator, uint32_t setupPINCode, <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> nodeid)</td></tr>
@@ -142,10 +141,6 @@ Functions</h2></td></tr>
 <tr class="separator:ac396fe6b29e171ae2414b60e72132f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee010b39d830d04223089e9c2ba6ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a9ee010b39d830d04223089e9c2ba6ba4">pychip_ScriptDevicePairingDelegate_SetKeyExchangeCallback</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, <a class="el" href="namespacechip_1_1_controller.html#a3fc15c5e43ea7b58c96e0b85768a6274">chip::Controller::DevicePairingDelegate_OnPairingCompleteFunct</a> <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)</td></tr>
 <tr class="separator:a9ee010b39d830d04223089e9c2ba6ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e3098ab78e010299ceaffdbfb0a9324"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a5e3098ab78e010299ceaffdbfb0a9324">pychip_DeviceAddressUpdater_New</a> (<a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> **outAddressUpdater, <a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl)</td></tr>
-<tr class="separator:a5e3098ab78e010299ceaffdbfb0a9324"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80cbb5c76d170e57f566e8bdc8683bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a80cbb5c76d170e57f566e8bdc8683bb8">pychip_DeviceAddressUpdater_Delete</a> (<a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> *addressUpdater)</td></tr>
-<tr class="separator:a80cbb5c76d170e57f566e8bdc8683bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced2a98cbe78009de9ccc181f3870b19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#aced2a98cbe78009de9ccc181f3870b19">pychip_ScriptDeviceAddressUpdateDelegate_SetOnAddressUpdateComplete</a> (<a class="el" href="namespacechip_1_1_controller.html#a40bf162aa1d4d5914b4f46acb34db7ca">chip::Controller::DeviceAddressUpdateDelegate_OnUpdateComplete</a> <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)</td></tr>
 <tr class="separator:aced2a98cbe78009de9ccc181f3870b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a444d573b9736ff2bbc3c0feca06be1ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a444d573b9736ff2bbc3c0feca06be1ac">pychip_Resolver_ResolveNode</a> (uint64_t fabricid, <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> nodeid)</td></tr>
@@ -232,52 +227,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a80cbb5c76d170e57f566e8bdc8683bb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80cbb5c76d170e57f566e8bdc8683bb8">&#9670;&nbsp;</a></span>pychip_DeviceAddressUpdater_Delete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void pychip_DeviceAddressUpdater_Delete </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> *&#160;</td>
-          <td class="paramname"><em>addressUpdater</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e3098ab78e010299ceaffdbfb0a9324"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e3098ab78e010299ceaffdbfb0a9324">&#9670;&nbsp;</a></span>pychip_DeviceAddressUpdater_New()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> pychip_DeviceAddressUpdater_New </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> **&#160;</td>
-          <td class="paramname"><em>outAddressUpdater</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
-          <td class="paramname"><em>devCtrl</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="addba9c13155f8930afaa5f69f7086e0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#addba9c13155f8930afaa5f69f7086e0e">&#9670;&nbsp;</a></span>pychip_DeviceController_ConnectBLE()</h2>
 
@@ -358,8 +307,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0fb7af2e02abe3528f22498f05ebc4f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fb7af2e02abe3528f22498f05ebc4f4">&#9670;&nbsp;</a></span>pychip_DeviceController_DeleteDeviceController()</h2>
+<a id="a4521063b73e8f9261e801a9feb098f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4521063b73e8f9261e801a9feb098f56">&#9670;&nbsp;</a></span>pychip_DeviceController_DeleteDeviceController()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,18 +317,8 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> pychip_DeviceController_DeleteDeviceController </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
-          <td class="paramname"><em>devCtrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>devCtrl</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_address_updater.html">chip::Controller::DeviceAddressUpdater</a> *&#160;</td>
-          <td class="paramname"><em>addressUpdater</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -874,7 +813,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_222316c22a317cf9f0602db9df3fe8e5.html">python</a></li><li class="navelem"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html">ChipDeviceController-ScriptBinding.cpp</a></li>
-    <li class="footer">Generated on Thu Apr 15 2021 02:59:52 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 15 2021 14:45:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -17,7 +17,6 @@ var classchip_1_1_chip_device_ctrl_1_1_chip_device_controller =
     [ "ZCLCommandList", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a8e9edef0d783b77c566c6677a3f34b1a", null ],
     [ "ZCLReadAttribute", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a7948ca09ff84e398dc76ec12c20a0a30", null ],
     [ "ZCLSend", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a1c5973c2b211e5ca4813a37b52557273", null ],
-    [ "addressUpdater", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a056da778e4458e14996a1b7e4235cb3a", null ],
     [ "cbHandleKeyExchangeCompleteFunct", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a1be80616ec35b1f12a14cfb240ad77ac", null ],
     [ "cbOnAddressUpdateComplete", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a05561a78810730261bd318200ed09e44", null ],
     [ "devCtrl", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a83aadb3718fa804fbde0dc72ec84e05b", null ],

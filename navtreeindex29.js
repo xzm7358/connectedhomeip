@@ -1,11 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#abdb23b635a5b5724d874cab60f622dcf":[10,0,1,17,8,0],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948":[10,0,1,17,8,12],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#ad614a1884ff36d03bd145c58d67737ea":[10,0,1,17,8,10],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#ade6367f6d3a12bf1e002fa9b69b48ee2":[10,0,1,17,8,6],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#ae6ba9b3c9603e95df22884e42c620d99":[10,0,1,17,8,24],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#aefe05516bef28b346d473c9013694c42":[10,0,1,17,8,1],
 "classchip_1_1_inet_1_1_i_p_end_point_basis.html#afd9a0f19649c40271ea386f48b46715c":[10,0,1,17,8,16],
 "classchip_1_1_inet_1_1_i_p_packet_info.html":[10,0,1,17,9],
 "classchip_1_1_inet_1_1_i_p_packet_info.html#a2893f20a46bee6dbb7c9bcb0f683f2c2":[10,0,1,17,9,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX29 =
 "classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d":[10,0,1,22,7,9],
 "classchip_1_1_mdns_1_1_mdns_contexts.html#aaf7d2a339aece5a95a73a385ac95cf29":[10,0,1,22,7,2],
 "classchip_1_1_mdns_1_1_mdns_contexts.html#acd95be908897c991692141bb91915c3d":[10,0,1,22,7,4],
-"classchip_1_1_mdns_1_1_mdns_contexts.html#acfab70604cf789971a678d37348392b4":[10,0,1,22,7,0]
+"classchip_1_1_mdns_1_1_mdns_contexts.html#acfab70604cf789971a678d37348392b4":[10,0,1,22,7,0],
+"classchip_1_1_mdns_1_1_mdns_contexts.html#aeef4747dde652f13942000038e6bc21e":[10,0,1,22,7,8],
+"classchip_1_1_mdns_1_1_mdns_contexts.html#af019e3a249af18c33ae7796ba9b25c94":[10,0,1,22,7,3],
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html":[10,0,1,22,9],
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a32ce72046cb9bd7f2728aba5379bdef7":[10,0,1,22,9,2],
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a7be46d4aab8b2a7b055318b776abf8c1":[10,0,1,22,9,0],
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a925bb9b73592485df297519eac31da37":[10,0,1,22,9,4]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#ab0a6ca3d3c48486c75592d7d99db8dca":[10,0,1,6,1,1],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#ab2a29579647e0534c8860474f341b290":[10,0,1,6,1,32],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#ab40e6e52186d6ae13c30350b6e0e2fc5":[10,0,1,6,1,29],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#aba4d8f2570045a657793ae607b9370f4":[10,0,1,6,1,4],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#abd657a0903c76c9e4bee4418a02b81be":[10,0,1,6,1,27],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#abf06c6baf7760664e94cfdd8431719b2":[10,0,1,6,1,23],
@@ -25,10 +22,9 @@ var NAVTREEINDEX20 =
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_loop_condition.html#a7f13992bdfe947292240804ed8c2697d":[10,0,1,6,2,3],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_loop_condition.html#acd9676ee249d88b466daba966b458801":[10,0,1,6,2,1],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html":[10,0,1,7,0],
-"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a05561a78810730261bd318200ed09e44":[10,0,1,7,0,19],
-"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a056da778e4458e14996a1b7e4235cb3a":[10,0,1,7,0,17],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a05561a78810730261bd318200ed09e44":[10,0,1,7,0,18],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a05a44333ea131f000d49a2a83fd20459":[10,0,1,7,0,8],
-"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a1be80616ec35b1f12a14cfb240ad77ac":[10,0,1,7,0,18],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a1be80616ec35b1f12a14cfb240ad77ac":[10,0,1,7,0,17],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a1c5973c2b211e5ca4813a37b52557273":[10,0,1,7,0,16],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a38d181ff5f993ddc9f6a558238cf9670":[10,0,1,7,0,10],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a42ae30534c4f7ee5b43d118d857bd155":[10,0,1,7,0,12],
@@ -36,10 +32,10 @@ var NAVTREEINDEX20 =
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a74dd2e654c350f4ab33342391023c0c4":[10,0,1,7,0,9],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a7948ca09ff84e398dc76ec12c20a0a30":[10,0,1,7,0,15],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a79ae69792ccf844c8c51cea52845bb71":[10,0,1,7,0,2],
-"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a83aadb3718fa804fbde0dc72ec84e05b":[10,0,1,7,0,20],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a83aadb3718fa804fbde0dc72ec84e05b":[10,0,1,7,0,19],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a8e9edef0d783b77c566c6677a3f34b1a":[10,0,1,7,0,14],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aa7a87fc296f94a59e2dd02945dbc0c2b":[10,0,1,7,0,7],
-"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aa8f4987ded7cdd0a7fe627db92f91b49":[10,0,1,7,0,21],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aa8f4987ded7cdd0a7fe627db92f91b49":[10,0,1,7,0,20],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aaf2b71a421aa6f760d18b0baba64ec99":[10,0,1,7,0,6],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aafde73d016fb6c398e37eabd6e8b7725":[10,0,1,7,0,5],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#abe63d1e38883a52dcc992c49df70c495":[10,0,1,7,0,11],
@@ -249,5 +245,9 @@ var NAVTREEINDEX20 =
 "classchip_1_1_controller_1_1_color_control_cluster.html#a7ba9b3437116c5751c0d3093735b073d":[10,0,1,11,5,52],
 "classchip_1_1_controller_1_1_color_control_cluster.html#a7d1c0da8280482ef2efbf7e9630dd23f":[10,0,1,11,5,50],
 "classchip_1_1_controller_1_1_color_control_cluster.html#a7e2aeecbebca3524d8d608187d0aee99":[10,0,1,11,5,67],
-"classchip_1_1_controller_1_1_color_control_cluster.html#a7e9d12b754b1be6f6617dedb6309ff53":[10,0,1,11,5,71]
+"classchip_1_1_controller_1_1_color_control_cluster.html#a7e9d12b754b1be6f6617dedb6309ff53":[10,0,1,11,5,71],
+"classchip_1_1_controller_1_1_color_control_cluster.html#a835260db84fb57b1635680fb1d886ba1":[10,0,1,11,5,77],
+"classchip_1_1_controller_1_1_color_control_cluster.html#a839d1f953e2c813b9a63ac92fcbc08b2":[10,0,1,11,5,90],
+"classchip_1_1_controller_1_1_color_control_cluster.html#a85dac39f6b076a492dc5a4bcfd9c4a69":[10,0,1,11,5,5],
+"classchip_1_1_controller_1_1_color_control_cluster.html#a885dd4bd8bce7e94e55de1f189919a7f":[10,0,1,11,5,17]
 };

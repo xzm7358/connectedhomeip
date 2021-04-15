@@ -1,11 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"efr32-chip-mbedtls-config_8h.html#a599a23e8bca30ab3fe9ce9151a40f06b":[11,0,7,2,13,74],
-"efr32-chip-mbedtls-config_8h.html#a5aca5ddcffb586acad82f9aef26db056":[11,0,7,2,13,54],
-"efr32-chip-mbedtls-config_8h.html#a5bc21fd94f62fae79688ad096ef5c2d8":[11,0,7,2,13,10],
-"efr32-chip-mbedtls-config_8h.html#a5c1e2c54608878fd46c1d72880eed9d9":[11,0,7,2,13,62],
-"efr32-chip-mbedtls-config_8h.html#a6382cfe1b528f3382248b1d746418865":[11,0,7,2,13,27],
-"efr32-chip-mbedtls-config_8h.html#a6c2a0ec24ee2e843114131f1087653cf":[11,0,7,2,13,21],
 "efr32-chip-mbedtls-config_8h.html#a6eb06bd9262371cafc5e51e40285d4bb":[11,0,7,2,13,29],
 "efr32-chip-mbedtls-config_8h.html#a6ec5fb843794dcbfa6e27e5b62bd1c29":[11,0,7,2,13,44],
 "efr32-chip-mbedtls-config_8h.html#a6f285fd8cf87b2169373154d219011a6":[11,0,7,2,13,41],
@@ -243,11 +237,17 @@ var NAVTREEINDEX37 =
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
 "globals_defs_d.html":[11,1,6,4],
-"globals_defs_e.html":[11,1,6,5]
+"globals_defs_e.html":[11,1,6,5],
+"globals_defs_f.html":[11,1,6,6],
+"globals_defs_g.html":[11,1,6,7],
+"globals_defs_h.html":[11,1,6,8],
+"globals_defs_i.html":[11,1,6,9],
+"globals_defs_j.html":[11,1,6,10],
+"globals_defs_k.html":[11,1,6,11]
 };

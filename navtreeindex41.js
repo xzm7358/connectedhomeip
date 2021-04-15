@@ -1,11 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a93c0b9aa58d798bd41bc615fab35dc80":[11,0,1,1,0,1,1,121],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9592bef16b9a1c2d7d53e2f93997f772":[11,0,1,1,0,1,1,71],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9659178e5d3a03d746e646652f4c42f0":[11,0,1,1,0,1,1,61],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a97980eba6a24cd26188cd14039255824":[11,0,1,1,0,1,1,210],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a996a5452454242f3a11e997109a1ec88":[11,0,1,1,0,1,1,81],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9adbda4058adbfdc955199319ba5b855":[11,0,1,1,0,1,1,117],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9ae539210b3b1a60ba0fb7c7b6d516e5":[11,0,1,1,0,1,1,152],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9c5be21ad3e75ace3ea08d830bc0491c":[11,0,1,1,0,1,1,1],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a9d03210bdc87317327e71ebf8eeb12c4":[11,0,1,1,0,1,1,204],
@@ -249,5 +243,11 @@ var NAVTREEINDEX41 =
 "qpg6100_2_platform_manager_impl_8cpp.html":[11,0,7,10,19],
 "qpg6100_2_platform_manager_impl_8h.html":[11,0,7,10,20],
 "qpg6100_2_platform_manager_impl_8h.html#a0f116f09a0e109f6a32f9d894bf01d42":[11,0,7,10,20,2],
-"qpg6100_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,10,20,1]
+"qpg6100_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,10,20,1],
+"qpg6100_2_platform_manager_impl_8h_source.html":[11,0,7,10,20],
+"qpg6100_2_software_update_manager_impl_8cpp.html":[11,0,7,10,23],
+"qpg6100_2_system_platform_config_8h.html":[11,0,7,10,24],
+"qpg6100_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f":[11,0,7,10,24,13],
+"qpg6100_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753":[11,0,7,10,24,2],
+"qpg6100_2_system_platform_config_8h.html#a557a2ac88dcd244f0e1309ce8fd3143c":[11,0,7,10,24,7]
 };

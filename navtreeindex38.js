@@ -1,11 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"globals_defs_f.html":[11,1,6,6],
-"globals_defs_g.html":[11,1,6,7],
-"globals_defs_h.html":[11,1,6,8],
-"globals_defs_i.html":[11,1,6,9],
-"globals_defs_j.html":[11,1,6,10],
-"globals_defs_k.html":[11,1,6,11],
 "globals_defs_l.html":[11,1,6,12],
 "globals_defs_m.html":[11,1,6,13],
 "globals_defs_n.html":[11,1,6,14],
@@ -249,5 +243,11 @@ var NAVTREEINDEX38 =
 "mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a5956a437e724cdfc8b1c70dc7bdeebcb":[11,0,6,1,0,0,1,1,10],
 "mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a6039bc6fb2965fe1e923383f3c3ac936":[11,0,6,1,0,0,1,1,7],
 "mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a6a98b0fd434dbb213025a731f2cfd42f":[11,0,6,1,0,0,1,1,14],
-"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a6b76a4f6461388db72ddf5cc41979c4b":[11,0,6,1,0,0,1,1,11]
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a6b76a4f6461388db72ddf5cc41979c4b":[11,0,6,1,0,0,1,1,11],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a7fc56270e7a70fa81a5935b72eacbe29":[11,0,6,1,0,0,1,1,0],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2a8e1bde3c3d303163521522cf1d62f21f":[11,0,6,1,0,0,1,1,15],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2aadc4bfdb0829dae99e3699393e3fbaa4":[11,0,6,1,0,0,1,1,2],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2ab71ecf0b186ac1b938e15483f792b7db":[11,0,6,1,0,0,1,1,13],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2abe5a791366c5f2810d7dd6132dc0f06c":[11,0,6,1,0,0,1,1,3],
+"mdns_2minimal_2core_2_constants_8h.html#a0679d6d4c6fb2a8df60e27562d3158f2accf95d5d6208e6821c61433d43848f16":[11,0,6,1,0,0,1,1,6]
 };

@@ -308,10 +308,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -471,9 +471,7 @@ var hierarchy =
     [ "chip::Mdns::Resolver", "classchip_1_1_mdns_1_1_resolver.html", [
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
-    [ "chip::Mdns::ResolverDelegate", "classchip_1_1_mdns_1_1_resolver_delegate.html", [
-      [ "chip::Controller::DeviceAddressUpdater", "classchip_1_1_controller_1_1_device_address_updater.html", null ]
-    ] ],
+    [ "chip::Mdns::ResolverDelegate", "classchip_1_1_mdns_1_1_resolver_delegate.html", null ],
     [ "mdns::Minimal::ResourceData", "classmdns_1_1_minimal_1_1_resource_data.html", null ],
     [ "mdns::Minimal::ResourceRecord", "classmdns_1_1_minimal_1_1_resource_record.html", [
       [ "mdns::Minimal::IPResourceRecord", "classmdns_1_1_minimal_1_1_i_p_resource_record.html", null ],

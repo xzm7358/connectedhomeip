@@ -1,11 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4400ba19d50661ac0740a56fa24f3ffb":[10,0,1,10,0,0,73],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4521e6b1e52af7382a2dfa58db258d2d":[10,0,1,10,0,0,102],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a462e270f14e48f42c71ad28a1a883fe4":[10,0,1,10,0,0,211],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a467cc7743bc2f07d2f7477663bca26f9":[10,0,1,10,0,0,112],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a49281f2dd9608df4a1cdc90c8755b476":[10,0,1,10,0,0,10],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a494bb4f6dd4e601c4800d51c875586c2":[10,0,1,10,0,0,70],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4c64e1022a1ea2df037f39ccb2851221":[10,0,1,10,0,0,136],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4cfad5fbd48dd3cdcf51006bac949f59":[10,0,1,10,0,0,110],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4d3edb7b4c7f208028df6c6d10388f1f":[10,0,1,10,0,0,18],
@@ -249,5 +243,11 @@ var NAVTREEINDEX34 =
 "classchip_1_1exceptions_1_1_unknown_attribute.html":[10,0,1,16,6],
 "classchip_1_1exceptions_1_1_unknown_attribute.html#a0a737feb6d1e559600b110146f976dcb":[10,0,1,16,6,1],
 "classchip_1_1exceptions_1_1_unknown_attribute.html#a7035a51b9c125a84df038c5adebcca9d":[10,0,1,16,6,2],
-"classchip_1_1exceptions_1_1_unknown_attribute.html#a7a6d3596018c67f0ff20937ea6e65ae0":[10,0,1,16,6,0]
+"classchip_1_1exceptions_1_1_unknown_attribute.html#a7a6d3596018c67f0ff20937ea6e65ae0":[10,0,1,16,6,0],
+"classchip_1_1exceptions_1_1_unknown_attribute.html#af883488090f57351ff2d94f95e5cc364":[10,0,1,16,6,3],
+"classchip_1_1exceptions_1_1_unknown_cluster.html":[10,0,1,16,7],
+"classchip_1_1exceptions_1_1_unknown_cluster.html#a422df98aa56930df9cbbdbbe521130d8":[10,0,1,16,7,0],
+"classchip_1_1exceptions_1_1_unknown_cluster.html#aabad1c4ca37f023fe2023a703ce9b430":[10,0,1,16,7,2],
+"classchip_1_1exceptions_1_1_unknown_cluster.html#ae27f1d8166741176f776699b983884b2":[10,0,1,16,7,1],
+"classchip_1_1exceptions_1_1_unknown_command.html":[10,0,1,16,8]
 };
