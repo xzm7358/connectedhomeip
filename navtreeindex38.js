@@ -1,5 +1,8 @@
 var NAVTREEINDEX38 =
 {
+"freertos__bluetooth_8c.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,17,24],
+"freertos__bluetooth_8h.html":[11,0,7,2,18],
+"freertos__bluetooth_8h.html#a251f5312e2c400e0f3c670ee878ce639":[11,0,7,2,18,6],
 "freertos__bluetooth_8h.html#a30373a5462be7c79fe83bf9e6590e227":[11,0,7,2,18,7],
 "freertos__bluetooth_8h.html#a34331c74b0be386cb38cc52a0e726c1d":[11,0,7,2,18,13],
 "freertos__bluetooth_8h.html#a38c068697396dd71ecc9353e3db2417e":[11,0,7,2,18,5],
@@ -77,8 +80,8 @@ var NAVTREEINDEX38 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2,0],
 "functions_vars.html":[10,3,2],
+"functions_vars.html":[10,3,2,0],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -129,8 +132,8 @@ var NAVTREEINDEX38 =
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0],
 "globals.html":[11,1,0,0],
+"globals.html":[11,1,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -162,8 +165,8 @@ var NAVTREEINDEX38 =
 "globals_enum.html":[11,1,4],
 "globals_eval.html":[11,1,5],
 "globals_f.html":[11,1,0,6],
-"globals_func.html":[11,1,1,0],
 "globals_func.html":[11,1,1],
+"globals_func.html":[11,1,1,0],
 "globals_func_a.html":[11,1,1,1],
 "globals_func_b.html":[11,1,1,2],
 "globals_func_c.html":[11,1,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX38 =
 "interface_key_value_item.html":[10,0,19],
 "interface_key_value_item.html#a0ceec8939f4e906895b1490fc0853530":[10,0,19,1],
 "interface_key_value_item.html#a892c5fc7b6704a4fe9eaa25ee848c287":[10,0,19,0],
-"interface_u_u_i_d_helper.html":[10,0,22],
-"interface_u_u_i_d_helper.html#a89a0275aeaa277fef84b84a617849e3d":[10,0,22,0],
-"interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html":[10,0,1,13,1],
-"interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html#a03f7a7b0d3655034be468fc4dfe4d8bf":[10,0,1,13,1,2]
+"interface_u_u_i_d_helper.html":[10,0,22]
 };

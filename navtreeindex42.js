@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"qpg6100_2_b_l_e_manager_impl_8h_source.html":[11,0,7,10,1],
+"qpg6100_2_ble_platform_config_8h.html":[11,0,7,10,2],
+"qpg6100_2_ble_platform_config_8h.html#a085112a4581a43862f0bf42b3e8b9330":[11,0,7,10,2,2],
 "qpg6100_2_ble_platform_config_8h.html#a15fec8f8728e0a6c2b8a57fd5b12052b":[11,0,7,10,2,1],
 "qpg6100_2_ble_platform_config_8h.html#a27f32b7f2a47ab70cdab7aba3958fee3":[11,0,7,10,2,4],
 "qpg6100_2_ble_platform_config_8h.html#a5bcc61f14d000277dd5bbeef249ec326":[11,0,7,10,2,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "streamer_8h.html#ac0d640c8d3a5a83294803c8ac78d3d17":[11,0,6,2,5,5],
 "streamer_8h.html#adcf50b495c23f82e9076b047a8984909":[11,0,6,2,5,8],
 "streamer_8h.html#ae733b1154802be58fa3d9d715e0a098c":[11,0,6,2,5,10],
-"streamer_8h.html#af021369dde292b24491f7895a39c53e7":[11,0,6,2,5,11],
-"streamer_8h_source.html":[11,0,6,2,5],
-"streamer__stdio_8cpp.html":[11,0,6,2,6],
-"streamer__stdio_8cpp.html#a02d186994024caa6198c700bf7f36917":[11,0,6,2,6,1]
+"streamer_8h.html#af021369dde292b24491f7895a39c53e7":[11,0,6,2,5,11]
 };

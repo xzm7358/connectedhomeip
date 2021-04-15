@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"nrfconnect_2_system_platform_config_8h_source.html":[11,0,7,8,14],
+"nrfconnect_2_thread_stack_manager_impl_8h.html":[11,0,7,8,15],
+"nrfconnect_2_thread_stack_manager_impl_8h_source.html":[11,0,7,8,15],
 "openthread-core-cc13x2__26x2-config-check_8h.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config-check_8h_source.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config_8h.html":[11,0,7,0,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afdc39ad673590826f090f0af589cb889":[11,0,1,1,0,1,1,64],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afe2ae6c241b7e3fad779a24279c7e13f":[11,0,1,1,0,1,1,150],
 "qpg6100_2_b_l_e_manager_impl_8cpp.html":[11,0,7,10,0],
-"qpg6100_2_b_l_e_manager_impl_8h.html":[11,0,7,10,1],
-"qpg6100_2_b_l_e_manager_impl_8h_source.html":[11,0,7,10,1],
-"qpg6100_2_ble_platform_config_8h.html":[11,0,7,10,2],
-"qpg6100_2_ble_platform_config_8h.html#a085112a4581a43862f0bf42b3e8b9330":[11,0,7,10,2,2]
+"qpg6100_2_b_l_e_manager_impl_8h.html":[11,0,7,10,1]
 };

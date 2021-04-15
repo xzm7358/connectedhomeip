@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">f348eb4</span>
+   &#160;<span id="projectnumber">5af7585</span>
    </div>
   </td>
  </tr>
@@ -194,6 +194,15 @@ Macros</h2></td></tr>
 <tr class="memitem:a43e3c51d95a58fe72ecc7d69b0b63287"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_config_8h.html#a43e3c51d95a58fe72ecc7d69b0b63287">CHIP_SYSTEM_CONFIG_USE_POSIX_PIPE</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a43e3c51d95a58fe72ecc7d69b0b63287"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the POSIX pipe() function.  <a href="_system_config_8h.html#a43e3c51d95a58fe72ecc7d69b0b63287">More...</a><br /></td></tr>
 <tr class="separator:a43e3c51d95a58fe72ecc7d69b0b63287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd3bfa835c74fb7c077ec3564e1532a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_config_8h.html#a3dd3bfa835c74fb7c077ec3564e1532a">CHIP_SYSTEM_CONFIG_USE_ZEPHYR_SOCKET_EXTENSIONS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a3dd3bfa835c74fb7c077ec3564e1532a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Include missing functions for Zephyr sockets.  <a href="_system_config_8h.html#a3dd3bfa835c74fb7c077ec3564e1532a">More...</a><br /></td></tr>
+<tr class="separator:a3dd3bfa835c74fb7c077ec3564e1532a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad44f95db09fd587cbb5c1217ceece3a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_config_8h.html#ad44f95db09fd587cbb5c1217ceece3a4">CHIP_SYSTEM_CONFIG_USE_PLATFORM_MULTICAST_API</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:ad44f95db09fd587cbb5c1217ceece3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use platform API to join and leave multicast groups.  <a href="_system_config_8h.html#ad44f95db09fd587cbb5c1217ceece3a4">More...</a><br /></td></tr>
+<tr class="separator:ad44f95db09fd587cbb5c1217ceece3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47388804968c08f3d45400852bdf5123"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_config_8h.html#a47388804968c08f3d45400852bdf5123">CHIP_SYSTEM_CONFIG_USE_ZEPHYR_NET_IF</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a47388804968c08f3d45400852bdf5123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use Zephyr net_if API to enumerate available network interfaces.  <a href="_system_config_8h.html#a47388804968c08f3d45400852bdf5123">More...</a><br /></td></tr>
+<tr class="separator:a47388804968c08f3d45400852bdf5123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a114853e2615a20f9e700ba86252c390e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_system_config_8h.html#a114853e2615a20f9e700ba86252c390e">CHIP_SYSTEM_CONFIG_USE_BSD_IFADDRS</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a114853e2615a20f9e700ba86252c390e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use BSD ifaddrs.h API to enumerate available network interfaces.  <a href="_system_config_8h.html#a114853e2615a20f9e700ba86252c390e">More...</a><br /></td></tr>
 <tr class="separator:a114853e2615a20f9e700ba86252c390e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -673,6 +682,24 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="ad44f95db09fd587cbb5c1217ceece3a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44f95db09fd587cbb5c1217ceece3a4">&#9670;&nbsp;</a></span>CHIP_SYSTEM_CONFIG_USE_PLATFORM_MULTICAST_API</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_SYSTEM_CONFIG_USE_PLATFORM_MULTICAST_API&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use platform API to join and leave multicast groups. </p>
+<p>In case a given platform does not support adding and removing multicast addresses to a network interface using the generic network API like LWIP or sockets, this setting allows the platform layer to inject handlers which achieve the goal by other means.</p>
+<p>Defaults to enabled on Zephyr platforms using sockets </p>
+
+</div>
+</div>
 <a id="a43e3c51d95a58fe72ecc7d69b0b63287"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43e3c51d95a58fe72ecc7d69b0b63287">&#9670;&nbsp;</a></span>CHIP_SYSTEM_CONFIG_USE_POSIX_PIPE</h2>
 
@@ -707,6 +734,41 @@ Macros</h2></td></tr>
 <p>Use the POSIX time functions (clock_gettime, gettimeofday, etc.) to implement the System Layer GetClock/SetClock functions.</p>
 <p>Defaults to enabled if the system is using sockets.</p>
 <p>This configuration is overridden if CHIP_SYSTEM_CONFIG_PLATFORM_PROVIDES_TIME is set. </p>
+
+</div>
+</div>
+<a id="a47388804968c08f3d45400852bdf5123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47388804968c08f3d45400852bdf5123">&#9670;&nbsp;</a></span>CHIP_SYSTEM_CONFIG_USE_ZEPHYR_NET_IF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_SYSTEM_CONFIG_USE_ZEPHYR_NET_IF&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use Zephyr net_if API to enumerate available network interfaces. </p>
+<p>Defaults to enabled on Zephyr platforms using sockets </p>
+
+</div>
+</div>
+<a id="a3dd3bfa835c74fb7c077ec3564e1532a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd3bfa835c74fb7c077ec3564e1532a">&#9670;&nbsp;</a></span>CHIP_SYSTEM_CONFIG_USE_ZEPHYR_SOCKET_EXTENSIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_SYSTEM_CONFIG_USE_ZEPHYR_SOCKET_EXTENSIONS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Include missing functions for Zephyr sockets. </p>
+<p>Zephyr socket API lacks some of the functions required by CHIP. If this value is set CHIP will provide the missing functions.</p>
+<p>Defaults to enabled on Zephyr platforms using sockets </p>
 
 </div>
 </div>
@@ -782,7 +844,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d501334aeb1b78ad67cd3c72c37b1e87.html">system</a></li><li class="navelem"><a class="el" href="_system_config_8h.html">SystemConfig.h</a></li>
-    <li class="footer">Generated on Thu Apr 15 2021 18:04:07 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 15 2021 19:45:25 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

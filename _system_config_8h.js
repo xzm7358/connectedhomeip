@@ -26,8 +26,11 @@ var _system_config_8h =
     [ "CHIP_SYSTEM_CONFIG_TRANSFER_INETLAYER_PROJECT_CONFIGURATION", "_system_config_8h.html#a9826e8afc0a4a43387d41f8a2a50d88d", null ],
     [ "CHIP_SYSTEM_CONFIG_USE_BSD_IFADDRS", "_system_config_8h.html#a114853e2615a20f9e700ba86252c390e", null ],
     [ "CHIP_SYSTEM_CONFIG_USE_LWIP_MONOTONIC_TIME", "_system_config_8h.html#a86d9d1d0657b5b56945573edcaf5e825", null ],
+    [ "CHIP_SYSTEM_CONFIG_USE_PLATFORM_MULTICAST_API", "_system_config_8h.html#ad44f95db09fd587cbb5c1217ceece3a4", null ],
     [ "CHIP_SYSTEM_CONFIG_USE_POSIX_PIPE", "_system_config_8h.html#a43e3c51d95a58fe72ecc7d69b0b63287", null ],
     [ "CHIP_SYSTEM_CONFIG_USE_POSIX_TIME_FUNCTS", "_system_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa", null ],
+    [ "CHIP_SYSTEM_CONFIG_USE_ZEPHYR_NET_IF", "_system_config_8h.html#a47388804968c08f3d45400852bdf5123", null ],
+    [ "CHIP_SYSTEM_CONFIG_USE_ZEPHYR_SOCKET_EXTENSIONS", "_system_config_8h.html#a3dd3bfa835c74fb7c077ec3564e1532a", null ],
     [ "CHIP_SYSTEM_CONFIG_VALID_REAL_TIME_THRESHOLD", "_system_config_8h.html#aa56daaec1f2d10b458fc73bb37576465", null ],
     [ "CHIP_SYSTEM_CRYPTO_HEADER_RESERVE_SIZE", "_system_config_8h.html#a135c35299abc5ada51cc95f8f504b74c", null ],
     [ "CHIP_SYSTEM_HEADER_RESERVE_SIZE", "_system_config_8h.html#a585978c2eb44b4d544194be55046c2a5", null ]

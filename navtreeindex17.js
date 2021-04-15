@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"cc13x2__26x2-mbedtls-config_8h.html#a2d9853334811c4e2220fb5c6266e908e":[11,0,7,0,3,43],
+"cc13x2__26x2-mbedtls-config_8h.html#a311e2a994e4e5f25b550e170ca9605e0":[11,0,7,0,3,61],
+"cc13x2__26x2-mbedtls-config_8h.html#a37056e26ff582813ab505fa8e59287b6":[11,0,7,0,3,50],
 "cc13x2__26x2-mbedtls-config_8h.html#a38112435a93c8cf0e9c9e9c15cb3f516":[11,0,7,0,3,52],
 "cc13x2__26x2-mbedtls-config_8h.html#a3a74b34386b00896b50e2809d2b5bbfc":[11,0,7,0,3,54],
 "cc13x2__26x2-mbedtls-config_8h.html#a3ab9b922c4f1ba4511d7c4f5ef2b2e69":[11,0,7,0,3,51],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "chip_o_ble_profile_8h_source.html":[11,0,7,0,9],
 "class_android_ble_application_delegate.html":[10,0,4],
 "class_android_ble_application_delegate.html#a64f85a98071f574b3a74ca404705c59e":[10,0,4,3],
-"class_android_ble_application_delegate.html#a8a77df861eb3c8aae465b2e69747a53c":[10,0,4,2],
-"class_android_ble_application_delegate.html#ad251f4b0ce7ebf4a75855f197d5cc9d0":[10,0,4,1],
-"class_android_ble_application_delegate.html#af947cbe36acd155339cff4305146d7ea":[10,0,4,0],
-"class_android_ble_connection_delegate.html":[10,0,5]
+"class_android_ble_application_delegate.html#a8a77df861eb3c8aae465b2e69747a53c":[10,0,4,2]
 };

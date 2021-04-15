@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_counter.html#abb3646ec7ce735c203eb0deb663406d4":[10,0,1,43,0],
+"classchip_1_1_counter.html#ac8e0ade1e7ed52eab1374f98d65a5cf5":[10,0,1,43,2],
+"classchip_1_1_crypto_1_1_capacity_bound_buffer.html":[10,0,1,12,0],
 "classchip_1_1_crypto_1_1_capacity_bound_buffer.html#a4dea21b0033ef75968a3e3899b8dfe4e":[10,0,1,12,0,2],
 "classchip_1_1_crypto_1_1_capacity_bound_buffer.html#a5c1583d8136495b0d3429edc243e426f":[10,0,1,12,0,1],
 "classchip_1_1_crypto_1_1_capacity_bound_buffer.html#a9d1bed5453d74194753e3a70e72bfc3b":[10,0,1,12,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a5781ccd4d0d0beb6f61684174f5c2ee6":[10,0,1,14,10,61],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a57d8be43566dd6d1f900edc96223cd8e":[10,0,1,14,10,65],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2":[10,0,1,14,10,8],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2a0265bd1cfaa6b3a86008276ff3263e79":[10,0,1,14,10,8,5],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2a1645ffac192ff7ef274e04813a0a54b8":[10,0,1,14,10,8,1],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2a17d8b63e3087bec41803ccb06e9b268d":[10,0,1,14,10,8,2],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2a37cb69c99dd3936f86e9601d75007514":[10,0,1,14,10,8,3]
+"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5bbc91dfce95591099b020782f31a4d2a0265bd1cfaa6b3a86008276ff3263e79":[10,0,1,14,10,8,5]
 };
