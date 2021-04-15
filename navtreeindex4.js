@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"_c_h_i_p_encoding_8h.html#a70c1dce95f33b2bb311070fcf9c86601":[11,0,6,0,5,5],
 "_c_h_i_p_encoding_8h.html#a73d29984220de1ccd2080484bde1f63c":[11,0,6,0,5,33],
 "_c_h_i_p_encoding_8h.html#a745a39814ee191f008cfe05513726483":[11,0,6,0,5,26],
 "_c_h_i_p_encoding_8h.html#a8ab8a2d2d38518db2c664915d412617f":[11,0,6,0,5,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "_c_h_i_p_key_ids_8h_source.html":[11,0,6,0,10],
 "_c_h_i_p_linux_storage_8cpp.html":[11,0,7,6,6],
 "_c_h_i_p_linux_storage_8h.html":[11,0,7,6,7],
-"_c_h_i_p_linux_storage_8h.html#a2f62cb1c6f014272be957f002103552e":[11,0,7,6,7,6],
-"_c_h_i_p_linux_storage_8h.html#a41b12e37b77a5161f1216d5ca79d79f3":[11,0,7,6,7,1]
+"_c_h_i_p_linux_storage_8h.html#a2f62cb1c6f014272be957f002103552e":[11,0,7,6,7,6]
 };

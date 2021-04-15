@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3120ae8</span>
+   &#160;<span id="projectnumber">24f26f6</span>
    </div>
   </td>
  </tr>
@@ -174,6 +174,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#a45bf2715d677e321229484a3855929fa">chip::Controller::OnOffCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e">chip::Controller::ScenesCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a744d2c94cb0169b387c0d40d282ffa4e">chip::Controller::TemperatureMeasurementCluster</a>
+, <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d">chip::Controller::ThermostatCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_window_covering_cluster.html#afba520d47e42ce60c3c4322eb4707343">chip::Controller::WindowCoveringCluster</a>
 </li>
 <li>ReadAttributeColorCapabilities()
@@ -235,6 +236,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReadAttributeConfigStatus()
 : <a class="el" href="classchip_1_1_controller_1_1_window_covering_cluster.html#a3d08961d99f46549cfd519e04212c172">chip::Controller::WindowCoveringCluster</a>
+</li>
+<li>ReadAttributeControlSequenceOfOperation()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a0d1707a7fe6ca6a7e1ae150edab0b8ad">chip::Controller::ThermostatCluster</a>
 </li>
 <li>ReadAttributeCoupleColorTempToLevelMinMireds()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#a6d9a413ec901a61ff3a5b907736276aa">chip::Controller::ColorControlCluster</a>
@@ -314,6 +318,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>ReadAttributeInteractionModelVersion()
 : <a class="el" href="classchip_1_1_controller_1_1_basic_cluster.html#a769e796474ee0e83c588c138c3e5bfdc">chip::Controller::BasicCluster</a>
 </li>
+<li>ReadAttributeLocalTemperature()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#ad4191f2973db3cb366f38158a84ed08a">chip::Controller::ThermostatCluster</a>
+</li>
 <li>ReadAttributeLocation()
 : <a class="el" href="classchip_1_1_controller_1_1_basic_cluster.html#a7239f2026add94fa8eb369c1c3f834b2">chip::Controller::BasicCluster</a>
 </li>
@@ -341,6 +348,12 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReadAttributeNumberOfPrimaries()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#ab22067d685f09568f76abbd1b7488e95">chip::Controller::ColorControlCluster</a>
+</li>
+<li>ReadAttributeOccupiedCoolingSetpoint()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a4aa58faf127845366d9c20791d85d46a">chip::Controller::ThermostatCluster</a>
+</li>
+<li>ReadAttributeOccupiedHeatingSetpoint()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a795f600cce29f1ef2dbfbbc91ced822a">chip::Controller::ThermostatCluster</a>
 </li>
 <li>ReadAttributeOnOff()
 : <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#adc5ecaa95837129fdeba39f606460b2b">chip::Controller::OnOffCluster</a>
@@ -432,6 +445,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>ReadAttributeStartUpColorTemperatureMireds()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#a4703161e91eba9685088c24cf3ac06cc">chip::Controller::ColorControlCluster</a>
 </li>
+<li>ReadAttributeSystemMode()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a926cbea580e91eaa792f228a2c331ac8">chip::Controller::ThermostatCluster</a>
+</li>
 <li>ReadAttributeUserLabel()
 : <a class="el" href="classchip_1_1_controller_1_1_basic_cluster.html#ac6a1871fc2f68417e7ac5d65a6c4482a">chip::Controller::BasicCluster</a>
 </li>
@@ -518,7 +534,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad6434d422a082b62e368f3744f0239e8">chip::TLV::TLVReader</a>
 </li>
 <li>ReadValue()
-: <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a726dc334d69dcd5cfe6b1bbf1856593d">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
+: <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#aff1db1346aa346c37f80cbff0b10652e">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
 </li>
 <li>ReadValueBin()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#af99004e00009563eaf827b616a39ea0d">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
@@ -576,7 +592,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReleaseDevice()
 : <a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#adeb062685e6022d317a4e76fde29706a">chip::Controller::DeviceCommissioner</a>
-, <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a20011e300d00763eb58cbfb7d6de0455">chip::Controller::DeviceController</a>
+, <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a7ef943f16778b2466a4637f89fce8767">chip::Controller::DeviceController</a>
 </li>
 <li>ReleaseDeviceById()
 : <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad00416087ce23a7ccc96f6c2cc4d811f">chip::Controller::DeviceController</a>
@@ -677,6 +693,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReportAttributeCurrentY()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#a326d57f9964a53a95980f77c70135cbc">chip::Controller::ColorControlCluster</a>
+</li>
+<li>ReportAttributeLocalTemperature()
+: <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#af85b68190a2fb5df0dde1f80b1558519">chip::Controller::ThermostatCluster</a>
 </li>
 <li>ReportAttributeLockState()
 : <a class="el" href="classchip_1_1_controller_1_1_door_lock_cluster.html#acff4fc53498545b1daca68bacc9fb4b0">chip::Controller::DoorLockCluster</a>
@@ -808,7 +827,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#a5b5f57a4ab30c0bc69bbbb4321b5a5e7">chip::DeviceLayer::Internal::EFR32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a9bb4a1192beb29fee612bacd0c761957">chip::DeviceLayer::Internal::ESP32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a4d9ba3688d236e2bd12029e5fc39268f">chip::DeviceLayer::Internal::K32WConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#a8935da95e85566aab81d786ccd4a0bc4">chip::DeviceLayer::Internal::PosixConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#ac8de9c473922fd82b615ad08cfab83a8">chip::DeviceLayer::Internal::PosixConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#a1a54f01e5b6b40d322d6c02fa31e4a9a">chip::DeviceLayer::Internal::QPG6100Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#a02cd8db4ccef8b1508833cfcc9062d0d">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
@@ -841,7 +860,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 15 2021 16:16:32 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 15 2021 17:24:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

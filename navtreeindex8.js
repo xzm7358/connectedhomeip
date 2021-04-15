@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"_delegate_8cpp.html#ab3832ef8a62aa153bf15bf65ec5a17a8":[11,0,1,1,0,4,1,1],
 "_delegate_8cpp.html#afb8e076c65dc611cfab4837d38eb4b8e":[11,0,1,1,0,4,1,2],
 "_delegate_8h.html":[11,0,1,1,0,4,2],
 "_delegate_8h.html#a1e4ffc0f984fc7c06f63db99be9e5c46":[11,0,1,1,0,4,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "_e_f_r32_2_system_platform_config_8h.html#ad68a121d966f5b6c66401e93622b9044":[11,0,7,2,31,1],
 "_e_f_r32_2_system_platform_config_8h_source.html":[11,0,7,2,31],
 "_e_f_r32_2_thread_stack_manager_impl_8cpp.html":[11,0,7,2,32],
-"_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a1d17eaefd012fdcf775952128e559f92":[11,0,7,2,32,6],
-"_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a41415da40fbe248d677b145d9f8ab0cf":[11,0,7,2,32,0]
+"_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a1d17eaefd012fdcf775952128e559f92":[11,0,7,2,32,6]
 };

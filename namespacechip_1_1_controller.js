@@ -35,5 +35,6 @@ var namespacechip_1_1_controller =
     [ "SerializableDevice", "structchip_1_1_controller_1_1_serializable_device.html", "structchip_1_1_controller_1_1_serializable_device" ],
     [ "SerializedDevice", "structchip_1_1_controller_1_1_serialized_device.html", "structchip_1_1_controller_1_1_serialized_device" ],
     [ "TemperatureMeasurementCluster", "classchip_1_1_controller_1_1_temperature_measurement_cluster.html", "classchip_1_1_controller_1_1_temperature_measurement_cluster" ],
+    [ "ThermostatCluster", "classchip_1_1_controller_1_1_thermostat_cluster.html", "classchip_1_1_controller_1_1_thermostat_cluster" ],
     [ "WindowCoveringCluster", "classchip_1_1_controller_1_1_window_covering_cluster.html", "classchip_1_1_controller_1_1_window_covering_cluster" ]
 ];

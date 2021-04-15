@@ -18,6 +18,7 @@ var _c_h_i_p_clusters_8h =
     [ "OnOffCluster", "classchip_1_1_controller_1_1_on_off_cluster.html", "classchip_1_1_controller_1_1_on_off_cluster" ],
     [ "ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html", "classchip_1_1_controller_1_1_scenes_cluster" ],
     [ "TemperatureMeasurementCluster", "classchip_1_1_controller_1_1_temperature_measurement_cluster.html", "classchip_1_1_controller_1_1_temperature_measurement_cluster" ],
+    [ "ThermostatCluster", "classchip_1_1_controller_1_1_thermostat_cluster.html", "classchip_1_1_controller_1_1_thermostat_cluster" ],
     [ "WindowCoveringCluster", "classchip_1_1_controller_1_1_window_covering_cluster.html", "classchip_1_1_controller_1_1_window_covering_cluster" ],
     [ "kApplicationBasicClusterId", "_c_h_i_p_clusters_8h.html#af0770c9428122b25e035fbdd274e1eae", null ],
     [ "kBarrierControlClusterId", "_c_h_i_p_clusters_8h.html#ab121487e65d1a25132ad34ce515b03b1", null ],
@@ -37,5 +38,6 @@ var _c_h_i_p_clusters_8h =
     [ "kOnOffClusterId", "_c_h_i_p_clusters_8h.html#afa65ef6b1cc232e1a3f596c9d9c5e73d", null ],
     [ "kScenesClusterId", "_c_h_i_p_clusters_8h.html#ab60fbe35cea61046468ebe20dcd68d69", null ],
     [ "kTemperatureMeasurementClusterId", "_c_h_i_p_clusters_8h.html#a9a6531b585d6e69bb75e7a4126c3d508", null ],
+    [ "kThermostatClusterId", "_c_h_i_p_clusters_8h.html#aae7c6bb5bf8bb0690adfdc1d3ddccf03", null ],
     [ "kWindowCoveringClusterId", "_c_h_i_p_clusters_8h.html#a38cab20ed2f08662c5983dab2fe81d0f", null ]
 ];

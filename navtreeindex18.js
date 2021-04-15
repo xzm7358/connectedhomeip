@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"class_android_ble_connection_delegate.html#a432424ac45658699abcd3209f4c61364":[10,0,5,0],
 "class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1":[10,0,5,2],
 "class_android_ble_connection_delegate.html#ac4cc37d24a742286195fdcd7c5f81492":[10,0,5,1],
 "class_android_ble_platform_delegate.html":[10,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classchip_1_1_ble_1_1_ble_layer.html#a3f15f30d7c20af39930cbca07e47e74f":[10,0,1,1,4,0],
 "classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091":[10,0,1,1,4,14],
 "classchip_1_1_ble_1_1_ble_layer.html#a48aff31e0d0c499dd1f1636afbbbab4d":[10,0,1,1,4,16],
-"classchip_1_1_ble_1_1_ble_layer.html#a4af1b287ca69d07517389b8b210cb24c":[10,0,1,1,4,17],
-"classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445":[10,0,1,1,4,7]
+"classchip_1_1_ble_1_1_ble_layer.html#a4af1b287ca69d07517389b8b210cb24c":[10,0,1,1,4,17]
 };

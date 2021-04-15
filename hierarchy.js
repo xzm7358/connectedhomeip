@@ -153,6 +153,7 @@ var hierarchy =
       [ "chip::Controller::OnOffCluster", "classchip_1_1_controller_1_1_on_off_cluster.html", null ],
       [ "chip::Controller::ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html", null ],
       [ "chip::Controller::TemperatureMeasurementCluster", "classchip_1_1_controller_1_1_temperature_measurement_cluster.html", null ],
+      [ "chip::Controller::ThermostatCluster", "classchip_1_1_controller_1_1_thermostat_cluster.html", null ],
       [ "chip::Controller::WindowCoveringCluster", "classchip_1_1_controller_1_1_window_covering_cluster.html", null ]
     ] ],
     [ "chip.internal.commissioner.Commissioner", "classchip_1_1internal_1_1commissioner_1_1_commissioner.html", null ],
@@ -309,10 +310,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -520,8 +521,8 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
+    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
