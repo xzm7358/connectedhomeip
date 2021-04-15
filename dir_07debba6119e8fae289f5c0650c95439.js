@@ -47,6 +47,7 @@ var dir_07debba6119e8fae289f5c0650c95439 =
     [ "LifetimePersistedCounter.h", "_lifetime_persisted_counter_8h.html", [
       [ "LifetimePersistedCounter", "classchip_1_1_lifetime_persisted_counter.html", "classchip_1_1_lifetime_persisted_counter" ]
     ] ],
+    [ "OwnerOf.h", "_owner_of_8h.html", "_owner_of_8h" ],
     [ "PersistedCounter.cpp", "_persisted_counter_8cpp.html", null ],
     [ "PersistedCounter.h", "_persisted_counter_8h.html", [
       [ "PersistedCounter", "classchip_1_1_persisted_counter.html", "classchip_1_1_persisted_counter" ]
