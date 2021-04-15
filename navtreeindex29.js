@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classchip_1_1_encoding_1_1_buffer_writer.html#a3c49b4afe62bf97e1c5730e24bb83432":[10,0,1,15,2,15],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a490f67b2ddfd870eee5372b1f7f9aa90":[10,0,1,15,2,10],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a59b2cd97b3e3f4172c355d6cb55150c1":[10,0,1,15,2,4],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a64138a0f1618f7530b0cbee41ee86323":[10,0,1,15,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classchip_1_1_inet_1_1_socket_events.html#aa7ebd8e528aa51fe766c4d26ae432d10":[10,0,1,17,13,4],
 "classchip_1_1_inet_1_1_socket_events.html#abe2085b3e66f28075d22460b7b6a8195":[10,0,1,17,13,15],
 "classchip_1_1_inet_1_1_socket_events.html#ad414de5e3cbe2df1f7b9f0511fe93dd3":[10,0,1,17,13,10],
-"classchip_1_1_inet_1_1_socket_events.html#ad89875d1eccc2fdefdd34c754b4f25e2":[10,0,1,17,13,5],
-"classchip_1_1_inet_1_1_socket_events.html#adc95468bc7b19bdface7e18242caf0f2a8119f44c8cddbc2a889d9c5f5c131bcd":[10,0,1,17,13,1]
+"classchip_1_1_inet_1_1_socket_events.html#ad89875d1eccc2fdefdd34c754b4f25e2":[10,0,1,17,13,5]
 };

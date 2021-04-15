@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a2583b59afe8a387c4e3d27fbd6a9ebc3":[10,0,1,14,0,34,36],
 "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a2f39b753abe3721dd251d716767385b3":[10,0,1,14,0,34,13],
 "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a34a67881e17ea54d2870731dd1a98b48":[10,0,1,14,0,34,39],
 "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a37f828dd567414d8f6a70919b73e15ca":[10,0,1,14,0,34,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#a62c50049eac7e2c3d01448f5689f1154":[10,0,1,14,1,0,0],
 "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#acf8dbcc3b16fff247a4af982ad2a9c59":[10,0,1,14,1,0,5],
 "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#ad7a5662785859f49a1d5f2e5c8dc61af":[10,0,1,14,1,0,8],
-"classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#ad9d65a40ee6b5b227d95271b2eeb7d5b":[10,0,1,14,1,0,7],
-"classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html":[10,0,1,14,1,1]
+"classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#ad9d65a40ee6b5b227d95271b2eeb7d5b":[10,0,1,14,1,0,7]
 };

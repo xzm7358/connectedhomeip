@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"nrfconnect_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,8,14,0],
 "nrfconnect_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b":[11,0,7,8,14,2],
 "nrfconnect_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5":[11,0,7,8,14,3],
 "nrfconnect_2_system_platform_config_8h.html#ae934f44fbfd5e44e5ccb3cfd531872a7":[11,0,7,8,14,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#af9a1e9d41da9c86f6fa0589638dbf9e3":[11,0,1,1,0,1,1,38],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afa077e7a7ca690f1ed8457da5074061a":[11,0,1,1,0,1,1,45],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afc26338a5a9d58eec379e306ff81c517":[11,0,1,1,0,1,1,78],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afc477d233e523f17be8645beb7528be6":[11,0,1,1,0,1,1,202],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afdc39ad673590826f090f0af589cb889":[11,0,1,1,0,1,1,64]
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afc477d233e523f17be8645beb7528be6":[11,0,1,1,0,1,1,202]
 };

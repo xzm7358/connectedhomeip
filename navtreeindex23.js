@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_window_covering_cluster.html#afba520d47e42ce60c3c4322eb4707343":[10,0,1,11,36,7],
 "classchip_1_1_counter.html":[10,0,1,43],
 "classchip_1_1_counter.html#a9242f2ab11d3f39c9f262099fb7533b5":[10,0,1,43,1],
 "classchip_1_1_counter.html#aa1b2ffcd3dad1f238b626374bedb6809":[10,0,1,43,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a3c150539805bedd184720c830723318ba8b94341970e7710b74bed3357ff0a408":[10,0,1,14,10,7,3],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a3ff78d454af0be515aadc42115957239":[10,0,1,14,10,11],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a4c1c0012f7dd2d8a863c288480f06e6e":[10,0,1,14,10,54],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5331b990a2cf17ffeccd22aa6f55dea5":[10,0,1,14,10,60],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5781ccd4d0d0beb6f61684174f5c2ee6":[10,0,1,14,10,61]
+"classchip_1_1_device_layer_1_1_connectivity_manager.html#a5331b990a2cf17ffeccd22aa6f55dea5":[10,0,1,14,10,60]
 };
