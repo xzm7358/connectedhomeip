@@ -302,6 +302,7 @@ var hierarchy =
     ] ],
     [ "chip::Crypto::Hash_SHA256_stream", "classchip_1_1_crypto_1_1_hash___s_h_a256__stream.html", null ],
     [ "chip::Crypto::HashSHA256OpaqueContext", "structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html", null ],
+    [ "hsm_pake_context_s", "structhsm__pake__context__s.html", null ],
     [ "chip::Inet::InetLayer", "classchip_1_1_inet_1_1_inet_layer.html", null ],
     [ "build-chip-wheel.InstalledScriptInfo", "classbuild-chip-wheel_1_1_installed_script_info.html", null ],
     [ "IntEnum", null, [
@@ -399,10 +400,10 @@ var hierarchy =
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint8_t >", "classchip_1_1_optional.html", null ],
+    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
     ] ],
-    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo.OptionalQRCodeInfoType", "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html", null ],
     [ "chip::Crypto::P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", null ],
     [ "chip::System::PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html", [
@@ -529,7 +530,9 @@ var hierarchy =
     [ "chip::System::Stats::Snapshot", "classchip_1_1_system_1_1_stats_1_1_snapshot.html", null ],
     [ "chip::Inet::SocketEvents", "classchip_1_1_inet_1_1_socket_events.html", null ],
     [ "chip::Crypto::Spake2p", "classchip_1_1_crypto_1_1_spake2p.html", [
-      [ "chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html", null ]
+      [ "chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html", [
+        [ "chip::Crypto::Spake2pHSM_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p_h_s_m___p256___s_h_a256___h_k_d_f___h_m_a_c.html", null ]
+      ] ]
     ] ],
     [ "chip::Crypto::Spake2p_Context", "structchip_1_1_crypto_1_1_spake2p___context.html", null ],
     [ "chip::Crypto::Spake2pOpaqueContext", "structchip_1_1_crypto_1_1_spake2p_opaque_context.html", null ],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value_5ftype_11469',['value_type',['../classmdns_1_1_minimal_1_1_query_responder_iterator.html#a10526fc0a8ba43793a448bd90ecb706f',1,'mdns::Minimal::QueryResponderIterator::value_type()'],['../classchip_1_1_device_layer_1_1_internal_1_1_bluez_object_iterator.html#a1a30611f19a265f239d81ce6b8cc83a6',1,'chip::DeviceLayer::Internal::BluezObjectIterator::value_type()'],['../classchip_1_1_transport_1_1_const_admin_iterator.html#a2d00fd37ebc19124c45a945dadb0938b',1,'chip::Transport::ConstAdminIterator::value_type()']]]
+  ['unittesttriggerfunction_11504',['UnitTestTriggerFunction',['../namespacechip.html#a1cf5a95f92d2b2d87ee6e6635e0aeb43',1,'chip']]],
+  ['unsubscribecharacteristiccallback_11505',['UnsubscribeCharacteristicCallback',['../_android_ble_platform_delegate_8h.html#a38f7cd93540fcf6232c47595828c763f',1,'AndroidBlePlatformDelegate.h']]]
 ];

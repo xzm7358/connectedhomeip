@@ -5,7 +5,7 @@ var classchip_1_1_crypto_1_1_spake2p =
     [ "BeginProver", "classchip_1_1_crypto_1_1_spake2p.html#af43f57c35b67e47281c3cc63e6d739ca", null ],
     [ "BeginVerifier", "classchip_1_1_crypto_1_1_spake2p.html#a0f7fd7a7e76524f202408ca3f16e79dc", null ],
     [ "ComputeL", "classchip_1_1_crypto_1_1_spake2p.html#a7712a867b96510137816766813017028", null ],
-    [ "ComputeRoundOne", "classchip_1_1_crypto_1_1_spake2p.html#a86bca022eb7764e303abba58a169914a", null ],
+    [ "ComputeRoundOne", "classchip_1_1_crypto_1_1_spake2p.html#a69b93a0e701bb22150b162d9500c57a7", null ],
     [ "ComputeRoundTwo", "classchip_1_1_crypto_1_1_spake2p.html#aa3857b6ee995e8635c9ba5ff7f227042", null ],
     [ "FEGenerate", "classchip_1_1_crypto_1_1_spake2p.html#a09703a1b11f3a2e2200916aa553c1ce4", null ],
     [ "FELoad", "classchip_1_1_crypto_1_1_spake2p.html#a76b5cf077b8b5772d009d4fa62de1eba", null ],

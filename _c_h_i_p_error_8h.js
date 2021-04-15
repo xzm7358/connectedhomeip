@@ -32,6 +32,7 @@ var _c_h_i_p_error_8h =
     [ "CHIP_ERROR_EXPORTED_KEY_AUTHENTICATION_FAILED", "_c_h_i_p_error_8h.html#adc3d0ccb5ee1038a59f5f0758c8cd8ad", null ],
     [ "CHIP_ERROR_FORCED_RESET", "_c_h_i_p_error_8h.html#a9f7f0cb013aaecddc0dd277097391bd3", null ],
     [ "CHIP_ERROR_HOST_PORT_LIST_EMPTY", "_c_h_i_p_error_8h.html#ad06f083949d8bb7f102b783e421c2e08", null ],
+    [ "CHIP_ERROR_HSM", "_c_h_i_p_error_8h.html#add41eba1d5ecd92d6408675126e0056d", null ],
     [ "CHIP_ERROR_IM_MALFORMED_ATTRIBUTE_DATA_ELEMENT", "_c_h_i_p_error_8h.html#a01bff9fc7b304ae2fc57b1700d7ee68c", null ],
     [ "CHIP_ERROR_IM_MALFORMED_ATTRIBUTE_PATH", "_c_h_i_p_error_8h.html#a62c6c9cdbd3ed8d9a9257e4379da79d9", null ],
     [ "CHIP_ERROR_IM_MALFORMED_ATTRIBUTE_STATUS_ELEMENT", "_c_h_i_p_error_8h.html#a54b1fec0afd118c818da299d6cc48457", null ],

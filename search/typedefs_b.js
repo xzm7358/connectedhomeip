@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['nodeid_11421',['NodeId',['../namespacechip.html#a911a83fdf89daee3f71f39da9e743e01',1,'chip']]],
-  ['notifychipconnectionclosedcallback_11422',['NotifyChipConnectionClosedCallback',['../_android_ble_application_delegate_8h.html#aad6dd7df6fe1b74d0ebbbcd95d3f9a63',1,'AndroidBleApplicationDelegate.h']]],
-  ['notifynewconnectionavailable_11423',['NotifyNewConnectionAvailable',['../_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56',1,'AndroidBleConnectionDelegate.h']]]
+  ['mdnsasyncreturncallback_11455',['MdnsAsyncReturnCallback',['../namespacechip_1_1_mdns.html#a5f94f57a92a0c21031b403275ddd4247',1,'chip::Mdns']]],
+  ['mdnsbrowsecallback_11456',['MdnsBrowseCallback',['../namespacechip_1_1_mdns.html#a7aabbd6d910d8bba5ba8b82ef7140393',1,'chip::Mdns']]],
+  ['mdnsresolvecallback_11457',['MdnsResolveCallback',['../namespacechip_1_1_mdns.html#a6b14bf17fcc3156914be6dedb1206466',1,'chip::Mdns']]]
 ];

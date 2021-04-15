@@ -12,5 +12,6 @@ var namespacechip_1_1_crypto =
     [ "Spake2p", "classchip_1_1_crypto_1_1_spake2p.html", "classchip_1_1_crypto_1_1_spake2p" ],
     [ "Spake2p_Context", "structchip_1_1_crypto_1_1_spake2p___context.html", "structchip_1_1_crypto_1_1_spake2p___context" ],
     [ "Spake2p_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c" ],
+    [ "Spake2pHSM_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p_h_s_m___p256___s_h_a256___h_k_d_f___h_m_a_c.html", "classchip_1_1_crypto_1_1_spake2p_h_s_m___p256___s_h_a256___h_k_d_f___h_m_a_c" ],
     [ "Spake2pOpaqueContext", "structchip_1_1_crypto_1_1_spake2p_opaque_context.html", "structchip_1_1_crypto_1_1_spake2p_opaque_context" ]
 ];

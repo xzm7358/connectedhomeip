@@ -16,6 +16,7 @@ var annotated_dup =
     [ "ChipDeviceBleScanner", "interface_chip_device_ble_scanner.html", "interface_chip_device_ble_scanner" ],
     [ "chipOBleProfileCBs_t", "structchip_o_ble_profile_c_bs__t.html", "structchip_o_ble_profile_c_bs__t" ],
     [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", "interface_fake_ble_adapter_information" ],
+    [ "hsm_pake_context_s", "structhsm__pake__context__s.html", "structhsm__pake__context__s" ],
     [ "JniByteArray", "class_jni_byte_array.html", "class_jni_byte_array" ],
     [ "JniUtfString", "class_jni_utf_string.html", "class_jni_utf_string" ],
     [ "KeyValueItem", "interface_key_value_item.html", "interface_key_value_item" ],
