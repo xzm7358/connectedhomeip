@@ -1,5 +1,6 @@
 var dir_7ae360e695567cbf3cfa082ce2da24e7 =
 [
+    [ "shell", "dir_d5f8d467fa9183f1d929ed66ed56f32f.html", "dir_d5f8d467fa9183f1d929ed66ed56f32f" ],
     [ "BLEManagerImpl.h", "nrfconnect_2_b_l_e_manager_impl_8h.html", null ],
     [ "BlePlatformConfig.h", "nrfconnect_2_ble_platform_config_8h.html", "nrfconnect_2_ble_platform_config_8h" ],
     [ "CHIPDevicePlatformConfig.h", "nrfconnect_2_c_h_i_p_device_platform_config_8h.html", "nrfconnect_2_c_h_i_p_device_platform_config_8h" ],
