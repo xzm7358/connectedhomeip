@@ -19,6 +19,7 @@ var classchip_device_ctrl_1_1_device_mgr_cmd =
     [ "do_setlogoutput", "classchip-device-ctrl_1_1_device_mgr_cmd.html#af68d0aa3fd2cf69f81959adc43fe7fba", null ],
     [ "do_setpairingthreadcredential", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a5f89f2fb7d5b435ff802b9f8f34cd99d", null ],
     [ "do_setpairingwificredential", "classchip-device-ctrl_1_1_device_mgr_cmd.html#acb38262c0e1422beaf93597339b12d44", null ],
+    [ "do_setuppayload", "classchip-device-ctrl_1_1_device_mgr_cmd.html#ad8bcc17afdb2a26ee8cc9499bd33f24a", null ],
     [ "do_zcl", "classchip-device-ctrl_1_1_device_mgr_cmd.html#afd2eb5ebf10693305318020904c2c3f6", null ],
     [ "do_zclread", "classchip-device-ctrl_1_1_device_mgr_cmd.html#ab8ef8ccb204ea655c835affc23e18c2a", null ],
     [ "emptyline", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a493412881fa4d7cde2bcfc34356ec06f", null ],

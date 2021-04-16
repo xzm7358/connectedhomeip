@@ -1,6 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classchip_1_1_encoding_1_1_buffer_writer.html#a3c49b4afe62bf97e1c5730e24bb83432":[10,0,1,15,2,15],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a490f67b2ddfd870eee5372b1f7f9aa90":[10,0,1,15,2,10],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a59b2cd97b3e3f4172c355d6cb55150c1":[10,0,1,15,2,4],
 "classchip_1_1_encoding_1_1_buffer_writer.html#a64138a0f1618f7530b0cbee41ee86323":[10,0,1,15,2,12],
@@ -47,13 +46,13 @@ var NAVTREEINDEX29 =
 "classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#ae5be47ec7a9d1519d2c9f4837f43b3a0":[10,0,1,15,4,2],
 "classchip_1_1_encoding_1_1_packet_buffer_writer_util.html":[10,0,1,15,5],
 "classchip_1_1_encoding_1_1_packet_buffer_writer_util.html#af8bb36f998c658a0626324355e22a16f":[10,0,1,15,5,0],
-"classchip_1_1_encrypted_packet_buffer_handle.html":[10,0,1,45],
-"classchip_1_1_encrypted_packet_buffer_handle.html#a23eceeceb138d9128016551ae59b57e9":[10,0,1,45,3],
-"classchip_1_1_encrypted_packet_buffer_handle.html#a6b24a8dd76169410a42507a5b3b08622":[10,0,1,45,1],
-"classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405":[10,0,1,45,2],
-"classchip_1_1_encrypted_packet_buffer_handle.html#adcff0f83b2019f5254d56d84a03fdb6e":[10,0,1,45,0],
-"classchip_1_1_encrypted_packet_buffer_handle.html#af8ec0498cd33fb7635b7305227b2bd44":[10,0,1,45,5],
-"classchip_1_1_encrypted_packet_buffer_handle.html#affb3c453bb9c3c0bac76107967bce933":[10,0,1,45,4],
+"classchip_1_1_encrypted_packet_buffer_handle.html":[10,0,1,46],
+"classchip_1_1_encrypted_packet_buffer_handle.html#a23eceeceb138d9128016551ae59b57e9":[10,0,1,46,3],
+"classchip_1_1_encrypted_packet_buffer_handle.html#a6b24a8dd76169410a42507a5b3b08622":[10,0,1,46,1],
+"classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405":[10,0,1,46,2],
+"classchip_1_1_encrypted_packet_buffer_handle.html#adcff0f83b2019f5254d56d84a03fdb6e":[10,0,1,46,0],
+"classchip_1_1_encrypted_packet_buffer_handle.html#af8ec0498cd33fb7635b7305227b2bd44":[10,0,1,46,5],
+"classchip_1_1_encrypted_packet_buffer_handle.html#affb3c453bb9c3c0bac76107967bce933":[10,0,1,46,4],
 "classchip_1_1_inet_1_1_d_n_s_resolver.html":[10,0,1,17,1],
 "classchip_1_1_inet_1_1_d_n_s_resolver.html#a8feea0992ea69a9627ba44b13f4eaf20":[10,0,1,17,1,0],
 "classchip_1_1_inet_1_1_end_point_basis.html":[10,0,1,17,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX29 =
 "classchip_1_1_inet_1_1_socket_events.html#aa7ebd8e528aa51fe766c4d26ae432d10":[10,0,1,17,13,4],
 "classchip_1_1_inet_1_1_socket_events.html#abe2085b3e66f28075d22460b7b6a8195":[10,0,1,17,13,15],
 "classchip_1_1_inet_1_1_socket_events.html#ad414de5e3cbe2df1f7b9f0511fe93dd3":[10,0,1,17,13,10],
-"classchip_1_1_inet_1_1_socket_events.html#ad89875d1eccc2fdefdd34c754b4f25e2":[10,0,1,17,13,5]
+"classchip_1_1_inet_1_1_socket_events.html#ad89875d1eccc2fdefdd34c754b4f25e2":[10,0,1,17,13,5],
+"classchip_1_1_inet_1_1_socket_events.html#adc95468bc7b19bdface7e18242caf0f2a8119f44c8cddbc2a889d9c5f5c131bcd":[10,0,1,17,13,1]
 };

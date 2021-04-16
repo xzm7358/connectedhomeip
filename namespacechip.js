@@ -27,6 +27,7 @@ var namespacechip =
     [ "Platform", "namespacechip_1_1_platform.html", "namespacechip_1_1_platform" ],
     [ "Profiles", "namespacechip_1_1_profiles.html", null ],
     [ "Retransmit", "namespacechip_1_1_retransmit.html", "namespacechip_1_1_retransmit" ],
+    [ "setup_payload", "namespacechip_1_1setup__payload.html", "namespacechip_1_1setup__payload" ],
     [ "setuppayload", "namespacechip_1_1setuppayload.html", "namespacechip_1_1setuppayload" ],
     [ "SetupPayloadData", "namespacechip_1_1_setup_payload_data.html", "namespacechip_1_1_setup_payload_data" ],
     [ "Shell", "namespacechip_1_1_shell.html", "namespacechip_1_1_shell" ],

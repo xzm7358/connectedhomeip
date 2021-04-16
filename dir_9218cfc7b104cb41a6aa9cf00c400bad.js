@@ -3,7 +3,7 @@ var dir_9218cfc7b104cb41a6aa9cf00c400bad =
     [ "core", "dir_bc53cbda823a28b2733afd1692097551.html", "dir_bc53cbda823a28b2733afd1692097551" ],
     [ "records", "dir_37c0660e3b481c023fd0eeef1b618ad8.html", "dir_37c0660e3b481c023fd0eeef1b618ad8" ],
     [ "responders", "dir_6c631cca1c96b70bd3064359c7880218.html", "dir_6c631cca1c96b70bd3064359c7880218" ],
-    [ "Parser.cpp", "_parser_8cpp.html", "_parser_8cpp" ],
+    [ "Parser.cpp", "lib_2mdns_2minimal_2_parser_8cpp.html", "lib_2mdns_2minimal_2_parser_8cpp" ],
     [ "Parser.h", "_parser_8h.html", "_parser_8h" ],
     [ "Query.h", "_query_8h.html", [
       [ "Query", "classmdns_1_1_minimal_1_1_query.html", "classmdns_1_1_minimal_1_1_query" ]

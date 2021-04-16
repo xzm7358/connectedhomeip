@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e1c8d7d</span>
+   &#160;<span id="projectnumber">99edfee</span>
    </div>
   </td>
  </tr>
@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a73e6afca7854db564c18ed80de0595f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af68d0aa3fd2cf69f81959adc43fe7fba"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#af68d0aa3fd2cf69f81959adc43fe7fba">do_setlogoutput</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, line)</td></tr>
 <tr class="separator:af68d0aa3fd2cf69f81959adc43fe7fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bcc17afdb2a26ee8cc9499bd33f24a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#ad8bcc17afdb2a26ee8cc9499bd33f24a">do_setuppayload</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, line)</td></tr>
+<tr class="separator:ad8bcc17afdb2a26ee8cc9499bd33f24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fbd42f6c4ec1e4486a57d9adcfc5d6a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#a8fbd42f6c4ec1e4486a57d9adcfc5d6a">do_bleadapterselect</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, line)</td></tr>
 <tr class="separator:a8fbd42f6c4ec1e4486a57d9adcfc5d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76dc0e493d09d47aae31675c19f4def7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#a76dc0e493d09d47aae31675c19f4def7">do_bleadapterprint</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, line)</td></tr>
@@ -767,6 +769,36 @@ Set WiFi credential to be used while pairing a Wi-Fi device
 </pre> 
 </div>
 </div>
+<a id="ad8bcc17afdb2a26ee8cc9499bd33f24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bcc17afdb2a26ee8cc9499bd33f24a">&#9670;&nbsp;</a></span>do_setuppayload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def chip-device-ctrl.DeviceMgrCmd.do_setuppayload </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>line</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setup-payload parse-manual &lt;manual-pairing-code&gt;
+setup-payload parse-qr &lt;qr-code-payload&gt;
+</pre> 
+</div>
+</div>
 <a id="afd2eb5ebf10693305318020904c2c3f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd2eb5ebf10693305318020904c2c3f6">&#9670;&nbsp;</a></span>do_zcl()</h2>
 
@@ -1022,6 +1054,8 @@ zclread &lt;cluster&gt; &lt;attribute&gt; &lt;nodeid&gt; &lt;endpoint&gt; &lt;gr
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=  [</div>
+<div class="line">        <span class="stringliteral">&quot;setup-payload&quot;</span>,</div>
+<div class="line"> </div>
 <div class="line">        <span class="stringliteral">&quot;ble-scan&quot;</span>,</div>
 <div class="line">        <span class="stringliteral">&quot;ble-adapter-select&quot;</span>,</div>
 <div class="line">        <span class="stringliteral">&quot;ble-adapter-print&quot;</span>,</div>
@@ -1117,7 +1151,7 @@ zclread &lt;cluster&gt; &lt;attribute&gt; &lt;nodeid&gt; &lt;endpoint&gt; &lt;gr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip-device-ctrl.html">chip-device-ctrl</a></li><li class="navelem"><a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html">DeviceMgrCmd</a></li>
-    <li class="footer">Generated on Fri Apr 16 2021 16:08:01 for Connected Home over IP by
+    <li class="footer">Generated on Fri Apr 16 2021 16:21:55 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
