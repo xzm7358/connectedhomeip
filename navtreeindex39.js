@@ -208,10 +208,10 @@ var NAVTREEINDEX39 =
 "namespacechip_1_1_chip_ble_utility.html":[10,0,1,4],
 "namespacechip_1_1_chip_bluez_mgr.html":[9,0,2,6],
 "namespacechip_1_1_chip_bluez_mgr.html":[10,0,1,5],
-"namespacechip_1_1_chip_core_bluetooth_mgr.html":[10,0,1,6],
 "namespacechip_1_1_chip_core_bluetooth_mgr.html":[9,0,2,7],
-"namespacechip_1_1_chip_device_ctrl.html":[9,0,2,8],
+"namespacechip_1_1_chip_core_bluetooth_mgr.html":[10,0,1,6],
 "namespacechip_1_1_chip_device_ctrl.html":[10,0,1,7],
+"namespacechip_1_1_chip_device_ctrl.html":[9,0,2,8],
 "namespacechip_1_1_chip_stack.html":[9,0,2,9],
 "namespacechip_1_1_chip_stack.html":[10,0,1,8],
 "namespacechip_1_1_chip_utility.html":[10,0,1,9],
@@ -246,8 +246,8 @@ var NAVTREEINDEX39 =
 "namespacechip_1_1_mdns.html":[10,0,1,22],
 "namespacechip_1_1_mdns_1_1_error.html":[9,0,2,25,0],
 "namespacechip_1_1_message_packet_buffer.html":[9,0,2,26],
-"namespacechip_1_1_platform.html":[10,0,1,24],
 "namespacechip_1_1_platform.html":[9,0,2,28],
+"namespacechip_1_1_platform.html":[10,0,1,24],
 "namespacechip_1_1_platform_1_1_impl.html":[10,0,1,24,0],
 "namespacechip_1_1_platform_1_1_impl.html":[9,0,2,28,0]
 };

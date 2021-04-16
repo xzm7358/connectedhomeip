@@ -27,7 +27,7 @@ var _c_h_i_p_t_l_v_types_8h =
       [ "Null", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcabbb93ef26e3c101ff11cdd21cab08a94", null ],
       [ "Structure", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcadc4c71563b9bc39a65be853457e6b7b6", null ],
       [ "Array", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dca4410ec34d9e6c1a68100ca0ce033fb17", null ],
-      [ "Path", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcaac70412e939d72a9234cdebb1af5867b", null ],
+      [ "List", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dca4ee29ca12c7d126654bd0e5275de6135", null ],
       [ "EndOfContainer", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dcac3300a8e70ee69de76a15ddfe1ca826f", null ]
     ] ],
     [ "TLVFieldSize", "_c_h_i_p_t_l_v_types_8h.html#ac6c84dae8d02ffbc0acfa52255cb1c69", [
