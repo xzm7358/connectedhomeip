@@ -1,5 +1,10 @@
 var NAVTREEINDEX42 =
 {
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad1b042cf1f9864e178d7ee3751168585":[11,0,1,1,0,1,1,36],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad4755a144556106bc0926faf6888776c":[11,0,1,1,0,1,1,124],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad48dbcdda05e9e7565e56402abad1d27":[11,0,1,1,0,1,1,84],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad5d8444e705978188b385ace6a66a03d":[11,0,1,1,0,1,1,49],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad754461a5c7b37899df2fb7c2420709e":[11,0,1,1,0,1,1,57],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad7582337facb1ff7921ed99b4dd427bd":[11,0,1,1,0,1,1,154],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad9cdc46ea9e59c44fb67b6199147fb16":[11,0,1,1,0,1,1,120],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#adc29eafefbbf24487092267b34ff418a":[11,0,1,1,0,1,1,161],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "responders_2_ptr_8h.html":[11,0,6,1,0,2,2],
 "responders_2_ptr_8h_source.html":[11,0,6,1,0,2,2],
 "responders_2_srv_8h.html":[11,0,6,1,0,2,7],
-"responders_2_srv_8h_source.html":[11,0,6,1,0,2,7],
-"responders_2_txt_8h.html":[11,0,6,1,0,2,8],
-"responders_2_txt_8h_source.html":[11,0,6,1,0,2,8],
-"scan__devices_8py.html":[11,0,1,1,0,0,6],
-"scan__devices_8py.html#a0a44375fb061b1897d219b418a305304":[11,0,1,1,0,0,6,3],
-"scan__devices_8py.html#a0e6dbf77452bd964503a6fa749647662":[11,0,1,1,0,0,6,4]
+"responders_2_srv_8h_source.html":[11,0,6,1,0,2,7]
 };

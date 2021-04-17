@@ -1,5 +1,10 @@
 var NAVTREEINDEX41 =
 {
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,8,5,29],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#aa8b734a5e4a184c82af017739a2c2939":[11,0,7,8,5,17],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#aa8cb98d017ed7e8bb3d37f122ebfe275":[11,0,7,8,5,14],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#aab03d621d59a610c7ceabe15aa617506":[11,0,7,8,5,37],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#ab6b2752c5c95b7d62c2fd5828974f5aa":[11,0,7,8,5,31],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#abeaa6c1fea9f3c82cfcdee92fabfc194":[11,0,7,8,5,3],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#ace8434c4c9d24512c02c4330f2629ed2":[11,0,7,8,5,6],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,7,8,5,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX41 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ace52ab17e5c8774867d8338918b4f1a1":[11,0,1,1,0,1,1,203],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acff0d785ce055f12f78004349823dc5a":[11,0,1,1,0,1,1,188],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad1412fdbf533488a4b80381685ef8e6b":[11,0,1,1,0,1,1,11],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad1a1d2e1ed34f330276fa8922e645b30":[11,0,1,1,0,1,1,8],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad1b042cf1f9864e178d7ee3751168585":[11,0,1,1,0,1,1,36],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad4755a144556106bc0926faf6888776c":[11,0,1,1,0,1,1,124],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad48dbcdda05e9e7565e56402abad1d27":[11,0,1,1,0,1,1,84],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad5d8444e705978188b385ace6a66a03d":[11,0,1,1,0,1,1,49],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad754461a5c7b37899df2fb7c2420709e":[11,0,1,1,0,1,1,57]
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ad1a1d2e1ed34f330276fa8922e645b30":[11,0,1,1,0,1,1,8]
 };

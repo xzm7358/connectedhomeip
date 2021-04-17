@@ -8,6 +8,7 @@ var _darwin_2_mdns_impl_8cpp =
     [ "ChipMdnsResolve", "_darwin_2_mdns_impl_8cpp.html#a92918bc47fadde76f386ab039d196c7c", null ],
     [ "ChipMdnsSetHostname", "_darwin_2_mdns_impl_8cpp.html#a49bd665343abea118d41b69f96604e37", null ],
     [ "ChipMdnsStopPublish", "_darwin_2_mdns_impl_8cpp.html#abb1a78179c950d386b70af49eb548e30", null ],
+    [ "ChipMdnsStopPublishService", "_darwin_2_mdns_impl_8cpp.html#ad6fb23a7eb8e61f9c3982ec36ec27f9a", null ],
     [ "GetAddrInfo", "_darwin_2_mdns_impl_8cpp.html#a943317ae194461601f1770a3017eb71d", null ],
     [ "OnBrowse", "_darwin_2_mdns_impl_8cpp.html#ac7ace6d1b68f568aaf179e03c3fe1b18", null ],
     [ "OnBrowseAdd", "_darwin_2_mdns_impl_8cpp.html#a2b32da798e38385a18b991d823f9ddfb", null ],

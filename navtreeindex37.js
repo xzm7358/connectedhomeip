@@ -1,5 +1,10 @@
 var NAVTREEINDEX37 =
 {
+"classmdns_1_1_minimal_1_1_server_delegate.html#ad31b9ebaaa811bd95c9d546193049f6d":[10,0,3,0,34,1],
+"classmdns_1_1_minimal_1_1_srv_record.html":[10,0,3,0,35],
+"classmdns_1_1_minimal_1_1_srv_record.html#a0da6828c6f1c1f4d71534a81ed0174c2":[10,0,3,0,35,5],
+"classmdns_1_1_minimal_1_1_srv_record.html#a3cc4000d44a17a1e4724202a5443a234":[10,0,3,0,35,3],
+"classmdns_1_1_minimal_1_1_srv_record.html#a58a3d4ed33a0744114dd0694a6db5a95":[10,0,3,0,35,1],
 "classmdns_1_1_minimal_1_1_srv_record.html#a6ea433672d42553c61e0dafde9216d31":[10,0,3,0,35,4],
 "classmdns_1_1_minimal_1_1_srv_record.html#a9cbdf8e07ecdafa467f4f89fcea8f072":[10,0,3,0,35,0],
 "classmdns_1_1_minimal_1_1_srv_record.html#ae576f91587bad07eb74386eab75e58a3":[10,0,3,0,35,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX37 =
 "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a6e270595bcf5e796a112e5fab09ed09d":[10,0,1,28,0,0,5],
 "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a79cc7bfce21e26444af41f33111a90de":[10,0,1,28,0,0,3],
 "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#aabdb55e30226beb679301470b5188d66":[10,0,1,28,0,0,4],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#ab790fda760e82cbd2878efd8dceb12c1":[10,0,1,28,0,0,0],
-"exceptions_2____init_____8py.html":[11,0,1,1,0,3,0],
-"exceptions_2____init_____8py.html#ab426b82afb0c974b0f0a5cf1e4c9d940":[11,0,1,1,0,3,0,9],
-"files.html":[11,0],
-"freertos__bluetooth_8c.html":[11,0,7,2,17],
-"freertos__bluetooth_8c.html#a0924bb7b32a34eb411ad1a42268ec597":[11,0,7,2,17,4]
+"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#ab790fda760e82cbd2878efd8dceb12c1":[10,0,1,28,0,0,0]
 };

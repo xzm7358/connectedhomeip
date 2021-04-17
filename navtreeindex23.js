@@ -1,5 +1,10 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_window_covering_cluster.html#a5da77ee70a2c9b35f943a7b4949e4617":[10,0,1,11,36,12],
+"classchip_1_1_controller_1_1_window_covering_cluster.html#a6a17f199efbede5c695ad19b38a4116f":[10,0,1,11,36,22],
+"classchip_1_1_controller_1_1_window_covering_cluster.html#a6d39ed6e08f4c89aad86f5ca643202b8":[10,0,1,11,36,18],
+"classchip_1_1_controller_1_1_window_covering_cluster.html#a6eddf737c5d247f26f97162c7f432bd9":[10,0,1,11,36,5],
+"classchip_1_1_controller_1_1_window_covering_cluster.html#a72460d5fd8a2e00ba5a0b26e684af0a4":[10,0,1,11,36,14],
 "classchip_1_1_controller_1_1_window_covering_cluster.html#a8906681168a657d4b369c83578ef1744":[10,0,1,11,36,16],
 "classchip_1_1_controller_1_1_window_covering_cluster.html#a9288ad0401e892d407bcd328900ea197":[10,0,1,11,36,28],
 "classchip_1_1_controller_1_1_window_covering_cluster.html#a94de6bccc602a45a4a9932dfe62d8a93":[10,0,1,11,36,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a0ac95729d727c9c843be57ff88a548c0":[10,0,1,14,10,36],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a14077697a5a181ed13f2517690a97826":[10,0,1,14,10,40],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a142c61165440da94fdba301134e85317":[10,0,1,14,10,32],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a14e7fed53e726d148cd8c370c68770b6":[10,0,1,14,10,15],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a1b29d4f3c8962c58f7b5b673dfe2f697":[10,0,1,14,10,13],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a1bdf5d090e8e56dc565a02d0f233a254":[10,0,1,14,10,23],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a1f5f1c0a63ef3b8ad489936b8d58948c":[10,0,1,14,10,43],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a26e5615d61d76ce69190d7b2d08763ec":[10,0,1,14,10,58],
-"classchip_1_1_device_layer_1_1_connectivity_manager.html#a29db33eafac133dd0e4cd77bcc74abca":[10,0,1,14,10,21]
+"classchip_1_1_device_layer_1_1_connectivity_manager.html#a14e7fed53e726d148cd8c370c68770b6":[10,0,1,14,10,15]
 };
