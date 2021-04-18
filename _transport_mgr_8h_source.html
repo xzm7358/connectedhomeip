@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">381440f</span>
+   &#160;<span id="projectnumber">88780da</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('_transport_mgr_8h_source.html',''); in
 <div class="contents">
 <a href="_transport_mgr_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *    Copyright (c) 2020 Project CHIP Authors</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *    Copyright (c) 2020-2021 Project CHIP Authors</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *    Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *    you may not use this file except in compliance with the License.</span></div>
@@ -132,39 +132,34 @@ $(document).ready(function(){initNavTree('_transport_mgr_8h_source.html',''); in
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr.html#a463977773e58d86267247596c945e1d2">   63</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_mgr.html#a463977773e58d86267247596c945e1d2">Init</a>(Args &amp;&amp;... transportInitArgs)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> = <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> = mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">Init</a>(<span class="keyword">this</span>, std::forward&lt;Args&gt;(transportInitArgs)...);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        SuccessOrExit(<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> = <a class="code" href="classchip_1_1_transport_mgr_base.html#a7918a7a0cf1b202ec1171b93c2793988">TransportMgrBase::Init</a>(&amp;mTransport);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    exit:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">   75</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">ResetTransport</a>(Args &amp;&amp;... transportInitArgs)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        ReturnErrorOnFailure(mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">Init</a>(<span class="keyword">this</span>, std::forward&lt;Args&gt;(transportInitArgs)...));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classchip_1_1_transport_mgr_base.html#a7918a7a0cf1b202ec1171b93c2793988">TransportMgrBase::Init</a>(&amp;mTransport);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">   70</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">ResetTransport</a>(Args &amp;&amp;... transportInitArgs)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">Init</a>(<span class="keyword">this</span>, std::forward&lt;Args&gt;(transportInitArgs)...);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">   75</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">Close</a>()</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">Init</a>(<span class="keyword">this</span>, std::forward&lt;Args&gt;(transportInitArgs)...);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">   80</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">Close</a>()</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="classchip_1_1_transport_mgr_base.html#ab0e5647d6f60186d864cb8d7d9038357">TransportMgrBase::Close</a>();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#aefe1d82729601209b92cfc2ef6e71913">Close</a>();</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    };</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="classchip_1_1_transport_1_1_tuple.html">Transport::Tuple</a>&lt;TransportTypes...&gt; mTransport;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classchip_1_1_transport_mgr_base.html#ab0e5647d6f60186d864cb8d7d9038357">TransportMgrBase::Close</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        mTransport.<a class="code" href="classchip_1_1_transport_1_1_tuple.html#aefe1d82729601209b92cfc2ef6e71913">Close</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="classchip_1_1_transport_1_1_tuple.html">Transport::Tuple</a>&lt;TransportTypes...&gt; mTransport;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;};</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_tuple_8h_html"><div class="ttname"><a href="_tuple_8h.html">Tuple.h</a></div></div>
-<div class="ttc" id="aclasschip_1_1_transport_mgr_html_aa4709de42037fea62bc10509c038eb29"><div class="ttname"><a href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">chip::TransportMgr::ResetTransport</a></div><div class="ttdeci">CHIP_ERROR ResetTransport(Args &amp;&amp;... transportInitArgs)</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:75</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_mgr_html_aa4709de42037fea62bc10509c038eb29"><div class="ttname"><a href="classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29">chip::TransportMgr::ResetTransport</a></div><div class="ttdeci">CHIP_ERROR ResetTransport(Args &amp;&amp;... transportInitArgs)</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:70</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html">chip::Transport::PeerAddress</a></div><div class="ttdoc">Describes how a peer on a CHIP network can be addressed.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:57</div></div>
 <div class="ttc" id="a_message_header_8h_html"><div class="ttname"><a href="_message_header_8h.html">MessageHeader.h</a></div></div>
-<div class="ttc" id="aclasschip_1_1_transport_mgr_html_af14888e04366eb7ecaab52a5d1ef98e6"><div class="ttname"><a href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">chip::TransportMgr::Close</a></div><div class="ttdeci">void Close()</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:80</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_mgr_html_af14888e04366eb7ecaab52a5d1ef98e6"><div class="ttname"><a href="classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6">chip::TransportMgr::Close</a></div><div class="ttdeci">void Close()</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:75</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_aefe1d82729601209b92cfc2ef6e71913"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#aefe1d82729601209b92cfc2ef6e71913">chip::Transport::Tuple::Close</a></div><div class="ttdeci">void Close() override</div><div class="ttdoc">Close the open endpoint without destroying the object.</div><div class="ttdef"><b>Definition:</b> Tuple.h:93</div></div>
 <div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
@@ -172,7 +167,6 @@ $(document).ready(function(){initNavTree('_transport_mgr_8h_source.html',''); in
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_handle_html"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a></div><div class="ttdoc">Tracks ownership of a PacketBuffer.</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:425</div></div>
 <div class="ttc" id="a_peer_address_8h_html"><div class="ttname"><a href="_peer_address_8h.html">PeerAddress.h</a></div></div>
 <div class="ttc" id="a_base_8h_html"><div class="ttname"><a href="_base_8h.html">Base.h</a></div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:267</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_delegate_html"><div class="ttname"><a href="classchip_1_1_transport_mgr_delegate.html">chip::TransportMgrDelegate</a></div><div class="ttdef"><b>Definition:</b> TransportMgr.h:42</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_delegate_html_a9e11bd7dc7218c92b84839fb196fa1be"><div class="ttname"><a href="classchip_1_1_transport_mgr_delegate.html#a9e11bd7dc7218c92b84839fb196fa1be">chip::TransportMgrDelegate::OnMessageReceived</a></div><div class="ttdeci">virtual void OnMessageReceived(const PacketHeader &amp;header, const Transport::PeerAddress &amp;source, System::PacketBufferHandle msgBuf)=0</div><div class="ttdoc">Handle received secure message.</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
@@ -184,14 +178,13 @@ $(document).ready(function(){initNavTree('_transport_mgr_8h_source.html',''); in
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a7d50ebb0e337838909f0e7eb86a833e3"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">chip::Transport::Tuple::Init</a></div><div class="ttdeci">CHIP_ERROR Init(RawTransportDelegate *delegate, Args &amp;&amp;... args)</div><div class="ttdoc">Initialization method that forwards arguments for initialization to each of the underlying transports...</div><div class="ttdef"><b>Definition:</b> Tuple.h:106</div></div>
 <div class="ttc" id="a_transport_mgr_base_8h_html"><div class="ttname"><a href="_transport_mgr_base_8h.html">TransportMgrBase.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_html_a463977773e58d86267247596c945e1d2"><div class="ttname"><a href="classchip_1_1_transport_mgr.html#a463977773e58d86267247596c945e1d2">chip::TransportMgr::Init</a></div><div class="ttdeci">CHIP_ERROR Init(Args &amp;&amp;... transportInitArgs)</div><div class="ttdef"><b>Definition:</b> TransportMgr.h:63</div></div>
-<div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
 <div class="ttc" id="aclasschip_1_1_packet_header_html"><div class="ttname"><a href="classchip_1_1_packet_header.html">chip::PacketHeader</a></div><div class="ttdoc">Handles encoding/decoding of CHIP packet message headers.</div><div class="ttdef"><b>Definition:</b> MessageHeader.h:112</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_mgr_base_html"><div class="ttname"><a href="classchip_1_1_transport_mgr_base.html">chip::TransportMgrBase</a></div><div class="ttdef"><b>Definition:</b> TransportMgrBase.h:33</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_transport_mgr_8h.html">TransportMgr.h</a></li>
-    <li class="footer">Generated on Sat Apr 17 2021 16:18:35 for Connected Home over IP by
+    <li class="footer">Generated on Sun Apr 18 2021 03:24:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
