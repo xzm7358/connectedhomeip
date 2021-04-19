@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a3f63b56a8cf7cb9b20a7bf6a5c096ba4":[10,0,1,11,35,17],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a4aa58faf127845366d9c20791d85d46a":[10,0,1,11,35,10],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d":[10,0,1,11,35,7],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a5856575e3a362431d010560ce6acf689":[10,0,1,11,35,14],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a58640190f7a56f6582c3a264622d6c5c":[10,0,1,11,35,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_configuration_manager.html#ae7d4b0541fb8d1a66c695eb340f3a6b6":[10,0,1,14,8,63],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#af03e5836cd0b75ba950214bce8343b39":[10,0,1,14,8,19],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#af35b6368d5f4b08c87f43b277b1154fd":[10,0,1,14,8,38],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#af36170a64016212dcc5916a4b6381bb0":[10,0,1,14,8,33],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#af603ef0f501f2010a1baaea92988b572":[10,0,1,14,8,39],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#afde47e3f9692b1b383e8d94ead3667b0":[10,0,1,14,8,34]
+"classchip_1_1_device_layer_1_1_configuration_manager.html#af36170a64016212dcc5916a4b6381bb0":[10,0,1,14,8,33]
 };

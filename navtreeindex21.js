@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"classchip_1_1_chip_key_id.html#abef21cf78178b62b6a8e588642b5f7ac":[10,0,1,45,40],
+"classchip_1_1_chip_key_id.html#ac67ab3eb51a2a7b00fe0ca2b63462f36":[10,0,1,45,19],
 "classchip_1_1_chip_key_id.html#ac870b5892fc13bd280cd2d38bdb042ca":[10,0,1,45,43],
 "classchip_1_1_chip_key_id.html#ac8f7304c6afbc5f209a58db04c2956a3":[10,0,1,45,25],
 "classchip_1_1_chip_key_id.html#ac8fa2edd6e546cacab610e252fb8a139":[10,0,1,45,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "classchip_1_1_controller_1_1_device_commissioner.html#a48cbff0c06e1ce0b5c5338bb87a899f0":[10,0,1,11,11,4],
 "classchip_1_1_controller_1_1_device_commissioner.html#a7e1458418c9dabb719c8ed88f9093e99":[10,0,1,11,11,0],
 "classchip_1_1_controller_1_1_device_commissioner.html#a7fe5bc27b70fc1fd995413f6887d0043":[10,0,1,11,11,11],
-"classchip_1_1_controller_1_1_device_commissioner.html#a7ffddb8a51f89ebd8250d1caecb668b9":[10,0,1,11,11,2],
-"classchip_1_1_controller_1_1_device_commissioner.html#a86dae0f1207231535653ed9c42394045":[10,0,1,11,11,6],
-"classchip_1_1_controller_1_1_device_commissioner.html#aa92108d488c7f055b407bddb9abde494":[10,0,1,11,11,7]
+"classchip_1_1_controller_1_1_device_commissioner.html#a7ffddb8a51f89ebd8250d1caecb668b9":[10,0,1,11,11,2]
 };

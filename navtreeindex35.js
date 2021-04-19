@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5a161d22cc0f556431b22f75960039c9":[10,0,1,10,0,0,65],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5cc490cdbafe2ac60de7d2497f96a5f0":[10,0,1,10,0,0,115],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5fa616ce8f976b6df910ba254b2982c6":[10,0,1,10,0,0,171],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5fbfc4e7c33b252cd40991b7bdc0a165":[10,0,1,10,0,0,82],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a605f1bc56dc27d7adde38d791a159684":[10,0,1,10,0,0,57],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classchip_1_1exceptions_1_1_device_error.html#af0cddcac4927e8497295de712a6a4480":[10,0,1,17,3,5],
 "classchip_1_1exceptions_1_1_invalid_argument_count.html":[10,0,1,17,4],
 "classchip_1_1exceptions_1_1_invalid_argument_count.html#a29ab3bc493499445836e4c47b17bfcc3":[10,0,1,17,4,2],
-"classchip_1_1exceptions_1_1_invalid_argument_count.html#a59b0ea296d2cab84ecaf3f6bfa7d9360":[10,0,1,17,4,3],
-"classchip_1_1exceptions_1_1_invalid_argument_count.html#a95e9287cfda4d863fe4840adcebbf744":[10,0,1,17,4,0],
-"classchip_1_1exceptions_1_1_invalid_argument_count.html#ab7332ce5baefff2b54b9977ade2ca3fe":[10,0,1,17,4,1]
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a59b0ea296d2cab84ecaf3f6bfa7d9360":[10,0,1,17,4,3]
 };

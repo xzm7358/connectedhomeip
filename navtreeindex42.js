@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3b617f863c1d6cff505c4bf15738b4b0":[11,0,1,1,0,1,1,82],
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a40496fb7f5457802f5f8964942716d5c":[11,0,1,1,0,1,1,9],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a41cc39f91a9f67ffd63b2f6a11506dbe":[11,0,1,1,0,1,1,58],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a42765a593a6c7972bc26106741c256a5":[11,0,1,1,0,1,1,114],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a4307126f007431379e64b3fc64e4441c":[11,0,1,1,0,1,1,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a720046b9468b5c3bc4930d74e070235c":[11,0,7,10,5,2],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a77341573532803679ccbd564e0f2542a":[11,0,7,10,5,33],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a7ac5617767de0ed14976fb3b042e4280":[11,0,7,10,5,44],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#a7cec7f627dd41dee5328e4575855366b":[11,0,7,10,5,17],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#a82faaf02749c6bcf78ea079d4e017c13":[11,0,7,10,5,31],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#a8867aa7a26debef00255a559ec087f01":[11,0,7,10,5,43]
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a7cec7f627dd41dee5328e4575855366b":[11,0,7,10,5,17]
 };

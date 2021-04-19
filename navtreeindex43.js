@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a82faaf02749c6bcf78ea079d4e017c13":[11,0,7,10,5,31],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a8867aa7a26debef00255a559ec087f01":[11,0,7,10,5,43],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a88c111bb4451c24c5efc9db2cd244d6b":[11,0,7,10,5,25],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a8918057a248c253a311c7e9e67754057":[11,0,7,10,5,11],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a90e732b8888318763da3d6499a1e2981":[11,0,7,10,5,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "structchip_1_1_crypto_1_1_entropy_context.html#a6c45107c6d9d823f02d91c9583abc97a":[10,0,1,12,3,2],
 "structchip_1_1_crypto_1_1_entropy_context.html#aafe492e18fec07a3aa81c27efaa00c99":[10,0,1,12,3,0],
 "structchip_1_1_crypto_1_1_entropy_context.html#ab0e8fc6b4ffab1ed598b9b90d687d4e9":[10,0,1,12,3,3],
-"structchip_1_1_crypto_1_1_entropy_context.html#ac1b7f8954e031dbd4b7f5daceb46e89a":[10,0,1,12,3,1],
-"structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html":[10,0,1,12,5],
-"structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html#aa826d754483a782e7bbddcb1ed23d30b":[10,0,1,12,5,0]
+"structchip_1_1_crypto_1_1_entropy_context.html#ac1b7f8954e031dbd4b7f5daceb46e89a":[10,0,1,12,3,1]
 };
