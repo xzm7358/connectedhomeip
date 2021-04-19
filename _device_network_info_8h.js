@@ -18,13 +18,6 @@ var _device_network_info_8h =
       [ "kWiFiSecurityType_WPA3Enterprise", "_device_network_info_8h.html#ae92a234aed871b8200bddbc81d16d10ca3a6c2e009e79b23a8619e8a089d6c703", null ],
       [ "kWiFiSecurityType_WPA3MixedEnterprise", "_device_network_info_8h.html#ae92a234aed871b8200bddbc81d16d10ca5ffad00d1b8f5e38bc7cfcb011b37865", null ]
     ] ],
-    [ "kMaxThreadNetworkNameLength", "_device_network_info_8h.html#a196b2ff8b8291bcc39def7faa6297b31", null ],
     [ "kMaxWiFiKeyLength", "_device_network_info_8h.html#ae0aeec670bbddfcf5cd5b50590e02603", null ],
-    [ "kMaxWiFiSSIDLength", "_device_network_info_8h.html#ae03c77de98cc199fca920bfa91ae552a", null ],
-    [ "kThreadChannel_NotSpecified", "_device_network_info_8h.html#aa0ee48471900dc5daa816e81913dd5e3", null ],
-    [ "kThreadExtendedPANIdLength", "_device_network_info_8h.html#afeeef93be7a77cb14caa9785e981710a", null ],
-    [ "kThreadMasterKeyLength", "_device_network_info_8h.html#a05fd32f22ad70d0a79808658a92fbdda", null ],
-    [ "kThreadMeshPrefixLength", "_device_network_info_8h.html#a5f4af9c37ff5bc2cec11dd2ffa2aefb4", null ],
-    [ "kThreadPANId_NotSpecified", "_device_network_info_8h.html#a23c07b66fefe5553b9ebf5584b56dff1", null ],
-    [ "kThreadPSKcLength", "_device_network_info_8h.html#a75dbcd1ed25ebc4c8c542865d4a3ae82", null ]
+    [ "kMaxWiFiSSIDLength", "_device_network_info_8h.html#ae03c77de98cc199fca920bfa91ae552a", null ]
 ];

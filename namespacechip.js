@@ -32,6 +32,7 @@ var namespacechip =
     [ "SetupPayloadData", "namespacechip_1_1_setup_payload_data.html", "namespacechip_1_1_setup_payload_data" ],
     [ "Shell", "namespacechip_1_1_shell.html", "namespacechip_1_1_shell" ],
     [ "System", "namespacechip_1_1_system.html", "namespacechip_1_1_system" ],
+    [ "Thread", "namespacechip_1_1_thread.html", "namespacechip_1_1_thread" ],
     [ "Time", "namespacechip_1_1_time.html", "namespacechip_1_1_time" ],
     [ "TLV", "namespacechip_1_1_t_l_v.html", "namespacechip_1_1_t_l_v" ],
     [ "tlv", "namespacechip_1_1tlv.html", "namespacechip_1_1tlv" ],

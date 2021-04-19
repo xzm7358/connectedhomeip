@@ -1,0 +1,26 @@
+var classchip_1_1_thread_1_1_operational_dataset =
+[
+    [ "AsByteSpan", "classchip_1_1_thread_1_1_operational_dataset.html#a0f432b21c96f93390df1b7cab6cb751a", null ],
+    [ "Clear", "classchip_1_1_thread_1_1_operational_dataset.html#a4fec45e95a689f009177644fec973de9", null ],
+    [ "GetActiveTimestamp", "classchip_1_1_thread_1_1_operational_dataset.html#a2086b0f99e327195930806a1bb1ada5c", null ],
+    [ "GetChannel", "classchip_1_1_thread_1_1_operational_dataset.html#a16e49bf8a6a3080c992960a5ec82c122", null ],
+    [ "GetExtendedPanId", "classchip_1_1_thread_1_1_operational_dataset.html#abb92a48b6a18b5bac7200df1d175b4ad", null ],
+    [ "GetMasterKey", "classchip_1_1_thread_1_1_operational_dataset.html#a1b7d94bf5ace2b83bc46afe540f5353c", null ],
+    [ "GetMeshLocalPrefix", "classchip_1_1_thread_1_1_operational_dataset.html#a1c6c0bc1f1329192a6034dde8cafc6d3", null ],
+    [ "GetNetworkName", "classchip_1_1_thread_1_1_operational_dataset.html#a0c2d6352dac21a03778db9f626794e6b", null ],
+    [ "GetPanId", "classchip_1_1_thread_1_1_operational_dataset.html#aa3b1595b15260215fee02639a3814659", null ],
+    [ "GetPSKc", "classchip_1_1_thread_1_1_operational_dataset.html#a73c8f1e8951e00103beab8c15d890731", null ],
+    [ "Init", "classchip_1_1_thread_1_1_operational_dataset.html#a75fb014630616c7a945fefe53fac971f", null ],
+    [ "IsCommissioned", "classchip_1_1_thread_1_1_operational_dataset.html#ab05f8277e6ee544f3dbd16040c17e1cd", null ],
+    [ "IsValid", "classchip_1_1_thread_1_1_operational_dataset.html#aabd1d2996b88194d4f222dafe5b4a66e", null ],
+    [ "SetActiveTimestamp", "classchip_1_1_thread_1_1_operational_dataset.html#a7f542c11406eb1642eebe4b1ab78e678", null ],
+    [ "SetChannel", "classchip_1_1_thread_1_1_operational_dataset.html#ab94d10e6246dbe62a5fca321cf57115a", null ],
+    [ "SetExtendedPanId", "classchip_1_1_thread_1_1_operational_dataset.html#af16580e82e9c1a9d73d2e26e94d012e1", null ],
+    [ "SetMasterKey", "classchip_1_1_thread_1_1_operational_dataset.html#a426b19cda3e50a645db4f91dbe07abe1", null ],
+    [ "SetMeshLocalPrefix", "classchip_1_1_thread_1_1_operational_dataset.html#a9b448b0ea3b392c6feba9f518ab9e1d3", null ],
+    [ "SetNetworkName", "classchip_1_1_thread_1_1_operational_dataset.html#a3b5961a4d273b8c9c7b4961da0ede3c5", null ],
+    [ "SetPanId", "classchip_1_1_thread_1_1_operational_dataset.html#a1f7569a3d5bf9dcbb8dea5c876e32b35", null ],
+    [ "SetPSKc", "classchip_1_1_thread_1_1_operational_dataset.html#ab35bf14be528f1ec3a60436447f38e05", null ],
+    [ "UnsetMasterKey", "classchip_1_1_thread_1_1_operational_dataset.html#ac0061ad9fb8f0900bc50e838993f6ef4", null ],
+    [ "UnsetPSKc", "classchip_1_1_thread_1_1_operational_dataset.html#a0f260b178949fbdbc8b13dce9408a957", null ]
+];

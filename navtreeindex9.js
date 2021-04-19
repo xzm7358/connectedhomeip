@@ -1,9 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"_e_f_r32_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1":[11,0,7,2,31,12],
-"_e_f_r32_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df":[11,0,7,2,31,11],
-"_e_f_r32_2_system_platform_config_8h.html#a7b570488a2ada169b2bc4bd659a8d05f":[11,0,7,2,31,0],
-"_e_f_r32_2_system_platform_config_8h.html#a93e1fcb0afbdb506332036a03a348f68":[11,0,7,2,31,6],
 "_e_f_r32_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9":[11,0,7,2,31,8],
 "_e_f_r32_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,2,31,4],
 "_e_f_r32_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc":[11,0,7,2,31,3],
@@ -119,7 +115,7 @@ var NAVTREEINDEX9 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcd348c4551d05c630645358da5b24ac":[11,0,7,3,4,13],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,3,4],
 "_e_s_p32_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,3,5],
-"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html#a0f5feb11e86368b013de4263651d5229a69c31bbb7024ed3f0c39125dbc83edf7":[11,0,7,3,5,1],
+"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html#a845eb72aa42125e121e19926dc40431da69c31bbb7024ed3f0c39125dbc83edf7":[11,0,7,3,5,1],
 "_e_s_p32_2_c_h_i_p_device_platform_event_8h_source.html":[11,0,7,3,5],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html":[11,0,7,3,6],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#a044568a3a1869d82f844bb3ae592908d":[11,0,7,3,6,44],
@@ -249,5 +245,9 @@ var NAVTREEINDEX9 =
 "_e_s_p32_2_system_time_support_8cpp.html":[11,0,7,3,33],
 "_e_s_p32_2_system_time_support_8cpp.html#a16f2a1b2fc0d717028452a2115d40619":[11,0,7,3,33,4],
 "_e_s_p32_2_system_time_support_8cpp.html#a1d4bafb6d485dd84d5e1094ff0fa6c0b":[11,0,7,3,33,3],
-"_e_s_p32_2_system_time_support_8cpp.html#a2685a1be7eb20ad425c4be2571582ae9":[11,0,7,3,33,2]
+"_e_s_p32_2_system_time_support_8cpp.html#a2685a1be7eb20ad425c4be2571582ae9":[11,0,7,3,33,2],
+"_e_s_p32_2_system_time_support_8cpp.html#a3951b627d3825489d276ee7aef5a95d6":[11,0,7,3,33,1],
+"_e_s_p32_2_system_time_support_8cpp.html#a3c48058dcc8a3026f616e3868aa3201e":[11,0,7,3,33,0],
+"_e_s_p32_2_system_time_support_8cpp.html#aa46848ca7d4fdc8ad8ce933ea8ebedf3":[11,0,7,3,33,5],
+"_e_s_p32_2_warm_platform_config_8h.html":[11,0,7,3,34]
 };

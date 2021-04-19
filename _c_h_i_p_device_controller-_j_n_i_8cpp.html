@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">994e13c</span>
+   &#160;<span id="projectnumber">3bb3bb9</span>
    </div>
   </td>
  </tr>
@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller-_j_n_i_8cpp
 <code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_error_str_8h_source.html">support/ErrorStr.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_safe_int_8h_source.html">support/SafeInt.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_thread_operational_dataset_8h_source.html">support/ThreadOperationalDataset.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_logging_8h_source.html">support/logging/CHIPLogging.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -181,14 +182,26 @@ Functions</h2></td></tr>
 <tr class="separator:a98de22b97646ac76043111b78b7ef1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c809c3e2de5e53b75aecbe2e7c91500"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6c809c3e2de5e53b75aecbe2e7c91500">VerifyOrReturn</a> (CanCastTo&lt; uint16_t &gt;(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a>), <a class="el" href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a>(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;sendThreadCredentials() called with invalid PAN ID&quot;))</td></tr>
 <tr class="separator:a6c809c3e2de5e53b75aecbe2e7c91500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef2d7903b09612591f6dcafe3de48964"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aef2d7903b09612591f6dcafe3de48964">VerifyOrReturn</a> (xpanIdBytes.size()&lt;=static_cast&lt; jsize &gt;(kThreadExtendedPANIdLength), <a class="el" href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a>(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;sendThreadCredentials() called with invalid XPAN ID&quot;))</td></tr>
-<tr class="separator:aef2d7903b09612591f6dcafe3de48964"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae977ba3e6e454b4b410dad9c1617ce6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae977ba3e6e454b4b410dad9c1617ce6b">VerifyOrReturn</a> (masterKeyBytes.size()&lt;=static_cast&lt; jsize &gt;(kThreadMasterKeyLength), <a class="el" href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a>(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;sendThreadCredentials() called with invalid Master Key&quot;))</td></tr>
-<tr class="separator:ae977ba3e6e454b4b410dad9c1617ce6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab52833322402f0f0f1cb68f5ee5d1292"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292">memcpy</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aff1552ca15fe498f47f171ef0402dbda">threadData.ThreadExtendedPANId</a>, xpanIdBytes.data(), xpanIdBytes.size())</td></tr>
-<tr class="separator:ab52833322402f0f0f1cb68f5ee5d1292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8acbbb5bca8839d3bd13fa1b35e6c42e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8acbbb5bca8839d3bd13fa1b35e6c42e">memcpy</a> (threadData.ThreadMasterKey, masterKeyBytes.data(), masterKeyBytes.size())</td></tr>
-<tr class="separator:a8acbbb5bca8839d3bd13fa1b35e6c42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03e3c34b031e8c97af9321a07df8628f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a03e3c34b031e8c97af9321a07df8628f">VerifyOrReturn</a> (xpanIdBytes.size()==static_cast&lt; jsize &gt;(Thread::kSizeExtendedPanId), <a class="el" href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a>(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;sendThreadCredentials() called with invalid XPAN ID&quot;))</td></tr>
+<tr class="separator:a03e3c34b031e8c97af9321a07df8628f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572c974333d51cc75265551fd53e9b7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a572c974333d51cc75265551fd53e9b7b">VerifyOrReturn</a> (masterKeyBytes.size()==static_cast&lt; jsize &gt;(Thread::kSizeMasterKey), <a class="el" href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a>(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;sendThreadCredentials() called with invalid Master Key&quot;))</td></tr>
+<tr class="separator:a572c974333d51cc75265551fd53e9b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e83585ec3df78af7250e010b5eeb7ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5e83585ec3df78af7250e010b5eeb7ce">SetChannel</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af3965ccdfc573b047dd5a95c7fe3022d">channel</a>)</td></tr>
+<tr class="separator:a5e83585ec3df78af7250e010b5eeb7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9256e4bf1da81cdc1815ffa50074a59d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9256e4bf1da81cdc1815ffa50074a59d">SetPanId</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a>)</td></tr>
+<tr class="separator:a9256e4bf1da81cdc1815ffa50074a59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7f09f6af8f5b0af2147d27e188dbc5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a> (networkName, sizeof(networkName), &quot;CHIP-%04X&quot;, panId)</td></tr>
+<tr class="separator:a4f7f09f6af8f5b0af2147d27e188dbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516a193db8ef73bab228bcb5ceda9fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a516a193db8ef73bab228bcb5ceda9fdb">SetNetworkName</a> (networkName)</td></tr>
+<tr class="separator:a516a193db8ef73bab228bcb5ceda9fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12bb70935458b170959ae01b14e1672b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a12bb70935458b170959ae01b14e1672b">memcpy</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, masterKeyBytes.data(), sizeof(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>))</td></tr>
+<tr class="separator:a12bb70935458b170959ae01b14e1672b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a27867ab604d3499f510295dd456577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a7a27867ab604d3499f510295dd456577">SetMasterKey</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>)</td></tr>
+<tr class="separator:a7a27867ab604d3499f510295dd456577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7850fab0a524b7816e96157701403fa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a7850fab0a524b7816e96157701403fa3">memcpy</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, xpanIdBytes.data(), sizeof(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>))</td></tr>
+<tr class="separator:a7850fab0a524b7816e96157701403fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf07000ab54802e7c19c2ae145b5723f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aaf07000ab54802e7c19c2ae145b5723f">SetExtendedPanId</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>)</td></tr>
+<tr class="separator:aaf07000ab54802e7c19c2ae145b5723f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8e8104a7e57c555161dc07529635b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9e8e8104a7e57c555161dc07529635b2">JNI_METHOD</a> (void, pairTestDeviceWithoutSecurity)(JNIEnv *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></td></tr>
 <tr class="separator:a9e8e8104a7e57c555161dc07529635b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c18578d835c97afcd4d97943d1754b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac6c18578d835c97afcd4d97943d1754b">ChipLogProgress</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4">Controller</a>, &quot;pairTestDeviceWithoutSecurity() called with IP Address&quot;)</td></tr>
@@ -302,14 +315,8 @@ Variables</h2></td></tr>
 <tr class="separator:aa847d34db3a6477aecedcc7fcb3c0ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8546a5602a4dd981dbc514e03f5fab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_jni_byte_array.html">JniByteArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad8546a5602a4dd981dbc514e03f5fab9">masterKeyBytes</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acd151046870b67c43dcda6d101f9ec86">masterKey</a>)</td></tr>
 <tr class="separator:ad8546a5602a4dd981dbc514e03f5fab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca0306843079412fc25d994fca174a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_device_network_info.html">DeviceNetworkInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a> = {}</td></tr>
-<tr class="separator:aca0306843079412fc25d994fca174a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af86c131c603e040644f4a27dc53f7f1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af86c131c603e040644f4a27dc53f7f1b">ThreadChannel</a> = <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af3965ccdfc573b047dd5a95c7fe3022d">channel</a></td></tr>
-<tr class="separator:af86c131c603e040644f4a27dc53f7f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bc0150351c1e1d496eed993c75defd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6bc0150351c1e1d496eed993c75defd4">ThreadPANId</a> = <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a></td></tr>
-<tr class="separator:a6bc0150351c1e1d496eed993c75defd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff1552ca15fe498f47f171ef0402dbda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a> FieldPresent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aff1552ca15fe498f47f171ef0402dbda">ThreadExtendedPANId</a> = 1</td></tr>
-<tr class="separator:aff1552ca15fe498f47f171ef0402dbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e8a61bfc52d12b25e25e68e6918d37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_thread_1_1_operational_dataset.html">Thread::OperationalDataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> {}</td></tr>
+<tr class="separator:a16e8a61bfc52d12b25e25e68e6918d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab971036cc832f0c2855be0f3ba8deb10"><td class="memItemLeft" align="right" valign="top">ScopedPthreadLock lock &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab971036cc832f0c2855be0f3ba8deb10">sStackLock</a></td></tr>
 <tr class="separator:ab971036cc832f0c2855be0f3ba8deb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a362e3024c2c36a6b8bacba0873f6d144"><td class="memItemLeft" align="right" valign="top">jobject jlong jstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a362e3024c2c36a6b8bacba0873f6d144">deviceAddr</a></td></tr>
@@ -1927,8 +1934,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab52833322402f0f0f1cb68f5ee5d1292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52833322402f0f0f1cb68f5ee5d1292">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[1/2]</span></h2>
+<a id="a12bb70935458b170959ae01b14e1672b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12bb70935458b170959ae01b14e1672b">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1936,20 +1943,20 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">memcpy </td>
           <td>(</td>
-          <td class="paramtype">threadData.&#160;</td>
-          <td class="paramname"><em>ThreadExtendedPANId</em>, </td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>&#160;</td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">xpanIdBytes.&#160;</td>
+          <td class="paramtype">masterKeyBytes.&#160;</td>
           <td class="paramname"><em>data</em>(), </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">xpanIdBytes.&#160;</td>
-          <td class="paramname"><em>size</em>()&#160;</td>
+          <td class="paramtype">sizeof(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1961,8 +1968,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8acbbb5bca8839d3bd13fa1b35e6c42e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8acbbb5bca8839d3bd13fa1b35e6c42e">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[2/2]</span></h2>
+<a id="a7850fab0a524b7816e96157701403fa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7850fab0a524b7816e96157701403fa3">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1970,20 +1977,20 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">memcpy </td>
           <td>(</td>
-          <td class="paramtype">threadData.&#160;</td>
-          <td class="paramname"><em>ThreadMasterKey</em>, </td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>&#160;</td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">masterKeyBytes.&#160;</td>
+          <td class="paramtype">xpanIdBytes.&#160;</td>
           <td class="paramname"><em>data</em>(), </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">masterKeyBytes.&#160;</td>
-          <td class="paramname"><em>size</em>()&#160;</td>
+          <td class="paramtype">sizeof(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2201,6 +2208,136 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e83585ec3df78af7250e010b5eeb7ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e83585ec3df78af7250e010b5eeb7ce">&#9670;&nbsp;</a></span>SetChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> SetChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af3965ccdfc573b047dd5a95c7fe3022d">channel</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf07000ab54802e7c19c2ae145b5723f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf07000ab54802e7c19c2ae145b5723f">&#9670;&nbsp;</a></span>SetExtendedPanId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> SetExtendedPanId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a27867ab604d3499f510295dd456577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a27867ab604d3499f510295dd456577">&#9670;&nbsp;</a></span>SetMasterKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> SetMasterKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a516a193db8ef73bab228bcb5ceda9fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a516a193db8ef73bab228bcb5ceda9fdb">&#9670;&nbsp;</a></span>SetNetworkName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> SetNetworkName </td>
+          <td>(</td>
+          <td class="paramtype">networkName&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9256e4bf1da81cdc1815ffa50074a59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9256e4bf1da81cdc1815ffa50074a59d">&#9670;&nbsp;</a></span>SetPanId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a16e8a61bfc52d12b25e25e68e6918d37">dataset</a> SetPanId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f7f09f6af8f5b0af2147d27e188dbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f7f09f6af8f5b0af2147d27e188dbc5">&#9670;&nbsp;</a></span>snprintf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">snprintf </td>
+          <td>(</td>
+          <td class="paramtype">networkName&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sizeof(networkName)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;CHIP-%04X&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac303354bfa95266f9761161488814860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac303354bfa95266f9761161488814860">&#9670;&nbsp;</a></span>switch()</h2>
 
@@ -2329,8 +2466,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae977ba3e6e454b4b410dad9c1617ce6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae977ba3e6e454b4b410dad9c1617ce6b">&#9670;&nbsp;</a></span>VerifyOrReturn() <span class="overload">[3/4]</span></h2>
+<a id="a572c974333d51cc75265551fd53e9b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a572c974333d51cc75265551fd53e9b7b">&#9670;&nbsp;</a></span>VerifyOrReturn() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2339,7 +2476,7 @@ Variables</h2></td></tr>
           <td class="memname">VerifyOrReturn </td>
           <td>(</td>
           <td class="paramtype">masterKeyBytes.&#160;</td>
-          <td class="paramname"><em>size</em>)&lt;=static_cast&lt; jsize &gt;(kThreadMasterKeyLength, </td>
+          <td class="paramname"><em>size</em>() = <code>=static_cast&lt;&#160;jsize&#160;&gt;(Thread::kSizeMasterKey)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2357,8 +2494,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aef2d7903b09612591f6dcafe3de48964"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef2d7903b09612591f6dcafe3de48964">&#9670;&nbsp;</a></span>VerifyOrReturn() <span class="overload">[4/4]</span></h2>
+<a id="a03e3c34b031e8c97af9321a07df8628f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03e3c34b031e8c97af9321a07df8628f">&#9670;&nbsp;</a></span>VerifyOrReturn() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2367,7 +2504,7 @@ Variables</h2></td></tr>
           <td class="memname">VerifyOrReturn </td>
           <td>(</td>
           <td class="paramtype">xpanIdBytes.&#160;</td>
-          <td class="paramname"><em>size</em>)&lt;=static_cast&lt; jsize &gt;(kThreadExtendedPANIdLength, </td>
+          <td class="paramname"><em>size</em>() = <code>=static_cast&lt;&#160;jsize&#160;&gt;(Thread::kSizeExtendedPanId)</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2652,6 +2789,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">jobject jlong jlong jint connObj</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16e8a61bfc52d12b25e25e68e6918d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e8a61bfc52d12b25e25e68e6918d37">&#9670;&nbsp;</a></span>dataset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchip_1_1_thread_1_1_operational_dataset.html">Thread::OperationalDataset</a> dataset {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3133,62 +3284,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af86c131c603e040644f4a27dc53f7f1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af86c131c603e040644f4a27dc53f7f1b">&#9670;&nbsp;</a></span>ThreadChannel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a> ThreadChannel = <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af3965ccdfc573b047dd5a95c7fe3022d">channel</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca0306843079412fc25d994fca174a44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca0306843079412fc25d994fca174a44">&#9670;&nbsp;</a></span>threadData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_device_network_info.html">DeviceNetworkInfo</a> threadData = {}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff1552ca15fe498f47f171ef0402dbda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff1552ca15fe498f47f171ef0402dbda">&#9670;&nbsp;</a></span>ThreadExtendedPANId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a> FieldPresent ThreadExtendedPANId = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6bc0150351c1e1d496eed993c75defd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bc0150351c1e1d496eed993c75defd4">&#9670;&nbsp;</a></span>ThreadPANId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aca0306843079412fc25d994fca174a44">threadData</a> ThreadPANId = <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce">panId</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a930920b2bc42824a5c03be681830f4b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a930920b2bc42824a5c03be681830f4b2">&#9670;&nbsp;</a></span>true</h2>
 
@@ -3293,26 +3388,26 @@ Variables</h2></td></tr>
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacechip_1_1_device_layer_1_1_internal_html"><div class="ttname"><a href="namespacechip_1_1_device_layer_1_1_internal.html">chip::DeviceLayer::Internal</a></div><div class="ttdef"><b>Definition:</b> ConfigurationManager.h:42</div></div>
 <div class="ttc" id="a_ble_config_8h_html_a733cdf268d79c0e6edf76a3c2a809727"><div class="ttname"><a href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a></div><div class="ttdeci">#define BLE_CONNECTION_OBJECT</div><div class="ttdoc">This defines the type of BLE_CONNECTION_OBJECT parameters passed between BLE platform code and the Bl...</div><div class="ttdef"><b>Definition:</b> BleConfig.h:104</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ae3836345291c9268bfe537fefebf1081"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3836345291c9268bfe537fefebf1081">conn</a></div><div class="ttdeci">JNIEnv jobject jint conn</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:577</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ae3836345291c9268bfe537fefebf1081"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3836345291c9268bfe537fefebf1081">conn</a></div><div class="ttdeci">JNIEnv jobject jint conn</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:599</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a00524b6f9b75a2adfa57a7da9163480c"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a00524b6f9b75a2adfa57a7da9163480c">connObj</a></div><div class="ttdeci">jobject jlong jlong jint connObj</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:252</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a0c1b800f8e945f2a4544cb4008ffb418"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a></div><div class="ttdeci">System::PacketBufferHandle buffer</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:463</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a00524b6f9b75a2adfa57a7da9163480c"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a00524b6f9b75a2adfa57a7da9163480c">connObj</a></div><div class="ttdeci">jobject jlong jlong jint connObj</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:253</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a0c1b800f8e945f2a4544cb4008ffb418"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a></div><div class="ttdeci">System::PacketBufferHandle buffer</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:485</div></div>
 <div class="ttc" id="aclasschip_1_1_controller_1_1_device_html_aa92b0d9a494733b1c99532a28e89bb8e"><div class="ttname"><a href="classchip_1_1_controller_1_1_device.html#aa92b0d9a494733b1c99532a28e89bb8e">chip::Controller::Device::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(Protocols::Id protocolId, uint8_t msgType, System::PacketBufferHandle message)</div><div class="ttdoc">Send the provided message to the device.</div><div class="ttdef"><b>Definition:</b> CHIPDevice.cpp:68</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a32a32b86dffbaaf5cb24fd1760ac1a91"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91">handle</a></div><div class="ttdeci">jobject jlong handle</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:252</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ab971036cc832f0c2855be0f3ba8deb10"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab971036cc832f0c2855be0f3ba8deb10">sStackLock</a></div><div class="ttdeci">ScopedPthreadLock lock &amp; sStackLock</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:349</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:267</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9faecbe85c3fcba5affaecd64cbc9394"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9faecbe85c3fcba5affaecd64cbc9394">chipDevice</a></div><div class="ttdeci">Device * chipDevice</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:383</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a32a32b86dffbaaf5cb24fd1760ac1a91"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91">handle</a></div><div class="ttdeci">jobject jlong handle</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:253</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ab971036cc832f0c2855be0f3ba8deb10"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab971036cc832f0c2855be0f3ba8deb10">sStackLock</a></div><div class="ttdeci">ScopedPthreadLock lock &amp; sStackLock</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:371</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:268</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9faecbe85c3fcba5affaecd64cbc9394"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9faecbe85c3fcba5affaecd64cbc9394">chipDevice</a></div><div class="ttdeci">Device * chipDevice</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:405</div></div>
 <div class="ttc" id="aclass_jni_utf_string_html"><div class="ttname"><a href="class_jni_utf_string.html">JniUtfString</a></div><div class="ttdoc">Exposes the underlying UTF string from a jni string.</div><div class="ttdef"><b>Definition:</b> JniTypeWrappers.h:23</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_acae33846b7813fd5c41b31f9432990cb"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acae33846b7813fd5c41b31f9432990cb">pinCode</a></div><div class="ttdeci">jobject jlong jlong jint jlong pinCode</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:253</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_acae33846b7813fd5c41b31f9432990cb"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acae33846b7813fd5c41b31f9432990cb">pinCode</a></div><div class="ttdeci">jobject jlong jlong jint jlong pinCode</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:254</div></div>
 <div class="ttc" id="aclasschip_1_1_controller_1_1_device_html"><div class="ttname"><a href="classchip_1_1_controller_1_1_device.html">chip::Controller::Device</a></div><div class="ttdef"><b>Definition:</b> CHIPDevice.h:67</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9da6ff25c6c9b60f70461a9658d30f2e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></div><div class="ttdeci">JNIEnv * env</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:328</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ae993739fa1aaab9569e83bb7e06ca469"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae993739fa1aaab9569e83bb7e06ca469">ssid</a></div><div class="ttdeci">jobject jlong jstring ssid</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:315</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9da6ff25c6c9b60f70461a9658d30f2e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></div><div class="ttdeci">JNIEnv * env</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:329</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ae993739fa1aaab9569e83bb7e06ca469"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae993739fa1aaab9569e83bb7e06ca469">ssid</a></div><div class="ttdeci">jobject jlong jstring ssid</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:316</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_3ff1561482c489189ee255c04d29efa4.html">java</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html">CHIPDeviceController-JNI.cpp</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:09:01 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 15:15:40 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,5 +1,12 @@
 var NAVTREEINDEX21 =
 {
+"classchip_1_1_chip_stack_1_1_chip_stack.html#a6630e1cfbf6ed227fa703550ccd42b54":[10,0,1,8,1,12],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#a7a356f79da39e6def3da2aba4b3d3075":[10,0,1,8,1,15],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#a85aa87807d284be1ff38b44d15c8a836":[10,0,1,8,1,2],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#aa1e385629b1214c834f2a990330a28d9":[10,0,1,8,1,7],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#ab2e6e55fda61ab3d5bb3da4d12e81e99":[10,0,1,8,1,9],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#aba27fea3afe5fa0599caf2a43c620767":[10,0,1,8,1,13],
+"classchip_1_1_chip_stack_1_1_chip_stack.html#ad45d7a670a2073722fde71d96aa89676":[10,0,1,8,1,6],
 "classchip_1_1_chip_stack_1_1_chip_stack.html#ada3234b71f1d7b92e84b7ee311606b56":[10,0,1,8,1,11],
 "classchip_1_1_chip_stack_1_1_chip_stack.html#af076f0d35a6cb70b8a8192d7156daa02":[10,0,1,8,1,3],
 "classchip_1_1_chip_stack_1_1_chip_stack.html#af98fef8ffd9a4cf2335421ea3c05af6d":[10,0,1,8,1,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX21 =
 "classchip_1_1_controller_1_1_device_controller.html#a20011e300d00763eb58cbfb7d6de0455":[10,0,1,11,13,14],
 "classchip_1_1_controller_1_1_device_controller.html#a22402c3c247a2590c2775981d99748af":[10,0,1,11,13,31],
 "classchip_1_1_controller_1_1_device_controller.html#a3fe2148f4096a0b4e4f8864159253c07":[10,0,1,11,13,18],
-"classchip_1_1_controller_1_1_device_controller.html#a4269106935ac5a0340d23fa226b32a4e":[10,0,1,11,13,12],
-"classchip_1_1_controller_1_1_device_controller.html#a54e09ebc0cc8759b93202eee858d087a":[10,0,1,11,13,6],
-"classchip_1_1_controller_1_1_device_controller.html#a5b1aafa626affc3781e1e28fd694caf1":[10,0,1,11,13,29],
-"classchip_1_1_controller_1_1_device_controller.html#a6821389f0f9c5b392cb157b5a40bc165":[10,0,1,11,13,26],
-"classchip_1_1_controller_1_1_device_controller.html#a69600fa00b3c51cd6a5cd63aad9a1637":[10,0,1,11,13,16],
-"classchip_1_1_controller_1_1_device_controller.html#a6e729937b895a6e69fc9c52a256eae87":[10,0,1,11,13,8],
-"classchip_1_1_controller_1_1_device_controller.html#a7ef943f16778b2466a4637f89fce8767":[10,0,1,11,13,13],
-"classchip_1_1_controller_1_1_device_controller.html#a825c1956e2b8f9d2d6b0b32b5cc51400":[10,0,1,11,13,33]
+"classchip_1_1_controller_1_1_device_controller.html#a4269106935ac5a0340d23fa226b32a4e":[10,0,1,11,13,12]
 };

@@ -310,10 +310,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -394,6 +394,7 @@ var hierarchy =
     [ "chip::System::ObjectPool< chip::Inet::UDPEndPoint, INET_CONFIG_NUM_UDP_ENDPOINTS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::System::ObjectPool< chip::System::Timer, CHIP_SYSTEM_CONFIG_NUM_TIMERS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::Transport::OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", null ],
+    [ "chip::Thread::OperationalDataset", "classchip_1_1_thread_1_1_operational_dataset.html", null ],
     [ "chip::Optional< T >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< chip::Inet::IPAddress >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< const char * >", "classchip_1_1_optional.html", null ],
@@ -521,9 +522,9 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
@@ -565,6 +566,7 @@ var hierarchy =
     [ "chip::DeviceLayer::ThreadStackManager", "classchip_1_1_device_layer_1_1_thread_stack_manager.html", [
       [ "chip::DeviceLayer::ThreadStackManagerImpl", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html", null ]
     ] ],
+    [ "chip::Thread::ThreadTLV", "classchip_1_1_thread_1_1_thread_t_l_v.html", null ],
     [ "chip::Time::TimeSource< kSource >", "classchip_1_1_time_1_1_time_source.html", null ],
     [ "chip::Time::TimeSource< Source::kSystem >", "classchip_1_1_time_1_1_time_source_3_01_source_1_1k_system_01_4.html", null ],
     [ "chip::Time::TimeSource< Source::kTest >", "classchip_1_1_time_1_1_time_source_3_01_source_1_1k_test_01_4.html", null ],

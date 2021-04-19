@@ -1,9 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classchip_1_1_device_layer_1_1_time_sync_manager.html#a9a7d50620389fe7811f5f214cce8a2b2":[10,0,1,14,19,1],
-"classchip_1_1_device_layer_1_1_time_sync_manager.html#aab4efedc666ea89b201be84c10faee9d":[10,0,1,14,19,12],
-"classchip_1_1_device_layer_1_1_time_sync_manager.html#ab0c92090de4ae0173bba49375a214e65":[10,0,1,14,19,6],
-"classchip_1_1_device_layer_1_1_time_sync_manager.html#aba1e4c2bf066a5af54e6561c3f209279":[10,0,1,14,19,4],
 "classchip_1_1_device_layer_1_1_time_sync_manager.html#ac31a0df4105578f7404846c15568b820":[10,0,1,14,19,13],
 "classchip_1_1_encoding_1_1_big_endian_1_1_buffer_writer.html":[10,0,1,15,0,0],
 "classchip_1_1_encoding_1_1_big_endian_1_1_buffer_writer.html#a1fab17c1ef33c37fadc3dad79e1f4ce8":[10,0,1,15,0,0,1],
@@ -64,13 +60,13 @@ var NAVTREEINDEX29 =
 "classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#ae5be47ec7a9d1519d2c9f4837f43b3a0":[10,0,1,15,4,2],
 "classchip_1_1_encoding_1_1_packet_buffer_writer_util.html":[10,0,1,15,5],
 "classchip_1_1_encoding_1_1_packet_buffer_writer_util.html#af8bb36f998c658a0626324355e22a16f":[10,0,1,15,5,0],
-"classchip_1_1_encrypted_packet_buffer_handle.html":[10,0,1,46],
-"classchip_1_1_encrypted_packet_buffer_handle.html#a23eceeceb138d9128016551ae59b57e9":[10,0,1,46,3],
-"classchip_1_1_encrypted_packet_buffer_handle.html#a6b24a8dd76169410a42507a5b3b08622":[10,0,1,46,1],
-"classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405":[10,0,1,46,2],
-"classchip_1_1_encrypted_packet_buffer_handle.html#adcff0f83b2019f5254d56d84a03fdb6e":[10,0,1,46,0],
-"classchip_1_1_encrypted_packet_buffer_handle.html#af8ec0498cd33fb7635b7305227b2bd44":[10,0,1,46,5],
-"classchip_1_1_encrypted_packet_buffer_handle.html#affb3c453bb9c3c0bac76107967bce933":[10,0,1,46,4],
+"classchip_1_1_encrypted_packet_buffer_handle.html":[10,0,1,47],
+"classchip_1_1_encrypted_packet_buffer_handle.html#a23eceeceb138d9128016551ae59b57e9":[10,0,1,47,3],
+"classchip_1_1_encrypted_packet_buffer_handle.html#a6b24a8dd76169410a42507a5b3b08622":[10,0,1,47,1],
+"classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405":[10,0,1,47,2],
+"classchip_1_1_encrypted_packet_buffer_handle.html#adcff0f83b2019f5254d56d84a03fdb6e":[10,0,1,47,0],
+"classchip_1_1_encrypted_packet_buffer_handle.html#af8ec0498cd33fb7635b7305227b2bd44":[10,0,1,47,5],
+"classchip_1_1_encrypted_packet_buffer_handle.html#affb3c453bb9c3c0bac76107967bce933":[10,0,1,47,4],
 "classchip_1_1_inet_1_1_d_n_s_resolver.html":[10,0,1,17,1],
 "classchip_1_1_inet_1_1_d_n_s_resolver.html#a8feea0992ea69a9627ba44b13f4eaf20":[10,0,1,17,1,0],
 "classchip_1_1_inet_1_1_end_point_basis.html":[10,0,1,17,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX29 =
 "classchip_1_1_inet_1_1_raw_end_point.html#a84644929da1df0d8fc58d4abde380b52":[10,0,1,17,12,13],
 "classchip_1_1_inet_1_1_raw_end_point.html#a8feea0992ea69a9627ba44b13f4eaf20":[10,0,1,17,12,11],
 "classchip_1_1_inet_1_1_raw_end_point.html#a93717820574603592e4ed2264d1802ba":[10,0,1,17,12,5],
-"classchip_1_1_inet_1_1_raw_end_point.html#aac36f05102a9c5fb2098c554483dbd53":[10,0,1,17,12,3]
+"classchip_1_1_inet_1_1_raw_end_point.html#aac36f05102a9c5fb2098c554483dbd53":[10,0,1,17,12,3],
+"classchip_1_1_inet_1_1_raw_end_point.html#aac4f5cf512c976842613f1391931ab0b":[10,0,1,17,12,7],
+"classchip_1_1_inet_1_1_raw_end_point.html#afec4b8b11410cc1da36201b12f86cbfe":[10,0,1,17,12,12],
+"classchip_1_1_inet_1_1_socket_events.html":[10,0,1,17,13],
+"classchip_1_1_inet_1_1_socket_events.html#a0e757d5ea490416fdb47ea988c6fb11a":[10,0,1,17,13,18]
 };
