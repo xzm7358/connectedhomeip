@@ -68,6 +68,6 @@ var searchData=
   ['uuidhelper_6356',['UUIDHelper',['../interface_u_u_i_d_helper.html',1,'']]],
   ['uuidhelper_2eh_6357',['UUIDHelper.h',['../_u_u_i_d_helper_8h.html',1,'']]],
   ['uuidhelperimpl_2emm_6358',['UUIDHelperImpl.mm',['../_u_u_i_d_helper_impl_8mm.html',1,'']]],
-  ['uuids_6359',['uuids',['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#af9b2a617f6b6e5a55098e67619d13be0',1,'chip.ChipBluezMgr.BluezDbusDevice.uuids()'],['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a705bf8fc17e8be811dc1764a70cd8931',1,'chip.ChipBluezMgr.BluezDbusAdapter.UUIDs()']]],
+  ['uuids_6359',['UUIDs',['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a705bf8fc17e8be811dc1764a70cd8931',1,'chip.ChipBluezMgr.BluezDbusAdapter.UUIDs()'],['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#af9b2a617f6b6e5a55098e67619d13be0',1,'chip.ChipBluezMgr.BluezDbusDevice.uuids()']]],
   ['uuidsmatch_6360',['UUIDsMatch',['../namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac',1,'chip::Ble']]]
 ];

@@ -17,7 +17,6 @@ var classchip_1_1_inet_1_1_i_p_end_point_basis =
     [ "JoinMulticastGroup", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#a69abc0bb4e80ff46ced8eec1529dff5b", null ],
     [ "LeaveMulticastGroup", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#a5c1a58c153547e99e1156b9cb58f0579", null ],
     [ "PostPacketBufferEvent", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#afd9a0f19649c40271ea386f48b46715c", null ],
-    [ "PrepareIO", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#aa10fe0776ce94def2594663487810f5c", null ],
     [ "SendMsg", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#a1945484fdef01f06b76a896b9160117b", null ],
     [ "SetMulticastLoopback", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#a6fc5c6c1b9ae04c5694d04a03480140f", null ],
     [ "InetLayer", "classchip_1_1_inet_1_1_i_p_end_point_basis.html#a8feea0992ea69a9627ba44b13f4eaf20", null ],

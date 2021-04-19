@@ -14,6 +14,7 @@ var classchip_1_1_inet_1_1_end_point_basis =
     [ "mAddrType", "classchip_1_1_inet_1_1_end_point_basis.html#a0fea6333c155ab8585547f60f8067859", null ],
     [ "mLwIPEndPointType", "classchip_1_1_inet_1_1_end_point_basis.html#a4bf41b13cf4d201dc5c4d1f8c5e7f92e", null ],
     [ "mPendingIO", "classchip_1_1_inet_1_1_end_point_basis.html#ac0788702d1623f074b1675f57331d762", null ],
+    [ "mRequestIO", "classchip_1_1_inet_1_1_end_point_basis.html#a63a09c587bcb08632aac85c3528daca3", null ],
     [ "mSocket", "classchip_1_1_inet_1_1_end_point_basis.html#a98ed3c2bfdc84660adf6dd858bf14faf", null ],
     [ "mVoid", "classchip_1_1_inet_1_1_end_point_basis.html#aa67a9e67d7474774ac1bc091108868f6", null ]
 ];
