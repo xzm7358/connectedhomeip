@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -134,6 +134,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_device_layer"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_device_layer.html">DeviceLayer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacechip_1_1discovery"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1discovery.html">discovery</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_encoding"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_encoding.html">Encoding</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1exceptions"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1exceptions.html">exceptions</a></td></tr>
@@ -146,10 +148,10 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1internal.html">internal</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacechip_1_1logging"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1logging.html">logging</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_logging"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_logging.html">Logging</a></td></tr>
 <tr class="memdesc:namespacechip_1_1_logging"><td class="mdescLeft">&#160;</td><td class="mdescRight">This namespace includes all interfaces within chip for shared logging support. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacechip_1_1logging"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1logging.html">logging</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_mdns"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +254,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_payload_header.html">PayloadHeader</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles encoding/decoding of CHIP payload headers.  <a href="classchip_1_1_payload_header.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_peer_id.html">PeerId</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A peer is identified by a node id within a fabric.  <a href="classchip_1_1_peer_id.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persisted_counter.html">PersistedCounter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for managing a counter as an integer value intended to persist across reboots.  <a href="classchip_1_1_persisted_counter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,6 +318,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ac741422ab936732a88bb008cf631cbd2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a> = uint64_t</td></tr>
+<tr class="memdesc:ac741422ab936732a88bb008cf631cbd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience types to make it clear what different number types mean.  <a href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">More...</a><br /></td></tr>
+<tr class="separator:ac741422ab936732a88bb008cf631cbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d979bda2b97c025fc1c3d9ca62f03e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a80d979bda2b97c025fc1c3d9ca62f03e">FabricId</a> = uint64_t</td></tr>
+<tr class="separator:a80d979bda2b97c025fc1c3d9ca62f03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10d7218fd892829c8da68afc403d9d97"><td class="memItemLeft" align="right" valign="top">typedef char(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a10d7218fd892829c8da68afc403d9d97">Base64ValToCharFunct</a>) (uint8_t val)</td></tr>
 <tr class="separator:a10d7218fd892829c8da68afc403d9d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a716a479aabdba1c1139f1903ff2226a9"><td class="memItemLeft" align="right" valign="top">typedef uint8_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a716a479aabdba1c1139f1903ff2226a9">Base64CharToValFunct</a>) (uint8_t c)</td></tr>
@@ -325,9 +335,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:a1f2a27cc45a5669b58965e0f206cb8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a552bd92e9391ecae743ab49d187495e5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structchip_1_1_c_a_s_e_session_serialized.html">chip::CASESessionSerialized</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a552bd92e9391ecae743ab49d187495e5">CASESessionSerialized</a></td></tr>
 <tr class="separator:a552bd92e9391ecae743ab49d187495e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a911a83fdf89daee3f71f39da9e743e01"><td class="memItemLeft" align="right" valign="top">typedef uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a></td></tr>
-<tr class="memdesc:a911a83fdf89daee3f71f39da9e743e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience type to make it clear a number represents a node id.  <a href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">More...</a><br /></td></tr>
-<tr class="separator:a911a83fdf89daee3f71f39da9e743e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7627dbf2df1bffced6ef27d9096d77"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a2b7627dbf2df1bffced6ef27d9096d77">PacketHeaderFlags</a></td></tr>
 <tr class="separator:a2b7627dbf2df1bffced6ef27d9096d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -692,6 +699,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7">kUndefinedNodeId</a> = 0ULL</td></tr>
+<tr class="separator:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a0e6f577ca63e0aa586a39c9aa8798a26">kAnyNodeId</a> = 0xFFFFFFFFFFFFFFFFULL</td></tr>
+<tr class="separator:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7142a4f80386f8795826a188f6b4a7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="namespacechip.html#a80d979bda2b97c025fc1c3d9ca62f03e">FabricId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a9d7142a4f80386f8795826a188f6b4a7">kUndefinedFabricId</a> = 0ULL</td></tr>
+<tr class="separator:a9d7142a4f80386f8795826a188f6b4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eeebe8ed6e01ec6f4acfe7d7046c0d2"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a5eeebe8ed6e01ec6f4acfe7d7046c0d2">sErrorStr</a> [<a class="el" href="_c_h_i_p_config_8h.html#a73087eed5931294771faef56f714580e">CHIP_CONFIG_ERROR_STR_SIZE</a>]</td></tr>
 <tr class="memdesc:a5eeebe8ed6e01ec6f4acfe7d7046c0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static buffer to store the formatted error string.  <a href="namespacechip.html#a5eeebe8ed6e01ec6f4acfe7d7046c0d2">More...</a><br /></td></tr>
 <tr class="separator:a5eeebe8ed6e01ec6f4acfe7d7046c0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -804,10 +817,6 @@ Variables</h2></td></tr>
 <tr class="separator:af26c875dd68623fc350bc58d25b78cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a539374c38983b089997f2c9843eb2001"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a539374c38983b089997f2c9843eb2001">kIPKSize</a> = 32</td></tr>
 <tr class="separator:a539374c38983b089997f2c9843eb2001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7">kUndefinedNodeId</a> = 0ULL</td></tr>
-<tr class="separator:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a0e6f577ca63e0aa586a39c9aa8798a26">kAnyNodeId</a> = 0xFFFFFFFFFFFFFFFFULL</td></tr>
-<tr class="separator:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1517b608fb94efae480e080bec7d4096"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a1517b608fb94efae480e080bec7d4096">kMaxTagLen</a> = 16</td></tr>
 <tr class="separator:a1517b608fb94efae480e080bec7d4096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbf5def734ff2cb5c3116493ba3654c"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a9bbf5def734ff2cb5c3116493ba3654c">kMax_SecureSDU_Length</a> = 1024</td></tr>
@@ -877,19 +886,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a911a83fdf89daee3f71f39da9e743e01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a911a83fdf89daee3f71f39da9e743e01">&#9670;&nbsp;</a></span>NodeId</h2>
+<a id="a80d979bda2b97c025fc1c3d9ca62f03e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d979bda2b97c025fc1c3d9ca62f03e">&#9670;&nbsp;</a></span>FabricId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef uint64_t <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a></td>
+          <td class="memname">using <a class="el" href="namespacechip.html#a80d979bda2b97c025fc1c3d9ca62f03e">chip::FabricId</a> = typedef uint64_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Convenience type to make it clear a number represents a node id. </p>
+</div>
+</div>
+<a id="ac741422ab936732a88bb008cf631cbd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac741422ab936732a88bb008cf631cbd2">&#9670;&nbsp;</a></span>NodeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a> = typedef uint64_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convenience types to make it clear what different number types mean. </p>
 
 </div>
 </div>
@@ -4259,12 +4282,12 @@ template&lt;class ToPtr , class From &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a> chip::kAnyNodeId = 0xFFFFFFFFFFFFFFFFULL</td>
+          <td class="memname">constexpr <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a> chip::kAnyNodeId = 0xFFFFFFFFFFFFFFFFULL</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -5122,6 +5145,28 @@ template&lt;class ToPtr , class From &gt; </div>
 
 </div>
 </div>
+<a id="a9d7142a4f80386f8795826a188f6b4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7142a4f80386f8795826a188f6b4a7">&#9670;&nbsp;</a></span>kUndefinedFabricId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="namespacechip.html#a80d979bda2b97c025fc1c3d9ca62f03e">FabricId</a> chip::kUndefinedFabricId = 0ULL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a48ca05e1f7c9cc7c5295c1ebf9a2eca7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48ca05e1f7c9cc7c5295c1ebf9a2eca7">&#9670;&nbsp;</a></span>kUndefinedNodeId</h2>
 
@@ -5132,12 +5177,12 @@ template&lt;class ToPtr , class From &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a> chip::kUndefinedNodeId = 0ULL</td>
+          <td class="memname">constexpr <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a> chip::kUndefinedNodeId = 0ULL</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -5236,7 +5281,7 @@ template&lt;class ToPtr , class From &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:41 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:22 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

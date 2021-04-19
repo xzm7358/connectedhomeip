@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -140,6 +140,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classchip_1_1_secure_session_handle.html#af8ec0498cd33fb7635b7305227b2bd44">chip::SecureSessionHandle</a>
 , <a class="el" href="classchip_1_1_secure_session_mgr.html#a0790f0cb1c9d990c40417adc8c3b2077">chip::SecureSessionMgr</a>
 </li>
+<li>semaphore
+: <a class="el" href="classchip_1_1discovery_1_1___sync_address_finder.html#a7e6a328d09cf767122fd83375928c08c">chip.discovery._SyncAddressFinder</a>
+</li>
 <li>Send()
 : <a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html#a742cb1c4230de9aaaea8c3d9134fca00">chip::Ble::BLEEndPoint</a>
 , <a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e">chip::Inet::TCPEndPoint</a>
@@ -250,10 +253,14 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classchip_1_1_serializable_u64_set_base.html#a1a9047c93e243f629331a702da0819a5">chip::SerializableU64SetBase</a>
 </li>
 <li>Server()
-: <a class="el" href="classmdns_1_1_minimal_1_1_server.html#adc82db3d69a3b55734d85328a2a28076">mdns::Minimal::Server&lt; kCount &gt;</a>
+: <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#ab9de4502e4c12a8529c180f3e66485fa">chip::Mdns::GlobalMinimalMdnsServer</a>
+, <a class="el" href="classmdns_1_1_minimal_1_1_server.html#adc82db3d69a3b55734d85328a2a28076">mdns::Minimal::Server&lt; kCount &gt;</a>
 </li>
 <li>ServerBase()
 : <a class="el" href="classmdns_1_1_minimal_1_1_server_base.html#a31ee4bdb26b7b1907de64df6f29ea89a">mdns::Minimal::ServerBase</a>
+</li>
+<li>ServerType
+: <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#a6cfa541c8e7afe2a2fff44e83648412a">chip::Mdns::GlobalMinimalMdnsServer</a>
 </li>
 <li>service
 : <a class="el" href="classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#a4e98b871b609f497d908ea1a97d26b00">chip.ChipBluezMgr.BluezDbusGattService</a>
@@ -456,7 +463,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classchip_1_1_controller_1_1_general_commissioning_cluster.html#a442a66a55fc1e4ea6358b53bdda2bc52">chip::Controller::GeneralCommissioningCluster</a>
 </li>
 <li>SetFabricId()
-: <a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a925bb9b73592485df297519eac31da37">chip::Mdns::OperationalAdvertisingParameters</a>
+: <a class="el" href="classchip_1_1_peer_id.html#a8014b7e242abfdccf622fa9d9da3cd2c">chip::PeerId</a>
 </li>
 <li>SetFDs()
 : <a class="el" href="classchip_1_1_inet_1_1_socket_events.html#ade2d057a58383c75b0152cc9a30eaf75">chip::Inet::SocketEvents</a>
@@ -586,7 +593,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">AndroidBleConnectionDelegate</a>
 </li>
 <li>SetNodeId()
-: <a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a958e75965a182ae837c7748315909eb2">chip::Mdns::OperationalAdvertisingParameters</a>
+: <a class="el" href="classchip_1_1_peer_id.html#a81bfcec2770076e02209465339568eb3">chip::PeerId</a>
 , <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#adeb24aa4ad0afece70456466a7540744">chip::Transport::AdminPairingInfo</a>
 </li>
 <li>SetNotifyChipConnectionClosedCallback()
@@ -621,6 +628,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SetPeerAddress()
 : <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#aba4255f6fc43caf60cd18f88ae7c4a19">chip::Transport::PeerConnectionState</a>
+</li>
+<li>SetPeerId()
+: <a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#ab4d5366bdba174830b2003b5e95bac85">chip::Mdns::OperationalAdvertisingParameters</a>
 </li>
 <li>SetPeerKeyID()
 : <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a5ce54e9798ea8239a1f87a81f016e38c">chip::Transport::PeerConnectionState</a>
@@ -661,6 +671,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetQueryCount()
 : <a class="el" href="classmdns_1_1_minimal_1_1_header_ref.html#a60d42531dc51f731b5f8d3dcc8adc78d">mdns::Minimal::HeaderRef</a>
 </li>
+<li>SetQueryDelegate()
+: <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#a59291a35389fad1002babc9ff48a68af">chip::Mdns::GlobalMinimalMdnsServer</a>
+</li>
 <li>SetRaw()
 : <a class="el" href="classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65">chip::BitFlags&lt; FlagsEnum, StorageType &gt;</a>
 </li>
@@ -689,6 +702,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetResponse()
 : <a class="el" href="classmdns_1_1_minimal_1_1_bit_packed_flags.html#a06ce5079c26ac87765b93a2c2856e56e">mdns::Minimal::BitPackedFlags</a>
 </li>
+<li>SetResponseDelegate()
+: <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#a77b6458fbe5fc081c47e2c19377c594e">chip::Mdns::GlobalMinimalMdnsServer</a>
+</li>
 <li>SetRfid()
 : <a class="el" href="classchip_1_1_controller_1_1_door_lock_cluster.html#a4a38d5d37d78a4fa28a3dddb118c496a">chip::Controller::DoorLockCluster</a>
 </li>
@@ -711,7 +727,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classchip_1_1_mdns_1_1_commission_advertising_parameters.html#acb5cdc6fe7df6c0a10d9c9c9527b1dca">chip::Mdns::CommissionAdvertisingParameters</a>
 </li>
 <li>SetSourceNodeId()
-: <a class="el" href="classchip_1_1_packet_header.html#addf981648d1ac90f854939b76b1ad7d4">chip::PacketHeader</a>
+: <a class="el" href="classchip_1_1_packet_header.html#a2703b6ff0879312479c647c19efe1b3f">chip::PacketHeader</a>
 </li>
 <li>SetStart()
 : <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html#af7feda7eaf9607d291e30d9b57b09926">chip::System::PacketBuffer</a>
@@ -783,7 +799,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="class_android_ble_platform_delegate.html#a6ce3d011d890585975ecb13718e1af78">AndroidBlePlatformDelegate</a>
 </li>
 <li>SetupPayload()
-: <a class="el" href="classchip_1_1setuppayload_1_1_setup_payload.html#a3167abf5124e357d25bdbc51fc4b449d">chip.setuppayload.SetupPayload</a>
+: <a class="el" href="classchip_1_1setuppayload_1_1_setup_payload.html#a9d4d95a89f524a986bed202cf517ee04">chip.setuppayload.SetupPayload</a>
 , <a class="el" href="classchip_1_1_setup_payload.html#a8ad1950961bc41e1bdb08d7e332d5ca0">chip::SetupPayload</a>
 </li>
 <li>setupPinCode
@@ -944,7 +960,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="structhsm__pake__context__s.html#aa1b4982cd96f69960657744acac71d1e">hsm_pake_context_s</a>
 </li>
 <li>Span()
-: <a class="el" href="classchip_1_1_span.html#a80c16e603e653096dee651000d03e07f">chip::Span&lt; T &gt;</a>
+: <a class="el" href="classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c">chip::Span&lt; T &gt;</a>
 </li>
 <li>SrcAddress
 : <a class="el" href="classchip_1_1_inet_1_1_i_p_packet_info.html#adab12616896ecc5b6ecfde985654b4d1">chip::Inet::IPPacketInfo</a>
@@ -965,7 +981,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="interface_ble_connection.html#acbd98c00e43c807b9096c54a1ebb3e1c">BleConnection</a>
 </li>
 <li>Start()
-: <a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c">chip::Mdns::DiscoveryImplPlatform</a>
+: <a class="el" href="classchip_1_1discovery_1_1___pending_discoveries.html#ac7b7d055b8b00ea08f0c10af16de9ba7">chip.discovery._PendingDiscoveries</a>
+, <a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c">chip::Mdns::DiscoveryImplPlatform</a>
 , <a class="el" href="classchip_1_1_mdns_1_1_service_advertiser.html#ae4f9d17c8c6e7c37079b36d43d0254a8">chip::Mdns::ServiceAdvertiser</a>
 , <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17">chip::System::PacketBuffer</a>
 , <a class="el" href="classchip_1_1_system_1_1_timer.html#a207061f89969b38729b9d38f41f80519">chip::System::Timer</a>
@@ -998,6 +1015,13 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>startPath()
 : <a class="el" href="classchip_1_1tlv_1_1_t_l_v_writer.html#a3a82f511d13084a1ddf61b4c65192cbc">chip.tlv.TLVWriter</a>
+</li>
+<li>StartResolver()
+: <a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html#a0b6ab2628ee7e71a0a29a12affc8f11d">chip::Mdns::DiscoveryImplPlatform</a>
+, <a class="el" href="classchip_1_1_mdns_1_1_resolver.html#a4e76aa293f438536ae7024444c38be0f">chip::Mdns::Resolver</a>
+</li>
+<li>StartServer()
+: <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#ab7c802ca24bc3cde9e878776f97f082e">chip::Mdns::GlobalMinimalMdnsServer</a>
 </li>
 <li>startStructure()
 : <a class="el" href="classchip_1_1tlv_1_1_t_l_v_writer.html#a998bc5c34dbc05ef45a93b15696f7473">chip.tlv.TLVWriter</a>
@@ -1231,7 +1255,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:43 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:24 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

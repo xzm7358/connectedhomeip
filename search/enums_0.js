@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['activitychange_11713',['ActivityChange',['../namespacechip_1_1_device_layer.html#aef1c7e674b01ee668caab41f66047360',1,'chip::DeviceLayer']]],
-  ['additionaldatafields_11714',['AdditionalDataFields',['../namespacechip.html#acc738c7ad000ff9cbbfce04a5beeb375',1,'chip']]]
+  ['activitychange_11809',['ActivityChange',['../namespacechip_1_1_device_layer.html#aef1c7e674b01ee668caab41f66047360',1,'chip::DeviceLayer']]],
+  ['additionaldatafields_11810',['AdditionalDataFields',['../namespacechip.html#acc738c7ad000ff9cbbfce04a5beeb375',1,'chip']]]
 ];

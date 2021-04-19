@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,8 @@ $(document).ready(function(){initNavTree('namespacechip_1_1_mdns.html',''); init
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacechip_1_1_mdns_1_1_error"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns_1_1_error.html">Error</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacechip_1_1_mdns_1_1_internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns_1_1_internal.html">Internal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -114,9 +116,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_get_addr_info_context.html">GetAddrInfoContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html">GlobalMinimalMdnsServer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A global <a class="el" href="classmdns_1_1_minimal_1_1_server.html">mdns::Minimal::Server</a> wrapper used to share the same server between MDNS Advertiser and resolver as advertiser responds to 'onquery' and resolver expects 'onresponse'.  <a href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_mdns_avahi.html">MdnsAvahi</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_mdns_contexts.html">MdnsContexts</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_mdns_packet_delegate.html">MdnsPacketDelegate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic receive delegate for a MDNS packet.  <a href="classchip_1_1_mdns_1_1_mdns_packet_delegate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_mdns_service.html">MdnsService</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,9 +215,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a92918bc47fadde76f386ab039d196c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c">ChipMdnsResolve</a> (<a class="el" href="structchip_1_1_mdns_1_1_mdns_service.html">MdnsService</a> *browseResult, <a class="el" href="namespacechip_1_1_inet.html#a7a83c2594f70de9845b0f3fe8cedd7b3">chip::Inet::InterfaceId</a> interface, <a class="el" href="namespacechip_1_1_mdns.html#a6b14bf17fcc3156914be6dedb1206466">MdnsResolveCallback</a> <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>, void *context)</td></tr>
 <tr class="memdesc:a92918bc47fadde76f386ab039d196c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function resolves the services published by mdns.  <a href="namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c">More...</a><br /></td></tr>
 <tr class="separator:a92918bc47fadde76f386ab039d196c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc011e4ef5fa0afbfab8b63d76b3a01b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#adc011e4ef5fa0afbfab8b63d76b3a01b">MakeInstanceName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, uint64_t fabricId, uint64_t nodeId)</td></tr>
-<tr class="separator:adc011e4ef5fa0afbfab8b63d76b3a01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231454beee68d2f1608677330ad0aa3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a231454beee68d2f1608677330ad0aa3d">MakeInstanceName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, const <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> &amp;peerId)</td></tr>
+<tr class="memdesc:a231454beee68d2f1608677330ad0aa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the MDNS advertising name for a given fabric + nodeid pair  <a href="namespacechip_1_1_mdns.html#a231454beee68d2f1608677330ad0aa3d">More...</a><br /></td></tr>
+<tr class="separator:a231454beee68d2f1608677330ad0aa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae779edccf5209793ca062c06b0561a0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae779edccf5209793ca062c06b0561a0a">ExtractIdFromInstanceName</a> (const char *name, <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> *peerId)</td></tr>
+<tr class="memdesc:ae779edccf5209793ca062c06b0561a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of MakeInstanceName.  <a href="namespacechip_1_1_mdns.html#ae779edccf5209793ca062c06b0561a0a">More...</a><br /></td></tr>
+<tr class="separator:ae779edccf5209793ca062c06b0561a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">MakeHostName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> &amp;macOrEui64)</td></tr>
+<tr class="memdesc:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the host name that a CHIP device is to use for a given unique identifier (MAC address or EUI64)  <a href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">More...</a><br /></td></tr>
 <tr class="separator:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111008ab60c7f65d1a22a11fcd3c75b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a111008ab60c7f65d1a22a11fcd3c75b9">PopulateTextRecord</a> (TXTRecordRef *record, char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, uint16_t bufferLen, <a class="el" href="structchip_1_1_mdns_1_1_text_entry.html">TextEntry</a> *textEntries, size_t textEntrySize)</td></tr>
 <tr class="separator:a111008ab60c7f65d1a22a11fcd3c75b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -802,6 +815,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae779edccf5209793ca062c06b0561a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae779edccf5209793ca062c06b0561a0a">&#9670;&nbsp;</a></span>ExtractIdFromInstanceName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Mdns::ExtractIdFromInstanceName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_peer_id.html">PeerId</a> *&#160;</td>
+          <td class="paramname"><em>peerId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inverse of MakeInstanceName. </p>
+
+</div>
+</div>
 <a id="a90be7409a8111070d27b407773343c9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90be7409a8111070d27b407773343c9d">&#9670;&nbsp;</a></span>GetAbsTimeout()</h2>
 
@@ -942,10 +985,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Generates the host name that a CHIP device is to use for a given unique identifier (MAC address or EUI64) </p>
+
 </div>
 </div>
-<a id="adc011e4ef5fa0afbfab8b63d76b3a01b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc011e4ef5fa0afbfab8b63d76b3a01b">&#9670;&nbsp;</a></span>MakeInstanceName()</h2>
+<a id="a231454beee68d2f1608677330ad0aa3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a231454beee68d2f1608677330ad0aa3d">&#9670;&nbsp;</a></span>MakeInstanceName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,14 +1010,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>fabricId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>nodeId</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> &amp;&#160;</td>
+          <td class="paramname"><em>peerId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -981,6 +1020,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>builds the MDNS advertising name for a given fabric + nodeid pair </p>
 
 </div>
 </div>
@@ -1767,7 +1808,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:42 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:23 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

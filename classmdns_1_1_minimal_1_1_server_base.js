@@ -8,6 +8,7 @@ var classmdns_1_1_minimal_1_1_server_base =
     [ "DirectSend", "classmdns_1_1_minimal_1_1_server_base.html#af6b4f7d2958dc0c884ed414361ddd0c4", null ],
     [ "GetEndpointCount", "classmdns_1_1_minimal_1_1_server_base.html#aacb123ec789400ea89c4768f7202a246", null ],
     [ "GetEndpoints", "classmdns_1_1_minimal_1_1_server_base.html#a84ed05e2c8f8b60a944be5a556947d57", null ],
+    [ "IsListening", "classmdns_1_1_minimal_1_1_server_base.html#a0819bb927016a71e6987dde368d65f7f", null ],
     [ "Listen", "classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933", null ],
     [ "SetDelegate", "classmdns_1_1_minimal_1_1_server_base.html#ae58d8ce89ca1628df48eef6030cc2e19", null ],
     [ "Shutdown", "classmdns_1_1_minimal_1_1_server_base.html#abff5c5e4c0d25eca9c8c514ac794225d", null ]

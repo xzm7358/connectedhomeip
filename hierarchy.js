@@ -2,6 +2,8 @@ var hierarchy =
 [
     [ "chip.ble.scan_devices._DeviceInfoReceiver", "classchip_1_1ble_1_1scan__devices_1_1___device_info_receiver.html", null ],
     [ "chip.ble.commissioning._PairNotification", "classchip_1_1ble_1_1commissioning_1_1___pair_notification.html", null ],
+    [ "chip.discovery._PendingDiscoveries", "classchip_1_1discovery_1_1___pending_discoveries.html", null ],
+    [ "chip.discovery._SyncAddressFinder", "classchip_1_1discovery_1_1___sync_address_finder.html", null ],
     [ "ABCMeta", null, [
       [ "chip.ChipBleBase.ChipBleBase", "classchip_1_1_chip_ble_base_1_1_chip_ble_base.html", [
         [ "chip.ChipBluezMgr.BluezManager", "classchip_1_1_chip_bluez_mgr_1_1_bluez_manager.html", null ],
@@ -16,6 +18,7 @@ var hierarchy =
     [ "chip::AdditionalDataPayloadParser", "classchip_1_1_additional_data_payload_parser.html", null ],
     [ "chip::Transport::AdminPairingInfo", "classchip_1_1_transport_1_1_admin_pairing_info.html", null ],
     [ "chip::Transport::AdminPairingTable", "classchip_1_1_transport_1_1_admin_pairing_table.html", null ],
+    [ "chip.discovery.AggregatedDiscoveryResults", "classchip_1_1discovery_1_1_aggregated_discovery_results.html", null ],
     [ "chip.devicecontroller.AndroidChipStack", "classchip_1_1devicecontroller_1_1_android_chip_stack.html", null ],
     [ "chip.devicecontroller.AndroidPersistentStorageDelegate", "interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html", null ],
     [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl< ImplClass >::AppEventHandler", "structchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl_1_1_app_event_handler.html", null ],
@@ -310,10 +313,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -340,6 +343,7 @@ var hierarchy =
     [ "chip::ManualSetupPayloadParser", "classchip_1_1_manual_setup_payload_parser.html", null ],
     [ "chip::Mdns::MdnsAvahi", "classchip_1_1_mdns_1_1_mdns_avahi.html", null ],
     [ "chip::Mdns::MdnsContexts", "classchip_1_1_mdns_1_1_mdns_contexts.html", null ],
+    [ "chip::Mdns::MdnsPacketDelegate", "classchip_1_1_mdns_1_1_mdns_packet_delegate.html", null ],
     [ "chip::Mdns::MdnsService", "structchip_1_1_mdns_1_1_mdns_service.html", null ],
     [ "chip::MessageAuthenticationCode", "classchip_1_1_message_authentication_code.html", null ],
     [ "metaclass", null, [
@@ -350,6 +354,7 @@ var hierarchy =
     [ "chip::DeviceLayer::NFCManager", "classchip_1_1_device_layer_1_1_n_f_c_manager.html", [
       [ "chip::DeviceLayer::NFCManagerImpl", "classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html", null ]
     ] ],
+    [ "chip.discovery.NodeAddress", "classchip_1_1discovery_1_1_node_address.html", null ],
     [ "NSManagedObject", null, [
       [ "KeyValueItem", "interface_key_value_item.html", null ]
     ] ],
@@ -402,10 +407,10 @@ var hierarchy =
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint8_t >", "classchip_1_1_optional.html", null ],
-    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
     ] ],
+    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo.OptionalQRCodeInfoType", "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html", null ],
     [ "chip::Crypto::P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", null ],
     [ "chip::System::PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html", [
@@ -424,7 +429,10 @@ var hierarchy =
     [ "chip::Transport::PeerConnections< kMaxConnectionCount, kTimeSource >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnections< CHIP_CONFIG_PEER_CONNECTION_POOL_SIZE >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
+    [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
+    [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
+    [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],
     [ "chip.devicecontroller.PersistentStorage", "classchip_1_1devicecontroller_1_1_persistent_storage.html", null ],
     [ "chip::PersistentStorageDelegate", "classchip_1_1_persistent_storage_delegate.html", [
@@ -515,16 +523,19 @@ var hierarchy =
     [ "chip::Controller::SerializedDevice", "structchip_1_1_controller_1_1_serialized_device.html", null ],
     [ "mdns::Minimal::SerializedQNameIterator", "classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html", null ],
     [ "mdns::Minimal::ServerBase", "classmdns_1_1_minimal_1_1_server_base.html", [
-      [ "mdns::Minimal::Server< kCount >", "classmdns_1_1_minimal_1_1_server.html", null ]
+      [ "mdns::Minimal::Server< kCount >", "classmdns_1_1_minimal_1_1_server.html", null ],
+      [ "mdns::Minimal::Server< kMaxEndPoints >", "classmdns_1_1_minimal_1_1_server.html", null ]
     ] ],
-    [ "mdns::Minimal::ServerDelegate", "classmdns_1_1_minimal_1_1_server_delegate.html", null ],
+    [ "mdns::Minimal::ServerDelegate", "classmdns_1_1_minimal_1_1_server_delegate.html", [
+      [ "chip::Mdns::GlobalMinimalMdnsServer", "classchip_1_1_mdns_1_1_global_minimal_mdns_server.html", null ]
+    ] ],
     [ "chip::Mdns::ServiceAdvertiser", "classchip_1_1_mdns_1_1_service_advertiser.html", [
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
+    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

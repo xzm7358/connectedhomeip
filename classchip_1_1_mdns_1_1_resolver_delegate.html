@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -100,12 +100,12 @@ $(document).ready(function(){initNavTree('classchip_1_1_mdns_1_1_resolver_delega
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a00197dca2b172775b4f0163f9f94665e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#a00197dca2b172775b4f0163f9f94665e">~ResolverDelegate</a> ()=default</td></tr>
 <tr class="separator:a00197dca2b172775b4f0163f9f94665e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8d9f37cc7f0c11af9526f71f03a1055"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#ab8d9f37cc7f0c11af9526f71f03a1055">OnNodeIdResolved</a> (uint64_t nodeId, const <a class="el" href="structchip_1_1_mdns_1_1_resolved_node_data.html">ResolvedNodeData</a> &amp;nodeData)=0</td></tr>
-<tr class="memdesc:ab8d9f37cc7f0c11af9526f71f03a1055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a requested CHIP node ID has been successfully resolved.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#ab8d9f37cc7f0c11af9526f71f03a1055">More...</a><br /></td></tr>
-<tr class="separator:ab8d9f37cc7f0c11af9526f71f03a1055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36c7e1c75e04eaa7bcdddf787cdfe362"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#a36c7e1c75e04eaa7bcdddf787cdfe362">OnNodeIdResolutionFailed</a> (uint64_t nodeId, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error)=0</td></tr>
-<tr class="memdesc:a36c7e1c75e04eaa7bcdddf787cdfe362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a CHIP node ID resolution has failed.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#a36c7e1c75e04eaa7bcdddf787cdfe362">More...</a><br /></td></tr>
-<tr class="separator:a36c7e1c75e04eaa7bcdddf787cdfe362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae265c6da1ff64dc82b9b0e148f675247"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#ae265c6da1ff64dc82b9b0e148f675247">OnNodeIdResolved</a> (const <a class="el" href="structchip_1_1_mdns_1_1_resolved_node_data.html">ResolvedNodeData</a> &amp;nodeData)=0</td></tr>
+<tr class="memdesc:ae265c6da1ff64dc82b9b0e148f675247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a requested CHIP node ID has been successfully resolved.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#ae265c6da1ff64dc82b9b0e148f675247">More...</a><br /></td></tr>
+<tr class="separator:ae265c6da1ff64dc82b9b0e148f675247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96a002166cd4cc947a4bf0cef2570540"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#a96a002166cd4cc947a4bf0cef2570540">OnNodeIdResolutionFailed</a> (const <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> &amp;peerId, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error)=0</td></tr>
+<tr class="memdesc:a96a002166cd4cc947a4bf0cef2570540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a CHIP node ID resolution has failed.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#a96a002166cd4cc947a4bf0cef2570540">More...</a><br /></td></tr>
+<tr class="separator:a96a002166cd4cc947a4bf0cef2570540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Groups callbacks for CHIP service resolution requests. </p>
@@ -136,8 +136,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a36c7e1c75e04eaa7bcdddf787cdfe362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36c7e1c75e04eaa7bcdddf787cdfe362">&#9670;&nbsp;</a></span>OnNodeIdResolutionFailed()</h2>
+<a id="a96a002166cd4cc947a4bf0cef2570540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a002166cd4cc947a4bf0cef2570540">&#9670;&nbsp;</a></span>OnNodeIdResolutionFailed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,8 +148,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void chip::Mdns::ResolverDelegate::OnNodeIdResolutionFailed </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>nodeId</em>, </td>
+          <td class="paramtype">const <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> &amp;&#160;</td>
+          <td class="paramname"><em>peerId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -174,8 +174,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab8d9f37cc7f0c11af9526f71f03a1055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8d9f37cc7f0c11af9526f71f03a1055">&#9670;&nbsp;</a></span>OnNodeIdResolved()</h2>
+<a id="ae265c6da1ff64dc82b9b0e148f675247"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae265c6da1ff64dc82b9b0e148f675247">&#9670;&nbsp;</a></span>OnNodeIdResolved()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,19 +186,9 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void chip::Mdns::ResolverDelegate::OnNodeIdResolved </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>nodeId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="structchip_1_1_mdns_1_1_resolved_node_data.html">ResolvedNodeData</a> &amp;&#160;</td>
-          <td class="paramname"><em>nodeData</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>nodeData</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -221,7 +211,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li><li class="navelem"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html">ResolverDelegate</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:42 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:23 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

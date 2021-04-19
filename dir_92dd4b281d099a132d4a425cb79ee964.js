@@ -38,6 +38,7 @@ var dir_92dd4b281d099a132d4a425cb79ee964 =
     [ "Optional.h", "_optional_8h.html", [
       [ "Optional", "classchip_1_1_optional.html", "classchip_1_1_optional" ]
     ] ],
+    [ "PeerId.h", "_peer_id_8h.html", "_peer_id_8h" ],
     [ "ReferenceCounted.h", "_reference_counted_8h.html", [
       [ "DeleteDeletor", "classchip_1_1_delete_deletor.html", "classchip_1_1_delete_deletor" ],
       [ "ReferenceCounted", "classchip_1_1_reference_counted.html", "classchip_1_1_reference_counted" ]

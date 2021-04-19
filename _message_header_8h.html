@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('_message_header_8h.html',''); initResi
 <code>#include &lt;type_traits&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_error_8h_source.html">core/CHIPError.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_optional_8h_source.html">core/Optional.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_peer_id_8h_source.html">core/PeerId.h</a>&gt;</code><br />
 <code>#include &lt;protocols/Protocols.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_bit_flags_8h_source.html">support/BitFlags.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_system_packet_buffer_8h_source.html">system/SystemPacketBuffer.h</a>&gt;</code><br />
@@ -127,9 +128,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a911a83fdf89daee3f71f39da9e743e01"><td class="memItemLeft" align="right" valign="top">typedef uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a></td></tr>
-<tr class="memdesc:a911a83fdf89daee3f71f39da9e743e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience type to make it clear a number represents a node id.  <a href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">More...</a><br /></td></tr>
-<tr class="separator:a911a83fdf89daee3f71f39da9e743e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7627dbf2df1bffced6ef27d9096d77"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a2b7627dbf2df1bffced6ef27d9096d77">chip::PacketHeaderFlags</a></td></tr>
 <tr class="separator:a2b7627dbf2df1bffced6ef27d9096d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebdda57d47e49eaf4cc8aef0d8b0474e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_header.html#aebdda57d47e49eaf4cc8aef0d8b0474e">chip::Header::Flags</a> = BitFlags&lt; FlagValues &gt;</td></tr>
@@ -174,10 +172,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memItemLeft" align="right" valign="top">static constexpr NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7">chip::kUndefinedNodeId</a> = 0ULL</td></tr>
-<tr class="separator:a48ca05e1f7c9cc7c5295c1ebf9a2eca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memItemLeft" align="right" valign="top">static constexpr NodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a0e6f577ca63e0aa586a39c9aa8798a26">chip::kAnyNodeId</a> = 0xFFFFFFFFFFFFFFFFULL</td></tr>
-<tr class="separator:a0e6f577ca63e0aa586a39c9aa8798a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1517b608fb94efae480e080bec7d4096"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html#a1517b608fb94efae480e080bec7d4096">chip::kMaxTagLen</a> = 16</td></tr>
 <tr class="separator:a1517b608fb94efae480e080bec7d4096"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8c9a1ddef0fee4cd2b90ae547fe08af"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_header.html#aa8c9a1ddef0fee4cd2b90ae547fe08af">chip::Header::kFlagsMask</a> = 0x0F01</td></tr>
@@ -191,7 +185,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="dir_a311810e72fdebe288f4c04505dd73fe.html">raw</a></li><li class="navelem"><a class="el" href="_message_header_8h.html">MessageHeader.h</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:41 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:22 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -105,9 +105,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adc011e4ef5fa0afbfab8b63d76b3a01b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#adc011e4ef5fa0afbfab8b63d76b3a01b">chip::Mdns::MakeInstanceName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, uint64_t fabricId, uint64_t nodeId)</td></tr>
-<tr class="separator:adc011e4ef5fa0afbfab8b63d76b3a01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a231454beee68d2f1608677330ad0aa3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a231454beee68d2f1608677330ad0aa3d">chip::Mdns::MakeInstanceName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, const PeerId &amp;peerId)</td></tr>
+<tr class="memdesc:a231454beee68d2f1608677330ad0aa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds the MDNS advertising name for a given fabric + nodeid pair  <a href="namespacechip_1_1_mdns.html#a231454beee68d2f1608677330ad0aa3d">More...</a><br /></td></tr>
+<tr class="separator:a231454beee68d2f1608677330ad0aa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae779edccf5209793ca062c06b0561a0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae779edccf5209793ca062c06b0561a0a">chip::Mdns::ExtractIdFromInstanceName</a> (const char *name, PeerId *peerId)</td></tr>
+<tr class="memdesc:ae779edccf5209793ca062c06b0561a0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inverse of MakeInstanceName.  <a href="namespacechip_1_1_mdns.html#ae779edccf5209793ca062c06b0561a0a">More...</a><br /></td></tr>
+<tr class="separator:ae779edccf5209793ca062c06b0561a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">chip::Mdns::MakeHostName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> &amp;macOrEui64)</td></tr>
+<tr class="memdesc:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the host name that a CHIP device is to use for a given unique identifier (MAC address or EUI64)  <a href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">More...</a><br /></td></tr>
 <tr class="separator:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -116,7 +121,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_6120b5b067bc81dd9b9ded47874ed490.html">mdns</a></li><li class="navelem"><a class="el" href="_service_naming_8cpp.html">ServiceNaming.cpp</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:40 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -3,6 +3,7 @@ var dir_ba457397843b1104e00563bf45838bd5 =
     [ "ble", "dir_8cb6398bdff2b5d105d057714248aa40.html", "dir_8cb6398bdff2b5d105d057714248aa40" ],
     [ "clusters", "dir_658c3164a1f65d69256225bdd44799af.html", "dir_658c3164a1f65d69256225bdd44799af" ],
     [ "configuration", "dir_016992fba428319f74cd20970ad17dc3.html", "dir_016992fba428319f74cd20970ad17dc3" ],
+    [ "discovery", "dir_5e8d51249c018aae9930080145937359.html", "dir_5e8d51249c018aae9930080145937359" ],
     [ "exceptions", "dir_b63bf9ad360e1dd7394eece46ece012f.html", "dir_b63bf9ad360e1dd7394eece46ece012f" ],
     [ "interaction_model", "dir_8fc19ae3396ae7a12a22fd8791ab971d.html", "dir_8fc19ae3396ae7a12a22fd8791ab971d" ],
     [ "internal", "dir_d46ed212b81eed6394a39da606f8021e.html", "dir_d46ed212b81eed6394a39da606f8021e" ],

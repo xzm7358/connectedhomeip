@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3bb3bb9</span>
+   &#160;<span id="projectnumber">f8043b6</span>
    </div>
   </td>
  </tr>
@@ -214,7 +214,7 @@ Variables</h2></td></tr>
 <div class="line">        constexpr <span class="keywordtype">size_t</span> len = std::extent&lt;decltype(keyPrefix)&gt;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">::value</a>;                                                            \</div>
 <div class="line">        nlSTATIC_ASSERT_PRINT(len &gt; 0, <span class="stringliteral">&quot;keyPrefix length must be known at compile time&quot;</span>);                                          \</div>
 <div class="line">        <span class="comment">/* 2 * sizeof(NodeId) to accomodate 2 character for each byte in Node Id */</span>                                                \</div>
-<div class="line">        char key[len + 2 * <span class="keyword">sizeof</span>(<a class="code" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">NodeId</a>) + 1];                                                                                    \</div>
+<div class="line">        char key[len + 2 * <span class="keyword">sizeof</span>(<a class="code" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a>) + 1];                                                                                    \</div>
 <div class="line">        nlSTATIC_ASSERT_PRINT(<span class="keyword">sizeof</span>(node) &lt;= <span class="keyword">sizeof</span>(uint64_t), <span class="stringliteral">&quot;Node ID size is greater than expected&quot;</span>);                          \</div>
 <div class="line">        snprintf(key, <span class="keyword">sizeof</span>(key), <span class="stringliteral">&quot;%s%&quot;</span> PRIx64, keyPrefix, node);                                                                 \</div>
 <div class="line">        action;                                                                                                                    \</div>
@@ -224,13 +224,13 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacechip_html_a911a83fdf89daee3f71f39da9e743e01"><div class="ttname"><a href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a></div><div class="ttdeci">uint64_t NodeId</div><div class="ttdoc">Convenience type to make it clear a number represents a node id.</div><div class="ttdef"><b>Definition:</b> MessageHeader.h:40</div></div>
+<div class="ttc" id="anamespacechip_html_ac741422ab936732a88bb008cf631cbd2"><div class="ttname"><a href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a></div><div class="ttdeci">uint64_t NodeId</div><div class="ttdoc">Convenience types to make it clear what different number types mean.</div><div class="ttdef"><b>Definition:</b> PeerId.h:23</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ac50abae6d98e9974b60124d04929c51e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a></div><div class="ttdeci">JNIEnv jobject jint jbyteArray jbyteArray jbyteArray value</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:600</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 15:15:40 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 16:27:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
