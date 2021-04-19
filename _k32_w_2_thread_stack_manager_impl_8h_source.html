@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">f8043b6</span>
+   &#160;<span id="projectnumber">ca83379</span>
    </div>
   </td>
  </tr>
@@ -150,61 +150,57 @@ $(document).ready(function(){initNavTree('_k32_w_2_thread_stack_manager_impl_8h_
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">using</span> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager.html#acf8a7da825764e2183efd4dac3ea1caf">ThreadStackManager::InitThreadStack</a>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager.html#acf8a7da825764e2183efd4dac3ea1caf">InitThreadStack</a>(otInstance * otInst);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4">_OnCHIPoBLEAdvertisingStart</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ae23ce0f28183e2ee8ac9fae3ce3e877f">_OnCHIPoBLEAdvertisingStop</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// ===== Methods that implement the ThreadStackManager abstract interface.</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// ===== Methods that implement the ThreadStackManager abstract interface.</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _InitThreadStack(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _InitThreadStack(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ae2df2d8350549059aa258456f1dae68e">ThreadStackManager</a> &amp; <a class="code" href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">::chip::DeviceLayer::ThreadStackMgr</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">friend</span> ThreadStackManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">::chip::DeviceLayer::ThreadStackMgrImpl</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">friend</span> <span class="keywordtype">int</span> <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a8977b0230da8d7b7b1abfb45081207cb">Internal::GetEntropy_K32W</a>(uint8_t * buf, <span class="keywordtype">size_t</span> bufSize);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ae2df2d8350549059aa258456f1dae68e">ThreadStackManager</a> &amp; <a class="code" href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">::chip::DeviceLayer::ThreadStackMgr</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">friend</span> ThreadStackManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">::chip::DeviceLayer::ThreadStackMgrImpl</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">friend</span> <span class="keywordtype">int</span> <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a8977b0230da8d7b7b1abfb45081207cb">Internal::GetEntropy_K32W</a>(uint8_t * buf, <span class="keywordtype">size_t</span> bufSize);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keyword">static</span> ThreadStackManagerImpl sInstance;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">static</span> ThreadStackManagerImpl sInstance;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> IsInitialized();</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> IsInitialized();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="comment">// ===== Private members for use by this class only.</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">// ===== Private members for use by this class only.</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    ThreadStackManagerImpl() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;};</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">inline</span> ThreadStackManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">ThreadStackMgr</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> ThreadStackManagerImpl::sInstance;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keyword">inline</span> ThreadStackManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">ThreadStackMgrImpl</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> ThreadStackManagerImpl::sInstance;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    ThreadStackManagerImpl() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;};</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">inline</span> ThreadStackManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">ThreadStackMgr</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> ThreadStackManagerImpl::sInstance;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="keyword">inline</span> ThreadStackManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">ThreadStackMgrImpl</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">return</span> ThreadStackManagerImpl::sInstance;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="acc13x2__26x2_2_thread_stack_manager_impl_8cpp_html_a98d12345d246d5e55b6c8d749e771ac3"><div class="ttname"><a href="cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3">otTaskletsSignalPending</a></div><div class="ttdeci">void otTaskletsSignalPending(otInstance *p_instance)</div><div class="ttdoc">Glue function called directly by the OpenThread stack when tasklet processing work is pending.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:245</div></div>
-<div class="ttc" id="anamespacechip_1_1_device_layer_html_a7ab1b3e5bc95785294e398fa15b0d0d3"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">chip::DeviceLayer::ThreadStackMgrImpl</a></div><div class="ttdeci">ThreadStackManagerImpl &amp; ThreadStackMgrImpl()</div><div class="ttdoc">Returns the platform-specific implementation of the ThreadStackManager singleton object.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.h:138</div></div>
+<div class="ttc" id="acc13x2__26x2_2_thread_stack_manager_impl_8cpp_html_a98d12345d246d5e55b6c8d749e771ac3"><div class="ttname"><a href="cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3">otTaskletsSignalPending</a></div><div class="ttdeci">void otTaskletsSignalPending(otInstance *p_instance)</div><div class="ttdoc">Glue function called directly by the OpenThread stack when tasklet processing work is pending.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:217</div></div>
+<div class="ttc" id="anamespacechip_1_1_device_layer_html_a7ab1b3e5bc95785294e398fa15b0d0d3"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3">chip::DeviceLayer::ThreadStackMgrImpl</a></div><div class="ttdeci">ThreadStackManagerImpl &amp; ThreadStackMgrImpl()</div><div class="ttdoc">Returns the platform-specific implementation of the ThreadStackManager singleton object.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.h:136</div></div>
 <div class="ttc" id="a_generic_thread_stack_manager_impl___free_r_t_o_s_8h_html"><div class="ttname"><a href="_generic_thread_stack_manager_impl___free_r_t_o_s_8h.html">GenericThreadStackManagerImpl_FreeRTOS.h</a></div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_thread_stack_manager_impl_html_ae23ce0f28183e2ee8ac9fae3ce3e877f"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ae23ce0f28183e2ee8ac9fae3ce3e877f">chip::DeviceLayer::ThreadStackManagerImpl::_OnCHIPoBLEAdvertisingStop</a></div><div class="ttdeci">void _OnCHIPoBLEAdvertisingStop(void)</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:127</div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_thread_stack_manager_impl_html_ae2df2d8350549059aa258456f1dae68e"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ae2df2d8350549059aa258456f1dae68e">chip::DeviceLayer::ThreadStackManagerImpl::ThreadStackManager</a></div><div class="ttdeci">friend class ThreadStackManager</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.h:57</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_thread_stack_manager_html_acf8a7da825764e2183efd4dac3ea1caf"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_thread_stack_manager.html#acf8a7da825764e2183efd4dac3ea1caf">chip::DeviceLayer::ThreadStackManager::InitThreadStack</a></div><div class="ttdeci">CHIP_ERROR InitThreadStack()</div><div class="ttdef"><b>Definition:</b> ThreadStackManager.h:179</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_thread_stack_manager_html_acf8a7da825764e2183efd4dac3ea1caf"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_thread_stack_manager.html#acf8a7da825764e2183efd4dac3ea1caf">chip::DeviceLayer::ThreadStackManager::InitThreadStack</a></div><div class="ttdeci">CHIP_ERROR InitThreadStack()</div><div class="ttdef"><b>Definition:</b> ThreadStackManager.h:177</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="anamespacechip_1_1_device_layer_1_1_internal_html_a8977b0230da8d7b7b1abfb45081207cb"><div class="ttname"><a href="namespacechip_1_1_device_layer_1_1_internal.html#a8977b0230da8d7b7b1abfb45081207cb">chip::DeviceLayer::Internal::GetEntropy_K32W</a></div><div class="ttdeci">int GetEntropy_K32W(uint8_t *buf, size_t count)</div><div class="ttdoc">Retrieve entropy from the underlying RNG source.</div><div class="ttdef"><b>Definition:</b> Entropy.cpp:47</div></div>
-<div class="ttc" id="anamespacechip_1_1_device_layer_html_ab2eda1307ad1a049e1cf1250e77c32b0"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">chip::DeviceLayer::ThreadStackMgr</a></div><div class="ttdeci">ThreadStackManager &amp; ThreadStackMgr()</div><div class="ttdoc">Returns the public interface of the ThreadStackManager singleton object.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.h:127</div></div>
+<div class="ttc" id="anamespacechip_1_1_device_layer_html_ab2eda1307ad1a049e1cf1250e77c32b0"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0">chip::DeviceLayer::ThreadStackMgr</a></div><div class="ttdeci">ThreadStackManager &amp; ThreadStackMgr()</div><div class="ttdoc">Returns the public interface of the ThreadStackManager singleton object.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.h:125</div></div>
 <div class="ttc" id="a_generic_thread_stack_manager_impl___open_thread___lw_i_p_8h_html"><div class="ttname"><a href="_generic_thread_stack_manager_impl___open_thread___lw_i_p_8h.html">GenericThreadStackManagerImpl_OpenThread_LwIP.h</a></div></div>
-<div class="ttc" id="a_e_f_r32_2_thread_stack_manager_impl_8h_html_ac49db73d9aaa97e39416ad4a6149aabe"><div class="ttname"><a href="_e_f_r32_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe">otSysEventSignalPending</a></div><div class="ttdeci">void otSysEventSignalPending(void)</div><div class="ttdoc">Glue function called directly by the OpenThread stack when system event processing work is pending.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:123</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_thread_stack_manager_impl_html_acafb51e7a36437b4ea4befc91af0c3c4"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#acafb51e7a36437b4ea4befc91af0c3c4">chip::DeviceLayer::ThreadStackManagerImpl::_OnCHIPoBLEAdvertisingStart</a></div><div class="ttdeci">void _OnCHIPoBLEAdvertisingStart(void)</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:114</div></div>
+<div class="ttc" id="a_e_f_r32_2_thread_stack_manager_impl_8h_html_ac49db73d9aaa97e39416ad4a6149aabe"><div class="ttname"><a href="_e_f_r32_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe">otSysEventSignalPending</a></div><div class="ttdeci">void otSysEventSignalPending(void)</div><div class="ttdoc">Glue function called directly by the OpenThread stack when system event processing work is pending.</div><div class="ttdef"><b>Definition:</b> ThreadStackManagerImpl.cpp:88</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_8ea9fa1ba554352f2068a9636e0a3470.html">K32W</a></li><li class="navelem"><a class="el" href="_k32_w_2_thread_stack_manager_impl_8h.html">ThreadStackManagerImpl.h</a></li>
-    <li class="footer">Generated on Mon Apr 19 2021 16:27:21 for Connected Home over IP by
+    <li class="footer">Generated on Mon Apr 19 2021 17:24:15 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

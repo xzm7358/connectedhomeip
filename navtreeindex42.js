@@ -1,17 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a34364d3b58a891033b2f070ff11a0acc":[11,0,1,1,0,1,1,39],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a34eda4075769c9d23cc8cead43ca5d2b":[11,0,1,1,0,1,1,200],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a34f55c783ae2d03e5592629f9179e5f3":[11,0,1,1,0,1,1,108],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3691a18490c0f096d36d8e49d8751487":[11,0,1,1,0,1,1,170],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3805239e11b570a00d0d725becbe51bd":[11,0,1,1,0,1,1,196],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3838a68cefdb4bdd23e949570c44fa8b":[11,0,1,1,0,1,1,211],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a38f603b993ea21ab7d04720ed81f7429":[11,0,1,1,0,1,1,116],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3952a72b7a6514aab435820851143dba":[11,0,1,1,0,1,1,51],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3ad803359a7ef42acc64e9815c23f2f5":[11,0,1,1,0,1,1,14],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3b5fe6fd6ebad0700b1ada351f6eb8c5":[11,0,1,1,0,1,1,107],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3b617f863c1d6cff505c4bf15738b4b0":[11,0,1,1,0,1,1,82],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a40496fb7f5457802f5f8964942716d5c":[11,0,1,1,0,1,1,9],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a41cc39f91a9f67ffd63b2f6a11506dbe":[11,0,1,1,0,1,1,58],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a42765a593a6c7972bc26106741c256a5":[11,0,1,1,0,1,1,114],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a4307126f007431379e64b3fc64e4441c":[11,0,1,1,0,1,1,41],
@@ -249,5 +237,17 @@ var NAVTREEINDEX42 =
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a4e4b42aee371511a5707555fbed41c1d":[11,0,7,10,5,16],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a56f3094069136dfe32452bfb45b07b33":[11,0,7,10,5,29],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a57990ab87af2262fd64b6514644dfdd7":[11,0,7,10,5,49],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#a5ba4362277d1b4590c86e1113a653381":[11,0,7,10,5,8]
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5ba4362277d1b4590c86e1113a653381":[11,0,7,10,5,8],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5da64c40172199f3d4c5dfd376f23c37":[11,0,7,10,5,45],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5e3f88d3ddb04517e635b9cd0bae78be":[11,0,7,10,5,32],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5fefb4704e0b8b7a37c3c1782d1eca7b":[11,0,7,10,5,19],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a620289c3b89e543662bcf30c5f84c428":[11,0,7,10,5,3],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a6c8de5f84114dd3a92233ece973e4e03":[11,0,7,10,5,18],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a6dd8c7f84720f334c5660d7a1690978a":[11,0,7,10,5,41],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a720046b9468b5c3bc4930d74e070235c":[11,0,7,10,5,2],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a77341573532803679ccbd564e0f2542a":[11,0,7,10,5,33],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a7ac5617767de0ed14976fb3b042e4280":[11,0,7,10,5,44],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a7cec7f627dd41dee5328e4575855366b":[11,0,7,10,5,17],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a82faaf02749c6bcf78ea079d4e017c13":[11,0,7,10,5,31],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a8867aa7a26debef00255a559ec087f01":[11,0,7,10,5,43]
 };

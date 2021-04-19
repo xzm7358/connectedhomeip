@@ -1,17 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4cfad5fbd48dd3cdcf51006bac949f59":[10,0,1,10,0,0,110],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4d3edb7b4c7f208028df6c6d10388f1f":[10,0,1,10,0,0,18],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4d471f719705264222311ebd47011f9d":[10,0,1,10,0,0,219],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a4ee52eaa28a96e7141e53e92f41e4f75":[10,0,1,10,0,0,138],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a501e53fafbc8a6f3a60919aa1e0a03b9":[10,0,1,10,0,0,186],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a52509091fd96a08a16a7ad4177cd5d34":[10,0,1,10,0,0,143],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a53e58587f6accaf7b4d60028fbfcadf5":[10,0,1,10,0,0,178],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a54e42bc69ebdce59d1507e5b837c074c":[10,0,1,10,0,0,93],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a55123937fabebf2953c69f074ba83ee9":[10,0,1,10,0,0,174],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a56b13f4c322462c81d7172bef8c1e767":[10,0,1,10,0,0,33],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5a161d22cc0f556431b22f75960039c9":[10,0,1,10,0,0,65],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5cc490cdbafe2ac60de7d2497f96a5f0":[10,0,1,10,0,0,115],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5fa616ce8f976b6df910ba254b2982c6":[10,0,1,10,0,0,171],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a5fbfc4e7c33b252cd40991b7bdc0a165":[10,0,1,10,0,0,82],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a605f1bc56dc27d7adde38d791a159684":[10,0,1,10,0,0,57],
@@ -249,5 +237,17 @@ var NAVTREEINDEX35 =
 "classchip_1_1exceptions_1_1_chip_stack_error.html#a7d08d14d2678881d885bcb40b84dabcd":[10,0,1,17,0,3],
 "classchip_1_1exceptions_1_1_chip_stack_error.html#af4aa3b6d829c317519ee921e8bbb4bd3":[10,0,1,17,0,0],
 "classchip_1_1exceptions_1_1_chip_stack_exception.html":[10,0,1,17,1],
-"classchip_1_1exceptions_1_1_cluster_error.html":[10,0,1,17,2]
+"classchip_1_1exceptions_1_1_cluster_error.html":[10,0,1,17,2],
+"classchip_1_1exceptions_1_1_device_error.html":[10,0,1,17,3],
+"classchip_1_1exceptions_1_1_device_error.html#a200dfbb4349831b04d3f1fc5dc15c73e":[10,0,1,17,3,4],
+"classchip_1_1exceptions_1_1_device_error.html#a2ed02eecb552b84a4abd2c5d27bc9273":[10,0,1,17,3,1],
+"classchip_1_1exceptions_1_1_device_error.html#a3a073e1d0cebb570a4f01e56a9c75336":[10,0,1,17,3,0],
+"classchip_1_1exceptions_1_1_device_error.html#a51a24dc7936b938822c36d6f5757f9b4":[10,0,1,17,3,2],
+"classchip_1_1exceptions_1_1_device_error.html#a7486e69e96669e01f0b776d18826c342":[10,0,1,17,3,3],
+"classchip_1_1exceptions_1_1_device_error.html#af0cddcac4927e8497295de712a6a4480":[10,0,1,17,3,5],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html":[10,0,1,17,4],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a29ab3bc493499445836e4c47b17bfcc3":[10,0,1,17,4,2],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a59b0ea296d2cab84ecaf3f6bfa7d9360":[10,0,1,17,4,3],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a95e9287cfda4d863fe4840adcebbf744":[10,0,1,17,4,0],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#ab7332ce5baefff2b54b9977ade2ca3fe":[10,0,1,17,4,1]
 };
