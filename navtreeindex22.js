@@ -1,5 +1,12 @@
 var NAVTREEINDEX22 =
 {
+"classchip_1_1_controller_1_1_device_commissioner.html#a120c124475f95c1df2cd668786c530bb":[10,0,1,11,11,3],
+"classchip_1_1_controller_1_1_device_commissioner.html#a199bbdbb175afa85574bfdfe0e7747d0":[10,0,1,11,11,12],
+"classchip_1_1_controller_1_1_device_commissioner.html#a3c39fbb01c28944c9cede2d53712913f":[10,0,1,11,11,8],
+"classchip_1_1_controller_1_1_device_commissioner.html#a48cbff0c06e1ce0b5c5338bb87a899f0":[10,0,1,11,11,4],
+"classchip_1_1_controller_1_1_device_commissioner.html#a7e1458418c9dabb719c8ed88f9093e99":[10,0,1,11,11,0],
+"classchip_1_1_controller_1_1_device_commissioner.html#a7fe5bc27b70fc1fd995413f6887d0043":[10,0,1,11,11,11],
+"classchip_1_1_controller_1_1_device_commissioner.html#a7ffddb8a51f89ebd8250d1caecb668b9":[10,0,1,11,11,2],
 "classchip_1_1_controller_1_1_device_commissioner.html#a86dae0f1207231535653ed9c42394045":[10,0,1,11,11,6],
 "classchip_1_1_controller_1_1_device_commissioner.html#aa92108d488c7f055b407bddb9abde494":[10,0,1,11,11,7],
 "classchip_1_1_controller_1_1_device_commissioner.html#abd087a4f0e349af1f70b23f0e30ab00b":[10,0,1,11,11,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX22 =
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a744d2c94cb0169b387c0d40d282ffa4e":[10,0,1,11,34,4],
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a92c2cb12a1e0c1755e32f3e07153fb6e":[10,0,1,11,34,7],
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html#ad1be68331821c3f451c839d6630c7747":[10,0,1,11,34,0],
-"classchip_1_1_controller_1_1_temperature_measurement_cluster.html#aebf76319587c6527371a0531b03092d6":[10,0,1,11,34,2],
-"classchip_1_1_controller_1_1_temperature_measurement_cluster.html#af71930f73543eb9395e7d36b56f8469c":[10,0,1,11,34,6],
-"classchip_1_1_controller_1_1_thermostat_cluster.html":[10,0,1,11,35],
-"classchip_1_1_controller_1_1_thermostat_cluster.html#a0148a888917c13a883b2ee3e0f643808":[10,0,1,11,35,16],
-"classchip_1_1_controller_1_1_thermostat_cluster.html#a0b007e7726e67478bd2d6fa1c8d5d589":[10,0,1,11,35,4],
-"classchip_1_1_controller_1_1_thermostat_cluster.html#a0d1707a7fe6ca6a7e1ae150edab0b8ad":[10,0,1,11,35,8],
-"classchip_1_1_controller_1_1_thermostat_cluster.html#a33e341bbe7edc49e3153fec31e9496a2":[10,0,1,11,35,15],
-"classchip_1_1_controller_1_1_thermostat_cluster.html#a350dfff38c44a19f72af47e831a11b8e":[10,0,1,11,35,5]
+"classchip_1_1_controller_1_1_temperature_measurement_cluster.html#aebf76319587c6527371a0531b03092d6":[10,0,1,11,34,2]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_temperature_measurement_cluster.html#af71930f73543eb9395e7d36b56f8469c":[10,0,1,11,34,6],
+"classchip_1_1_controller_1_1_thermostat_cluster.html":[10,0,1,11,35],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a0148a888917c13a883b2ee3e0f643808":[10,0,1,11,35,16],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a0b007e7726e67478bd2d6fa1c8d5d589":[10,0,1,11,35,4],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a0d1707a7fe6ca6a7e1ae150edab0b8ad":[10,0,1,11,35,8],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a33e341bbe7edc49e3153fec31e9496a2":[10,0,1,11,35,15],
+"classchip_1_1_controller_1_1_thermostat_cluster.html#a350dfff38c44a19f72af47e831a11b8e":[10,0,1,11,35,5],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a3f63b56a8cf7cb9b20a7bf6a5c096ba4":[10,0,1,11,35,17],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a4aa58faf127845366d9c20791d85d46a":[10,0,1,11,35,10],
 "classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d":[10,0,1,11,35,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_configuration_manager.html#acb6d4a367341fec6384e2cf65518c606":[10,0,1,14,8,41],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#acf44834f0091002539caa8b86097d09b":[10,0,1,14,8,47],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#ad23aa76b15cf3dc0bd391de483985b38":[10,0,1,14,8,58],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#ad70f4b8ad2add57393c820c91336e9a0":[10,0,1,14,8,52],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#adb418e09785e739d7fe44caac0b77504":[10,0,1,14,8,35],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#add141340c02d6a2d37345cdd0ba12a2d":[10,0,1,14,8,4],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#ae1b5dc3f010264524a92589c84fd27dc":[10,0,1,14,8,9],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#ae7d4b0541fb8d1a66c695eb340f3a6b6":[10,0,1,14,8,63],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#af03e5836cd0b75ba950214bce8343b39":[10,0,1,14,8,19],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#af35b6368d5f4b08c87f43b277b1154fd":[10,0,1,14,8,38],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#af36170a64016212dcc5916a4b6381bb0":[10,0,1,14,8,33]
+"classchip_1_1_device_layer_1_1_configuration_manager.html#ad70f4b8ad2add57393c820c91336e9a0":[10,0,1,14,8,52]
 };
