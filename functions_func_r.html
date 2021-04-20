@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3fcf70b</span>
+   &#160;<span id="projectnumber">2265b34</span>
    </div>
   </td>
  </tr>
@@ -169,6 +169,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 , <a class="el" href="classchip_1_1_controller_1_1_low_power_cluster.html#a6b0c6802a2efef77fd05c649315f82bc">chip::Controller::LowPowerCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_network_commissioning_cluster.html#abb70936b04fc89a4d6103e92c8f5bbe9">chip::Controller::NetworkCommissioningCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#a45bf2715d677e321229484a3855929fa">chip::Controller::OnOffCluster</a>
+, <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#a007eda6c12ab600d92ffaa5bc26c8117">chip::Controller::OperationalCredentialsCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e">chip::Controller::ScenesCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a744d2c94cb0169b387c0d40d282ffa4e">chip::Controller::TemperatureMeasurementCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d">chip::Controller::ThermostatCluster</a>
@@ -281,6 +282,9 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 </li>
 <li>ReadAttributeFabricId()
 : <a class="el" href="classchip_1_1_controller_1_1_general_commissioning_cluster.html#a49259ef5b3915ec98f9cd2855111e038">chip::Controller::GeneralCommissioningCluster</a>
+</li>
+<li>ReadAttributeFabricsList()
+: <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#af1e23598becd62be17dcde42f56466f1">chip::Controller::OperationalCredentialsCluster</a>
 </li>
 <li>ReadAttributeGroupKeys()
 : <a class="el" href="classchip_1_1_controller_1_1_group_key_management_cluster.html#aa5496adc29be96c1eb42fa2162f52028">chip::Controller::GroupKeyManagementCluster</a>
@@ -501,10 +505,10 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config.html#a3f4062207d60ce10b64dc02d45267db0">chip::DeviceLayer::Internal::CC13X2_26X2Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#a7a83634e280ec89f663baacf8075780e">chip::DeviceLayer::Internal::EFR32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#ae8c1c5a78aab73ae5b58b770e875c0c4">chip::DeviceLayer::Internal::ESP32Config</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a009b371b096d49133c168bf6773ac395">chip::DeviceLayer::Internal::K32WConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#aea606aeae0f734f698d941eeefdfebd0">chip::DeviceLayer::Internal::PosixConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#abb550f93a45329eae4a5a6d96a932460">chip::DeviceLayer::Internal::QPG6100Config</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#ac94e21d0cc38558c1f61f6b68656e1c7">chip::DeviceLayer::Internal::ZephyrConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a84ef2af303b4bb9fd03277d496caf822">chip::DeviceLayer::Internal::K32WConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#aa367a9ff22060966ff67f6537a430c3b">chip::DeviceLayer::Internal::PosixConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#a2c16bdc6c1487aa5b8305fa80a02b1b7">chip::DeviceLayer::Internal::QPG6100Config</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#ac7ed10f151aeb11fefd0758569d12f48">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
 <li>ReadConfigValueBin()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config.html#abe185137395c633b1e85408aca1d0bce">chip::DeviceLayer::Internal::CC13X2_26X2Config</a>
@@ -621,6 +625,9 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 </li>
 <li>RemoveEventHandler()
 : <a class="el" href="classchip_1_1_device_layer_1_1_platform_manager.html#a5fe71645c08ad0f7dc93a432b14bbeb5">chip::DeviceLayer::PlatformManager</a>
+</li>
+<li>RemoveFabric()
+: <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#a437c9c0da8be9a32b34624cf0f6b1bbe">chip::Controller::OperationalCredentialsCluster</a>
 </li>
 <li>RemoveGroup()
 : <a class="el" href="classchip_1_1_controller_1_1_groups_cluster.html#a4115bebe10608e52b46b3cf3eee55b9e">chip::Controller::GroupsCluster</a>
@@ -746,7 +753,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 : <a class="el" href="classmdns_1_1_minimal_1_1_responder.html#a4358ee7b3acd188c1a85f2460f991f54">mdns::Minimal::Responder</a>
 </li>
 <li>ResponseBuilder()
-: <a class="el" href="classmdns_1_1_minimal_1_1_response_builder.html#a37524afc1a330e975e53bcddeccc01df">mdns::Minimal::ResponseBuilder</a>
+: <a class="el" href="classmdns_1_1_minimal_1_1_response_builder.html#a489ba85fc7cb69c05be75a807df29f63">mdns::Minimal::ResponseBuilder</a>
 </li>
 <li>ResponseSender()
 : <a class="el" href="classmdns_1_1_minimal_1_1_response_sender.html#a022789be44e7fcf5010e3e91dc2cfcf0">mdns::Minimal::ResponseSender</a>
@@ -809,7 +816,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 20 2021 17:34:38 for Connected Home over IP by
+    <li class="footer">Generated on Tue Apr 20 2021 18:56:42 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

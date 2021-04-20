@@ -154,6 +154,7 @@ var hierarchy =
       [ "chip::Controller::LowPowerCluster", "classchip_1_1_controller_1_1_low_power_cluster.html", null ],
       [ "chip::Controller::NetworkCommissioningCluster", "classchip_1_1_controller_1_1_network_commissioning_cluster.html", null ],
       [ "chip::Controller::OnOffCluster", "classchip_1_1_controller_1_1_on_off_cluster.html", null ],
+      [ "chip::Controller::OperationalCredentialsCluster", "classchip_1_1_controller_1_1_operational_credentials_cluster.html", null ],
       [ "chip::Controller::ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html", null ],
       [ "chip::Controller::TemperatureMeasurementCluster", "classchip_1_1_controller_1_1_temperature_measurement_cluster.html", null ],
       [ "chip::Controller::ThermostatCluster", "classchip_1_1_controller_1_1_thermostat_cluster.html", null ],
@@ -313,10 +314,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -329,10 +330,10 @@ var hierarchy =
     [ "chip::DeviceLayer::Internal::CC13X2_26X2Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::PosixConfig::Key", "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
-    [ "chip.devicecontroller.KeyValueStoreManager", "classchip_1_1devicecontroller_1_1_key_value_store_manager.html", null ],
     [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManager", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html", [
       [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html", null ]
     ] ],
+    [ "chip.devicecontroller.KeyValueStoreManager", "classchip_1_1devicecontroller_1_1_key_value_store_manager.html", null ],
     [ "chip::System::Layer", "classchip_1_1_system_1_1_layer.html", null ],
     [ "chip::Retransmit::Lifetime< PayloadType >", "structchip_1_1_retransmit_1_1_lifetime.html", null ],
     [ "mdns::Minimal::ListenIterator", "classmdns_1_1_minimal_1_1_listen_iterator.html", null ],
@@ -429,8 +430,8 @@ var hierarchy =
     [ "chip::Transport::PeerConnections< kMaxConnectionCount, kTimeSource >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnections< CHIP_CONFIG_PEER_CONNECTION_POOL_SIZE >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
-    [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
     [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
+    [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],
@@ -533,9 +534,9 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

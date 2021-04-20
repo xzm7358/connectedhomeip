@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"_linux_2_mdns_impl_8h_source.html":[11,0,7,6,23],
 "_linux_2_platform_manager_impl_8cpp.html":[11,0,7,6,24],
 "_linux_2_platform_manager_impl_8h.html":[11,0,7,6,25],
 "_linux_2_platform_manager_impl_8h.html#a0f116f09a0e109f6a32f9d894bf01d42":[11,0,7,6,25,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "_q_r_code_setup_payload_generator_8h_source.html":[11,0,8,13],
 "_q_r_code_setup_payload_parser_8cpp.html":[11,0,8,14],
 "_q_r_code_setup_payload_parser_8cpp.html#a34fc586b2403d7c0ae2a06087632265b":[11,0,8,14,4],
-"_q_r_code_setup_payload_parser_8cpp.html#a4298e44aa94c44eef82fa1bf66f7ea7b":[11,0,8,14,0],
-"_q_r_code_setup_payload_parser_8cpp.html#a7457f8cba407347441fc310aec5a36ac":[11,0,8,14,9]
+"_q_r_code_setup_payload_parser_8cpp.html#a4298e44aa94c44eef82fa1bf66f7ea7b":[11,0,8,14,0]
 };

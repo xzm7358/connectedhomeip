@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3fcf70b</span>
+   &#160;<span id="projectnumber">2265b34</span>
    </div>
   </td>
  </tr>
@@ -172,6 +172,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_controller_1_1_low_power_cluster.html#a6b0c6802a2efef77fd05c649315f82bc">chip::Controller::LowPowerCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_network_commissioning_cluster.html#abb70936b04fc89a4d6103e92c8f5bbe9">chip::Controller::NetworkCommissioningCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#a45bf2715d677e321229484a3855929fa">chip::Controller::OnOffCluster</a>
+, <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#a007eda6c12ab600d92ffaa5bc26c8117">chip::Controller::OperationalCredentialsCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e">chip::Controller::ScenesCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a744d2c94cb0169b387c0d40d282ffa4e">chip::Controller::TemperatureMeasurementCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d">chip::Controller::ThermostatCluster</a>
@@ -284,6 +285,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReadAttributeFabricId()
 : <a class="el" href="classchip_1_1_controller_1_1_general_commissioning_cluster.html#a49259ef5b3915ec98f9cd2855111e038">chip::Controller::GeneralCommissioningCluster</a>
+</li>
+<li>ReadAttributeFabricsList()
+: <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#af1e23598becd62be17dcde42f56466f1">chip::Controller::OperationalCredentialsCluster</a>
 </li>
 <li>ReadAttributeGroupKeys()
 : <a class="el" href="classchip_1_1_controller_1_1_group_key_management_cluster.html#aa5496adc29be96c1eb42fa2162f52028">chip::Controller::GroupKeyManagementCluster</a>
@@ -514,7 +518,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ae8f6819b95a9d388708597b763d70c4c">chip::DeviceLayer::Internal::EFR32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#afcb6f96fc8ed86f2e6d07b629665ec9e">chip::DeviceLayer::Internal::ESP32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a7d76eb8528063d0c38f9c6db2522d11a">chip::DeviceLayer::Internal::K32WConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#ae680edb43b87531b26e774e245972a24">chip::DeviceLayer::Internal::PosixConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#a97dafa2a10ba6b8edb660667e13add4b">chip::DeviceLayer::Internal::PosixConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#abf8e6cca379865f5eb4ce40d276e5224">chip::DeviceLayer::Internal::QPG6100Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#a084b01e9237acd0daf9b34f61a2aef98">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
@@ -552,7 +556,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 : <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad6434d422a082b62e368f3744f0239e8">chip::TLV::TLVReader</a>
 </li>
 <li>ReadValue()
-: <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a726dc334d69dcd5cfe6b1bbf1856593d">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
+: <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#aff1db1346aa346c37f80cbff0b10652e">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
 </li>
 <li>ReadValueBin()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#af99004e00009563eaf827b616a39ea0d">chip::DeviceLayer::Internal::ChipLinuxStorage</a>
@@ -610,7 +614,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReleaseDevice()
 : <a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#adeb062685e6022d317a4e76fde29706a">chip::Controller::DeviceCommissioner</a>
-, <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a20011e300d00763eb58cbfb7d6de0455">chip::Controller::DeviceController</a>
+, <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a7ef943f16778b2466a4637f89fce8767">chip::Controller::DeviceController</a>
 </li>
 <li>ReleaseDeviceById()
 : <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad00416087ce23a7ccc96f6c2cc4d811f">chip::Controller::DeviceController</a>
@@ -647,6 +651,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>RemoveEventHandler()
 : <a class="el" href="classchip_1_1_device_layer_1_1_platform_manager.html#a5fe71645c08ad0f7dc93a432b14bbeb5">chip::DeviceLayer::PlatformManager</a>
+</li>
+<li>RemoveFabric()
+: <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#a437c9c0da8be9a32b34624cf0f6b1bbe">chip::Controller::OperationalCredentialsCluster</a>
 </li>
 <li>RemoveGroup()
 : <a class="el" href="classchip_1_1_controller_1_1_groups_cluster.html#a4115bebe10608e52b46b3cf3eee55b9e">chip::Controller::GroupsCluster</a>
@@ -783,7 +790,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_mdns_1_1_resolver.html#ad64e4d51fe03d1c12e7f1344b442af72">chip::Mdns::Resolver</a>
 </li>
 <li>ResourceData()
-: <a class="el" href="classmdns_1_1_minimal_1_1_resource_data.html#a066fdbac509f3d3651f83749d188f0b4">mdns::Minimal::ResourceData</a>
+: <a class="el" href="classmdns_1_1_minimal_1_1_resource_data.html#af080a41411c81f39031b4fe37dd34ce8">mdns::Minimal::ResourceData</a>
 </li>
 <li>ResourceRecord()
 : <a class="el" href="classmdns_1_1_minimal_1_1_resource_record.html#a0feb60eb0a87612a4a0a79c8e160c96e">mdns::Minimal::ResourceRecord</a>
@@ -854,7 +861,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#a5b5f57a4ab30c0bc69bbbb4321b5a5e7">chip::DeviceLayer::Internal::EFR32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a9bb4a1192beb29fee612bacd0c761957">chip::DeviceLayer::Internal::ESP32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a4d9ba3688d236e2bd12029e5fc39268f">chip::DeviceLayer::Internal::K32WConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#ac8de9c473922fd82b615ad08cfab83a8">chip::DeviceLayer::Internal::PosixConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#a8935da95e85566aab81d786ccd4a0bc4">chip::DeviceLayer::Internal::PosixConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#a1a54f01e5b6b40d322d6c02fa31e4a9a">chip::DeviceLayer::Internal::QPG6100Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#a02cd8db4ccef8b1508833cfcc9062d0d">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
@@ -887,7 +894,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Apr 20 2021 17:34:38 for Connected Home over IP by
+    <li class="footer">Generated on Tue Apr 20 2021 18:56:42 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

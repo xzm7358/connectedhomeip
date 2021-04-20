@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"_e_s_p32_2_warm_platform_config_8h.html#a626967868cc9487c9c3fc49c0ecda9fc":[11,0,7,3,34,2],
 "_e_s_p32_2_warm_platform_config_8h.html#aa1def091fbd6ea14d44d15b5e8f35c42":[11,0,7,3,34,4],
 "_e_s_p32_2_warm_platform_config_8h_source.html":[11,0,7,3,34],
 "_e_s_p32_2bluedroid_2_b_l_e_manager_impl_8cpp.html":[11,0,7,3,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "_i_p_end_point_basis_8h_source.html":[11,0,5,28],
 "_i_p_prefix_8cpp.html":[11,0,5,29],
 "_i_p_prefix_8h.html":[11,0,5,30],
-"_i_p_prefix_8h.html#a5e9c6c904fce8065d03e455b1282851f":[11,0,5,30,1],
-"_i_p_prefix_8h.html#a5ef1abb2900c52a57335bdf96ddb45b1":[11,0,5,30,2]
+"_i_p_prefix_8h.html#a5e9c6c904fce8065d03e455b1282851f":[11,0,5,30,1]
 };

@@ -27,6 +27,7 @@ var namespacechip_1_1_controller =
     [ "LowPowerCluster", "classchip_1_1_controller_1_1_low_power_cluster.html", "classchip_1_1_controller_1_1_low_power_cluster" ],
     [ "NetworkCommissioningCluster", "classchip_1_1_controller_1_1_network_commissioning_cluster.html", "classchip_1_1_controller_1_1_network_commissioning_cluster" ],
     [ "OnOffCluster", "classchip_1_1_controller_1_1_on_off_cluster.html", "classchip_1_1_controller_1_1_on_off_cluster" ],
+    [ "OperationalCredentialsCluster", "classchip_1_1_controller_1_1_operational_credentials_cluster.html", "classchip_1_1_controller_1_1_operational_credentials_cluster" ],
     [ "PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", "classchip_1_1_controller_1_1_python_interaction_model_delegate" ],
     [ "PythonPersistentStorageDelegate", "classchip_1_1_controller_1_1_python_persistent_storage_delegate.html", "classchip_1_1_controller_1_1_python_persistent_storage_delegate" ],
     [ "ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html", "classchip_1_1_controller_1_1_scenes_cluster" ],

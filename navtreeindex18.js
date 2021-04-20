@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"chip-device-ctrl_8py.html#af58b46c4320f8b670364c1d3c6bda1b4":[11,0,1,1,2,10],
 "chip-repl_8py.html":[11,0,1,1,3],
 "chip-repl_8py.html#af92785a08a0a468ade6bdf46f366db0b":[11,0,1,1,3,0],
 "chip_o_ble_profile_8c.html":[11,0,7,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classchip_1_1_bit_flags.html#ae678adaa6491c487fa69302133cdd9e8":[10,0,1,40,4],
 "classchip_1_1_bit_flags.html#af88dda1f25bc70238fcb4a3a47350c9f":[10,0,1,40,21],
 "classchip_1_1_bit_map_object_pool.html":[10,0,1,41],
-"classchip_1_1_bit_map_object_pool.html#a3b3aa898475c915f65179f58441a0f15":[10,0,1,41,3],
-"classchip_1_1_bit_map_object_pool.html#a4053f3234c21ccecf8e9eeb8fe74b265":[10,0,1,41,2]
+"classchip_1_1_bit_map_object_pool.html#a3b3aa898475c915f65179f58441a0f15":[10,0,1,41,3]
 };
