@@ -25,7 +25,7 @@ var dir_ce14ed064186955200333d2a0a25aa72 =
     [ "SecureSession.h", "_secure_session_8h.html", [
       [ "SecureSession", "classchip_1_1_secure_session.html", "classchip_1_1_secure_session" ]
     ] ],
-    [ "SecureSessionMgr.cpp", "_secure_session_mgr_8cpp.html", "_secure_session_mgr_8cpp" ],
+    [ "SecureSessionMgr.cpp", "_secure_session_mgr_8cpp.html", null ],
     [ "SecureSessionMgr.h", "_secure_session_mgr_8h.html", "_secure_session_mgr_8h" ],
     [ "SessionEstablishmentDelegate.h", "_session_establishment_delegate_8h.html", [
       [ "SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", "classchip_1_1_session_establishment_delegate" ]

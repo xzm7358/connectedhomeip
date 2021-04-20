@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classchip_1_1_controller_1_1_script_device_pairing_delegate.html#aedf3f98fb37b48278147451e2f9b1701":[10,0,1,11,32,5],
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html":[10,0,1,11,35],
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a1f2b9908251ab35292d65eaed8116d25":[10,0,1,11,35,3],
 "classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a2d70b3d581cd7f90ef3263b862749b63":[10,0,1,11,35,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_configuration_manager.html#aab79656eb9d6a9272c97ab014d73bc21":[10,0,1,14,8,43],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#aae5be6b087824cd169454ec726328ef3":[10,0,1,14,8,56],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#ab90f5237ba7a29baef8950caac17b47f":[10,0,1,14,8,18],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#abb8e4caec99a6534513b175cb4c0797d":[10,0,1,14,8,26]
+"classchip_1_1_device_layer_1_1_configuration_manager.html#abb8e4caec99a6534513b175cb4c0797d":[10,0,1,14,8,26],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#ac0d60fb5daded54447fa746f7e6284dd":[10,0,1,14,8,49]
 };

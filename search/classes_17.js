@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowcoveringcluster_7151',['WindowCoveringCluster',['../classchip_1_1_controller_1_1_window_covering_cluster.html',1,'chip::Controller']]]
+  ['windowcoveringcluster_7166',['WindowCoveringCluster',['../classchip_1_1_controller_1_1_window_covering_cluster.html',1,'chip::Controller']]]
 ];

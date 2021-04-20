@@ -7,5 +7,6 @@ var namespaces_dup =
     [ "chip-repl", "namespacechip-repl.html", null ],
     [ "Inet", "namespace_inet.html", null ],
     [ "mdns", "namespacemdns.html", "namespacemdns" ],
+    [ "mobile-device-test", "namespacemobile-device-test.html", null ],
     [ "Verhoeff", "namespace_verhoeff.html", null ]
 ];

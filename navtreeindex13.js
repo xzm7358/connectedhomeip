@@ -102,7 +102,7 @@ var NAVTREEINDEX13 =
 "_mdns_error_8h_source.html":[11,0,7,1,22],
 "_message_header_8cpp.html":[11,0,11,0,1],
 "_message_header_8h.html":[11,0,11,0,2],
-"_message_header_8h.html#a1517b608fb94efae480e080bec7d4096":[11,0,11,0,2,10],
+"_message_header_8h.html#a1517b608fb94efae480e080bec7d4096":[11,0,11,0,2,11],
 "_message_header_8h.html#a19d9b7d115cbe8612608982730ea19d1":[11,0,11,0,2,6],
 "_message_header_8h.html#a19d9b7d115cbe8612608982730ea19d1a6b069c409765a3b77df77d77471f63fe":[11,0,11,0,2,6,0],
 "_message_header_8h.html#a19d9b7d115cbe8612608982730ea19d1a70aea03ee448ee662a7da2dfed595806":[11,0,11,0,2,6,1],
@@ -120,6 +120,7 @@ var NAVTREEINDEX13 =
 "_message_header_8h.html#a8480539d9757ec7148d562f0d2e06ac4af6dfd9e27ec0334b0bcfdcf0291731b5":[11,0,11,0,2,8,0],
 "_message_header_8h.html#aa8c9a1ddef0fee4cd2b90ae547fe08af":[11,0,11,0,2,9],
 "_message_header_8h.html#ad67568c9278152f00a7d18f60464e4f0":[11,0,11,0,2,3],
+"_message_header_8h.html#ad9f3fecb2ab98a1c3520a414b14f0aa2":[11,0,11,0,2,10],
 "_message_header_8h.html#aebdda57d47e49eaf4cc8aef0d8b0474e":[11,0,11,0,2,4],
 "_message_header_8h_source.html":[11,0,11,0,2],
 "_minimal_mdns_server_8cpp.html":[11,0,6,1,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "_q_r_code_setup_payload_generator_8h.html":[11,0,8,13],
 "_q_r_code_setup_payload_generator_8h_source.html":[11,0,8,13],
 "_q_r_code_setup_payload_parser_8cpp.html":[11,0,8,14],
-"_q_r_code_setup_payload_parser_8cpp.html#a34fc586b2403d7c0ae2a06087632265b":[11,0,8,14,4],
-"_q_r_code_setup_payload_parser_8cpp.html#a4298e44aa94c44eef82fa1bf66f7ea7b":[11,0,8,14,0]
+"_q_r_code_setup_payload_parser_8cpp.html#a34fc586b2403d7c0ae2a06087632265b":[11,0,8,14,4]
 };

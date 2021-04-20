@@ -4,6 +4,7 @@ var annotated_dup =
     [ "chip", "namespacechip.html", "namespacechip" ],
     [ "chip-device-ctrl", "namespacechip-device-ctrl.html", "namespacechip-device-ctrl" ],
     [ "mdns", "namespacemdns.html", "namespacemdns" ],
+    [ "mobile-device-test", "namespacemobile-device-test.html", "namespacemobile-device-test" ],
     [ "AndroidBleApplicationDelegate", "class_android_ble_application_delegate.html", "class_android_ble_application_delegate" ],
     [ "AndroidBleConnectionDelegate", "class_android_ble_connection_delegate.html", "class_android_ble_connection_delegate" ],
     [ "AndroidBlePlatformDelegate", "class_android_ble_platform_delegate.html", "class_android_ble_platform_delegate" ],
