@@ -6,7 +6,7 @@ var classchip_device_ctrl_1_1_device_mgr_cmd =
     [ "do_bleadapterselect", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a8fbd42f6c4ec1e4486a57d9adcfc5d6a", null ],
     [ "do_bledebuglog", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a6ec756321b12be1b92d7cafa6c1f1d52", null ],
     [ "do_blescan", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a5115ca580e83ccb3e4fc505b85b9ff69", null ],
-    [ "do_closeble", "classchip-device-ctrl_1_1_device_mgr_cmd.html#abbbb998f5ebb70350fc5abbbc58453e1", null ],
+    [ "do_close", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a73e6afca7854db564c18ed80de0595f0", null ],
     [ "do_connect", "classchip-device-ctrl_1_1_device_mgr_cmd.html#aa35d250fc97b18c2c36b32e71388b790", null ],
     [ "do_EOF", "classchip-device-ctrl_1_1_device_mgr_cmd.html#ae55517be1b6f75f4216a2bc728a64adf", null ],
     [ "do_exit", "classchip-device-ctrl_1_1_device_mgr_cmd.html#a323076b09b9db9069dfcd0af7800249d", null ],

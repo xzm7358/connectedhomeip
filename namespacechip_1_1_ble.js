@@ -5,7 +5,7 @@ var namespacechip_1_1_ble =
     [ "BLEEndPoint", "classchip_1_1_ble_1_1_b_l_e_end_point.html", "classchip_1_1_ble_1_1_b_l_e_end_point" ],
     [ "BleEndPointPool", "classchip_1_1_ble_1_1_ble_end_point_pool.html", "classchip_1_1_ble_1_1_ble_end_point_pool" ],
     [ "BleLayer", "classchip_1_1_ble_1_1_ble_layer.html", "classchip_1_1_ble_1_1_ble_layer" ],
-    [ "BleLayerDelegate", "classchip_1_1_ble_1_1_ble_layer_delegate.html", "classchip_1_1_ble_1_1_ble_layer_delegate" ],
+    [ "BleLayerObject", "classchip_1_1_ble_1_1_ble_layer_object.html", "classchip_1_1_ble_1_1_ble_layer_object" ],
     [ "BlePlatformDelegate", "classchip_1_1_ble_1_1_ble_platform_delegate.html", "classchip_1_1_ble_1_1_ble_platform_delegate" ],
     [ "BleTransportCapabilitiesRequestMessage", "classchip_1_1_ble_1_1_ble_transport_capabilities_request_message.html", "classchip_1_1_ble_1_1_ble_transport_capabilities_request_message" ],
     [ "BleTransportCapabilitiesResponseMessage", "classchip_1_1_ble_1_1_ble_transport_capabilities_response_message.html", "classchip_1_1_ble_1_1_ble_transport_capabilities_response_message" ],

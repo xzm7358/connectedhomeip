@@ -5,8 +5,6 @@ var classchip_1_1_ble_1_1_ble_layer =
     [ "kState_Initialized", "classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a908dadf2acf5eb1b4348dda865191d2c", null ],
     [ "BleLayer", "classchip_1_1_ble_1_1_ble_layer.html#a1c7f84854a52eaa659631578e68c3fda", null ],
     [ "CancelBleIncompleteConnection", "classchip_1_1_ble_1_1_ble_layer.html#af54325017df44c96c8ebf3b93acee0cd", null ],
-    [ "CloseAllBleConnections", "classchip_1_1_ble_1_1_ble_layer.html#a1915501cc4e0f6d0082d85f20fcb9871", null ],
-    [ "CloseBleConnection", "classchip_1_1_ble_1_1_ble_layer.html#a8898237a74dcdf2ea9482530723a01de", null ],
     [ "HandleConnectionError", "classchip_1_1_ble_1_1_ble_layer.html#a8a7234d27e593ec1f10f27149692ed2c", null ],
     [ "HandleIndicationConfirmation", "classchip_1_1_ble_1_1_ble_layer.html#a7d7dbad55270d78c52c8dc4a22e3e75d", null ],
     [ "HandleIndicationReceived", "classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445", null ],
@@ -19,13 +17,11 @@ var classchip_1_1_ble_1_1_ble_layer =
     [ "HandleWriteReceived", "classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091", null ],
     [ "Init", "classchip_1_1_ble_1_1_ble_layer.html#aaf6220e4014659c302f78cbe6da88f98", null ],
     [ "Init", "classchip_1_1_ble_1_1_ble_layer.html#a48aff31e0d0c499dd1f1636afbbbab4d", null ],
-    [ "NewBleConnectionByDiscriminator", "classchip_1_1_ble_1_1_ble_layer.html#ab0908ff5385c8cc5aa718df15343a29a", null ],
-    [ "NewBleConnectionByObject", "classchip_1_1_ble_1_1_ble_layer.html#a3153fc084f5fc52fe40f418436267df9", null ],
+    [ "NewBleConnection", "classchip_1_1_ble_1_1_ble_layer.html#a4af1b287ca69d07517389b8b210cb24c", null ],
     [ "NewBleEndPoint", "classchip_1_1_ble_1_1_ble_layer.html#a01e1eb8ba486fe86dc07a3551356981d", null ],
     [ "Shutdown", "classchip_1_1_ble_1_1_ble_layer.html#ae69a3f0cbf03a3605e254900607b1b17", null ],
     [ "BLEEndPoint", "classchip_1_1_ble_1_1_ble_layer.html#addbebbb912665b78e089ca4c175489c9", null ],
     [ "mAppState", "classchip_1_1_ble_1_1_ble_layer.html#ad631a55e9d141fe417793665cfa69cf9", null ],
-    [ "mBleTransport", "classchip_1_1_ble_1_1_ble_layer.html#a50bfa92238cc6dc0578f109a55f78101", null ],
     [ "mState", "classchip_1_1_ble_1_1_ble_layer.html#adbf061f08434344e9667781576c35016", null ],
     [ "OnChipBleConnectReceived", "classchip_1_1_ble_1_1_ble_layer.html#ac0603dfed49c6233e4fc2763083a0154", null ]
 ];

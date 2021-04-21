@@ -1,8 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"_c_h_i_p_config_8h.html#ad16b98c96ea5b7362f9fbdf782715dee":[11,0,6,0,3,1],
-"_c_h_i_p_config_8h.html#ad1d4254ade95847f0071087f3ef7c57e":[11,0,6,0,3,119],
-"_c_h_i_p_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,6,0,3,36],
 "_c_h_i_p_config_8h.html#ad3de4efaaec0e2e4c4048c5605f91c00":[11,0,6,0,3,65],
 "_c_h_i_p_config_8h.html#ad49cdda0118d7906c9bb2bea5a1d945a":[11,0,6,0,3,22],
 "_c_h_i_p_config_8h.html#ad89bd472b11657f09902c663028e8758":[11,0,6,0,3,129],
@@ -163,11 +160,10 @@ var NAVTREEINDEX2 =
 "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#aed6adefb0963333bfe52f8e7c9820339":[11,0,2,3,3],
 "_c_h_i_p_device_8cpp.html":[11,0,1,6],
 "_c_h_i_p_device_8h.html":[11,0,1,7],
-"_c_h_i_p_device_8h.html#a04f553cb3928f4d2a9fe35d136a4fa14":[11,0,1,7,8],
-"_c_h_i_p_device_8h.html#ac0b48550bc696fecb81c27141e89b4b7":[11,0,1,7,5],
+"_c_h_i_p_device_8h.html#a9527e47c2992bdd6fcdf5502a4a31188":[11,0,1,7,5],
 "_c_h_i_p_device_8h.html#ac514b1820bbfc39c55353df9db9a0d7f":[11,0,1,7,6],
 "_c_h_i_p_device_8h.html#ae82b171a1b3e706d9834148e8f8ff1b9":[11,0,1,7,7],
-"_c_h_i_p_device_8h.html#afc204e2a9831a47f9f2358bd276f839b":[11,0,1,7,9],
+"_c_h_i_p_device_8h.html#afc204e2a9831a47f9f2358bd276f839b":[11,0,1,7,8],
 "_c_h_i_p_device_8h_source.html":[11,0,1,7],
 "_c_h_i_p_device_config_8h.html":[11,0,4,0,1],
 "_c_h_i_p_device_config_8h.html#a011c0553246ac8255672464353a94f57":[11,0,4,0,1,73],
@@ -249,5 +245,9 @@ var NAVTREEINDEX2 =
 "_c_h_i_p_device_config_8h.html#ada5c4f72801c0af330bf3739cae2dafe":[11,0,4,0,1,54],
 "_c_h_i_p_device_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,4,0,1,78],
 "_c_h_i_p_device_config_8h.html#ae79d5e66e856f8a9650a0d9167b15848":[11,0,4,0,1,72],
-"_c_h_i_p_device_config_8h.html#aebc41f873239ec77215bec5351d471c6":[11,0,4,0,1,35]
+"_c_h_i_p_device_config_8h.html#aebc41f873239ec77215bec5351d471c6":[11,0,4,0,1,35],
+"_c_h_i_p_device_config_8h.html#aee8beeaa4bf8ac22b6f2d083d00b8a09":[11,0,4,0,1,65],
+"_c_h_i_p_device_config_8h.html#af107289963ac86b868271d4beff6bca6":[11,0,4,0,1,16],
+"_c_h_i_p_device_config_8h.html#af208201041d2136b01c9062b1460651c":[11,0,4,0,1,13],
+"_c_h_i_p_device_config_8h.html#af2af703ef83fd54ecd7591f3f7c49786":[11,0,4,0,1,0]
 };

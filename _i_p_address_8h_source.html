@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">0e9ec10</span>
+   &#160;<span id="projectnumber">69e1f35</span>
    </div>
   </td>
  </tr>
@@ -203,7 +203,7 @@ $(document).ready(function(){initNavTree('_i_p_address_8h_source.html',''); init
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    uint64_t GlobalId() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="namespacechip_1_1_inet.html#a488150424ad71d86b7979fac00fe95fb">IPAddressType</a> <a class="code" href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778e">Type</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="namespacechip_1_1_inet.html#a488150424ad71d86b7979fac00fe95fb">IPAddressType</a> <a class="code" href="namespacechip_1_1_transport.html#ade3bfdcf371e172855de66da8ddcaf68">Type</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> <a class="code" href="classchip_1_1_inet_1_1_i_p_address.html">IPAddress</a> &amp; other) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160; </div>
@@ -308,6 +308,7 @@ $(document).ready(function(){initNavTree('_i_p_address_8h_source.html',''); init
 <div class="ttc" id="a_i_p_address_8h_html_a7bd5c000abb7d55e7c5a3d55667ba440"><div class="ttname"><a href="_i_p_address_8h.html#a7bd5c000abb7d55e7c5a3d55667ba440">NL_INET_IPV6_ADDR_LEN_IN_BYTES</a></div><div class="ttdeci">#define NL_INET_IPV6_ADDR_LEN_IN_BYTES</div><div class="ttdef"><b>Definition:</b> IPAddress.h:58</div></div>
 <div class="ttc" id="aclasschip_1_1_inet_1_1_i_p_address_html_a0c4bca75cfcc8c89ceae160bc395ae2d"><div class="ttname"><a href="classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d">chip::Inet::IPAddress::ToIPv4</a></div><div class="ttdeci">ip4_addr_t ToIPv4(void) const</div><div class="ttdoc">Extract the IPv4 address as a platform data structure.</div><div class="ttdef"><b>Definition:</b> IPAddress.cpp:150</div></div>
 <div class="ttc" id="aclasschip_1_1_inet_1_1_i_p_address_html_aa071e7da5c61f57929f370cfe830ecb3"><div class="ttname"><a href="classchip_1_1_inet_1_1_i_p_address.html#aa071e7da5c61f57929f370cfe830ecb3">chip::Inet::IPAddress::GlobalId</a></div><div class="ttdeci">uint64_t GlobalId() const</div><div class="ttdoc">Extract the 16-bit global network identifier of an IPv6 ULA address.</div><div class="ttdef"><b>Definition:</b> IPAddress.cpp:309</div></div>
+<div class="ttc" id="anamespacechip_1_1_transport_html_ade3bfdcf371e172855de66da8ddcaf68"><div class="ttname"><a href="namespacechip_1_1_transport.html#ade3bfdcf371e172855de66da8ddcaf68">chip::Transport::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">Communication path defines how two peers communicate.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:46</div></div>
 <div class="ttc" id="anamespacechip_1_1_inet_html_ac9553bfd143dcf48253a2b319d7961ce"><div class="ttname"><a href="namespacechip_1_1_inet.html#ac9553bfd143dcf48253a2b319d7961ce">chip::Inet::ParseHostAndPort</a></div><div class="ttdeci">INET_ERROR ParseHostAndPort(const char *aString, uint16_t aStringLen, const char *&amp;aHost, uint16_t &amp;aHostLen, uint16_t &amp;aPort)</div><div class="ttdoc">Parse a human-readable string containing a host or IP address and an optional port number (separated ...</div><div class="ttdef"><b>Definition:</b> InetUtils.cpp:69</div></div>
 <div class="ttc" id="a_i_a_n_a_constants_8h_html"><div class="ttname"><a href="_i_a_n_a_constants_8h.html">IANAConstants.h</a></div></div>
 <div class="ttc" id="anamespacechip_1_1_inet_html_a488150424ad71d86b7979fac00fe95fba2de3be918c40a2c9901367d3cdeff377"><div class="ttname"><a href="namespacechip_1_1_inet.html#a488150424ad71d86b7979fac00fe95fba2de3be918c40a2c9901367d3cdeff377">chip::Inet::kIPAddressType_IPv4</a></div><div class="ttdeci">@ kIPAddressType_IPv4</div><div class="ttdoc">Internet protocol version 4.</div><div class="ttdef"><b>Definition:</b> IPAddress.h:97</div></div>
@@ -328,7 +329,6 @@ $(document).ready(function(){initNavTree('_i_p_address_8h_source.html',''); init
 <div class="ttc" id="anamespacechip_1_1_inet_html_a42050265c9d3638e9543eeb3a56f587b"><div class="ttname"><a href="namespacechip_1_1_inet.html#a42050265c9d3638e9543eeb3a56f587b">chip::Inet::ParseHostPortAndInterface</a></div><div class="ttdeci">INET_ERROR ParseHostPortAndInterface(const char *aString, uint16_t aStringLen, const char *&amp;aHost, uint16_t &amp;aHostLen, uint16_t &amp;aPort, const char *&amp;aInterface, uint16_t &amp;aInterfaceLen)</div><div class="ttdoc">Parse a human-readable string containing a host or IP address, an optional port number (separated by ...</div><div class="ttdef"><b>Definition:</b> InetUtils.cpp:199</div></div>
 <div class="ttc" id="aclasschip_1_1_inet_1_1_i_p_address_html_a93dfe3ef7d606de24956852780f61569"><div class="ttname"><a href="classchip_1_1_inet_1_1_i_p_address.html#a93dfe3ef7d606de24956852780f61569">chip::Inet::IPAddress::ToString</a></div><div class="ttdeci">char * ToString(char(&amp;buf)[N]) const</div><div class="ttdoc">A version of ToString that writes to a literal and deduces how much space it as to work with.</div><div class="ttdef"><b>Definition:</b> IPAddress.h:345</div></div>
 <div class="ttc" id="a_i_p_address_8h_html"><div class="ttname"><a href="_i_p_address_8h.html">IPAddress.h</a></div></div>
-<div class="ttc" id="anamespacechip_1_1_transport_html_a9f35c3e0e0d71813e0dd28710403778e"><div class="ttname"><a href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778e">chip::Transport::Type</a></div><div class="ttdeci">Type</div><div class="ttdoc">Communication path defines how two peers communicate.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:50</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a4d4b35015b112f5bcda270780bd94b93"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4d4b35015b112f5bcda270780bd94b93">FromString</a></div><div class="ttdeci">deviceIPAddr FromString(deviceAddrStr, deviceIPAddr)</div></div>
 <div class="ttc" id="aclasschip_1_1_inet_1_1_i_p_address_html_a51fe2354cd308165a78e0b6024dfd416"><div class="ttname"><a href="classchip_1_1_inet_1_1_i_p_address.html#a51fe2354cd308165a78e0b6024dfd416">chip::Inet::IPAddress::operator==</a></div><div class="ttdeci">bool operator==(const IPAddress &amp;other) const</div><div class="ttdoc">Compare this IP address with another for equivalence.</div><div class="ttdef"><b>Definition:</b> IPAddress.cpp:48</div></div>
 <div class="ttc" id="aclasschip_1_1_inet_1_1_i_p_address_html_a3d6eb785c416b7982b34d5f776ded760"><div class="ttname"><a href="classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760">chip::Inet::IPAddress::ToString</a></div><div class="ttdeci">char * ToString(char *buf, uint32_t bufSize) const</div><div class="ttdoc">Emit the IP address in conventional text presentation format.</div><div class="ttdef"><b>Definition:</b> IPAddress-StringFuncts.cpp:43</div></div>
@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('_i_p_address_8h_source.html',''); init
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_f6b9a4655267a7addfa391e62c58cac5.html">inet</a></li><li class="navelem"><a class="el" href="_i_p_address_8h.html">IPAddress.h</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 18:57:16 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 19:04:59 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

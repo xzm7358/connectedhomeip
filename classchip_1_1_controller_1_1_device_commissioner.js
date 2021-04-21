@@ -2,7 +2,6 @@ var classchip_1_1_controller_1_1_device_commissioner =
 [
     [ "DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html#a7e1458418c9dabb719c8ed88f9093e99", null ],
     [ "~DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html#ac4d256a4f88f5c30c499b79ee918149d", null ],
-    [ "CloseBleConnection", "classchip_1_1_controller_1_1_device_commissioner.html#a55ffb6cf760cb29c28a5fc5359db8e79", null ],
     [ "Init", "classchip_1_1_controller_1_1_device_commissioner.html#a7ffddb8a51f89ebd8250d1caecb668b9", null ],
     [ "Init", "classchip_1_1_controller_1_1_device_commissioner.html#a120c124475f95c1df2cd668786c530bb", null ],
     [ "OnRendezvousComplete", "classchip_1_1_controller_1_1_device_commissioner.html#a48cbff0c06e1ce0b5c5338bb87a899f0", null ],

@@ -1,10 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"_k32_w_2_c_h_i_p_platform_config_8h.html#add070dbfaadd65cf200e6281347f6e4b":[11,0,7,5,7,31],
-"_k32_w_2_c_h_i_p_platform_config_8h.html#add92a561f97db275eb4d1161d87ab910":[11,0,7,5,7,49],
-"_k32_w_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,5,7,13],
-"_k32_w_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,5,7,20],
-"_k32_w_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,5,7,4],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#af272e272fa202559e508daaa392d1a5a":[11,0,7,5,7,0],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,5,7,48],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550":[11,0,7,5,7,32],
@@ -47,8 +42,8 @@ var NAVTREEINDEX12 =
 "_k32_w_2_logging_8cpp.html#a0dfce62d534dadcd80a7446a1ba405a0":[11,0,7,5,25,5],
 "_k32_w_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,5,25,4],
 "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77":[11,0,7,5,25,8],
-"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,3],
+"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a7239e2be33c8d7bb4471386fa5b65569":[11,0,7,5,25,6],
 "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,5,25,9],
 "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513":[11,0,7,5,25,7],
@@ -249,5 +244,10 @@ var NAVTREEINDEX12 =
 "_linux_2_mdns_impl_8cpp.html#a90be7409a8111070d27b407773343c9d":[11,0,7,6,22,7],
 "_linux_2_mdns_impl_8cpp.html#a92918bc47fadde76f386ab039d196c7c":[11,0,7,6,22,3],
 "_linux_2_mdns_impl_8cpp.html#a9df0eae0cd6b9243c35db9ec11e46171":[11,0,7,6,22,10],
-"_linux_2_mdns_impl_8cpp.html#abb1a78179c950d386b70af49eb548e30":[11,0,7,6,22,5]
+"_linux_2_mdns_impl_8cpp.html#abb1a78179c950d386b70af49eb548e30":[11,0,7,6,22,5],
+"_linux_2_mdns_impl_8cpp.html#abb3c17bd426ff6f3e938c2343afeb547":[11,0,7,6,22,9],
+"_linux_2_mdns_impl_8cpp.html#ac0b5927f16f9acfc238f7698f78b7f82":[11,0,7,6,22,1],
+"_linux_2_mdns_impl_8cpp.html#ad6fb23a7eb8e61f9c3982ec36ec27f9a":[11,0,7,6,22,6],
+"_linux_2_mdns_impl_8cpp.html#afbba98fa3de45e9cd065838017c724e9":[11,0,7,6,22,2],
+"_linux_2_mdns_impl_8h.html":[11,0,7,6,23]
 };

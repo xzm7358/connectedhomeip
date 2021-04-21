@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">0e9ec10</span>
+   &#160;<span id="projectnumber">69e1f35</span>
    </div>
   </td>
  </tr>
@@ -85,7 +85,8 @@ $(document).ready(function(){initNavTree('_secure_message_codec_8cpp.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">SecureMessageCodec.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -110,16 +111,44 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c74f179b64643d01e43d3ea231ef3b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7">chip::SecureMessageCodec::Decode</a> (Transport::PeerConnectionState *state, PayloadHeader &amp;payloadHeader, const PacketHeader &amp;packetHeader, System::PacketBufferHandle &amp;msgBuf)</td></tr>
 <tr class="memdesc:a8c74f179b64643d01e43d3ea231ef3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypt the message, perform message integrity check, and decode the payload header.  <a href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7">More...</a><br /></td></tr>
 <tr class="separator:a8c74f179b64643d01e43d3ea231ef3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa1b38792cd06f0b68732dfdda6eedb1e"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_secure_message_codec_8cpp.html#aa1b38792cd06f0b68732dfdda6eedb1e">kMax_SecureSDU_Length</a> = 1024</td></tr>
+<tr class="separator:aa1b38792cd06f0b68732dfdda6eedb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file defines functions for encoding and decoding CHIP messages. The encoded messages contain CHIP packet header, encrypted payload header, encrypted payload and message authentication code, as per CHIP specifications. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="aa1b38792cd06f0b68732dfdda6eedb1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b38792cd06f0b68732dfdda6eedb1e">&#9670;&nbsp;</a></span>kMax_SecureSDU_Length</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t kMax_SecureSDU_Length = 1024</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_secure_message_codec_8cpp.html">SecureMessageCodec.cpp</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 18:57:18 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 19:05:01 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

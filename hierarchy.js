@@ -25,9 +25,7 @@ var hierarchy =
     [ "AvahiTimeout", "struct_avahi_timeout.html", null ],
     [ "AvahiWatch", "struct_avahi_watch.html", null ],
     [ "chip::Transport::Base", "classchip_1_1_transport_1_1_base.html", [
-      [ "chip::Transport::BLEBase", "classchip_1_1_transport_1_1_b_l_e_base.html", [
-        [ "chip::Transport::BLE< kPendingPacketSize >", "classchip_1_1_transport_1_1_b_l_e.html", null ]
-      ] ],
+      [ "chip::Transport::BLE", "classchip_1_1_transport_1_1_b_l_e.html", null ],
       [ "chip::Transport::TCPBase", "classchip_1_1_transport_1_1_t_c_p_base.html", [
         [ "chip::Transport::TCP< kActiveConnectionsSize, kPendingPacketSize >", "classchip_1_1_transport_1_1_t_c_p.html", null ]
       ] ],
@@ -66,13 +64,11 @@ var hierarchy =
     [ "chip::DeviceLayer::BleConnEventType", "structchip_1_1_device_layer_1_1_ble_conn_event_type.html", null ],
     [ "chip.ChipBleUtility.BleDeviceIdentificationInfo", "classchip_1_1_chip_ble_utility_1_1_ble_device_identification_info.html", null ],
     [ "chip.ChipBleUtility.BleDisconnectEvent", "classchip_1_1_chip_ble_utility_1_1_ble_disconnect_event.html", null ],
-    [ "chip::Ble::BLEEndPoint", "classchip_1_1_ble_1_1_b_l_e_end_point.html", null ],
     [ "chip::Ble::BleEndPointPool", "classchip_1_1_ble_1_1_ble_end_point_pool.html", null ],
     [ "chip::Ble::BleLayer", "classchip_1_1_ble_1_1_ble_layer.html", null ],
-    [ "chip::Ble::BleLayerDelegate", "classchip_1_1_ble_1_1_ble_layer_delegate.html", [
-      [ "chip::Transport::BLEBase", "classchip_1_1_transport_1_1_b_l_e_base.html", null ]
+    [ "chip::Ble::BleLayerObject", "classchip_1_1_ble_1_1_ble_layer_object.html", [
+      [ "chip::Ble::BLEEndPoint", "classchip_1_1_ble_1_1_b_l_e_end_point.html", null ]
     ] ],
-    [ "chip::Transport::BleListenParameters", "classchip_1_1_transport_1_1_ble_listen_parameters.html", null ],
     [ "chip.ChipCoreBluetoothMgr.BlePeripheral", "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html", null ],
     [ "chip::Ble::BlePlatformDelegate", "classchip_1_1_ble_1_1_ble_platform_delegate.html", [
       [ "AndroidBlePlatformDelegate", "class_android_ble_platform_delegate.html", null ],
@@ -370,6 +366,14 @@ var hierarchy =
       [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", null ],
       [ "UUIDHelper", "interface_u_u_i_d_helper.html", null ]
     ] ],
+    [ "object", null, [
+      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
+      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
+      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
+      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
+      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
+      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
+    ] ],
     [ "chip::System::Object", "classchip_1_1_system_1_1_object.html", [
       [ "chip::Inet::InetLayerBasis", "classchip_1_1_inet_1_1_inet_layer_basis.html", [
         [ "chip::Inet::DNSResolver", "classchip_1_1_inet_1_1_d_n_s_resolver.html", null ],
@@ -382,14 +386,6 @@ var hierarchy =
         ] ]
       ] ],
       [ "chip::System::Timer", "classchip_1_1_system_1_1_timer.html", null ]
-    ] ],
-    [ "object", null, [
-      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
-      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
-      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
-      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
-      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
-      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
     ] ],
     [ "chip::System::ObjectArena< ALIGN, SIZE >", "unionchip_1_1_system_1_1_object_arena.html", null ],
     [ "chip::System::ObjectArena< void *, N *sizeof(chip::Inet::DNSResolver)>", "unionchip_1_1_system_1_1_object_arena.html", null ],
@@ -539,9 +535,9 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

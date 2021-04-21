@@ -3,7 +3,6 @@ var _chip_device_controller__script_binding_8cpp =
     [ "ConstructBytesArrayFunct", "_chip_device_controller-_script_binding_8cpp.html#a3724ea5adf2091ee863138afbb7e64e9", null ],
     [ "LogMessageFunct", "_chip_device_controller-_script_binding_8cpp.html#ae0183729f89e769be5b0e1e1f370dd1c", null ],
     [ "pychip_BLEMgrImpl_ConfigureBle", "_chip_device_controller-_script_binding_8cpp.html#aa74eb4e30ad59af7991cd0769c9a8aac", null ],
-    [ "pychip_DeviceCommissioner_CloseBleConnection", "_chip_device_controller-_script_binding_8cpp.html#a3a37328fd1144184eeb6cbc8a8b2a3c0", null ],
     [ "pychip_DeviceController_ConnectBLE", "_chip_device_controller-_script_binding_8cpp.html#addba9c13155f8930afaa5f69f7086e0e", null ],
     [ "pychip_DeviceController_ConnectIP", "_chip_device_controller-_script_binding_8cpp.html#adbfff72704e7aea1c4696167032493a6", null ],
     [ "pychip_DeviceController_DeleteDeviceController", "_chip_device_controller-_script_binding_8cpp.html#a4521063b73e8f9261e801a9feb098f56", null ],
