@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">69e1f35</span>
+   &#160;<span id="projectnumber">27a4c9a</span>
    </div>
   </td>
  </tr>
@@ -84,28 +84,32 @@ $(document).ready(function(){initNavTree('classchip_1_1_transport_1_1_b_l_e.html
 
 <div class="header">
   <div class="headertitle">
-<div class="title">chip::Transport::BLE Member List</div>  </div>
+<div class="title">chip::Transport::BLE&lt; kPendingPacketSize &gt; Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE&lt; kPendingPacketSize &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#a0339dd2bffd94db128c8e1e78a8078c4">CanSendToPeer</a>(const Transport::PeerAddress &amp;address) override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#ad83f117a7cca7246e35fa131f7f4f704">BLE</a>()</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE&lt; kPendingPacketSize &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a06f6df5c97e0f7d5e614717b55b69abb">BLEBase</a>(System::PacketBufferHandle *packetBuffers, size_t packetBuffersSize)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#aa6bb28ed050b40a299725c08cbfada2b">CanSendToPeer</a>(const Transport::PeerAddress &amp;address) override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#aca20b03afdb6b5d864a10ab3688da780">Close</a>()</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a62ff44130d1f5838aa23bfae3a4ab6eb">Disconnect</a>(const PeerAddress &amp;address)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a68a23911ae41931de17d9dcf8e40f2de">HandleMessageReceived</a>(const PacketHeader &amp;header, const PeerAddress &amp;source, System::PacketBufferHandle &amp;&amp;buffer)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#ae45b4870307c350ef0b3c0592d26c366">Init</a>(RendezvousSessionDelegate *delegate, TransportMgrDelegate *transportDelegate, Ble::BleLayer *bleLayer, uint16_t discriminator, BLE_CONNECTION_OBJECT connObj)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#a40405ebcb258f46f5b7bfcd6ed35ed89">SendMessage</a>(const PacketHeader &amp;header, const Transport::PeerAddress &amp;address, System::PacketBufferHandle msgBuf) override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a566fc5074be086f6bca8ed26ee15297c">SetDelegate</a>(RawTransportDelegate *delegate)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#a3ab267d94c52fd07efb488aebcea372a">SetEndPoint</a>(Ble::BLEEndPoint *endPoint)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a95d30bc8874c4015b9fabb741dbd970c">~Base</a>()</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#aef8e06846f801154c077ea0c30d844f2">~BLE</a>() override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">chip::Transport::BLE</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a48a7e5b2d8b3f7476bf4dbad1220300b">Init</a>(const BleListenParameters &amp;param)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a79a03eb70ba4d81f4ef96178612ff500">mDelegate</a></td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a7e59a3c1e9707efdc9575ef806510143">SendMessage</a>(const PacketHeader &amp;header, const Transport::PeerAddress &amp;address, System::PacketBufferHandle msgBuf) override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a566fc5074be086f6bca8ed26ee15297c">SetDelegate</a>(RawTransportDelegate *delegate)</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a10f5dc65ecda644cbb3a4d32e18f7fa9">SetEndPoint</a>(Ble::BLEEndPoint *endPoint) override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html#a95d30bc8874c4015b9fabb741dbd970c">~Base</a>()</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a71d39308482fc0c80846d5871b18ca7d">~BLEBase</a>() override</td><td class="entry"><a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html">chip::Transport::BLEBase</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a05722c92cc324a4167737981c78cc8e8">~BleLayerDelegate</a>()=default</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 21 2021 19:05:03 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 22:10:04 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

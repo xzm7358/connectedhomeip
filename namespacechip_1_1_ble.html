@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">69e1f35</span>
+   &#160;<span id="projectnumber">27a4c9a</span>
    </div>
   </td>
  </tr>
@@ -107,7 +107,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides an interface for a single thread to drive data either up the stack via the <a class="el" href="classchip_1_1_ble_1_1_ble_layer.html" title="This class provides an interface for a single thread to drive data either up the stack via the BleLay...">BleLayer</a> platform interface functions, or down the stack via a chipConnection object associated with a <a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a>.  <a href="classchip_1_1_ble_1_1_ble_layer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">BleLayerObject</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">BleLayerDelegate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_platform_delegate.html">BlePlatformDelegate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,14 +137,6 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a5fdc51fe6db1777de1691e501ed055db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af939616df203558805d6aa06641290b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">BleRole</a> { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a0ddf3760db8a3b28f0233f8c9a821c86">kBleRole_Central</a> = 0, 
-<br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a39ce1da52d48e3aa8743f66d488014d6">kBleRole_Peripheral</a> = 1
-<br />
- }</td></tr>
-<tr class="memdesc:af939616df203558805d6aa06641290b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role of end points' associated BLE connections. Determines means used by end points to send and receive data.  <a href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">More...</a><br /></td></tr>
-<tr class="separator:af939616df203558805d6aa06641290b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f7f800e3d5c2d84fe6a83d68be2f483"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#a7f7f800e3d5c2d84fe6a83d68be2f483">BleTransportProtocolVersion</a> { <br />
 &#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#a7f7f800e3d5c2d84fe6a83d68be2f483a7d334412819cef2225fe1327dde055b9">kBleTransportProtocolVersion_None</a> = 0, 
 <br />
@@ -157,6 +149,14 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a7f7f800e3d5c2d84fe6a83d68be2f483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum defining versions of CHIP over BLE transport protocol.  <a href="namespacechip_1_1_ble.html#a7f7f800e3d5c2d84fe6a83d68be2f483">More...</a><br /></td></tr>
 <tr class="separator:a7f7f800e3d5c2d84fe6a83d68be2f483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af939616df203558805d6aa06641290b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">BleRole</a> { <br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a0ddf3760db8a3b28f0233f8c9a821c86">kBleRole_Central</a> = 0, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a39ce1da52d48e3aa8743f66d488014d6">kBleRole_Peripheral</a> = 1
+<br />
+ }</td></tr>
+<tr class="memdesc:af939616df203558805d6aa06641290b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role of end points' associated BLE connections. Determines means used by end points to send and receive data.  <a href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">More...</a><br /></td></tr>
+<tr class="separator:af939616df203558805d6aa06641290b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2b6b536b3f30eebdaa02509976d593"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#aaa2b6b536b3f30eebdaa02509976d593">PacketType_t</a> { <br />
 &#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#aaa2b6b536b3f30eebdaa02509976d593ad3ea22dcb17f6d1d6c737e239e52bdc5">kType_Data</a> = 0, 
 <br />
@@ -1011,18 +1011,18 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacechip_1_1_ble_html_ae30b924e733c328e2e84a212fbbbba2c"><div class="ttname"><a href="namespacechip_1_1_ble.html#ae30b924e733c328e2e84a212fbbbba2c">chip::Ble::kTransferProtocolMsgLenSize</a></div><div class="ttdeci">constexpr size_t kTransferProtocolMsgLenSize</div><div class="ttdef"><b>Definition:</b> BtpEngine.h:49</div></div>
-<div class="ttc" id="anamespacechip_1_1_ble_html_a61b119ed5cede0e2d8816a4fac455c7f"><div class="ttname"><a href="namespacechip_1_1_ble.html#a61b119ed5cede0e2d8816a4fac455c7f">chip::Ble::kCapabilitiesRequestL2capMtuLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestL2capMtuLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:102</div></div>
+<div class="ttc" id="anamespacechip_1_1_ble_html_a61b119ed5cede0e2d8816a4fac455c7f"><div class="ttname"><a href="namespacechip_1_1_ble.html#a61b119ed5cede0e2d8816a4fac455c7f">chip::Ble::kCapabilitiesRequestL2capMtuLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestL2capMtuLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:97</div></div>
 <div class="ttc" id="anamespacechip_1_1_ble_html_af65fb0d9febc10643a339a3af05e0486"><div class="ttname"><a href="namespacechip_1_1_ble.html#af65fb0d9febc10643a339a3af05e0486">chip::Ble::kTransferProtocolAckSize</a></div><div class="ttdeci">constexpr size_t kTransferProtocolAckSize</div><div class="ttdef"><b>Definition:</b> BtpEngine.h:48</div></div>
-<div class="ttc" id="anamespacechip_1_1_ble_html_a978bee8da3de71782845a68ad35bdb22"><div class="ttname"><a href="namespacechip_1_1_ble.html#a978bee8da3de71782845a68ad35bdb22">chip::Ble::kCapabilitiesRequestWindowSizeLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestWindowSizeLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:104</div></div>
+<div class="ttc" id="anamespacechip_1_1_ble_html_a978bee8da3de71782845a68ad35bdb22"><div class="ttname"><a href="namespacechip_1_1_ble.html#a978bee8da3de71782845a68ad35bdb22">chip::Ble::kCapabilitiesRequestWindowSizeLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestWindowSizeLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:99</div></div>
 <div class="ttc" id="anamespacechip_1_1_ble_html_a7c46617101ba00f3e2dc6cf72d4ef615"><div class="ttname"><a href="namespacechip_1_1_ble.html#a7c46617101ba00f3e2dc6cf72d4ef615">chip::Ble::kTransferProtocolHeaderFlagsSize</a></div><div class="ttdeci">constexpr size_t kTransferProtocolHeaderFlagsSize</div><div class="ttdef"><b>Definition:</b> BtpEngine.h:46</div></div>
 <div class="ttc" id="anamespacechip_1_1_ble_html_a940418745d8f28e97f65bbd873678341"><div class="ttname"><a href="namespacechip_1_1_ble.html#a940418745d8f28e97f65bbd873678341">chip::Ble::kTransferProtocolSequenceNumSize</a></div><div class="ttdeci">constexpr size_t kTransferProtocolSequenceNumSize</div><div class="ttdef"><b>Definition:</b> BtpEngine.h:47</div></div>
-<div class="ttc" id="anamespacechip_1_1_ble_html_ac39c7de6f9fd92381078286a79bde66a"><div class="ttname"><a href="namespacechip_1_1_ble.html#ac39c7de6f9fd92381078286a79bde66a">chip::Ble::kCapabilitiesRequestSupportedVersionsLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestSupportedVersionsLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:103</div></div>
-<div class="ttc" id="anamespacechip_1_1_ble_html_a311cff3240941334e0a2699e3f823113"><div class="ttname"><a href="namespacechip_1_1_ble.html#a311cff3240941334e0a2699e3f823113">chip::Ble::kCapabilitiesRequestMagicnumLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestMagicnumLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:101</div></div>
+<div class="ttc" id="anamespacechip_1_1_ble_html_ac39c7de6f9fd92381078286a79bde66a"><div class="ttname"><a href="namespacechip_1_1_ble.html#ac39c7de6f9fd92381078286a79bde66a">chip::Ble::kCapabilitiesRequestSupportedVersionsLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestSupportedVersionsLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:98</div></div>
+<div class="ttc" id="anamespacechip_1_1_ble_html_a311cff3240941334e0a2699e3f823113"><div class="ttname"><a href="namespacechip_1_1_ble.html#a311cff3240941334e0a2699e3f823113">chip::Ble::kCapabilitiesRequestMagicnumLength</a></div><div class="ttdeci">constexpr size_t kCapabilitiesRequestMagicnumLength</div><div class="ttdef"><b>Definition:</b> BleLayer.h:96</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_ble.html">Ble</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 19:05:01 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 22:10:02 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

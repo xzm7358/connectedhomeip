@@ -5,6 +5,8 @@ var namespacechip_1_1_transport =
     [ "AdminPairingTable", "classchip_1_1_transport_1_1_admin_pairing_table.html", "classchip_1_1_transport_1_1_admin_pairing_table" ],
     [ "Base", "classchip_1_1_transport_1_1_base.html", "classchip_1_1_transport_1_1_base" ],
     [ "BLE", "classchip_1_1_transport_1_1_b_l_e.html", "classchip_1_1_transport_1_1_b_l_e" ],
+    [ "BLEBase", "classchip_1_1_transport_1_1_b_l_e_base.html", "classchip_1_1_transport_1_1_b_l_e_base" ],
+    [ "BleListenParameters", "classchip_1_1_transport_1_1_ble_listen_parameters.html", "classchip_1_1_transport_1_1_ble_listen_parameters" ],
     [ "ConstAdminIterator", "classchip_1_1_transport_1_1_const_admin_iterator.html", "classchip_1_1_transport_1_1_const_admin_iterator" ],
     [ "OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", "structchip_1_1_transport_1_1_operational_credentials" ],
     [ "PeerAddress", "classchip_1_1_transport_1_1_peer_address.html", "classchip_1_1_transport_1_1_peer_address" ],

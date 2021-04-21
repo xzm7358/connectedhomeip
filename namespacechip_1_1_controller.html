@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">69e1f35</span>
+   &#160;<span id="projectnumber">27a4c9a</span>
    </div>
   </td>
  </tr>
@@ -179,8 +179,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a9527e47c2992bdd6fcdf5502a4a31188"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a9527e47c2992bdd6fcdf5502a4a31188">DeviceTransportMgr</a> = <a class="el" href="classchip_1_1_transport_mgr.html">TransportMgr</a>&lt; <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> &gt;</td></tr>
-<tr class="separator:a9527e47c2992bdd6fcdf5502a4a31188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b48550bc696fecb81c27141e89b4b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ac0b48550bc696fecb81c27141e89b4b7">DeviceTransportMgr</a> = <a class="el" href="classchip_1_1_transport_mgr.html">TransportMgr</a>&lt; <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">Transport::BLE</a>&lt; <a class="el" href="namespacechip_1_1_controller.html#a04f553cb3928f4d2a9fe35d136a4fa14">kMaxBlePendingPackets</a> &gt; &gt;</td></tr>
+<tr class="separator:ac0b48550bc696fecb81c27141e89b4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac514b1820bbfc39c55353df9db9a0d7f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html">chip::Controller::SerializableDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ac514b1820bbfc39c55353df9db9a0d7f">SerializableDevice</a></td></tr>
 <tr class="separator:ac514b1820bbfc39c55353df9db9a0d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae82b171a1b3e706d9834148e8f8ff1b9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">chip::Controller::SerializedDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ae82b171a1b3e706d9834148e8f8ff1b9">SerializedDevice</a></td></tr>
@@ -253,6 +253,8 @@ Variables</h2></td></tr>
 <tr class="separator:aae7c6bb5bf8bb0690adfdc1d3ddccf03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38cab20ed2f08662c5983dab2fe81d0f"><td class="memItemLeft" align="right" valign="top">constexpr ClusterId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a38cab20ed2f08662c5983dab2fe81d0f">kWindowCoveringClusterId</a> = 0x0102</td></tr>
 <tr class="separator:a38cab20ed2f08662c5983dab2fe81d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f553cb3928f4d2a9fe35d136a4fa14"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a04f553cb3928f4d2a9fe35d136a4fa14">kMaxBlePendingPackets</a> = 1</td></tr>
+<tr class="separator:a04f553cb3928f4d2a9fe35d136a4fa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc204e2a9831a47f9f2358bd276f839b"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#afc204e2a9831a47f9f2358bd276f839b">kMaxInterfaceName</a> = 32</td></tr>
 <tr class="separator:afc204e2a9831a47f9f2358bd276f839b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d2e0ff612bbfed806521be5ba2b0d3"><td class="memItemLeft" align="right" valign="top">constexpr const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a75d2e0ff612bbfed806521be5ba2b0d3">kPairedDeviceListKeyPrefix</a> [] = &quot;ListPairedDevices&quot;</td></tr>
@@ -301,14 +303,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9527e47c2992bdd6fcdf5502a4a31188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9527e47c2992bdd6fcdf5502a4a31188">&#9670;&nbsp;</a></span>DeviceTransportMgr</h2>
+<a id="ac0b48550bc696fecb81c27141e89b4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0b48550bc696fecb81c27141e89b4b7">&#9670;&nbsp;</a></span>DeviceTransportMgr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacechip_1_1_controller.html#a9527e47c2992bdd6fcdf5502a4a31188">chip::Controller::DeviceTransportMgr</a> = typedef <a class="el" href="classchip_1_1_transport_mgr.html">TransportMgr</a>&lt;<a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> , <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> &gt;</td>
+          <td class="memname">using <a class="el" href="namespacechip_1_1_controller.html#ac0b48550bc696fecb81c27141e89b4b7">chip::Controller::DeviceTransportMgr</a> = typedef <a class="el" href="classchip_1_1_transport_mgr.html">TransportMgr</a>&lt;<a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> , <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> , <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">Transport::BLE</a>&lt;<a class="el" href="namespacechip_1_1_controller.html#a04f553cb3928f4d2a9fe35d136a4fa14">kMaxBlePendingPackets</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -795,6 +797,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a04f553cb3928f4d2a9fe35d136a4fa14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f553cb3928f4d2a9fe35d136a4fa14">&#9670;&nbsp;</a></span>kMaxBlePendingPackets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Controller::kMaxBlePendingPackets = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afc204e2a9831a47f9f2358bd276f839b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc204e2a9831a47f9f2358bd276f839b">&#9670;&nbsp;</a></span>kMaxInterfaceName</h2>
 
@@ -1131,7 +1155,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 19:05:01 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 22:10:02 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

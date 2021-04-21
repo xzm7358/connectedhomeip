@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">69e1f35</span>
+   &#160;<span id="projectnumber">27a4c9a</span>
    </div>
   </td>
  </tr>
@@ -103,11 +103,12 @@ Inheritance diagram for chip::Transport::Base:</div>
  <div class="center">
   <img src="classchip_1_1_transport_1_1_base.png" usemap="#chip::Transport::Base_map" alt=""/>
   <map id="chip::Transport::Base_map" name="chip::Transport::Base_map">
-<area href="classchip_1_1_transport_1_1_b_l_e.html" title="Implements a transport using BLE." alt="chip::Transport::BLE" shape="rect" coords="0,56,409,80"/>
+<area href="classchip_1_1_transport_1_1_b_l_e_base.html" title="Implements a transport using BLE." alt="chip::Transport::BLEBase" shape="rect" coords="0,56,409,80"/>
 <area href="classchip_1_1_transport_1_1_t_c_p_base.html" title="Implements a transport using TCP." alt="chip::Transport::TCPBase" shape="rect" coords="419,56,828,80"/>
 <area href="classchip_1_1_transport_1_1_tuple.html" title="Groups together several transports of different types and presents them as a unified transport." alt="chip::Transport::Tuple&lt; TransportTypes &gt;" shape="rect" coords="838,56,1247,80"/>
 <area href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP." alt="chip::Transport::UDP" shape="rect" coords="1257,56,1666,80"/>
 <area href="classchip_1_1_transport_1_1_tuple.html" alt="chip::Transport::Tuple&lt; TransportTypes... &gt;" shape="rect" coords="1676,56,2085,80"/>
+<area href="classchip_1_1_transport_1_1_b_l_e.html" alt="chip::Transport::BLE&lt; kPendingPacketSize &gt;" shape="rect" coords="0,112,409,136"/>
 <area href="classchip_1_1_transport_1_1_t_c_p.html" alt="chip::Transport::TCP&lt; kActiveConnectionsSize, kPendingPacketSize &gt;" shape="rect" coords="419,112,828,136"/>
   </map>
 </div></div>
@@ -199,7 +200,7 @@ Protected Attributes</h2></td></tr>
 <p>Determine if this transport can SendMessage to the specified peer address. </p>
 <p>Generally it is expected that a transport can send to any peer from which it receives a message. </p>
 
-<p>Implemented in <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html#af545146442ce113a1812662aa4fff3fb">chip::Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#a0339dd2bffd94db128c8e1e78a8078c4">chip::Transport::BLE</a>, <a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#afcd94c5bd7b791ec7601189c64fef823">chip::Transport::TCPBase</a>, <a class="el" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">chip::Transport::Tuple&lt; TransportTypes &gt;</a>, and <a class="el" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">chip::Transport::Tuple&lt; TransportTypes... &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html#af545146442ce113a1812662aa4fff3fb">chip::Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#aa6bb28ed050b40a299725c08cbfada2b">chip::Transport::BLEBase</a>, <a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#afcd94c5bd7b791ec7601189c64fef823">chip::Transport::TCPBase</a>, <a class="el" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">chip::Transport::Tuple&lt; TransportTypes &gt;</a>, and <a class="el" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">chip::Transport::Tuple&lt; TransportTypes... &gt;</a>.</p>
 
 </div>
 </div>
@@ -349,7 +350,7 @@ Protected Attributes</h2></td></tr>
 <p>Send a message to the specified target. </p>
 <p>On connection-oriented transports, sending a message implies connecting to the target first. </p>
 
-<p>Implemented in <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac">chip::Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html#a40405ebcb258f46f5b7bfcd6ed35ed89">chip::Transport::BLE</a>, <a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417">chip::Transport::TCPBase</a>, <a class="el" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">chip::Transport::Tuple&lt; TransportTypes &gt;</a>, and <a class="el" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">chip::Transport::Tuple&lt; TransportTypes... &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac">chip::Transport::UDP</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e_base.html#a7e59a3c1e9707efdc9575ef806510143">chip::Transport::BLEBase</a>, <a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417">chip::Transport::TCPBase</a>, <a class="el" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">chip::Transport::Tuple&lt; TransportTypes &gt;</a>, and <a class="el" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">chip::Transport::Tuple&lt; TransportTypes... &gt;</a>.</p>
 
 </div>
 </div>
@@ -419,7 +420,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_transport.html">Transport</a></li><li class="navelem"><a class="el" href="classchip_1_1_transport_1_1_base.html">Base</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 19:05:03 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 22:10:04 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

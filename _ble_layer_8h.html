@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">69e1f35</span>
+   &#160;<span id="projectnumber">27a4c9a</span>
    </div>
   </td>
  </tr>
@@ -101,7 +101,9 @@ $(document).ready(function(){initNavTree('_ble_layer_8h.html',''); initResizable
 <code>#include &lt;<a class="el" href="ble_2_ble_application_delegate_8h_source.html">ble/BleApplicationDelegate.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="ble_2_ble_connection_delegate_8h_source.html">ble/BleConnectionDelegate.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_ble_error_8h_source.html">ble/BleError.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_ble_layer_delegate_8h_source.html">ble/BleLayerDelegate.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="ble_2_ble_platform_delegate_8h_source.html">ble/BlePlatformDelegate.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_ble_role_8h_source.html">ble/BleRole.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_ble_u_u_i_d_8h_source.html">ble/BleUUID.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="_b_l_e_end_point_8h_source.html">BLEEndPoint.h</a>&quot;</code><br />
 </div>
@@ -109,8 +111,6 @@ $(document).ready(function(){initNavTree('_ble_layer_8h.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_transport_capabilities_request_message.html">chip::Ble::BleTransportCapabilitiesRequestMessage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_transport_capabilities_response_message.html">chip::Ble::BleTransportCapabilitiesResponseMessage</a></td></tr>
@@ -141,14 +141,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af939616df203558805d6aa06641290b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">chip::Ble::BleRole</a> { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a0ddf3760db8a3b28f0233f8c9a821c86">chip::Ble::kBleRole_Central</a> = 0, 
-<br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7a39ce1da52d48e3aa8743f66d488014d6">chip::Ble::kBleRole_Peripheral</a> = 1
-<br />
- }</td></tr>
-<tr class="memdesc:af939616df203558805d6aa06641290b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Role of end points' associated BLE connections. Determines means used by end points to send and receive data.  <a href="namespacechip_1_1_ble.html#af939616df203558805d6aa06641290b7">More...</a><br /></td></tr>
-<tr class="separator:af939616df203558805d6aa06641290b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f7f800e3d5c2d84fe6a83d68be2f483"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_ble.html#a7f7f800e3d5c2d84fe6a83d68be2f483">chip::Ble::BleTransportProtocolVersion</a> { <br />
 &#160;&#160;<a class="el" href="namespacechip_1_1_ble.html#a7f7f800e3d5c2d84fe6a83d68be2f483a7d334412819cef2225fe1327dde055b9">chip::Ble::kBleTransportProtocolVersion_None</a> = 0, 
 <br />
@@ -259,7 +251,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_150fa1ba3974d886fca30febf04a04ac.html">ble</a></li><li class="navelem"><a class="el" href="_ble_layer_8h.html">BleLayer.h</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 19:05:00 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 22:10:01 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

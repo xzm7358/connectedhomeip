@@ -24,5 +24,6 @@ var _message_header_8h =
       [ "kSecure", "_message_header_8h.html#a8480539d9757ec7148d562f0d2e06ac4a6d03afc0f5ffb8405df6c26af263ee52", null ]
     ] ],
     [ "kFlagsMask", "_message_header_8h.html#aa8c9a1ddef0fee4cd2b90ae547fe08af", null ],
+    [ "kMaxAppMessageLen", "_message_header_8h.html#ad9f3fecb2ab98a1c3520a414b14f0aa2", null ],
     [ "kMaxTagLen", "_message_header_8h.html#a1517b608fb94efae480e080bec7d4096", null ]
 ];
