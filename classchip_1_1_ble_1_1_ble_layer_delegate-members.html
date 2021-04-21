@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">982f8a4</span>
+   &#160;<span id="projectnumber">87142e0</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('classchip_1_1_ble_1_1_ble_layer_object.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classchip_1_1_ble_1_1_ble_layer_delegate.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -84,24 +84,25 @@ $(document).ready(function(){initNavTree('classchip_1_1_ble_1_1_ble_layer_object
 
 <div class="header">
   <div class="headertitle">
-<div class="title">chip::Ble::BleLayerObject Member List</div>  </div>
+<div class="title">chip::Ble::BleLayerDelegate Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#a6cfe753bc6c58b49f777d54c4e3e934c">AddRef</a>()</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#a64df8b3bcc5465f323081d7695157987">BleLayer</a> class</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"><span class="mlabel">friend</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#a2f7eadae5f40773452d1822773a2cac7">mAppState</a></td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#af9e3a2a5a8dc9e50200395d5e82132f0">mBle</a></td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#ab2a9bad155be9c825c56cab629457bf8">mRefCount</a></td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html#a7fda75cac0a160de2a7b6225de8cfa8d">Release</a>()</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_object.html">chip::Ble::BleLayerObject</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#ab21d89d08c3787a3c78b233e21441825">OnBleConnectionComplete</a>(BLEEndPoint *endpoint)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a49af96cecc747f2ee086559f4f473ea8">OnBleConnectionError</a>(BLE_ERROR err)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#acfe0c4bd974c9545715765370a267abd">OnEndPointConnectComplete</a>(BLEEndPoint *endPoint, BLE_ERROR err)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a714e350bd97cd21210820debd400d691">OnEndPointConnectionClosed</a>(BLEEndPoint *endPoint, BLE_ERROR err)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#ae2994b487a3c95342bf0747c9b850bdc">OnEndPointMessageReceived</a>(BLEEndPoint *endPoint, System::PacketBufferHandle msg)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a4af95ec01012f06139a682e981c801ca">SetEndPoint</a>(BLEEndPoint *endPoint)=0</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a05722c92cc324a4167737981c78cc8e8">~BleLayerDelegate</a>()=default</td><td class="entry"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">chip::Ble::BleLayerDelegate</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 21 2021 01:00:53 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 01:07:48 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

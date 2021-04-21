@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">982f8a4</span>
+   &#160;<span id="projectnumber">87142e0</span>
    </div>
   </td>
  </tr>
@@ -158,12 +158,12 @@ class chip::Transport::Tuple&lt; TransportTypes &gt;</h3>
 <div class="line">      <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">SendMessage</a>(...) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">CanSendToPeer</a>(...) <span class="keyword">override</span>;</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>The intent of this is to allow applications to use any transport types without CHIP pre-defining popular mappings (like <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> only, <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> and <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html" title="Implements a transport using BLE.">BLE</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html" title="Implements a transport using BLE.">BLE</a> only etc.) and without using #ifdefs to create a single 'standard transport'.</p>
+</div><!-- fragment --><p>The intent of this is to allow applications to use any transport types without CHIP pre-defining popular mappings (like <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> only, <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> and <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a> only etc.) and without using #ifdefs to create a single 'standard transport'.</p>
 <p><a class="el" href="namespacechip_1_1_transport.html">Transport</a> logic:</p><ul>
 <li>Every transport can decide if a '<a class="el" href="classchip_1_1_transport_1_1_peer_address.html" title="Describes how a peer on a CHIP network can be addressed.">PeerAddress</a>' can be sent over 'self'</li>
 <li>Within a mixed tuple, if several transports support a peer address (e.g. <a class="el" href="classchip_1_1_transport_1_1_t_c_p.html">TCP</a> and <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> both support IP), the first one found wins.</li>
 <li>Expected message sending logic:<ul>
-<li><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html" title="Implements a transport using BLE.">BLE</a> transports only support <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html" title="Implements a transport using BLE.">BLE</a>. TCP/UDP support IP addresses</li>
+<li><a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a> transports only support <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a>. TCP/UDP support IP addresses</li>
 <li>Multicasts only supported by <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a></li>
 </ul>
 </li>
@@ -385,7 +385,7 @@ template&lt;typename... TransportTypes&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_transport.html">Transport</a></li><li class="navelem"><a class="el" href="classchip_1_1_transport_1_1_tuple.html">Tuple</a></li>
-    <li class="footer">Generated on Wed Apr 21 2021 01:00:55 for Connected Home over IP by
+    <li class="footer">Generated on Wed Apr 21 2021 01:07:49 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

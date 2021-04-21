@@ -2,6 +2,7 @@ var classchip_1_1_chip_device_ctrl_1_1_chip_device_controller =
 [
     [ "__init__", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a551efeae8ad64f177d15484a920e8423", null ],
     [ "__del__", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#ad8e28f0606984aad6b2a4be30dd16fb0", null ],
+    [ "CloseBLEConnection", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#adbf6f20436b0f7528b0a9e6ae4487268", null ],
     [ "ConnectBle", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a79ae69792ccf844c8c51cea52845bb71", null ],
     [ "ConnectBLE", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#ac00a1ead373abcdf1d800bbd0f9d8e69", null ],
     [ "ConnectIP", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#af5553211db0b8f481e4e573c6cb27113", null ],
