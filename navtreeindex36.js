@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"classchip_1_1devicecontroller_1_1_chip_device_controller.html#aba7b2b7eec65d6b79c78c8fcebe360d9":[10,0,1,13,3,14],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#ac491d788d5a1eca05c5a47a493d84955":[10,0,1,13,3,5],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#ac93886960ec89a494b40c5daa05a3099":[10,0,1,13,3,20],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#ac9fe823894dc9b2185c9d4bb76e3697f":[10,0,1,13,3,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "classmdns_1_1_minimal_1_1_ptr_resource_record.html#a54a7e0aac107af7c0809799c52929aa1":[10,0,3,0,12,2],
 "classmdns_1_1_minimal_1_1_ptr_resource_record.html#ae3b140a3e6014929ad4bc034ae99b6ea":[10,0,3,0,12,1],
 "classmdns_1_1_minimal_1_1_ptr_responder.html":[10,0,3,0,13],
-"classmdns_1_1_minimal_1_1_ptr_responder.html#a2658c1374cfa454980e5a80d24ce71ad":[10,0,3,0,13,0],
-"classmdns_1_1_minimal_1_1_ptr_responder.html#ad3b5d43d2680f5f038b485e37a0c58d4":[10,0,3,0,13,1]
+"classmdns_1_1_minimal_1_1_ptr_responder.html#a2658c1374cfa454980e5a80d24ce71ad":[10,0,3,0,13,0]
 };

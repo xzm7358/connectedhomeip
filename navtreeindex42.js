@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"nrfconnect_2_system_platform_config_8h_source.html":[11,0,7,8,15],
 "nrfconnect_2_thread_stack_manager_impl_8h.html":[11,0,7,8,16],
 "nrfconnect_2_thread_stack_manager_impl_8h_source.html":[11,0,7,8,16],
 "openthread-core-cc13x2__26x2-config-check_8h.html":[11,0,7,0,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae6481ddf7ca3b1ff12840fe75e28c6f1":[11,0,1,1,0,1,1,25],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae684e11509eeef65b0473ff1dad689be":[11,0,1,1,0,1,1,126],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae6bf00b03384d7d4b7f20cd62e493da1":[11,0,1,1,0,1,1,82],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae6ff16e92cde686cd12e67027e028a34":[11,0,1,1,0,1,1,203],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae759d3363442a685f7c4bc718fce5a18":[11,0,1,1,0,1,1,185]
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae6ff16e92cde686cd12e67027e028a34":[11,0,1,1,0,1,1,203]
 };
