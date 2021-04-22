@@ -44,7 +44,7 @@ var python_2chip_2clusters_2_c_h_i_p_clusters_8cpp =
     [ "chip_ime_AppendCommand_DoorLock_UnlockWithTimeout", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a4307126f007431379e64b3fc64e4441c", null ],
     [ "chip_ime_AppendCommand_GeneralCommissioning_ArmFailSafe", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acbc16a65a559a06207a5fb62b41bc1dc", null ],
     [ "chip_ime_AppendCommand_GeneralCommissioning_CommissioningComplete", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a290b460f5433d96b9bfc48c10008d9db", null ],
-    [ "chip_ime_AppendCommand_GeneralCommissioning_SetFabric", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a4ce4c059fcaaa409846216d1bd04b995", null ],
+    [ "chip_ime_AppendCommand_GeneralCommissioning_SetRegulatoryConfig", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a6e77fd41a6a9d483a89454fad2eb7f6b", null ],
     [ "chip_ime_AppendCommand_Groups_AddGroup", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#afa077e7a7ca690f1ed8457da5074061a", null ],
     [ "chip_ime_AppendCommand_Groups_AddGroupIfIdentifying", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#aef503974691d4e9831efaa2e7265ec5e", null ],
     [ "chip_ime_AppendCommand_Groups_GetGroupMembership", "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a625c92639817c2a56edf2c06f728d35b", null ],

@@ -139,7 +139,7 @@ var classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters =
     [ "ClusterDoorLock_ReadAttributeLockType", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa735b1b4f1031d63361fd3f40a395436", null ],
     [ "ClusterGeneralCommissioning_CommandArmFailSafe", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa2248f669c664843ebcd4c6cb6fd7e10", null ],
     [ "ClusterGeneralCommissioning_CommandCommissioningComplete", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a63b54c80acaa97913f831a41ef9e1244", null ],
-    [ "ClusterGeneralCommissioning_CommandSetFabric", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa67fbf4975fdc3b246f5b2584a4743ba", null ],
+    [ "ClusterGeneralCommissioning_CommandSetRegulatoryConfig", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aba3691df4596e0faff3a9335ffeb82a9", null ],
     [ "ClusterGeneralCommissioning_ReadAttributeBreadcrumb", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a9411e9dc13a0d98e825aed8eb863b697", null ],
     [ "ClusterGeneralCommissioning_ReadAttributeClusterRevision", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa49d0be825d9b48dca8e8dd661e5145b", null ],
     [ "ClusterGeneralCommissioning_ReadAttributeFabricId", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a3ca4c0652c361269ff483eea2f450dc9", null ],
