@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">1d4726c</span>
+   &#160;<span id="projectnumber">68a48d4</span>
    </div>
   </td>
  </tr>
@@ -149,6 +149,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>ReadAttributeBreadcrumb()
 : <a class="el" href="classchip_1_1_controller_1_1_general_commissioning_cluster.html#aa2f3aa4e0936e2c454d513597eb7f50d">chip::Controller::GeneralCommissioningCluster</a>
 </li>
+<li>ReadAttributeCapacity()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a3b6afe7e60b2dfd756c795aa8d5dc596">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
 <li>ReadAttributeCatalogVendorId()
 : <a class="el" href="classchip_1_1_controller_1_1_application_basic_cluster.html#a7e8b7ff9769e9c7131e1ff91b55c2bcb">chip::Controller::ApplicationBasicCluster</a>
 </li>
@@ -173,6 +176,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_controller_1_1_network_commissioning_cluster.html#abb70936b04fc89a4d6103e92c8f5bbe9">chip::Controller::NetworkCommissioningCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#a45bf2715d677e321229484a3855929fa">chip::Controller::OnOffCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_cluster.html#a007eda6c12ab600d92ffaa5bc26c8117">chip::Controller::OperationalCredentialsCluster</a>
+, <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a7f096fa56ac0f05b605e846d65735e4b">chip::Controller::PumpConfigurationAndControlCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e">chip::Controller::ScenesCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a744d2c94cb0169b387c0d40d282ffa4e">chip::Controller::TemperatureMeasurementCluster</a>
 , <a class="el" href="classchip_1_1_controller_1_1_thermostat_cluster.html#a52933a37731f936dc36e489a681ea78d">chip::Controller::ThermostatCluster</a>
@@ -277,6 +281,12 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>ReadAttributeDriftCompensation()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#ac6db1e84c0b657cec83c552b271939d7">chip::Controller::ColorControlCluster</a>
 </li>
+<li>ReadAttributeEffectiveControlMode()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a04c8ba6aeaa98bb1bbc0262810db351e">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
+<li>ReadAttributeEffectiveOperationMode()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a3300982308e500d693a9dfc543aaba06">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
 <li>ReadAttributeEnhancedColorMode()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#a588228d4380a872495c4c4c8b1c83699">chip::Controller::ColorControlCluster</a>
 </li>
@@ -340,8 +350,17 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>ReadAttributeManufacturingDate()
 : <a class="el" href="classchip_1_1_controller_1_1_basic_cluster.html#a753fde0ec923020e091b03a026b2db6a">chip::Controller::BasicCluster</a>
 </li>
+<li>ReadAttributeMaxFlow()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a17d56d95c60f6d47afd08c36f3b423f9">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
 <li>ReadAttributeMaxMeasuredValue()
 : <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a46d75341bf1acae2cccf00887c615420">chip::Controller::TemperatureMeasurementCluster</a>
+</li>
+<li>ReadAttributeMaxPressure()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a8df2f3d07dea9d6518dc7e9c94393ce6">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
+<li>ReadAttributeMaxSpeed()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a7ff05d692fe3fdbc7a322f9b2d2f32a3">chip::Controller::PumpConfigurationAndControlCluster</a>
 </li>
 <li>ReadAttributeMeasuredValue()
 : <a class="el" href="classchip_1_1_controller_1_1_temperature_measurement_cluster.html#af71930f73543eb9395e7d36b56f8469c">chip::Controller::TemperatureMeasurementCluster</a>
@@ -367,6 +386,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>ReadAttributeOnOff()
 : <a class="el" href="classchip_1_1_controller_1_1_on_off_cluster.html#adc5ecaa95837129fdeba39f606460b2b">chip::Controller::OnOffCluster</a>
+</li>
+<li>ReadAttributeOperationMode()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a1c8cadc3a23733b5ecda2e7a17b6319a">chip::Controller::PumpConfigurationAndControlCluster</a>
 </li>
 <li>ReadAttributePartNumber()
 : <a class="el" href="classchip_1_1_controller_1_1_basic_cluster.html#a28a20c64bb6a714c75557f038eea7e90">chip::Controller::BasicCluster</a>
@@ -511,7 +533,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a84ef2af303b4bb9fd03277d496caf822">chip::DeviceLayer::Internal::K32WConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#aea606aeae0f734f698d941eeefdfebd0">chip::DeviceLayer::Internal::PosixConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#abb550f93a45329eae4a5a6d96a932460">chip::DeviceLayer::Internal::QPG6100Config</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#ac7ed10f151aeb11fefd0758569d12f48">chip::DeviceLayer::Internal::ZephyrConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#a96515852f562b85e6ef8b05bd9a992e4">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
 <li>ReadConfigValueBin()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config.html#abe185137395c633b1e85408aca1d0bce">chip::DeviceLayer::Internal::CC13X2_26X2Config</a>
@@ -691,6 +713,9 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <li>RepackNvm3Flash()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#a6dae458d5e03ca68a95e22b25f5f35f5">chip::DeviceLayer::Internal::EFR32Config</a>
 </li>
+<li>ReportAttributeCapacity()
+: <a class="el" href="classchip_1_1_controller_1_1_pump_configuration_and_control_cluster.html#a665215a2a010d365240f3a5456debe47">chip::Controller::PumpConfigurationAndControlCluster</a>
+</li>
 <li>ReportAttributeColorTemperature()
 : <a class="el" href="classchip_1_1_controller_1_1_color_control_cluster.html#a2d136d7ba7bfd5e4bbcd79d07c9016d9">chip::Controller::ColorControlCluster</a>
 </li>
@@ -817,7 +842,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 </li>
 <li>Result
 : <a class="el" href="structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html#a566de2b9d4139ddcae6aae2ea00a6e9e">chip::DeviceLayer::BleC2IndDoneEventType</a>
-, <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#a4191fc00f7977b32d5993807999cf664">chip::DeviceLayer::ChipDeviceEvent</a>
+, <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#ae282e25b7e64c096f7cfa4afb369fce2">chip::DeviceLayer::ChipDeviceEvent</a>
 </li>
 <li>result
 : <a class="el" href="structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html#a5d4b06539be82f33c219d87e00489d9e">chip::DeviceLayer::PersistedStorage::ReadEntry</a>
@@ -896,7 +921,7 @@ $(document).ready(function(){initNavTree('functions_r.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Apr 21 2021 22:31:35 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 22 2021 04:29:01 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

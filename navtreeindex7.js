@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"_chip_device_controller-_script_binding_8cpp.html#aa74eb4e30ad59af7991cd0769c9a8aac":[11,0,1,1,6,2],
 "_chip_device_controller-_script_binding_8cpp.html#ac396fe6b29e171ae2414b60e72132f93":[11,0,1,1,6,18],
 "_chip_device_controller-_script_binding_8cpp.html#aced2a98cbe78009de9ccc181f3870b19":[11,0,1,1,6,16],
 "_chip_device_controller-_script_binding_8cpp.html#adbfff72704e7aea1c4696167032493a6":[11,0,1,1,6,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda0ba7583639a274c434bbe6ef797115a4":[11,0,7,1,24,6,0],
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda1b9abf135ccb7ed2f2cd9c155137c351":[11,0,7,1,24,6,1],
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda6b73490666fe3e01a342e1dc4ca0ad8c":[11,0,7,1,24,6,3],
-"_darwin_2_mdns_impl_8h_source.html":[11,0,7,1,24],
-"_darwin_2_platform_manager_impl_8cpp.html":[11,0,7,1,25]
+"_darwin_2_mdns_impl_8h_source.html":[11,0,7,1,24]
 };

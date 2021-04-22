@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730af3425ebda05487d807cbe0ff83009a24":[11,0,6,0,20,4,4],
 "_c_h_i_p_t_l_v_types_8h.html#a6af76a60c5957e64c0cbc1a1644337fb":[11,0,6,0,20,12],
 "_c_h_i_p_t_l_v_types_8h.html#a9a85019b17584b4323b8b7d3500674ec":[11,0,6,0,20,10],
 "_c_h_i_p_t_l_v_types_8h.html#aa6b5c3bc1c3770266fa3dddbb018ab00":[11,0,6,0,20,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "_chip_device_controller-_script_binding_8cpp.html#a9ee010b39d830d04223089e9c2ba6ba4":[11,0,1,1,6,17],
 "_chip_device_controller-_script_binding_8cpp.html#aa4e8250c9271ca9f09f9441a894b4677":[11,0,1,1,6,9],
 "_chip_device_controller-_script_binding_8cpp.html#aa5c438bc645ad01df5da48ee03db8853":[11,0,1,1,6,24],
-"_chip_device_controller-_script_binding_8cpp.html#aa652f62b19767bb490381fe3a535ed4a":[11,0,1,1,6,13],
-"_chip_device_controller-_script_binding_8cpp.html#aa74eb4e30ad59af7991cd0769c9a8aac":[11,0,1,1,6,2]
+"_chip_device_controller-_script_binding_8cpp.html#aa652f62b19767bb490381fe3a535ed4a":[11,0,1,1,6,13]
 };
