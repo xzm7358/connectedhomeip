@@ -218,8 +218,8 @@ var NAVTREEINDEX =
 "nrfconnect_2_connectivity_manager_impl_8h.html#ae3364f4ad1379eb7fb38490e701307e6",
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acb0f9e23ec77c961297d8b3d9fbac475",
 "records_2_ptr_8h.html",
-"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a4d62d148da6ce0d702929b9054b66c5a",
-"tlv_2____init_____8py.html#a32c1f4e7dbffbb566c080044ca5319bc"
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2a7b487712c6610a3b6ca387248b018c",
+"tlv_2____init_____8py.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
