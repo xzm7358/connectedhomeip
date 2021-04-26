@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['mdnsserviceprotocol_12091',['MdnsServiceProtocol',['../namespacechip_1_1_mdns.html#a440ac2443e9cad79596da62ae3490092',1,'chip::Mdns']]]
+  ['layerstate_12094',['LayerState',['../namespacechip_1_1_system.html#a959eb129e4700cb2d08b2a1614100b6f',1,'chip::System']]],
+  ['logcategory_12095',['LogCategory',['../namespacechip_1_1_logging.html#a0c911e4b46b73ea3124a20cee4d5dfce',1,'chip::Logging']]],
+  ['logmodule_12096',['LogModule',['../namespacechip_1_1_logging.html#acb598f98115de6dadbc0226ee337f1bd',1,'chip::Logging']]]
 ];

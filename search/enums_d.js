@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['releasedeferralerrortactic_12101',['ReleaseDeferralErrorTactic',['../classchip_1_1_system_1_1_object.html#ae66d251742fe1b1ae2b1169e6a5aeff4',1,'chip::System::Object']]],
-  ['rendezvousinformationflag_12102',['RendezvousInformationFlag',['../namespacechip.html#a62e2ac7c2feb198276e811870a2a8a0a',1,'chip']]],
-  ['resourcetype_12103',['ResourceType',['../namespacemdns_1_1_minimal.html#adebba70ced01c8362844751978c1dc4c',1,'mdns::Minimal']]]
+  ['qclass_12105',['QClass',['../namespacemdns_1_1_minimal.html#a1213676cbad150824b486db9f4730cd2',1,'mdns::Minimal']]],
+  ['qtype_12106',['QType',['../namespacemdns_1_1_minimal.html#a0679d6d4c6fb2a8df60e27562d3158f2',1,'mdns::Minimal']]]
 ];
