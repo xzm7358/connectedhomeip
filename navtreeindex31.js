@@ -1,10 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classchip_1_1_message_authentication_code.html#aaaaba6a570fa9ad3e8501f9e223134df":[10,0,1,53,3],
-"classchip_1_1_message_authentication_code.html#af97095092c5682b2a138f666f99aa4d6":[10,0,1,53,0],
-"classchip_1_1_monotonically_increasing_counter.html":[10,0,1,54],
-"classchip_1_1_monotonically_increasing_counter.html#a163ec5930fe9e1f25c0be91071ce85ff":[10,0,1,54,3],
-"classchip_1_1_monotonically_increasing_counter.html#a210518b772568143d70325caa593d059":[10,0,1,54,4],
 "classchip_1_1_monotonically_increasing_counter.html#ad0623fe240a324b524627d202566e909":[10,0,1,54,1],
 "classchip_1_1_monotonically_increasing_counter.html#ad9ce3c4ccb7142ee38d8a5129b895336":[10,0,1,54,2],
 "classchip_1_1_monotonically_increasing_counter.html#ae8a4826fcb9ddc9dbe156d7eeafc4eda":[10,0,1,54,0],
@@ -147,12 +142,12 @@ var NAVTREEINDEX31 =
 "classchip_1_1_platform_1_1_scoped_memory_string.html":[10,0,1,25,3],
 "classchip_1_1_platform_1_1_scoped_memory_string.html#acd7a925f1ba15550c5ef872e967427ef":[10,0,1,25,3,0],
 "classchip_1_1_q_r_code_setup_payload_generator.html":[10,0,1,65],
-"classchip_1_1_q_r_code_setup_payload_generator.html#a1c779b26f5ae29933b9f943b7b846cec":[10,0,1,65,2],
+"classchip_1_1_q_r_code_setup_payload_generator.html#a0661bdf9e8b0a409f51c392881fbd5f0":[10,0,1,65,1],
+"classchip_1_1_q_r_code_setup_payload_generator.html#a6f91c9565194d2b46e2b9f3c3bfbd39b":[10,0,1,65,2],
 "classchip_1_1_q_r_code_setup_payload_generator.html#a836021ecdda075944c25a64defdbe8b0":[10,0,1,65,0],
-"classchip_1_1_q_r_code_setup_payload_generator.html#ae4273ace72fdff5988258c8fd82537af":[10,0,1,65,1],
 "classchip_1_1_q_r_code_setup_payload_parser.html":[10,0,1,66],
 "classchip_1_1_q_r_code_setup_payload_parser.html#a4e246df2b743c823d0a94f8fcad8a6cb":[10,0,1,66,1],
-"classchip_1_1_q_r_code_setup_payload_parser.html#aecc5111d64cc73e6cd3d6c02840c6cdf":[10,0,1,66,0],
+"classchip_1_1_q_r_code_setup_payload_parser.html#a7d3b72d2652cd99914adc2c667a174f8":[10,0,1,66,0],
 "classchip_1_1_reference_counted.html":[10,0,1,67],
 "classchip_1_1_reference_counted.html#a55cb27804713da7e307645c12802877f":[10,0,1,67,3],
 "classchip_1_1_reference_counted.html#a5b3b701def14594f55efbd3546b1b0f5":[10,0,1,67,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX31 =
 "classchip_1_1_session_establishment_delegate.html#a1784dca3315724e4dd6cf0db5f746fe1":[10,0,1,76,2],
 "classchip_1_1_session_establishment_delegate.html#a241cc1d606a71a92dd845e2ddf3c4595":[10,0,1,76,0],
 "classchip_1_1_session_establishment_delegate.html#ad070fd1a076adf713436d381bc5c567c":[10,0,1,76,1],
-"classchip_1_1_session_establishment_delegate.html#ad40496b759faa5895da2759857d9c459":[10,0,1,76,3]
+"classchip_1_1_session_establishment_delegate.html#ad40496b759faa5895da2759857d9c459":[10,0,1,76,3],
+"classchip_1_1_setup_payload.html":[10,0,1,77],
+"classchip_1_1_setup_payload.html#a0592f7a1ed54b7240488e0f3d07ac5ad":[10,0,1,77,16],
+"classchip_1_1_setup_payload.html#a18a1ee82a86e3efe454c99755f2613e8":[10,0,1,77,14],
+"classchip_1_1_setup_payload.html#a3a16b50bd8002dcbed64cf38b4984a1b":[10,0,1,77,2],
+"classchip_1_1_setup_payload.html#a41627935056e91fc8d9415ad160248ec":[10,0,1,77,19]
 };

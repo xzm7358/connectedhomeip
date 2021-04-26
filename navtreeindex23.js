@@ -1,10 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#ad724f3d64c6f7f651054e1a49125a7c2":[10,0,1,11,30,1],
-"classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f":[10,0,1,11,30,2],
-"classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183":[10,0,1,11,30,4],
-"classchip_1_1_controller_1_1_scenes_cluster.html":[10,0,1,11,31],
-"classchip_1_1_controller_1_1_scenes_cluster.html#a16af35be83e14a570758dc4e46965720":[10,0,1,11,31,3],
 "classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e":[10,0,1,11,31,5],
 "classchip_1_1_controller_1_1_scenes_cluster.html#a25e1799ae7ef61194aa52f26cdce92e2":[10,0,1,11,31,13],
 "classchip_1_1_controller_1_1_scenes_cluster.html#a338ae32018ddb06c78ecfe22cff0fe71":[10,0,1,11,31,14],
@@ -249,5 +244,10 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a55388f6d9b329c169d03788ca99bfd53":[10,0,1,14,8,55],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a5ea27f69cbd0c3d8e55f450b2e4e12ce":[10,0,1,14,8,65],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a61340b9ebddcccfa0b96afa4d08bbc69":[10,0,1,14,8,31],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#a62be68f46aa8e96f23b3aab23e06eb72":[10,0,1,14,8,17]
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a62be68f46aa8e96f23b3aab23e06eb72":[10,0,1,14,8,17],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a665f48882e200a7fe07024a82da7815d":[10,0,1,14,8,62],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a6bef9da9d0b29679598f625b66edce5e":[10,0,1,14,8,16],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a730fc6b99fee6133a7747135025035fd":[10,0,1,14,8,3],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a7407e7989b3e00e7c1715aa1e30aa837":[10,0,1,14,8,29],
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a76b3b980ef153d289020b2e45d8f4eb6":[10,0,1,14,8,50]
 };

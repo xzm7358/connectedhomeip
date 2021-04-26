@@ -1,10 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"controller_2python_2chip_2setup__payload_2_parser_8cpp.html":[11,0,1,1,0,9,1],
-"controller_2python_2chip_2setup__payload_2_parser_8cpp.html#aa1bed7a921bb54a29721fe8aac459126":[11,0,1,1,0,9,1,0],
-"controller_2python_2chip_2setup__payload_2_parser_8cpp.html#aea77d18a358d425701100953cf1dfd37":[11,0,1,1,0,9,1,1],
-"delegate_8py.html":[11,0,1,1,0,5,3],
-"delegate_8py.html#a14ecebd03447535bc8f5b744c7479a5d":[11,0,1,1,0,5,3,16],
 "delegate_8py.html#a1a877026bcb8efa0b79a4f7cbaad4dfa":[11,0,1,1,0,5,3,8],
 "delegate_8py.html#a2dbdace8b6acf4a5c48d97a1c81ada9e":[11,0,1,1,0,5,3,14],
 "delegate_8py.html#a2eb49aa02ef67a49c33fd85a02a005f4":[11,0,1,1,0,5,3,10],
@@ -249,5 +244,10 @@ var NAVTREEINDEX38 =
 "freertos__bluetooth_8c.html#ae08d3e7c5e7509283470ed21ef1d3ac6":[11,0,7,2,17,5],
 "freertos__bluetooth_8c.html#ae84bf03a2acc9d3c7e7cbcd32f22bd79":[11,0,7,2,17,20],
 "freertos__bluetooth_8c.html#af4cae107757d759fa406f6a9b453ac1e":[11,0,7,2,17,32],
-"freertos__bluetooth_8c.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,17,7]
+"freertos__bluetooth_8c.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,17,7],
+"freertos__bluetooth_8c.html#af9e7036375fd2cc530fbe45e0a70987d":[11,0,7,2,17,22],
+"freertos__bluetooth_8c.html#afba98b8c09a5dddd71d1ee85f2239ce8":[11,0,7,2,17,0],
+"freertos__bluetooth_8c.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,17,24],
+"freertos__bluetooth_8h.html":[11,0,7,2,18],
+"freertos__bluetooth_8h.html#a251f5312e2c400e0f3c670ee878ce639":[11,0,7,2,18,6]
 };

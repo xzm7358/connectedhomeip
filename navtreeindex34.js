@@ -1,10 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classchip_1_1_time_1_1_time_source_3_01_source_1_1k_test_01_4.html#a6996a095d0049fe33bbca9eb9a4916c3":[10,0,1,34,2,0],
-"classchip_1_1_time_1_1_time_source_3_01_source_1_1k_test_01_4.html#a8403a502d999c76f7766427ff05d0eac":[10,0,1,34,2,1],
-"classchip_1_1_transport_1_1_admin_pairing_info.html":[10,0,1,37,1],
-"classchip_1_1_transport_1_1_admin_pairing_info.html#a0e8eccae8e41e9ca85946179fa2e2dba":[10,0,1,37,1,1],
-"classchip_1_1_transport_1_1_admin_pairing_info.html#a1874ef1d498e3049b1ea24e607fedb28":[10,0,1,37,1,14],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#a1c337ebcce075563c1ac1796884b3f5f":[10,0,1,37,1,6],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#a485827702a0542b831a8095ed857423f":[10,0,1,37,1,2],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#a59a205f3d51dafdb12689d196651b1d1":[10,0,1,37,1,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX34 =
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a11041b123f01209d45ba3ed5fdccb1fc":[10,0,1,10,0,0,257],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a117dc839d5eb238e8cdce5142488893f":[10,0,1,10,0,0,49],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a124288f12203c4d15fe33fd5aabb84e2":[10,0,1,10,0,0,111],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a139bb8dab37b1010a6be3a88bb9f4e26":[10,0,1,10,0,0,100]
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a139bb8dab37b1010a6be3a88bb9f4e26":[10,0,1,10,0,0,100],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a1449b026de506092e95b8a2136e6248e":[10,0,1,10,0,0,232],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a172a73d6da0e57055236e18794a96256":[10,0,1,10,0,0,210],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a177beaef1c91f3571c34c5505cf6451a":[10,0,1,10,0,0,94],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a19724d2bdf7afed61d1a47278d91ba24":[10,0,1,10,0,0,158],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a1bc824203c412f32c31762c55306814c":[10,0,1,10,0,0,101]
 };
