@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Connected Home over IP: controller/CHIPClusters.cpp File Reference</title>
+<title>Connected Home over IP: controller/python/chip/clusters/CHIPClusters.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">ffa29ec</span>
+   &#160;<span id="projectnumber">b86e9a4</span>
    </div>
   </td>
  </tr>
@@ -84,31 +84,70 @@ $(document).ready(function(){initNavTree('_c_h_i_p_clusters_8cpp.html',''); init
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">CHIPClusters.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_c_h_i_p_clusters_8h_source.html">CHIPClusters.h</a>&quot;</code><br />
-<code>#include &lt;cstdint&gt;</code><br />
-<code>#include &lt;app/chip-zcl-zpro-codec-api.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_c_h_i_p_core_8h_source.html">core/CHIPCore.h</a>&gt;</code><br />
+<code>#include &lt;app/CommandSender.h&gt;</code><br />
+<code>#include &lt;app/InteractionModelEngine.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_span_8h_source.html">lib/support/Span.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_h_i_p_device_8h_source.html">controller/CHIPDevice.h</a>&gt;</code><br />
+<code>#include &quot;gen/CHIPClientCallbacks.h&quot;</code><br />
+<code>#include &quot;gen/CHIPClusters.h&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespacechip"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html">chip</a></td></tr>
-<tr class="memdesc:namespacechip"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adaptation for LwIP ip4_addr_t type. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacechip_1_1_controller"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html">chip::Controller</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a885b3bc40605bd0f29b689d0e1e754dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_clusters_8cpp.html#a885b3bc40605bd0f29b689d0e1e754dd">chip_ime_SetSuccessResponseDelegate</a> (SuccessResponseDelegate delegate)</td></tr>
+<tr class="separator:a885b3bc40605bd0f29b689d0e1e754dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97980eba6a24cd26188cd14039255824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_clusters_8cpp.html#a97980eba6a24cd26188cd14039255824">chip_ime_SetFailureResponseDelegate</a> (FailureResponseDelegate delegate)</td></tr>
+<tr class="separator:a97980eba6a24cd26188cd14039255824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a97980eba6a24cd26188cd14039255824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97980eba6a24cd26188cd14039255824">&#9670;&nbsp;</a></span>chip_ime_SetFailureResponseDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip_ime_SetFailureResponseDelegate </td>
+          <td>(</td>
+          <td class="paramtype">FailureResponseDelegate&#160;</td>
+          <td class="paramname"><em>delegate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a885b3bc40605bd0f29b689d0e1e754dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a885b3bc40605bd0f29b689d0e1e754dd">&#9670;&nbsp;</a></span>chip_ime_SetSuccessResponseDelegate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip_ime_SetSuccessResponseDelegate </td>
+          <td>(</td>
+          <td class="paramtype">SuccessResponseDelegate&#160;</td>
+          <td class="paramname"><em>delegate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_clusters_8cpp.html">CHIPClusters.cpp</a></li>
-    <li class="footer">Generated on Tue Apr 27 2021 20:38:52 for Connected Home over IP by
+    <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_222316c22a317cf9f0602db9df3fe8e5.html">python</a></li><li class="navelem"><a class="el" href="dir_ba457397843b1104e00563bf45838bd5.html">chip</a></li><li class="navelem"><a class="el" href="dir_658c3164a1f65d69256225bdd44799af.html">clusters</a></li><li class="navelem"><a class="el" href="_c_h_i_p_clusters_8cpp.html">CHIPClusters.cpp</a></li>
+    <li class="footer">Generated on Tue Apr 27 2021 21:06:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowcoveringcluster_7177',['WindowCoveringCluster',['../classchip_1_1_controller_1_1_window_covering_cluster.html',1,'chip::Controller']]]
+  ['zephyrconfig_6645',['ZephyrConfig',['../classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html',1,'chip::DeviceLayer::Internal']]]
 ];
