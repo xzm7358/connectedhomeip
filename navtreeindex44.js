@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"records_2_ptr_8h.html":[11,0,6,1,0,1,2],
 "records_2_ptr_8h_source.html":[11,0,6,1,0,1,2],
 "records_2_srv_8h.html":[11,0,6,1,0,1,5],
 "records_2_srv_8h_source.html":[11,0,6,1,0,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "structchip_1_1_device_layer_1_1_chip_device_event.html#af434bf1230c94e8b637106a8d9823943":[10,0,1,14,6,49],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html":[10,0,1,14,7],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a0c40f460cbff864a56219a5815294fc1":[10,0,1,14,7,34],
-"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a1b05911f50542b40b8ed4f2e88169de2":[10,0,1,14,7,20],
-"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2a7b487712c6610a3b6ca387248b018c":[10,0,1,14,7,19]
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a1b05911f50542b40b8ed4f2e88169de2":[10,0,1,14,7,20]
 };

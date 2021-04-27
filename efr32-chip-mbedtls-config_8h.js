@@ -16,6 +16,7 @@ var efr32_chip_mbedtls_config_8h =
     [ "MBEDTLS_ECDH_C", "efr32-chip-mbedtls-config_8h.html#aa3615295cbab56882c919eb9cf79fe10", null ],
     [ "MBEDTLS_ECDH_LEGACY_CONTEXT", "efr32-chip-mbedtls-config_8h.html#a34142af6045ce51995f621c5f7648f31", null ],
     [ "MBEDTLS_ECDSA_C", "efr32-chip-mbedtls-config_8h.html#ac5796bd242fe0f33d66f9e2cc3c2b490", null ],
+    [ "MBEDTLS_ECDSA_DETERMINISTIC", "efr32-chip-mbedtls-config_8h.html#adba50fdb786e1708b3360bd04bb77bd1", null ],
     [ "MBEDTLS_ECJPAKE_C", "efr32-chip-mbedtls-config_8h.html#af4c97c30b6084ceb60392781b93c9f58", null ],
     [ "MBEDTLS_ECP_C", "efr32-chip-mbedtls-config_8h.html#ae9d24fd58758d905e43ace39f9798b46", null ],
     [ "MBEDTLS_ECP_DP_SECP256R1_ENABLED", "efr32-chip-mbedtls-config_8h.html#aa7661e25bab8f0e87060ee05f1216fe4", null ],

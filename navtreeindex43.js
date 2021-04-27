@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acb0f9e23ec77c961297d8b3d9fbac475":[11,0,1,1,0,1,1,90],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acbc16a65a559a06207a5fb62b41bc1dc":[11,0,1,1,0,1,1,42],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acc10d1d0e6f6ad2038de62bf429d2222":[11,0,1,1,0,1,1,183],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#accd9db925c231926383bae9b808faf59":[11,0,1,1,0,1,1,162],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "qpg6100_config_8h_source.html":[11,0,7,10,22],
 "records_2_i_p_8cpp.html":[11,0,6,1,0,1,0],
 "records_2_i_p_8h.html":[11,0,6,1,0,1,1],
-"records_2_i_p_8h_source.html":[11,0,6,1,0,1,1],
-"records_2_ptr_8h.html":[11,0,6,1,0,1,2]
+"records_2_i_p_8h_source.html":[11,0,6,1,0,1,1]
 };
