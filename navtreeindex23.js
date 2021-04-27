@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#ad724f3d64c6f7f651054e1a49125a7c2":[10,0,1,11,30,1],
 "classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f":[10,0,1,11,30,2],
 "classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183":[10,0,1,11,30,4],
 "classchip_1_1_controller_1_1_scenes_cluster.html":[10,0,1,11,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a55388f6d9b329c169d03788ca99bfd53":[10,0,1,14,8,55],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a5ea27f69cbd0c3d8e55f450b2e4e12ce":[10,0,1,14,8,65],
 "classchip_1_1_device_layer_1_1_configuration_manager.html#a61340b9ebddcccfa0b96afa4d08bbc69":[10,0,1,14,8,31],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#a62be68f46aa8e96f23b3aab23e06eb72":[10,0,1,14,8,17],
-"classchip_1_1_device_layer_1_1_configuration_manager.html#a665f48882e200a7fe07024a82da7815d":[10,0,1,14,8,62]
+"classchip_1_1_device_layer_1_1_configuration_manager.html#a62be68f46aa8e96f23b3aab23e06eb72":[10,0,1,14,8,17]
 };

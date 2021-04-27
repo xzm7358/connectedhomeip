@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"nrfconnect_2_connectivity_manager_impl_8h.html#a17ec2ecb960975c25c4a890d7a72cbfb":[11,0,7,8,8,2],
 "nrfconnect_2_connectivity_manager_impl_8h.html#ae3364f4ad1379eb7fb38490e701307e6":[11,0,7,8,8,1],
 "nrfconnect_2_connectivity_manager_impl_8h_source.html":[11,0,7,8,8],
 "nrfconnect_2_device_network_provisioning_delegate_impl_8cpp.html":[11,0,7,8,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ac895339d47feee1dbde3d6cad97ac6a9":[11,0,1,1,0,1,1,170],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ac89b003e8251c4f7d546560569a1ad9a":[11,0,1,1,0,1,1,56],
 "python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ac90ca70813a955bef48932c9721fa819":[11,0,1,1,0,1,1,188],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ac9cc4a424dc9e472b8aeaaecbf1436a7":[11,0,1,1,0,1,1,164],
-"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acab3ac84e37225ae2b5aaeb063297526":[11,0,1,1,0,1,1,230]
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ac9cc4a424dc9e472b8aeaaecbf1436a7":[11,0,1,1,0,1,1,164]
 };

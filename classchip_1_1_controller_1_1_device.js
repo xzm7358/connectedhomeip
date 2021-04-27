@@ -8,6 +8,7 @@ var classchip_1_1_controller_1_1_device =
     [ "~Device", "classchip_1_1_controller_1_1_device.html#ae276e0def3fc4992c5631314503a3783", null ],
     [ "AddReportHandler", "classchip_1_1_controller_1_1_device.html#ade1ec986c3c82cc71a08c39bbe247684", null ],
     [ "AddResponseHandler", "classchip_1_1_controller_1_1_device.html#a33cee06ea81aaae0f127fd2d95db1eef", null ],
+    [ "CancelResponseHandler", "classchip_1_1_controller_1_1_device.html#ab4238866e726fab21c846d0003b12277", null ],
     [ "Deserialize", "classchip_1_1_controller_1_1_device.html#a25dc99776841306d50148fa4211bdaa4", null ],
     [ "GetAddress", "classchip_1_1_controller_1_1_device.html#a082fcc4b306c12a7d730b4b4df914531", null ],
     [ "GetCommandSender", "classchip_1_1_controller_1_1_device.html#acd5827eb0d9b94083b9002c18fb2088f", null ],

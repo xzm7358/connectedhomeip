@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"freertos__bluetooth_8c.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,17,7],
 "freertos__bluetooth_8c.html#af9e7036375fd2cc530fbe45e0a70987d":[11,0,7,2,17,22],
 "freertos__bluetooth_8c.html#afba98b8c09a5dddd71d1ee85f2239ce8":[11,0,7,2,17,0],
 "freertos__bluetooth_8c.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,17,24],
@@ -82,8 +83,8 @@ var NAVTREEINDEX39 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2,0],
 "functions_vars.html":[10,3,2],
+"functions_vars.html":[10,3,2,0],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -134,8 +135,8 @@ var NAVTREEINDEX39 =
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0],
 "globals.html":[11,1,0,0],
+"globals.html":[11,1,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "interface_fake_ble_adapter_information.html#a7f2c276df3a785871ef78bda40f89f0c":[10,0,16,2],
 "interface_fake_ble_adapter_information.html#ac43aa595fdb4289ad52dbebf90182718":[10,0,16,5],
 "interface_fake_ble_adapter_information.html#ad2f334110a3e29cb4801ca006d2a604b":[10,0,16,1],
-"interface_key_value_item.html":[10,0,20],
-"interface_key_value_item.html#a0ceec8939f4e906895b1490fc0853530":[10,0,20,1]
+"interface_key_value_item.html":[10,0,20]
 };
