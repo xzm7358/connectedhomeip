@@ -4,8 +4,6 @@ var dir_ce14ed064186955200333d2a0a25aa72 =
     [ "retransmit", "dir_6c26550631c315a26e3573717c5db86c.html", "dir_6c26550631c315a26e3573717c5db86c" ],
     [ "AdminPairingTable.cpp", "_admin_pairing_table_8cpp.html", null ],
     [ "AdminPairingTable.h", "_admin_pairing_table_8h.html", "_admin_pairing_table_8h" ],
-    [ "CASESession.cpp", "_c_a_s_e_session_8cpp.html", "_c_a_s_e_session_8cpp" ],
-    [ "CASESession.h", "_c_a_s_e_session_8h.html", "_c_a_s_e_session_8h" ],
     [ "PairingSession.h", "_pairing_session_8h.html", [
       [ "PairingSession", "classchip_1_1_pairing_session.html", "classchip_1_1_pairing_session" ]
     ] ],

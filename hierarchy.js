@@ -108,10 +108,6 @@ var hierarchy =
       [ "chip::Callback::CallbackDeque", "classchip_1_1_callback_1_1_callback_deque.html", null ]
     ] ],
     [ "chip::Crypto::CapacityBoundBuffer< Cap >", "classchip_1_1_crypto_1_1_capacity_bound_buffer.html", null ],
-    [ "chip::Crypto::CapacityBoundBuffer< kMax_ECDH_Secret_Length >", "classchip_1_1_crypto_1_1_capacity_bound_buffer.html", null ],
-    [ "chip::CASESession", "classchip_1_1_c_a_s_e_session.html", null ],
-    [ "chip::CASESessionSerializable", "structchip_1_1_c_a_s_e_session_serializable.html", null ],
-    [ "chip::CASESessionSerialized", "structchip_1_1_c_a_s_e_session_serialized.html", null ],
     [ "<CBCentralManagerDelegate>", null, [
       [ "BleConnection", "interface_ble_connection.html", null ],
       [ "ChipDeviceBleScanner", "interface_chip_device_ble_scanner.html", null ],
@@ -319,10 +315,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -540,9 +536,9 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", null ],
-    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
+    [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
