@@ -942,6 +942,17 @@ public:
      */
     CHIP_ERROR Put(uint64_t tag, int32_t v);
 
+    /*
+     * @overload CHIP_ERROR TLVWriter::Put(uint64_t tag, int8_t v)
+     * riscv toolchain of esp-idf defines int32_t from long int instead of int
+     */
+#ifdef __riscv
+    CHIP_ERROR Put(uint64_t tag, int v)
+    {
+        return Put(tag, static_cast<int32_t>(v));
+    };
+#endif
+
     /**
      * @overload CHIP_ERROR TLVWriter::Put(uint64_t tag, int8_t v, bool preserveSize)
      */
@@ -1031,6 +1042,17 @@ public:
      * @overload CHIP_ERROR TLVWriter::Put(uint64_t tag, uint8_t v)
      */
     CHIP_ERROR Put(uint64_t tag, uint32_t v);
+
+    /*
+     * @overload CHIP_ERROR TLVWriter::Put(uint64_t tag, int8_t v)
+     * riscv toolchain of esp-idf defines int32_t from long int instead of int
+     */
+#ifdef __riscv
+    CHIP_ERROR Put(uint64_t tag, unsigned int v)
+    {
+        return Put(tag, static_cast<uint32_t>(v));
+    };
+#endif
 
     /**
      * @overload CHIP_ERROR TLVWriter::Put(uint64_t tag, uint8_t v, bool preserveSize)
