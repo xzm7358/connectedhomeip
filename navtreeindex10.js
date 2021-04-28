@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"_e_f_r32_2gatt__db_8h.html#ad3022fcf4e131947486e3d59d5ec6d27":[11,0,7,2,20,2],
+"_e_f_r32_2gatt__db_8h.html#adebac73d79f567f399554da3a1041e22":[11,0,7,2,20,1],
 "_e_f_r32_2gatt__db_8h.html#ae71fc81c30c562da51613091325590a3":[11,0,7,2,20,7],
 "_e_f_r32_2gatt__db_8h.html#aff605ea341216d15116ec807b1c77661":[11,0,7,2,20,5],
 "_e_f_r32_2gatt__db_8h_source.html":[11,0,7,2,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "_error_str_8h.html#ae43b53bef8897cb48d4b8173e5c01b09":[11,0,6,3,28,2],
 "_error_str_8h_source.html":[11,0,6,3,28],
 "_event_logging_8h.html":[11,0,4,0,0,6],
-"_event_logging_8h.html#a6b704a6a52b7ff09ea49ef77169a5176":[11,0,4,0,0,6,0],
-"_event_logging_8h_source.html":[11,0,4,0,0,6],
-"_fibonacci_utils_8cpp.html":[11,0,6,3,29]
+"_event_logging_8h.html#a6b704a6a52b7ff09ea49ef77169a5176":[11,0,4,0,0,6,0]
 };

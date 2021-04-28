@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"_inet_config_8h.html#acd88230cce797c2c82951bee5dca32e2":[11,0,5,11,4],
+"_inet_config_8h.html#ad671e3f0a4727de6bbaf8d359d86911d":[11,0,5,11,3],
 "_inet_config_8h.html#ad74b0808c7dbf54cbb1a2c8c934b5329":[11,0,5,11,25],
 "_inet_config_8h.html#ada3ef26b24b5390e1e3abe205d653792":[11,0,5,11,9],
 "_inet_config_8h.html#adafa37007b8012dec860c0b4be22eaae":[11,0,5,11,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "_k32_w_2_inet_platform_config_8h.html#a8475da5675726182a88452691d4523ac":[11,0,7,5,19,3],
 "_k32_w_2_inet_platform_config_8h.html#a86580182eeb933811161fbb521bddcea":[11,0,7,5,19,6],
 "_k32_w_2_inet_platform_config_8h.html#aef5c7feebc33ffdf14a671fda1179ee0":[11,0,7,5,19,0],
-"_k32_w_2_inet_platform_config_8h_source.html":[11,0,7,5,19],
-"_k32_w_2_key_value_store_manager_impl_8cpp.html":[11,0,7,5,23],
-"_k32_w_2_key_value_store_manager_impl_8h.html":[11,0,7,5,24]
+"_k32_w_2_inet_platform_config_8h_source.html":[11,0,7,5,19]
 };

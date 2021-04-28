@@ -152,7 +152,9 @@ var hierarchy =
       [ "mdns::Minimal::HeaderRef", "classmdns_1_1_minimal_1_1_header_ref.html", null ]
     ] ],
     [ "chip::Controller::ControllerDeviceInitParams", "structchip_1_1_controller_1_1_controller_device_init_params.html", null ],
-    [ "chip::Controller::ControllerInitParams", "structchip_1_1_controller_1_1_controller_init_params.html", null ],
+    [ "chip::Controller::ControllerInitParams", "structchip_1_1_controller_1_1_controller_init_params.html", [
+      [ "chip::Controller::CommissionerInitParams", "structchip_1_1_controller_1_1_commissioner_init_params.html", null ]
+    ] ],
     [ "chip::Counter", "classchip_1_1_counter.html", [
       [ "chip::MonotonicallyIncreasingCounter", "classchip_1_1_monotonically_increasing_counter.html", [
         [ "chip::LifetimePersistedCounter", "classchip_1_1_lifetime_persisted_counter.html", null ],
@@ -344,14 +346,6 @@ var hierarchy =
       [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", null ],
       [ "UUIDHelper", "interface_u_u_i_d_helper.html", null ]
     ] ],
-    [ "object", null, [
-      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
-      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
-      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
-      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
-      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
-      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
-    ] ],
     [ "chip::System::Object", "classchip_1_1_system_1_1_object.html", [
       [ "chip::Inet::InetLayerBasis", "classchip_1_1_inet_1_1_inet_layer_basis.html", [
         [ "chip::Inet::DNSResolver", "classchip_1_1_inet_1_1_d_n_s_resolver.html", null ],
@@ -364,6 +358,14 @@ var hierarchy =
         ] ]
       ] ],
       [ "chip::System::Timer", "classchip_1_1_system_1_1_timer.html", null ]
+    ] ],
+    [ "object", null, [
+      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
+      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
+      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
+      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
+      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
+      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
     ] ],
     [ "chip::System::ObjectArena< ALIGN, SIZE >", "unionchip_1_1_system_1_1_object_arena.html", null ],
     [ "chip::System::ObjectArena< void *, N *sizeof(chip::Inet::DNSResolver)>", "unionchip_1_1_system_1_1_object_arena.html", null ],

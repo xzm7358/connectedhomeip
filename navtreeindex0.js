@@ -75,6 +75,7 @@ var NAVTREEINDEX0 =
 "_android_ble_platform_delegate_8h_source.html":[11,0,1,0,6],
 "_android_chip_stack_8java.html":[11,0,1,0,0,0,0,0],
 "_android_device_controller_wrapper_8cpp.html":[11,0,1,0,7],
+"_android_device_controller_wrapper_8cpp.html#a9c9650b12e3eb16fd74c7ecd0d5eb63f":[11,0,1,0,7,0],
 "_android_device_controller_wrapper_8h.html":[11,0,1,0,8],
 "_android_device_controller_wrapper_8h_source.html":[11,0,1,0,8],
 "_android_key_value_store_manager_impl_8cpp.html":[11,0,1,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_ble_u_u_i_d_8h.html#a25f80239668c503baffab841b40441fc":[11,0,0,14,1],
 "_ble_u_u_i_d_8h.html#a92d0c5b1b534923b35b73e0c6756f4ac":[11,0,0,14,2],
 "_ble_u_u_i_d_8h_source.html":[11,0,0,14],
-"_bluez_object_iterator_8h.html":[11,0,7,6,0,2],
-"_bluez_object_iterator_8h_source.html":[11,0,7,6,0,2]
+"_bluez_object_iterator_8h.html":[11,0,7,6,0,2]
 };

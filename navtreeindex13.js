@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"_k32_w_2_key_value_store_manager_impl_8cpp.html":[11,0,7,5,23],
+"_k32_w_2_key_value_store_manager_impl_8h.html":[11,0,7,5,24],
 "_k32_w_2_key_value_store_manager_impl_8h.html#a8ae00aec3a877f1912200f0dc921bdee":[11,0,7,5,24,2],
 "_k32_w_2_key_value_store_manager_impl_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,7,5,24,1],
 "_k32_w_2_key_value_store_manager_impl_8h_source.html":[11,0,7,5,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "_linux_2_thread_stack_manager_impl_8cpp.html#a10ebcfd7539e07fc21d596d1bf3c5a15":[11,0,7,6,30,0],
 "_linux_2_thread_stack_manager_impl_8cpp.html#a4e31a825567e9022c1010db3634751ff":[11,0,7,6,30,2],
 "_linux_2_thread_stack_manager_impl_8cpp.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,6,30,5],
-"_linux_2_thread_stack_manager_impl_8cpp.html#a8c4d31adb4debd11619a74eaaada1a0c":[11,0,7,6,30,6],
-"_linux_2_thread_stack_manager_impl_8cpp.html#a994c0042de1d32cbfb33fce90595522b":[11,0,7,6,30,1],
-"_linux_2_thread_stack_manager_impl_8cpp.html#aa5ae4dac177753ae6f673f116359ca04":[11,0,7,6,30,3]
+"_linux_2_thread_stack_manager_impl_8cpp.html#a8c4d31adb4debd11619a74eaaada1a0c":[11,0,7,6,30,6]
 };

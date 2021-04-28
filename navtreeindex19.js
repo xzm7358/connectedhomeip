@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"chip_o_ble_profile_8h.html#a6e087f2881861a8aa104527f168acbfe":[11,0,7,0,9,13],
+"chip_o_ble_profile_8h.html#a6e4fde2f14de874e001df440c6280b9b":[11,0,7,0,9,6],
 "chip_o_ble_profile_8h.html#a8511239628950ed2187a79fee126bc80":[11,0,7,0,9,4],
 "chip_o_ble_profile_8h.html#a8a25f9c180cddcd59f8e93c2dfa375d3":[11,0,7,0,9,10],
 "chip_o_ble_profile_8h.html#a9ef3380b4c571fefad30e4cd901ea52a":[11,0,7,0,9,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classchip_1_1_ble_1_1_ble_application_delegate.html#a06a2694a99ab39a00b8f76336453d80e":[10,0,1,1,0,0],
 "classchip_1_1_ble_1_1_ble_application_delegate.html#aefbeecae56be1cc7fa8d519d778ea4fb":[10,0,1,1,0,1],
 "classchip_1_1_ble_1_1_ble_connection_delegate.html":[10,0,1,1,1],
-"classchip_1_1_ble_1_1_ble_connection_delegate.html#a5320c1eb5acc32d735cecac9cfbfd65a":[10,0,1,1,1,6],
-"classchip_1_1_ble_1_1_ble_connection_delegate.html#a5648e6cd0c1afe32fcd276c3445c2fb4":[10,0,1,1,1,3],
-"classchip_1_1_ble_1_1_ble_connection_delegate.html#a6127f5c0da94a9a5b7698e89277c7bab":[10,0,1,1,1,2]
+"classchip_1_1_ble_1_1_ble_connection_delegate.html#a5320c1eb5acc32d735cecac9cfbfd65a":[10,0,1,1,1,6]
 };

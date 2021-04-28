@@ -1,6 +1,7 @@
 var namespacechip_1_1_controller =
 [
     [ "ClusterBase", "classchip_1_1_controller_1_1_cluster_base.html", "classchip_1_1_controller_1_1_cluster_base" ],
+    [ "CommissionerInitParams", "structchip_1_1_controller_1_1_commissioner_init_params.html", "structchip_1_1_controller_1_1_commissioner_init_params" ],
     [ "ControllerDeviceInitParams", "structchip_1_1_controller_1_1_controller_device_init_params.html", "structchip_1_1_controller_1_1_controller_device_init_params" ],
     [ "ControllerInitParams", "structchip_1_1_controller_1_1_controller_init_params.html", "structchip_1_1_controller_1_1_controller_init_params" ],
     [ "Device", "classchip_1_1_controller_1_1_device.html", "classchip_1_1_controller_1_1_device" ],

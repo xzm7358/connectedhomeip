@@ -18,6 +18,7 @@ var _c_h_i_p_device_controller__j_n_i_8cpp =
     [ "FromString", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4d4b35015b112f5bcda270780bd94b93", null ],
     [ "GetCHIPDevice", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#af2d8aef4c1247a745bd6f52c81e1e0ed", null ],
     [ "GetCHIPDevice", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a437602fbfbededb6c88d1ab73ed368ab", null ],
+    [ "GetJNIBleLayer", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9c9650b12e3eb16fd74c7ecd0d5eb63f", null ],
     [ "HandleCloseConnection", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8ef26795c5eaef55bcb9734d82b3332f", null ],
     [ "HandleConnectionError", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac78cacd90c46f692d1ee7600bdf028ac", null ],
     [ "HandleGetMTU", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad603eb07aa3c922cfd3b2e5f945a0eb8", null ],
