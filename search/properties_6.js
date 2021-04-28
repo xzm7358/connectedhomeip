@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['onconnectioncomplete_11524',['onConnectionComplete',['../interface_ble_connection.html#a2971337a63b4de88f6db226588303cfd',1,'BleConnection']]],
-  ['onconnectionerror_11525',['onConnectionError',['../interface_ble_connection.html#a156222207b18dd11ac9cf6c4696e3cfb',1,'BleConnection']]]
+  ['onconnectioncomplete_11864',['onConnectionComplete',['../interface_ble_connection.html#a2971337a63b4de88f6db226588303cfd',1,'BleConnection']]],
+  ['onconnectionerror_11865',['onConnectionError',['../interface_ble_connection.html#a156222207b18dd11ac9cf6c4696e3cfb',1,'BleConnection']]]
 ];
