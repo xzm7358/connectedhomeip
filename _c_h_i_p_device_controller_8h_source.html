@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">138bafb</span>
+   &#160;<span id="projectnumber">4a71302</span>
    </div>
   </td>
  </tr>
@@ -341,19 +341,21 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8h_source.h
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160; </div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordtype">void</span> PersistDeviceList();</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160; </div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keywordtype">void</span> FreeRendezvousSession();</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keywordtype">void</span> PersistNextKeyId();</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160; </div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> LoadKeyId(<a class="code" href="classchip_1_1_persistent_storage_delegate.html">PersistentStorageDelegate</a> * delegate, uint16_t &amp; <a class="code" href="namespacechip_1_1tlv.html#a2f1dcec86f9bd55809fa57846c8418da">out</a>);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordtype">void</span> FreeRendezvousSession();</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160; </div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <span class="keywordtype">void</span> OnSessionEstablishmentTimeout();</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> LoadKeyId(<a class="code" href="classchip_1_1_persistent_storage_delegate.html">PersistentStorageDelegate</a> * delegate, uint16_t &amp; <a class="code" href="namespacechip_1_1tlv.html#a2f1dcec86f9bd55809fa57846c8418da">out</a>);</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160; </div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> OnSessionEstablishmentTimeoutCallback(<a class="code" href="classchip_1_1_system_1_1_layer.html">System::Layer</a> * aLayer, <span class="keywordtype">void</span> * aAppState, System::Error aError);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keywordtype">void</span> OnSessionEstablishmentTimeout();</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    uint16_t mNextKeyId = 0;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;};</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;} <span class="comment">// namespace Controller</span></div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> OnSessionEstablishmentTimeoutCallback(<a class="code" href="classchip_1_1_system_1_1_layer.html">System::Layer</a> * aLayer, <span class="keywordtype">void</span> * aAppState, System::Error aError);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160; </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    uint16_t mNextKeyId = 0;</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;};</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160; </div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;} <span class="comment">// namespace Controller</span></div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_secure_session_mgr_8h_html"><div class="ttname"><a href="_secure_session_mgr_8h.html">SecureSessionMgr.h</a></div></div>
@@ -546,7 +548,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8h_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8h.html">CHIPDeviceController.h</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 21:32:40 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 29 2021 21:41:40 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

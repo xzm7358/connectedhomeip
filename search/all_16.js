@@ -1,7 +1,7 @@
 var searchData=
 [
   ['ualign_6196',['uAlign',['../unionchip_1_1_system_1_1_object_arena.html#a0b5216bab5d61fac84ad1fb5e43d9d3f',1,'chip::System::ObjectArena']]],
-  ['udp_6197',['UDP',['../classchip_1_1_transport_1_1_u_d_p.html',1,'chip::Transport::UDP'],['../classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr)'],['../classchip_1_1_transport_1_1_peer_address.html#a432912d46277ea31a3779ec2c1c95e28',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr, uint16_t port)'],['../classchip_1_1_transport_1_1_peer_address.html#a502d5d9233e6e7c5f9b05acf6753ca07',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr, uint16_t port, Inet::InterfaceId interface)'],['../structmdns_1_1_minimal_1_1_server_base_1_1_endpoint_info.html#a9d99959643068a93c0bd2b5294cfae98',1,'mdns::Minimal::ServerBase::EndpointInfo::udp()']]],
+  ['udp_6197',['UDP',['../classchip_1_1_transport_1_1_u_d_p.html',1,'chip::Transport::UDP'],['../structmdns_1_1_minimal_1_1_server_base_1_1_endpoint_info.html#a9d99959643068a93c0bd2b5294cfae98',1,'mdns::Minimal::ServerBase::EndpointInfo::udp()'],['../classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr)'],['../classchip_1_1_transport_1_1_peer_address.html#a432912d46277ea31a3779ec2c1c95e28',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr, uint16_t port)'],['../classchip_1_1_transport_1_1_peer_address.html#a502d5d9233e6e7c5f9b05acf6753ca07',1,'chip::Transport::PeerAddress::UDP(const Inet::IPAddress &amp;addr, uint16_t port, Inet::InterfaceId interface)']]],
   ['udp_2ecpp_6198',['UDP.cpp',['../_u_d_p_8cpp.html',1,'']]],
   ['udp_2eh_6199',['UDP.h',['../_u_d_p_8h.html',1,'']]],
   ['udpendpoint_6200',['UDPEndPoint',['../classchip_1_1_inet_1_1_u_d_p_end_point.html',1,'chip::Inet']]],
@@ -33,7 +33,7 @@ var searchData=
   ['unlockchipstack_6226',['UnlockChipStack',['../classchip_1_1_device_layer_1_1_platform_manager.html#a3f35d6ee56ac54c996387c24bdfc023c',1,'chip::DeviceLayer::PlatformManager']]],
   ['unlockthreadstack_6227',['UnlockThreadStack',['../classchip_1_1_device_layer_1_1_thread_stack_manager.html#a0840c7d64c58bd29a40f756ce46cb839',1,'chip::DeviceLayer::ThreadStackManager']]],
   ['unpair_6228',['Unpair',['../classchip_1_1internal_1_1commissioner_1_1_commissioner.html#a189005e0a776637148714650f30290ad',1,'chip::internal::commissioner::Commissioner']]],
-  ['unpairdevice_6229',['unpairDevice',['../classchip_1_1devicecontroller_1_1_chip_device_controller.html#a869b5d4f95d8d5e11ecf2420ee347083',1,'chip.devicecontroller.ChipDeviceController.unpairDevice()'],['../classchip_1_1_controller_1_1_device_commissioner.html#af2a18d2ac6bfe84cf6c155872256073e',1,'chip::Controller::DeviceCommissioner::UnpairDevice()']]],
+  ['unpairdevice_6229',['UnpairDevice',['../classchip_1_1_controller_1_1_device_commissioner.html#af2a18d2ac6bfe84cf6c155872256073e',1,'chip::Controller::DeviceCommissioner::UnpairDevice()'],['../classchip_1_1devicecontroller_1_1_chip_device_controller.html#a869b5d4f95d8d5e11ecf2420ee347083',1,'chip.devicecontroller.ChipDeviceController.unpairDevice()']]],
   ['unrecognizedqrcodeexception_6230',['UnrecognizedQrCodeException',['../classchip_1_1setuppayload_1_1_setup_payload_parser_1_1_unrecognized_qr_code_exception.html',1,'chip.setuppayload.SetupPayloadParser.UnrecognizedQrCodeException'],['../classchip_1_1setuppayload_1_1_setup_payload_parser_1_1_unrecognized_qr_code_exception.html#a4f23876d9b334f0a3cdf6e8cec3c0721',1,'chip.setuppayload.SetupPayloadParser.UnrecognizedQrCodeException.UnrecognizedQrCodeException()']]],
   ['unsafe_5fhash_6231',['unsafe_hash',['../classchip_1_1discovery_1_1_peer_id.html#a5ca8b4d18ba58bbd412c7ab51ae258ac',1,'chip.discovery.PeerId.unsafe_hash()'],['../namespacechip_1_1discovery.html#aff09b98dc5cbf502bef3bcb0ad30fb5d',1,'chip.discovery.unsafe_hash()']]],
   ['unsaferelease_6232',['UnsafeRelease',['../classchip_1_1_system_1_1_packet_buffer_handle.html#aa019194ba9d03e8c897e045b2d341d0a',1,'chip::System::PacketBufferHandle']]],
@@ -51,7 +51,7 @@ var searchData=
   ['updatesnapshot_6244',['UpdateSnapshot',['../classchip_1_1_inet_1_1_inet_layer.html#abba3a3660ff7dc38501393b10c0efc2c',1,'chip::Inet::InetLayer::UpdateSnapshot()'],['../namespacechip_1_1_system_1_1_stats.html#aaa4a2e082c7285a19804885934e67a1b',1,'chip::System::Stats::UpdateSnapshot()']]],
   ['updatethreadinterface_6245',['UpdateThreadInterface',['../classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662',1,'chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_OpenThread_LwIP']]],
   ['url_6246',['url',['../namespacebuild-chip-wheel.html#a15866805235666e342dcd8b84aba0e47',1,'build-chip-wheel']]],
-  ['usage_6247',['usage',['../class_verhoeff.html#a443e5eb1470013e7f2cbe01ad016362d',1,'Verhoeff.usage()'],['../classchip_1_1_chip_ble_base_1_1_chip_ble_base.html#a7d8107dd7236cec9ea0b149691374970',1,'chip.ChipBleBase.ChipBleBase.Usage()']]],
+  ['usage_6247',['Usage',['../classchip_1_1_chip_ble_base_1_1_chip_ble_base.html#a7d8107dd7236cec9ea0b149691374970',1,'chip.ChipBleBase.ChipBleBase.Usage()'],['../class_verhoeff.html#a443e5eb1470013e7f2cbe01ad016362d',1,'Verhoeff.usage()']]],
   ['use_5frawinput_6248',['use_rawinput',['../classchip-device-ctrl_1_1_device_mgr_cmd.html#adff3d8a841423bba1ece6558e843d3a9',1,'chip-device-ctrl::DeviceMgrCmd']]],
   ['usescurrentepochkey_6249',['UsesCurrentEpochKey',['../classchip_1_1_chip_key_id.html#a9e8137c1566939a6fe28cc39e6b94282',1,'chip::ChipKeyId']]],
   ['utf8string_5f1bytelength_6250',['UTF8String_1ByteLength',['../namespacechip_1_1_t_l_v.html#aca7e925a5d00f8dd399cfd7dca4587dcab4b13f92f58151c933d0858ba99c3af5',1,'chip::TLV']]],
@@ -63,6 +63,6 @@ var searchData=
   ['uuidhelper_6256',['UUIDHelper',['../interface_u_u_i_d_helper.html',1,'']]],
   ['uuidhelper_2eh_6257',['UUIDHelper.h',['../_u_u_i_d_helper_8h.html',1,'']]],
   ['uuidhelperimpl_2emm_6258',['UUIDHelperImpl.mm',['../_u_u_i_d_helper_impl_8mm.html',1,'']]],
-  ['uuids_6259',['uuids',['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#af9b2a617f6b6e5a55098e67619d13be0',1,'chip.ChipBluezMgr.BluezDbusDevice.uuids()'],['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a705bf8fc17e8be811dc1764a70cd8931',1,'chip.ChipBluezMgr.BluezDbusAdapter.UUIDs()']]],
+  ['uuids_6259',['UUIDs',['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a705bf8fc17e8be811dc1764a70cd8931',1,'chip.ChipBluezMgr.BluezDbusAdapter.UUIDs()'],['../classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#af9b2a617f6b6e5a55098e67619d13be0',1,'chip.ChipBluezMgr.BluezDbusDevice.uuids()']]],
   ['uuidsmatch_6260',['UUIDsMatch',['../namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac',1,'chip::Ble']]]
 ];
