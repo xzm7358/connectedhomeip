@@ -2,9 +2,7 @@ var classchip_1_1_rendezvous_session_delegate =
 [
     [ "Status", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be", [
       [ "SecurePairingSuccess", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea50f32c08dbf1a0273fab3fc64e101e49", null ],
-      [ "SecurePairingFailed", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea2f05a68d3640c76aa9e732d870497e89", null ],
-      [ "NetworkProvisioningSuccess", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea825ec000dd9e61f28a50670949fe6449", null ],
-      [ "NetworkProvisioningFailed", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37beae64c39953670290f42bb241de8729f48", null ]
+      [ "SecurePairingFailed", "classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea2f05a68d3640c76aa9e732d870497e89", null ]
     ] ],
     [ "~RendezvousSessionDelegate", "classchip_1_1_rendezvous_session_delegate.html#a2a499079c5b11c6563fa2901424cf1e1", null ],
     [ "OnRendezvousComplete", "classchip_1_1_rendezvous_session_delegate.html#a26f5f4233b100bc255110627b8312033", null ],

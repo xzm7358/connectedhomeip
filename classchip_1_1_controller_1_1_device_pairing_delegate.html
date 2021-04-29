@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">9a7285e</span>
+   &#160;<span id="projectnumber">65c3982</span>
    </div>
   </td>
  </tr>
@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('classchip_1_1_controller_1_1_device_pa
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classchip_1_1_controller_1_1_device_pairing_delegate-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">chip::Controller::DevicePairingDelegate Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">chip::Controller::DevicePairingDelegate Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -110,12 +110,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2c8e87ff5a48f454701822e167cdb38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#ae2c8e87ff5a48f454701822e167cdb38">OnStatusUpdate</a> (<a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">RendezvousSessionDelegate::Status</a> status)</td></tr>
 <tr class="memdesc:ae2c8e87ff5a48f454701822e167cdb38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing reaches a certain stage.  <a href="classchip_1_1_controller_1_1_device_pairing_delegate.html#ae2c8e87ff5a48f454701822e167cdb38">More...</a><br /></td></tr>
 <tr class="separator:ae2c8e87ff5a48f454701822e167cdb38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adba38e9e3c2bc88b17ee238082bf6c75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#adba38e9e3c2bc88b17ee238082bf6c75">OnNetworkCredentialsRequested</a> (<a class="el" href="classchip_1_1_rendezvous_device_credentials_delegate.html">RendezvousDeviceCredentialsDelegate</a> *<a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)=0</td></tr>
-<tr class="memdesc:adba38e9e3c2bc88b17ee238082bf6c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the network credentials are needed for the remote device.  <a href="classchip_1_1_controller_1_1_device_pairing_delegate.html#adba38e9e3c2bc88b17ee238082bf6c75">More...</a><br /></td></tr>
-<tr class="separator:adba38e9e3c2bc88b17ee238082bf6c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a7f1bc9253283b31f95a68f179010cd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#a5a7f1bc9253283b31f95a68f179010cd">OnOperationalCredentialsRequested</a> (const char *csr, size_t csr_length, <a class="el" href="classchip_1_1_rendezvous_device_credentials_delegate.html">RendezvousDeviceCredentialsDelegate</a> *<a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)=0</td></tr>
-<tr class="memdesc:a5a7f1bc9253283b31f95a68f179010cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the operational credentials are needed for the remote device.  <a href="classchip_1_1_controller_1_1_device_pairing_delegate.html#a5a7f1bc9253283b31f95a68f179010cd">More...</a><br /></td></tr>
-<tr class="separator:a5a7f1bc9253283b31f95a68f179010cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7bf845a9192216e62687b41ac285d6d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#af7bf845a9192216e62687b41ac285d6d">OnPairingComplete</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error)</td></tr>
 <tr class="memdesc:af7bf845a9192216e62687b41ac285d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing is complete (with success or error)  <a href="classchip_1_1_controller_1_1_device_pairing_delegate.html#af7bf845a9192216e62687b41ac285d6d">More...</a><br /></td></tr>
 <tr class="separator:af7bf845a9192216e62687b41ac285d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,96 +144,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="adba38e9e3c2bc88b17ee238082bf6c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adba38e9e3c2bc88b17ee238082bf6c75">&#9670;&nbsp;</a></span>OnNetworkCredentialsRequested()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void chip::Controller::DevicePairingDelegate::OnNetworkCredentialsRequested </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_rendezvous_device_credentials_delegate.html">RendezvousDeviceCredentialsDelegate</a> *&#160;</td>
-          <td class="paramname"><em>callback</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called when the network credentials are needed for the remote device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">callback</td><td><a class="el" href="namespacechip_1_1_callback.html">Callback</a> delegate that provisions the network credentials </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a1452b331941771411b47577a6418d1c8">chip::Controller::ScriptDevicePairingDelegate</a>, and <a class="el" href="class_android_device_controller_wrapper.html#a9d26225e6577f73d485d11461d0fe815">AndroidDeviceControllerWrapper</a>.</p>
-
-</div>
-</div>
-<a id="a5a7f1bc9253283b31f95a68f179010cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a7f1bc9253283b31f95a68f179010cd">&#9670;&nbsp;</a></span>OnOperationalCredentialsRequested()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void chip::Controller::DevicePairingDelegate::OnOperationalCredentialsRequested </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>csr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>csr_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_rendezvous_device_credentials_delegate.html">RendezvousDeviceCredentialsDelegate</a> *&#160;</td>
-          <td class="paramname"><em>callback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called when the operational credentials are needed for the remote device. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">csr</td><td>Certificate signing request from the device </td></tr>
-    <tr><td class="paramname">csr_length</td><td>The length of CSR </td></tr>
-    <tr><td class="paramname">callback</td><td><a class="el" href="namespacechip_1_1_callback.html">Callback</a> delegate that provisions the operational credentials </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implemented in <a class="el" href="classchip_1_1_controller_1_1_script_device_pairing_delegate.html#ac9edd44e9ad7db38d9628cc83bdc3f1e">chip::Controller::ScriptDevicePairingDelegate</a>, and <a class="el" href="class_android_device_controller_wrapper.html#a3eb7a63d41171f84f616df89e5e03295">AndroidDeviceControllerWrapper</a>.</p>
-
-</div>
-</div>
 <a id="af7bf845a9192216e62687b41ac285d6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7bf845a9192216e62687b41ac285d6d">&#9670;&nbsp;</a></span>OnPairingComplete()</h2>
 
@@ -272,7 +176,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a446f9d91d555ba5c0df30ca7c61a3481">chip::Controller::ScriptDevicePairingDelegate</a>, and <a class="el" href="class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014">AndroidDeviceControllerWrapper</a>.</p>
+<p>Reimplemented in <a class="el" href="class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014">AndroidDeviceControllerWrapper</a>, and <a class="el" href="classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a446f9d91d555ba5c0df30ca7c61a3481">chip::Controller::ScriptDevicePairingDelegate</a>.</p>
 
 </div>
 </div>
@@ -357,7 +261,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html">DevicePairingDelegate</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 22:37:54 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 29 2021 22:50:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -12,9 +12,7 @@ var classchip_1_1devicecontroller_1_1_chip_device_controller =
     [ "onCloseBleComplete", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#ae5b2c9ed854a8c15ac335c7a70658826", null ],
     [ "onConnectDeviceComplete", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a87d92ae2ad61bbb2edfce11f12ee9a24", null ],
     [ "onError", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#aac8417b2ce95c31e6405ab54819d4467", null ],
-    [ "onNetworkCredentialsRequested", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#acafa138ea00aa229352eff4b3c3c618f", null ],
     [ "onNotifyChipConnectionClosed", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a5915d9ac5c7240f2c75d968f5f158da9", null ],
-    [ "onOperationalCredentialsRequested", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#aba7b2b7eec65d6b79c78c8fcebe360d9", null ],
     [ "onPairingComplete", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a6792daeb42a2775ee17c0f98340bb598", null ],
     [ "onPairingDeleted", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a6505d997b14f74b82a272e5da04dae3f", null ],
     [ "onSendMessageComplete", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a4a94cdb3c649b2b75a37427435fa4ff4", null ],
@@ -25,8 +23,6 @@ var classchip_1_1devicecontroller_1_1_chip_device_controller =
     [ "pairTestDeviceWithoutSecurity", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a66c367f2bc97c7f9c1d072668175ccce", null ],
     [ "sendCommand", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a53cd0aebeb56a8e1c6c9a10aeecc5ba7", null ],
     [ "sendMessage", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a052927c22a6f921d44e0fff5b9d15da2", null ],
-    [ "sendThreadCredentials", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a63ede1902568c9ec1fbc7698e8230fcc", null ],
-    [ "sendWiFiCredentials", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a73fadc7ab182db52f2cdea710af63f03", null ],
     [ "setCompletionListener", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a50365aafedcba7f06f04a415e892b7bd", null ],
     [ "unpairDevice", "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a869b5d4f95d8d5e11ecf2420ee347083", null ]
 ];

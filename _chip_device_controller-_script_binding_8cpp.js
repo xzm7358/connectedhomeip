@@ -18,8 +18,6 @@ var _chip_device_controller__script_binding_8cpp =
     [ "pychip_Resolver_ResolveNode", "_chip_device_controller-_script_binding_8cpp.html#a444d573b9736ff2bbc3c0feca06be1ac", null ],
     [ "pychip_ScriptDeviceAddressUpdateDelegate_SetOnAddressUpdateComplete", "_chip_device_controller-_script_binding_8cpp.html#aced2a98cbe78009de9ccc181f3870b19", null ],
     [ "pychip_ScriptDevicePairingDelegate_SetKeyExchangeCallback", "_chip_device_controller-_script_binding_8cpp.html#a9ee010b39d830d04223089e9c2ba6ba4", null ],
-    [ "pychip_ScriptDevicePairingDelegate_SetThreadCredential", "_chip_device_controller-_script_binding_8cpp.html#ac396fe6b29e171ae2414b60e72132f93", null ],
-    [ "pychip_ScriptDevicePairingDelegate_SetWifiCredential", "_chip_device_controller-_script_binding_8cpp.html#a13c6338a9fe1c89a1c365a1a9db09f36", null ],
     [ "pychip_Stack_ErrorToString", "_chip_device_controller-_script_binding_8cpp.html#a5f82e308e27c05546c2be041de47b61c", null ],
     [ "pychip_Stack_Init", "_chip_device_controller-_script_binding_8cpp.html#a4e6645b3e754d96a2d543425d9d94364", null ],
     [ "pychip_Stack_SetLogFunct", "_chip_device_controller-_script_binding_8cpp.html#a70eaa39d057b8e5d6167115ba564de0d", null ],

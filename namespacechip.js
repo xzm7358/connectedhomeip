@@ -65,7 +65,6 @@ var namespacechip =
     [ "QRCodeSetupPayloadGenerator", "classchip_1_1_q_r_code_setup_payload_generator.html", "classchip_1_1_q_r_code_setup_payload_generator" ],
     [ "QRCodeSetupPayloadParser", "classchip_1_1_q_r_code_setup_payload_parser.html", "classchip_1_1_q_r_code_setup_payload_parser" ],
     [ "ReferenceCounted", "classchip_1_1_reference_counted.html", "classchip_1_1_reference_counted" ],
-    [ "RendezvousDeviceCredentialsDelegate", "classchip_1_1_rendezvous_device_credentials_delegate.html", "classchip_1_1_rendezvous_device_credentials_delegate" ],
     [ "RendezvousSessionDelegate", "classchip_1_1_rendezvous_session_delegate.html", "classchip_1_1_rendezvous_session_delegate" ],
     [ "SecureSession", "classchip_1_1_secure_session.html", "classchip_1_1_secure_session" ],
     [ "SecureSessionHandle", "classchip_1_1_secure_session_handle.html", "classchip_1_1_secure_session_handle" ],

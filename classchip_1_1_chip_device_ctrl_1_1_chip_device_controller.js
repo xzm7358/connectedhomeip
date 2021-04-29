@@ -12,8 +12,6 @@ var classchip_1_1_chip_device_ctrl_1_1_chip_device_controller =
     [ "ResolveNode", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a05a44333ea131f000d49a2a83fd20459", null ],
     [ "SetBlockingCB", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a74dd2e654c350f4ab33342391023c0c4", null ],
     [ "SetLogFilter", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a38d181ff5f993ddc9f6a558238cf9670", null ],
-    [ "SetThreadCredential", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#abe63d1e38883a52dcc992c49df70c495", null ],
-    [ "SetWifiCredential", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a42ae30534c4f7ee5b43d118d857bd155", null ],
     [ "ZCLAttributeList", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#ac3685f80b2733fd7ea470ec75890c4c4", null ],
     [ "ZCLCommandList", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a8e9edef0d783b77c566c6677a3f34b1a", null ],
     [ "ZCLConfigureAttribute", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#abc1c1aa6a174e4d1d221170a359e3bb0", null ],

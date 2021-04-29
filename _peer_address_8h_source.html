@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">9a7285e</span>
+   &#160;<span id="projectnumber">65c3982</span>
    </div>
   </td>
  </tr>
@@ -199,22 +199,22 @@ $(document).ready(function(){initNavTree('_peer_address_8h_source.html',''); ini
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">switch</span> (mTransportType)</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        {</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea7934d40c7c17315d892e8d5d745b1c66">Type::kUndefined</a>:</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a>(buf, bufSize, <span class="stringliteral">&quot;UNDEFINED&quot;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            snprintf(buf, bufSize, <span class="stringliteral">&quot;UNDEFINED&quot;</span>);</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea413d3304b6cf5212793031b3fec2023f">Type::kUdp</a>:</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            mIPAddress.<a class="code" href="classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760">ToString</a>(ip_addr);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a>(buf, bufSize, <span class="stringliteral">&quot;UDP:%s:%d&quot;</span>, ip_addr, mPort);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            snprintf(buf, bufSize, <span class="stringliteral">&quot;UDP:%s:%d&quot;</span>, ip_addr, mPort);</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea9cfe38b93cdff5d14e712910b4be0fd3">Type::kTcp</a>:</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            mIPAddress.<a class="code" href="classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760">ToString</a>(ip_addr);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a>(buf, bufSize, <span class="stringliteral">&quot;TCP:%s:%d&quot;</span>, ip_addr, mPort);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            snprintf(buf, bufSize, <span class="stringliteral">&quot;TCP:%s:%d&quot;</span>, ip_addr, mPort);</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea470516836d44cb6fe03b42bb7beff5e2">Type::kBle</a>:</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="comment">// Note that BLE does not currently use any specific address.</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a>(buf, bufSize, <span class="stringliteral">&quot;BLE&quot;</span>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            snprintf(buf, bufSize, <span class="stringliteral">&quot;BLE&quot;</span>);</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a>(buf, bufSize, <span class="stringliteral">&quot;ERROR&quot;</span>);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            snprintf(buf, bufSize, <span class="stringliteral">&quot;ERROR&quot;</span>);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
@@ -261,7 +261,7 @@ $(document).ready(function(){initNavTree('_peer_address_8h_source.html',''); ini
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_a864b5b25a31fc464a24645551a1d0dbe"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#a864b5b25a31fc464a24645551a1d0dbe">chip::Transport::PeerAddress::SetTransportType</a></div><div class="ttdeci">PeerAddress &amp; SetTransportType(Type type)</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:82</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_a29887d5a38a4e7cf65d48925fc8404ec"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec">chip::Transport::PeerAddress::UDP</a></div><div class="ttdeci">static PeerAddress UDP(const Inet::IPAddress &amp;addr)</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:165</div></div>
 <div class="ttc" id="anamespace_inet_html"><div class="ttname"><a href="namespace_inet.html">Inet</a></div><div class="ttdef"><b>Definition:</b> ConnectivityManagerImpl.h:35</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a8e0798404bf2cf5dabb84c5ba9a4f236"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8e0798404bf2cf5dabb84c5ba9a4f236">port</a></div><div class="ttdeci">uint16_t port</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:466</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a8e0798404bf2cf5dabb84c5ba9a4f236"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8e0798404bf2cf5dabb84c5ba9a4f236">port</a></div><div class="ttdeci">uint16_t port</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:407</div></div>
 <div class="ttc" id="a_i_p_address_8h_html"><div class="ttname"><a href="_i_p_address_8h.html">IPAddress.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_ad1600c1d21b2a4fbb8f00e442a3b2059"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#ad1600c1d21b2a4fbb8f00e442a3b2059">chip::Transport::PeerAddress::operator==</a></div><div class="ttdeci">bool operator==(const PeerAddress &amp;other) const</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:104</div></div>
 <div class="ttc" id="a_inet_interface_8h_html"><div class="ttname"><a href="_inet_interface_8h.html">InetInterface.h</a></div></div>
@@ -282,9 +282,8 @@ $(document).ready(function(){initNavTree('_peer_address_8h_source.html',''); ini
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_a9da59253a04d23b7d07735b9c4607cd6"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#a9da59253a04d23b7d07735b9c4607cd6">chip::Transport::PeerAddress::TCP</a></div><div class="ttdeci">static PeerAddress TCP(const Inet::IPAddress &amp;addr, uint16_t port)</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:172</div></div>
 <div class="ttc" id="anamespacechip_1_1_transport_html_a9f35c3e0e0d71813e0dd28710403778ea7934d40c7c17315d892e8d5d745b1c66"><div class="ttname"><a href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea7934d40c7c17315d892e8d5d745b1c66">chip::Transport::Type::kUndefined</a></div><div class="ttdeci">@ kUndefined</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_acfeea8dd646fd5ea29cc3d4448e3da7c"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#acfeea8dd646fd5ea29cc3d4448e3da7c">chip::Transport::PeerAddress::IsInitialized</a></div><div class="ttdeci">bool IsInitialized() const</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:102</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a4f7f09f6af8f5b0af2147d27e188dbc5"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f7f09f6af8f5b0af2147d27e188dbc5">snprintf</a></div><div class="ttdeci">snprintf(networkName, sizeof(networkName), &quot;CHIP-%04X&quot;, panId)</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_a169efe7646930d3aa3d0e31e190dc578"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#a169efe7646930d3aa3d0e31e190dc578">chip::Transport::PeerAddress::GetInterface</a></div><div class="ttdeci">Inet::InterfaceId GetInterface() const</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:95</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9c3ea1928b2efa1d7e23825de2652b24"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9c3ea1928b2efa1d7e23825de2652b24">addr</a></div><div class="ttdeci">chip::Inet::IPAddress addr</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:465</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9c3ea1928b2efa1d7e23825de2652b24"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9c3ea1928b2efa1d7e23825de2652b24">addr</a></div><div class="ttdeci">chip::Inet::IPAddress addr</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:406</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_ad43be4731394fdf3fdfd50f235b6c564"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#ad43be4731394fdf3fdfd50f235b6c564">chip::Transport::PeerAddress::GetPort</a></div><div class="ttdeci">uint16_t GetPort() const</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:88</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html_a5e8f2199a73de645c70f0df47daeef12"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html#a5e8f2199a73de645c70f0df47daeef12">chip::Transport::PeerAddress::kMaxToStringSize</a></div><div class="ttdeci">static constexpr size_t kMaxToStringSize</div><div class="ttdoc">Maximum size of the string outputes by ToString.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:121</div></div>
 <div class="ttc" id="anamespacechip_1_1_transport_html_a9f35c3e0e0d71813e0dd28710403778ea470516836d44cb6fe03b42bb7beff5e2"><div class="ttname"><a href="namespacechip_1_1_transport.html#a9f35c3e0e0d71813e0dd28710403778ea470516836d44cb6fe03b42bb7beff5e2">chip::Transport::Type::kBle</a></div><div class="ttdeci">@ kBle</div></div>
@@ -294,7 +293,7 @@ $(document).ready(function(){initNavTree('_peer_address_8h_source.html',''); ini
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="dir_a311810e72fdebe288f4c04505dd73fe.html">raw</a></li><li class="navelem"><a class="el" href="_peer_address_8h.html">PeerAddress.h</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 22:37:53 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 29 2021 22:50:19 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
