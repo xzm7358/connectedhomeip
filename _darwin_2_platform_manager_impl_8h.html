@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7e77955</span>
+   &#160;<span id="projectnumber">a093b54</span>
    </div>
   </td>
  </tr>
@@ -86,12 +86,14 @@ $(document).ready(function(){initNavTree('_darwin_2_platform_manager_impl_8h.htm
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">PlatformManagerImpl.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_generic_platform_manager_impl___p_o_s_i_x_8h_source.html">platform/internal/GenericPlatformManagerImpl_POSIX.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;dispatch/dispatch.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_generic_platform_manager_impl___p_o_s_i_x_8h_source.html">platform/internal/GenericPlatformManagerImpl_POSIX.h</a>&gt;</code><br />
 </div>
 <p><a href="_darwin_2_platform_manager_impl_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,16 +119,44 @@ Functions</h2></td></tr>
 <tr class="memitem:a0f116f09a0e109f6a32f9d894bf01d42"><td class="memItemLeft" align="right" valign="top">PlatformManagerImpl &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42">chip::DeviceLayer::PlatformMgrImpl</a> ()</td></tr>
 <tr class="memdesc:a0f116f09a0e109f6a32f9d894bf01d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the platform-specific implementation of the <a class="el" href="classchip_1_1_device_layer_1_1_platform_manager.html" title="Provides features for initializing and interacting with the chip network stack on a chip-enabled devi...">PlatformManager</a> singleton object.  <a href="namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42">More...</a><br /></td></tr>
 <tr class="separator:a0f116f09a0e109f6a32f9d894bf01d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a93ddc5e6af5840905c846d2a921807f8"><td class="memItemLeft" align="right" valign="top">static constexpr const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_darwin_2_platform_manager_impl_8h.html#a93ddc5e6af5840905c846d2a921807f8">CHIP_CONTROLLER_QUEUE</a> = &quot;com.zigbee.chip.framework.controller.workqueue&quot;</td></tr>
+<tr class="separator:a93ddc5e6af5840905c846d2a921807f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides an implementation of the PlatformManager object. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Variable Documentation</h2>
+<a id="a93ddc5e6af5840905c846d2a921807f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ddc5e6af5840905c846d2a921807f8">&#9670;&nbsp;</a></span>CHIP_CONTROLLER_QUEUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr const char* const CHIP_CONTROLLER_QUEUE = &quot;com.zigbee.chip.framework.controller.workqueue&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_a915e0d1adb138d0d68fe2a954708cd7.html">Darwin</a></li><li class="navelem"><a class="el" href="_darwin_2_platform_manager_impl_8h.html">PlatformManagerImpl.h</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 13:47:29 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 29 2021 15:08:55 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

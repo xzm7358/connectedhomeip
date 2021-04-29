@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"_software_update_manager_8h.html":[11,0,4,0,12],
 "_software_update_manager_8h_source.html":[11,0,4,0,12],
 "_span_8h.html":[11,0,6,3,48],
 "_span_8h.html#a96f429e9adf7dbc278167a45674cb1b3":[11,0,6,3,48,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "_time_utils_8cpp.html#a15a4cf36fc87a7c69af5f0e3ac76b622":[11,0,6,3,52,12],
 "_time_utils_8cpp.html#a2d8757e10f72f2d3e980f0af4a06400c":[11,0,6,3,52,5],
 "_time_utils_8cpp.html#a3419207f13f8e6e4949114c5e67941db":[11,0,6,3,52,15],
-"_time_utils_8cpp.html#a4ac30453978e0d1409365b42db562ab5":[11,0,6,3,52,19],
-"_time_utils_8cpp.html#a506aa9f5294beef35bde801a719f29b5":[11,0,6,3,52,18]
+"_time_utils_8cpp.html#a4ac30453978e0d1409365b42db562ab5":[11,0,6,3,52,19]
 };

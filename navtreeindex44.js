@@ -1,5 +1,8 @@
 var NAVTREEINDEX44 =
 {
+"structchip_1_1_optional_q_r_code_info_extension.html#af8e29cf50f80f95538a2521c93ffe1df":[10,0,1,54,3],
+"structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html":[10,0,1,25,1,0,0],
+"structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html#a1fda12dfcf4e6afa635a5a1966bc4e7e":[10,0,1,25,1,0,0,0],
 "structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key_3_01const_01char_01_5_01_4.html":[10,0,1,25,1,0,1],
 "structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key_3_01const_01char_01_5_01_4.html#a285a097a410e21603e8c5f9f0bd234eb":[10,0,1,25,1,0,1,0],
 "structchip_1_1_retransmit_1_1_lifetime.html":[10,0,1,27,1],

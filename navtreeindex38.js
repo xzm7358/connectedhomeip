@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"discovery_2____init_____8py.html#aa228afa0391b8d1fed2d79c78e9cc3d2":[11,0,1,1,0,3,0,11],
+"discovery_2____init_____8py.html#adcb8dfe86c7c4e5df719229227dd15e0":[11,0,1,1,0,3,0,6],
 "discovery_2____init_____8py.html#aff09b98dc5cbf502bef3bcb0ad30fb5d":[11,0,1,1,0,3,0,12],
 "discovery_2library__handle_8py.html":[11,0,1,1,0,3,1],
 "discovery_2library__handle_8py.html#abcd860a582ea303600392ad67f0e062b":[11,0,1,1,0,3,1,0],
@@ -178,8 +180,8 @@ var NAVTREEINDEX38 =
 "functions_enum.html":[10,3,4],
 "functions_eval.html":[10,3,5],
 "functions_f.html":[10,3,0,7],
-"functions_func.html":[10,3,1,0],
 "functions_func.html":[10,3,1],
+"functions_func.html":[10,3,1,0],
 "functions_func_a.html":[10,3,1,1],
 "functions_func_b.html":[10,3,1,2],
 "functions_func_c.html":[10,3,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "functions_vars_t.html":[10,3,2,19],
 "functions_vars_u.html":[10,3,2,20],
 "functions_vars_v.html":[10,3,2,21],
-"functions_vars_w.html":[10,3,2,22],
-"functions_vars_x.html":[10,3,2,23],
-"functions_vars_y.html":[10,3,2,24]
+"functions_vars_w.html":[10,3,2,22]
 };

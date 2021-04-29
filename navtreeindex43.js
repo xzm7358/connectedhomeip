@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#ae86be06e8f6e0f6b90f9d54546693bec":[10,0,1,1,10,5],
+"structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html":[10,0,1,1,11],
+"structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html#a3a0b89b6b6bdee0cc0cb21681a35af97":[10,0,1,1,11,0],
 "structchip_1_1_controller_1_1_commissioner_init_params.html":[10,0,1,11,1],
 "structchip_1_1_controller_1_1_commissioner_init_params.html#a8e221cce7a27427f8e6ffc89621dc479":[10,0,1,11,1,0],
 "structchip_1_1_controller_1_1_controller_device_init_params.html":[10,0,1,11,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "structchip_1_1_optional_q_r_code_info_extension.html":[10,0,1,54],
 "structchip_1_1_optional_q_r_code_info_extension.html#a134ededed5c65e21090dcb279645643d":[10,0,1,54,0],
 "structchip_1_1_optional_q_r_code_info_extension.html#a289c15389b7495cf6cad83504b56310a":[10,0,1,54,2],
-"structchip_1_1_optional_q_r_code_info_extension.html#a519b802b451fce5f9333fe5d73a28fe9":[10,0,1,54,1],
-"structchip_1_1_optional_q_r_code_info_extension.html#af8e29cf50f80f95538a2521c93ffe1df":[10,0,1,54,3],
-"structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html":[10,0,1,25,1,0,0],
-"structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html#a1fda12dfcf4e6afa635a5a1966bc4e7e":[10,0,1,25,1,0,0,0]
+"structchip_1_1_optional_q_r_code_info_extension.html#a519b802b451fce5f9333fe5d73a28fe9":[10,0,1,54,1]
 };

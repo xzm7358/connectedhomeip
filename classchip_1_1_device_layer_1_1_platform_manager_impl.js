@@ -1,5 +1,6 @@
 var classchip_1_1_device_layer_1_1_platform_manager_impl =
 [
+    [ "GetWorkQueue", "classchip_1_1_device_layer_1_1_platform_manager_impl.html#a178b6bda7ae9c03555440d54a491eaa8", null ],
     [ "HandleESPSystemEvent", "classchip_1_1_device_layer_1_1_platform_manager_impl.html#a78c3fd3261b2d31bad7a93e8a40570f2", null ],
     [ "InitLwIPCoreLock", "classchip_1_1_device_layer_1_1_platform_manager_impl.html#a1c8cc625eaf75b5086484a297604a575", null ],
     [ "Internal::BLEManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager_impl.html#aca038dce8e4402d1c2bc186ff62bd3b6", null ],

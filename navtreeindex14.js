@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,6,21,1],
 "_linux_2_mdns_impl_8cpp.html":[11,0,7,6,22],
 "_linux_2_mdns_impl_8cpp.html#a0754a398f1b32ce97bb2158f0e632975":[11,0,7,6,22,0],
 "_linux_2_mdns_impl_8cpp.html#a49bd665343abea118d41b69f96604e37":[11,0,7,6,22,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "_private_heap_8h.html#aa0c6e7dc6099ad844c2f90776f3aa367":[11,0,6,3,39,3],
 "_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771":[11,0,6,3,39,1],
 "_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267":[11,0,6,3,39,2],
-"_private_heap_8h_source.html":[11,0,6,3,39],
-"_q_name_8cpp.html":[11,0,6,1,0,0,4]
+"_private_heap_8h_source.html":[11,0,6,3,39]
 };

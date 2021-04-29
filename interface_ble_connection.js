@@ -6,6 +6,7 @@ var interface_ble_connection =
     [ "stop", "interface_ble_connection.html#a86c5ce80b7a28e03f21132c86f5c563a", null ],
     [ "appState", "interface_ble_connection.html#a75e0af4c5771b01a4cbf2c51746d976e", null ],
     [ "centralManager", "interface_ble_connection.html#a328db1f958d7d2a79b8f7169eb600982", null ],
+    [ "chipWorkQueue", "interface_ble_connection.html#af11a047638b4a5cd34f7be737be401f9", null ],
     [ "deviceDiscriminator", "interface_ble_connection.html#a205f1985f88274ad39d955a65d4315c0", null ],
     [ "mBleLayer", "interface_ble_connection.html#aa4cec98b712f9667407dd371279ec031", null ],
     [ "onConnectionComplete", "interface_ble_connection.html#a2971337a63b4de88f6db226588303cfd", null ],

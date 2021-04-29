@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"namespacemembers_func_c.html":[9,1,1,3],
+"namespacemembers_func_d.html":[9,1,1,4],
+"namespacemembers_func_e.html":[9,1,1,5],
 "namespacemembers_func_f.html":[9,1,1,6],
 "namespacemembers_func_g.html":[9,1,1,7],
 "namespacemembers_func_h.html":[9,1,1,8],
@@ -33,8 +36,8 @@ var NAVTREEINDEX41 =
 "namespacemembers_type.html":[9,1,3],
 "namespacemembers_u.html":[9,1,0,20],
 "namespacemembers_v.html":[9,1,0,21],
-"namespacemembers_vars.html":[9,1,2,0],
 "namespacemembers_vars.html":[9,1,2],
+"namespacemembers_vars.html":[9,1,2,0],
 "namespacemembers_vars_a.html":[9,1,2,1],
 "namespacemembers_vars_b.html":[9,1,2,2],
 "namespacemembers_vars_c.html":[9,1,2,3],
@@ -57,8 +60,8 @@ var NAVTREEINDEX41 =
 "namespacemembers_vars_v.html":[9,1,2,20],
 "namespacemembers_vars_w.html":[9,1,2,21],
 "namespacemembers_w.html":[9,1,0,22],
-"namespacemobile-device-test.html":[9,0,7],
 "namespacemobile-device-test.html":[10,0,4],
+"namespacemobile-device-test.html":[9,0,7],
 "namespaces.html":[9,0],
 "native_2____init_____8py.html":[11,0,1,1,0,8,0],
 "native_2____init_____8py.html#a10ddcf2d77af3af0f9aca8d1de35faab":[11,0,1,1,0,8,0,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae037328251fb9a49318706eb30087f6e":[11,0,7,10,4,1,13],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae17bcd28deaac5e0978f6a5dd79bcb63":[11,0,7,10,4,1,17],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae515e7e56bf33c0e250ba89fe6c26c69":[11,0,7,10,4,1,6],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae92013c68d6cb1f0bc0304ba142b83d0":[11,0,7,10,4,1,16],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aee1cf5c6fa9e2b577999480ad6bddeb5":[11,0,7,10,4,1,11],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aef856bfbd7c3beee7c1406ceb0e0da2c":[11,0,7,10,4,1,7],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59afa8e12b1883216e4c8d7a98b5dbb3706":[11,0,7,10,4,1,2]
+"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae92013c68d6cb1f0bc0304ba142b83d0":[11,0,7,10,4,1,16]
 };

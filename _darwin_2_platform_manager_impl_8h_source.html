@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7e77955</span>
+   &#160;<span id="projectnumber">a093b54</span>
    </div>
   </td>
  </tr>
@@ -107,70 +107,84 @@ $(document).ready(function(){initNavTree('_darwin_2_platform_manager_impl_8h_sou
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_generic_platform_manager_impl___p_o_s_i_x_8h.html">platform/internal/GenericPlatformManagerImpl_POSIX.h</a>&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span>DeviceLayer {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;dispatch/dispatch.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_generic_platform_manager_impl___p_o_s_i_x_8h.html">platform/internal/GenericPlatformManagerImpl_POSIX.h</a>&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="_darwin_2_platform_manager_impl_8h.html#a93ddc5e6af5840905c846d2a921807f8">   29</a></span>&#160;<span class="keyword">static</span> constexpr <span class="keyword">const</span> <span class="keywordtype">char</span> * <span class="keyword">const</span> <a class="code" href="_darwin_2_platform_manager_impl_8h.html#a93ddc5e6af5840905c846d2a921807f8">CHIP_CONTROLLER_QUEUE</a> = <span class="stringliteral">&quot;com.zigbee.chip.framework.controller.workqueue&quot;</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span>PlatformManagerImpl final : <span class="keyword">public</span> PlatformManager, <span class="keyword">public</span> Internal::GenericPlatformManagerImpl_POSIX&lt;PlatformManagerImpl&gt;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// Allow the PlatformManager interface class to delegate method calls to</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// the implementation methods provided by this class.</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">friend</span> PlatformManager;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// Allow the generic implementation base class to call helper methods on</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// this class.</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">friend</span> Internal::GenericPlatformManagerImpl_POSIX&lt;PlatformManagerImpl&gt;;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// ===== Platform-specific members that may be accessed directly by the application.</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span>DeviceLayer {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">class </span>PlatformManagerImpl final : <span class="keyword">public</span> PlatformManager, <span class="keyword">public</span> Internal::GenericPlatformManagerImpl_POSIX&lt;PlatformManagerImpl&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// Allow the PlatformManager interface class to delegate method calls to</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// the implementation methods provided by this class.</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">friend</span> PlatformManager;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Allow the generic implementation base class to call helper methods on</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// this class.</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">friend</span> Internal::GenericPlatformManagerImpl_POSIX&lt;PlatformManagerImpl&gt;;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/* none so far */</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// ===== Methods that implement the PlatformManager abstract interface.</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _InitChipStack(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">friend</span> PlatformManager &amp; <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a6e3ef31f7050bc7a2c896053ca4e7035">PlatformMgr</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager.html#ac31a0df4105578f7404846c15568b820">PlatformManagerImpl</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a2ac4e1606b2d3d4a8035b1b66aa8bd2f">PlatformMgrImpl</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#aca038dce8e4402d1c2bc186ff62bd3b6">Internal::BLEManagerImpl</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keyword">static</span> <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager.html#ac31a0df4105578f7404846c15568b820">PlatformManagerImpl</a> sInstance;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">inline</span> PlatformManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261">PlatformMgr</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> PlatformManagerImpl::sInstance;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keyword">inline</span> PlatformManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42">PlatformMgrImpl</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> PlatformManagerImpl::sInstance;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// ===== Platform-specific members that may be accessed directly by the application.</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a178b6bda7ae9c03555440d54a491eaa8">   52</a></span>&#160;    dispatch_queue_t <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a178b6bda7ae9c03555440d54a491eaa8">GetWorkQueue</a>()</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (mWorkQueue == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            mWorkQueue = dispatch_queue_create(<a class="code" href="_darwin_2_platform_manager_impl_8h.html#a93ddc5e6af5840905c846d2a921807f8">CHIP_CONTROLLER_QUEUE</a>, DISPATCH_QUEUE_SERIAL);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> mWorkQueue;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// ===== Methods that implement the PlatformManager abstract interface.</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _InitChipStack(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager.html">PlatformManager</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a6e3ef31f7050bc7a2c896053ca4e7035">PlatformMgr</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html">PlatformManagerImpl</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a2ac4e1606b2d3d4a8035b1b66aa8bd2f">PlatformMgrImpl</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>Internal::BLEManagerImpl;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">static</span> <a class="code" href="classchip_1_1_device_layer_1_1_platform_manager_impl.html">PlatformManagerImpl</a> sInstance;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    dispatch_queue_t mWorkQueue = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">inline</span> PlatformManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261">PlatformMgr</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> PlatformManagerImpl::sInstance;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">inline</span> PlatformManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42">PlatformMgrImpl</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> PlatformManagerImpl::sInstance;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_html_ac31a0df4105578f7404846c15568b820"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager.html#ac31a0df4105578f7404846c15568b820">chip::DeviceLayer::PlatformManager::PlatformManagerImpl</a></div><div class="ttdeci">friend class PlatformManagerImpl</div><div class="ttdef"><b>Definition:</b> PlatformManager.h:100</div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_impl_html_a6e3ef31f7050bc7a2c896053ca4e7035"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a6e3ef31f7050bc7a2c896053ca4e7035">chip::DeviceLayer::PlatformManagerImpl::PlatformMgr</a></div><div class="ttdeci">friend PlatformManager &amp; PlatformMgr(void)</div><div class="ttdoc">Returns the public interface of the PlatformManager singleton object.</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:74</div></div>
 <div class="ttc" id="anamespacechip_1_1_device_layer_html_a9b90588e3accea89d79094c29fc07261"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261">chip::DeviceLayer::PlatformMgr</a></div><div class="ttdeci">PlatformManager &amp; PlatformMgr()</div><div class="ttdoc">Returns the public interface of the PlatformManager singleton object.</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:74</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_impl_html_aca038dce8e4402d1c2bc186ff62bd3b6"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#aca038dce8e4402d1c2bc186ff62bd3b6">chip::DeviceLayer::PlatformManagerImpl::BLEManagerImpl</a></div><div class="ttdeci">friend class Internal::BLEManagerImpl</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:61</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_html"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager.html">chip::DeviceLayer::PlatformManager</a></div><div class="ttdoc">Provides features for initializing and interacting with the chip network stack on a chip-enabled devi...</div><div class="ttdef"><b>Definition:</b> PlatformManager.h:77</div></div>
+<div class="ttc" id="a_darwin_2_platform_manager_impl_8h_html_a93ddc5e6af5840905c846d2a921807f8"><div class="ttname"><a href="_darwin_2_platform_manager_impl_8h.html#a93ddc5e6af5840905c846d2a921807f8">CHIP_CONTROLLER_QUEUE</a></div><div class="ttdeci">static constexpr const char *const CHIP_CONTROLLER_QUEUE</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:29</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_impl_html_a178b6bda7ae9c03555440d54a491eaa8"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a178b6bda7ae9c03555440d54a491eaa8">chip::DeviceLayer::PlatformManagerImpl::GetWorkQueue</a></div><div class="ttdeci">dispatch_queue_t GetWorkQueue()</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:52</div></div>
 <div class="ttc" id="anamespacechip_1_1_device_layer_html_a0f116f09a0e109f6a32f9d894bf01d42"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42">chip::DeviceLayer::PlatformMgrImpl</a></div><div class="ttdeci">PlatformManagerImpl &amp; PlatformMgrImpl()</div><div class="ttdoc">Returns the platform-specific implementation of the PlatformManager singleton object.</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:86</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="a_generic_platform_manager_impl___p_o_s_i_x_8h_html"><div class="ttname"><a href="_generic_platform_manager_impl___p_o_s_i_x_8h.html">GenericPlatformManagerImpl_POSIX.h</a></div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_impl_html"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager_impl.html">chip::DeviceLayer::PlatformManagerImpl</a></div><div class="ttdoc">Concrete implementation of the PlatformManager singleton object for the CC13X2_26X2 platform.</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:35</div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_platform_manager_impl_html_a2ac4e1606b2d3d4a8035b1b66aa8bd2f"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_platform_manager_impl.html#a2ac4e1606b2d3d4a8035b1b66aa8bd2f">chip::DeviceLayer::PlatformManagerImpl::PlatformMgrImpl</a></div><div class="ttdeci">friend PlatformManagerImpl &amp; PlatformMgrImpl(void)</div><div class="ttdoc">Returns the platform-specific implementation of the PlatformManager singleton object.</div><div class="ttdef"><b>Definition:</b> PlatformManagerImpl.h:86</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_a915e0d1adb138d0d68fe2a954708cd7.html">Darwin</a></li><li class="navelem"><a class="el" href="_darwin_2_platform_manager_impl_8h.html">PlatformManagerImpl.h</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 13:47:28 for Connected Home over IP by
+    <li class="footer">Generated on Thu Apr 29 2021 15:08:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

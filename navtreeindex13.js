@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"_k32_w_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,5,7,38],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#aa8b734a5e4a184c82af017739a2c2939":[11,0,7,5,7,24],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#aa8cb98d017ed7e8bb3d37f122ebfe275":[11,0,7,5,7,21],
 "_k32_w_2_c_h_i_p_platform_config_8h.html#aab03d621d59a610c7ceabe15aa617506":[11,0,7,5,7,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "_linux_2_key_value_store_manager_impl_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,7,6,20,1],
 "_linux_2_key_value_store_manager_impl_8h_source.html":[11,0,7,6,20],
 "_linux_2_logging_8cpp.html":[11,0,7,6,21],
-"_linux_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,6,21,0],
-"_linux_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,6,21,1]
+"_linux_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,6,21,0]
 };

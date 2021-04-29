@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a00e7c0274434f58261393bf8987f4802":[11,0,7,0,28,1],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,0,28,6],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,28,2],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aad8d4dbae6b55b8487c68a46f528a467":[11,0,7,0,28,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classchip_1_1_bit_flags.html#a47ed3ba5434fe5e2fb57c3042f6fc70d":[10,0,1,40,12],
 "classchip_1_1_bit_flags.html#a488c845ca8ff8bcf90968ab1c00e1c06":[10,0,1,40,0],
 "classchip_1_1_bit_flags.html#a606172a1a4c79901a04e1f2778b08cfb":[10,0,1,40,5],
-"classchip_1_1_bit_flags.html#a7e04bc082ef554be82e01ee17f4d2d23":[10,0,1,40,18],
-"classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65":[10,0,1,40,23]
+"classchip_1_1_bit_flags.html#a7e04bc082ef554be82e01ee17f4d2d23":[10,0,1,40,18]
 };
