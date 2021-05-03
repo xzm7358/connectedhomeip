@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"_chip_device_controller-_script_device_pairing_delegate_8cpp.html":[11,0,1,1,9],
+"_chip_device_controller-_script_device_pairing_delegate_8h.html":[11,0,1,1,10],
+"_chip_device_controller-_script_device_pairing_delegate_8h.html#a3fc15c5e43ea7b58c96e0b85768a6274":[11,0,1,1,10,1],
 "_chip_device_controller-_script_device_pairing_delegate_8h_source.html":[11,0,1,1,10],
 "_chip_device_controller-_storage_delegate_8cpp.html":[11,0,1,1,11],
 "_chip_device_controller-_storage_delegate_8h.html":[11,0,1,1,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "_darwin_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1":[11,0,7,1,29,5],
 "_darwin_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df":[11,0,7,1,29,4],
 "_darwin_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9":[11,0,7,1,29,1],
-"_darwin_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,1,29,0],
-"_darwin_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b":[11,0,7,1,29,2],
-"_darwin_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5":[11,0,7,1,29,3],
-"_darwin_2_system_platform_config_8h_source.html":[11,0,7,1,29]
+"_darwin_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,1,29,0]
 };

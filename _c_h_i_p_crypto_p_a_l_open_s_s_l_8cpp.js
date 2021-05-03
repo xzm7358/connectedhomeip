@@ -25,6 +25,7 @@ var _c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp =
     [ "ClearSecretData", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#a2913c410386c38cf2620d80a09428763", null ],
     [ "DRBG_get_bytes", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#a55a2d8a47210c5b3160797828217a7a4", null ],
     [ "from_EC_KEY", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#a4e8a4576792080f49978bfc9d57a7ae9", null ],
+    [ "Hash_SHA1", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#ab5ed0f8737718b4a9bff6d139bf54c6b", null ],
     [ "Hash_SHA256", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#aea28ff8c02e91b5cde20826153579fe8", null ],
     [ "HKDF_SHA256", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#a312c90d8dc3230e723ddbbe427307a21", null ],
     [ "MapECName", "_c_h_i_p_crypto_p_a_l_open_s_s_l_8cpp.html#aa46590318a035faf2df9c2154cb4d957", null ],

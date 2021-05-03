@@ -35,6 +35,7 @@ var _c_h_i_p_crypto_p_a_l_8h =
     [ "AES_CCM_encrypt", "_c_h_i_p_crypto_p_a_l_8h.html#a0985c44e5ae5ee8d8a865e8aa7d41df7", null ],
     [ "ClearSecretData", "_c_h_i_p_crypto_p_a_l_8h.html#a2913c410386c38cf2620d80a09428763", null ],
     [ "DRBG_get_bytes", "_c_h_i_p_crypto_p_a_l_8h.html#a55a2d8a47210c5b3160797828217a7a4", null ],
+    [ "Hash_SHA1", "_c_h_i_p_crypto_p_a_l_8h.html#ab5ed0f8737718b4a9bff6d139bf54c6b", null ],
     [ "Hash_SHA256", "_c_h_i_p_crypto_p_a_l_8h.html#aea28ff8c02e91b5cde20826153579fe8", null ],
     [ "HKDF_SHA256", "_c_h_i_p_crypto_p_a_l_8h.html#a312c90d8dc3230e723ddbbe427307a21", null ],
     [ "pbkdf2_sha256", "_c_h_i_p_crypto_p_a_l_8h.html#ad17d6e25daace9b73a587d1257a6609e", null ],

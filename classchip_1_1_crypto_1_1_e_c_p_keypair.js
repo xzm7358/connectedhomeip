@@ -5,5 +5,5 @@ var classchip_1_1_crypto_1_1_e_c_p_keypair =
     [ "ECDSA_sign_hash", "classchip_1_1_crypto_1_1_e_c_p_keypair.html#a7eb4aace08f455fe0102e160d4e3507c", null ],
     [ "ECDSA_sign_msg", "classchip_1_1_crypto_1_1_e_c_p_keypair.html#a7f335a47a02e4e34ce526e6989559b49", null ],
     [ "NewCertificateSigningRequest", "classchip_1_1_crypto_1_1_e_c_p_keypair.html#ab0ac2909e8dd48bda8a1654857230415", null ],
-    [ "Pubkey", "classchip_1_1_crypto_1_1_e_c_p_keypair.html#a05c83b73c222c3222521778f3b655867", null ]
+    [ "Pubkey", "classchip_1_1_crypto_1_1_e_c_p_keypair.html#a4e6fa26c048909955cf54b99f21b70e5", null ]
 ];

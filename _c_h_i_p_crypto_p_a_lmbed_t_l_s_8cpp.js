@@ -17,6 +17,7 @@ var _c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp =
     [ "DRBG_get_bytes", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a55a2d8a47210c5b3160797828217a7a4", null ],
     [ "get_drbg_context", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a00d809e65d267ef584e3bcfb4156844d", null ],
     [ "get_entropy_context", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a311ed265d1f149da3cce3d940a3153ee", null ],
+    [ "Hash_SHA1", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#ab5ed0f8737718b4a9bff6d139bf54c6b", null ],
     [ "Hash_SHA256", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#aea28ff8c02e91b5cde20826153579fe8", null ],
     [ "HKDF_SHA256", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a312c90d8dc3230e723ddbbe427307a21", null ],
     [ "MapECPGroupId", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a36e53228bb058c401500c313fd866db9", null ],

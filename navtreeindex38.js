@@ -1,5 +1,8 @@
 var NAVTREEINDEX38 =
 {
+"efr32-chip-mbedtls-config_8h.html#a7035fab808a098a76627fb4d466e3b21":[11,0,7,2,13,54],
+"efr32-chip-mbedtls-config_8h.html#a756fb086e76be2a76954beb682195a49":[11,0,7,2,13,47],
+"efr32-chip-mbedtls-config_8h.html#a79098f46901a7da949424ca81fcb4be2":[11,0,7,2,13,3],
 "efr32-chip-mbedtls-config_8h.html#a7cec1de79c434f1053488b1d3b9454c4":[11,0,7,2,13,38],
 "efr32-chip-mbedtls-config_8h.html#a813d4cf0b3fc03db0f9dbec52ba04b40":[11,0,7,2,13,79],
 "efr32-chip-mbedtls-config_8h.html#a819aa4f3046aa257738f0dafe481ca1f":[11,0,7,2,13,27],
@@ -117,8 +120,8 @@ var NAVTREEINDEX38 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,18,12],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,18,19],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,18],
-"functions.html":[10,3,0,0],
 "functions.html":[10,3,0],
+"functions.html":[10,3,0,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
 "functions_b.html":[10,3,0,3],
@@ -174,8 +177,8 @@ var NAVTREEINDEX38 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2],
 "functions_vars.html":[10,3,2,0],
+"functions_vars.html":[10,3,2],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -232,8 +235,8 @@ var NAVTREEINDEX38 =
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX38 =
 "globals_defs_j.html":[11,1,6,10],
 "globals_defs_k.html":[11,1,6,11],
 "globals_defs_l.html":[11,1,6,12],
-"globals_defs_m.html":[11,1,6,13],
-"globals_defs_n.html":[11,1,6,14],
-"globals_defs_o.html":[11,1,6,15],
-"globals_defs_p.html":[11,1,6,16]
+"globals_defs_m.html":[11,1,6,13]
 };
