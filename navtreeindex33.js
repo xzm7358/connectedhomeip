@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classchip_1_1_thread_1_1_operational_dataset.html#a1c6c0bc1f1329192a6034dde8cafc6d3":[10,0,1,33,0,6],
 "classchip_1_1_thread_1_1_operational_dataset.html#a1f7569a3d5bf9dcbb8dea5c876e32b35":[10,0,1,33,0,19],
 "classchip_1_1_thread_1_1_operational_dataset.html#a2086b0f99e327195930806a1bb1ada5c":[10,0,1,33,0,2],
 "classchip_1_1_thread_1_1_operational_dataset.html#a3b5961a4d273b8c9c7b4961da0ede3c5":[10,0,1,33,0,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29":[10,0,1,81,2],
 "classchip_1_1_transport_mgr.html#af14888e04366eb7ecaab52a5d1ef98e6":[10,0,1,81,0],
 "classchip_1_1_transport_mgr_base.html":[10,0,1,82],
-"classchip_1_1_transport_mgr_base.html#a36171a2a11bb6664e8895c9c69bed4e2":[10,0,1,82,1],
-"classchip_1_1_transport_mgr_base.html#a4d8cd391a939ca0cf409f0f283933afb":[10,0,1,82,4]
+"classchip_1_1_transport_mgr_base.html#a36171a2a11bb6664e8895c9c69bed4e2":[10,0,1,82,1]
 };

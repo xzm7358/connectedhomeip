@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"namespacemobile-device-test.html":[10,0,4],
 "namespacemobile-device-test.html":[9,0,7],
 "namespaces.html":[9,0],
 "native_2____init_____8py.html":[11,0,1,1,0,8,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "qpg6100_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,10,5,38],
 "qpg6100_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,10,5],
 "qpg6100_2_configuration_manager_impl_8cpp.html":[11,0,7,10,6],
-"qpg6100_2_configuration_manager_impl_8h.html":[11,0,7,10,7],
-"qpg6100_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,10,7,2]
+"qpg6100_2_configuration_manager_impl_8h.html":[11,0,7,10,7]
 };

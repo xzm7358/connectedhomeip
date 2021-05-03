@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classchip_1_1_system_1_1_system_wake_event.html#a9c5b8eef0c84b981f3c21d36320f1415":[10,0,1,32,14,2],
 "classchip_1_1_system_1_1_system_wake_event.html#afb467335d6c60aa671f93327c94a51dc":[10,0,1,32,14,1],
 "classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html":[10,0,1,32,16],
 "classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a11641e29896399ecc303d7af332ac803":[10,0,1,32,16,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classchip_1_1_thread_1_1_operational_dataset.html#a0f260b178949fbdbc8b13dce9408a957":[10,0,1,33,0,22],
 "classchip_1_1_thread_1_1_operational_dataset.html#a0f432b21c96f93390df1b7cab6cb751a":[10,0,1,33,0,0],
 "classchip_1_1_thread_1_1_operational_dataset.html#a16e49bf8a6a3080c992960a5ec82c122":[10,0,1,33,0,3],
-"classchip_1_1_thread_1_1_operational_dataset.html#a1b7d94bf5ace2b83bc46afe540f5353c":[10,0,1,33,0,5],
-"classchip_1_1_thread_1_1_operational_dataset.html#a1c6c0bc1f1329192a6034dde8cafc6d3":[10,0,1,33,0,6]
+"classchip_1_1_thread_1_1_operational_dataset.html#a1b7d94bf5ace2b83bc46afe540f5353c":[10,0,1,33,0,5]
 };

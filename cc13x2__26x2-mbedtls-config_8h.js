@@ -14,6 +14,7 @@ var cc13x2__26x2_mbedtls_config_8h =
     [ "MBEDTLS_CTR_DRBG_C", "cc13x2__26x2-mbedtls-config_8h.html#a493cf54dbd2c093c8541b1ad106436e9", null ],
     [ "MBEDTLS_ECDH_C", "cc13x2__26x2-mbedtls-config_8h.html#aa3615295cbab56882c919eb9cf79fe10", null ],
     [ "MBEDTLS_ECDSA_C", "cc13x2__26x2-mbedtls-config_8h.html#ac5796bd242fe0f33d66f9e2cc3c2b490", null ],
+    [ "MBEDTLS_ECDSA_DETERMINISTIC", "cc13x2__26x2-mbedtls-config_8h.html#adba50fdb786e1708b3360bd04bb77bd1", null ],
     [ "MBEDTLS_ECJPAKE_ALT", "cc13x2__26x2-mbedtls-config_8h.html#a4b54dac92b41e3d28883e5c651a37dc2", null ],
     [ "MBEDTLS_ECJPAKE_C", "cc13x2__26x2-mbedtls-config_8h.html#af4c97c30b6084ceb60392781b93c9f58", null ],
     [ "MBEDTLS_ECP_C", "cc13x2__26x2-mbedtls-config_8h.html#ae9d24fd58758d905e43ace39f9798b46", null ],

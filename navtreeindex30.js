@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a0804f2c4a879accea023c290bc5ed6d1":[10,0,1,23,7,4],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#a31e54633962a40be616ec257fd531357":[10,0,1,23,7,6],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70":[10,0,1,23,7,8],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#a6006f00568ade08350d65d7bf8a8a72a":[10,0,1,23,7,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91":[10,0,1,66,4],
 "classchip_1_1_secure_session_handle.html":[10,0,1,67],
 "classchip_1_1_secure_session_handle.html#a0325ffd8afdc0f18fbcc6ca9304c9cd7":[10,0,1,67,0],
-"classchip_1_1_secure_session_handle.html#a436b14f36d7bc77f6094ff4799a789ca":[10,0,1,67,2],
-"classchip_1_1_secure_session_handle.html#a5f57eb78f8db648afc6baa5ac75526e0":[10,0,1,67,7]
+"classchip_1_1_secure_session_handle.html#a436b14f36d7bc77f6094ff4799a789ca":[10,0,1,67,2]
 };

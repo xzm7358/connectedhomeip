@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#abfdea9aee0901adff3f578b011287194":[10,0,1,5,1,26],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#ac40722c94eaf8964f004217a37b5e65e":[10,0,1,5,1,6],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#ac5ad77599f012abd6827efe7c67111f5":[10,0,1,5,1,5],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#ace5e386caf4658ac9bd16756f2d32c7a":[10,0,1,5,1,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classchip_1_1_chip_stack_1_1_log_category.html":[10,0,1,8,3],
 "classchip_1_1_chip_stack_1_1_log_category.html#a60d5be01acbd0ec895018181bd101dde":[10,0,1,8,3,3],
 "classchip_1_1_chip_stack_1_1_log_category.html#a7385c8a4ab0c3102b2f63b5b5997eacd":[10,0,1,8,3,0],
-"classchip_1_1_chip_stack_1_1_log_category.html#a8bd8c5c30746faee95c71219466db256":[10,0,1,8,3,5],
-"classchip_1_1_chip_stack_1_1_log_category.html#a9f58403600e869fc7b9b292927c34ab5":[10,0,1,8,3,1]
+"classchip_1_1_chip_stack_1_1_log_category.html#a8bd8c5c30746faee95c71219466db256":[10,0,1,8,3,5]
 };
