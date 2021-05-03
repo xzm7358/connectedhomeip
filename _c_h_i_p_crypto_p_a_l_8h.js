@@ -38,6 +38,7 @@ var _c_h_i_p_crypto_p_a_l_8h =
     [ "Hash_SHA256", "_c_h_i_p_crypto_p_a_l_8h.html#aea28ff8c02e91b5cde20826153579fe8", null ],
     [ "HKDF_SHA256", "_c_h_i_p_crypto_p_a_l_8h.html#a312c90d8dc3230e723ddbbe427307a21", null ],
     [ "pbkdf2_sha256", "_c_h_i_p_crypto_p_a_l_8h.html#ad17d6e25daace9b73a587d1257a6609e", null ],
+    [ "VerifyCertificateSigningRequest", "_c_h_i_p_crypto_p_a_l_8h.html#ada106466c4b8175f06193c4cb18b1c96", null ],
     [ "kMAX_CSR_Length", "_c_h_i_p_crypto_p_a_l_8h.html#aa05b6f8d2e04ed93c21c621e9f247afe", null ],
     [ "kMax_ECDH_Secret_Length", "_c_h_i_p_crypto_p_a_l_8h.html#a2e54786d81cb8f15b9bbfb72205997d4", null ],
     [ "kMax_ECDSA_Signature_Length", "_c_h_i_p_crypto_p_a_l_8h.html#a7f3c8462a8be0714e5bde4a4db10593e", null ],

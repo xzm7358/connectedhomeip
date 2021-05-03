@@ -25,5 +25,6 @@ var _c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp =
     [ "to_inner_hash_sha256_context", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#ac7294161cbbd66a920ec55a6c5eb31af", null ],
     [ "to_inner_spake2p_context", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#aa16982cce50e50de8fe51d2e87f6e2ab", null ],
     [ "to_keypair", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#a128e4b451c3d0ca4954ab59ef7d90866", null ],
+    [ "VerifyCertificateSigningRequest", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#ada106466c4b8175f06193c4cb18b1c96", null ],
     [ "gsEntropyContext", "_c_h_i_p_crypto_p_a_lmbed_t_l_s_8cpp.html#aa7b56818cd97b5d19a19577f718f992c", null ]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"structhsm__pake__context__s.html#a5ec8375100e3a90ed263323fd3e8131a":[10,0,17,0],
+"structhsm__pake__context__s.html#aa1b4982cd96f69960657744acac71d1e":[10,0,17,1],
+"structmdns_1_1_minimal_1_1_full_q_name.html":[10,0,3,0,5],
+"structmdns_1_1_minimal_1_1_full_q_name.html#a0ce233ca08fc65f063a96b8b4ed2e1ba":[10,0,3,0,5,7],
 "structmdns_1_1_minimal_1_1_full_q_name.html#a1e51f27d4cc3fa4312ce9db3b1cf2629":[10,0,3,0,5,6],
 "structmdns_1_1_minimal_1_1_full_q_name.html#a349668e1ddac54db768f1304a04358f6":[10,0,3,0,5,1],
 "structmdns_1_1_minimal_1_1_full_q_name.html#a7c81269db32a46ae08be4f002696748c":[10,0,3,0,5,0],

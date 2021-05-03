@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"qpg6100_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,10,5,38],
+"qpg6100_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,10,5],
+"qpg6100_2_configuration_manager_impl_8cpp.html":[11,0,7,10,6],
+"qpg6100_2_configuration_manager_impl_8h.html":[11,0,7,10,7],
 "qpg6100_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,10,7,2],
 "qpg6100_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,10,7,1],
 "qpg6100_2_configuration_manager_impl_8h_source.html":[11,0,7,10,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "structchip_1_1_crypto_1_1_spake2p_opaque_context.html":[10,0,1,12,13],
 "structchip_1_1_crypto_1_1_spake2p_opaque_context.html#a8fea65c6d282d58e9c7ab30a5ad466a0":[10,0,1,12,13,0],
 "structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html":[10,0,1,14,2],
-"structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html#a90db7d2037839f75cdd16361e365f23f":[10,0,1,14,2,0],
-"structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html#aba42be4a7d2e865b00a35821538624a7":[10,0,1,14,2,1],
-"structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html":[10,0,1,14,3],
-"structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html#a2693438e784d35f52bbc0d15ce2918db":[10,0,1,14,3,0],
-"structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html#a566de2b9d4139ddcae6aae2ea00a6e9e":[10,0,1,14,3,1]
+"structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html#a90db7d2037839f75cdd16361e365f23f":[10,0,1,14,2,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX41 =
 {
+"namespacemembers_vars_u.html":[9,1,2,19],
+"namespacemembers_vars_v.html":[9,1,2,20],
+"namespacemembers_vars_w.html":[9,1,2,21],
+"namespacemembers_w.html":[9,1,0,22],
 "namespacemobile-device-test.html":[10,0,4],
 "namespacemobile-device-test.html":[9,0,7],
 "namespaces.html":[9,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX41 =
 "qpg6100_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,10,5,4],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#af272e272fa202559e508daaa392d1a5a":[11,0,7,10,5,0],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,10,5,51],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550":[11,0,7,10,5,35],
-"qpg6100_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,10,5,38],
-"qpg6100_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,10,5],
-"qpg6100_2_configuration_manager_impl_8cpp.html":[11,0,7,10,6],
-"qpg6100_2_configuration_manager_impl_8h.html":[11,0,7,10,7]
+"qpg6100_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550":[11,0,7,10,5,35]
 };

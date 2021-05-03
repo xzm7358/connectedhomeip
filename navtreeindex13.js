@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"_k32_w_2_connectivity_manager_impl_8h.html":[11,0,7,5,11],
+"_k32_w_2_connectivity_manager_impl_8h.html#a17ec2ecb960975c25c4a890d7a72cbfb":[11,0,7,5,11,2],
+"_k32_w_2_connectivity_manager_impl_8h.html#ae3364f4ad1379eb7fb38490e701307e6":[11,0,7,5,11,1],
+"_k32_w_2_connectivity_manager_impl_8h_source.html":[11,0,7,5,11],
 "_k32_w_2_device_network_provisioning_delegate_impl_8cpp.html":[11,0,7,5,12],
 "_k32_w_2_device_network_provisioning_delegate_impl_8h.html":[11,0,7,5,13],
 "_k32_w_2_device_network_provisioning_delegate_impl_8h_source.html":[11,0,7,5,13],
@@ -27,8 +31,8 @@ var NAVTREEINDEX13 =
 "_k32_w_2_logging_8cpp.html#a0dfce62d534dadcd80a7446a1ba405a0":[11,0,7,5,25,5],
 "_k32_w_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,5,25,4],
 "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77":[11,0,7,5,25,8],
-"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,3],
+"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a7239e2be33c8d7bb4471386fa5b65569":[11,0,7,5,25,6],
 "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,5,25,9],
 "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513":[11,0,7,5,25,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "_linux_2_posix_config_8cpp.html#a9de6fe435aa2a3df3b6d177bbcce6f7d":[11,0,7,6,26,1],
 "_linux_2_posix_config_8cpp.html#ac002e7a4f1267e9dd7f7c39c452fc476":[11,0,7,6,26,0],
 "_linux_2_posix_config_8cpp.html#af2086ccab042f762bf6b82cd09208339":[11,0,7,6,26,2],
-"_linux_2_posix_config_8h.html":[11,0,7,6,27],
-"_linux_2_posix_config_8h_source.html":[11,0,7,6,27],
-"_linux_2_system_platform_config_8h.html":[11,0,7,6,28],
-"_linux_2_system_platform_config_8h.html#a1f5ab7cea213a8c6655758cd24275cfa":[11,0,7,6,28,6],
-"_linux_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1":[11,0,7,6,28,5]
+"_linux_2_posix_config_8h.html":[11,0,7,6,27]
 };
