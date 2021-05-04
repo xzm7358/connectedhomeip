@@ -3,7 +3,9 @@ var dir_89a0d6c449a45a363c89f68812a91559 =
     [ "testing", "dir_d29ab4b4abb38e808a32a679c8d21731.html", "dir_d29ab4b4abb38e808a32a679c8d21731" ],
     [ "BLEManager.h", "_b_l_e_manager_8h.html", null ],
     [ "CHIPDeviceLayerInternal.h", "_c_h_i_p_device_layer_internal_8h.html", "_c_h_i_p_device_layer_internal_8h" ],
-    [ "DeviceDescriptionServer.h", "_device_description_server_8h.html", "_device_description_server_8h" ],
+    [ "DeviceControlServer.h", "_device_control_server_8h.html", [
+      [ "DeviceControlServer", "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server" ]
+    ] ],
     [ "DeviceNetworkInfo.h", "_device_network_info_8h.html", "_device_network_info_8h" ],
     [ "DeviceNetworkProvisioning.h", "_device_network_provisioning_8h.html", [
       [ "DeviceNetworkProvisioningDelegate", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_provisioning_delegate.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_provisioning_delegate" ]

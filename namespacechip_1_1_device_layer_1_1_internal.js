@@ -9,7 +9,7 @@ var namespacechip_1_1_device_layer_1_1_internal =
     [ "ChipGroupKey", "classchip_1_1_device_layer_1_1_internal_1_1_chip_group_key.html", "classchip_1_1_device_layer_1_1_internal_1_1_chip_group_key" ],
     [ "ChipLinuxStorage", "classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html", "classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage" ],
     [ "ChipLinuxStorageIni", "classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html", "classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini" ],
-    [ "DeviceDescriptionServer", "classchip_1_1_device_layer_1_1_internal_1_1_device_description_server.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_description_server" ],
+    [ "DeviceControlServer", "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server" ],
     [ "DeviceNetworkInfo", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_info.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_info" ],
     [ "DeviceNetworkProvisioningDelegate", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_provisioning_delegate.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_provisioning_delegate" ],
     [ "EFR32Config", "classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html", "classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config" ],
