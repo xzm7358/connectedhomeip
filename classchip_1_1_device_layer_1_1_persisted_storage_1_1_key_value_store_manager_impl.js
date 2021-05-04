@@ -30,7 +30,7 @@ var classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager
     [ "Init", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#a26b4e4cf4c2750befb5fe186834f2c6a", null ],
     [ "Init", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#aa5d542981f5558fc8629efd1dfa05fd6", null ],
     [ "Init", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#a3d0f2ddc38577b2c46646465015d9498", null ],
-    [ "InitializeMethodForward", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#a16fd435dfb29e0fced675f548f768acd", null ],
+    [ "InitializeMethodForward", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#ab3dad63cfaa80aa1bb859fbdce46d731", null ],
     [ "KeyValueStoreManager", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#a8c31f8dc35146cf55d4a3fb57450e94d", null ],
     [ "KeyValueStoreMgr", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#ad6e8629a99de076894bdaa59ef51bb7c", null ],
     [ "KeyValueStoreMgr", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#ad6e8629a99de076894bdaa59ef51bb7c", null ],
