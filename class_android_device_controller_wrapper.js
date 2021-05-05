@@ -11,7 +11,7 @@ var class_android_device_controller_wrapper =
     [ "OnPairingComplete", "class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014", null ],
     [ "OnPairingDeleted", "class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d", null ],
     [ "OnStatusChange", "class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e", null ],
-    [ "OnStatusUpdate", "class_android_device_controller_wrapper.html#a43334a1d9c4480e1f6798483ab7004ee", null ],
+    [ "OnStatusUpdate", "class_android_device_controller_wrapper.html#a8b5cc3c74ab154f0f54534e857a242e5", null ],
     [ "SetJavaObjectRef", "class_android_device_controller_wrapper.html#abf52f5865f24e27ee5bcdaee83cc5cc4", null ],
     [ "SetStorageDelegate", "class_android_device_controller_wrapper.html#a02f76234b68b17c5781f9f4492f76a9e", null ],
     [ "SyncGetKeyValue", "class_android_device_controller_wrapper.html#afdbffe4afc71f4b49570909fdbc3ead8", null ],

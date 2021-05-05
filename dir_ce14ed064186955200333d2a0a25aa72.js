@@ -9,9 +9,6 @@ var dir_ce14ed064186955200333d2a0a25aa72 =
     ] ],
     [ "PeerConnections.h", "_peer_connections_8h.html", "_peer_connections_8h" ],
     [ "PeerConnectionState.h", "_peer_connection_state_8h.html", "_peer_connection_state_8h" ],
-    [ "RendezvousSessionDelegate.h", "_rendezvous_session_delegate_8h.html", [
-      [ "RendezvousSessionDelegate", "classchip_1_1_rendezvous_session_delegate.html", "classchip_1_1_rendezvous_session_delegate" ]
-    ] ],
     [ "SecureMessageCodec.cpp", "_secure_message_codec_8cpp.html", "_secure_message_codec_8cpp" ],
     [ "SecureMessageCodec.h", "_secure_message_codec_8h.html", "_secure_message_codec_8h" ],
     [ "SecureSession.cpp", "_secure_session_8cpp.html", null ],

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">9b06b05</span>
+   &#160;<span id="projectnumber">0f443b8</span>
    </div>
   </td>
  </tr>
@@ -116,9 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc711a21db9141899e4e932dc9a28163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf52f5865f24e27ee5bcdaee83cc5cc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#abf52f5865f24e27ee5bcdaee83cc5cc4">SetJavaObjectRef</a> (JavaVM *vm, jobject obj)</td></tr>
 <tr class="separator:abf52f5865f24e27ee5bcdaee83cc5cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43334a1d9c4480e1f6798483ab7004ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a43334a1d9c4480e1f6798483ab7004ee">OnStatusUpdate</a> (<a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">chip::RendezvousSessionDelegate::Status</a> status) override</td></tr>
-<tr class="memdesc:a43334a1d9c4480e1f6798483ab7004ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing reaches a certain stage.  <a href="class_android_device_controller_wrapper.html#a43334a1d9c4480e1f6798483ab7004ee">More...</a><br /></td></tr>
-<tr class="separator:a43334a1d9c4480e1f6798483ab7004ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5cc3c74ab154f0f54534e857a242e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a8b5cc3c74ab154f0f54534e857a242e5">OnStatusUpdate</a> (<a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#aa5b2e191c21127823e325d32e4c0f631">chip::Controller::DevicePairingDelegate::Status</a> status) override</td></tr>
+<tr class="memdesc:a8b5cc3c74ab154f0f54534e857a242e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing reaches a certain stage.  <a href="class_android_device_controller_wrapper.html#a8b5cc3c74ab154f0f54534e857a242e5">More...</a><br /></td></tr>
+<tr class="separator:a8b5cc3c74ab154f0f54534e857a242e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0fc6106c06cd92515d3de1f049ab014"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014">OnPairingComplete</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error) override</td></tr>
 <tr class="memdesc:ac0fc6106c06cd92515d3de1f049ab014"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing is complete (with success or error)  <a href="class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014">More...</a><br /></td></tr>
 <tr class="separator:ac0fc6106c06cd92515d3de1f049ab014"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +172,17 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a25de8fff08e9b12e714cc09e57389453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eb2fff14160e6e6d08fcfeaed00ee58"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58">AllocateNew</a> (JavaVM *vm, jobject deviceControllerObj, <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a> nodeId, <a class="el" href="classchip_1_1_system_1_1_layer.html">chip::System::Layer</a> *systemLayer, <a class="el" href="classchip_1_1_inet_1_1_inet_layer.html">chip::Inet::InetLayer</a> *inetLayer, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> *errInfoOnFailure)</td></tr>
 <tr class="separator:a4eb2fff14160e6e6d08fcfeaed00ee58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classchip_1_1_controller_1_1_device_pairing_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchip_1_1_controller_1_1_device_pairing_delegate')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html">chip::Controller::DevicePairingDelegate</a></td></tr>
+<tr class="memitem:aa5b2e191c21127823e325d32e4c0f631 inherit pub_types_classchip_1_1_controller_1_1_device_pairing_delegate"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#aa5b2e191c21127823e325d32e4c0f631">Status</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#aa5b2e191c21127823e325d32e4c0f631af2c1dc81b764f0cc6671ec856aedf468">SecurePairingSuccess</a> = 0, 
+<br />
+&#160;&#160;<a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#aa5b2e191c21127823e325d32e4c0f631ab61cfcb452b2f9cd7a5788caf3e99ccb">SecurePairingFailed</a>
+<br />
+ }</td></tr>
+<tr class="separator:aa5b2e191c21127823e325d32e4c0f631 inherit pub_types_classchip_1_1_controller_1_1_device_pairing_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class contains all relevant information for the JNI view of CHIPDeviceController to handle all controller-related processing. </p>
@@ -552,8 +563,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a43334a1d9c4480e1f6798483ab7004ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43334a1d9c4480e1f6798483ab7004ee">&#9670;&nbsp;</a></span>OnStatusUpdate()</h2>
+<a id="a8b5cc3c74ab154f0f54534e857a242e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5cc3c74ab154f0f54534e857a242e5">&#9670;&nbsp;</a></span>OnStatusUpdate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -564,7 +575,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void AndroidDeviceControllerWrapper::OnStatusUpdate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">chip::RendezvousSessionDelegate::Status</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#aa5b2e191c21127823e325d32e4c0f631">chip::Controller::DevicePairingDelegate::Status</a>&#160;</td>
           <td class="paramname"><em>status</em></td><td>)</td>
           <td></td>
         </tr>
@@ -584,7 +595,7 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#ae2c8e87ff5a48f454701822e167cdb38">chip::Controller::DevicePairingDelegate</a>.</p>
+<p>Reimplemented from <a class="el" href="classchip_1_1_controller_1_1_device_pairing_delegate.html#a7d1ad178b21b424310b0ab24701d7c1d">chip::Controller::DevicePairingDelegate</a>.</p>
 
 </div>
 </div>
@@ -749,7 +760,7 @@ CHIP_ERROR_BUFFER_TOO_SMALL if the value's size is too large to be expressed as 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a></li>
-    <li class="footer">Generated on Tue May 4 2021 21:49:11 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 03:03:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

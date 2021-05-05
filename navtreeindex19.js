@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,28,2],
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aad8d4dbae6b55b8487c68a46f528a467":[11,0,7,0,28,3],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,0,28,5],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aeb0c28823f132fcaa928fc74712bb515":[11,0,7,0,28,4],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h_source.html":[11,0,7,0,28],
@@ -85,11 +83,11 @@ var NAVTREEINDEX19 =
 "class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160":[10,0,8,7],
 "class_android_device_controller_wrapper.html#a25de8fff08e9b12e714cc09e57389453":[10,0,8,5],
 "class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d":[10,0,8,9],
-"class_android_device_controller_wrapper.html#a43334a1d9c4480e1f6798483ab7004ee":[10,0,8,11],
 "class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58":[10,0,8,1],
 "class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e":[10,0,8,10],
 "class_android_device_controller_wrapper.html#a7033fe9f637dabfbf52d3531a6ee408a":[10,0,8,0],
 "class_android_device_controller_wrapper.html#a880c5567dd70a8ceef128f18c0b3c624":[10,0,8,15],
+"class_android_device_controller_wrapper.html#a8b5cc3c74ab154f0f54534e857a242e5":[10,0,8,11],
 "class_android_device_controller_wrapper.html#a8c69c4c9151a9a4fc51754992be4d8c6":[10,0,8,2],
 "class_android_device_controller_wrapper.html#abf52f5865f24e27ee5bcdaee83cc5cc4":[10,0,8,12],
 "class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014":[10,0,8,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "classchip_1_1_bit_flags.html#a8da1922658a4c8b7375deccffb0d654e":[10,0,1,40,15],
 "classchip_1_1_bit_flags.html#a934741de070915a942cf74a0c22be4f1":[10,0,1,40,6],
 "classchip_1_1_bit_flags.html#a9532e1e8c648403daeaf7cafafbf7d63":[10,0,1,40,3],
-"classchip_1_1_bit_flags.html#aa89792754faeed2268d2cb0d99de7fe2":[10,0,1,40,7]
+"classchip_1_1_bit_flags.html#aa89792754faeed2268d2cb0d99de7fe2":[10,0,1,40,7],
+"classchip_1_1_bit_flags.html#aaaa5c0ce6e85b36bd63254c3ce378309":[10,0,1,40,9],
+"classchip_1_1_bit_flags.html#ac714c5ce9be7f853bb1f64c491da06a9":[10,0,1,40,16]
 };

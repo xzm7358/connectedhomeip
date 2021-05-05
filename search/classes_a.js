@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['jnibytearray_6722',['JniByteArray',['../class_jni_byte_array.html',1,'']]],
-  ['jniutfstring_6723',['JniUtfString',['../class_jni_utf_string.html',1,'']]]
+  ['jnibytearray_6712',['JniByteArray',['../class_jni_byte_array.html',1,'']]],
+  ['jniutfstring_6713',['JniUtfString',['../class_jni_utf_string.html',1,'']]]
 ];

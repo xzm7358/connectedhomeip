@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">9b06b05</span>
+   &#160;<span id="projectnumber">0f443b8</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,7 @@ Inheritance diagram for chip::Controller::DeviceCommissioner:</div>
   <img src="classchip_1_1_controller_1_1_device_commissioner.png" usemap="#chip::Controller::DeviceCommissioner_map" alt=""/>
   <map id="chip::Controller::DeviceCommissioner_map" name="chip::Controller::DeviceCommissioner_map">
 <area href="classchip_1_1_controller_1_1_device_controller.html" title="Controller applications can use this class to communicate with already paired CHIP devices." alt="chip::Controller::DeviceController" shape="rect" coords="352,56,577,80"/>
-<area href="classchip_1_1_rendezvous_session_delegate.html" alt="chip::RendezvousSessionDelegate" shape="rect" coords="587,56,812,80"/>
+<area href="classchip_1_1_session_establishment_delegate.html" alt="chip::SessionEstablishmentDelegate" shape="rect" coords="587,56,812,80"/>
 <area href="classchip_1_1_persistent_storage_result_delegate.html" alt="chip::PersistentStorageResultDelegate" shape="rect" coords="470,0,695,24"/>
   </map>
 </div></div>
@@ -131,12 +131,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af2a18d2ac6bfe84cf6c155872256073e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#af2a18d2ac6bfe84cf6c155872256073e">UnpairDevice</a> (<a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a> remoteDeviceId)</td></tr>
 <tr class="memdesc:af2a18d2ac6bfe84cf6c155872256073e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove pairing for a paired device.  <a href="classchip_1_1_controller_1_1_device_commissioner.html#af2a18d2ac6bfe84cf6c155872256073e">More...</a><br /></td></tr>
 <tr class="separator:af2a18d2ac6bfe84cf6c155872256073e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf7f38f9697c2c4951cb9a8daacfd7ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#adf7f38f9697c2c4951cb9a8daacfd7ef">OnRendezvousError</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>) override</td></tr>
-<tr class="separator:adf7f38f9697c2c4951cb9a8daacfd7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cbff0c06e1ce0b5c5338bb87a899f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#a48cbff0c06e1ce0b5c5338bb87a899f0">OnRendezvousComplete</a> () override</td></tr>
-<tr class="separator:a48cbff0c06e1ce0b5c5338bb87a899f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86dae0f1207231535653ed9c42394045"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#a86dae0f1207231535653ed9c42394045">OnRendezvousStatusUpdate</a> (<a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">RendezvousSessionDelegate::Status</a> status, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>) override</td></tr>
-<tr class="separator:a86dae0f1207231535653ed9c42394045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e2eca9eac2ec6085c12addda1fcde2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#a36e2eca9eac2ec6085c12addda1fcde2">OnSessionEstablishmentError</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error) override</td></tr>
+<tr class="memdesc:a36e2eca9eac2ec6085c12addda1fcde2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when session establishment fails with an error.  <a href="classchip_1_1_controller_1_1_device_commissioner.html#a36e2eca9eac2ec6085c12addda1fcde2">More...</a><br /></td></tr>
+<tr class="separator:a36e2eca9eac2ec6085c12addda1fcde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac737d2a28a69d527c49269392f5209ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#ac737d2a28a69d527c49269392f5209ad">OnSessionEstablished</a> () override</td></tr>
+<tr class="memdesc:ac737d2a28a69d527c49269392f5209ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the new secure session has been established.  <a href="classchip_1_1_controller_1_1_device_commissioner.html#ac737d2a28a69d527c49269392f5209ad">More...</a><br /></td></tr>
+<tr class="separator:ac737d2a28a69d527c49269392f5209ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c88792b87a2ffb391e50bd202b45380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#a0c88792b87a2ffb391e50bd202b45380">RendezvousCleanup</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> status)</td></tr>
 <tr class="separator:a0c88792b87a2ffb391e50bd202b45380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb062685e6022d317a4e76fde29706a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#adeb062685e6022d317a4e76fde29706a">ReleaseDevice</a> (<a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> *device) override</td></tr>
@@ -173,15 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classchip_1_1_persistent_storage_result_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchip_1_1_persistent_storage_result_delegate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchip_1_1_persistent_storage_result_delegate.html">chip::PersistentStorageResultDelegate</a></td></tr>
 <tr class="memitem:a8f7cbd56a918a402928489d41f486b6f inherit pub_methods_classchip_1_1_persistent_storage_result_delegate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_result_delegate.html#a8f7cbd56a918a402928489d41f486b6f">~PersistentStorageResultDelegate</a> ()</td></tr>
 <tr class="separator:a8f7cbd56a918a402928489d41f486b6f inherit pub_methods_classchip_1_1_persistent_storage_result_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classchip_1_1_rendezvous_session_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchip_1_1_rendezvous_session_delegate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchip_1_1_rendezvous_session_delegate.html">chip::RendezvousSessionDelegate</a></td></tr>
-<tr class="memitem:a2a499079c5b11c6563fa2901424cf1e1 inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a2a499079c5b11c6563fa2901424cf1e1">~RendezvousSessionDelegate</a> ()</td></tr>
-<tr class="separator:a2a499079c5b11c6563fa2901424cf1e1 inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36d648f8f2a52e63c93ce2682cbd9433 inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a36d648f8f2a52e63c93ce2682cbd9433">OnRendezvousConnectionOpened</a> ()</td></tr>
-<tr class="separator:a36d648f8f2a52e63c93ce2682cbd9433 inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62ed849622d1b31b4f9c79c377803b0c inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a62ed849622d1b31b4f9c79c377803b0c">OnRendezvousConnectionClosed</a> ()</td></tr>
-<tr class="separator:a62ed849622d1b31b4f9c79c377803b0c inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a7417360b80d63329c9abc120fe03d inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a67a7417360b80d63329c9abc120fe03d">OnRendezvousMessageReceived</a> (const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;packetHeader, const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;peerAddress, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>)</td></tr>
-<tr class="separator:a67a7417360b80d63329c9abc120fe03d inherit pub_methods_classchip_1_1_rendezvous_session_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classchip_1_1_session_establishment_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchip_1_1_session_establishment_delegate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchip_1_1_session_establishment_delegate.html">chip::SessionEstablishmentDelegate</a></td></tr>
+<tr class="memitem:a241cc1d606a71a92dd845e2ddf3c4595 inherit pub_methods_classchip_1_1_session_establishment_delegate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_session_establishment_delegate.html#a241cc1d606a71a92dd845e2ddf3c4595">~SessionEstablishmentDelegate</a> ()</td></tr>
+<tr class="separator:a241cc1d606a71a92dd845e2ddf3c4595 inherit pub_methods_classchip_1_1_session_establishment_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -195,14 +189,6 @@ Additional Inherited Members</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a5036ef9eec8391a43bed71c5ceaad2ab inherit pub_types_classchip_1_1_persistent_storage_result_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_classchip_1_1_rendezvous_session_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classchip_1_1_rendezvous_session_delegate')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classchip_1_1_rendezvous_session_delegate.html">chip::RendezvousSessionDelegate</a></td></tr>
-<tr class="memitem:ab76bcaa1138d69b5ec237b740a9d37be inherit pub_types_classchip_1_1_rendezvous_session_delegate"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">Status</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea50f32c08dbf1a0273fab3fc64e101e49">SecurePairingSuccess</a> = 0, 
-<br />
-&#160;&#160;<a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37bea2f05a68d3640c76aa9e732d870497e89">SecurePairingFailed</a>
-<br />
- }</td></tr>
-<tr class="separator:ab76bcaa1138d69b5ec237b740a9d37be inherit pub_types_classchip_1_1_rendezvous_session_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_types_classchip_1_1_controller_1_1_device_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classchip_1_1_controller_1_1_device_controller')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classchip_1_1_controller_1_1_device_controller.html">chip::Controller::DeviceController</a></td></tr>
 <tr class="memitem:ae607020bbe1b466ead8acadd5dfb44a9 inherit pro_types_classchip_1_1_controller_1_1_device_controller"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ae607020bbe1b466ead8acadd5dfb44a9">State</a> { <br />
 &#160;&#160;<a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ae607020bbe1b466ead8acadd5dfb44a9a9646ad3a1c3e708b4fa8b4b4270fbab6">State::NotInitialized</a>, 
@@ -357,8 +343,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a48cbff0c06e1ce0b5c5338bb87a899f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48cbff0c06e1ce0b5c5338bb87a899f0">&#9670;&nbsp;</a></span>OnRendezvousComplete()</h2>
+<a id="ac737d2a28a69d527c49269392f5209ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac737d2a28a69d527c49269392f5209ad">&#9670;&nbsp;</a></span>OnSessionEstablished()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +353,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void chip::Controller::DeviceCommissioner::OnRendezvousComplete </td>
+          <td class="memname">void chip::Controller::DeviceCommissioner::OnSessionEstablished </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -380,12 +366,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a26f5f4233b100bc255110627b8312033">chip::RendezvousSessionDelegate</a>.</p>
+<p>Called when the new secure session has been established. </p>
+<p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
+
+<p>Reimplemented from <a class="el" href="classchip_1_1_session_establishment_delegate.html#ad070fd1a076adf713436d381bc5c567c">chip::SessionEstablishmentDelegate</a>.</p>
 
 </div>
 </div>
-<a id="adf7f38f9697c2c4951cb9a8daacfd7ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf7f38f9697c2c4951cb9a8daacfd7ef">&#9670;&nbsp;</a></span>OnRendezvousError()</h2>
+<a id="a36e2eca9eac2ec6085c12addda1fcde2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36e2eca9eac2ec6085c12addda1fcde2">&#9670;&nbsp;</a></span>OnSessionEstablishmentError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,10 +383,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void chip::Controller::DeviceCommissioner::OnRendezvousError </td>
+          <td class="memname">void chip::Controller::DeviceCommissioner::OnSessionEstablishmentError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td>
-          <td class="paramname"><em>err</em></td><td>)</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -408,45 +397,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="classchip_1_1_rendezvous_session_delegate.html#a9bf4693674eab711b0879e41c14c0c4e">chip::RendezvousSessionDelegate</a>.</p>
+<p>Called when session establishment fails with an error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">error</td><td>error code</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
 
-</div>
-</div>
-<a id="a86dae0f1207231535653ed9c42394045"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86dae0f1207231535653ed9c42394045">&#9670;&nbsp;</a></span>OnRendezvousStatusUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::Controller::DeviceCommissioner::OnRendezvousStatusUpdate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ab76bcaa1138d69b5ec237b740a9d37be">RendezvousSessionDelegate::Status</a>&#160;</td>
-          <td class="paramname"><em>status</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td>
-          <td class="paramname"><em>err</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classchip_1_1_rendezvous_session_delegate.html#ac356f5d4790dccb474389cd94e473eae">chip::RendezvousSessionDelegate</a>.</p>
+<p>Reimplemented from <a class="el" href="classchip_1_1_session_establishment_delegate.html#a1784dca3315724e4dd6cf0db5f746fe1">chip::SessionEstablishmentDelegate</a>.</p>
 
 </div>
 </div>
@@ -688,7 +648,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">DeviceCommissioner</a></li>
-    <li class="footer">Generated on Tue May 4 2021 21:49:11 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 03:03:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">9b06b05</span>
+   &#160;<span id="projectnumber">0f443b8</span>
    </div>
   </td>
  </tr>
@@ -92,12 +92,18 @@ $(document).ready(function(){initNavTree('classchip_1_1_session_establishment_de
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_session_establishment_delegate_8h_source.html">transport/SessionEstablishmentDelegate.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chip::SessionEstablishmentDelegate:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classchip_1_1_session_establishment_delegate.png" usemap="#chip::SessionEstablishmentDelegate_map" alt=""/>
+  <map id="chip::SessionEstablishmentDelegate_map" name="chip::SessionEstablishmentDelegate_map">
+<area href="classchip_1_1_controller_1_1_device_commissioner.html" title="The commissioner applications can use this class to pair new/unpaired CHIP devices." alt="chip::Controller::DeviceCommissioner" shape="rect" coords="0,56,222,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad40496b759faa5895da2759857d9c459"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_session_establishment_delegate.html#ad40496b759faa5895da2759857d9c459">SendSessionEstablishmentMessage</a> (const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;header, const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;peerAddress, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)</td></tr>
-<tr class="memdesc:ad40496b759faa5895da2759857d9c459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the session establishment process generates a new message that should be sent to peer.  <a href="classchip_1_1_session_establishment_delegate.html#ad40496b759faa5895da2759857d9c459">More...</a><br /></td></tr>
-<tr class="separator:ad40496b759faa5895da2759857d9c459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1784dca3315724e4dd6cf0db5f746fe1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_session_establishment_delegate.html#a1784dca3315724e4dd6cf0db5f746fe1">OnSessionEstablishmentError</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error)</td></tr>
 <tr class="memdesc:a1784dca3315724e4dd6cf0db5f746fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when session establishment fails with an error.  <a href="classchip_1_1_session_establishment_delegate.html#a1784dca3315724e4dd6cf0db5f746fe1">More...</a><br /></td></tr>
 <tr class="separator:a1784dca3315724e4dd6cf0db5f746fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +166,8 @@ Public Member Functions</h2></td></tr>
 <p>Called when the new secure session has been established. </p>
 <p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
 
+<p>Reimplemented in <a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#ac737d2a28a69d527c49269392f5209ad">chip::Controller::DeviceCommissioner</a>.</p>
+
 </div>
 </div>
 <a id="a1784dca3315724e4dd6cf0db5f746fe1"></a>
@@ -195,59 +203,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
 
-</div>
-</div>
-<a id="ad40496b759faa5895da2759857d9c459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad40496b759faa5895da2759857d9c459">&#9670;&nbsp;</a></span>SendSessionEstablishmentMessage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SessionEstablishmentDelegate::SendSessionEstablishmentMessage </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;&#160;</td>
-          <td class="paramname"><em>header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;&#160;</td>
-          <td class="paramname"><em>peerAddress</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
-          <td class="paramname"><em>msgBuf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called when the session establishment process generates a new message that should be sent to peer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">header</td><td>the message header for the sent message </td></tr>
-    <tr><td class="paramname">peerAddress</td><td>the destination of the message </td></tr>
-    <tr><td class="paramname">msgBuf</td><td>the raw data for the message being sent </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>CHIP_ERROR Error thrown when sending the message</dd></dl>
-<p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
+<p>Reimplemented in <a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html#a36e2eca9eac2ec6085c12addda1fcde2">chip::Controller::DeviceCommissioner</a>.</p>
 
 </div>
 </div>
@@ -260,7 +216,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_session_establishment_delegate.html">SessionEstablishmentDelegate</a></li>
-    <li class="footer">Generated on Tue May 4 2021 21:49:11 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 03:03:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

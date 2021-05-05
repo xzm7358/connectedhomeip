@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"classchip_1_1_bit_flags.html#aaaa5c0ce6e85b36bd63254c3ce378309":[10,0,1,40,9],
-"classchip_1_1_bit_flags.html#ac714c5ce9be7f853bb1f64c491da06a9":[10,0,1,40,16],
 "classchip_1_1_bit_flags.html#acd7257e2686a8acf7b2dd2cbb0be38f4":[10,0,1,40,8],
 "classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485":[10,0,1,40,11],
 "classchip_1_1_bit_flags.html#ae5cbaccb0b5ac050420ac5f2827096c5":[10,0,1,40,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a4be0b61b8004e3369f3bfb0aa81c056c":[10,0,1,5,0,17],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a4ca25a811a75817385fee7a49aa960d2":[10,0,1,5,0,10],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a53924ca241062079cea9f8f233230e9d":[10,0,1,5,0,19],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a5507bfa10be51116991ae24649371cd6":[10,0,1,5,0,6]
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a5507bfa10be51116991ae24649371cd6":[10,0,1,5,0,6],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a705bf8fc17e8be811dc1764a70cd8931":[10,0,1,5,0,14],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a743434100dc4a76b7bd0c4208bc6f104":[10,0,1,5,0,23]
 };
