@@ -3,6 +3,7 @@ var namespacechip_1_1_transport =
     [ "AccessControlList", "structchip_1_1_transport_1_1_access_control_list.html", "structchip_1_1_transport_1_1_access_control_list" ],
     [ "AdminPairingInfo", "classchip_1_1_transport_1_1_admin_pairing_info.html", "classchip_1_1_transport_1_1_admin_pairing_info" ],
     [ "AdminPairingTable", "classchip_1_1_transport_1_1_admin_pairing_table.html", "classchip_1_1_transport_1_1_admin_pairing_table" ],
+    [ "AdminPairingTableDelegate", "classchip_1_1_transport_1_1_admin_pairing_table_delegate.html", "classchip_1_1_transport_1_1_admin_pairing_table_delegate" ],
     [ "Base", "classchip_1_1_transport_1_1_base.html", "classchip_1_1_transport_1_1_base" ],
     [ "BLE", "classchip_1_1_transport_1_1_b_l_e.html", "classchip_1_1_transport_1_1_b_l_e" ],
     [ "BLEBase", "classchip_1_1_transport_1_1_b_l_e_base.html", "classchip_1_1_transport_1_1_b_l_e_base" ],

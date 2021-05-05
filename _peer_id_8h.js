@@ -5,5 +5,6 @@ var _peer_id_8h =
     [ "NodeId", "_peer_id_8h.html#ac741422ab936732a88bb008cf631cbd2", null ],
     [ "kAnyNodeId", "_peer_id_8h.html#a0e6f577ca63e0aa586a39c9aa8798a26", null ],
     [ "kUndefinedFabricId", "_peer_id_8h.html#a9d7142a4f80386f8795826a188f6b4a7", null ],
-    [ "kUndefinedNodeId", "_peer_id_8h.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7", null ]
+    [ "kUndefinedNodeId", "_peer_id_8h.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7", null ],
+    [ "kUndefinedVendorId", "_peer_id_8h.html#abb1933255ee0a1454cd4ed7d4e1c0c16", null ]
 ];

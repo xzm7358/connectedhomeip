@@ -18,6 +18,7 @@ var hierarchy =
     [ "chip::AdditionalDataPayloadParser", "classchip_1_1_additional_data_payload_parser.html", null ],
     [ "chip::Transport::AdminPairingInfo", "classchip_1_1_transport_1_1_admin_pairing_info.html", null ],
     [ "chip::Transport::AdminPairingTable", "classchip_1_1_transport_1_1_admin_pairing_table.html", null ],
+    [ "chip::Transport::AdminPairingTableDelegate", "classchip_1_1_transport_1_1_admin_pairing_table_delegate.html", null ],
     [ "chip.discovery.AggregatedDiscoveryResults", "classchip_1_1discovery_1_1_aggregated_discovery_results.html", null ],
     [ "chip.devicecontroller.AndroidChipStack", "classchip_1_1devicecontroller_1_1_android_chip_stack.html", null ],
     [ "chip.devicecontroller.AndroidPersistentStorageDelegate", "interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html", null ],
@@ -292,10 +293,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -409,8 +410,8 @@ var hierarchy =
     [ "chip::Transport::PeerConnections< kMaxConnectionCount, kTimeSource >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnections< CHIP_CONFIG_PEER_CONNECTION_POOL_SIZE >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
-    [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
     [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
+    [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],

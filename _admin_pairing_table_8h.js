@@ -3,6 +3,7 @@ var _admin_pairing_table_8h =
     [ "OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", "structchip_1_1_transport_1_1_operational_credentials" ],
     [ "AccessControlList", "structchip_1_1_transport_1_1_access_control_list.html", "structchip_1_1_transport_1_1_access_control_list" ],
     [ "AdminPairingInfo", "classchip_1_1_transport_1_1_admin_pairing_info.html", "classchip_1_1_transport_1_1_admin_pairing_info" ],
+    [ "AdminPairingTableDelegate", "classchip_1_1_transport_1_1_admin_pairing_table_delegate.html", "classchip_1_1_transport_1_1_admin_pairing_table_delegate" ],
     [ "ConstAdminIterator", "classchip_1_1_transport_1_1_const_admin_iterator.html", "classchip_1_1_transport_1_1_const_admin_iterator" ],
     [ "AdminPairingTable", "classchip_1_1_transport_1_1_admin_pairing_table.html", "classchip_1_1_transport_1_1_admin_pairing_table" ],
     [ "AdminId", "_admin_pairing_table_8h.html#a989454069ce6e05e756eee6dfbf358d9", null ],

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">ae60b8d</span>
+   &#160;<span id="projectnumber">3907f38</span>
    </div>
   </td>
  </tr>
@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a99289ae840bddd187ae492ba2c9f3bb1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a99289ae840bddd187ae492ba2c9f3bb1">SyncSetKeyValue</a> (const char *key, const void *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, uint16_t size)</td></tr>
 <tr class="memdesc:a99289ae840bddd187ae492ba2c9f3bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value for the key to a byte buffer.  <a href="classchip_1_1_persistent_storage_delegate.html#a99289ae840bddd187ae492ba2c9f3bb1">More...</a><br /></td></tr>
 <tr class="separator:a99289ae840bddd187ae492ba2c9f3bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1511daf8167dc21323c70128196c3e01"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a1511daf8167dc21323c70128196c3e01">SyncDeleteKeyValue</a> (const char *key)</td></tr>
+<tr class="memdesc:a1511daf8167dc21323c70128196c3e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the value for the key.  <a href="classchip_1_1_persistent_storage_delegate.html#a1511daf8167dc21323c70128196c3e01">More...</a><br /></td></tr>
+<tr class="separator:a1511daf8167dc21323c70128196c3e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff2dc45a925de215d29dba57a5b045c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#abff2dc45a925de215d29dba57a5b045c">AsyncDeleteKeyValue</a> (const char *key)=0</td></tr>
 <tr class="memdesc:abff2dc45a925de215d29dba57a5b045c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the value for the key.  <a href="classchip_1_1_persistent_storage_delegate.html#abff2dc45a925de215d29dba57a5b045c">More...</a><br /></td></tr>
 <tr class="separator:abff2dc45a925de215d29dba57a5b045c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,6 +272,40 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p>Implemented in <a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a478f217b79eb2abadf9ff0bffe8e0f75">chip::Controller::PythonPersistentStorageDelegate</a>, and <a class="el" href="class_android_device_controller_wrapper.html#a02f76234b68b17c5781f9f4492f76a9e">AndroidDeviceControllerWrapper</a>.</p>
+
+</div>
+</div>
+<a id="a1511daf8167dc21323c70128196c3e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1511daf8167dc21323c70128196c3e01">&#9670;&nbsp;</a></span>SyncDeleteKeyValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::PersistentStorageDelegate::SyncDeleteKeyValue </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes the value for the key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Key to be deleted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -449,7 +486,7 @@ CHIP_ERROR_BUFFER_TOO_SMALL if the value's size is too large to be expressed as 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_persistent_storage_delegate.html">PersistentStorageDelegate</a></li>
-    <li class="footer">Generated on Wed May 5 2021 08:22:59 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 08:27:59 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
