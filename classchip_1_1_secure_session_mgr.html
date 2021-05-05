@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4f2c389</span>
+   &#160;<span id="projectnumber">5f21fe2</span>
    </div>
   </td>
  </tr>
@@ -143,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a16abea7ead26e8ec7e9991585b1dce66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#a16abea7ead26e8ec7e9991585b1dce66">Shutdown</a> ()</td></tr>
 <tr class="memdesc:a16abea7ead26e8ec7e9991585b1dce66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shutdown the Secure Session Manager.  <a href="classchip_1_1_secure_session_mgr.html#a16abea7ead26e8ec7e9991585b1dce66">More...</a><br /></td></tr>
 <tr class="separator:a16abea7ead26e8ec7e9991585b1dce66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367e0070672fbbfd2bd76f67f415d043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#a367e0070672fbbfd2bd76f67f415d043">HandleGroupMessageReceived</a> (const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;packetHeader, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)</td></tr>
-<tr class="memdesc:a367e0070672fbbfd2bd76f67f415d043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a cached group message that was waiting for message counter sync shold be reprocessed.  <a href="classchip_1_1_secure_session_mgr.html#a367e0070672fbbfd2bd76f67f415d043">More...</a><br /></td></tr>
-<tr class="separator:a367e0070672fbbfd2bd76f67f415d043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae072398278632945853d0f3e547543b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#ae072398278632945853d0f3e547543b1">HandleGroupMessageReceived</a> (uint16_t keyId, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)</td></tr>
+<tr class="memdesc:ae072398278632945853d0f3e547543b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a cached group message that was waiting for message counter sync shold be reprocessed.  <a href="classchip_1_1_secure_session_mgr.html#ae072398278632945853d0f3e547543b1">More...</a><br /></td></tr>
+<tr class="separator:ae072398278632945853d0f3e547543b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70fc0f413b7aabc42b16926d3736b4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#ae70fc0f413b7aabc42b16926d3736b4b">SetLocalNodeId</a> (<a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a> nodeId)</td></tr>
 <tr class="memdesc:ae70fc0f413b7aabc42b16926d3736b4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set local node ID.  <a href="classchip_1_1_secure_session_mgr.html#ae70fc0f413b7aabc42b16926d3736b4b">More...</a><br /></td></tr>
 <tr class="separator:ae70fc0f413b7aabc42b16926d3736b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +162,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad41d663b56c6e825422b9801df41f3dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc">OnMessageReceived</a> (const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;header, const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;source, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) override</td></tr>
-<tr class="memdesc:ad41d663b56c6e825422b9801df41f3dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle received secure message.  <a href="classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc">More...</a><br /></td></tr>
-<tr class="separator:ad41d663b56c6e825422b9801df41f3dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882c4fdb483818ae20fafc6959629cd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr.html#a882c4fdb483818ae20fafc6959629cd0">OnMessageReceived</a> (const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;source, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) override</td></tr>
+<tr class="memdesc:a882c4fdb483818ae20fafc6959629cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle received secure message.  <a href="classchip_1_1_secure_session_mgr.html#a882c4fdb483818ae20fafc6959629cd0">More...</a><br /></td></tr>
+<tr class="separator:a882c4fdb483818ae20fafc6959629cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a1cf63ab96fbe2706784b0d87cc0516d1"></a>
@@ -330,8 +330,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a367e0070672fbbfd2bd76f67f415d043"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367e0070672fbbfd2bd76f67f415d043">&#9670;&nbsp;</a></span>HandleGroupMessageReceived()</h2>
+<a id="ae072398278632945853d0f3e547543b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae072398278632945853d0f3e547543b1">&#9670;&nbsp;</a></span>HandleGroupMessageReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,8 +339,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void chip::SecureSessionMgr::HandleGroupMessageReceived </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;&#160;</td>
-          <td class="paramname"><em>packetHeader</em>, </td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>keyId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -359,7 +359,7 @@ Protected Member Functions</h2></td></tr>
 <p>Called when a cached group message that was waiting for message counter sync shold be reprocessed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">packetHeader</td><td>The message header </td></tr>
+    <tr><td class="paramname">keyId</td><td>The encryption Key ID of the message buffer </td></tr>
     <tr><td class="paramname">msgBuf</td><td>The received message </td></tr>
   </table>
   </dd>
@@ -473,8 +473,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad41d663b56c6e825422b9801df41f3dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad41d663b56c6e825422b9801df41f3dc">&#9670;&nbsp;</a></span>OnMessageReceived()</h2>
+<a id="a882c4fdb483818ae20fafc6959629cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a882c4fdb483818ae20fafc6959629cd0">&#9670;&nbsp;</a></span>OnMessageReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,12 +485,6 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void chip::SecureSessionMgr::OnMessageReceived </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;&#160;</td>
-          <td class="paramname"><em>header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
@@ -517,14 +511,13 @@ Protected Member Functions</h2></td></tr>
 <p>Implements <a class="el" href="classchip_1_1_transport_mgr_delegate.html">TransportMgrDelegate</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">header</td><td>the received message header </td></tr>
     <tr><td class="paramname">source</td><td>the source address of the package </td></tr>
-    <tr><td class="paramname">msgBuf</td><td>the buffer of (encrypted) payload </td></tr>
+    <tr><td class="paramname">msgBuf</td><td>the buffer containing a full CHIP message (except for the optional length field). </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classchip_1_1_transport_mgr_delegate.html#a9e11bd7dc7218c92b84839fb196fa1be">chip::TransportMgrDelegate</a>.</p>
+<p>Implements <a class="el" href="classchip_1_1_transport_mgr_delegate.html#a6b42140e9b4161fb4abb5a934f1e66ef">chip::TransportMgrDelegate</a>.</p>
 
 </div>
 </div>
@@ -725,7 +718,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_secure_session_mgr.html">SecureSessionMgr</a></li>
-    <li class="footer">Generated on Wed May 5 2021 06:46:12 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 06:57:46 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

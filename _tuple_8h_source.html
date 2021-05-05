@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4f2c389</span>
+   &#160;<span id="projectnumber">5f21fe2</span>
    </div>
   </td>
  </tr>
@@ -118,9 +118,9 @@ $(document).ready(function(){initNavTree('_tuple_8h_source.html',''); initResiza
 <div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_tuple.html">   81</a></span>&#160;<span class="keyword">class </span><a class="code" href="classchip_1_1_transport_1_1_tuple.html">Tuple</a> : <span class="keyword">public</span> <a class="code" href="classchip_1_1_transport_1_1_base.html">Base</a></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">   84</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">SendMessage</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp; header, <span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp; address, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)<span class="keyword"> override</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">   84</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">SendMessage</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp; address, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)<span class="keyword"> override</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">    </span>{</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> SendMessageImpl&lt;0&gt;(header, address, std::move(msgBuf));</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> SendMessageImpl&lt;0&gt;(address, std::move(msgBuf));</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">   89</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">CanSendToPeer</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp; address)<span class="keyword"> override </span>{ <span class="keywordflow">return</span> CanSendToPeerImpl&lt;0&gt;(address); }</div>
@@ -170,46 +170,46 @@ $(document).ready(function(){initNavTree('_tuple_8h_source.html',''); initResiza
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordtype">void</span> CloseImpl()</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {}</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N, <span class="keyword">typename</span> std::enable_if&lt;(N &lt; <span class="keyword">sizeof</span>...(TransportTypes))&gt;::type * = <span class="keyword">nullptr</span>&gt;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessageImpl(<span class="keyword">const</span> PacketHeader &amp; header, <span class="keyword">const</span> PeerAddress &amp; address, System::PacketBufferHandle &amp;&amp; msgBuf)</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        Base * base = &amp;std::get&lt;N&gt;(mTransports);</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">if</span> (base-&gt;CanSendToPeer(address))</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">return</span> base-&gt;SendMessage(header, address, std::move(msgBuf));</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> SendMessageImpl&lt;N + 1&gt;(header, address, std::move(msgBuf));</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N, <span class="keyword">typename</span> std::enable_if&lt;(N &gt;= sizeof...(TransportTypes))&gt;::type * = <span class="keyword">nullptr</span>&gt;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessageImpl(<span class="keyword">const</span> PacketHeader &amp; header, <span class="keyword">const</span> PeerAddress &amp; address, System::PacketBufferHandle msgBuf)</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_error_8h.html#aac245d51976f620a111a2ee1b8ca458c">CHIP_ERROR_NO_MESSAGE_HANDLER</a>;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> InitArg, <span class="keyword">typename</span>... Rest&gt;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> InitImpl(RawTransportDelegate * delegate, InitArg &amp;&amp; arg, Rest &amp;&amp;... rest)</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keyword">auto</span> transport = &amp;std::get&lt;<span class="keyword">sizeof</span>...(TransportTypes) - <span class="keyword">sizeof</span>...(Rest) - 1&gt;(mTransports);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> = transport-&gt;Init(std::forward&lt;InitArg&gt;(arg));</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> != <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a>)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        transport-&gt;SetDelegate(delegate);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">return</span> InitImpl(delegate, std::forward&lt;Rest&gt;(rest)...);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> InitImpl(RawTransportDelegate * delegate) { <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a>; }</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    std::tuple&lt;TransportTypes...&gt; mTransports;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;};</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;} <span class="comment">// namespace Transport</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N, <span class="keyword">typename</span> std::enable_if&lt;(N &lt; <span class="keyword">sizeof</span>...(TransportTypes))&gt;::type * = <span class="keyword">nullptr</span>&gt;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessageImpl(<span class="keyword">const</span> PeerAddress &amp; address, System::PacketBufferHandle &amp;&amp; msgBuf)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        Base * base = &amp;std::get&lt;N&gt;(mTransports);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">if</span> (base-&gt;CanSendToPeer(address))</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordflow">return</span> base-&gt;SendMessage(address, std::move(msgBuf));</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">return</span> SendMessageImpl&lt;N + 1&gt;(address, std::move(msgBuf));</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> N, <span class="keyword">typename</span> std::enable_if&lt;(N &gt;= sizeof...(TransportTypes))&gt;::type * = <span class="keyword">nullptr</span>&gt;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessageImpl(<span class="keyword">const</span> PeerAddress &amp; address, System::PacketBufferHandle msgBuf)</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_error_8h.html#aac245d51976f620a111a2ee1b8ca458c">CHIP_ERROR_NO_MESSAGE_HANDLER</a>;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> InitArg, <span class="keyword">typename</span>... Rest&gt;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> InitImpl(RawTransportDelegate * delegate, InitArg &amp;&amp; arg, Rest &amp;&amp;... rest)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keyword">auto</span> transport = &amp;std::get&lt;<span class="keyword">sizeof</span>...(TransportTypes) - <span class="keyword">sizeof</span>...(Rest) - 1&gt;(mTransports);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> = transport-&gt;Init(std::forward&lt;InitArg&gt;(arg));</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a> != <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a>)</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        transport-&gt;SetDelegate(delegate);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> InitImpl(delegate, std::forward&lt;Rest&gt;(rest)...);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160; </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> InitImpl(RawTransportDelegate * delegate) { <span class="keywordflow">return</span> <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a>; }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    std::tuple&lt;TransportTypes...&gt; mTransports;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;};</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;} <span class="comment">// namespace Transport</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasschip_1_1_transport_1_1_peer_address_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_peer_address.html">chip::Transport::PeerAddress</a></div><div class="ttdoc">Describes how a peer on a CHIP network can be addressed.</div><div class="ttdef"><b>Definition:</b> PeerAddress.h:61</div></div>
@@ -219,22 +219,21 @@ $(document).ready(function(){initNavTree('_tuple_8h_source.html',''); initResiza
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_aefe1d82729601209b92cfc2ef6e71913"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#aefe1d82729601209b92cfc2ef6e71913">chip::Transport::Tuple::Close</a></div><div class="ttdeci">void Close() override</div><div class="ttdoc">Close the open endpoint without destroying the object.</div><div class="ttdef"><b>Definition:</b> Tuple.h:93</div></div>
 <div class="ttc" id="anamespacebuild-chip-wheel_html_a7fa146e9fdee7dba0c69d9a45f8c4cae"><div class="ttname"><a href="namespacebuild-chip-wheel.html#a7fa146e9fdee7dba0c69d9a45f8c4cae">build-chip-wheel.args</a></div><div class="ttdeci">args</div><div class="ttdef"><b>Definition:</b> build-chip-wheel.py:44</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html">chip::Transport::Tuple</a></div><div class="ttdoc">Groups together several transports of different types and presents them as a unified transport.</div><div class="ttdef"><b>Definition:</b> Tuple.h:81</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a915f1928eeff03eaa41916c31ca494d5"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">chip::Transport::Tuple::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(const PeerAddress &amp;address, System::PacketBufferHandle msgBuf) override</div><div class="ttdoc">Send a message to the specified target.</div><div class="ttdef"><b>Definition:</b> Tuple.h:84</div></div>
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_handle_html"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a></div><div class="ttdoc">Tracks ownership of a PacketBuffer.</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:425</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_aac245d51976f620a111a2ee1b8ca458c"><div class="ttname"><a href="_c_h_i_p_error_8h.html#aac245d51976f620a111a2ee1b8ca458c">CHIP_ERROR_NO_MESSAGE_HANDLER</a></div><div class="ttdeci">#define CHIP_ERROR_NO_MESSAGE_HANDLER</div><div class="ttdoc">No callback has been registered for handling a message.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:207</div></div>
 <div class="ttc" id="a_base_8h_html"><div class="ttname"><a href="_base_8h.html">Base.h</a></div></div>
-<div class="ttc" id="aclasschip_1_1_transport_1_1_base_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></div><div class="ttdoc">Transport class base, defining common methods among transports (message packing by encoding and decod...</div><div class="ttdef"><b>Definition:</b> Base.h:49</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_1_1_base_html"><div class="ttname"><a href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></div><div class="ttdoc">Transport class base, defining common methods among transports (message packing by encoding and decod...</div><div class="ttdef"><b>Definition:</b> Base.h:48</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:277</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
-<div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_af665eb5dff1f5cdb1f0db0ea331ad52c"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#af665eb5dff1f5cdb1f0db0ea331ad52c">chip::Transport::Tuple::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(const PacketHeader &amp;header, const PeerAddress &amp;address, System::PacketBufferHandle msgBuf) override</div><div class="ttdoc">Send a message to the specified target.</div><div class="ttdef"><b>Definition:</b> Tuple.h:84</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a7d50ebb0e337838909f0e7eb86a833e3"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">chip::Transport::Tuple::Init</a></div><div class="ttdeci">CHIP_ERROR Init(RawTransportDelegate *delegate, Args &amp;&amp;... args)</div><div class="ttdoc">Initialization method that forwards arguments for initialization to each of the underlying transports...</div><div class="ttdef"><b>Definition:</b> Tuple.h:106</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_aa608da186870a885351aa722aca0668c"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#aa608da186870a885351aa722aca0668c">chip::Transport::Tuple::Disconnect</a></div><div class="ttdeci">void Disconnect(const PeerAddress &amp;address) override</div><div class="ttdoc">Handle disconnection from the specified peer if currently connected to it.</div><div class="ttdef"><b>Definition:</b> Tuple.h:91</div></div>
-<div class="ttc" id="aclasschip_1_1_packet_header_html"><div class="ttname"><a href="classchip_1_1_packet_header.html">chip::PacketHeader</a></div><div class="ttdoc">Handles encoding/decoding of CHIP packet message headers.</div><div class="ttdef"><b>Definition:</b> MessageHeader.h:110</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="dir_a311810e72fdebe288f4c04505dd73fe.html">raw</a></li><li class="navelem"><a class="el" href="_tuple_8h.html">Tuple.h</a></li>
-    <li class="footer">Generated on Wed May 5 2021 06:46:12 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 06:57:45 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

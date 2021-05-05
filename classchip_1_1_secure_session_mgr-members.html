@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4f2c389</span>
+   &#160;<span id="projectnumber">5f21fe2</span>
    </div>
   </td>
  </tr>
@@ -94,10 +94,10 @@ $(document).ready(function(){initNavTree('classchip_1_1_secure_session_mgr.html'
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#af692e736011b076d82659336c35ac714">GetPeerConnectionState</a>(SecureSessionHandle session)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a9c39e62cab983c2040ed7dc31712d816">GetTransportManager</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a1afe5195fb02dd83aa60abeed035bc72">GetTransportType</a>(NodeId peerNodeId)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a367e0070672fbbfd2bd76f67f415d043">HandleGroupMessageReceived</a>(const PacketHeader &amp;packetHeader, System::PacketBufferHandle msgBuf)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#ae072398278632945853d0f3e547543b1">HandleGroupMessageReceived</a>(uint16_t keyId, System::PacketBufferHandle msgBuf)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a1e964656cd1ee12c136f0ef82bcbd3c6">Init</a>(NodeId localNodeId, System::Layer *systemLayer, TransportMgrBase *transportMgr, Transport::AdminPairingTable *admins)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a83aa264a6ff0cf05135595291674734c">NewPairing</a>(const Optional&lt; Transport::PeerAddress &gt; &amp;peerAddr, NodeId peerNodeId, PairingSession *pairing, PairingDirection direction, Transport::AdminId admin, Transport::Base *transport=nullptr)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc">OnMessageReceived</a>(const PacketHeader &amp;header, const Transport::PeerAddress &amp;source, System::PacketBufferHandle msgBuf) override</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a882c4fdb483818ae20fafc6959629cd0">OnMessageReceived</a>(const Transport::PeerAddress &amp;source, System::PacketBufferHandle msgBuf) override</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a1cf63ab96fbe2706784b0d87cc0516d1">PairingDirection</a> enum name</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a0790f0cb1c9d990c40417adc8c3b2077">SecureSessionMgr</a>()</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html#a174d96c2c6c606695c69cbbd75ce72b1">SendEncryptedMessage</a>(SecureSessionHandle session, EncryptedPacketBufferHandle msgBuf, EncryptedPacketBufferHandle *bufferRetainSlot)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session_mgr.html">chip::SecureSessionMgr</a></td><td class="entry"></td></tr>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('classchip_1_1_secure_session_mgr.html'
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 5 2021 06:46:12 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 06:57:46 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
