@@ -1,10 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a377573a4a7dca251924892a71e60d7f9":[10,0,1,14,0,13,26],
-"classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a394ebb46f844d3dd142569af3db31355":[10,0,1,14,0,13,2],
-"classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a55a2f9099aa9eaedc3887d9df4b6f2f0":[10,0,1,14,0,13,13],
-"classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a5a189cf12f57f8d7aa592a3dfada0bc3":[10,0,1,14,0,13,1],
-"classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a61b0c98231107f01a52e0729b5398389":[10,0,1,14,0,13,32],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a64acc2d6bc4a079017069f39ebd4f991":[10,0,1,14,0,13,15],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a664f084d35d88401b371a50ce3b4c528":[10,0,1,14,0,13,28],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a6768ec39020d99375a3f63cc947007ae":[10,0,1,14,0,13,44],
@@ -249,5 +244,10 @@ var NAVTREEINDEX25 =
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#affc77c57ffcd87bb91c9b96ef8d7bb37":[10,0,1,14,0,22,8],
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl.html":[10,0,1,14,0,23],
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl.html#a86eb78be4fdf66a0d5c070bcd0da2c4d":[10,0,1,14,0,23,0],
-"classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl.html#aec2df7823a169613800fca12ef7e4d51":[10,0,1,14,0,23,1]
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl.html#aec2df7823a169613800fca12ef7e4d51":[10,0,1,14,0,23,1],
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html":[10,0,1,14,0,24],
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a2b76200fdc74bc688c1f9ccfdf7a2e8f":[10,0,1,14,0,24,5],
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a3498268651cdcb252b07807bcf8a8907":[10,0,1,14,0,24,9],
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a465f3280979fcf43cba12061279485a8":[10,0,1,14,0,24,1],
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a610326020f2def61eb8c0734a65ab67c":[10,0,1,14,0,24,7]
 };

@@ -21,7 +21,6 @@ var hierarchy =
     [ "chip::Transport::AdminPairingTableDelegate", "classchip_1_1_transport_1_1_admin_pairing_table_delegate.html", null ],
     [ "chip.discovery.AggregatedDiscoveryResults", "classchip_1_1discovery_1_1_aggregated_discovery_results.html", null ],
     [ "chip.devicecontroller.AndroidChipStack", "classchip_1_1devicecontroller_1_1_android_chip_stack.html", null ],
-    [ "chip.devicecontroller.AndroidPersistentStorageDelegate", "interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html", null ],
     [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl< ImplClass >::AppEventHandler", "structchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl_1_1_app_event_handler.html", null ],
     [ "AvahiTimeout", "struct_avahi_timeout.html", null ],
     [ "AvahiWatch", "struct_avahi_watch.html", null ],
@@ -418,13 +417,9 @@ var hierarchy =
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],
-    [ "chip.devicecontroller.PersistentStorage", "classchip_1_1devicecontroller_1_1_persistent_storage.html", null ],
     [ "chip::PersistentStorageDelegate", "classchip_1_1_persistent_storage_delegate.html", [
       [ "AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html", null ],
       [ "chip::Controller::PythonPersistentStorageDelegate", "classchip_1_1_controller_1_1_python_persistent_storage_delegate.html", null ]
-    ] ],
-    [ "chip::PersistentStorageResultDelegate", "classchip_1_1_persistent_storage_result_delegate.html", [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::DeviceLayer::PlatformManager", "classchip_1_1_device_layer_1_1_platform_manager.html", [
       [ "chip::DeviceLayer::PlatformManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager_impl.html", null ]
@@ -515,8 +510,8 @@ var hierarchy =
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],

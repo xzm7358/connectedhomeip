@@ -61,7 +61,6 @@ var namespacechip =
     [ "PeerId", "classchip_1_1_peer_id.html", "classchip_1_1_peer_id" ],
     [ "PersistedCounter", "classchip_1_1_persisted_counter.html", "classchip_1_1_persisted_counter" ],
     [ "PersistentStorageDelegate", "classchip_1_1_persistent_storage_delegate.html", "classchip_1_1_persistent_storage_delegate" ],
-    [ "PersistentStorageResultDelegate", "classchip_1_1_persistent_storage_result_delegate.html", "classchip_1_1_persistent_storage_result_delegate" ],
     [ "QRCodeSetupPayloadGenerator", "classchip_1_1_q_r_code_setup_payload_generator.html", "classchip_1_1_q_r_code_setup_payload_generator" ],
     [ "QRCodeSetupPayloadParser", "classchip_1_1_q_r_code_setup_payload_parser.html", "classchip_1_1_q_r_code_setup_payload_parser" ],
     [ "ReferenceCounted", "classchip_1_1_reference_counted.html", "classchip_1_1_reference_counted" ],

@@ -18,7 +18,6 @@ var dir_92dd4b281d099a132d4a425cb79ee964 =
       [ "ChipKeyId", "classchip_1_1_chip_key_id.html", "classchip_1_1_chip_key_id" ]
     ] ],
     [ "CHIPPersistentStorageDelegate.h", "_c_h_i_p_persistent_storage_delegate_8h.html", [
-      [ "PersistentStorageResultDelegate", "classchip_1_1_persistent_storage_result_delegate.html", "classchip_1_1_persistent_storage_result_delegate" ],
       [ "PersistentStorageDelegate", "classchip_1_1_persistent_storage_delegate.html", "classchip_1_1_persistent_storage_delegate" ]
     ] ],
     [ "CHIPSafeCasts.h", "_c_h_i_p_safe_casts_8h.html", "_c_h_i_p_safe_casts_8h" ],

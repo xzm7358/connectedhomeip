@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">1482d3d</span>
+   &#160;<span id="projectnumber">2024923</span>
    </div>
   </td>
  </tr>
@@ -106,30 +106,18 @@ Inheritance diagram for chip::Controller::PythonPersistentStorageDelegate:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b4049d301bd0b5978c92b1bda410ba5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a1b4049d301bd0b5978c92b1bda410ba5">PythonPersistentStorageDelegate</a> ()</td></tr>
 <tr class="separator:a1b4049d301bd0b5978c92b1bda410ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a478f217b79eb2abadf9ff0bffe8e0f75">SetStorageDelegate</a> (<a class="el" href="classchip_1_1_persistent_storage_result_delegate.html">PersistentStorageResultDelegate</a> *delegate) override</td></tr>
-<tr class="memdesc:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the callback object with methods that are called on completion of the operation.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a478f217b79eb2abadf9ff0bffe8e0f75">More...</a><br /></td></tr>
-<tr class="separator:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8331789c71f8fa2dea4d45d43898183"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183">SyncGetKeyValue</a> (const char *key, char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, uint16_t &amp;size) override</td></tr>
-<tr class="memdesc:af8331789c71f8fa2dea4d45d43898183"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a synchronous Get API, where the value is returned via the output buffer.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183">More...</a><br /></td></tr>
-<tr class="separator:af8331789c71f8fa2dea4d45d43898183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc49fbbf3d94008e446073334067795f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f">AsyncSetKeyValue</a> (const char *key, const char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>) override</td></tr>
-<tr class="memdesc:adc49fbbf3d94008e446073334067795f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value for the key to a null terminated string.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f">More...</a><br /></td></tr>
-<tr class="separator:adc49fbbf3d94008e446073334067795f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad724f3d64c6f7f651054e1a49125a7c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#ad724f3d64c6f7f651054e1a49125a7c2">AsyncDeleteKeyValue</a> (const char *key) override</td></tr>
-<tr class="memdesc:ad724f3d64c6f7f651054e1a49125a7c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the value for the key.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#ad724f3d64c6f7f651054e1a49125a7c2">More...</a><br /></td></tr>
-<tr class="separator:ad724f3d64c6f7f651054e1a49125a7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a820299e9ea3cd0d09cf50f7817934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a78a820299e9ea3cd0d09cf50f7817934">SyncGetKeyValue</a> (const char *key, void *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, uint16_t &amp;size) override</td></tr>
+<tr class="memdesc:a78a820299e9ea3cd0d09cf50f7817934"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a synchronous Get API, where the value is returned via the output buffer.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a78a820299e9ea3cd0d09cf50f7817934">More...</a><br /></td></tr>
+<tr class="separator:a78a820299e9ea3cd0d09cf50f7817934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362dd1c503ebc714492ec2c3cf188a43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a362dd1c503ebc714492ec2c3cf188a43">SyncSetKeyValue</a> (const char *key, const void *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, uint16_t size) override</td></tr>
+<tr class="memdesc:a362dd1c503ebc714492ec2c3cf188a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value for the key to a byte buffer.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a362dd1c503ebc714492ec2c3cf188a43">More...</a><br /></td></tr>
+<tr class="separator:a362dd1c503ebc714492ec2c3cf188a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1217eec0295273242f3f31c1f7e0bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#aa1217eec0295273242f3f31c1f7e0bb8">SyncDeleteKeyValue</a> (const char *key) override</td></tr>
+<tr class="memdesc:aa1217eec0295273242f3f31c1f7e0bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the value for the key.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#aa1217eec0295273242f3f31c1f7e0bb8">More...</a><br /></td></tr>
+<tr class="separator:aa1217eec0295273242f3f31c1f7e0bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classchip_1_1_persistent_storage_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchip_1_1_persistent_storage_delegate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchip_1_1_persistent_storage_delegate.html">chip::PersistentStorageDelegate</a></td></tr>
 <tr class="memitem:a84c230a30aa904ff090c0842d5bfd99d inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a84c230a30aa904ff090c0842d5bfd99d">~PersistentStorageDelegate</a> ()</td></tr>
 <tr class="separator:a84c230a30aa904ff090c0842d5bfd99d inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e3696234021b1b1e8853780d0d3813 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a13e3696234021b1b1e8853780d0d3813">SyncGetKeyValue</a> (const char *key, void *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, uint16_t &amp;size)</td></tr>
-<tr class="memdesc:a13e3696234021b1b1e8853780d0d3813 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a synchronous Get API, where the value is returned via the output buffer.  <a href="classchip_1_1_persistent_storage_delegate.html#a13e3696234021b1b1e8853780d0d3813">More...</a><br /></td></tr>
-<tr class="separator:a13e3696234021b1b1e8853780d0d3813 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99289ae840bddd187ae492ba2c9f3bb1 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a99289ae840bddd187ae492ba2c9f3bb1">SyncSetKeyValue</a> (const char *key, const void *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, uint16_t size)</td></tr>
-<tr class="memdesc:a99289ae840bddd187ae492ba2c9f3bb1 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value for the key to a byte buffer.  <a href="classchip_1_1_persistent_storage_delegate.html#a99289ae840bddd187ae492ba2c9f3bb1">More...</a><br /></td></tr>
-<tr class="separator:a99289ae840bddd187ae492ba2c9f3bb1 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1511daf8167dc21323c70128196c3e01 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_persistent_storage_delegate.html#a1511daf8167dc21323c70128196c3e01">SyncDeleteKeyValue</a> (const char *key)</td></tr>
-<tr class="memdesc:a1511daf8167dc21323c70128196c3e01 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the value for the key.  <a href="classchip_1_1_persistent_storage_delegate.html#a1511daf8167dc21323c70128196c3e01">More...</a><br /></td></tr>
-<tr class="separator:a1511daf8167dc21323c70128196c3e01 inherit pub_methods_classchip_1_1_persistent_storage_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b4049d301bd0b5978c92b1bda410ba5"></a>
@@ -158,8 +146,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad724f3d64c6f7f651054e1a49125a7c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad724f3d64c6f7f651054e1a49125a7c2">&#9670;&nbsp;</a></span>AsyncDeleteKeyValue()</h2>
+<a id="aa1217eec0295273242f3f31c1f7e0bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1217eec0295273242f3f31c1f7e0bb8">&#9670;&nbsp;</a></span>SyncDeleteKeyValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +156,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void chip::Controller::PythonPersistentStorageDelegate::AsyncDeleteKeyValue </td>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Controller::PythonPersistentStorageDelegate::SyncDeleteKeyValue </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
@@ -190,95 +178,12 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#abff2dc45a925de215d29dba57a5b045c">chip::PersistentStorageDelegate</a>.</p>
+<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#a11ffd31d1bb6fbb73a56997045c41dab">chip::PersistentStorageDelegate</a>.</p>
 
 </div>
 </div>
-<a id="adc49fbbf3d94008e446073334067795f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc49fbbf3d94008e446073334067795f">&#9670;&nbsp;</a></span>AsyncSetKeyValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::Controller::PythonPersistentStorageDelegate::AsyncSetKeyValue </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the value for the key to a null terminated string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Key to be set </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Value to be set </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#aa0223577b75a9d858a7d74adb5da98d4">chip::PersistentStorageDelegate</a>.</p>
-
-</div>
-</div>
-<a id="a478f217b79eb2abadf9ff0bffe8e0f75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a478f217b79eb2abadf9ff0bffe8e0f75">&#9670;&nbsp;</a></span>SetStorageDelegate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::Controller::PythonPersistentStorageDelegate::SetStorageDelegate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_persistent_storage_result_delegate.html">PersistentStorageResultDelegate</a> *&#160;</td>
-          <td class="paramname"><em>delegate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set the callback object with methods that are called on completion of the operation. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">delegate</td><td>The callback object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#ac9b1e979c5b32a8c79ca50f347804573">chip::PersistentStorageDelegate</a>.</p>
-
-</div>
-</div>
-<a id="af8331789c71f8fa2dea4d45d43898183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8331789c71f8fa2dea4d45d43898183">&#9670;&nbsp;</a></span>SyncGetKeyValue()</h2>
+<a id="a78a820299e9ea3cd0d09cf50f7817934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a820299e9ea3cd0d09cf50f7817934">&#9670;&nbsp;</a></span>SyncGetKeyValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,8 +200,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -318,24 +223,71 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This is a synchronous Get API, where the value is returned via the output buffer. </p>
-<p>This API should be used sparingly, since it may block for some duration.</p>
+<p>This API can be used to retrieve a byte buffer value from the storage. There is no implied data format and and data will be stored/fetched binary. Caller is responsible to take care of any special formatting needs (e.g. byte order, null terminators, consistency checks or versioning).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Key to lookup </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">value</td><td>Value for the key. This will always be null-terminated if the function succeeds. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">size</td><td>Input value buffer size, output size of buffer needed to store the value. Note that due to null-termination this will be 1 bigger than the "length" of the value.</td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buffer</td><td>Value for the key </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">size</td><td>Input value buffer size, output length of value. The output length could be larger than input value. In such cases, the user should allocate the buffer large enough (&gt;= output length), and call the API again. </td></tr>
   </table>
   </dd>
 </dl>
-<p>The output size could be larger than input value. In such cases, the user should allocate the buffer large enough (&gt;= output size), and call the API again. In this case SyncGetKeyValue will place as many bytes as it can in the buffer and return CHIP_ERROR_NO_MEMORY.</p>
-<p>If value is null, the input size is treated as 0.</p>
-<dl class="section return"><dt>Returns</dt><dd>CHIP_ERROR_KEY_NOT_FOUND there is no value for the given key. </dd>
-<dd>
-CHIP_ERROR_NO_MEMORY if the input buffer is not big enough for the value. </dd>
-<dd>
-CHIP_ERROR_BUFFER_TOO_SMALL if the value's size is too large to be expressed as a uint16_t. </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classchip_1_1_persistent_storage_delegate.html#ad5ace66c26bda234009969f1ff9fd0f3">chip::PersistentStorageDelegate</a>.</p>
+<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#a700af82e67dbe8796ab27823a7daa040">chip::PersistentStorageDelegate</a>.</p>
+
+</div>
+</div>
+<a id="a362dd1c503ebc714492ec2c3cf188a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362dd1c503ebc714492ec2c3cf188a43">&#9670;&nbsp;</a></span>SyncSetKeyValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Controller::PythonPersistentStorageDelegate::SyncSetKeyValue </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the value for the key to a byte buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Key to be set </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>Value to be set </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size of the Value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#a04f9642794689a81811ed1774adf3e76">chip::PersistentStorageDelegate</a>.</p>
 
 </div>
 </div>
@@ -349,7 +301,7 @@ CHIP_ERROR_BUFFER_TOO_SMALL if the value's size is too large to be expressed as 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html">PythonPersistentStorageDelegate</a></li>
-    <li class="footer">Generated on Wed May 5 2021 20:21:31 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 20:42:33 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

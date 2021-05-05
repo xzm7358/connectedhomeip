@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730a48a080b73c07649a80fa82dc77b38c06":[11,0,6,0,20,4,2],
-"_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730a5806f2cff58904528261021d667e9d2a":[11,0,6,0,20,4,0],
 "_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730a6cea366de1780ae6b0c13f54b3a409bd":[11,0,6,0,20,4,11],
 "_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730a728b6cb86e30d865435604966f4af166":[11,0,6,0,20,4,9],
 "_c_h_i_p_t_l_v_types_8h.html#a2e8308c2159d0d17e066a4b86fe19730a85c3e7fa5432efbebe1eb6d5b2a7f256":[11,0,6,0,20,4,10],
@@ -145,7 +143,7 @@ var NAVTREEINDEX7 =
 "_chip_bluez_mgr_8py.html#aea15df643f760571e054875b69c90ddc":[11,0,1,1,0,14,17],
 "_chip_bluez_mgr_8py.html#aee16da0a34dd40ef7482efc4ebf56825":[11,0,1,1,0,14,18],
 "_chip_bluez_mgr_8py.html#aff387df01402d973a30cd317ba1fd86f":[11,0,1,1,0,14,20],
-"_chip_command_type_8java.html":[11,0,1,0,0,0,0,2],
+"_chip_command_type_8java.html":[11,0,1,0,0,0,0,1],
 "_chip_core_bluetooth_mgr_8py.html":[11,0,1,1,0,15],
 "_chip_core_bluetooth_mgr_8py.html#a2030bd41ee60b605e77b2a56918dd759":[11,0,1,1,0,15,7],
 "_chip_core_bluetooth_mgr_8py.html#a2d54a161058a3931584a3160c84a2708":[11,0,1,1,0,15,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "_chip_device_controller-_script_binding_8cpp.html#a3e91806ce9876f72ca7be58e983395c2":[11,0,1,1,6,14],
 "_chip_device_controller-_script_binding_8cpp.html#a444d573b9736ff2bbc3c0feca06be1ac":[11,0,1,1,6,15],
 "_chip_device_controller-_script_binding_8cpp.html#a4521063b73e8f9261e801a9feb098f56":[11,0,1,1,6,6],
-"_chip_device_controller-_script_binding_8cpp.html#a4e6645b3e754d96a2d543425d9d94364":[11,0,1,1,6,19]
+"_chip_device_controller-_script_binding_8cpp.html#a4e6645b3e754d96a2d543425d9d94364":[11,0,1,1,6,19],
+"_chip_device_controller-_script_binding_8cpp.html#a53e9bde5cf8287a35187018db5b20ea2":[11,0,1,1,6,24],
+"_chip_device_controller-_script_binding_8cpp.html#a5480478a67cc6aea4720609bf1e57417":[11,0,1,1,6,11]
 };

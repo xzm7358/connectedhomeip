@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"_c_h_i_p_device_config_8h.html#a89fabea524f78df95ff708422f546347":[11,0,4,0,1,33],
 "_c_h_i_p_device_config_8h.html#a8a7039418f59daf3e009a9c0f1897de3":[11,0,4,0,1,83],
 "_c_h_i_p_device_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5":[11,0,4,0,1,57],
 "_c_h_i_p_device_config_8h.html#a8ef2b946a5fa9217742e06898fe9d104":[11,0,4,0,1,71],
@@ -158,13 +157,12 @@ var NAVTREEINDEX4 =
 "_c_h_i_p_device_controller-_j_n_i_8cpp.html#afb241bbadf3a673efff8ea02c119dd4d":[11,0,1,0,11,2],
 "_c_h_i_p_device_controller-_j_n_i_8cpp.html#afd304e0ece59e0e2cd5d723215a6699d":[11,0,1,0,11,108],
 "_c_h_i_p_device_controller_8cpp.html":[11,0,1,6],
-"_c_h_i_p_device_controller_8cpp.html#a4bbca922a7a0025b2a6e443cc504b5d3":[11,0,1,6,5],
-"_c_h_i_p_device_controller_8cpp.html#a75d2e0ff612bbfed806521be5ba2b0d3":[11,0,1,6,6],
-"_c_h_i_p_device_controller_8cpp.html#a8a82c36d09c9dfbb9bc10a934e145b56":[11,0,1,6,3],
+"_c_h_i_p_device_controller_8cpp.html#a4bbca922a7a0025b2a6e443cc504b5d3":[11,0,1,6,4],
+"_c_h_i_p_device_controller_8cpp.html#a75d2e0ff612bbfed806521be5ba2b0d3":[11,0,1,6,5],
 "_c_h_i_p_device_controller_8cpp.html#a9b77c22dba407ff253af9f7d8ef577c8":[11,0,1,6,2],
-"_c_h_i_p_device_controller_8cpp.html#aa77d28572454d256e1bdb30881098d50":[11,0,1,6,4],
+"_c_h_i_p_device_controller_8cpp.html#aa77d28572454d256e1bdb30881098d50":[11,0,1,6,3],
 "_c_h_i_p_device_controller_8cpp.html#aacbb9e1f38be71e22df1584a37c56693":[11,0,1,6,0],
-"_c_h_i_p_device_controller_8cpp.html#ace6188a40a5cf776ecc274b868f72f6a":[11,0,1,6,7],
+"_c_h_i_p_device_controller_8cpp.html#ace6188a40a5cf776ecc274b868f72f6a":[11,0,1,6,6],
 "_c_h_i_p_device_controller_8cpp.html#aeb7e7a856ab7a794b05b6b63ef36ea3e":[11,0,1,6,1],
 "_c_h_i_p_device_controller_8h.html":[11,0,1,7],
 "_c_h_i_p_device_controller_8h.html#a8edce2a78a23c0c061bdd74141953287":[11,0,1,7,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "_c_h_i_p_encoding_8h.html#a1a0a2d905650b2672238de0219847290":[11,0,6,0,5,24],
 "_c_h_i_p_encoding_8h.html#a1aa640b75414c224d74f1e2c9b4f3a71":[11,0,6,0,5,10],
 "_c_h_i_p_encoding_8h.html#a1bfd909b5664f5612f48c84573d7a554":[11,0,6,0,5,28],
-"_c_h_i_p_encoding_8h.html#a20965fe08826d3ab9b20229a146c72c3":[11,0,6,0,5,22]
+"_c_h_i_p_encoding_8h.html#a20965fe08826d3ab9b20229a146c72c3":[11,0,6,0,5,22],
+"_c_h_i_p_encoding_8h.html#a243b499fbaf3008052cb5546547fffc3":[11,0,6,0,5,1],
+"_c_h_i_p_encoding_8h.html#a258845aeb343932a8f1d2f8b9b940c70":[11,0,6,0,5,3]
 };
