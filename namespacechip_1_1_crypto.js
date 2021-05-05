@@ -9,6 +9,8 @@ var namespacechip_1_1_crypto =
     [ "P256Keypair", "classchip_1_1_crypto_1_1_p256_keypair.html", "classchip_1_1_crypto_1_1_p256_keypair" ],
     [ "P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", "structchip_1_1_crypto_1_1_p256_keypair_context" ],
     [ "P256PublicKey", "classchip_1_1_crypto_1_1_p256_public_key.html", "classchip_1_1_crypto_1_1_p256_public_key" ],
+    [ "PBKDF2_sha256", "classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256.html", "classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256" ],
+    [ "PBKDF2_sha256HSM", "classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256_h_s_m.html", "classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256_h_s_m" ],
     [ "Spake2p", "classchip_1_1_crypto_1_1_spake2p.html", "classchip_1_1_crypto_1_1_spake2p" ],
     [ "Spake2p_Context", "structchip_1_1_crypto_1_1_spake2p___context.html", "structchip_1_1_crypto_1_1_spake2p___context" ],
     [ "Spake2p_P256_SHA256_HKDF_HMAC", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html", "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c" ],

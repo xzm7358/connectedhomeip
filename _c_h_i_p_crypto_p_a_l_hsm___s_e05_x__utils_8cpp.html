@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d9de894</span>
+   &#160;<span id="projectnumber">a8226ab</span>
    </div>
   </td>
  </tr>
@@ -96,10 +96,10 @@ $(document).ready(function(){initNavTree('_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__u
 Functions</h2></td></tr>
 <tr class="memitem:a472034d4fec014d21c3394c6ea693387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html#a472034d4fec014d21c3394c6ea693387">se05x_sessionOpen</a> (void)</td></tr>
 <tr class="separator:a472034d4fec014d21c3394c6ea693387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae57c59b2e822c3d8d8cef7b2ba43427c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html#ae57c59b2e822c3d8d8cef7b2ba43427c">se05x_delete_key</a> (int keyid)</td></tr>
-<tr class="separator:ae57c59b2e822c3d8d8cef7b2ba43427c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e7b59db4fc06c34a067e33e603b631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html#ad1e7b59db4fc06c34a067e33e603b631">se05x_set_key</a> (int keyid, const uint8_t *key, size_t keylen, sss_key_part_t keyPart, sss_cipher_type_t cipherType)</td></tr>
-<tr class="separator:ad1e7b59db4fc06c34a067e33e603b631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5768e2a64c9f3a31e77c04f07d3d8857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html#a5768e2a64c9f3a31e77c04f07d3d8857">se05x_delete_key</a> (uint32_t keyid)</td></tr>
+<tr class="separator:a5768e2a64c9f3a31e77c04f07d3d8857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36f6169ab95ed19ed6996b288be868f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html#ad36f6169ab95ed19ed6996b288be868f">se05x_set_key</a> (uint32_t keyid, const uint8_t *key, size_t keylen, sss_key_part_t keyPart, sss_cipher_type_t cipherType)</td></tr>
+<tr class="separator:ad36f6169ab95ed19ed6996b288be868f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -109,8 +109,8 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>HSM based implementation of CHIP crypto primitives Based on configurations in <a class="el" href="_c_h_i_p_crypto_p_a_l_hsm__config_8h.html">CHIPCryptoPALHsm_config.h</a> file, chip crypto apis use either HSM or rollback to software implementation. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ae57c59b2e822c3d8d8cef7b2ba43427c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae57c59b2e822c3d8d8cef7b2ba43427c">&#9670;&nbsp;</a></span>se05x_delete_key()</h2>
+<a id="a5768e2a64c9f3a31e77c04f07d3d8857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5768e2a64c9f3a31e77c04f07d3d8857">&#9670;&nbsp;</a></span>se05x_delete_key()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +118,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void se05x_delete_key </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>keyid</em></td><td>)</td>
           <td></td>
         </tr>
@@ -145,8 +145,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1e7b59db4fc06c34a067e33e603b631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1e7b59db4fc06c34a067e33e603b631">&#9670;&nbsp;</a></span>se05x_set_key()</h2>
+<a id="ad36f6169ab95ed19ed6996b288be868f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36f6169ab95ed19ed6996b288be868f">&#9670;&nbsp;</a></span>se05x_set_key()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +154,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> se05x_set_key </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>keyid</em>, </td>
         </tr>
         <tr>
@@ -212,7 +212,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4261af1259721e3e39e0d2dd7354b511.html">crypto</a></li><li class="navelem"><a class="el" href="dir_b7ff730521c4c61d81ed41de05dcb7e2.html">hsm</a></li><li class="navelem"><a class="el" href="dir_a4b8d95f087b73d1ea3a9223fa1d21ff.html">nxp</a></li><li class="navelem"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8cpp.html">CHIPCryptoPALHsm_SE05X_utils.cpp</a></li>
-    <li class="footer">Generated on Wed May 5 2021 16:12:40 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 16:34:12 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

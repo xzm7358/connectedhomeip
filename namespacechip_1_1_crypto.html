@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d9de894</span>
+   &#160;<span id="projectnumber">a8226ab</span>
    </div>
   </td>
  </tr>
@@ -114,6 +114,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_crypto_1_1_p256_keypair_context.html">P256KeypairContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_p256_public_key.html">P256PublicKey</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256.html">PBKDF2_sha256</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_p_b_k_d_f2__sha256_h_s_m.html">PBKDF2_sha256HSM</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_spake2p.html">Spake2p</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The below class implements the draft 01 version of the Spake2+ protocol as defined in <a href="https://www.ietf.org/id/draft-bar-cfrg-spake2plus-01.html">https://www.ietf.org/id/draft-bar-cfrg-spake2plus-01.html</a>.  <a href="classchip_1_1_crypto_1_1_spake2p.html#details">More...</a><br /></td></tr>
@@ -207,9 +211,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad91df8b59f28c2644ade1fde22df3ef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#ad91df8b59f28c2644ade1fde22df3ef2">add_entropy_source</a> (<a class="el" href="namespacechip_1_1_crypto.html#a47f393624333145c5e511369c2589724">entropy_source</a> fn_source, void *p_source, size_t threshold)</td></tr>
 <tr class="memdesc:ad91df8b59f28c2644ade1fde22df3ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to add entropy sources to crypto library.  <a href="namespacechip_1_1_crypto.html#ad91df8b59f28c2644ade1fde22df3ef2">More...</a><br /></td></tr>
 <tr class="separator:ad91df8b59f28c2644ade1fde22df3ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad17d6e25daace9b73a587d1257a6609e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#ad17d6e25daace9b73a587d1257a6609e">pbkdf2_sha256</a> (const uint8_t *password, size_t plen, const uint8_t *salt, size_t slen, unsigned int iteration_count, uint32_t key_length, uint8_t *output)</td></tr>
-<tr class="memdesc:ad17d6e25daace9b73a587d1257a6609e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to derive key using password.  <a href="namespacechip_1_1_crypto.html#ad17d6e25daace9b73a587d1257a6609e">More...</a><br /></td></tr>
-<tr class="separator:ad17d6e25daace9b73a587d1257a6609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2913c410386c38cf2620d80a09428763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#a2913c410386c38cf2620d80a09428763">ClearSecretData</a> (uint8_t *buf, uint32_t len)</td></tr>
 <tr class="memdesc:a2913c410386c38cf2620d80a09428763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the first <code>len</code> bytes of memory area <code>buf</code>.  <a href="namespacechip_1_1_crypto.html#a2913c410386c38cf2620d80a09428763">More...</a><br /></td></tr>
 <tr class="separator:a2913c410386c38cf2620d80a09428763"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1568,79 +1569,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad17d6e25daace9b73a587d1257a6609e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad17d6e25daace9b73a587d1257a6609e">&#9670;&nbsp;</a></span>pbkdf2_sha256()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Crypto::pbkdf2_sha256 </td>
-          <td>(</td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>plen</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>slen</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>iteration_count</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>key_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>output</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Function to derive key using password. </p>
-<p>SHA256 hashing algorithm is used for calculating hmac. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">password</td><td>password used for key derivation </td></tr>
-    <tr><td class="paramname">plen</td><td>length of buffer containing password </td></tr>
-    <tr><td class="paramname">salt</td><td>salt to use as input to the KDF </td></tr>
-    <tr><td class="paramname">slen</td><td>length of salt </td></tr>
-    <tr><td class="paramname">iteration_count</td><td>number of iterations to run </td></tr>
-    <tr><td class="paramname">key_length</td><td>length of output key </td></tr>
-    <tr><td class="paramname">output</td><td>output buffer where the key will be written </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns a CHIP_ERROR on error, CHIP_NO_ERROR otherwise </dd></dl>
-
-</div>
-</div>
 <a id="a37e77fc463c97baf5092a9ff741cedad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37e77fc463c97baf5092a9ff741cedad">&#9670;&nbsp;</a></span>to_const_EC_KEY()</h2>
 
@@ -2189,7 +2117,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_crypto.html">Crypto</a></li>
-    <li class="footer">Generated on Wed May 5 2021 16:12:41 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 16:34:13 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

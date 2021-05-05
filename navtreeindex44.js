@@ -1,5 +1,15 @@
 var NAVTREEINDEX44 =
 {
+"structchip_1_1_mdns_1_1_mdns_service.html#ac029c6a9b16ded13ec1c6dc60cf07c56":[10,0,1,23,10,1],
+"structchip_1_1_mdns_1_1_mdns_service.html#af0de63876450eec96ecb1441c84a5029":[10,0,1,23,10,6],
+"structchip_1_1_mdns_1_1_register_context.html":[10,0,1,23,13],
+"structchip_1_1_mdns_1_1_register_context.html#ad99df8194e632f4fa0bd994769bc8237":[10,0,1,23,13,0],
+"structchip_1_1_mdns_1_1_resolve_context.html":[10,0,1,23,14],
+"structchip_1_1_mdns_1_1_resolve_context.html#a52cf98b3cccefcbd1e2c524b306007e7":[10,0,1,23,14,0],
+"structchip_1_1_mdns_1_1_resolve_context.html#a820bd78096e2f055aff55736061eddef":[10,0,1,23,14,2],
+"structchip_1_1_mdns_1_1_resolve_context.html#a9251099b8c539f269957d47b76125210":[10,0,1,23,14,1],
+"structchip_1_1_mdns_1_1_resolved_node_data.html":[10,0,1,23,15],
+"structchip_1_1_mdns_1_1_resolved_node_data.html#a0f9b7304029fdd2c20501130dbb8ae62":[10,0,1,23,15,1],
 "structchip_1_1_mdns_1_1_resolved_node_data.html#a5c89e1654ff312568d75bf29f8aaabb5":[10,0,1,23,15,2],
 "structchip_1_1_mdns_1_1_resolved_node_data.html#ab70cf48de043e12f5e94d7e0f29f51bf":[10,0,1,23,15,3],
 "structchip_1_1_mdns_1_1_resolved_node_data.html#adcd383927ed4f7bb2166a44536e100c7":[10,0,1,23,15,0],
