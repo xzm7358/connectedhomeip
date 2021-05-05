@@ -162,7 +162,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "chip::DeleteDeletor< T >", "classchip_1_1_delete_deletor.html", null ],
-    [ "chip::Controller::Device", "classchip_1_1_controller_1_1_device.html", null ],
     [ "chip::Controller::DeviceAddressUpdateDelegate", "classchip_1_1_controller_1_1_device_address_update_delegate.html", [
       [ "chip::Controller::ScriptDeviceAddressUpdateDelegate", "classchip_1_1_controller_1_1_script_device_address_update_delegate.html", null ]
     ] ],
@@ -218,10 +217,10 @@ var hierarchy =
       [ "chip.setuppayload.SetupPayloadParser.UnrecognizedQrCodeException", "classchip_1_1setuppayload_1_1_setup_payload_parser_1_1_unrecognized_qr_code_exception.html", null ]
     ] ],
     [ "ExchangeDelegate", null, [
+      [ "chip::Controller::Device", "classchip_1_1_controller_1_1_device.html", null ],
       [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", [
         [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
-      ] ],
-      [ "chip::Controller::DeviceExchangeDelegate", "classchip_1_1_controller_1_1_device_exchange_delegate.html", null ]
+      ] ]
     ] ],
     [ "ExchangeMgrDelegate", null, [
       [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
@@ -510,9 +509,9 @@ var hierarchy =
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2024923</span>
+   &#160;<span id="projectnumber">0fe16aa</span>
    </div>
   </td>
  </tr>
@@ -93,6 +93,12 @@ $(document).ready(function(){initNavTree('classchip_1_1_controller_1_1_device.ht
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_c_h_i_p_device_8h_source.html">controller/CHIPDevice.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for chip::Controller::Device:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classchip_1_1_controller_1_1_device.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -142,9 +148,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa043d4027de786cdddbd38c01a120255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#aa043d4027de786cdddbd38c01a120255">OnConnectionExpired</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session)</td></tr>
 <tr class="memdesc:aa043d4027de786cdddbd38c01a120255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a connection is closing.  <a href="classchip_1_1_controller_1_1_device.html#aa043d4027de786cdddbd38c01a120255">More...</a><br /></td></tr>
 <tr class="separator:aa043d4027de786cdddbd38c01a120255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec9293625e71ab2fa8b96d0e50142036"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#aec9293625e71ab2fa8b96d0e50142036">OnMessageReceived</a> (const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;header, const <a class="el" href="classchip_1_1_payload_header.html">PayloadHeader</a> &amp;payloadHeader, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)</td></tr>
-<tr class="memdesc:aec9293625e71ab2fa8b96d0e50142036"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when a message is received from the corresponding CHIP device.  <a href="classchip_1_1_controller_1_1_device.html#aec9293625e71ab2fa8b96d0e50142036">More...</a><br /></td></tr>
-<tr class="separator:aec9293625e71ab2fa8b96d0e50142036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89eae1834f78e731bdd000aaad816e00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#a89eae1834f78e731bdd000aaad816e00">OnMessageReceived</a> (Messaging::ExchangeContext *exchange, const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;header, const <a class="el" href="classchip_1_1_payload_header.html">PayloadHeader</a> &amp;payloadHeader, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) override</td></tr>
+<tr class="memdesc:a89eae1834f78e731bdd000aaad816e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when a message is received from the corresponding CHIP device.  <a href="classchip_1_1_controller_1_1_device.html#a89eae1834f78e731bdd000aaad816e00">More...</a><br /></td></tr>
+<tr class="separator:a89eae1834f78e731bdd000aaad816e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9058d8cf8256da38826db66e02c2c5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#ac9058d8cf8256da38826db66e02c2c5a">OnResponseTimeout</a> (Messaging::ExchangeContext *exchange) override</td></tr>
+<tr class="memdesc:ac9058d8cf8256da38826db66e02c2c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">ExchangeDelegate implementation of OnResponseTimeout.  <a href="classchip_1_1_controller_1_1_device.html#ac9058d8cf8256da38826db66e02c2c5a">More...</a><br /></td></tr>
+<tr class="separator:ac9058d8cf8256da38826db66e02c2c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa06772a6a55e8f0783290cac5ca0d941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941">OpenPairingWindow</a> (uint32_t timeout, <a class="el" href="classchip_1_1_controller_1_1_device.html#aa1f3a86bfa200253e61cabfeb4b03f52">PairingWindowOption</a> option, <a class="el" href="classchip_1_1_setup_payload.html">SetupPayload</a> &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f78ecdb81360a609ee997b3e3efa2b2">setupPayload</a>)</td></tr>
 <tr class="memdesc:aa06772a6a55e8f0783290cac5ca0d941"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger a paired device to re-enter the pairing mode.  <a href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941">More...</a><br /></td></tr>
 <tr class="separator:aa06772a6a55e8f0783290cac5ca0d941"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -712,15 +721,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aec9293625e71ab2fa8b96d0e50142036"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec9293625e71ab2fa8b96d0e50142036">&#9670;&nbsp;</a></span>OnMessageReceived()</h2>
+<a id="a89eae1834f78e731bdd000aaad816e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89eae1834f78e731bdd000aaad816e00">&#9670;&nbsp;</a></span>OnMessageReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void chip::Controller::Device::OnMessageReceived </td>
           <td>(</td>
+          <td class="paramtype">Messaging::ExchangeContext *&#160;</td>
+          <td class="paramname"><em>exchange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;&#160;</td>
           <td class="paramname"><em>header</em>, </td>
         </tr>
@@ -742,12 +760,18 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>This function is called when a message is received from the corresponding CHIP device. </p>
 <p>The message ownership is transferred to the function, and it is expected to release the message buffer before returning.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">exchange</td><td>The exchange context the message was received on. The <a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> guarantees that it will call Close() on exchange when it's done processing the message. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">header</td><td>Reference to common packet header of the received message </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">payloadHeader</td><td>Reference to payload header in the message </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">msgBuf</td><td>The message buffer </td></tr>
@@ -780,6 +804,34 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ac9058d8cf8256da38826db66e02c2c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9058d8cf8256da38826db66e02c2c5a">&#9670;&nbsp;</a></span>OnResponseTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip::Controller::Device::OnResponseTimeout </td>
+          <td>(</td>
+          <td class="paramtype">Messaging::ExchangeContext *&#160;</td>
+          <td class="paramname"><em>exchange</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ExchangeDelegate implementation of OnResponseTimeout. </p>
 
 </div>
 </div>
@@ -1066,7 +1118,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a></li>
-    <li class="footer">Generated on Wed May 5 2021 20:42:33 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 5 2021 21:22:52 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
