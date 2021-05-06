@@ -97,6 +97,7 @@ var _c_h_i_p_clusters_8cpp =
     [ "chip_ime_AppendCommand_OnOff_Off", "_c_h_i_p_clusters_8cpp.html#a9592bef16b9a1c2d7d53e2f93997f772", null ],
     [ "chip_ime_AppendCommand_OnOff_On", "_c_h_i_p_clusters_8cpp.html#ac20b2bbb54bbf3185634b1dce3ff3140", null ],
     [ "chip_ime_AppendCommand_OnOff_Toggle", "_c_h_i_p_clusters_8cpp.html#ae58c680bbc765b95314b923bedb95eff", null ],
+    [ "chip_ime_AppendCommand_OperationalCredentials_RemoveAllFabrics", "_c_h_i_p_clusters_8cpp.html#a014d8282f225bfe306d6da9a14f20d73", null ],
     [ "chip_ime_AppendCommand_OperationalCredentials_RemoveFabric", "_c_h_i_p_clusters_8cpp.html#a5ece299244221727131cb78fb56a27b9", null ],
     [ "chip_ime_AppendCommand_OperationalCredentials_SetFabric", "_c_h_i_p_clusters_8cpp.html#a10b5c8f6ca57a163b7c7b06385427e54", null ],
     [ "chip_ime_AppendCommand_OperationalCredentials_UpdateFabricLabel", "_c_h_i_p_clusters_8cpp.html#a84affb389daf09b379ad8bcbed9d7a3c", null ],

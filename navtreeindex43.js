@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html":[10,0,1,1,10],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a0f76db1d186b839eeb3ea6f9af8d70be":[10,0,1,1,10,3],
 "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a17d1586f6aa4bc202d8fb54ff6cf973b":[10,0,1,1,10,8],
 "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a2eb67bbc5aa0009e93cf7ac27f5a814c":[10,0,1,1,10,11],
 "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a3e7392362ceaf3bb2a9fbef0c60d52e0":[10,0,1,1,10,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "structchip_1_1_mdns_1_1_resolved_node_data.html#ab70cf48de043e12f5e94d7e0f29f51bf":[10,0,1,23,15,3],
 "structchip_1_1_mdns_1_1_resolved_node_data.html#adcd383927ed4f7bb2166a44536e100c7":[10,0,1,23,15,0],
 "structchip_1_1_mdns_1_1_text_entry.html":[10,0,1,23,19],
-"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,1,23,19,2],
-"structchip_1_1_mdns_1_1_text_entry.html#a58e9e54ffa2a492db9b0254d195a1345":[10,0,1,23,19,1],
-"structchip_1_1_mdns_1_1_text_entry.html#afa8f6f7fba30d94a75037b94926f1f17":[10,0,1,23,19,0]
+"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,1,23,19,2]
 };
