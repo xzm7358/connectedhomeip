@@ -76,6 +76,7 @@ var _c_h_i_p_device_config_8h =
     [ "CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT", "_c_h_i_p_device_config_8h.html#a011c0553246ac8255672464353a94f57", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_FTD", "_c_h_i_p_device_config_8h.html#a756d1617d7a9b4b471711fc3dee3f3ab", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_IF_MTU", "_c_h_i_p_device_config_8h.html#a3deefb6a1b7079fa20fad7890f06db54", null ],
+    [ "CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES", "_c_h_i_p_device_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_TASK_NAME", "_c_h_i_p_device_config_8h.html#a02a24f49cf82ab8f756f036f7cb7524d", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_TASK_PRIORITY", "_c_h_i_p_device_config_8h.html#a99ddbe69365c8dadefa7e2c63217fb03", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE", "_c_h_i_p_device_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883", null ],

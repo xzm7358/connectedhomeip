@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aeb0c28823f132fcaa928fc74712bb515":[11,0,7,0,28,4],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h_source.html":[11,0,7,0,28],
 "chip-device-ctrl_8py.html":[11,0,1,1,3],
 "chip-device-ctrl_8py.html#a0e7d93b27f3192a170b6ee5c75db0482":[11,0,1,1,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classchip_1_1_bit_flags.html#aaaa5c0ce6e85b36bd63254c3ce378309":[10,0,1,40,9],
 "classchip_1_1_bit_flags.html#ac714c5ce9be7f853bb1f64c491da06a9":[10,0,1,40,16],
 "classchip_1_1_bit_flags.html#acd7257e2686a8acf7b2dd2cbb0be38f4":[10,0,1,40,8],
-"classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485":[10,0,1,40,11],
-"classchip_1_1_bit_flags.html#ae5cbaccb0b5ac050420ac5f2827096c5":[10,0,1,40,1]
+"classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485":[10,0,1,40,11]
 };

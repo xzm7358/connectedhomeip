@@ -1,5 +1,12 @@
 var NAVTREEINDEX36 =
 {
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a59b0ea296d2cab84ecaf3f6bfa7d9360":[10,0,1,17,4,3],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#a95e9287cfda4d863fe4840adcebbf744":[10,0,1,17,4,0],
+"classchip_1_1exceptions_1_1_invalid_argument_count.html#ab7332ce5baefff2b54b9977ade2ca3fe":[10,0,1,17,4,1],
+"classchip_1_1exceptions_1_1_invalid_argument_type.html":[10,0,1,17,5],
+"classchip_1_1exceptions_1_1_invalid_argument_type.html#aa01cd9f2e9183c3538101738cc18791e":[10,0,1,17,5,3],
+"classchip_1_1exceptions_1_1_invalid_argument_type.html#aa725dc1fe5e67d625cd93b3a738c2c81":[10,0,1,17,5,1],
+"classchip_1_1exceptions_1_1_invalid_argument_type.html#acced285454949a533d49119965db8ce0":[10,0,1,17,5,0],
 "classchip_1_1exceptions_1_1_invalid_argument_type.html#ad1defed1435dcec2ef73c49c39ecab80":[10,0,1,17,5,2],
 "classchip_1_1exceptions_1_1_invalid_argument_type.html#af7c03b8aa16660eb104f92974af1abf9":[10,0,1,17,5,4],
 "classchip_1_1exceptions_1_1_unknown_attribute.html":[10,0,1,17,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX36 =
 "classmdns_1_1_minimal_1_1_query_responder_iterator.html#abe07b493b4ab6f76a824b3f22b8f9023":[10,0,3,0,20,11],
 "classmdns_1_1_minimal_1_1_query_responder_iterator.html#ad9957e3b139b38201ad62ea2b12370fc":[10,0,3,0,20,7],
 "classmdns_1_1_minimal_1_1_query_responder_iterator.html#adf082642998d285f8f48a1870f204a0a":[10,0,3,0,20,10],
-"classmdns_1_1_minimal_1_1_query_responder_iterator.html#af764433a11d8e39f7f274112b54b11ac":[10,0,3,0,20,3],
-"classmdns_1_1_minimal_1_1_query_responder_iterator.html#afdb9013c19dc06180f5524e1dec2c7ce":[10,0,3,0,20,13],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html":[10,0,3,0,22],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a12a00aee9cf3822bfe9eedca5bcd97fa":[10,0,3,0,22,4],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a1a4236796c7cc69f1ea15acf3cfab0b3":[10,0,3,0,22,1],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a2eb06895c5985a910fbb26dbc969024f":[10,0,3,0,22,2],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a4671042b90eafcf10ac20a7408c469b0":[10,0,3,0,22,0],
-"classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a866713f40d4b51e6294d9151357a1b84":[10,0,3,0,22,3]
+"classmdns_1_1_minimal_1_1_query_responder_iterator.html#af764433a11d8e39f7f274112b54b11ac":[10,0,3,0,20,3]
 };

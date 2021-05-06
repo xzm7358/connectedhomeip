@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">92ac8bc</span>
+   &#160;<span id="projectnumber">e468f42</span>
    </div>
   </td>
  </tr>
@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('classchip_1_1_mdns_1_1_operational_adv
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classchip_1_1_mdns_1_1_operational_advertising_parameters-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">chip::Mdns::OperationalAdvertisingParameters Class Reference</div>  </div>
@@ -128,6 +129,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5f1437a9d0a5a14dd765c707e10bbb3a inherit pub_methods_classchip_1_1_mdns_1_1_base_advertising_params"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a328c14ae4f829ffc2da3bd872707816b inherit pub_methods_classchip_1_1_mdns_1_1_base_advertising_params"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_base_advertising_params.html#a328c14ae4f829ffc2da3bd872707816b">GetMac</a> () const</td></tr>
 <tr class="separator:a328c14ae4f829ffc2da3bd872707816b inherit pub_methods_classchip_1_1_mdns_1_1_base_advertising_params"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:afe1df5c50b426b1b8bc4f95a8c6f292c"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#afe1df5c50b426b1b8bc4f95a8c6f292c">kNumAdvertisingTxtEntries</a> = 2</td></tr>
+<tr class="separator:afe1df5c50b426b1b8bc4f95a8c6f292c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f76170863b4c9185d75e00c77ef79d0"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a3f76170863b4c9185d75e00c77ef79d0">kTxtMaxKeySize</a> = 3 + 1</td></tr>
+<tr class="separator:a3f76170863b4c9185d75e00c77ef79d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1095977aebf5742d60f3eb0876f0b46a"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a1095977aebf5742d60f3eb0876f0b46a">kTxtMaxValueSize</a> = 7 + 1</td></tr>
+<tr class="separator:a1095977aebf5742d60f3eb0876f0b46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines parameters required for advertising a CHIP node over mDNS as an 'operationally ready' node. </p>
@@ -255,6 +265,73 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afe1df5c50b426b1b8bc4f95a8c6f292c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1df5c50b426b1b8bc4f95a8c6f292c">&#9670;&nbsp;</a></span>kNumAdvertisingTxtEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t chip::Mdns::OperationalAdvertisingParameters::kNumAdvertisingTxtEntries = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f76170863b4c9185d75e00c77ef79d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f76170863b4c9185d75e00c77ef79d0">&#9670;&nbsp;</a></span>kTxtMaxKeySize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t chip::Mdns::OperationalAdvertisingParameters::kTxtMaxKeySize = 3 + 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1095977aebf5742d60f3eb0876f0b46a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1095977aebf5742d60f3eb0876f0b46a">&#9670;&nbsp;</a></span>kTxtMaxValueSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t chip::Mdns::OperationalAdvertisingParameters::kTxtMaxValueSize = 7 + 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>lib/mdns/<a class="el" href="_advertiser_8h_source.html">Advertiser.h</a></li>
 </ul>
@@ -264,7 +341,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li><li class="navelem"><a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html">OperationalAdvertisingParameters</a></li>
-    <li class="footer">Generated on Thu May 6 2021 18:27:29 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 6 2021 18:44:04 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

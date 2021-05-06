@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"ble__function__mux_8h.html#a62bf50fd7c429548a6a7e217b5308460a62792132fcb830b330d5811accc19618":[11,0,7,5,1,0,0],
 "ble__function__mux_8h.html#a62bf50fd7c429548a6a7e217b5308460aff2e25c52a33a1c1d3a37ee4ae0eeeaf":[11,0,7,5,1,0,1],
 "ble__function__mux_8h_source.html":[11,0,7,5,1],
 "build-chip-wheel_8py.html":[11,0,1,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,0,28,6],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,28,2],
 "cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aad8d4dbae6b55b8487c68a46f528a467":[11,0,7,0,28,3],
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,0,28,5],
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aeb0c28823f132fcaa928fc74712bb515":[11,0,7,0,28,4]
+"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,0,28,5]
 };

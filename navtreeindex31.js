@@ -1,5 +1,12 @@
 var NAVTREEINDEX31 =
 {
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#a18114d3ad3650653d2e2059a356c3fa5":[10,0,1,25,2,5],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#a25ad66880a2c18b7cdbc1baa64a5edf6":[10,0,1,25,2,8],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#a54ab37617016db3f9cfcd01c302150e6":[10,0,1,25,2,1],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#a72f19b2d561961dfb512c584035ec2be":[10,0,1,25,2,4],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#ab7aee20649581126247dec57eb79c845":[10,0,1,25,2,2],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#ad0c95520f29106b2ebc5293a3d29fa93":[10,0,1,25,2,6],
+"classchip_1_1_platform_1_1_scoped_memory_buffer.html#ae0cfd52a96fb14026905518586485357":[10,0,1,25,2,0],
 "classchip_1_1_platform_1_1_scoped_memory_string.html":[10,0,1,25,3],
 "classchip_1_1_platform_1_1_scoped_memory_string.html#acd7a925f1ba15550c5ef872e967427ef":[10,0,1,25,3,0],
 "classchip_1_1_q_r_code_setup_payload_generator.html":[10,0,1,61],
@@ -242,12 +249,5 @@ var NAVTREEINDEX31 =
 "classchip_1_1_system_1_1_packet_buffer.html#ac9c9e4fe5907e0a1c15ac5132f7c1371":[10,0,1,32,10,20],
 "classchip_1_1_system_1_1_packet_buffer.html#aca9be0bb9d8764a36c2857392a29e91e":[10,0,1,32,10,21],
 "classchip_1_1_system_1_1_packet_buffer.html#ae4875bbfd65cdf2f011b0a1d2c21aece":[10,0,1,32,10,23],
-"classchip_1_1_system_1_1_packet_buffer.html#ae4c0891ecc48a6445f0cb0dcff5dee02":[10,0,1,32,10,9],
-"classchip_1_1_system_1_1_packet_buffer.html#aec4ca18105abaf840bbeea134d454926":[10,0,1,32,10,10],
-"classchip_1_1_system_1_1_packet_buffer.html#af39458842d4f1c17e7d9cbef2310ed9a":[10,0,1,32,10,14],
-"classchip_1_1_system_1_1_packet_buffer.html#af7e428dfe0549658479bde920d959e64":[10,0,1,32,10,24],
-"classchip_1_1_system_1_1_packet_buffer.html#af7feda7eaf9607d291e30d9b57b09926":[10,0,1,32,10,18],
-"classchip_1_1_system_1_1_packet_buffer_handle.html":[10,0,1,32,11],
-"classchip_1_1_system_1_1_packet_buffer_handle.html#a0917ef83743d123d742c485871c3d8c1":[10,0,1,32,11,13],
-"classchip_1_1_system_1_1_packet_buffer_handle.html#a0f6cc43082a435111fbeef7405387074":[10,0,1,32,11,7]
+"classchip_1_1_system_1_1_packet_buffer.html#ae4c0891ecc48a6445f0cb0dcff5dee02":[10,0,1,32,10,9]
 };

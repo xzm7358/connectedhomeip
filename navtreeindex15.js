@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"_q_r_code_setup_payload_generator_8cpp.html":[11,0,8,12],
 "_q_r_code_setup_payload_generator_8cpp.html#a1eafd2ed2c642468f0a92b2af425925d":[11,0,8,12,1],
 "_q_r_code_setup_payload_generator_8cpp.html#a359992816e8df95ab9b6564617eec0bb":[11,0,8,12,5],
 "_q_r_code_setup_payload_generator_8cpp.html#a86dcd80b5b3963c158416fa75615d286":[11,0,8,12,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "_span_8h.html":[11,0,6,3,48],
 "_span_8h.html#a96f429e9adf7dbc278167a45674cb1b3":[11,0,6,3,48,1],
 "_span_8h_source.html":[11,0,6,3,48],
-"_stack_init_8cpp.html":[11,0,1,1,0,8,1],
-"_stack_init_8cpp.html#a640216abd93030e70ab97b7107f2a733":[11,0,1,1,0,8,1,1]
+"_stack_init_8cpp.html":[11,0,1,1,0,8,1]
 };

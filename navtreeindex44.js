@@ -1,5 +1,12 @@
 var NAVTREEINDEX44 =
 {
+"structchip_1_1_optional_q_r_code_info.html#a1b7e8ebd3859ce0c8e0d010c08932003":[10,0,1,53,1],
+"structchip_1_1_optional_q_r_code_info.html#a4de127fe3a9cf7320d391d498cedf4fa":[10,0,1,53,2],
+"structchip_1_1_optional_q_r_code_info.html#a9500dc6fc7f73669dd91785a52c801fb":[10,0,1,53,4],
+"structchip_1_1_optional_q_r_code_info.html#add553c281ff5982224bbf9602236fa5f":[10,0,1,53,3],
+"structchip_1_1_optional_q_r_code_info_extension.html":[10,0,1,54],
+"structchip_1_1_optional_q_r_code_info_extension.html#a134ededed5c65e21090dcb279645643d":[10,0,1,54,0],
+"structchip_1_1_optional_q_r_code_info_extension.html#a289c15389b7495cf6cad83504b56310a":[10,0,1,54,2],
 "structchip_1_1_optional_q_r_code_info_extension.html#a519b802b451fce5f9333fe5d73a28fe9":[10,0,1,54,1],
 "structchip_1_1_optional_q_r_code_info_extension.html#af8e29cf50f80f95538a2521c93ffe1df":[10,0,1,54,3],
 "structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html":[10,0,1,25,1,0,0],

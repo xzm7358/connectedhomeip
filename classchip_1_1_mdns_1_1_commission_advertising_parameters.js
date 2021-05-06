@@ -13,5 +13,8 @@ var classchip_1_1_mdns_1_1_commission_advertising_parameters =
     [ "SetPairingInstr", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#a530841f6e935e4632d967bbec63fdff8", null ],
     [ "SetProductId", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#ac507d8023f557ff68cc4e80c0a8434d0", null ],
     [ "SetShortDiscriminator", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#acb5cdc6fe7df6c0a10d9c9c9527b1dca", null ],
-    [ "SetVendorId", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#aae6b9222f439c127435169fdc36d267c", null ]
+    [ "SetVendorId", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#aae6b9222f439c127435169fdc36d267c", null ],
+    [ "kNumAdvertisingTxtEntries", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#ae1df00d09b12b0e27a2e234be73ca3b1", null ],
+    [ "kTxtMaxKeySize", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#a0245a1bf5c9869d7ba0a99b3c1cb6509", null ],
+    [ "kTxtMaxValueSize", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#a859729f6e0870ec5ff56ffe12e7e5931", null ]
 ];
