@@ -1,9 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classchip_1_1_transport_1_1_peer_connections.html":[10,0,1,37,11],
-"classchip_1_1_transport_1_1_peer_connections.html#a0188b8748e6625edbc1f9983fc9f3278":[10,0,1,37,11,7],
-"classchip_1_1_transport_1_1_peer_connections.html#a050a0d30176269abdc81e28ebe761144":[10,0,1,37,11,8],
-"classchip_1_1_transport_1_1_peer_connections.html#a42ab561803ff6cc0dfa16f09b0a6c5af":[10,0,1,37,11,10],
 "classchip_1_1_transport_1_1_peer_connections.html#a4767a048ac007a9b23d4a4bedf262368":[10,0,1,37,11,5],
 "classchip_1_1_transport_1_1_peer_connections.html#a825e445808a3003a2ed5072469e92360":[10,0,1,37,11,0],
 "classchip_1_1_transport_1_1_peer_connections.html#a928d085424f4f59e5360e6582af6f9b7":[10,0,1,37,11,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX34 =
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7ad1badac463f4a20cc1bfd421f0b8be":[10,0,1,10,0,0,242],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7aea97963e0bbe1a1b3ad21d97d1963a":[10,0,1,10,0,0,29],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7b954dc35318775cb5618a7d8a23ebff":[10,0,1,10,0,0,54],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7bc217ef11c87f64e8383c9b91006f15":[10,0,1,10,0,0,102]
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7bc217ef11c87f64e8383c9b91006f15":[10,0,1,10,0,0,102],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7c74294414208efb71f97792f33f10a8":[10,0,1,10,0,0,71],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7d51c264b2b90273390e3b1d42a4f8a0":[10,0,1,10,0,0,303],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7e826e6220402e05efd63f25a56a5462":[10,0,1,10,0,0,95],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7e876f9a4be4bf95d3f0cfa255e111c5":[10,0,1,10,0,0,139]
 };

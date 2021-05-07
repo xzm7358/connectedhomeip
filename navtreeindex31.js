@@ -1,9 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aaca84aa9dc269e12168101293bb3cfea":[10,0,1,25,0,1,13],
-"classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#ad8f46e84f8db15b97d3e25b0b2301409":[10,0,1,25,0,1,9],
-"classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#adce84f324d3e2ae13b276583c27116e2":[10,0,1,25,0,1,5],
-"classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aef3ce5a5b532198a0c248757dd933f51":[10,0,1,25,0,1,1],
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#afbeb8b15b2d9a27cf7f8fab4ef726431":[10,0,1,25,0,1,2],
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#afdde72a019e85c48a77f0d5d7c09a5a3":[10,0,1,25,0,1,0],
 "classchip_1_1_platform_1_1_scoped_memory_buffer.html":[10,0,1,25,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX31 =
 "classchip_1_1_system_1_1_packet_buffer.html#a66dbb9c3b0110f2304d5e521c4d40570":[10,0,1,32,10,17],
 "classchip_1_1_system_1_1_packet_buffer.html#a6c5ef0d9c23c1a9f63d2620f9b4d470d":[10,0,1,32,10,12],
 "classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616":[10,0,1,32,10,11],
-"classchip_1_1_system_1_1_packet_buffer.html#a7e64082c33297ac903d1265faea9f7c2":[10,0,1,32,10,16]
+"classchip_1_1_system_1_1_packet_buffer.html#a7e64082c33297ac903d1265faea9f7c2":[10,0,1,32,10,16],
+"classchip_1_1_system_1_1_packet_buffer.html#a848ce6ace3e83f9f34d56df533e5c18c":[10,0,1,32,10,6],
+"classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f":[10,0,1,32,10,3],
+"classchip_1_1_system_1_1_packet_buffer.html#a8a7d1a632c69ee5dc73131aa48d78cd6":[10,0,1,32,10,22],
+"classchip_1_1_system_1_1_packet_buffer.html#a8e0d719e7c335c310a720b79750fc6f3":[10,0,1,32,10,5]
 };
