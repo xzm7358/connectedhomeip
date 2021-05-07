@@ -1,5 +1,6 @@
 var qpg6100_2_c_h_i_p_device_platform_config_8h =
 [
+    [ "CHIP_CLUSTER_NETWORK_COMMISSIONING_MAX_NETWORKS", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a4877257fe01983b43e086fe89cafa86d", null ],
     [ "CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIP_TIME_SERVICE_TIME_SYNC", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a2ddc82dd8677d0ea69b2f71dc4e10f6a":[11,0,7,10,4,1,26],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a37a682022bba0f241515877c0b8c6a23":[11,0,7,10,4,1,14],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a5c5f9de3361db07db7938bb1834f25eb":[11,0,7,10,4,1,4],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a610ab7ce23c3dd9196bc2d8fb79ed8db":[11,0,7,10,4,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "struct_avahi_watch.html#a383444fdc93cf9b1ff0dda2b4eb13caf":[10,0,10,1],
 "struct_avahi_watch.html#a6b5812295f865142ac89c73367f4d379":[10,0,10,3],
 "struct_avahi_watch.html#ad8a81b509a528c62a8c53505474f721d":[10,0,10,5],
-"structble_bond_device_entry.html":[10,0,11],
-"structble_bond_device_entry.html#a092b7b7baf90c29d65aa5af01b328910":[10,0,11,5]
+"structble_bond_device_entry.html":[10,0,11]
 };
