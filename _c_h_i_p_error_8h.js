@@ -45,6 +45,7 @@ var _c_h_i_p_error_8h =
     [ "CHIP_ERROR_INCONSISTENT_CONDITIONALITY", "_c_h_i_p_error_8h.html#aa09d2e5f2167f2f532d04770b2217fd0", null ],
     [ "CHIP_ERROR_INCORRECT_STATE", "_c_h_i_p_error_8h.html#ad7f63dcefd7fd49a239dec500bce1ec7", null ],
     [ "CHIP_ERROR_INTEGRITY_CHECK_FAILED", "_c_h_i_p_error_8h.html#a74faf033657ed058ff5e7674eb912e9d", null ],
+    [ "CHIP_ERROR_INTERMEDIATE_CA_NOT_REQUIRED", "_c_h_i_p_error_8h.html#a658370b6e3367c1dcdfcf9595a203dd8", null ],
     [ "CHIP_ERROR_INTERNAL", "_c_h_i_p_error_8h.html#a68c26998d841bb7b34f0d32093957a78", null ],
     [ "CHIP_ERROR_INTERNAL_KEY_ERROR_FROM_PEER", "_c_h_i_p_error_8h.html#abbc51de3b48a81d526576846e509577f", null ],
     [ "CHIP_ERROR_INVALID_ACCESS_TOKEN", "_c_h_i_p_error_8h.html#aad3f2b222157a34292113823d6b7bf77", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_mdns_impl_8cpp.html":[11,0,7,6,22],
+"_linux_2_mdns_impl_8cpp.html#a0754a398f1b32ce97bb2158f0e632975":[11,0,7,6,22,0],
 "_linux_2_mdns_impl_8cpp.html#a49bd665343abea118d41b69f96604e37":[11,0,7,6,22,4],
 "_linux_2_mdns_impl_8cpp.html#a5ebb44b2e656d650acad927c1e82521f":[11,0,7,6,22,11],
 "_linux_2_mdns_impl_8cpp.html#a6b4a9d2fb9939c168272ae10ec9143f2":[11,0,7,6,22,8],
@@ -179,6 +181,8 @@ var NAVTREEINDEX14 =
 "_open_thread_utils_8h.html#ace86eb76325181ef3275d868cca9275c":[11,0,7,9,6,9],
 "_open_thread_utils_8h.html#ad7a9636d2100061afbd79471fbdf7d89":[11,0,7,9,6,4],
 "_open_thread_utils_8h_source.html":[11,0,7,9,6],
+"_operational_credentials_delegate_8h.html":[11,0,1,10],
+"_operational_credentials_delegate_8h_source.html":[11,0,1,10],
 "_optional_8h.html":[11,0,6,0,26],
 "_optional_8h_source.html":[11,0,6,0,26],
 "_optional_q_r_code_info_8java.html":[11,0,8,0,0,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "_private_heap_8h.html#a64e27a5f88358df24ce6f38c68dba99d":[11,0,6,3,39,0],
 "_private_heap_8h.html#aa0c6e7dc6099ad844c2f90776f3aa367":[11,0,6,3,39,3],
 "_private_heap_8h.html#ab5c2576c08cde6b5cf0c8a5edaddf771":[11,0,6,3,39,1],
-"_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267":[11,0,6,3,39,2],
-"_private_heap_8h_source.html":[11,0,6,3,39],
-"_q_name_8cpp.html":[11,0,6,1,0,0,4],
-"_q_name_8h.html":[11,0,6,1,0,0,5],
-"_q_name_8h.html#ac930bc9ee99b70e60505182c74a3f680":[11,0,6,1,0,0,5,2]
+"_private_heap_8h.html#abc169053b31cdb83d3ac8610594b1267":[11,0,6,3,39,2]
 };

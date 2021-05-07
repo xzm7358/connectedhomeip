@@ -378,6 +378,7 @@ var hierarchy =
     [ "chip::System::ObjectPool< chip::Inet::UDPEndPoint, INET_CONFIG_NUM_UDP_ENDPOINTS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::System::ObjectPool< chip::System::Timer, CHIP_SYSTEM_CONFIG_NUM_TIMERS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::Transport::OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", null ],
+    [ "chip::Controller::OperationalCredentialsDelegate", "classchip_1_1_controller_1_1_operational_credentials_delegate.html", null ],
     [ "chip::Thread::OperationalDataset", "classchip_1_1_thread_1_1_operational_dataset.html", null ],
     [ "chip::Optional< T >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< chip::Inet::IPAddress >", "classchip_1_1_optional.html", null ],

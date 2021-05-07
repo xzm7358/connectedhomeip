@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">b74a24b</span>
+   &#160;<span id="projectnumber">a490773</span>
    </div>
   </td>
  </tr>
@@ -497,18 +497,20 @@ $(document).ready(function(){initNavTree('_c_h_i_p_error_8h_source.html',''); in
 <div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160; </div>
 <div class="line"><a name="l01778"></a><span class="lineno"><a class="line" href="_c_h_i_p_error_8h.html#add41eba1d5ecd92d6408675126e0056d"> 1778</a></span>&#160;<span class="preprocessor">#define CHIP_ERROR_HSM                                          _CHIP_ERROR(189)</span></div>
 <div class="line"><a name="l01779"></a><span class="lineno"> 1779</span>&#160; </div>
-<div class="line"><a name="l01784"></a><span class="lineno"> 1784</span>&#160;<span class="comment">// !!!!! IMPORTANT !!!!!  If you add new CHIP errors, please update the translation</span></div>
-<div class="line"><a name="l01785"></a><span class="lineno"> 1785</span>&#160;<span class="comment">// of error codes to strings in CHIPError.cpp, and add them to unittest</span></div>
-<div class="line"><a name="l01786"></a><span class="lineno"> 1786</span>&#160;<span class="comment">// in test-apps/TestErrorStr.cpp</span></div>
+<div class="line"><a name="l01786"></a><span class="lineno"><a class="line" href="_c_h_i_p_error_8h.html#a658370b6e3367c1dcdfcf9595a203dd8"> 1786</a></span>&#160;<span class="preprocessor">#define CHIP_ERROR_INTERMEDIATE_CA_NOT_REQUIRED                      _CHIP_ERROR(190)</span></div>
 <div class="line"><a name="l01787"></a><span class="lineno"> 1787</span>&#160; </div>
-<div class="line"><a name="l01788"></a><span class="lineno"> 1788</span>&#160;<span class="comment">// clang-format on</span></div>
-<div class="line"><a name="l01789"></a><span class="lineno"> 1789</span>&#160; </div>
-<div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
-<div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160; </div>
-<div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="namespacechip.html#a742bd0319b9d21abf37e45db9fc5322b">RegisterCHIPLayerErrorFormatter</a>();</div>
-<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="namespacechip.html#af25ca1394fb3a66e33c3e747bf7f18da">FormatCHIPError</a>(<span class="keywordtype">char</span> * buf, uint16_t bufSize, int32_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>);</div>
-<div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160; </div>
-<div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;<span class="comment">// !!!!! IMPORTANT !!!!!  If you add new CHIP errors, please update the translation</span></div>
+<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;<span class="comment">// of error codes to strings in CHIPError.cpp, and add them to unittest</span></div>
+<div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;<span class="comment">// in test-apps/TestErrorStr.cpp</span></div>
+<div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160; </div>
+<div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;<span class="comment">// clang-format on</span></div>
+<div class="line"><a name="l01797"></a><span class="lineno"> 1797</span>&#160; </div>
+<div class="line"><a name="l01798"></a><span class="lineno"> 1798</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
+<div class="line"><a name="l01799"></a><span class="lineno"> 1799</span>&#160; </div>
+<div class="line"><a name="l01800"></a><span class="lineno"> 1800</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="namespacechip.html#a742bd0319b9d21abf37e45db9fc5322b">RegisterCHIPLayerErrorFormatter</a>();</div>
+<div class="line"><a name="l01801"></a><span class="lineno"> 1801</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="namespacechip.html#af25ca1394fb3a66e33c3e747bf7f18da">FormatCHIPError</a>(<span class="keywordtype">char</span> * buf, uint16_t bufSize, int32_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>);</div>
+<div class="line"><a name="l01802"></a><span class="lineno"> 1802</span>&#160; </div>
+<div class="line"><a name="l01803"></a><span class="lineno"> 1803</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a4ce52c44b6a031b7e901b631e2c3e1d4"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a4ce52c44b6a031b7e901b631e2c3e1d4">CHIP_ERROR_MESSAGE_INCOMPLETE</a></div><div class="ttdeci">#define CHIP_ERROR_MESSAGE_INCOMPLETE</div><div class="ttdoc">A message is incomplete.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:216</div></div>
@@ -713,7 +715,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_error_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_92dd4b281d099a132d4a425cb79ee964.html">core</a></li><li class="navelem"><a class="el" href="_c_h_i_p_error_8h.html">CHIPError.h</a></li>
-    <li class="footer">Generated on Fri May 7 2021 16:23:14 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 7 2021 16:41:57 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

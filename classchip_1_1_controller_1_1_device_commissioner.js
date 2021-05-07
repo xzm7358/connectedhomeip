@@ -10,7 +10,6 @@ var classchip_1_1_controller_1_1_device_commissioner =
     [ "PairTestDeviceWithoutSecurity", "classchip_1_1_controller_1_1_device_commissioner.html#a3c39fbb01c28944c9cede2d53712913f", null ],
     [ "ReleaseDevice", "classchip_1_1_controller_1_1_device_commissioner.html#adeb062685e6022d317a4e76fde29706a", null ],
     [ "RendezvousCleanup", "classchip_1_1_controller_1_1_device_commissioner.html#a0c88792b87a2ffb391e50bd202b45380", null ],
-    [ "SetDevicePairingDelegate", "classchip_1_1_controller_1_1_device_commissioner.html#a7fe5bc27b70fc1fd995413f6887d0043", null ],
     [ "Shutdown", "classchip_1_1_controller_1_1_device_commissioner.html#a199bbdbb175afa85574bfdfe0e7747d0", null ],
     [ "StopPairing", "classchip_1_1_controller_1_1_device_commissioner.html#abd087a4f0e349af1f70b23f0e30ab00b", null ],
     [ "UnpairDevice", "classchip_1_1_controller_1_1_device_commissioner.html#af2a18d2ac6bfe84cf6c155872256073e", null ]

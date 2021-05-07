@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"_darwin_2_mdns_impl_8h.html":[11,0,7,1,24],
+"_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bd":[11,0,7,1,24,6],
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda05d26e7d7c53744b903ae1f6f8a8c7ed":[11,0,7,1,24,6,2],
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda0ba7583639a274c434bbe6ef797115a4":[11,0,7,1,24,6,0],
 "_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bda1b9abf135ccb7ed2f2cd9c155137c351":[11,0,7,1,24,6,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "_e_f_r32_2_platform_manager_impl_8cpp.html":[11,0,7,2,27],
 "_e_f_r32_2_platform_manager_impl_8h.html":[11,0,7,2,28],
 "_e_f_r32_2_platform_manager_impl_8h.html#a0f116f09a0e109f6a32f9d894bf01d42":[11,0,7,2,28,2],
-"_e_f_r32_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,2,28,1],
-"_e_f_r32_2_platform_manager_impl_8h_source.html":[11,0,7,2,28],
-"_e_f_r32_2_software_update_manager_impl_8cpp.html":[11,0,7,2,29]
+"_e_f_r32_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,2,28,1]
 };

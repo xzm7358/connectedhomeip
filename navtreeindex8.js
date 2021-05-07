@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"_chip_device_controller-_script_binding_8cpp.html#a4521063b73e8f9261e801a9feb098f56":[11,0,1,1,6,6],
+"_chip_device_controller-_script_binding_8cpp.html#a4e6645b3e754d96a2d543425d9d94364":[11,0,1,1,6,19],
 "_chip_device_controller-_script_binding_8cpp.html#a53e9bde5cf8287a35187018db5b20ea2":[11,0,1,1,6,24],
 "_chip_device_controller-_script_binding_8cpp.html#a5480478a67cc6aea4720609bf1e57417":[11,0,1,1,6,11],
 "_chip_device_controller-_script_binding_8cpp.html#a5f0c9f7f36ac0849d6fef4eae515eae2":[11,0,1,1,6,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "_darwin_2_mdns_impl_8cpp.html#ac7ace6d1b68f568aaf179e03c3fe1b18":[11,0,7,1,23,10],
 "_darwin_2_mdns_impl_8cpp.html#ad6fb23a7eb8e61f9c3982ec36ec27f9a":[11,0,7,1,23,8],
 "_darwin_2_mdns_impl_8cpp.html#ae80d61a0fbe83de8430fc2ec10cf0b8d":[11,0,7,1,23,13],
-"_darwin_2_mdns_impl_8cpp.html#afbba98fa3de45e9cd065838017c724e9":[11,0,7,1,23,4],
-"_darwin_2_mdns_impl_8h.html":[11,0,7,1,24],
-"_darwin_2_mdns_impl_8h.html#aed12ad4982822268431b690f1755e4bd":[11,0,7,1,24,6]
+"_darwin_2_mdns_impl_8cpp.html#afbba98fa3de45e9cd065838017c724e9":[11,0,7,1,23,4]
 };
