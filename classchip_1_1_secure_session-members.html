@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3752fa8</span>
+   &#160;<span id="projectnumber">983f66c</span>
    </div>
   </td>
  </tr>
@@ -93,20 +93,22 @@ $(document).ready(function(){initNavTree('classchip_1_1_secure_session.html','')
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a0a430196b2e7b8f5706a6f06e45b660e">Decrypt</a>(const uint8_t *input, size_t input_length, uint8_t *output, const PacketHeader &amp;header, const MessageAuthenticationCode &amp;mac) const</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91">Encrypt</a>(const uint8_t *input, size_t input_length, uint8_t *output, PacketHeader &amp;header, MessageAuthenticationCode &amp;mac) const</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a5f95a63534e43b65a0212ac909ea81f4">EncryptionOverhead</a>()</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a6031c3231a64f433daebe905279aab5e">Init</a>(const Crypto::P256Keypair &amp;local_keypair, const Crypto::P256PublicKey &amp;remote_public_key, const uint8_t *salt, size_t salt_length, const uint8_t *info, size_t info_length)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#ae60102673be317357da3c826e44897a3">InitFromSecret</a>(const uint8_t *secret, size_t secret_length, const uint8_t *salt, size_t salt_length, const uint8_t *info, size_t info_length)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a526ec14904bec552eba71c64814c3b9b">Init</a>(const Crypto::P256Keypair &amp;local_keypair, const Crypto::P256PublicKey &amp;remote_public_key, const ByteSpan &amp;salt, SessionInfoType infoType, SessionRole role)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a8518c322ff88711768a5bb3747086329">InitFromSecret</a>(const ByteSpan &amp;secret, const ByteSpan &amp;salt, SessionInfoType infoType, SessionRole role)</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a0c772d55b51a8bf740ba9bf795af8f75">operator=</a>(const SecureSession &amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a1e9dd21826ca01a0d2b1b1bad4643b53">operator=</a>(SecureSession &amp;&amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a60f20618bc248a0e9f6f0d90302d2560">Reset</a>()</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#ab2c8e930da4e05327f3e79ad97418eec">SecureSession</a>()</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#af8c270cfd73393751888fd2531f82499">SecureSession</a>(SecureSession &amp;&amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a76c7fe00a3445212ebc2a0b6e5a0d96e">SecureSession</a>(const SecureSession &amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a> enum name</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a> enum name</td><td class="entry"><a class="el" href="classchip_1_1_secure_session.html">chip::SecureSession</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 7 2021 15:02:46 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 7 2021 15:34:02 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

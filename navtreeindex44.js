@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"structchip_1_1_mdns_1_1_text_entry.html":[10,0,1,23,19],
+"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,1,23,19,2],
 "structchip_1_1_mdns_1_1_text_entry.html#a58e9e54ffa2a492db9b0254d195a1345":[10,0,1,23,19,1],
 "structchip_1_1_mdns_1_1_text_entry.html#afa8f6f7fba30d94a75037b94926f1f17":[10,0,1,23,19,0],
 "structchip_1_1_optional_q_r_code_info.html":[10,0,1,53],

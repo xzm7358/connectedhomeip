@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"functions_vars_c.html":[10,3,2,3],
+"functions_vars_d.html":[10,3,2,4],
 "functions_vars_e.html":[10,3,2,5],
 "functions_vars_f.html":[10,3,2,6],
 "functions_vars_g.html":[10,3,2,7],
@@ -52,8 +54,8 @@ var NAVTREEINDEX39 =
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md45":[2],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md46":[3],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md47":[4],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md48":[5],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md49":[6],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md50":[7]
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md48":[5]
 };

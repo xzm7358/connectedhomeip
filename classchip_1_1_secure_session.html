@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3752fa8</span>
+   &#160;<span id="projectnumber">983f66c</span>
    </div>
   </td>
  </tr>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classchip_1_1_secure_session.html','')
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classchip_1_1_secure_session-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -93,6 +94,24 @@ $(document).ready(function(){initNavTree('classchip_1_1_secure_session.html','')
 
 <p><code>#include &lt;<a class="el" href="_secure_session_8h_source.html">transport/SecureSession.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:abf2a1e83435a92306905809b4a43094a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a> { <br />
+&#160;&#160;<a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094aaa1fff7e2bce908ad9dc9839126ce7822">SessionRole::kInitiator</a>, 
+<br />
+&#160;&#160;<a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094aaab1e0e26ba2af19a9ec7fcc04f904d36">SessionRole::kResponder</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:abf2a1e83435a92306905809b4a43094a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the current node initiated the session, or it is responded to a session request.  <a href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">More...</a><br /></td></tr>
+<tr class="separator:abf2a1e83435a92306905809b4a43094a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bf0fbb78eb39e93dc5531116428698"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a> { <br />
+&#160;&#160;<a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698ab4f962b8abd733253fc2b16b9abaf7d6">SessionInfoType::kSessionEstablishment</a>, 
+<br />
+&#160;&#160;<a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698a19962de4e5f8eeb7520958974c2b542f">SessionInfoType::kSessionResumption</a>
+<br />
+ }</td></tr>
+<tr class="separator:a70bf0fbb78eb39e93dc5531116428698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2c8e930da4e05327f3e79ad97418eec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#ab2c8e930da4e05327f3e79ad97418eec">SecureSession</a> ()</td></tr>
@@ -105,12 +124,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0c772d55b51a8bf740ba9bf795af8f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e9dd21826ca01a0d2b1b1bad4643b53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_secure_session.html">SecureSession</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#a1e9dd21826ca01a0d2b1b1bad4643b53">operator=</a> (<a class="el" href="classchip_1_1_secure_session.html">SecureSession</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:a1e9dd21826ca01a0d2b1b1bad4643b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6031c3231a64f433daebe905279aab5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#a6031c3231a64f433daebe905279aab5e">Init</a> (const <a class="el" href="classchip_1_1_crypto_1_1_p256_keypair.html">Crypto::P256Keypair</a> &amp;local_keypair, const <a class="el" href="classchip_1_1_crypto_1_1_p256_public_key.html">Crypto::P256PublicKey</a> &amp;remote_public_key, const uint8_t *salt, size_t salt_length, const uint8_t *info, size_t info_length)</td></tr>
-<tr class="memdesc:a6031c3231a64f433daebe905279aab5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive a shared key.  <a href="classchip_1_1_secure_session.html#a6031c3231a64f433daebe905279aab5e">More...</a><br /></td></tr>
-<tr class="separator:a6031c3231a64f433daebe905279aab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae60102673be317357da3c826e44897a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#ae60102673be317357da3c826e44897a3">InitFromSecret</a> (const uint8_t *secret, size_t secret_length, const uint8_t *salt, size_t salt_length, const uint8_t *info, size_t info_length)</td></tr>
-<tr class="memdesc:ae60102673be317357da3c826e44897a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive a shared key.  <a href="classchip_1_1_secure_session.html#ae60102673be317357da3c826e44897a3">More...</a><br /></td></tr>
-<tr class="separator:ae60102673be317357da3c826e44897a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526ec14904bec552eba71c64814c3b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#a526ec14904bec552eba71c64814c3b9b">Init</a> (const <a class="el" href="classchip_1_1_crypto_1_1_p256_keypair.html">Crypto::P256Keypair</a> &amp;local_keypair, const <a class="el" href="classchip_1_1_crypto_1_1_p256_public_key.html">Crypto::P256PublicKey</a> &amp;remote_public_key, const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;salt, <a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a> infoType, <a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a> role)</td></tr>
+<tr class="memdesc:a526ec14904bec552eba71c64814c3b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive a shared key.  <a href="classchip_1_1_secure_session.html#a526ec14904bec552eba71c64814c3b9b">More...</a><br /></td></tr>
+<tr class="separator:a526ec14904bec552eba71c64814c3b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8518c322ff88711768a5bb3747086329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#a8518c322ff88711768a5bb3747086329">InitFromSecret</a> (const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;secret, const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;salt, <a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a> infoType, <a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a> role)</td></tr>
+<tr class="memdesc:a8518c322ff88711768a5bb3747086329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derive a shared key.  <a href="classchip_1_1_secure_session.html#a8518c322ff88711768a5bb3747086329">More...</a><br /></td></tr>
+<tr class="separator:a8518c322ff88711768a5bb3747086329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb207fa7f5e920013d811e91edbf0a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91">Encrypt</a> (const uint8_t *input, size_t input_length, uint8_t *output, <a class="el" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp;header, <a class="el" href="classchip_1_1_message_authentication_code.html">MessageAuthenticationCode</a> &amp;mac) const</td></tr>
 <tr class="memdesc:afb207fa7f5e920013d811e91edbf0a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypt the input data using keys established in the secure channel.  <a href="classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91">More...</a><br /></td></tr>
 <tr class="separator:afb207fa7f5e920013d811e91edbf0a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,6 +143,65 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a60f20618bc248a0e9f6f0d90302d2560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the internal state of secure session back to the state of a new object.  <a href="classchip_1_1_secure_session.html#a60f20618bc248a0e9f6f0d90302d2560">More...</a><br /></td></tr>
 <tr class="separator:a60f20618bc248a0e9f6f0d90302d2560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a70bf0fbb78eb39e93dc5531116428698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bf0fbb78eb39e93dc5531116428698">&#9670;&nbsp;</a></span>SessionInfoType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">chip::SecureSession::SessionInfoType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70bf0fbb78eb39e93dc5531116428698ab4f962b8abd733253fc2b16b9abaf7d6"></a>kSessionEstablishment&#160;</td><td class="fielddoc"><p>A new secure session is established. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a70bf0fbb78eb39e93dc5531116428698a19962de4e5f8eeb7520958974c2b542f"></a>kSessionResumption&#160;</td><td class="fielddoc"><p>An old session is being resumed. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="abf2a1e83435a92306905809b4a43094a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2a1e83435a92306905809b4a43094a">&#9670;&nbsp;</a></span>SessionRole</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">chip::SecureSession::SessionRole</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the current node initiated the session, or it is responded to a session request. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abf2a1e83435a92306905809b4a43094aaa1fff7e2bce908ad9dc9839126ce7822"></a>kInitiator&#160;</td><td class="fielddoc"><p>We initiated the session. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="abf2a1e83435a92306905809b4a43094aaab1e0e26ba2af19a9ec7fcc04f904d36"></a>kResponder&#160;</td><td class="fielddoc"><p>We responded to the session request. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab2c8e930da4e05327f3e79ad97418eec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2c8e930da4e05327f3e79ad97418eec">&#9670;&nbsp;</a></span>SecureSession() <span class="overload">[1/3]</span></h2>
@@ -334,13 +412,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Memory overhead of encrypting data. </p>
-<p>The overhead is indepedent of size of the data being encrypted. The extra space is used for storing the common header.</p>
+<p>The overhead is independent of size of the data being encrypted. The extra space is used for storing the common header.</p>
 <dl class="section return"><dt>Returns</dt><dd>number of bytes. </dd></dl>
 
 </div>
 </div>
-<a id="a6031c3231a64f433daebe905279aab5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6031c3231a64f433daebe905279aab5e">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="a526ec14904bec552eba71c64814c3b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526ec14904bec552eba71c64814c3b9b">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,26 +438,20 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;&#160;</td>
           <td class="paramname"><em>salt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>salt_length</em>, </td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a>&#160;</td>
+          <td class="paramname"><em>infoType</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>info</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>info_length</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a>&#160;</td>
+          <td class="paramname"><em>role</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -390,15 +462,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Derive a shared key. </p>
-<p>The derived key will be used for encryting/decrypting data exchanged on the secure channel.</p>
+<p>The derived key will be used for encrypting/decrypting data exchanged on the secure channel.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">local_keypair</td><td>A pointer to local ECP keypair </td></tr>
-    <tr><td class="paramname">remote_public_key</td><td>A pointer to peer's public key </td></tr>
-    <tr><td class="paramname">salt</td><td>A pointer to the initial salt used for deriving the keys </td></tr>
-    <tr><td class="paramname">salt_length</td><td>Length of the initial salt </td></tr>
-    <tr><td class="paramname">info</td><td>A pointer to the initial info </td></tr>
-    <tr><td class="paramname">info_length</td><td>Length of the initial info </td></tr>
+    <tr><td class="paramname">local_keypair</td><td>A reference to local ECP keypair </td></tr>
+    <tr><td class="paramname">remote_public_key</td><td>A reference to peer's public key </td></tr>
+    <tr><td class="paramname">salt</td><td>A reference to the initial salt used for deriving the keys </td></tr>
+    <tr><td class="paramname">infoType</td><td>The info buffer to use for deriving session keys </td></tr>
+    <tr><td class="paramname">role</td><td>Role of the new session (initiator or responder) </td></tr>
   </table>
   </dd>
 </dl>
@@ -406,8 +477,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae60102673be317357da3c826e44897a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae60102673be317357da3c826e44897a3">&#9670;&nbsp;</a></span>InitFromSecret()</h2>
+<a id="a8518c322ff88711768a5bb3747086329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8518c322ff88711768a5bb3747086329">&#9670;&nbsp;</a></span>InitFromSecret()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,38 +486,26 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SecureSession::InitFromSecret </td>
           <td>(</td>
-          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;&#160;</td>
           <td class="paramname"><em>secret</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>secret_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> &amp;&#160;</td>
           <td class="paramname"><em>salt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>salt_length</em>, </td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_secure_session.html#a70bf0fbb78eb39e93dc5531116428698">SessionInfoType</a>&#160;</td>
+          <td class="paramname"><em>infoType</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>info</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>info_length</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">SessionRole</a>&#160;</td>
+          <td class="paramname"><em>role</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -457,15 +516,13 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Derive a shared key. </p>
-<p>The derived key will be used for encryting/decrypting data exchanged on the secure channel.</p>
+<p>The derived key will be used for encrypting/decrypting data exchanged on the secure channel.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">secret</td><td>A pointer to the shared secret </td></tr>
-    <tr><td class="paramname">secret_length</td><td>Length of the shared secret </td></tr>
-    <tr><td class="paramname">salt</td><td>A pointer to the initial salt used for deriving the keys </td></tr>
-    <tr><td class="paramname">salt_length</td><td>Length of the initial salt </td></tr>
-    <tr><td class="paramname">info</td><td>A pointer to the initial info </td></tr>
-    <tr><td class="paramname">info_length</td><td>Length of the initial info </td></tr>
+    <tr><td class="paramname">secret</td><td>A reference to the shared secret </td></tr>
+    <tr><td class="paramname">salt</td><td>A reference to the initial salt used for deriving the keys </td></tr>
+    <tr><td class="paramname">infoType</td><td>The info buffer to use for deriving session keys </td></tr>
+    <tr><td class="paramname">role</td><td>Role of the new session (initiator or responder) </td></tr>
   </table>
   </dd>
 </dl>
@@ -554,7 +611,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_secure_session.html">SecureSession</a></li>
-    <li class="footer">Generated on Fri May 7 2021 15:02:46 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 7 2021 15:34:02 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
