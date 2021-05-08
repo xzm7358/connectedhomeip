@@ -4,5 +4,6 @@ var classchip_1_1_mdns_1_1_service_advertiser =
     [ "Advertise", "classchip_1_1_mdns_1_1_service_advertiser.html#adf634ad5380ea4ad6e22a4b42eb802f3", null ],
     [ "Advertise", "classchip_1_1_mdns_1_1_service_advertiser.html#a6c58db608d72450eb8253027b18f617c", null ],
     [ "Instance", "classchip_1_1_mdns_1_1_service_advertiser.html#a37cbc534b0691a61cae66b45017ccfcd", null ],
-    [ "Start", "classchip_1_1_mdns_1_1_service_advertiser.html#ae4f9d17c8c6e7c37079b36d43d0254a8", null ]
+    [ "Start", "classchip_1_1_mdns_1_1_service_advertiser.html#ae4f9d17c8c6e7c37079b36d43d0254a8", null ],
+    [ "StopPublishDevice", "classchip_1_1_mdns_1_1_service_advertiser.html#a764f446f0c165b8fe0f1855fecc33352", null ]
 ];

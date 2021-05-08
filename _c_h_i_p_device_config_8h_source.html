@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -360,191 +360,239 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_config_8h_source.html'
 <div class="line"><a name="l00619"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a207b13c004142631e49d9889ff9dccec">  619</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_MDNS 0</span></div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160; </div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT</span></div>
-<div class="line"><a name="l00628"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aebc41f873239ec77215bec5351d471c6">  628</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT 0</span></div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160; </div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES</span></div>
-<div class="line"><a name="l00637"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad">  637</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES 3</span></div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160; </div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;<span class="comment">// -------------------- Thread Configuration --------------------</span></div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160; </div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD</span></div>
-<div class="line"><a name="l00648"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b">  648</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD 0</span></div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160; </div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_FTD</span></div>
-<div class="line"><a name="l00657"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a756d1617d7a9b4b471711fc3dee3f3ab">  657</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_FTD 1</span></div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160; </div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_NAME</span></div>
-<div class="line"><a name="l00666"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a02a24f49cf82ab8f756f036f7cb7524d">  666</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_NAME &quot;THREAD&quot;</span></div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160; </div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00675"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">  675</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE 8192</span></div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_PRIORITY</span></div>
-<div class="line"><a name="l00684"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a99ddbe69365c8dadefa7e2c63217fb03">  684</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_PRIORITY 2</span></div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160; </div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_LWIP_THREAD_IF_NAME</span></div>
-<div class="line"><a name="l00693"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a43d86d4dfb4ade83802c1d6ad9272122">  693</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LWIP_THREAD_IF_NAME &quot;th&quot;</span></div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160; </div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_IF_MTU</span></div>
-<div class="line"><a name="l00702"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3deefb6a1b7079fa20fad7890f06db54">  702</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_IF_MTU 1280</span></div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160; </div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEFAULT_THREAD_NETWORK_NAME_PREFIX</span></div>
-<div class="line"><a name="l00711"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3f91758aff7d3a7acccd1dd83991727a">  711</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEFAULT_THREAD_NETWORK_NAME_PREFIX &quot;CHIP-PAN-&quot;</span></div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160; </div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT</span></div>
-<div class="line"><a name="l00721"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a011c0553246ac8255672464353a94f57">  721</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT 30000</span></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160; </div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;<span class="comment">// -------------------- Trait Manager Configuration --------------------</span></div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160; </div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_TRAIT_MANAGER</span></div>
-<div class="line"><a name="l00734"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5f7b51cde77b391453492c4d8407ba79">  734</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_TRAIT_MANAGER 0</span></div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_UNPROVISIONED_MDNS</span></div>
+<div class="line"><a name="l00632"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aa815bba515245df25deaa122d379297d">  632</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_UNPROVISIONED_MDNS 0</span></div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160; </div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT</span></div>
+<div class="line"><a name="l00641"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aebc41f873239ec77215bec5351d471c6">  641</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT 0</span></div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160; </div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES</span></div>
+<div class="line"><a name="l00650"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad">  650</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES 3</span></div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160; </div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;<span class="comment">// -------------------- Thread Configuration --------------------</span></div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160; </div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD</span></div>
+<div class="line"><a name="l00661"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b">  661</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD 0</span></div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160; </div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_FTD</span></div>
+<div class="line"><a name="l00670"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a756d1617d7a9b4b471711fc3dee3f3ab">  670</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_FTD 1</span></div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160; </div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_NAME</span></div>
+<div class="line"><a name="l00679"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a02a24f49cf82ab8f756f036f7cb7524d">  679</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_NAME &quot;THREAD&quot;</span></div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160; </div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00688"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">  688</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE 8192</span></div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160; </div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_PRIORITY</span></div>
+<div class="line"><a name="l00697"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a99ddbe69365c8dadefa7e2c63217fb03">  697</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_PRIORITY 2</span></div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160; </div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_LWIP_THREAD_IF_NAME</span></div>
+<div class="line"><a name="l00706"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a43d86d4dfb4ade83802c1d6ad9272122">  706</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LWIP_THREAD_IF_NAME &quot;th&quot;</span></div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_IF_MTU</span></div>
+<div class="line"><a name="l00715"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3deefb6a1b7079fa20fad7890f06db54">  715</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_IF_MTU 1280</span></div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160; </div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEFAULT_THREAD_NETWORK_NAME_PREFIX</span></div>
+<div class="line"><a name="l00724"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a3f91758aff7d3a7acccd1dd83991727a">  724</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEFAULT_THREAD_NETWORK_NAME_PREFIX &quot;CHIP-PAN-&quot;</span></div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160; </div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT</span></div>
+<div class="line"><a name="l00734"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a011c0553246ac8255672464353a94f57">  734</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT 30000</span></div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160; </div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;<span class="comment">// -------------------- Test Configuration --------------------</span></div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;<span class="comment">// -------------------- Trait Manager Configuration --------------------</span></div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160; </div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_TEST_DEVICE_IDENTITY</span></div>
-<div class="line"><a name="l00749"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a89fabea524f78df95ff708422f546347">  749</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_TEST_DEVICE_IDENTITY 0</span></div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_TRAIT_MANAGER</span></div>
+<div class="line"><a name="l00747"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5f7b51cde77b391453492c4d8407ba79">  747</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_TRAIT_MANAGER 0</span></div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160; </div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;<span class="comment">// -------------------- Test Configuration --------------------</span></div>
 <div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160; </div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;<span class="comment">// -------------------- Network Telemetry Configuration --------------------</span></div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160; </div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY</span></div>
-<div class="line"><a name="l00761"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#acad19e7385da5f597eb0fee94773aed3">  761</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY (0)</span></div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160; </div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY</span></div>
-<div class="line"><a name="l00771"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">  771</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY (0)</span></div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160; </div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;<span class="preprocessor">#if CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY &amp;&amp; !CHIP_DEVICE_CONFIG_ENABLE_THREAD</span></div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;<span class="preprocessor">#error &quot;If CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY set, then CHIP_DEVICE_CONFIG_ENABLE_THREAD must also be set.&quot;</span></div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160; </div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL</span></div>
-<div class="line"><a name="l00789"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">  789</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL (0)</span></div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160; </div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;<span class="preprocessor">#if CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL &amp;&amp; !CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY</span></div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;<span class="preprocessor">#error &quot;If CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL set, then CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY must also be set.&quot;</span></div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160; </div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;<span class="comment">// Enable Network Telemetry feature if it is enabled for at lease one network.</span></div>
-<div class="line"><a name="l00797"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2e5807fbba29597af696bf8671501b61">  797</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_NETWORK_TELEMETRY                                                                                \</span></div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;<span class="preprocessor">    (CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY || CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY)</span></div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEFAULT_TELEMETRY_INTERVAL_MS</span></div>
-<div class="line"><a name="l00810"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#af107289963ac86b868271d4beff6bca6">  810</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEFAULT_TELEMETRY_INTERVAL_MS 90000</span></div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_TEST_DEVICE_IDENTITY</span></div>
+<div class="line"><a name="l00762"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a89fabea524f78df95ff708422f546347">  762</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_TEST_DEVICE_IDENTITY 0</span></div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160; </div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;<span class="comment">// -------------------- Network Telemetry Configuration --------------------</span></div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160; </div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY</span></div>
+<div class="line"><a name="l00774"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#acad19e7385da5f597eb0fee94773aed3">  774</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY (0)</span></div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160; </div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY</span></div>
+<div class="line"><a name="l00784"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">  784</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY (0)</span></div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160; </div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;<span class="preprocessor">#if CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY &amp;&amp; !CHIP_DEVICE_CONFIG_ENABLE_THREAD</span></div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;<span class="preprocessor">#error &quot;If CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY set, then CHIP_DEVICE_CONFIG_ENABLE_THREAD must also be set.&quot;</span></div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160; </div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL</span></div>
+<div class="line"><a name="l00802"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">  802</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL (0)</span></div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160; </div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;<span class="preprocessor">#if CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL &amp;&amp; !CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY</span></div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;<span class="preprocessor">#error &quot;If CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL set, then CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY must also be set.&quot;</span></div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160; </div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;<span class="comment">// Enable Network Telemetry feature if it is enabled for at lease one network.</span></div>
+<div class="line"><a name="l00810"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2e5807fbba29597af696bf8671501b61">  810</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_NETWORK_TELEMETRY                                                                                \</span></div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;<span class="preprocessor">    (CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY || CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY)</span></div>
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160; </div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;<span class="comment">// -------------------- Event Logging Configuration --------------------</span></div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160; </div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE</span></div>
-<div class="line"><a name="l00823"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac96c32acdda5b4159686e88105eae377">  823</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE (1024)</span></div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEFAULT_TELEMETRY_INTERVAL_MS</span></div>
+<div class="line"><a name="l00823"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#af107289963ac86b868271d4beff6bca6">  823</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEFAULT_TELEMETRY_INTERVAL_MS 90000</span></div>
 <div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160; </div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;<span class="preprocessor">#if (CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE &lt;= 0)</span></div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;<span class="preprocessor">#error &quot;The Prod critical event buffer must exist (CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE &gt; 0)&quot;</span></div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160; </div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE</span></div>
-<div class="line"><a name="l00838"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5ad4f6eb970bcc46982f2e9ade0cd742">  838</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE (512)</span></div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160; </div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;<span class="preprocessor">#if (CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE &lt;= 0)</span></div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;<span class="preprocessor">#error &quot;The Prod event buffer must exist (CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE &gt; 0)&quot;</span></div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160; </div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_INFO_BUFFER_SIZE</span></div>
-<div class="line"><a name="l00854"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac4e42896da5958ced01b7e2c2cbafdd2">  854</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_INFO_BUFFER_SIZE (512)</span></div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160; </div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_DEBUG_BUFFER_SIZE</span></div>
-<div class="line"><a name="l00866"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a48ae0d2e7642d0354a86904f0601e261">  866</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_DEBUG_BUFFER_SIZE (256)</span></div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160; </div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_ID_COUNTER_EPOCH</span></div>
-<div class="line"><a name="l00876"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2eec42409c5be61762b33ab08d393afb">  876</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_ID_COUNTER_EPOCH (0x10000)</span></div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160; </div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_CRIT_EIDC_KEY</span></div>
-<div class="line"><a name="l00886"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5">  886</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_CRIT_EIDC_KEY &quot;crit-eidc&quot;</span></div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160; </div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_PROD_EIDC_KEY</span></div>
-<div class="line"><a name="l00896"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa">  896</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_PROD_EIDC_KEY &quot;prod-eidc&quot;</span></div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160; </div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY</span></div>
-<div class="line"><a name="l00906"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0">  906</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY &quot;info-eidc&quot;</span></div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160; </div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY</span></div>
-<div class="line"><a name="l00916"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae">  916</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY &quot;debug-eidc&quot;</span></div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160; </div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;<span class="comment">// -------------------- Software Update Manager Configuration --------------------</span></div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160; </div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_SOFTWARE_UPDATE_MANAGER</span></div>
-<div class="line"><a name="l00928"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#abb118a1cca6d244a3a4f0e8ee4254791">  928</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_SOFTWARE_UPDATE_MANAGER 1</span></div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160; </div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_URI_LEN</span></div>
-<div class="line"><a name="l00939"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a30918440005df2737588a4abc9022762">  939</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_URI_LEN 128</span></div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160; </div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_ENDPOINT_ID</span></div>
-<div class="line"><a name="l00950"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#af6d420ff8c610f84456bcbff1def17c0">  950</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_ENDPOINT_ID 0x18B4300200000002ULL</span></div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160; </div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_ENDPOINT_ID</span></div>
-<div class="line"><a name="l00960"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aa88088f88170ed6532f7ab91df1911d2">  960</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_ENDPOINT_ID 0x18B4300200000013ULL</span></div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160; </div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_RESPONSE_TIMEOUT</span></div>
-<div class="line"><a name="l00971"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a9aff2e1bcfe11618206a23f2349cb1a6">  971</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_RESPONSE_TIMEOUT 10000</span></div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160; </div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_RESPONSE_TIMEOUT</span></div>
-<div class="line"><a name="l00982"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a96056d7db7be93147c2e2b1ac596d14f">  982</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_RESPONSE_TIMEOUT 10000</span></div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160; </div>
-<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_RETRIES</span></div>
-<div class="line"><a name="l00992"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aee8beeaa4bf8ac22b6f2d083d00b8a09">  992</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_RETRIES 5</span></div>
-<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160; </div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_WAIT_TIME_INTERVAL_MS</span></div>
-<div class="line"><a name="l01002"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac7a6763ea0801dc71acc54bc4d9a6e36"> 1002</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_WAIT_TIME_INTERVAL_MS 1 * 60 * 60 * 1000 // 1 hour</span></div>
-<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160; </div>
-<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SWU_MIN_WAIT_TIME_INTERVAL_PERCENT_PER_STEP</span></div>
-<div class="line"><a name="l01015"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2ae53038ff4009af57d0623db0ddd0eb"> 1015</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_MIN_WAIT_TIME_INTERVAL_PERCENT_PER_STEP 50</span></div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;<span class="comment">// -------------------- Event Logging Configuration --------------------</span></div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160; </div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE</span></div>
+<div class="line"><a name="l00836"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac96c32acdda5b4159686e88105eae377">  836</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE (1024)</span></div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160; </div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;<span class="preprocessor">#if (CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE &lt;= 0)</span></div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;<span class="preprocessor">#error &quot;The Prod critical event buffer must exist (CHIP_DEVICE_CONFIG_EVENT_LOGGING_CRIT_BUFFER_SIZE &gt; 0)&quot;</span></div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160; </div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE</span></div>
+<div class="line"><a name="l00851"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5ad4f6eb970bcc46982f2e9ade0cd742">  851</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE (512)</span></div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160; </div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;<span class="preprocessor">#if (CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE &lt;= 0)</span></div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="preprocessor">#error &quot;The Prod event buffer must exist (CHIP_DEVICE_CONFIG_EVENT_LOGGING_PROD_BUFFER_SIZE &gt; 0)&quot;</span></div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160; </div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_INFO_BUFFER_SIZE</span></div>
+<div class="line"><a name="l00867"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac4e42896da5958ced01b7e2c2cbafdd2">  867</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_INFO_BUFFER_SIZE (512)</span></div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160; </div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_LOGGING_DEBUG_BUFFER_SIZE</span></div>
+<div class="line"><a name="l00879"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a48ae0d2e7642d0354a86904f0601e261">  879</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_LOGGING_DEBUG_BUFFER_SIZE (256)</span></div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160; </div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_EVENT_ID_COUNTER_EPOCH</span></div>
+<div class="line"><a name="l00889"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2eec42409c5be61762b33ab08d393afb">  889</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_EVENT_ID_COUNTER_EPOCH (0x10000)</span></div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160; </div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_CRIT_EIDC_KEY</span></div>
+<div class="line"><a name="l00899"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5">  899</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_CRIT_EIDC_KEY &quot;crit-eidc&quot;</span></div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160; </div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_PROD_EIDC_KEY</span></div>
+<div class="line"><a name="l00909"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa">  909</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_PROD_EIDC_KEY &quot;prod-eidc&quot;</span></div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY</span></div>
+<div class="line"><a name="l00919"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0">  919</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY &quot;info-eidc&quot;</span></div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160; </div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY</span></div>
+<div class="line"><a name="l00929"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae">  929</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY &quot;debug-eidc&quot;</span></div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160; </div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;<span class="comment">// -------------------- Software Update Manager Configuration --------------------</span></div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160; </div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_SOFTWARE_UPDATE_MANAGER</span></div>
+<div class="line"><a name="l00941"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#abb118a1cca6d244a3a4f0e8ee4254791">  941</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_SOFTWARE_UPDATE_MANAGER 1</span></div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160; </div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_URI_LEN</span></div>
+<div class="line"><a name="l00952"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a30918440005df2737588a4abc9022762">  952</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_URI_LEN 128</span></div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160; </div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_ENDPOINT_ID</span></div>
+<div class="line"><a name="l00963"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#af6d420ff8c610f84456bcbff1def17c0">  963</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_ENDPOINT_ID 0x18B4300200000002ULL</span></div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160; </div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_ENDPOINT_ID</span></div>
+<div class="line"><a name="l00973"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aa88088f88170ed6532f7ab91df1911d2">  973</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_ENDPOINT_ID 0x18B4300200000013ULL</span></div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160; </div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_RESPONSE_TIMEOUT</span></div>
+<div class="line"><a name="l00984"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a9aff2e1bcfe11618206a23f2349cb1a6">  984</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_RESPONSE_TIMEOUT 10000</span></div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160; </div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_RESPONSE_TIMEOUT</span></div>
+<div class="line"><a name="l00995"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a96056d7db7be93147c2e2b1ac596d14f">  995</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FILE_DOWNLOAD_RESPONSE_TIMEOUT 10000</span></div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160; </div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_RETRIES</span></div>
+<div class="line"><a name="l01005"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aee8beeaa4bf8ac22b6f2d083d00b8a09"> 1005</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_RETRIES 5</span></div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160; </div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_WAIT_TIME_INTERVAL_MS</span></div>
+<div class="line"><a name="l01015"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ac7a6763ea0801dc71acc54bc4d9a6e36"> 1015</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SOFTWARE_UPDATE_MAX_WAIT_TIME_INTERVAL_MS 1 * 60 * 60 * 1000 // 1 hour</span></div>
 <div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160; </div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SWU_WAIT_TIME_MULTIPLIER_MS</span></div>
-<div class="line"><a name="l01029"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a8ef2b946a5fa9217742e06898fe9d104"> 1029</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_WAIT_TIME_MULTIPLIER_MS 1 * 60 * 1000 // 1 minute</span></div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160; </div>
-<div class="line"><a name="l01037"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a544f3da800d071b1611322100bd1f976"> 1037</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_BDX_BLOCK_SIZE 1024</span></div>
-<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160; </div>
-<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FIRWMARE_BUILD_DATE</span></div>
-<div class="line"><a name="l01045"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aaca17b0b467549954af132fba478349f"> 1045</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FIRWMARE_BUILD_DATE __DATE__</span></div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160; </div>
-<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FIRMWARE_BUILD_TIME</span></div>
-<div class="line"><a name="l01054"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5598ac87257179cf89e366d89196b582"> 1054</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FIRMWARE_BUILD_TIME __TIME__</span></div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SWU_MIN_WAIT_TIME_INTERVAL_PERCENT_PER_STEP</span></div>
+<div class="line"><a name="l01028"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a2ae53038ff4009af57d0623db0ddd0eb"> 1028</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_MIN_WAIT_TIME_INTERVAL_PERCENT_PER_STEP 50</span></div>
+<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160; </div>
+<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_SWU_WAIT_TIME_MULTIPLIER_MS</span></div>
+<div class="line"><a name="l01042"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a8ef2b946a5fa9217742e06898fe9d104"> 1042</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_WAIT_TIME_MULTIPLIER_MS 1 * 60 * 1000 // 1 minute</span></div>
+<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160; </div>
+<div class="line"><a name="l01050"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a544f3da800d071b1611322100bd1f976"> 1050</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_SWU_BDX_BLOCK_SIZE 1024</span></div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160; </div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FIRWMARE_BUILD_DATE</span></div>
+<div class="line"><a name="l01058"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aaca17b0b467549954af132fba478349f"> 1058</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FIRWMARE_BUILD_DATE __DATE__</span></div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160; </div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_FIRMWARE_BUILD_TIME</span></div>
+<div class="line"><a name="l01067"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5598ac87257179cf89e366d89196b582"> 1067</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_FIRMWARE_BUILD_TIME __TIME__</span></div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160; </div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;<span class="comment">// -------------------- Device DNS-SD Advertising Configuration --------------------</span></div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160; </div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONER_DISCOVERY</span></div>
+<div class="line"><a name="l01080"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a502e7c454de99dbb006f736e7992de7e"> 1080</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONER_DISCOVERY 0</span></div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160; </div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_EXTENDED_DISCOVERY</span></div>
+<div class="line"><a name="l01090"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a40085e8f02a94dec41e9231b1744f3b1"> 1090</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_EXTENDED_DISCOVERY 0</span></div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160; </div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONABLE_DEVICE_TYPE</span></div>
+<div class="line"><a name="l01101"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#aa5b0a746a7e139e7a871c92a997dfa22"> 1101</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONABLE_DEVICE_TYPE 0</span></div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160; </div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEVICE_TYPE</span></div>
+<div class="line"><a name="l01117"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a5703e07494ec0d0a5b67c9e4d1a4d992"> 1117</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEVICE_TYPE 65535 // 65535 = Invalid Device Type</span></div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160; </div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONABLE_DEVICE_NAME</span></div>
+<div class="line"><a name="l01128"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#af0e2ce9580ae9d6e0e145488a1f26458"> 1128</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONABLE_DEVICE_NAME 0</span></div>
+<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160; </div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_DEVICE_NAME</span></div>
+<div class="line"><a name="l01137"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a374abd9472c88f2d68ad7a9c742cb574"> 1137</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_DEVICE_NAME &quot;Test Kitchen&quot;</span></div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160; </div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PAIRING_INITIAL_HINT</span></div>
+<div class="line"><a name="l01151"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a4fffd0f0bcd78c77a3972861d95fc479"> 1151</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PAIRING_INITIAL_HINT                                                                                    \</span></div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;<span class="preprocessor">    (1 &lt;&lt; CHIP_COMMISSIONING_HINT_INDEX_POWER_CYCLE | 1 &lt;&lt; CHIP_COMMISSIONING_HINT_INDEX_SEE_MANUAL)</span></div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160; </div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PAIRING_INITIAL_INSTRUCTION</span></div>
+<div class="line"><a name="l01163"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a10839254ac83e592337ba6545b6045bb"> 1163</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PAIRING_INITIAL_INSTRUCTION &quot;&quot;</span></div>
+<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160; </div>
+<div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PAIRING_SECONDARY_HINT</span></div>
+<div class="line"><a name="l01177"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#a1ed801e3ccd7c3740d05eca1672b4500"> 1177</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PAIRING_SECONDARY_HINT                                                                                  \</span></div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;<span class="preprocessor">    (1 &lt;&lt; CHIP_COMMISSIONING_HINT_INDEX_SEE_ADMINISTRATOR_UX | 1 &lt;&lt; CHIP_COMMISSIONING_HINT_INDEX_SEE_MANUAL)</span></div>
+<div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160; </div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_PAIRING_SECONDARY_INSTRUCTION</span></div>
+<div class="line"><a name="l01189"></a><span class="lineno"><a class="line" href="_c_h_i_p_device_config_8h.html#ab61744f5649f56287e83696f3ace785e"> 1189</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PAIRING_SECONDARY_INSTRUCTION &quot;&quot;</span></div>
+<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_c_h_i_p_config_8h_html"><div class="ttname"><a href="_c_h_i_p_config_8h.html">CHIPConfig.h</a></div></div>
@@ -552,7 +600,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_config_8h_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0856f6b0d80ccb263b2f415c91f9e17.html">include</a></li><li class="navelem"><a class="el" href="dir_df831df81a9fbd12274847662d04f5a8.html">platform</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_config_8h.html">CHIPDeviceConfig.h</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:08 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -291,10 +291,10 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -386,7 +386,6 @@ var hierarchy =
     [ "chip::Optional< NodeId >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
-    [ "chip::Optional< uint8_t >", "classchip_1_1_optional.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
@@ -412,8 +411,8 @@ var hierarchy =
     [ "chip::Transport::PeerConnections< kMaxConnectionCount, kTimeSource >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnections< CHIP_CONFIG_PEER_CONNECTION_POOL_SIZE >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
-    [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
     [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
+    [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],
@@ -510,9 +509,9 @@ var hierarchy =
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

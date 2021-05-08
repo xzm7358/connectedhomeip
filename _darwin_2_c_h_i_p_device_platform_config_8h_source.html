@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -124,42 +124,44 @@ $(document).ready(function(){initNavTree('_darwin_2_c_h_i_p_device_platform_conf
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0">   41</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY 4</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae">   42</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY 5</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// ========== Platform-specific Configuration =========</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#aa815bba515245df25deaa122d379297d">   44</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_UNPROVISIONED_MDNS 1</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// These are configuration options that are unique to Darwin platforms.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// These can be overridden by the application as needed.</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a5f4fa3550c1ba01727420ce2aab7f595">   56</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY 3</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a97f36984cf1171088848fadd90d6c992">   66</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG 1</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">// ========== Platform-specific Configuration Overrides =========</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// ========== Platform-specific Configuration =========</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// These are configuration options that are unique to Darwin platforms.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">// These can be overridden by the application as needed.</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a5f4fa3550c1ba01727420ce2aab7f595">   58</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY 3</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a97f36984cf1171088848fadd90d6c992">   68</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG 1</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">   72</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE 8192</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">   76</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE 8192</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">   79</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">   80</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">   81</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">// TODO: CHIP has redesigned the crypto interface, pending on the final version of CHIP HASH APIs</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">   84</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">// ========== Platform-specific Configuration Overrides =========</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">   74</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE 8192</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">   78</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE 8192</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">   81</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">   82</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">   83</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">// TODO: CHIP has redesigned the crypto interface, pending on the final version of CHIP HASH APIs</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="_darwin_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">   86</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_a915e0d1adb138d0d68fe2a954708cd7.html">Darwin</a></li><li class="navelem"><a class="el" href="_darwin_2_c_h_i_p_device_platform_config_8h.html">CHIPDevicePlatformConfig.h</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:09 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:22 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

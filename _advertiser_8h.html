@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -126,9 +126,9 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:adf573d350431e66f24ce6567f580062f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062f">chip::Mdns::CommssionAdvertiseMode</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa2769d2ec12086ee4ecac048b6bff4ce0">chip::Mdns::CommssionAdvertiseMode::kCommissioning</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa9011bcd3cd4f856177f2024a686015f9">chip::Mdns::CommssionAdvertiseMode::kCommissionableNode</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa7c4254b228ae988b69511be48c1a0115">chip::Mdns::CommssionAdvertiseMode::kCommissionable</a>
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fab69560a4bb8cb1d4c048c37534d62fd6">chip::Mdns::CommssionAdvertiseMode::kCommissioner</a>
 <br />
  }</td></tr>
 <tr class="separator:adf573d350431e66f24ce6567f580062f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +139,36 @@ Variables</h2></td></tr>
 <tr class="separator:a0a303ecb5932e6cd0adf0913e886cefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eba931c0dc6253cddd48f83172de222"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a2eba931c0dc6253cddd48f83172de222">chip::Mdns::kMaxMacSize</a> = 8</td></tr>
 <tr class="separator:a2eba931c0dc6253cddd48f83172de222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f204b4c76a72c1cce92d728d2978487"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a8f204b4c76a72c1cce92d728d2978487">chip::Mdns::kKeyDiscriminatorMaxLength</a> = 5</td></tr>
+<tr class="separator:a8f204b4c76a72c1cce92d728d2978487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f676c84d46a6dd4e5c8782f50d582c"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a29f676c84d46a6dd4e5c8782f50d582c">chip::Mdns::kKeyVendorProductMaxLength</a> = 11</td></tr>
+<tr class="separator:a29f676c84d46a6dd4e5c8782f50d582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15e5b129cab427aa35a55441a52014f"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#aa15e5b129cab427aa35a55441a52014f">chip::Mdns::kKeyAdditionalPairingMaxLength</a> = 1</td></tr>
+<tr class="separator:aa15e5b129cab427aa35a55441a52014f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70be6a03d906fd559e3ed064a5ee05a"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af70be6a03d906fd559e3ed064a5ee05a">chip::Mdns::kKeyCommissioningModeMaxLength</a> = 1</td></tr>
+<tr class="separator:af70be6a03d906fd559e3ed064a5ee05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a06cfd2eb17046142d952d38fdb5fa"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ab6a06cfd2eb17046142d952d38fdb5fa">chip::Mdns::kKeyDeviceTypeMaxLength</a> = 5</td></tr>
+<tr class="separator:ab6a06cfd2eb17046142d952d38fdb5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8dba9f643e9505a55c2e9943308b71d"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae8dba9f643e9505a55c2e9943308b71d">chip::Mdns::kKeyDeviceNameMaxLength</a> = 32</td></tr>
+<tr class="separator:ae8dba9f643e9505a55c2e9943308b71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c1d415990d50669cb32a943d1b6b9e"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ac0c1d415990d50669cb32a943d1b6b9e">chip::Mdns::kKeyRotatingIdMaxLength</a> = 100</td></tr>
+<tr class="separator:ac0c1d415990d50669cb32a943d1b6b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb97c68cc962e08bd51d02c65f0443ea"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#abb97c68cc962e08bd51d02c65f0443ea">chip::Mdns::kKeyPairingInstructionMaxLength</a> = 128</td></tr>
+<tr class="separator:abb97c68cc962e08bd51d02c65f0443ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c4b1e05eda959ea8d04d14d47d6a93"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a32c4b1e05eda959ea8d04d14d47d6a93">chip::Mdns::kKeyPairingHintMaxLength</a> = 10</td></tr>
+<tr class="separator:a32c4b1e05eda959ea8d04d14d47d6a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1eda6a118c80be7f72db0dd9ff12e4"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a7d1eda6a118c80be7f72db0dd9ff12e4">chip::Mdns::kSubTypeShortDiscriminatorMaxLength</a> = 3</td></tr>
+<tr class="separator:a7d1eda6a118c80be7f72db0dd9ff12e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bee40c4e8692e4833d4ab40c3cc240"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ac0bee40c4e8692e4833d4ab40c3cc240">chip::Mdns::kSubTypeLongDiscriminatorMaxLength</a> = 4</td></tr>
+<tr class="separator:ac0bee40c4e8692e4833d4ab40c3cc240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440f790477bddde0206d1ee243bc48dc"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a440f790477bddde0206d1ee243bc48dc">chip::Mdns::kSubTypeVendorMaxLength</a> = 5</td></tr>
+<tr class="separator:a440f790477bddde0206d1ee243bc48dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9d977f88ae6e63196cdd051f961fb3"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afc9d977f88ae6e63196cdd051f961fb3">chip::Mdns::kSubTypeDeviceTypeMaxLength</a> = 5</td></tr>
+<tr class="separator:afc9d977f88ae6e63196cdd051f961fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74267ca99bca19b4786091f79abad1ad"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a74267ca99bca19b4786091f79abad1ad">chip::Mdns::kSubTypeCommissioningModeMaxLength</a> = 1</td></tr>
+<tr class="separator:a74267ca99bca19b4786091f79abad1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3a1d068aed0414e1a592440740fe9da"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae3a1d068aed0414e1a592440740fe9da">chip::Mdns::kSubTypeAdditionalPairingMaxLength</a> = 1</td></tr>
+<tr class="separator:ae3a1d068aed0414e1a592440740fe9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -146,7 +176,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_6120b5b067bc81dd9b9ded47874ed490.html">mdns</a></li><li class="navelem"><a class="el" href="_advertiser_8h.html">Advertiser.h</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:10 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:23 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -117,8 +117,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6c58db608d72450eb8253027b18f617c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advertises the CHIP node as an operational node.  <a href="classchip_1_1_mdns_1_1_service_advertiser.html#a6c58db608d72450eb8253027b18f617c">More...</a><br /></td></tr>
 <tr class="separator:a6c58db608d72450eb8253027b18f617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf634ad5380ea4ad6e22a4b42eb802f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_service_advertiser.html#adf634ad5380ea4ad6e22a4b42eb802f3">Advertise</a> (const <a class="el" href="classchip_1_1_mdns_1_1_commission_advertising_parameters.html">CommissionAdvertisingParameters</a> &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af67087fbae72c92a306fffaa7f3e9a6d">params</a>)=0</td></tr>
-<tr class="memdesc:adf634ad5380ea4ad6e22a4b42eb802f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advertises the CHIP node as a commisioning/commissionable node.  <a href="classchip_1_1_mdns_1_1_service_advertiser.html#adf634ad5380ea4ad6e22a4b42eb802f3">More...</a><br /></td></tr>
+<tr class="memdesc:adf634ad5380ea4ad6e22a4b42eb802f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advertises the CHIP node as a commissioner/commissionable node.  <a href="classchip_1_1_mdns_1_1_service_advertiser.html#adf634ad5380ea4ad6e22a4b42eb802f3">More...</a><br /></td></tr>
 <tr class="separator:adf634ad5380ea4ad6e22a4b42eb802f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764f446f0c165b8fe0f1855fecc33352"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_service_advertiser.html#a764f446f0c165b8fe0f1855fecc33352">StopPublishDevice</a> ()=0</td></tr>
+<tr class="memdesc:a764f446f0c165b8fe0f1855fecc33352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops the advertiser.  <a href="classchip_1_1_mdns_1_1_service_advertiser.html#a764f446f0c165b8fe0f1855fecc33352">More...</a><br /></td></tr>
+<tr class="separator:a764f446f0c165b8fe0f1855fecc33352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -179,7 +182,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Advertises the CHIP node as a commisioning/commissionable node. </p>
+<p>Advertises the CHIP node as a commissioner/commissionable node. </p>
 
 <p>Implemented in <a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded">chip::Mdns::DiscoveryImplPlatform</a>.</p>
 
@@ -283,6 +286,35 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a764f446f0c165b8fe0f1855fecc33352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a764f446f0c165b8fe0f1855fecc33352">&#9670;&nbsp;</a></span>StopPublishDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Mdns::ServiceAdvertiser::StopPublishDevice </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops the advertiser. </p>
+
+<p>Implemented in <a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html#a0a3b607564490639c76d5e85afaa2ac0">chip::Mdns::DiscoveryImplPlatform</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>lib/mdns/<a class="el" href="_advertiser_8h_source.html">Advertiser.h</a></li>
 <li>lib/mdns/<a class="el" href="_advertiser___impl_minimal_mdns_8cpp.html">Advertiser_ImplMinimalMdns.cpp</a></li>
@@ -295,7 +327,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li><li class="navelem"><a class="el" href="classchip_1_1_mdns_1_1_service_advertiser.html">ServiceAdvertiser</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:11 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:24 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

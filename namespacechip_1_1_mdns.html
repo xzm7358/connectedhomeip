@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -165,9 +165,9 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:adf573d350431e66f24ce6567f580062f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062f">CommssionAdvertiseMode</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa2769d2ec12086ee4ecac048b6bff4ce0">CommssionAdvertiseMode::kCommissioning</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa9011bcd3cd4f856177f2024a686015f9">CommssionAdvertiseMode::kCommissionableNode</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fa7c4254b228ae988b69511be48c1a0115">CommssionAdvertiseMode::kCommissionable</a>
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#adf573d350431e66f24ce6567f580062fab69560a4bb8cb1d4c048c37534d62fd6">CommssionAdvertiseMode::kCommissioner</a>
 <br />
  }</td></tr>
 <tr class="separator:adf573d350431e66f24ce6567f580062f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +265,36 @@ Variables</h2></td></tr>
 <tr class="separator:a0a303ecb5932e6cd0adf0913e886cefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eba931c0dc6253cddd48f83172de222"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a2eba931c0dc6253cddd48f83172de222">kMaxMacSize</a> = 8</td></tr>
 <tr class="separator:a2eba931c0dc6253cddd48f83172de222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f204b4c76a72c1cce92d728d2978487"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a8f204b4c76a72c1cce92d728d2978487">kKeyDiscriminatorMaxLength</a> = 5</td></tr>
+<tr class="separator:a8f204b4c76a72c1cce92d728d2978487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f676c84d46a6dd4e5c8782f50d582c"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a29f676c84d46a6dd4e5c8782f50d582c">kKeyVendorProductMaxLength</a> = 11</td></tr>
+<tr class="separator:a29f676c84d46a6dd4e5c8782f50d582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15e5b129cab427aa35a55441a52014f"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#aa15e5b129cab427aa35a55441a52014f">kKeyAdditionalPairingMaxLength</a> = 1</td></tr>
+<tr class="separator:aa15e5b129cab427aa35a55441a52014f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af70be6a03d906fd559e3ed064a5ee05a"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af70be6a03d906fd559e3ed064a5ee05a">kKeyCommissioningModeMaxLength</a> = 1</td></tr>
+<tr class="separator:af70be6a03d906fd559e3ed064a5ee05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a06cfd2eb17046142d952d38fdb5fa"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ab6a06cfd2eb17046142d952d38fdb5fa">kKeyDeviceTypeMaxLength</a> = 5</td></tr>
+<tr class="separator:ab6a06cfd2eb17046142d952d38fdb5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8dba9f643e9505a55c2e9943308b71d"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae8dba9f643e9505a55c2e9943308b71d">kKeyDeviceNameMaxLength</a> = 32</td></tr>
+<tr class="separator:ae8dba9f643e9505a55c2e9943308b71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c1d415990d50669cb32a943d1b6b9e"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ac0c1d415990d50669cb32a943d1b6b9e">kKeyRotatingIdMaxLength</a> = 100</td></tr>
+<tr class="separator:ac0c1d415990d50669cb32a943d1b6b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb97c68cc962e08bd51d02c65f0443ea"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#abb97c68cc962e08bd51d02c65f0443ea">kKeyPairingInstructionMaxLength</a> = 128</td></tr>
+<tr class="separator:abb97c68cc962e08bd51d02c65f0443ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c4b1e05eda959ea8d04d14d47d6a93"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a32c4b1e05eda959ea8d04d14d47d6a93">kKeyPairingHintMaxLength</a> = 10</td></tr>
+<tr class="separator:a32c4b1e05eda959ea8d04d14d47d6a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1eda6a118c80be7f72db0dd9ff12e4"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a7d1eda6a118c80be7f72db0dd9ff12e4">kSubTypeShortDiscriminatorMaxLength</a> = 3</td></tr>
+<tr class="separator:a7d1eda6a118c80be7f72db0dd9ff12e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bee40c4e8692e4833d4ab40c3cc240"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ac0bee40c4e8692e4833d4ab40c3cc240">kSubTypeLongDiscriminatorMaxLength</a> = 4</td></tr>
+<tr class="separator:ac0bee40c4e8692e4833d4ab40c3cc240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440f790477bddde0206d1ee243bc48dc"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a440f790477bddde0206d1ee243bc48dc">kSubTypeVendorMaxLength</a> = 5</td></tr>
+<tr class="separator:a440f790477bddde0206d1ee243bc48dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9d977f88ae6e63196cdd051f961fb3"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afc9d977f88ae6e63196cdd051f961fb3">kSubTypeDeviceTypeMaxLength</a> = 5</td></tr>
+<tr class="separator:afc9d977f88ae6e63196cdd051f961fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74267ca99bca19b4786091f79abad1ad"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a74267ca99bca19b4786091f79abad1ad">kSubTypeCommissioningModeMaxLength</a> = 1</td></tr>
+<tr class="separator:a74267ca99bca19b4786091f79abad1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3a1d068aed0414e1a592440740fe9da"><td class="memItemLeft" align="right" valign="top">static constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ae3a1d068aed0414e1a592440740fe9da">kSubTypeAdditionalPairingMaxLength</a> = 1</td></tr>
+<tr class="separator:ae3a1d068aed0414e1a592440740fe9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af067a54e6e14cce4fd6d1cc10c37e4ea"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af067a54e6e14cce4fd6d1cc10c37e4ea">kMdnsNameMaxSize</a> = 33</td></tr>
 <tr class="separator:af067a54e6e14cce4fd6d1cc10c37e4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd0acff8d5ae9bbbb24180c02f476577"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afd0acff8d5ae9bbbb24180c02f476577">kMdnsProtocolTextMaxSize</a> = 4 + 1</td></tr>
@@ -363,8 +393,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf573d350431e66f24ce6567f580062fa2769d2ec12086ee4ecac048b6bff4ce0"></a>kCommissioning&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf573d350431e66f24ce6567f580062fa7c4254b228ae988b69511be48c1a0115"></a>kCommissionable&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf573d350431e66f24ce6567f580062fa9011bcd3cd4f856177f2024a686015f9"></a>kCommissionableNode&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf573d350431e66f24ce6567f580062fab69560a4bb8cb1d4c048c37534d62fd6"></a>kCommissioner&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1648,6 +1678,204 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="aa15e5b129cab427aa35a55441a52014f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15e5b129cab427aa35a55441a52014f">&#9670;&nbsp;</a></span>kKeyAdditionalPairingMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyAdditionalPairingMaxLength = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af70be6a03d906fd559e3ed064a5ee05a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af70be6a03d906fd559e3ed064a5ee05a">&#9670;&nbsp;</a></span>kKeyCommissioningModeMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyCommissioningModeMaxLength = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8dba9f643e9505a55c2e9943308b71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8dba9f643e9505a55c2e9943308b71d">&#9670;&nbsp;</a></span>kKeyDeviceNameMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyDeviceNameMaxLength = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6a06cfd2eb17046142d952d38fdb5fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a06cfd2eb17046142d952d38fdb5fa">&#9670;&nbsp;</a></span>kKeyDeviceTypeMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyDeviceTypeMaxLength = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f204b4c76a72c1cce92d728d2978487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f204b4c76a72c1cce92d728d2978487">&#9670;&nbsp;</a></span>kKeyDiscriminatorMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyDiscriminatorMaxLength = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32c4b1e05eda959ea8d04d14d47d6a93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c4b1e05eda959ea8d04d14d47d6a93">&#9670;&nbsp;</a></span>kKeyPairingHintMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyPairingHintMaxLength = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb97c68cc962e08bd51d02c65f0443ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb97c68cc962e08bd51d02c65f0443ea">&#9670;&nbsp;</a></span>kKeyPairingInstructionMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyPairingInstructionMaxLength = 128</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0c1d415990d50669cb32a943d1b6b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0c1d415990d50669cb32a943d1b6b9e">&#9670;&nbsp;</a></span>kKeyRotatingIdMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyRotatingIdMaxLength = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29f676c84d46a6dd4e5c8782f50d582c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29f676c84d46a6dd4e5c8782f50d582c">&#9670;&nbsp;</a></span>kKeyVendorProductMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kKeyVendorProductMaxLength = 11</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2eba931c0dc6253cddd48f83172de222"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2eba931c0dc6253cddd48f83172de222">&#9670;&nbsp;</a></span>kMaxMacSize</h2>
 
@@ -1780,6 +2008,138 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae3a1d068aed0414e1a592440740fe9da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3a1d068aed0414e1a592440740fe9da">&#9670;&nbsp;</a></span>kSubTypeAdditionalPairingMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeAdditionalPairingMaxLength = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a74267ca99bca19b4786091f79abad1ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74267ca99bca19b4786091f79abad1ad">&#9670;&nbsp;</a></span>kSubTypeCommissioningModeMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeCommissioningModeMaxLength = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc9d977f88ae6e63196cdd051f961fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc9d977f88ae6e63196cdd051f961fb3">&#9670;&nbsp;</a></span>kSubTypeDeviceTypeMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeDeviceTypeMaxLength = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0bee40c4e8692e4833d4ab40c3cc240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bee40c4e8692e4833d4ab40c3cc240">&#9670;&nbsp;</a></span>kSubTypeLongDiscriminatorMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeLongDiscriminatorMaxLength = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d1eda6a118c80be7f72db0dd9ff12e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1eda6a118c80be7f72db0dd9ff12e4">&#9670;&nbsp;</a></span>kSubTypeShortDiscriminatorMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeShortDiscriminatorMaxLength = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a440f790477bddde0206d1ee243bc48dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440f790477bddde0206d1ee243bc48dc">&#9670;&nbsp;</a></span>kSubTypeVendorMaxLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr size_t chip::Mdns::kSubTypeVendorMaxLength = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5ebb44b2e656d650acad927c1e82521f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ebb44b2e656d650acad927c1e82521f">&#9670;&nbsp;</a></span>kUsPerSec</h2>
 
@@ -1808,7 +2168,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:11 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:24 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

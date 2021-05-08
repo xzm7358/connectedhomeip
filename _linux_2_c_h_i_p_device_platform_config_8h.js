@@ -6,6 +6,7 @@ var _linux_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD", "_linux_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY", "_linux_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL", "_linux_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85", null ],
+    [ "CHIP_DEVICE_CONFIG_ENABLE_UNPROVISIONED_MDNS", "_linux_2_c_h_i_p_device_platform_config_8h.html#aa815bba515245df25deaa122d379297d", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_AP", "_linux_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION", "_linux_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY", "_linux_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3", null ],

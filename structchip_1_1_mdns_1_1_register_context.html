@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">79aca9b</span>
+   &#160;<span id="projectnumber">8d40409</span>
    </div>
   </td>
  </tr>
@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('structchip_1_1_mdns_1_1_register_conte
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structchip_1_1_mdns_1_1_register_context-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">chip::Mdns::RegisterContext Struct Reference</div>  </div>
@@ -104,11 +105,15 @@ Inheritance diagram for chip::Mdns::RegisterContext:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad99df8194e632f4fa0bd994769bc8237"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_register_context.html#ad99df8194e632f4fa0bd994769bc8237">RegisterContext</a> (void *cbContext)</td></tr>
-<tr class="separator:ad99df8194e632f4fa0bd994769bc8237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3c1749d465a31852679e7392d1c7f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_register_context.html#abb3c1749d465a31852679e7392d1c7f9">RegisterContext</a> (const char *sType, void *cbContext)</td></tr>
+<tr class="separator:abb3c1749d465a31852679e7392d1c7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34fc33009b7210be6ebfb9e01321e42"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_register_context.html#ad34fc33009b7210be6ebfb9e01321e42">matches</a> (const char *sType)</td></tr>
+<tr class="separator:ad34fc33009b7210be6ebfb9e01321e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5f92e8c1ed67826ce636963b536558a0"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_register_context.html#a5f92e8c1ed67826ce636963b536558a0">mType</a> [<a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a>+1]</td></tr>
+<tr class="separator:a5f92e8c1ed67826ce636963b536558a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structchip_1_1_mdns_1_1_generic_context"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structchip_1_1_mdns_1_1_generic_context')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structchip_1_1_mdns_1_1_generic_context.html">chip::Mdns::GenericContext</a></td></tr>
 <tr class="memitem:aa4b39b36b5e8cf258e48d881527c531f inherit pub_attribs_structchip_1_1_mdns_1_1_generic_context"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacechip_1_1_mdns.html#aed12ad4982822268431b690f1755e4bd">ContextType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_generic_context.html#aa4b39b36b5e8cf258e48d881527c531f">type</a></td></tr>
 <tr class="separator:aa4b39b36b5e8cf258e48d881527c531f inherit pub_attribs_structchip_1_1_mdns_1_1_generic_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,8 +123,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac140a48441105a29d4c7525713d4c5e4 inherit pub_attribs_structchip_1_1_mdns_1_1_generic_context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad99df8194e632f4fa0bd994769bc8237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad99df8194e632f4fa0bd994769bc8237">&#9670;&nbsp;</a></span>RegisterContext()</h2>
+<a id="abb3c1749d465a31852679e7392d1c7f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb3c1749d465a31852679e7392d1c7f9">&#9670;&nbsp;</a></span>RegisterContext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,8 +135,45 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">chip::Mdns::RegisterContext::RegisterContext </td>
           <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>cbContext</em></td><td>)</td>
+          <td class="paramname"><em>cbContext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad34fc33009b7210be6ebfb9e01321e42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34fc33009b7210be6ebfb9e01321e42">&#9670;&nbsp;</a></span>matches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chip::Mdns::RegisterContext::matches </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sType</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -140,6 +182,21 @@ Additional Inherited Members</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5f92e8c1ed67826ce636963b536558a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f92e8c1ed67826ce636963b536558a0">&#9670;&nbsp;</a></span>mType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char chip::Mdns::RegisterContext::mType[<a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a>+1]</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -153,7 +210,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li><li class="navelem"><a class="el" href="structchip_1_1_mdns_1_1_register_context.html">RegisterContext</a></li>
-    <li class="footer">Generated on Fri May 7 2021 23:43:11 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 00:43:24 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
