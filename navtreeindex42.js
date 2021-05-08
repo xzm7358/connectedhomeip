@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"nrfconnect_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1":[11,0,7,8,15,5],
+"nrfconnect_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df":[11,0,7,8,15,4],
 "nrfconnect_2_system_platform_config_8h.html#a95956fdd2fcb510b1fb9edee0038a434":[11,0,7,8,15,6],
 "nrfconnect_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9":[11,0,7,8,15,1],
 "nrfconnect_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,8,15,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "scan__devices_8py.html#a87a353e1ba83f239ac71479a540a8be7":[11,0,1,1,0,0,6,2],
 "setup__payload_2____init_____8py.html":[11,0,1,1,0,9,0],
 "setup__payload_2____init_____8py.html#a91b0cb91f0931b9d374bf7550f915765":[11,0,1,1,0,9,0,0],
-"setup__payload_8py.html":[11,0,1,1,0,9,2],
-"shell__core_8cpp.html":[11,0,6,2,2],
-"shell__core_8cpp.html#a10b6139de3d7e7f4550982c75a0909c4":[11,0,6,2,2,1]
+"setup__payload_8py.html":[11,0,1,1,0,9,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"_e_s_p32_2_inet_platform_config_8h.html#a8475da5675726182a88452691d4523ac":[11,0,7,3,20,2],
+"_e_s_p32_2_inet_platform_config_8h.html#a86580182eeb933811161fbb521bddcea":[11,0,7,3,20,5],
 "_e_s_p32_2_inet_platform_config_8h_source.html":[11,0,7,3,20],
 "_e_s_p32_2_key_value_store_manager_impl_8cpp.html":[11,0,7,3,21],
 "_e_s_p32_2_key_value_store_manager_impl_8h.html":[11,0,7,3,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "_generic_thread_stack_manager_impl___open_thread___lw_i_p_8cpp.html":[11,0,7,9,2],
 "_generic_thread_stack_manager_impl___open_thread___lw_i_p_8h.html":[11,0,7,9,3],
 "_generic_thread_stack_manager_impl___open_thread___lw_i_p_8h_source.html":[11,0,7,9,3],
-"_globals_8cpp.html":[11,0,7,14],
-"_helper_8cpp.html":[11,0,7,6,0,6],
-"_helper_8h.html":[11,0,7,6,0,7]
+"_globals_8cpp.html":[11,0,7,14]
 };

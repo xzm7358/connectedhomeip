@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"annotated.html":[10,0],
+"arpa-inet-compatibility_8h.html":[11,0,5,0],
 "arpa-inet-compatibility_8h_source.html":[11,0,5,0],
 "ble_2____init_____8py.html":[11,0,1,1,0,0,2],
 "ble_2____init_____8py.html#a2042c4c8a966ce4ac603bce9e159e82c":[11,0,1,1,0,0,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "cc13x2__26x2_2_inet_platform_config_8h.html#aef5c7feebc33ffdf14a671fda1179ee0":[11,0,7,0,18,0],
 "cc13x2__26x2_2_inet_platform_config_8h_source.html":[11,0,7,0,18],
 "cc13x2__26x2_2_key_value_store_manager_impl_8cpp.html":[11,0,7,0,19],
-"cc13x2__26x2_2_key_value_store_manager_impl_8h.html":[11,0,7,0,20],
-"cc13x2__26x2_2_key_value_store_manager_impl_8h.html#a8ae00aec3a877f1912200f0dc921bdee":[11,0,7,0,20,2],
-"cc13x2__26x2_2_key_value_store_manager_impl_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,7,0,20,1]
+"cc13x2__26x2_2_key_value_store_manager_impl_8h.html":[11,0,7,0,20]
 };

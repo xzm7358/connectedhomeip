@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"freertos__bluetooth_8h.html#aab9e8ee4abf76c160e25ea94ec3ca570":[11,0,7,2,18,1],
+"freertos__bluetooth_8h.html#aad953828f1b4a7cf7253d7dec52860a3":[11,0,7,2,18,0],
 "freertos__bluetooth_8h.html#ac88651fb499b8455af3284548fe608cf":[11,0,7,2,18,8],
 "freertos__bluetooth_8h.html#acec711a04bc90fb90b052c57c4b4f2f0":[11,0,7,2,18,9],
 "freertos__bluetooth_8h.html#adb602b4ed278d1cee27ec5fa23a44651":[11,0,7,2,18,18],
@@ -11,8 +13,8 @@ var NAVTREEINDEX39 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,18,12],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,18,19],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,18],
-"functions.html":[10,3,0,0],
 "functions.html":[10,3,0],
+"functions.html":[10,3,0,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
 "functions_b.html":[10,3,0,3],
@@ -120,8 +122,8 @@ var NAVTREEINDEX39 =
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0,0],
 "globals.html":[11,1,0],
+"globals.html":[11,1,0,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#aaa1c18022052ec53405e6539f4cde587":[10,0,1,13,2,0,7],
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#ada0b072d87e4a6ec5d9ce06c8adcb9da":[10,0,1,13,2,0,4],
 "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#af3a9367d6ee9f84c0a0152556291df69":[10,0,1,13,2,0,6],
-"internal_2____init_____8py.html":[11,0,1,1,0,6,0],
-"internal_2____init_____8py.html#ade7e863c0dcc3db2976bafb77dc0232e":[11,0,1,1,0,6,0,0],
-"internal_2types_8py.html":[11,0,1,1,0,6,6]
+"internal_2____init_____8py.html":[11,0,1,1,0,6,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"_c_h_i_p_t_l_v_tags_8h.html#a2710b35957ad0355f488a58998018efa":[11,0,6,0,19,17],
+"_c_h_i_p_t_l_v_tags_8h.html#a27ac4b2082a2b8b667a08328213a34f7":[11,0,6,0,19,9],
 "_c_h_i_p_t_l_v_tags_8h.html#a2ff8c38ca00d9008a378cac4f153921c":[11,0,6,0,19,16],
 "_c_h_i_p_t_l_v_tags_8h.html#a47158807b1d9136932f9a77c94a345d5":[11,0,6,0,19,11],
 "_c_h_i_p_t_l_v_tags_8h.html#a4ab15a06ffefb9088e7bf3c68a98f189":[11,0,6,0,19,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "_chip_device_controller-_cluster_commands_8cpp.html#a9414b032285c0fd8c42f9452ba676636":[11,0,1,1,5,79],
 "_chip_device_controller-_cluster_commands_8cpp.html#a96f6ab53a1f06789f3d9e5d95356c0fc":[11,0,1,1,5,26],
 "_chip_device_controller-_cluster_commands_8cpp.html#a9946b3d2836a6bb1cb9bc4832331a909":[11,0,1,1,5,12],
-"_chip_device_controller-_cluster_commands_8cpp.html#a9adc580ddad6e3f44691f5a0fa903d94":[11,0,1,1,5,9],
-"_chip_device_controller-_cluster_commands_8cpp.html#a9d0461dab7776a74e7005ee09ad6d2a5":[11,0,1,1,5,43],
-"_chip_device_controller-_cluster_commands_8cpp.html#aa1844e621cac798442b4f7b0cb546f12":[11,0,1,1,5,35]
+"_chip_device_controller-_cluster_commands_8cpp.html#a9adc580ddad6e3f44691f5a0fa903d94":[11,0,1,1,5,9]
 };

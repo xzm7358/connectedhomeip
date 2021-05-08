@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">8d40409</span>
+   &#160;<span id="projectnumber">8ddfb87</span>
    </div>
   </td>
  </tr>
@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">CHIPDeviceController.cpp File Reference</div>  </div>
@@ -122,6 +123,10 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_controller"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html">chip::Controller</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacechip_1_1_platform"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html">chip::Platform</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacechip_1_1_platform_1_1_persisted_storage"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform_1_1_persisted_storage.html">chip::Platform::PersistedStorage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -131,6 +136,15 @@ Macros</h2></td></tr>
 <tr class="separator:aacbb9e1f38be71e22df1584a37c56693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b77c22dba407ff253af9f7d8ef577c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller_8cpp.html#a9b77c22dba407ff253af9f7d8ef577c8">PERSISTENT_KEY_OP</a>(node,  keyPrefix,  key,  action)</td></tr>
 <tr class="separator:a9b77c22dba407ff253af9f7d8ef577c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a562e2fd2665578a6e231a69b8365d521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">chip::Platform::PersistedStorage::Read</a> (Key aKey, uint32_t &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3acc4e52fdb57eeb69effbe5041e3986">aValue</a>)</td></tr>
+<tr class="memdesc:a562e2fd2665578a6e231a69b8365d521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read integer value of a key from persistent storage.  <a href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">More...</a><br /></td></tr>
+<tr class="separator:a562e2fd2665578a6e231a69b8365d521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06e2c544012ab5b7d8282907406c9206"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a06e2c544012ab5b7d8282907406c9206">chip::Platform::PersistedStorage::Write</a> (Key aKey, uint32_t <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3acc4e52fdb57eeb69effbe5041e3986">aValue</a>)</td></tr>
+<tr class="memdesc:a06e2c544012ab5b7d8282907406c9206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the integer value of a key to persistent storage.  <a href="namespacechip_1_1_platform_1_1_persisted_storage.html#a06e2c544012ab5b7d8282907406c9206">More...</a><br /></td></tr>
+<tr class="separator:a06e2c544012ab5b7d8282907406c9206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -234,7 +248,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Sat May 8 2021 00:43:22 for Connected Home over IP by
+    <li class="footer">Generated on Sat May 8 2021 01:14:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
