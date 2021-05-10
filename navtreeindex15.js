@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"_peer_connections_8h.html":[11,0,11,5],
+"_peer_connections_8h.html#aaf0d60b94e4d86908f0c6c3490e25226":[11,0,11,5,1],
+"_peer_connections_8h_source.html":[11,0,11,5],
 "_peer_id_8h.html":[11,0,6,0,27],
 "_peer_id_8h.html#a0e6f577ca63e0aa586a39c9aa8798a26":[11,0,6,0,27,3],
 "_peer_id_8h.html#a48ca05e1f7c9cc7c5295c1ebf9a2eca7":[11,0,6,0,27,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "_setup_payload_8h.html#af851f99e63057c003519cab77adf788f":[11,0,8,17,30],
 "_setup_payload_8h.html#aff7adee7dbe8651a3825645b618fd669":[11,0,8,17,38],
 "_setup_payload_8h_source.html":[11,0,8,17],
-"_setup_payload_8java.html":[11,0,8,0,0,0,0,1],
-"_setup_payload_helper_8cpp.html":[11,0,8,18],
-"_setup_payload_helper_8cpp.html#a040891850c9a9a9dccb71861bfc55806":[11,0,8,18,2],
-"_setup_payload_helper_8cpp.html#a0cbebec40a541cb598dc1f30de811b62":[11,0,8,18,3]
+"_setup_payload_8java.html":[11,0,8,0,0,0,0,1]
 };

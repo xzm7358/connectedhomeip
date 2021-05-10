@@ -12,6 +12,10 @@ var dir_41ef5d8a90b9cc03a02949a5c062e6f0 =
       [ "DeviceAddressUpdateDelegate", "classchip_1_1_controller_1_1_device_address_update_delegate.html", "classchip_1_1_controller_1_1_device_address_update_delegate" ]
     ] ],
     [ "EmptyDataModelHandler.cpp", "_empty_data_model_handler_8cpp.html", "_empty_data_model_handler_8cpp" ],
+    [ "ExampleOperationalCredentialsIssuer.cpp", "_example_operational_credentials_issuer_8cpp.html", null ],
+    [ "ExampleOperationalCredentialsIssuer.h", "_example_operational_credentials_issuer_8h.html", [
+      [ "ExampleOperationalCredentialsIssuer", "classchip_1_1_controller_1_1_example_operational_credentials_issuer.html", "classchip_1_1_controller_1_1_example_operational_credentials_issuer" ]
+    ] ],
     [ "OperationalCredentialsDelegate.h", "_operational_credentials_delegate_8h.html", [
       [ "OperationalCredentialsDelegate", "classchip_1_1_controller_1_1_operational_credentials_delegate.html", "classchip_1_1_controller_1_1_operational_credentials_delegate" ]
     ] ]

@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"classchip-device-ctrl_1_1_device_mgr_cmd.html#a8fbd42f6c4ec1e4486a57d9adcfc5d6a":[10,0,2,1,3],
+"classchip-device-ctrl_1_1_device_mgr_cmd.html#a98dfee071163e1d9db3ad7759ab86eb0":[10,0,2,1,26],
+"classchip-device-ctrl_1_1_device_mgr_cmd.html#a9c89e0aa6f83c9a2dea3cd6efca7089d":[10,0,2,1,10],
+"classchip-device-ctrl_1_1_device_mgr_cmd.html#aa14a53106faddadc9c91bf5219700d4c":[10,0,2,1,25],
 "classchip-device-ctrl_1_1_device_mgr_cmd.html#aa35d250fc97b18c2c36b32e71388b790":[10,0,2,1,7],
 "classchip-device-ctrl_1_1_device_mgr_cmd.html#aa887ca04e828f413599bf56c1344b181":[10,0,2,1,31],
 "classchip-device-ctrl_1_1_device_mgr_cmd.html#ab82ba2fc0dfdaa21bd5063252d7efa47":[10,0,2,1,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_chip_ble_utility_1_1_ble_disconnect_event_struct.html#a83b9c5ce902fcdabea1d49de9f71df42":[10,0,1,4,2,1],
 "classchip_1_1_chip_ble_utility_1_1_ble_disconnect_event_struct.html#ac7c48ddc14e6dcf9f8249775fbfda0ee":[10,0,1,4,2,0],
 "classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html":[10,0,1,4,3],
-"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a2c475395a8889fed71dd95515d656f80":[10,0,1,4,3,7],
-"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a2e63613b13e4307a76423e49372045b2":[10,0,1,4,3,6],
-"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a375e1acad286d625da3dfccd479848d9":[10,0,1,4,3,3],
-"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a62e88019907992aa07faaaaba3d8fd86":[10,0,1,4,3,0],
-"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#aa23a648909900a8bf23a2d415809adb5":[10,0,1,4,3,1]
+"classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a2c475395a8889fed71dd95515d656f80":[10,0,1,4,3,7]
 };

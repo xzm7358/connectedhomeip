@@ -11,6 +11,7 @@ var namespacechip_1_1_controller =
     [ "DeviceController", "classchip_1_1_controller_1_1_device_controller.html", "classchip_1_1_controller_1_1_device_controller" ],
     [ "DevicePairingDelegate", "classchip_1_1_controller_1_1_device_pairing_delegate.html", "classchip_1_1_controller_1_1_device_pairing_delegate" ],
     [ "DeviceStatusDelegate", "classchip_1_1_controller_1_1_device_status_delegate.html", "classchip_1_1_controller_1_1_device_status_delegate" ],
+    [ "ExampleOperationalCredentialsIssuer", "classchip_1_1_controller_1_1_example_operational_credentials_issuer.html", "classchip_1_1_controller_1_1_example_operational_credentials_issuer" ],
     [ "OperationalCredentialsDelegate", "classchip_1_1_controller_1_1_operational_credentials_delegate.html", "classchip_1_1_controller_1_1_operational_credentials_delegate" ],
     [ "PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", "classchip_1_1_controller_1_1_python_interaction_model_delegate" ],
     [ "PythonPersistentStorageDelegate", "classchip_1_1_controller_1_1_python_persistent_storage_delegate.html", "classchip_1_1_controller_1_1_python_persistent_storage_delegate" ],

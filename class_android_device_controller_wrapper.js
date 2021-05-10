@@ -10,6 +10,7 @@ var class_android_device_controller_wrapper =
     [ "OnPairingDeleted", "class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d", null ],
     [ "OnStatusChange", "class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e", null ],
     [ "OnStatusUpdate", "class_android_device_controller_wrapper.html#a8b5cc3c74ab154f0f54534e857a242e5", null ],
+    [ "OpCredsIssuer", "class_android_device_controller_wrapper.html#a980f2224e46696b8a39b5be9a5be862b", null ],
     [ "SetJavaObjectRef", "class_android_device_controller_wrapper.html#abf52f5865f24e27ee5bcdaee83cc5cc4", null ],
     [ "SyncDeleteKeyValue", "class_android_device_controller_wrapper.html#a025ce2a10845616d165774df1b78dd20", null ],
     [ "SyncGetKeyValue", "class_android_device_controller_wrapper.html#aadef1048b1717450b90bb54cb80d6cfd", null ],

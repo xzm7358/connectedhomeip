@@ -1,5 +1,8 @@
 var NAVTREEINDEX17 =
 {
+"_system_wake_event_8h_source.html":[11,0,9,23],
+"_t_c_p_8cpp.html":[11,0,11,0,6],
+"_t_c_p_8h.html":[11,0,11,0,7],
 "_t_c_p_8h_source.html":[11,0,11,0,7],
 "_t_c_p_end_point_8cpp.html":[11,0,5,33],
 "_t_c_p_end_point_8cpp.html#a7c80872e144abfb103e6cb6cd2bbefc9":[11,0,5,33,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX17 =
 "_zephyr_config_8cpp.html#abbaffd0e917c0171434141febdbf367b":[11,0,7,11,15,5],
 "_zephyr_config_8cpp.html#ae7b9b0e0ec92d10cc0c60720638542ca":[11,0,7,11,15,7],
 "_zephyr_config_8h.html":[11,0,7,11,16],
-"_zephyr_config_8h_source.html":[11,0,7,11,16],
-"_zephyr_socket_8h.html":[11,0,5,37],
-"_zephyr_socket_8h.html#a6145592f431b7ba7b4ae1869b22cb359":[11,0,5,37,0],
-"_zephyr_socket_8h_source.html":[11,0,5,37]
+"_zephyr_config_8h_source.html":[11,0,7,11,16]
 };
