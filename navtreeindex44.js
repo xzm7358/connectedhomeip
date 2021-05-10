@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html":[10,0,1,14,7],
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a0b4b7937eae1a0bd107c7667830b6f62":[10,0,1,14,7,13],
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a0c40f460cbff864a56219a5815294fc1":[10,0,1,14,7,34],
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a269c17a53c5172b2d7704cc053707ce6":[10,0,1,14,7,8],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a27dee0c2dbe3e8c991f13a4728d9ac9f":[10,0,1,14,7,1],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2a7b487712c6610a3b6ca387248b018c":[10,0,1,14,7,19],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2cd10826b01f8d51a128ff2edb370b35":[10,0,1,14,7,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdacefc33fcd05328e5e3437bfdae56db2d":[11,0,6,3,0,2,1,20],
 "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdae1e32ded51b73938584844f6d86d93d7":[11,0,6,3,0,2,1,2],
 "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdae72f97503f9f6a89aabcff7768c76a70":[11,0,6,3,0,2,1,0],
-"support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdaeb542632996997390c1f1f8cb9be381c":[11,0,6,3,0,2,1,4],
-"support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdaed99b94378241d66bcca4a86b25b0a14":[11,0,6,3,0,2,1,27],
-"support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdafb25e050548eea39e293dbc217269409":[11,0,6,3,0,2,1,5],
-"support_2logging_2_constants_8h_source.html":[11,0,6,3,0,2],
-"thread_8py.html":[11,0,1,1,0,6,5]
+"support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdaeb542632996997390c1f1f8cb9be381c":[11,0,6,3,0,2,1,4]
 };

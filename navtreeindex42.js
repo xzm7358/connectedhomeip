@@ -1,5 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#ab6b2752c5c95b7d62c2fd5828974f5aa":[11,0,7,8,5,31],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#abeaa6c1fea9f3c82cfcdee92fabfc194":[11,0,7,8,5,3],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#ace8434c4c9d24512c02c4330f2629ed2":[11,0,7,8,5,6],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,7,8,5,11],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,8,5,9],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,8,5,13],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,8,5,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX42 =
 "qpg6100_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3":[11,0,7,10,25,1],
 "qpg6100_2_thread_stack_manager_impl_8cpp.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,10,25,0],
 "qpg6100_2_thread_stack_manager_impl_8h.html":[11,0,7,10,26],
-"qpg6100_2_thread_stack_manager_impl_8h.html#a6fdd8b56021d425791ff32c29fe5bc5b":[11,0,7,10,26,1],
-"qpg6100_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,10,26,4],
-"qpg6100_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,10,26,3],
-"qpg6100_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,10,26,2],
-"qpg6100_2_thread_stack_manager_impl_8h_source.html":[11,0,7,10,26]
+"qpg6100_2_thread_stack_manager_impl_8h.html#a6fdd8b56021d425791ff32c29fe5bc5b":[11,0,7,10,26,1]
 };

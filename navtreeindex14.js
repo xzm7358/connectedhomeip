@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80":[11,0,7,6,10,38],
+"_linux_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,6,10,22],
 "_linux_2_c_h_i_p_platform_config_8h.html#a47807484e5fd377203d003d0a1f8aeae":[11,0,7,6,10,24],
 "_linux_2_c_h_i_p_platform_config_8h.html#a4cdfb50cb4dc961567ebaeda5ead167c":[11,0,7,6,10,9],
 "_linux_2_c_h_i_p_platform_config_8h.html#a4f6d9d0a0a2631e9569591f236ccd257":[11,0,7,6,10,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "_owner_of_8h.html":[11,0,6,3,33],
 "_owner_of_8h.html#aa577c43165cf52c92d61d063e19be41b":[11,0,6,3,33,0],
 "_owner_of_8h_source.html":[11,0,6,3,33],
-"_pairing_session_8h.html":[11,0,11,4],
-"_pairing_session_8h_source.html":[11,0,11,4],
-"_parser_8h.html":[11,0,6,1,0,4]
+"_pairing_session_8h.html":[11,0,11,4]
 };

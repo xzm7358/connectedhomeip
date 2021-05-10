@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aa586ad1729b3492474b05b38a46adfe8":[11,0,7,5,6,1,19],
+"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aad0ee644c18904a8a63cad869e9c3218":[11,0,7,5,6,1,20],
 "_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ab1dc817c28cd24fb6f200224bc922e7f":[11,0,7,5,6,1,23],
 "_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59abe7c99303fe552560650a54ec86dcf2c":[11,0,7,5,6,1,8],
 "_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ac0ce3f502ae8e4c9b39685b95acefb89":[11,0,7,5,6,1,12],
@@ -103,8 +105,8 @@ var NAVTREEINDEX13 =
 "_k32_w_2_logging_8cpp.html#a0dfce62d534dadcd80a7446a1ba405a0":[11,0,7,5,25,5],
 "_k32_w_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,5,25,4],
 "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77":[11,0,7,5,25,8],
-"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,3],
+"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a7239e2be33c8d7bb4471386fa5b65569":[11,0,7,5,25,6],
 "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,5,25,9],
 "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513":[11,0,7,5,25,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "_linux_2_c_h_i_p_platform_config_8h.html#a1e3f892a26cbf0a37737fb079bb01b13":[11,0,7,6,10,2],
 "_linux_2_c_h_i_p_platform_config_8h.html#a2839eb8c235bbcc0abf18e1dc5adc017":[11,0,7,6,10,25],
 "_linux_2_c_h_i_p_platform_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689":[11,0,7,6,10,5],
-"_linux_2_c_h_i_p_platform_config_8h.html#a37f61d1eb2010ee0d310452850285f44":[11,0,7,6,10,13],
-"_linux_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80":[11,0,7,6,10,38],
-"_linux_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,6,10,22]
+"_linux_2_c_h_i_p_platform_config_8h.html#a37f61d1eb2010ee0d310452850285f44":[11,0,7,6,10,13]
 };

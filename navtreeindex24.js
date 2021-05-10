@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49":[10,0,1,14,9,15],
+"classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ae0b512caed8d0467f80eec3473931884":[10,0,1,14,9,0],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html":[10,0,1,14,10],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a06d522e80ca2ea1107cf4a19d0c0d0d1":[10,0,1,14,10,31],
 "classchip_1_1_device_layer_1_1_connectivity_manager.html#a0ac95729d727c9c843be57ff88a548c0":[10,0,1,14,10,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#ad35348f6c52334a3d192b2a6e9206af5":[10,0,1,14,0,8,3],
 "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html":[10,0,1,14,0,9],
 "classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html#a0a52ebbb7da1cfac1897867761ff5802":[10,0,1,14,0,9,0],
-"classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html#a0ef34adc665636d8c4e7a58c2c1e863b":[10,0,1,14,0,9,2],
-"classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html#a1adc90e7a8e72b1794a6525668615225":[10,0,1,14,0,9,4],
-"classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html#a2c014b4a39142b60529d395a83b60003":[10,0,1,14,0,9,1]
+"classchip_1_1_device_layer_1_1_internal_1_1_device_control_server.html#a0ef34adc665636d8c4e7a58c2c1e863b":[10,0,1,14,0,9,2]
 };

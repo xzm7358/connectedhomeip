@@ -220,6 +220,8 @@ var classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters =
     [ "ClusterOnOff_ConfigureAttributeOnOff", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a07d1602a1fab87971f30969831b0bce8", null ],
     [ "ClusterOnOff_ReadAttributeClusterRevision", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a690035417a20d1bccaa4d644281a6ef8", null ],
     [ "ClusterOnOff_ReadAttributeOnOff", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7ef103e1bb69dd75afeff27eb42d9fd1", null ],
+    [ "ClusterOperationalCredentials_CommandAddOpCert", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa4da4a073a6e0042e44cf246ecd4ba31", null ],
+    [ "ClusterOperationalCredentials_CommandOpCSRRequest", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#ad96faf2d23dfa755f10978b3b80ce9ec", null ],
     [ "ClusterOperationalCredentials_CommandRemoveAllFabrics", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aefd767bc9ba52d2eeb160036f8f93ed3", null ],
     [ "ClusterOperationalCredentials_CommandRemoveFabric", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a247e31a94e43fb98ca2c5284718c224e", null ],
     [ "ClusterOperationalCredentials_CommandSetFabric", "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#abeb665534be146ef94936450d849a316", null ],

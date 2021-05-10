@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">74f8da9</span>
+   &#160;<span id="projectnumber">a80db86</span>
    </div>
   </td>
  </tr>
@@ -300,6 +300,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0b6a49336c0c2a4c662de0a0105b155a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55123937fabebf2953c69f074ba83ee9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a55123937fabebf2953c69f074ba83ee9">ClusterOnOff_CommandToggle</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, ctypes.c_void_p device, int ZCLendpoint, int ZCLgroupid)</td></tr>
 <tr class="separator:a55123937fabebf2953c69f074ba83ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4da4a073a6e0042e44cf246ecd4ba31"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa4da4a073a6e0042e44cf246ecd4ba31">ClusterOperationalCredentials_CommandAddOpCert</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, ctypes.c_void_p device, int ZCLendpoint, int ZCLgroupid, bytes noc, bytes iCACertificate, bytes iPKValue, int caseAdminNode, int adminVendorId)</td></tr>
+<tr class="separator:aa4da4a073a6e0042e44cf246ecd4ba31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad96faf2d23dfa755f10978b3b80ce9ec"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#ad96faf2d23dfa755f10978b3b80ce9ec">ClusterOperationalCredentials_CommandOpCSRRequest</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, ctypes.c_void_p device, int ZCLendpoint, int ZCLgroupid, bytes cSRNonce)</td></tr>
+<tr class="separator:ad96faf2d23dfa755f10978b3b80ce9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd767bc9ba52d2eeb160036f8f93ed3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aefd767bc9ba52d2eeb160036f8f93ed3">ClusterOperationalCredentials_CommandRemoveAllFabrics</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, ctypes.c_void_p device, int ZCLendpoint, int ZCLgroupid)</td></tr>
 <tr class="separator:aefd767bc9ba52d2eeb160036f8f93ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a247e31a94e43fb98ca2c5284718c224e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a247e31a94e43fb98ca2c5284718c224e">ClusterOperationalCredentials_CommandRemoveFabric</a> (<a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a9b2e669ba75fb4cf707997bd00260d93">self</a>, ctypes.c_void_p device, int ZCLendpoint, int ZCLgroupid, int fabricId, int nodeId, int vendorId)</td></tr>
@@ -10866,6 +10870,122 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4da4a073a6e0042e44cf246ecd4ba31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4da4a073a6e0042e44cf246ecd4ba31">&#9670;&nbsp;</a></span>ClusterOperationalCredentials_CommandAddOpCert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def chip.clusters.CHIPClusters.ChipClusters.ClusterOperationalCredentials_CommandAddOpCert </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ctypes.c_void_p&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ZCLendpoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ZCLgroupid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes&#160;</td>
+          <td class="paramname"><em>noc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes&#160;</td>
+          <td class="paramname"><em>iCACertificate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes&#160;</td>
+          <td class="paramname"><em>iPKValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>caseAdminNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>adminVendorId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad96faf2d23dfa755f10978b3b80ce9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96faf2d23dfa755f10978b3b80ce9ec">&#9670;&nbsp;</a></span>ClusterOperationalCredentials_CommandOpCSRRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def chip.clusters.CHIPClusters.ChipClusters.ClusterOperationalCredentials_CommandOpCSRRequest </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ctypes.c_void_p&#160;</td>
+          <td class="paramname"><em>device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ZCLendpoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ZCLgroupid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes&#160;</td>
+          <td class="paramname"><em>cSRNonce</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aefd767bc9ba52d2eeb160036f8f93ed3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefd767bc9ba52d2eeb160036f8f93ed3">&#9670;&nbsp;</a></span>ClusterOperationalCredentials_CommandRemoveAllFabrics()</h2>
 
@@ -15558,7 +15678,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1clusters.html">clusters</a></li><li class="navelem"><a class="el" href="namespacechip_1_1clusters_1_1_c_h_i_p_clusters.html">CHIPClusters</a></li><li class="navelem"><a class="el" href="classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html">ChipClusters</a></li>
-    <li class="footer">Generated on Mon May 10 2021 17:38:51 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 10 2021 17:55:11 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
