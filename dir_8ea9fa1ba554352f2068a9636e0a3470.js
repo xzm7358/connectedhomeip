@@ -32,6 +32,8 @@ var dir_8ea9fa1ba554352f2068a9636e0a3470 =
     [ "KeyValueStoreManagerImpl.cpp", "_k32_w_2_key_value_store_manager_impl_8cpp.html", null ],
     [ "KeyValueStoreManagerImpl.h", "_k32_w_2_key_value_store_manager_impl_8h.html", "_k32_w_2_key_value_store_manager_impl_8h" ],
     [ "Logging.cpp", "_k32_w_2_logging_8cpp.html", "_k32_w_2_logging_8cpp" ],
+    [ "NFCManagerImpl.cpp", "_k32_w_2_n_f_c_manager_impl_8cpp.html", null ],
+    [ "NFCManagerImpl.h", "_k32_w_2_n_f_c_manager_impl_8h.html", "_k32_w_2_n_f_c_manager_impl_8h" ],
     [ "PlatformManagerImpl.cpp", "_k32_w_2_platform_manager_impl_8cpp.html", "_k32_w_2_platform_manager_impl_8cpp" ],
     [ "PlatformManagerImpl.h", "_k32_w_2_platform_manager_impl_8h.html", "_k32_w_2_platform_manager_impl_8h" ],
     [ "SoftwareUpdateManagerImpl.cpp", "_k32_w_2_software_update_manager_impl_8cpp.html", null ],

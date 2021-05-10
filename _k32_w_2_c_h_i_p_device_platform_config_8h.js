@@ -6,6 +6,7 @@ var _k32_w_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_CHIPOBLE_ENABLE_ADVERTISING_AUTOSTART", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a66145c1b40a752120e05ce2ed15249af", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIP_TIME_SERVICE_TIME_SYNC", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc", null ],
+    [ "CHIP_DEVICE_CONFIG_ENABLE_NFC", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a62d1a135a38380a18840530730d758d6", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_PAIRING_AUTOSTART", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a1b1b0bd39deaca1675c4353a35d4e398", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831", null ],
@@ -21,6 +22,7 @@ var _k32_w_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883", null ],
     [ "CHIP_DEVICE_LAYER_BLE_CONN_CFG_TAG", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a97f36984cf1171088848fadd90d6c992", null ],
     [ "CHIP_DEVICE_LAYER_BLE_OBSERVER_PRIORITY", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a5f4fa3550c1ba01727420ce2aab7f595", null ],
+    [ "CONFIG_CHIP_NFC_COMMISSIONING", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a2000a442ad5164571082fa0c31925420", null ],
     [ "K32W_ENTRY_NOT_FOUND", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a291b0da14b8d17a12478804babe840dd", null ],
     [ "K32W_NO_ERRORS", "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a305d654559a90a6d0f2acdb966a9b373", null ]
 ];

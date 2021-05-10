@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">0238a6c</span>
+   &#160;<span id="projectnumber">d3e2eda</span>
    </div>
   </td>
  </tr>
@@ -112,9 +112,9 @@ $(document).ready(function(){initNavTree('_zephyr_2_n_f_c_manager_impl_8h_source
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span>DeviceLayer {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">NFCManagerImpl</a> final : <span class="keyword">public</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html">NFCManager</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>NFCManagerImpl final : <span class="keyword">public</span> NFCManager</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae54e587496fdce23efd2b8446be863a5">   33</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html">NFCManager</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae56d5d0c5865417223dc396b789c12b7">NFCManager</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// ===== Members that implement the NFCManager internal interface.</span></div>
@@ -133,18 +133,18 @@ $(document).ready(function(){initNavTree('_zephyr_2_n_f_c_manager_impl_8h_source
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html">NFCManager</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee">NFCMgr</a>();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">NFCManagerImpl</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d">NFCMgrImpl</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae56d5d0c5865417223dc396b789c12b7">NFCManager</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee">NFCMgr</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">friend</span> NFCManagerImpl &amp; <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d">NFCMgrImpl</a>();</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">static</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">NFCManagerImpl</a> sInstance;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">static</span> NFCManagerImpl sInstance;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="namespacechip_1_1_device_layer.html#a64db75e927ef847cf36ca674f4792c7c">   58</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html">NFCManager</a> &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a64db75e927ef847cf36ca674f4792c7c">NFCMgr</a>()</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">inline</span> NFCManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a64db75e927ef847cf36ca674f4792c7c">NFCMgr</a>()</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> NFCManagerImpl::sInstance;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="namespacechip_1_1_device_layer.html#a88f0698b299714699eceba6090cb66c3">   63</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">NFCManagerImpl</a> &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a88f0698b299714699eceba6090cb66c3">NFCMgrImpl</a>()</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">inline</span> NFCManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a88f0698b299714699eceba6090cb66c3">NFCMgrImpl</a>()</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> NFCManagerImpl::sInstance;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
@@ -154,19 +154,18 @@ $(document).ready(function(){initNavTree('_zephyr_2_n_f_c_manager_impl_8h_source
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_html"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager.html">chip::DeviceLayer::NFCManager</a></div><div class="ttdoc">Defines an abstract interface for programming an NFC Tag.</div><div class="ttdef"><b>Definition:</b> NFCManager.h:41</div></div>
 <div class="ttc" id="a_setup_payload_parser-_j_n_i_8cpp_html_a5ea97d2c9a0075e8da5e7f1bd36523d5"><div class="ttname"><a href="_setup_payload_parser-_j_n_i_8cpp.html#a5ea97d2c9a0075e8da5e7f1bd36523d5">payload</a></div><div class="ttdeci">SetupPayload payload</div><div class="ttdef"><b>Definition:</b> SetupPayloadParser-JNI.cpp:41</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html_a494dbf2bbf30d335e62a4cc8c388ed4d"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d">chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl</a></div><div class="ttdeci">friend NFCManagerImpl &amp; NFCMgrImpl()</div><div class="ttdoc">Returns a reference to the platform-specific NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:63</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html_a494dbf2bbf30d335e62a4cc8c388ed4d"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d">chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl</a></div><div class="ttdeci">friend NFCManagerImpl &amp; NFCMgrImpl()</div><div class="ttdoc">Returns a reference to the platform-specific NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:103</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html_ae56d5d0c5865417223dc396b789c12b7"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae56d5d0c5865417223dc396b789c12b7">chip::DeviceLayer::NFCManagerImpl::NFCManager</a></div><div class="ttdeci">friend class NFCManager</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:44</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html">chip::DeviceLayer::NFCManagerImpl</a></div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:31</div></div>
-<div class="ttc" id="anamespacechip_1_1_device_layer_html_a64db75e927ef847cf36ca674f4792c7c"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a64db75e927ef847cf36ca674f4792c7c">chip::DeviceLayer::NFCMgr</a></div><div class="ttdeci">NFCManager &amp; NFCMgr()</div><div class="ttdoc">Returns a reference to the public interface of the NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:58</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html_a7b9d53d3d598fbe4126135d5c41378ee"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee">chip::DeviceLayer::NFCManagerImpl::NFCMgr</a></div><div class="ttdeci">friend NFCManager &amp; NFCMgr()</div><div class="ttdoc">Returns a reference to the public interface of the NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:58</div></div>
-<div class="ttc" id="anamespacechip_1_1_device_layer_html_a88f0698b299714699eceba6090cb66c3"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a88f0698b299714699eceba6090cb66c3">chip::DeviceLayer::NFCMgrImpl</a></div><div class="ttdeci">NFCManagerImpl &amp; NFCMgrImpl()</div><div class="ttdoc">Returns a reference to the platform-specific NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:63</div></div>
+<div class="ttc" id="anamespacechip_1_1_device_layer_html_a64db75e927ef847cf36ca674f4792c7c"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a64db75e927ef847cf36ca674f4792c7c">chip::DeviceLayer::NFCMgr</a></div><div class="ttdeci">NFCManager &amp; NFCMgr()</div><div class="ttdoc">Returns a reference to the public interface of the NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:98</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_n_f_c_manager_impl_html_a7b9d53d3d598fbe4126135d5c41378ee"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee">chip::DeviceLayer::NFCManagerImpl::NFCMgr</a></div><div class="ttdeci">friend NFCManager &amp; NFCMgr()</div><div class="ttdoc">Returns a reference to the public interface of the NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:98</div></div>
+<div class="ttc" id="anamespacechip_1_1_device_layer_html_a88f0698b299714699eceba6090cb66c3"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#a88f0698b299714699eceba6090cb66c3">chip::DeviceLayer::NFCMgrImpl</a></div><div class="ttdeci">NFCManagerImpl &amp; NFCMgrImpl()</div><div class="ttdoc">Returns a reference to the platform-specific NFCManager singleton object.</div><div class="ttdef"><b>Definition:</b> NFCManagerImpl.h:103</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_5622a41dbea6cfc87110f572fb48985f.html">Zephyr</a></li><li class="navelem"><a class="el" href="_zephyr_2_n_f_c_manager_impl_8h.html">NFCManagerImpl.h</a></li>
-    <li class="footer">Generated on Mon May 10 2021 15:41:38 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 10 2021 15:55:09 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

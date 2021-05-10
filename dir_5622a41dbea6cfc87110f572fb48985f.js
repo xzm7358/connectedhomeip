@@ -8,7 +8,7 @@ var dir_5622a41dbea6cfc87110f572fb48985f =
     [ "KeyValueStoreManagerImpl.cpp", "_zephyr_2_key_value_store_manager_impl_8cpp.html", "_zephyr_2_key_value_store_manager_impl_8cpp" ],
     [ "KeyValueStoreManagerImpl.h", "_zephyr_2_key_value_store_manager_impl_8h.html", "_zephyr_2_key_value_store_manager_impl_8h" ],
     [ "Logging.cpp", "_zephyr_2_logging_8cpp.html", "_zephyr_2_logging_8cpp" ],
-    [ "NFCManagerImpl.cpp", "_n_f_c_manager_impl_8cpp.html", null ],
+    [ "NFCManagerImpl.cpp", "_zephyr_2_n_f_c_manager_impl_8cpp.html", null ],
     [ "NFCManagerImpl.h", "_zephyr_2_n_f_c_manager_impl_8h.html", "_zephyr_2_n_f_c_manager_impl_8h" ],
     [ "PlatformManagerImpl.cpp", "_zephyr_2_platform_manager_impl_8cpp.html", "_zephyr_2_platform_manager_impl_8cpp" ],
     [ "PlatformManagerImpl.h", "_zephyr_2_platform_manager_impl_8h.html", "_zephyr_2_platform_manager_impl_8h" ],
