@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">ef3a0de</span>
+   &#160;<span id="projectnumber">6e46b7a</span>
    </div>
   </td>
  </tr>
@@ -106,63 +106,69 @@ $(document).ready(function(){initNavTree('_linux_2_configuration_manager_impl_8h
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_generic_configuration_manager_impl_8h.html">platform/internal/GenericConfigurationManagerImpl.h</a>&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_linux_2_posix_config_8h.html">platform/Linux/PosixConfig.h</a>&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span>DeviceLayer {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">class </span>ConfigurationManagerImpl final : <span class="keyword">public</span> ConfigurationManager,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                       <span class="keyword">public</span> Internal::GenericConfigurationManagerImpl&lt;ConfigurationManagerImpl&gt;,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                       <span class="keyword">private</span> Internal::PosixConfig</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// Allow the ConfigurationManager interface class to delegate method calls to</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// the implementation methods provided by this class.</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ae0b512caed8d0467f80eec3473931884">ConfigurationManager</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// Allow the GenericConfigurationManagerImpl base class to access helper methods and types</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// defined on this class.</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>Internal::GenericConfigurationManagerImpl&lt;ConfigurationManagerImpl&gt;;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// ===== Members that implement the ConfigurationManager public interface.</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _Init();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _GetPrimaryWiFiMACAddress(uint8_t * buf);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">bool</span> _CanFactoryReset();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> _InitiateFactoryReset();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _ReadPersistedStorageValue(::<a class="code" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a1e0c1655adf982fbf51a335af073cf06">chip::Platform::PersistedStorage::Key</a> key, uint32_t &amp; <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _WritePersistedStorageValue(::<a class="code" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a1e0c1655adf982fbf51a335af073cf06">chip::Platform::PersistedStorage::Key</a> key, uint32_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// NOTE: Other public interface methods are implemented by GenericConfigurationManagerImpl&lt;&gt;.</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ae0b512caed8d0467f80eec3473931884">ConfigurationManager</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#a7e9f7aad4e326a09d91fbca877e18ea1">ConfigurationMgr</a>();</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">friend</span> ConfigurationManagerImpl &amp; <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49">ConfigurationMgrImpl</a>();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">static</span> ConfigurationManagerImpl sInstance;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// ===== Private members reserved for use by this class only.</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> DoFactoryReset(intptr_t arg);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">inline</span> ConfigurationManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3">ConfigurationMgr</a>()</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> ConfigurationManagerImpl::sInstance;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">inline</span> ConfigurationManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a0c2b9fda49ebb693b70c024d7f086870">ConfigurationMgrImpl</a>()</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> ConfigurationManagerImpl::sInstance;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_device_network_info_8h.html">platform/internal/DeviceNetworkInfo.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_generic_configuration_manager_impl_8h.html">platform/internal/GenericConfigurationManagerImpl.h</a>&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_linux_2_posix_config_8h.html">platform/Linux/PosixConfig.h</a>&gt;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">namespace </span>DeviceLayer {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">class </span>ConfigurationManagerImpl final : <span class="keyword">public</span> ConfigurationManager,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                       <span class="keyword">public</span> Internal::GenericConfigurationManagerImpl&lt;ConfigurationManagerImpl&gt;,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                       <span class="keyword">private</span> Internal::PosixConfig</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// Allow the ConfigurationManager interface class to delegate method calls to</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// the implementation methods provided by this class.</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ae0b512caed8d0467f80eec3473931884">ConfigurationManager</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// Allow the GenericConfigurationManagerImpl base class to access helper methods and types</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// defined on this class.</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>Internal::GenericConfigurationManagerImpl&lt;ConfigurationManagerImpl&gt;;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// ===== Members that implement the ConfigurationManager public interface.</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _Init();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _GetPrimaryWiFiMACAddress(uint8_t * buf);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">bool</span> _CanFactoryReset();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> _InitiateFactoryReset();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _ReadPersistedStorageValue(::<a class="code" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a1e0c1655adf982fbf51a335af073cf06">chip::Platform::PersistedStorage::Key</a> key, uint32_t &amp; <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _WritePersistedStorageValue(::<a class="code" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a1e0c1655adf982fbf51a335af073cf06">chip::Platform::PersistedStorage::Key</a> key, uint32_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> GetWiFiStationSecurityType(<a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#ae92a234aed871b8200bddbc81d16d10c">Internal::WiFiAuthSecurityType</a> &amp; secType);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> UpdateWiFiStationSecurityType(<a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#ae92a234aed871b8200bddbc81d16d10c">Internal::WiFiAuthSecurityType</a> secType);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// NOTE: Other public interface methods are implemented by GenericConfigurationManagerImpl&lt;&gt;.</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">friend</span> <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ae0b512caed8d0467f80eec3473931884">ConfigurationManager</a> &amp; <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#a7e9f7aad4e326a09d91fbca877e18ea1">ConfigurationMgr</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">friend</span> ConfigurationManagerImpl &amp; <a class="code" href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49">ConfigurationMgrImpl</a>();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">static</span> ConfigurationManagerImpl sInstance;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// ===== Private members reserved for use by this class only.</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> DoFactoryReset(intptr_t arg);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">inline</span> ConfigurationManager &amp; <a class="code" href="namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3">ConfigurationMgr</a>()</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> ConfigurationManagerImpl::sInstance;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">inline</span> ConfigurationManagerImpl &amp; <a class="code" href="namespacechip_1_1_device_layer.html#a0c2b9fda49ebb693b70c024d7f086870">ConfigurationMgrImpl</a>()</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">return</span> ConfigurationManagerImpl::sInstance;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_configuration_manager_impl_html_a7e9f7aad4e326a09d91fbca877e18ea1"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#a7e9f7aad4e326a09d91fbca877e18ea1">chip::DeviceLayer::ConfigurationManagerImpl::ConfigurationMgr</a></div><div class="ttdeci">friend ConfigurationManager &amp; ConfigurationMgr(void)</div><div class="ttdoc">Returns a reference to the public interface of the ConfigurationManager singleton object.</div><div class="ttdef"><b>Definition:</b> ConfigurationManagerImpl.h:78</div></div>
@@ -172,15 +178,17 @@ $(document).ready(function(){initNavTree('_linux_2_configuration_manager_impl_8h
 <div class="ttc" id="a_generic_configuration_manager_impl_8h_html"><div class="ttname"><a href="_generic_configuration_manager_impl_8h.html">GenericConfigurationManagerImpl.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_configuration_manager_impl_html_abdeae3c41d64bf83d5ce334538b78d49"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49">chip::DeviceLayer::ConfigurationManagerImpl::ConfigurationMgrImpl</a></div><div class="ttdeci">friend ConfigurationManagerImpl &amp; ConfigurationMgrImpl(void)</div><div class="ttdoc">Returns the platform-specific implementation of the ConfigurationManager singleton object.</div><div class="ttdef"><b>Definition:</b> ConfigurationManagerImpl.h:89</div></div>
 <div class="ttc" id="a_linux_2_posix_config_8h_html"><div class="ttname"><a href="_linux_2_posix_config_8h.html">PosixConfig.h</a></div></div>
+<div class="ttc" id="anamespacechip_1_1_device_layer_1_1_internal_html_ae92a234aed871b8200bddbc81d16d10c"><div class="ttname"><a href="namespacechip_1_1_device_layer_1_1_internal.html#ae92a234aed871b8200bddbc81d16d10c">chip::DeviceLayer::Internal::WiFiAuthSecurityType</a></div><div class="ttdeci">WiFiAuthSecurityType</div><div class="ttdoc">WiFi Security Modes.</div><div class="ttdef"><b>Definition:</b> DeviceNetworkInfo.h:48</div></div>
 <div class="ttc" id="anamespacechip_1_1_device_layer_html_aa339b4bbbc137aab908ac19ebd3460e3"><div class="ttname"><a href="namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3">chip::DeviceLayer::ConfigurationMgr</a></div><div class="ttdeci">ConfigurationManager &amp; ConfigurationMgr()</div><div class="ttdoc">Returns a reference to the public interface of the ConfigurationManager singleton object.</div><div class="ttdef"><b>Definition:</b> ConfigurationManagerImpl.h:78</div></div>
 <div class="ttc" id="anamespacechip_1_1_platform_1_1_persisted_storage_html_a1e0c1655adf982fbf51a335af073cf06"><div class="ttname"><a href="namespacechip_1_1_platform_1_1_persisted_storage.html#a1e0c1655adf982fbf51a335af073cf06">chip::Platform::PersistedStorage::Key</a></div><div class="ttdeci">CHIP_CONFIG_PERSISTED_STORAGE_KEY_TYPE Key</div><div class="ttdef"><b>Definition:</b> PersistedStorage.h:43</div></div>
+<div class="ttc" id="a_device_network_info_8h_html"><div class="ttname"><a href="_device_network_info_8h.html">DeviceNetworkInfo.h</a></div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ac50abae6d98e9974b60124d04929c51e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a></div><div class="ttdeci">JNIEnv jobject jint jbyteArray jbyteArray jbyteArray value</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:550</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_73d3889ee67b63af7c3145b099b55cd9.html">Linux</a></li><li class="navelem"><a class="el" href="_linux_2_configuration_manager_impl_8h.html">ConfigurationManagerImpl.h</a></li>
-    <li class="footer">Generated on Mon May 10 2021 19:40:01 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 10 2021 20:08:43 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
