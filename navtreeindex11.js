@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"_e_s_p32_2_inet_platform_config_8h.html#a025fec14f12c20ac5d9994f88317990d":[11,0,7,3,20,4],
+"_e_s_p32_2_inet_platform_config_8h.html#a2c1f618da335e87dce22ad531b4bdce7":[11,0,7,3,20,3],
 "_e_s_p32_2_inet_platform_config_8h.html#a31767771604228017e8e262874f422db":[11,0,7,3,20,1],
 "_e_s_p32_2_inet_platform_config_8h.html#a4bde4bf6b15d173f13487cba33506aa7":[11,0,7,3,20,0],
 "_e_s_p32_2_inet_platform_config_8h.html#a8475da5675726182a88452691d4523ac":[11,0,7,3,20,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "_generic_thread_stack_manager_impl___open_thread_8cpp.html":[11,0,7,9,0],
 "_generic_thread_stack_manager_impl___open_thread_8cpp.html#a910ebbddd7f84aee20cde04258d7895f":[11,0,7,9,0,3],
 "_generic_thread_stack_manager_impl___open_thread_8cpp.html#ac407e3ec4736f520e0e9413c6b9e4104":[11,0,7,9,0,0],
-"_generic_thread_stack_manager_impl___open_thread_8cpp.html#ace6e80710bb601a125778c40312accc1":[11,0,7,9,0,1],
-"_generic_thread_stack_manager_impl___open_thread_8cpp.html#ae05b77c906ad469fb6ccbd19f95f9947":[11,0,7,9,0,2],
-"_generic_thread_stack_manager_impl___open_thread_8h.html":[11,0,7,9,1]
+"_generic_thread_stack_manager_impl___open_thread_8cpp.html#ace6e80710bb601a125778c40312accc1":[11,0,7,9,0,1]
 };

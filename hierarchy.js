@@ -304,9 +304,9 @@ var hierarchy =
     [ "JniByteArray", "class_jni_byte_array.html", null ],
     [ "JniUtfString", "class_jni_utf_string.html", null ],
     [ "chip::DeviceLayer::Internal::K32WConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html", null ],
+    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::CC13X2_26X2Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::PosixConfig::Key", "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html", null ],
-    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManager", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html", [
       [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html", null ]
     ] ],
@@ -512,8 +512,8 @@ var hierarchy =
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

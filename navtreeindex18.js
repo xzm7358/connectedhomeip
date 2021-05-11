@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"_zephyr_2_system_time_support_8cpp.html#a2685a1be7eb20ad425c4be2571582ae9":[11,0,7,11,12,2],
+"_zephyr_2_system_time_support_8cpp.html#a3951b627d3825489d276ee7aef5a95d6":[11,0,7,11,12,1],
 "_zephyr_2_system_time_support_8cpp.html#a3c48058dcc8a3026f616e3868aa3201e":[11,0,7,11,12,0],
 "_zephyr_2_system_time_support_8cpp.html#aa46848ca7d4fdc8ad8ce933ea8ebedf3":[11,0,7,11,12,5],
 "_zephyr_2_system_time_support_8cpp.html#ac879f618cdd32d83ef3f7bdfeb01ba3d":[11,0,7,11,12,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,0,10,43],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550":[11,0,7,0,10,29],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,0,10,33],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,0,10],
-"cc13x2__26x2_2_configuration_manager_impl_8cpp.html":[11,0,7,0,11],
-"cc13x2__26x2_2_configuration_manager_impl_8h.html":[11,0,7,0,12]
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,0,10]
 };

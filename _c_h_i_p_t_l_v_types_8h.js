@@ -1,7 +1,7 @@
 var _c_h_i_p_t_l_v_types_8h =
 [
-    [ "kTLVTypeMask", "_c_h_i_p_t_l_v_types_8h.html#ab6b4893216d0093fcd96c01b6534781cada5c80e57ed2e74fdf99756f5c2e9f74", null ],
-    [ "kTLVTypeSizeMask", "_c_h_i_p_t_l_v_types_8h.html#ab6b4893216d0093fcd96c01b6534781cab86a77e098fcfd3b2bebd50128ed6527", null ],
+    [ "kTLVTypeMask", "_c_h_i_p_t_l_v_types_8h.html#a2c034122e18fac8b95dd1dd36f7d8d75ada5c80e57ed2e74fdf99756f5c2e9f74", null ],
+    [ "kTLVTypeSizeMask", "_c_h_i_p_t_l_v_types_8h.html#a2c034122e18fac8b95dd1dd36f7d8d75ab86a77e098fcfd3b2bebd50128ed6527", null ],
     [ "TLVElementType", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dc", [
       [ "NotSpecified", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dca4b7d504abac49ba24b4df86c129d3cbc", null ],
       [ "Int8", "_c_h_i_p_t_l_v_types_8h.html#aca7e925a5d00f8dd399cfd7dca4587dca7d839b2c12bfd40ac121b4cc9e81c539", null ],

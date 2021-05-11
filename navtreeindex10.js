@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"_e_f_r32_2_connectivity_manager_impl_8h.html#ae3364f4ad1379eb7fb38490e701307e6":[11,0,7,2,10,1],
+"_e_f_r32_2_connectivity_manager_impl_8h_source.html":[11,0,7,2,10],
 "_e_f_r32_2_device_network_provisioning_delegate_impl_8cpp.html":[11,0,7,2,11],
 "_e_f_r32_2_device_network_provisioning_delegate_impl_8h.html":[11,0,7,2,12],
 "_e_f_r32_2_device_network_provisioning_delegate_impl_8h_source.html":[11,0,7,2,12],
@@ -170,7 +172,7 @@ var NAVTREEINDEX10 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#afcd348c4551d05c630645358da5b24ac":[11,0,7,3,4,13],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,3,4],
 "_e_s_p32_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,3,5],
-"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html#a0f5feb11e86368b013de4263651d5229a69c31bbb7024ed3f0c39125dbc83edf7":[11,0,7,3,5,1],
+"_e_s_p32_2_c_h_i_p_device_platform_event_8h.html#a845eb72aa42125e121e19926dc40431da69c31bbb7024ed3f0c39125dbc83edf7":[11,0,7,3,5,1],
 "_e_s_p32_2_c_h_i_p_device_platform_event_8h_source.html":[11,0,7,3,5],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html":[11,0,7,3,6],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#a044568a3a1869d82f844bb3ae592908d":[11,0,7,3,6,44],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "_e_s_p32_2_group_key_store_impl_8cpp.html":[11,0,7,3,18],
 "_e_s_p32_2_group_key_store_impl_8h.html":[11,0,7,3,19],
 "_e_s_p32_2_group_key_store_impl_8h_source.html":[11,0,7,3,19],
-"_e_s_p32_2_inet_platform_config_8h.html":[11,0,7,3,20],
-"_e_s_p32_2_inet_platform_config_8h.html#a025fec14f12c20ac5d9994f88317990d":[11,0,7,3,20,4],
-"_e_s_p32_2_inet_platform_config_8h.html#a2c1f618da335e87dce22ad531b4bdce7":[11,0,7,3,20,3]
+"_e_s_p32_2_inet_platform_config_8h.html":[11,0,7,3,20]
 };

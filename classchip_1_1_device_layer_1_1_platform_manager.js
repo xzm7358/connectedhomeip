@@ -23,6 +23,7 @@ var classchip_1_1_device_layer_1_1_platform_manager =
     [ "ConfigurationManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager.html#a50cd5ed45a9e4ed4b1d99e721b2b4ce1", null ],
     [ "ConnectivityManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager.html#a2116de3dec40503a2bb150dd941ae7db", null ],
     [ "Internal::BLEManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager.html#a208e83cad03106b77b2e8b8956cf0cca", null ],
+    [ "Internal::DeviceControlServer", "classchip_1_1_device_layer_1_1_platform_manager.html#a9789c1bb086f0ac85540999bd162102d", null ],
     [ "Internal::FabricProvisioningServer", "classchip_1_1_device_layer_1_1_platform_manager.html#ae3dab8d34cb786d59e74436cc0d213c1", null ],
     [ "Internal::GenericConfigurationManagerImpl", "classchip_1_1_device_layer_1_1_platform_manager.html#ad41c9fd8237d290bd991f809e3ec00b2", null ],
     [ "Internal::GenericConnectivityManagerImpl_Thread", "classchip_1_1_device_layer_1_1_platform_manager.html#aed2f7e801702f32466bd8c5c5fbf063f", null ],

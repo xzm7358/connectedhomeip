@@ -12,7 +12,7 @@ var dir_4b68c2fef3e151b6b93d5e93b14f1857 =
     [ "OpenThread", "dir_ef0a5b4bfa1bf86bc0ea3468709efd62.html", "dir_ef0a5b4bfa1bf86bc0ea3468709efd62" ],
     [ "qpg6100", "dir_fcc1d09ed58181b7f4fc81b7a286e7d0.html", "dir_fcc1d09ed58181b7f4fc81b7a286e7d0" ],
     [ "Zephyr", "dir_5622a41dbea6cfc87110f572fb48985f.html", "dir_5622a41dbea6cfc87110f572fb48985f" ],
-    [ "DeviceControlServer.cpp", "_device_control_server_8cpp.html", null ],
+    [ "DeviceControlServer.cpp", "_device_control_server_8cpp.html", "_device_control_server_8cpp" ],
     [ "GeneralUtils.cpp", "_general_utils_8cpp.html", "_general_utils_8cpp" ],
     [ "Globals.cpp", "_globals_8cpp.html", null ],
     [ "LockTracker.cpp", "_lock_tracker_8cpp.html", null ],
