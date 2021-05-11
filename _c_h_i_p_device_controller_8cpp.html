@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d5d7116</span>
+   &#160;<span id="projectnumber">80120a2</span>
    </div>
   </td>
  </tr>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
 <code>#include &lt;<a class="el" href="_c_h_i_p_core_8h_source.html">core/CHIPCore.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_encoding_8h_source.html">core/CHIPEncoding.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_safe_casts_8h_source.html">core/CHIPSafeCasts.h</a>&gt;</code><br />
+<code>#include &lt;messaging/ExchangeContext.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_base64_8h_source.html">support/Base64.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_arg_parser_8hpp_source.html">support/CHIPArgParser.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
@@ -109,6 +110,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
 <code>#include &lt;<a class="el" href="_c_h_i_p_logging_8h_source.html">support/logging/CHIPLogging.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_ble_layer_8h_source.html">ble/BleLayer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="transport_2raw_2_ble_8h_source.html">transport/raw/BLE.h</a>&gt;</code><br />
+<code>#include &lt;app/util/af-enums.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;inttypes.h&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
@@ -139,6 +141,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aca041256441cb351d2da0fbda58c6d02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller_8cpp.html#aca041256441cb351d2da0fbda58c6d02">__attribute__</a> ((weak)) IMDefaultResponseCallback(const chip</td></tr>
+<tr class="separator:aca041256441cb351d2da0fbda58c6d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562e2fd2665578a6e231a69b8365d521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">chip::Platform::PersistedStorage::Read</a> (Key aKey, uint32_t &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3acc4e52fdb57eeb69effbe5041e3986">aValue</a>)</td></tr>
 <tr class="memdesc:a562e2fd2665578a6e231a69b8365d521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read integer value of a key from persistent storage.  <a href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">More...</a><br /></td></tr>
 <tr class="separator:a562e2fd2665578a6e231a69b8365d521"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,6 +244,25 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aca041256441cb351d2da0fbda58c6d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca041256441cb351d2da0fbda58c6d02">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__attribute__ </td>
+          <td>(</td>
+          <td class="paramtype">(weak)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacechip_html_ac741422ab936732a88bb008cf631cbd2"><div class="ttname"><a href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a></div><div class="ttdeci">uint64_t NodeId</div><div class="ttdoc">Convenience types to make it clear what different number types mean.</div><div class="ttdef"><b>Definition:</b> PeerId.h:23</div></div>
@@ -248,7 +271,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Tue May 11 2021 15:32:03 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 11 2021 16:07:03 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

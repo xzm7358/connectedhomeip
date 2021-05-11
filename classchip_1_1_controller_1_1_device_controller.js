@@ -28,6 +28,7 @@ var classchip_1_1_controller_1_1_device_controller =
     [ "mAdminId", "classchip_1_1_controller_1_1_device_controller.html#ac0fd80a31652e6d3fd1c149288242218", null ],
     [ "mAdmins", "classchip_1_1_controller_1_1_device_controller.html#ad23fb00406bf20fdb8003fdbb6b3f551", null ],
     [ "mBleLayer", "classchip_1_1_controller_1_1_device_controller.html#a08b4a1fb32efd1067f989109c116e885", null ],
+    [ "mDefaultIMDelegate", "classchip_1_1_controller_1_1_device_controller.html#a4ed7c653642c0385a4b5673eab06314a", null ],
     [ "mExchangeMgr", "classchip_1_1_controller_1_1_device_controller.html#a1d08219cd33cd80f5ad9064ce4c9fa8b", null ],
     [ "mInetLayer", "classchip_1_1_controller_1_1_device_controller.html#a6821389f0f9c5b392cb157b5a40bc165", null ],
     [ "mListenPort", "classchip_1_1_controller_1_1_device_controller.html#ac673218018126e36f2b5eafc5d1de9ae", null ],

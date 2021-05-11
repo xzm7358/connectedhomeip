@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"_ble_platform_delegate_impl_8mm.html":[11,0,7,1,8],
+"_ble_role_8h.html":[11,0,0,12],
 "_ble_role_8h.html#af939616df203558805d6aa06641290b7":[11,0,0,12,0],
 "_ble_role_8h.html#af939616df203558805d6aa06641290b7a0ddf3760db8a3b28f0233f8c9a821c86":[11,0,0,12,0,0],
 "_ble_role_8h.html#af939616df203558805d6aa06641290b7a39ce1da52d48e3aa8743f66d488014d6":[11,0,0,12,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "_c_h_i_p_clusters_8cpp.html#a6a43774c4207d3e6ef740e2235961910":[11,0,1,1,0,1,1,317],
 "_c_h_i_p_clusters_8cpp.html#a6a4b4bc4c9302d61f227329c06b9711f":[11,0,1,1,0,1,1,15],
 "_c_h_i_p_clusters_8cpp.html#a6ba527e7160bf589ee3dfc331fa9a932":[11,0,1,1,0,1,1,305],
-"_c_h_i_p_clusters_8cpp.html#a6babb55b9543f3f3c84eafc8b463a2d7":[11,0,1,1,0,1,1,247],
-"_c_h_i_p_clusters_8cpp.html#a6c30ef5459607337c76c5d0566475ec7":[11,0,1,1,0,1,1,303],
-"_c_h_i_p_clusters_8cpp.html#a6cca3f1368f8e6c6fcea6895a4eb93ea":[11,0,1,1,0,1,1,33]
+"_c_h_i_p_clusters_8cpp.html#a6babb55b9543f3f3c84eafc8b463a2d7":[11,0,1,1,0,1,1,247]
 };

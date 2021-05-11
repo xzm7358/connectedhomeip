@@ -7,6 +7,7 @@ var dir_3ff1561482c489189ee255c04d29efa4 =
     [ "AndroidBleConnectionDelegate.h", "_android_ble_connection_delegate_8h.html", "_android_ble_connection_delegate_8h" ],
     [ "AndroidBlePlatformDelegate.cpp", "_android_ble_platform_delegate_8cpp.html", null ],
     [ "AndroidBlePlatformDelegate.h", "_android_ble_platform_delegate_8h.html", "_android_ble_platform_delegate_8h" ],
+    [ "AndroidCommandHandler.cpp", "_android_command_handler_8cpp.html", "_android_command_handler_8cpp" ],
     [ "AndroidDeviceControllerWrapper.cpp", "_android_device_controller_wrapper_8cpp.html", "_android_device_controller_wrapper_8cpp" ],
     [ "AndroidDeviceControllerWrapper.h", "_android_device_controller_wrapper_8h.html", [
       [ "AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html", "class_android_device_controller_wrapper" ]

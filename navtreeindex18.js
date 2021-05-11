@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"_zephyr_2_platform_manager_impl_8h_source.html":[11,0,7,11,11],
+"_zephyr_2_system_time_support_8cpp.html":[11,0,7,11,12],
+"_zephyr_2_system_time_support_8cpp.html#a16f2a1b2fc0d717028452a2115d40619":[11,0,7,11,12,4],
+"_zephyr_2_system_time_support_8cpp.html#a1d4bafb6d485dd84d5e1094ff0fa6c0b":[11,0,7,11,12,3],
 "_zephyr_2_system_time_support_8cpp.html#a2685a1be7eb20ad425c4be2571582ae9":[11,0,7,11,12,2],
 "_zephyr_2_system_time_support_8cpp.html#a3951b627d3825489d276ee7aef5a95d6":[11,0,7,11,12,1],
 "_zephyr_2_system_time_support_8cpp.html#a3c48058dcc8a3026f616e3868aa3201e":[11,0,7,11,12,0],
@@ -156,8 +160,8 @@ var NAVTREEINDEX18 =
 "cc13x2__26x2-mbedtls-config_8h.html#a8a7aca10569198cf8e8dbff1c40677c6":[11,0,7,0,3,61],
 "cc13x2__26x2-mbedtls-config_8h.html#a8cc51fc9b077f5b669bc4dfba0bde43e":[11,0,7,0,3,50],
 "cc13x2__26x2-mbedtls-config_8h.html#a94cdd3a9ed91c6a2cc936916bab43806":[11,0,7,0,3,48],
-"cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,5],
 "cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,6],
+"cc13x2__26x2-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4":[11,0,7,0,3,5],
 "cc13x2__26x2-mbedtls-config_8h.html#a98099ce7241e89e42ba34b79e770a0ab":[11,0,7,0,3,20],
 "cc13x2__26x2-mbedtls-config_8h.html#aa046c86ba7c3101e5128ccac09128a71":[11,0,7,0,3,27],
 "cc13x2__26x2-mbedtls-config_8h.html#aa0aaa3f0466b5ae15ff9bf176f632a3d":[11,0,7,0,3,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#add070dbfaadd65cf200e6281347f6e4b":[11,0,7,0,10,28],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,0,10,10],
 "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,0,10,15],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,0,10,2],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,0,10,43],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550":[11,0,7,0,10,29],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,0,10,33],
-"cc13x2__26x2_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,0,10]
+"cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,0,10,2]
 };

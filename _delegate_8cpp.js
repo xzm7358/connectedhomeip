@@ -1,5 +1,6 @@
 var _delegate_8cpp =
 [
+    [ "DispatchSingleClusterCommand", "_delegate_8cpp.html#a281dd0b578601b2b75c81178ba6ac913", null ],
     [ "pychip_InteractionModelDelegate_SetCommandResponseErrorCallback", "_delegate_8cpp.html#a757db07ae9a9ba92c631892742042099", null ],
     [ "pychip_InteractionModelDelegate_SetCommandResponseProtocolErrorCallback", "_delegate_8cpp.html#ab3832ef8a62aa153bf15bf65ec5a17a8", null ],
     [ "pychip_InteractionModelDelegate_SetCommandResponseStatusCallback", "_delegate_8cpp.html#afb8e076c65dc611cfab4837d38eb4b8e", null ],

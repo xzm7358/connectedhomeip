@@ -6,8 +6,10 @@ var classchip_1_1_controller_1_1_device =
       [ "kTokenWithProvidedPIN", "classchip_1_1_controller_1_1_device.html#aa1f3a86bfa200253e61cabfeb4b03f52a5622dd01d2c08446ccc789cee7b51761", null ]
     ] ],
     [ "~Device", "classchip_1_1_controller_1_1_device.html#ae276e0def3fc4992c5631314503a3783", null ],
+    [ "AddIMResponseHandler", "classchip_1_1_controller_1_1_device.html#ac8875c2e541478b510bc14a643668dd1", null ],
     [ "AddReportHandler", "classchip_1_1_controller_1_1_device.html#ade1ec986c3c82cc71a08c39bbe247684", null ],
     [ "AddResponseHandler", "classchip_1_1_controller_1_1_device.html#a33cee06ea81aaae0f127fd2d95db1eef", null ],
+    [ "CancelIMResponseHandler", "classchip_1_1_controller_1_1_device.html#a2b8571d9ee27b7c30072723eb07ee813", null ],
     [ "CancelResponseHandler", "classchip_1_1_controller_1_1_device.html#ab4238866e726fab21c846d0003b12277", null ],
     [ "Deserialize", "classchip_1_1_controller_1_1_device.html#a25dc99776841306d50148fa4211bdaa4", null ],
     [ "GetAddress", "classchip_1_1_controller_1_1_device.html#a082fcc4b306c12a7d730b4b4df914531", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX8 =
 {
+"_chip_device_controller-_cluster_commands_8cpp.html#a8f1ab30dff52d85c2649321875861ca0":[11,0,1,1,5,1],
+"_chip_device_controller-_cluster_commands_8cpp.html#a8f4329b34e15f4cc90614422968460c3":[11,0,1,1,5,68],
+"_chip_device_controller-_cluster_commands_8cpp.html#a9414b032285c0fd8c42f9452ba676636":[11,0,1,1,5,79],
 "_chip_device_controller-_cluster_commands_8cpp.html#a96f6ab53a1f06789f3d9e5d95356c0fc":[11,0,1,1,5,26],
 "_chip_device_controller-_cluster_commands_8cpp.html#a9946b3d2836a6bb1cb9bc4832331a909":[11,0,1,1,5,12],
 "_chip_device_controller-_cluster_commands_8cpp.html#a9adc580ddad6e3f44691f5a0fa903d94":[11,0,1,1,5,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX8 =
 "_darwin_2_c_h_i_p_platform_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,7,1,11,12],
 "_darwin_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,1,11,10],
 "_darwin_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,1,11,14],
-"_darwin_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,1,11,0],
-"_darwin_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,1,11,37],
-"_darwin_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,1,11,25],
-"_darwin_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,1,11]
+"_darwin_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,1,11,0]
 };

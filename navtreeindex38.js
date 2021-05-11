@@ -1,5 +1,17 @@
 var NAVTREEINDEX38 =
 {
+"classmdns_1_1_minimal_1_1_txt_record_delegate.html#ab14c6b56ef2ca4770b7188c5ed3185ce":[10,0,3,0,38,1],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html":[10,0,3,0,39],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html#a3e472189448a6aaed4698cbbcce03543":[10,0,3,0,39,1],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html#a4f4389ec7f5774357cd1bac77669ff4b":[10,0,3,0,39,4],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html#a90622d4384f0da9023c34d3dd0eb4d33":[10,0,3,0,39,3],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html#acaba9f9baeff0bddcd10dbefa80d946e":[10,0,3,0,39,2],
+"classmdns_1_1_minimal_1_1_txt_resource_record.html#adb36393e8c4b7f4695c3926aa94ca1d2":[10,0,3,0,39,0],
+"classmdns_1_1_minimal_1_1_txt_responder.html":[10,0,3,0,40],
+"classmdns_1_1_minimal_1_1_txt_responder.html#a13e3e55632cd49b5c18b01ca3fd592b4":[10,0,3,0,40,1],
+"classmdns_1_1_minimal_1_1_txt_responder.html#a3f76c95408a1c6cc31531e1a85ccdf60":[10,0,3,0,40,0],
+"classmobile-device-test_1_1_mobile_device_tests.html":[10,0,4,0],
+"classmobile-device-test_1_1_mobile_device_tests.html#a8cfc704febcd7f644ce074d9bfa01c42":[10,0,4,0,0],
 "classmobile-device-test_1_1_mobile_device_tests.html#a8e3cb8e3f08bc7580f0fbb10c0d6fd98":[10,0,4,0,4],
 "classmobile-device-test_1_1_mobile_device_tests.html#a98eea04eb9a38f8ed5453b94336245d4":[10,0,4,0,2],
 "classmobile-device-test_1_1_mobile_device_tests.html#a9daaf842ac8d0b7eecab46c5d3a8ee11":[10,0,4,0,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX38 =
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html#a61998163e2ed763c7cda73ac4d13de14":[10,0,1,13,1,4],
 "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html":[10,0,1,29,0,0],
 "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a0bc690fdcbd54d98646b7f52d8b49b56":[10,0,1,29,0,0,1],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a5f5463366cf225e229193a73723aac13":[10,0,1,29,0,0,2],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a6e270595bcf5e796a112e5fab09ed09d":[10,0,1,29,0,0,5],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a79cc7bfce21e26444af41f33111a90de":[10,0,1,29,0,0,3],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#aabdb55e30226beb679301470b5188d66":[10,0,1,29,0,0,4],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#ab790fda760e82cbd2878efd8dceb12c1":[10,0,1,29,0,0,0],
-"exceptions_2____init_____8py.html":[11,0,1,1,0,4,0],
-"exceptions_2____init_____8py.html#ab426b82afb0c974b0f0a5cf1e4c9d940":[11,0,1,1,0,4,0,9],
-"files.html":[11,0],
-"freertos__bluetooth_8c.html":[11,0,7,2,17],
-"freertos__bluetooth_8c.html#a0924bb7b32a34eb411ad1a42268ec597":[11,0,7,2,17,4],
-"freertos__bluetooth_8c.html#a15d05af483395c0ec2cdb9219c5deb70":[11,0,7,2,17,9],
-"freertos__bluetooth_8c.html#a175ba7340995023a91853214d15e2031":[11,0,7,2,17,1],
-"freertos__bluetooth_8c.html#a184d82c7012fdd1b349baa340d0009c3":[11,0,7,2,17,35]
+"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a5f5463366cf225e229193a73723aac13":[10,0,1,29,0,0,2]
 };

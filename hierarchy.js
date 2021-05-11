@@ -291,10 +291,11 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", null ],
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -304,9 +305,9 @@ var hierarchy =
     [ "JniByteArray", "class_jni_byte_array.html", null ],
     [ "JniUtfString", "class_jni_utf_string.html", null ],
     [ "chip::DeviceLayer::Internal::K32WConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html", null ],
-    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::CC13X2_26X2Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::PosixConfig::Key", "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html", null ],
+    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManager", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html", [
       [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html", null ]
     ] ],
@@ -413,8 +414,8 @@ var hierarchy =
     [ "chip::Transport::PeerConnections< kMaxConnectionCount, kTimeSource >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnections< CHIP_CONFIG_PEER_CONNECTION_POOL_SIZE >", "classchip_1_1_transport_1_1_peer_connections.html", null ],
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
-    [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
     [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
+    [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],

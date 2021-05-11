@@ -1,5 +1,8 @@
 var NAVTREEINDEX9 =
 {
+"_darwin_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,1,11,37],
+"_darwin_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,1,11,25],
+"_darwin_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,1,11],
 "_darwin_2_configuration_manager_impl_8cpp.html":[11,0,7,1,12],
 "_darwin_2_configuration_manager_impl_8h.html":[11,0,7,1,13],
 "_darwin_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,1,13,2],
@@ -71,10 +74,11 @@ var NAVTREEINDEX9 =
 "_darwin_2_system_platform_config_8h.html#abe49b1f4c42667f9e41830f1e71847c5":[11,0,7,1,29,3],
 "_darwin_2_system_platform_config_8h_source.html":[11,0,7,1,29],
 "_delegate_8cpp.html":[11,0,1,1,0,5,1],
-"_delegate_8cpp.html#a1db62df40a0c040f28b259004eb9901c":[11,0,1,1,0,5,1,3],
-"_delegate_8cpp.html#a757db07ae9a9ba92c631892742042099":[11,0,1,1,0,5,1,0],
-"_delegate_8cpp.html#ab3832ef8a62aa153bf15bf65ec5a17a8":[11,0,1,1,0,5,1,1],
-"_delegate_8cpp.html#afb8e076c65dc611cfab4837d38eb4b8e":[11,0,1,1,0,5,1,2],
+"_delegate_8cpp.html#a1db62df40a0c040f28b259004eb9901c":[11,0,1,1,0,5,1,4],
+"_delegate_8cpp.html#a281dd0b578601b2b75c81178ba6ac913":[11,0,1,1,0,5,1,0],
+"_delegate_8cpp.html#a757db07ae9a9ba92c631892742042099":[11,0,1,1,0,5,1,1],
+"_delegate_8cpp.html#ab3832ef8a62aa153bf15bf65ec5a17a8":[11,0,1,1,0,5,1,2],
+"_delegate_8cpp.html#afb8e076c65dc611cfab4837d38eb4b8e":[11,0,1,1,0,5,1,3],
 "_delegate_8h.html":[11,0,1,1,0,5,2],
 "_delegate_8h.html#a1e4ffc0f984fc7c06f63db99be9e5c46":[11,0,1,1,0,5,2,2],
 "_delegate_8h.html#a374041b489d63f5c2e37f4a0cdd0b4a3":[11,0,1,1,0,5,2,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "_e_f_r32_2_configuration_manager_impl_8cpp.html":[11,0,7,2,7],
 "_e_f_r32_2_configuration_manager_impl_8h.html":[11,0,7,2,8],
 "_e_f_r32_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,2,8,2],
-"_e_f_r32_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,2,8,1],
-"_e_f_r32_2_configuration_manager_impl_8h_source.html":[11,0,7,2,8],
-"_e_f_r32_2_connectivity_manager_impl_8cpp.html":[11,0,7,2,9],
-"_e_f_r32_2_connectivity_manager_impl_8h.html":[11,0,7,2,10],
-"_e_f_r32_2_connectivity_manager_impl_8h.html#a17ec2ecb960975c25c4a890d7a72cbfb":[11,0,7,2,10,2]
+"_e_f_r32_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,2,8,1]
 };
