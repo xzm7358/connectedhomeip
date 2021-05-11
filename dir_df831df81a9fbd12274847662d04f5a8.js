@@ -9,6 +9,7 @@ var dir_df831df81a9fbd12274847662d04f5a8 =
     [ "ConnectivityManager.h", "_connectivity_manager_8h.html", "_connectivity_manager_8h" ],
     [ "GeneralUtils.h", "_general_utils_8h.html", "_general_utils_8h" ],
     [ "KeyValueStoreManager.h", "_key_value_store_manager_8h.html", "_key_value_store_manager_8h" ],
+    [ "LockTracker.h", "_lock_tracker_8h.html", "_lock_tracker_8h" ],
     [ "NFCManager.h", "_n_f_c_manager_8h.html", "_n_f_c_manager_8h" ],
     [ "PersistedStorage.h", "_persisted_storage_8h.html", "_persisted_storage_8h" ],
     [ "PlatformManager.h", "_platform_manager_8h.html", "_platform_manager_8h" ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"cc13x2__26x2_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,0,12,2],
+"cc13x2__26x2_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,0,12,1],
+"cc13x2__26x2_2_configuration_manager_impl_8h_source.html":[11,0,7,0,12],
+"cc13x2__26x2_2_connectivity_manager_impl_8cpp.html":[11,0,7,0,13],
 "cc13x2__26x2_2_connectivity_manager_impl_8h.html":[11,0,7,0,14],
 "cc13x2__26x2_2_connectivity_manager_impl_8h.html#a17ec2ecb960975c25c4a890d7a72cbfb":[11,0,7,0,14,2],
 "cc13x2__26x2_2_connectivity_manager_impl_8h.html#ae3364f4ad1379eb7fb38490e701307e6":[11,0,7,0,14,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "classbuild-chip-wheel_1_1bdist__wheel__override.html":[10,0,0,0],
 "classbuild-chip-wheel_1_1bdist__wheel__override.html#a904212577b2906380816c07fb33b12b2":[10,0,0,0,0],
 "classbuild-chip-wheel_1_1bdist__wheel__override.html#ae1fe4846eec98ca46db756807789d902":[10,0,0,0,1],
-"classchip-device-ctrl_1_1_chip_dev_ctrl_exception.html":[10,0,2,0],
-"classchip-device-ctrl_1_1_device_mgr_cmd.html":[10,0,2,1],
-"classchip-device-ctrl_1_1_device_mgr_cmd.html#a0c159f7821ab6f8c08be20d04e198f7e":[10,0,2,1,24],
-"classchip-device-ctrl_1_1_device_mgr_cmd.html#a0d2c277e6cec69ef5bbb07593274c186":[10,0,2,1,32],
-"classchip-device-ctrl_1_1_device_mgr_cmd.html#a11e8f9e658a50eed3332a2043386389b":[10,0,2,1,30]
+"classchip-device-ctrl_1_1_chip_dev_ctrl_exception.html":[10,0,2,0]
 };
