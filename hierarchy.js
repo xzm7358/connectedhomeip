@@ -138,6 +138,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "chip::Controller::ClusterBase", "classchip_1_1_controller_1_1_cluster_base.html", null ],
+    [ "chip::Mdns::CommissionableNodeData", "structchip_1_1_mdns_1_1_commissionable_node_data.html", null ],
+    [ "chip::Mdns::CommissionableNodeFilter", "structchip_1_1_mdns_1_1_commissionable_node_filter.html", null ],
     [ "chip.internal.commissioner.Commissioner", "classchip_1_1internal_1_1commissioner_1_1_commissioner.html", null ],
     [ "chip.devicecontroller.ChipDeviceController.CompletionListener", "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html", null ],
     [ "chip::DeviceLayer::ConfigurationManager", "classchip_1_1_device_layer_1_1_configuration_manager.html", [
@@ -314,7 +316,10 @@ var hierarchy =
     [ "chip.devicecontroller.KeyValueStoreManager", "classchip_1_1devicecontroller_1_1_key_value_store_manager.html", null ],
     [ "chip::System::Layer", "classchip_1_1_system_1_1_layer.html", null ],
     [ "chip::Retransmit::Lifetime< PayloadType >", "structchip_1_1_retransmit_1_1_lifetime.html", null ],
-    [ "mdns::Minimal::ListenIterator", "classmdns_1_1_minimal_1_1_listen_iterator.html", null ],
+    [ "mdns::Minimal::ListenIterator", "classmdns_1_1_minimal_1_1_listen_iterator.html", [
+      [ "chip::Mdns::AllInterfaces", "classchip_1_1_mdns_1_1_all_interfaces.html", null ],
+      [ "chip::Mdns::AllInterfaces", "classchip_1_1_mdns_1_1_all_interfaces.html", null ]
+    ] ],
     [ "chip.ChipCoreBluetoothMgr.LoopCondition", "classchip_1_1_chip_core_bluetooth_mgr_1_1_loop_condition.html", null ],
     [ "chip::System::LwIPEvent", "structchip_1_1_system_1_1_lw_i_p_event.html", null ],
     [ "chip::System::LwIPEventHandlerDelegate", "classchip_1_1_system_1_1_lw_i_p_event_handler_delegate.html", null ],
@@ -389,10 +394,10 @@ var hierarchy =
     [ "chip::Optional< NodeId >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
-    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
     ] ],
+    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo.OptionalQRCodeInfoType", "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html", null ],
     [ "chip::Crypto::P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", null ],
     [ "chip::System::PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html", [

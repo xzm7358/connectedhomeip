@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">62de5f3</span>
+   &#160;<span id="projectnumber">8185019</span>
    </div>
   </td>
  </tr>
@@ -111,7 +111,9 @@ $(document).ready(function(){initNavTree('_chip_device_controller-_script_bindin
 <code>#include &lt;<a class="el" href="_c_h_i_p_device_8h_source.html">controller/CHIPDevice.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_device_controller_8h_source.html">controller/CHIPDeviceController.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_example_operational_credentials_issuer_8h_source.html">controller/ExampleOperationalCredentialsIssuer.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_i_p_address_8h_source.html">inet/IPAddress.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_resolver_8h_source.html">mdns/Resolver.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_q_r_code_setup_payload_parser_8h_source.html">setup_payload/QRCodeSetupPayloadParser.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_d_l_l_util_8h_source.html">support/DLLUtil.h</a>&gt;</code><br />
@@ -136,6 +138,14 @@ Functions</h2></td></tr>
 <tr class="separator:addba9c13155f8930afaa5f69f7086e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbfff72704e7aea1c4696167032493a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#adbfff72704e7aea1c4696167032493a6">pychip_DeviceController_ConnectIP</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, const char *peerAddrStr, uint32_t setupPINCode, <a class="el" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a> nodeid)</td></tr>
 <tr class="separator:adbfff72704e7aea1c4696167032493a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab303228002460b343be385ad98c73c87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#ab303228002460b343be385ad98c73c87">pychip_DeviceController_DiscoverCommissioningLongDiscriminator</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, uint16_t long_discriminator)</td></tr>
+<tr class="separator:ab303228002460b343be385ad98c73c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3742914f5875bc4f938b61db90de33a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#af3742914f5875bc4f938b61db90de33a">pychip_DeviceController_DiscoverAllCommissioning</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl)</td></tr>
+<tr class="separator:af3742914f5875bc4f938b61db90de33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0532986474eefeb3c15c5827a46361a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#ac0532986474eefeb3c15c5827a46361a">pychip_DeviceController_PrintDiscoveredDevices</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl)</td></tr>
+<tr class="separator:ac0532986474eefeb3c15c5827a46361a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11800189394e112d4fd8ade66a1dd1fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a11800189394e112d4fd8ade66a1dd1fd">pychip_DeviceController_GetIPForDiscoveredDevice</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, int idx, char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acd39ccb15358fb9d85cb795f1f3098cb">addrStr</a>, uint32_t len)</td></tr>
+<tr class="separator:a11800189394e112d4fd8ade66a1dd1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee010b39d830d04223089e9c2ba6ba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#a9ee010b39d830d04223089e9c2ba6ba4">pychip_ScriptDevicePairingDelegate_SetKeyExchangeCallback</a> (<a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *devCtrl, <a class="el" href="namespacechip_1_1_controller.html#a3fc15c5e43ea7b58c96e0b85768a6274">chip::Controller::DevicePairingDelegate_OnPairingCompleteFunct</a> <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)</td></tr>
 <tr class="separator:a9ee010b39d830d04223089e9c2ba6ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced2a98cbe78009de9ccc181f3870b19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html#aced2a98cbe78009de9ccc181f3870b19">pychip_ScriptDeviceAddressUpdateDelegate_SetOnAddressUpdateComplete</a> (<a class="el" href="namespacechip_1_1_controller.html#a40bf162aa1d4d5914b4f46acb34db7ca">chip::Controller::DeviceAddressUpdateDelegate_OnUpdateComplete</a> <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)</td></tr>
@@ -342,6 +352,52 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af3742914f5875bc4f938b61db90de33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3742914f5875bc4f938b61db90de33a">&#9670;&nbsp;</a></span>pychip_DeviceController_DiscoverAllCommissioning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> pychip_DeviceController_DiscoverAllCommissioning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
+          <td class="paramname"><em>devCtrl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab303228002460b343be385ad98c73c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab303228002460b343be385ad98c73c87">&#9670;&nbsp;</a></span>pychip_DeviceController_DiscoverCommissioningLongDiscriminator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> pychip_DeviceController_DiscoverCommissioningLongDiscriminator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
+          <td class="paramname"><em>devCtrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>long_discriminator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1495fa03d781698b9cb07f48253da9da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1495fa03d781698b9cb07f48253da9da">&#9670;&nbsp;</a></span>pychip_DeviceController_ErrorToString()</h2>
 
@@ -406,6 +462,46 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a11800189394e112d4fd8ade66a1dd1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11800189394e112d4fd8ade66a1dd1fd">&#9670;&nbsp;</a></span>pychip_DeviceController_GetIPForDiscoveredDevice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pychip_DeviceController_GetIPForDiscoveredDevice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
+          <td class="paramname"><em>devCtrl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>addrStr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa4e8250c9271ca9f09f9441a894b4677"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4e8250c9271ca9f09f9441a894b4677">&#9670;&nbsp;</a></span>pychip_DeviceController_GetLogFilter()</h2>
 
@@ -445,6 +541,24 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0532986474eefeb3c15c5827a46361a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0532986474eefeb3c15c5827a46361a">&#9670;&nbsp;</a></span>pychip_DeviceController_PrintDiscoveredDevices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pychip_DeviceController_PrintDiscoveredDevices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_controller_1_1_device_commissioner.html">chip::Controller::DeviceCommissioner</a> *&#160;</td>
+          <td class="paramname"><em>devCtrl</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -756,7 +870,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_222316c22a317cf9f0602db9df3fe8e5.html">python</a></li><li class="navelem"><a class="el" href="_chip_device_controller-_script_binding_8cpp.html">ChipDeviceController-ScriptBinding.cpp</a></li>
-    <li class="footer">Generated on Wed May 12 2021 00:24:56 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 01:44:45 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

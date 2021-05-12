@@ -1,5 +1,12 @@
 var NAVTREEINDEX12 =
 {
+"_generic_software_update_manager_impl_8h.html":[11,0,4,0,0,29],
+"_generic_software_update_manager_impl_8h_source.html":[11,0,4,0,0,29],
+"_generic_software_update_manager_impl___b_d_x_8cpp.html":[11,0,4,0,0,30],
+"_generic_software_update_manager_impl___b_d_x_8cpp.html#a726d8b0b2e0180bab8cd1836e711fbf5":[11,0,4,0,0,30,0],
+"_generic_software_update_manager_impl___b_d_x_8h.html":[11,0,4,0,0,31],
+"_generic_software_update_manager_impl___b_d_x_8h_source.html":[11,0,4,0,0,31],
+"_generic_thread_stack_manager_impl___free_r_t_o_s_8cpp.html":[11,0,7,4,0],
 "_generic_thread_stack_manager_impl___free_r_t_o_s_8cpp.html#a97cda9a6985d21af49b65a93da849847":[11,0,7,4,0,0],
 "_generic_thread_stack_manager_impl___free_r_t_o_s_8h.html":[11,0,7,4,1],
 "_generic_thread_stack_manager_impl___free_r_t_o_s_8h_source.html":[11,0,7,4,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX12 =
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,5,5,13],
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,5,5,19],
 "_k32_w_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,5,5],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,5,6],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#a4cbbf8da21943033fc2967e8aa475e52":[11,0,7,5,6,2],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59":[11,0,7,5,6,1],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a097d5b4e90152746f42a81633f824f6b":[11,0,7,5,6,1,15],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a102815a89b2b35bcf14d12cfe076a454":[11,0,7,5,6,1,3],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a17651fd88cb3b8cce6e05efe4fe0d542":[11,0,7,5,6,1,1],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a24043bbc912128fa197ba9190d3c425f":[11,0,7,5,6,1,10],
-"_k32_w_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a281974a018e6413c99435a5302096a96":[11,0,7,5,6,1,0]
+"_k32_w_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,5,6]
 };

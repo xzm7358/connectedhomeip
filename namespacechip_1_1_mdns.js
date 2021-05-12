@@ -1,7 +1,10 @@
 var namespacechip_1_1_mdns =
 [
+    [ "AllInterfaces", "classchip_1_1_mdns_1_1_all_interfaces.html", "classchip_1_1_mdns_1_1_all_interfaces" ],
     [ "BaseAdvertisingParams", "classchip_1_1_mdns_1_1_base_advertising_params.html", "classchip_1_1_mdns_1_1_base_advertising_params" ],
     [ "BrowseContext", "structchip_1_1_mdns_1_1_browse_context.html", "structchip_1_1_mdns_1_1_browse_context" ],
+    [ "CommissionableNodeData", "structchip_1_1_mdns_1_1_commissionable_node_data.html", "structchip_1_1_mdns_1_1_commissionable_node_data" ],
+    [ "CommissionableNodeFilter", "structchip_1_1_mdns_1_1_commissionable_node_filter.html", "structchip_1_1_mdns_1_1_commissionable_node_filter" ],
     [ "CommissionAdvertisingParameters", "classchip_1_1_mdns_1_1_commission_advertising_parameters.html", "classchip_1_1_mdns_1_1_commission_advertising_parameters" ],
     [ "DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", "classchip_1_1_mdns_1_1_discovery_impl_platform" ],
     [ "GenericContext", "structchip_1_1_mdns_1_1_generic_context.html", "structchip_1_1_mdns_1_1_generic_context" ],

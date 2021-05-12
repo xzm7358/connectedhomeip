@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">62de5f3</span>
+   &#160;<span id="projectnumber">8185019</span>
    </div>
   </td>
  </tr>
@@ -1431,6 +1431,9 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>cmd_name
 : <a class="el" href="structchip_1_1_shell_1_1shell__command.html#aa33cd94761110bfd0bbfcd9e078c4d73">chip::Shell::shell_command</a>
 </li>
+<li>code
+: <a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_filter.html#a90b4a73f6edc873ca03501bd04ad28fa">chip::Mdns::CommissionableNodeFilter</a>
+</li>
 <li>command
 : <a class="el" href="classchip_1_1exceptions_1_1_unknown_command.html#ac499d4defd1da43badfbb458d6eb33b7">chip.exceptions.UnknownCommand</a>
 </li>
@@ -1452,6 +1455,12 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <li>CommandResponseStatus()
 : <a class="el" href="classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html#acbc749e79301c921d880e92de42a4795">chip::Controller::DeviceControllerInteractionModelDelegate</a>
 , <a class="el" href="classchip_1_1_controller_1_1_python_interaction_model_delegate.html#a9c003e79a277bb61cd487482a9efe6d3">chip::Controller::PythonInteractionModelDelegate</a>
+</li>
+<li>CommissionableNodeData()
+: <a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_data.html#ad2514fd112d43a2e8ebd2954324fba83">chip::Mdns::CommissionableNodeData</a>
+</li>
+<li>CommissionableNodeFilter()
+: <a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_filter.html#aff34dc8fc6f0a140dc22a62bf8c3298f">chip::Mdns::CommissionableNodeFilter</a>
 </li>
 <li>CommissioningComplete
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#a72dc1aba4e8154ce59dda69869f6db5b">chip::DeviceLayer::ChipDeviceEvent</a>
@@ -1485,7 +1494,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="class_verhoeff10.html#ab9219cc795ae5c385ca3f0449c11464f">Verhoeff10</a>
 , <a class="el" href="class_verhoeff16.html#af14262780b0f595422ab6d50e6c43b55">Verhoeff16</a>
 , <a class="el" href="class_verhoeff32.html#a3d07a7ff8fe0d5c4927c041a17b68d87">Verhoeff32</a>
-, <a class="el" href="class_verhoeff36.html#a93c16b3535dd152d702749c0f8ecce9e">Verhoeff36</a>
+, <a class="el" href="class_verhoeff36.html#a17fc8611268d4de586759386da64e115">Verhoeff36</a>
 </li>
 <li>ComputeL()
 : <a class="el" href="classchip_1_1_crypto_1_1_spake2p.html#a7712a867b96510137816766813017028">chip::Crypto::Spake2p</a>
@@ -1527,7 +1536,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ad5f897a3190f0678fa7db9db95247d1b">chip::DeviceLayer::Internal::EFR32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html#a816b2ef865615f250c624bd49d5d414e">chip::DeviceLayer::Internal::ESP32Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#aba4b69a1e57cf685de93927b23106963">chip::DeviceLayer::Internal::K32WConfig</a>
-, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#a1922d026541904cc4364f9a25864e012">chip::DeviceLayer::Internal::PosixConfig</a>
+, <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_posix_config.html#a2fd0e2cf6d7461c86b362e1368327163">chip::DeviceLayer::Internal::PosixConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#ad9ca6d5eb7bb32ba3caca1832de1ba11">chip::DeviceLayer::Internal::QPG6100Config</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#ab4b5873b9fc3ba121a7bdc3e5bfd4192">chip::DeviceLayer::Internal::ZephyrConfig</a>
 </li>
@@ -1544,14 +1553,17 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classchip_1_1_chip_bluez_mgr_1_1_bluez_manager.html#a07ac119d15e1598c1ef7f7b121c5b548">chip.ChipBluezMgr.BluezManager</a>
 , <a class="el" href="classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#abd657a0903c76c9e4bee4418a02b81be">chip.ChipCoreBluetoothMgr.CoreBluetoothManager</a>
 </li>
-<li>ConnectBLE()
-: <a class="el" href="classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#ac00a1ead373abcdf1d800bbd0f9d8e69">chip.ChipDeviceCtrl.ChipDeviceController</a>
-</li>
 <li>ConnectBle()
 : <a class="el" href="classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a79ae69792ccf844c8c51cea52845bb71">chip.ChipDeviceCtrl.ChipDeviceController</a>
 </li>
+<li>ConnectBLE()
+: <a class="el" href="classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#ac00a1ead373abcdf1d800bbd0f9d8e69">chip.ChipDeviceCtrl.ChipDeviceController</a>
+</li>
 <li>Connected()
 : <a class="el" href="classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html#afc46d6ecc624d264c565d3e8c2df87d8">chip.ChipBluezMgr.BluezDbusDevice</a>
+</li>
+<li>ConnectFromSetupPayload()
+: <a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#a697be8d67cc11037fe30e51973ef8dbc">chip-device-ctrl.DeviceMgrCmd</a>
 </li>
 <li>ConnectionObjectIs()
 : <a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html#a795f0a7125461db59fb05d3ba2d0d559">chip::Ble::BLEEndPoint</a>
@@ -1563,7 +1575,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a2f3f90015d99fa7f7969c3112bf2b0a6">chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_WiFi&lt; ImplClass &gt;</a>
 </li>
 <li>ConnectivityManager()
-: <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a3ff78d454af0be515aadc42115957239">chip::DeviceLayer::ConnectivityManager</a>
+: <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#abd8f991b382c72693129f2affb966227">chip::DeviceLayer::ConnectivityManager</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#ae66d91f0a57fa277fa75805f59fe63d3">chip::DeviceLayer::ConnectivityManagerImpl</a>
 </li>
 <li>ConnectivityManagerImpl
@@ -1623,7 +1635,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 : <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a9601eb65bee684e54eacbe60571517a9">chip::TLV::TLVWriter</a>
 </li>
 <li>CopyElement()
-: <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a4429e2d3ad1908412c4fcf38211b5f75">chip::TLV::TLVUpdater</a>
+: <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a959d1894af807e2c16bda5b305a607e4">chip::TLV::TLVUpdater</a>
 , <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a42bfc2f0968fa99329365c39791a83c3">chip::TLV::TLVWriter</a>
 </li>
 <li>count_type
@@ -1650,7 +1662,7 @@ $(document).ready(function(){initNavTree('functions_c.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 12 2021 00:24:58 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 01:44:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

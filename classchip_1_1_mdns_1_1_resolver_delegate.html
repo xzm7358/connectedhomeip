@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">62de5f3</span>
+   &#160;<span id="projectnumber">8185019</span>
    </div>
   </td>
  </tr>
@@ -106,6 +106,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a96a002166cd4cc947a4bf0cef2570540"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#a96a002166cd4cc947a4bf0cef2570540">OnNodeIdResolutionFailed</a> (const <a class="el" href="classchip_1_1_peer_id.html">PeerId</a> &amp;peerId, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error)=0</td></tr>
 <tr class="memdesc:a96a002166cd4cc947a4bf0cef2570540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a CHIP node ID resolution has failed.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#a96a002166cd4cc947a4bf0cef2570540">More...</a><br /></td></tr>
 <tr class="separator:a96a002166cd4cc947a4bf0cef2570540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97fb2052075fcd6f821305d899cc117e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html#a97fb2052075fcd6f821305d899cc117e">OnCommissionableNodeFound</a> (const <a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_data.html">CommissionableNodeData</a> &amp;nodeData)=0</td></tr>
+<tr class="separator:a97fb2052075fcd6f821305d899cc117e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Groups callbacks for CHIP service resolution requests. </p>
@@ -136,6 +138,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a97fb2052075fcd6f821305d899cc117e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97fb2052075fcd6f821305d899cc117e">&#9670;&nbsp;</a></span>OnCommissionableNodeFound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void chip::Mdns::ResolverDelegate::OnCommissionableNodeFound </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_data.html">CommissionableNodeData</a> &amp;&#160;</td>
+          <td class="paramname"><em>nodeData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a96a002166cd4cc947a4bf0cef2570540"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96a002166cd4cc947a4bf0cef2570540">&#9670;&nbsp;</a></span>OnNodeIdResolutionFailed()</h2>
 
@@ -211,7 +239,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li><li class="navelem"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html">ResolverDelegate</a></li>
-    <li class="footer">Generated on Wed May 12 2021 00:24:58 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 01:44:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

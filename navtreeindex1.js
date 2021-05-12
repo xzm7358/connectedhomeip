@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"_ble_layer_8h_source.html":[11,0,0,9],
+"_ble_layer_delegate_8h.html":[11,0,0,10],
+"_ble_layer_delegate_8h_source.html":[11,0,0,10],
 "_ble_platform_delegate_impl_8mm.html":[11,0,7,1,8],
 "_ble_role_8h.html":[11,0,0,12],
 "_ble_role_8h.html#af939616df203558805d6aa06641290b7":[11,0,0,12,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "_c_h_i_p_clusters_8cpp.html#a66a0993560d3f7bd8ceb0b8a9df63fa8":[11,0,1,1,0,1,1,28],
 "_c_h_i_p_clusters_8cpp.html#a6828f15463b2e44a9a3e642ddda02b2e":[11,0,1,1,0,1,1,38],
 "_c_h_i_p_clusters_8cpp.html#a686440a6e93651e084c8a172ed19ebd1":[11,0,1,1,0,1,1,310],
-"_c_h_i_p_clusters_8cpp.html#a6a43774c4207d3e6ef740e2235961910":[11,0,1,1,0,1,1,320],
-"_c_h_i_p_clusters_8cpp.html#a6a4b4bc4c9302d61f227329c06b9711f":[11,0,1,1,0,1,1,15],
-"_c_h_i_p_clusters_8cpp.html#a6ba527e7160bf589ee3dfc331fa9a932":[11,0,1,1,0,1,1,307],
-"_c_h_i_p_clusters_8cpp.html#a6babb55b9543f3f3c84eafc8b463a2d7":[11,0,1,1,0,1,1,249]
+"_c_h_i_p_clusters_8cpp.html#a6a43774c4207d3e6ef740e2235961910":[11,0,1,1,0,1,1,320]
 };
