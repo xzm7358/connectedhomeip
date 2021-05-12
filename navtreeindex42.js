@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a1ae12aeb95743cb6dfe08891d769b01f":[11,0,7,8,5,19],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a1b5e2848601c54fa6d66cfbe726dc101":[11,0,7,8,5,28],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a1e3f892a26cbf0a37737fb079bb01b13":[11,0,7,8,5,2],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a2839eb8c235bbcc0abf18e1dc5adc017":[11,0,7,8,5,25],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689":[11,0,7,8,5,5],
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#a37f61d1eb2010ee0d310452850285f44":[11,0,7,8,5,12],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80":[11,0,7,8,5,38],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,8,5,21],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#a47807484e5fd377203d003d0a1f8aeae":[11,0,7,8,5,24],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "qpg6100_2_logging_8cpp.html#abe6b77991f1768b7c9a3932245267aa9":[11,0,7,10,18,5],
 "qpg6100_2_logging_8cpp.html#addfc398bc8b9d2a1db861d95b37ed476":[11,0,7,10,18,4],
 "qpg6100_2_logging_8cpp.html#afafdb1a9c8c17c1c5b6069ac6a5c0131":[11,0,7,10,18,2],
-"qpg6100_2_platform_manager_impl_8cpp.html":[11,0,7,10,19],
-"qpg6100_2_platform_manager_impl_8h.html":[11,0,7,10,20],
-"qpg6100_2_platform_manager_impl_8h.html#a0f116f09a0e109f6a32f9d894bf01d42":[11,0,7,10,20,2],
-"qpg6100_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,10,20,1],
-"qpg6100_2_platform_manager_impl_8h_source.html":[11,0,7,10,20],
-"qpg6100_2_software_update_manager_impl_8cpp.html":[11,0,7,10,23],
-"qpg6100_2_system_platform_config_8h.html":[11,0,7,10,24]
+"qpg6100_2_platform_manager_impl_8cpp.html":[11,0,7,10,19]
 };

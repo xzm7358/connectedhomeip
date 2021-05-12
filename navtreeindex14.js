@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_c_h_i_p_platform_config_8h.html#a04d4a632246fce0f32b74a35491beea6":[11,0,7,6,10,26],
+"_linux_2_c_h_i_p_platform_config_8h.html#a06c0373178ceae164c362949ccffcbce":[11,0,7,6,10,1],
+"_linux_2_c_h_i_p_platform_config_8h.html#a0b875bd7d9615ca6515b83d43fecd967":[11,0,7,6,10,40],
 "_linux_2_c_h_i_p_platform_config_8h.html#a1ae12aeb95743cb6dfe08891d769b01f":[11,0,7,6,10,20],
 "_linux_2_c_h_i_p_platform_config_8h.html#a1b5e2848601c54fa6d66cfbe726dc101":[11,0,7,6,10,28],
 "_linux_2_c_h_i_p_platform_config_8h.html#a1e3f892a26cbf0a37737fb079bb01b13":[11,0,7,6,10,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "_open_thread_utils_8h.html#aab0045a3fbe6e63dfcbca3f458232feb":[11,0,7,9,6,7],
 "_open_thread_utils_8h.html#aab49bf67a328cf63dc24ec981d264808":[11,0,7,9,6,1],
 "_open_thread_utils_8h.html#ab2fec46ecf539a3827de0af4beab9dfe":[11,0,7,9,6,5],
-"_open_thread_utils_8h.html#abb7359dfd515c5e0913381eb51b9a31b":[11,0,7,9,6,0],
-"_open_thread_utils_8h.html#abe2e4fe3d95c4b243c964c09f46ccd30":[11,0,7,9,6,3],
-"_open_thread_utils_8h.html#ace86eb76325181ef3275d868cca9275c":[11,0,7,9,6,9],
-"_open_thread_utils_8h.html#ad7a9636d2100061afbd79471fbdf7d89":[11,0,7,9,6,4]
+"_open_thread_utils_8h.html#abb7359dfd515c5e0913381eb51b9a31b":[11,0,7,9,6,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX43 =
 {
+"qpg6100_2_platform_manager_impl_8h.html":[11,0,7,10,20],
+"qpg6100_2_platform_manager_impl_8h.html#a0f116f09a0e109f6a32f9d894bf01d42":[11,0,7,10,20,2],
+"qpg6100_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,10,20,1],
+"qpg6100_2_platform_manager_impl_8h_source.html":[11,0,7,10,20],
+"qpg6100_2_software_update_manager_impl_8cpp.html":[11,0,7,10,23],
+"qpg6100_2_system_platform_config_8h.html":[11,0,7,10,24],
 "qpg6100_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f":[11,0,7,10,24,13],
 "qpg6100_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753":[11,0,7,10,24,2],
 "qpg6100_2_system_platform_config_8h.html#a557a2ac88dcd244f0e1309ce8fd3143c":[11,0,7,10,24,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX43 =
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a723e373e6016da80850f657cca6b9f8f":[10,0,1,14,6,11],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a7272d372d0c85c101f1748e3f8bd74d2":[10,0,1,14,6,33],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a72dc1aba4e8154ce59dda69869f6db5b":[10,0,1,14,6,19],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a7515b5c5dcfa9e5850eb63d42c8ab24b":[10,0,1,14,6,42],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a80568f219f08d916555de6fb29845ff3":[10,0,1,14,6,21],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a80a0f5fa72d29efd74c387d5dad05139":[10,0,1,14,6,31],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a810fb8d9a9578f80c770474a0c02db65":[10,0,1,14,6,25],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a8292e8c6000c27a0ffd16bedf8aab023":[10,0,1,14,6,30],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a89379e1cdb493e23a7cb8d8406e7bf5d":[10,0,1,14,6,56],
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a8d6f6fbb54ec4ca578495f5cda72eca0":[10,0,1,14,6,35]
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a7515b5c5dcfa9e5850eb63d42c8ab24b":[10,0,1,14,6,42]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX38 =
 {
+"classmdns_1_1_minimal_1_1_srv_resource_record.html#ae912594573a2d1c711e7bf2d5d730b3e":[10,0,3,0,36,5],
+"classmdns_1_1_minimal_1_1_srv_responder.html":[10,0,3,0,37],
+"classmdns_1_1_minimal_1_1_srv_responder.html#a14d933f2d49005041d842542d5f1a826":[10,0,3,0,37,0],
+"classmdns_1_1_minimal_1_1_srv_responder.html#a55a9895ca39da1d822e375222f7b79ac":[10,0,3,0,37,1],
+"classmdns_1_1_minimal_1_1_txt_record_delegate.html":[10,0,3,0,38],
+"classmdns_1_1_minimal_1_1_txt_record_delegate.html#a6460b49caa1217febfae1c35f02dacef":[10,0,3,0,38,0],
 "classmdns_1_1_minimal_1_1_txt_record_delegate.html#ab14c6b56ef2ca4770b7188c5ed3185ce":[10,0,3,0,38,1],
 "classmdns_1_1_minimal_1_1_txt_resource_record.html":[10,0,3,0,39],
 "classmdns_1_1_minimal_1_1_txt_resource_record.html#a3e472189448a6aaed4698cbbcce03543":[10,0,3,0,39,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX38 =
 "efr32-chip-mbedtls-config_8h_source.html":[11,0,7,2,13],
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html":[10,0,1,13,1],
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html#a15f61a40a2da8952691c57fbd46506bd":[10,0,1,13,1,0],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a16a94db2b23f40ad41de6c76e74d7c0b":[10,0,1,13,1,3],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a55354104236a4603562202b599b99603":[10,0,1,13,1,1],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a5adf64cbb2ed5fa37253184bc1476405":[10,0,1,13,1,2],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a61998163e2ed763c7cda73ac4d13de14":[10,0,1,13,1,4],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html":[10,0,1,29,0,0],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a0bc690fdcbd54d98646b7f52d8b49b56":[10,0,1,29,0,0,1],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html#a5f5463366cf225e229193a73723aac13":[10,0,1,29,0,0,2]
+"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a16a94db2b23f40ad41de6c76e74d7c0b":[10,0,1,13,1,3]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX22 =
 {
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a551efeae8ad64f177d15484a920e8423":[10,0,1,7,0,0],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a74dd2e654c350f4ab33342391023c0c4":[10,0,1,7,0,10],
+"classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a7948ca09ff84e398dc76ec12c20a0a30":[10,0,1,7,0,15],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a79ae69792ccf844c8c51cea52845bb71":[10,0,1,7,0,3],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a83aadb3718fa804fbde0dc72ec84e05b":[10,0,1,7,0,19],
 "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#a8e9edef0d783b77c566c6677a3f34b1a":[10,0,1,7,0,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX22 =
 "classchip_1_1_controller_1_1_example_operational_credentials_issuer.html#ae2514f3efc959ef02e3a3bb23bc5d854":[10,0,1,11,12,8],
 "classchip_1_1_controller_1_1_example_operational_credentials_issuer.html#af5b782b921b2e34d7b58cea2b82ccc7f":[10,0,1,11,12,3],
 "classchip_1_1_controller_1_1_operational_credentials_delegate.html":[10,0,1,11,13],
-"classchip_1_1_controller_1_1_operational_credentials_delegate.html#a9de6354e5de0d16eda7433baf8ec05ac":[10,0,1,11,13,2],
-"classchip_1_1_controller_1_1_operational_credentials_delegate.html#ab2379919141a72258cdec98cea17807a":[10,0,1,11,13,3],
-"classchip_1_1_controller_1_1_operational_credentials_delegate.html#ac40e486b7e489410cd2e1b71d770b89a":[10,0,1,11,13,1],
-"classchip_1_1_controller_1_1_operational_credentials_delegate.html#aee9bdc0062cba887fe77b92572447395":[10,0,1,11,13,0]
+"classchip_1_1_controller_1_1_operational_credentials_delegate.html#a9de6354e5de0d16eda7433baf8ec05ac":[10,0,1,11,13,2]
 };
