@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e36284f</span>
+   &#160;<span id="projectnumber">c64d9d1</span>
    </div>
   </td>
  </tr>
@@ -130,9 +130,6 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IncorporatesRootKey()
 : <a class="el" href="classchip_1_1_chip_key_id.html#a8a60e3fb9e8b42bdd883491921d8a018">chip::ChipKeyId</a>
 </li>
-<li>IncrementSendMessageIndex()
-: <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a60f4e52446e466c8e367c1e1111ef8ab">chip::Transport::PeerConnectionState</a>
-</li>
 <li>IndexOf()
 : <a class="el" href="classchip_1_1_static_allocator_bitmap.html#ae74e13866cf45462b2414c5af3751fdb">chip::StaticAllocatorBitmap</a>
 </li>
@@ -161,7 +158,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 : <a class="el" href="interface_fake_ble_adapter_information.html#a06434b32b0fdfde8f290dc504cd36b42">FakeBleAdapterInformation</a>
 </li>
 <li>Init()
-: <a class="el" href="classchip_1_1_ble_1_1_ble_layer.html#aaf6220e4014659c302f78cbe6da88f98">chip::Ble::BleLayer</a>
+: <a class="el" href="classchip_1_1_ble_1_1_ble_layer.html#a48aff31e0d0c499dd1f1636afbbbab4d">chip::Ble::BleLayer</a>
 , <a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#aa231cf759f1fca0d072ed05aa61e4f56">chip::Ble::BtpEngine</a>
 , <a class="el" href="structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a0f76db1d186b839eeb3ea6f9af8d70be">chip::Ble::ChipBLEDeviceIdentificationInfo</a>
 , <a class="el" href="classchip_1_1_controller_1_1_device.html#ad4ea581c238bdfe89173b917d83e2d91">chip::Controller::Device</a>
@@ -180,6 +177,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_zephyr_config.html#a0a96f1587fb3b6741e08fda258884192">chip::DeviceLayer::Internal::ZephyrConfig</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html#ac1ef5e0d6340b1d5a35c78cc30d3eef3">chip::DeviceLayer::NFCManager</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#aa5d542981f5558fc8629efd1dfa05fd6">chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl</a>
+, <a class="el" href="classchip_1_1_global_encrypted_message_counter.html#a27ad113e6b743ad7de92954f1ef89c06">chip::GlobalEncryptedMessageCounter</a>
 , <a class="el" href="classchip_1_1_inet_1_1_inet_layer.html#acc1d89f20b002ae86d9bdc1ba241da11">chip::Inet::InetLayer</a>
 , <a class="el" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#a58bf389360d018027eab878e06ea1366">chip::Inet::IPEndPointBasis</a>
 , <a class="el" href="classchip_1_1_lifetime_persisted_counter.html#a5681369b281b25e6472a9b49f6abcc08">chip::LifetimePersistedCounter</a>
@@ -188,7 +186,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="classchip_1_1_monotonically_increasing_counter.html#a210518b772568143d70325caa593d059">chip::MonotonicallyIncreasingCounter</a>
 , <a class="el" href="classchip_1_1_persisted_counter.html#a80a97ad71a1dc66faf3592b20e2c5b9b">chip::PersistedCounter</a>
 , <a class="el" href="classchip_1_1_secure_session.html#a526ec14904bec552eba71c64814c3b9b">chip::SecureSession</a>
-, <a class="el" href="classchip_1_1_secure_session_mgr.html#a1e964656cd1ee12c136f0ef82bcbd3c6">chip::SecureSessionMgr</a>
+, <a class="el" href="classchip_1_1_secure_session_mgr.html#a477e1e54a05d7a47c7c0ff796466fb87">chip::SecureSessionMgr</a>
 , <a class="el" href="classchip_1_1_system_1_1_layer.html#a677ed2d7a1f388d44b247663f8dd364a">chip::System::Layer</a>
 , <a class="el" href="classchip_1_1_system_1_1_lw_i_p_event_handler_delegate.html#a26f722f572948a105140b0761408ddde">chip::System::LwIPEventHandlerDelegate</a>
 , <a class="el" href="classchip_1_1_system_1_1_mutex.html#a71ad2bce59bfc56b67345d8da0ef1375">chip::System::Mutex</a>
@@ -593,9 +591,6 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsMessageEncryptionKeyId()
 : <a class="el" href="classchip_1_1_chip_key_id.html#ab562413474e61b435a43cbaa9f89d784">chip::ChipKeyId</a>
 </li>
-<li>IsMsgCounterSyncInProgress()
-: <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a5c12e6e2521f49051d037b7a2929de14">chip::Transport::PeerConnectionState</a>
-</li>
 <li>IsMulticast()
 : <a class="el" href="classchip_1_1_inet_1_1_i_p_address.html#ab6a67ca011acd35b80876a45993ca930">chip::Inet::IPAddress</a>
 </li>
@@ -609,9 +604,6 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IsPairedToAccount
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#a80a0f5fa72d29efd74c387d5dad05139">chip::DeviceLayer::ChipDeviceEvent</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_configuration_manager.html#aa3deee4893d5c10790e09b0bb76fcaf0">chip::DeviceLayer::ConfigurationManager</a>
-</li>
-<li>IsPeerMsgCounterSynced()
-: <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a0da7b0b212a668b40db4ac8b1009349e">chip::Transport::PeerConnectionState</a>
 </li>
 <li>IsPlatformGeneric()
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#a42c0c62102c308bdba013d969d619607">chip::DeviceLayer::ChipDeviceEvent</a>
@@ -667,6 +659,12 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 </li>
 <li>IsStationProvisioned()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_utils.html#a10a1f4128ebab1250f606656086b6a92">chip::DeviceLayer::Internal::ESP32Utils</a>
+</li>
+<li>IsSynchronized()
+: <a class="el" href="classchip_1_1_transport_1_1_peer_message_counter.html#a04dfeca4efa3b3cfa01a98104f1e1c78">chip::Transport::PeerMessageCounter</a>
+</li>
+<li>IsSynchronizing()
+: <a class="el" href="classchip_1_1_transport_1_1_peer_message_counter.html#a961efc4b22960e0f2515ee8f8ebb2ef2">chip::Transport::PeerMessageCounter</a>
 </li>
 <li>IsTagEmulationStarted()
 : <a class="el" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html#ad1d7fe04ec2a1529f82053dea5a6971c">chip::DeviceLayer::NFCManager</a>
@@ -758,7 +756,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 12 2021 19:36:49 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 20:04:31 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -229,6 +229,7 @@ var hierarchy =
     ] ],
     [ "chip::TLV::Utilities::FindContext", "structchip_1_1_t_l_v_1_1_utilities_1_1_find_context.html", null ],
     [ "chip::TLV::Utilities::FindPredicateContext", "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html", null ],
+    [ "chip::FixedSpan< T, N >", "classchip_1_1_fixed_span.html", null ],
     [ "Formatter", null, [
       [ "chip.ChipStack.ChipLogFormatter", "classchip_1_1_chip_stack_1_1_chip_log_formatter.html", null ]
     ] ],
@@ -293,11 +294,11 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
-    ] ],
-    [ "InteractionModelDelegate", null, [
       [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", null ],
       [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+    ] ],
+    [ "InteractionModelDelegate", null, [
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -330,6 +331,12 @@ var hierarchy =
     [ "chip::Mdns::MdnsPacketDelegate", "classchip_1_1_mdns_1_1_mdns_packet_delegate.html", null ],
     [ "chip::Mdns::MdnsService", "structchip_1_1_mdns_1_1_mdns_service.html", null ],
     [ "chip::MessageAuthenticationCode", "classchip_1_1_message_authentication_code.html", null ],
+    [ "chip::MessageCounter", "classchip_1_1_message_counter.html", [
+      [ "chip::GlobalEncryptedMessageCounter", "classchip_1_1_global_encrypted_message_counter.html", null ],
+      [ "chip::GlobalUnencryptedMessageCounter", "classchip_1_1_global_unencrypted_message_counter.html", null ],
+      [ "chip::LocalSessionMessageCounter", "classchip_1_1_local_session_message_counter.html", null ]
+    ] ],
+    [ "chip::Transport::MessageCounterManagerInterface", "classchip_1_1_transport_1_1_message_counter_manager_interface.html", null ],
     [ "metaclass", null, [
       [ "chip.ChipBleBase.ChipBleBase", "classchip_1_1_chip_ble_base_1_1_chip_ble_base.html", null ]
     ] ],
@@ -394,10 +401,10 @@ var hierarchy =
     [ "chip::Optional< NodeId >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
+    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
     ] ],
-    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo.OptionalQRCodeInfoType", "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html", null ],
     [ "chip::Crypto::P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", null ],
     [ "chip::System::PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html", [
@@ -421,6 +428,7 @@ var hierarchy =
     [ "chip::Transport::PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", null ],
     [ "chip.discovery.PeerId", "classchip_1_1discovery_1_1_peer_id.html", null ],
     [ "chip::PeerId", "classchip_1_1_peer_id.html", null ],
+    [ "chip::Transport::PeerMessageCounter", "classchip_1_1_transport_1_1_peer_message_counter.html", null ],
     [ "chip::Inet::PeerSockAddr", "unionchip_1_1_inet_1_1_peer_sock_addr.html", null ],
     [ "chip.discovery.PendingDiscovery", "classchip_1_1discovery_1_1_pending_discovery.html", null ],
     [ "chip::Transport::PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", null ],
@@ -517,6 +525,7 @@ var hierarchy =
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
+    [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],

@@ -1,6 +1,5 @@
 var _secure_session_mgr_8h =
 [
-    [ "SecureSessionHandle", "classchip_1_1_secure_session_handle.html", "classchip_1_1_secure_session_handle" ],
     [ "EncryptedPacketBufferHandle", "classchip_1_1_encrypted_packet_buffer_handle.html", "classchip_1_1_encrypted_packet_buffer_handle" ],
     [ "SecureSessionMgrDelegate", "classchip_1_1_secure_session_mgr_delegate.html", "classchip_1_1_secure_session_mgr_delegate" ],
     [ "SecureSessionMgr", "classchip_1_1_secure_session_mgr.html", "classchip_1_1_secure_session_mgr" ],

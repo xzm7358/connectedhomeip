@@ -5,6 +5,7 @@ var classchip_1_1_pairing_session =
     [ "DeriveSecureSession", "classchip_1_1_pairing_session.html#ace4c817f620ffb99bf39d2ac28ed2820", null ],
     [ "GetI2RSessionInfo", "classchip_1_1_pairing_session.html#a294d0cbccdb2fc2dec943e2e3ca90141", null ],
     [ "GetLocalKeyId", "classchip_1_1_pairing_session.html#aace0f4125136f4301984f3650e00ca00", null ],
+    [ "GetPeerCounter", "classchip_1_1_pairing_session.html#a72dc99a1ac7cc6e67ca0a6a9c368e4e8", null ],
     [ "GetPeerKeyId", "classchip_1_1_pairing_session.html#a879a02bf0ad3d882b8f2d7322b37f6e2", null ],
     [ "GetR2ISessionInfo", "classchip_1_1_pairing_session.html#aba288a57f35e0966275a6dcba158db1d", null ]
 ];

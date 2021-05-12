@@ -249,6 +249,7 @@ var menudata={children:[
 {text:"Enumerations",url:"functions_enum.html"},
 {text:"Enumerator",url:"functions_eval.html",children:[
 {text:"b",url:"functions_eval.html#index_b"},
+{text:"g",url:"functions_eval.html#index_g"},
 {text:"k",url:"functions_eval.html#index_k"},
 {text:"m",url:"functions_eval.html#index_m"},
 {text:"p",url:"functions_eval.html#index_p"},

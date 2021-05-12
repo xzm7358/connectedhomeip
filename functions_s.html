@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e36284f</span>
+   &#160;<span id="projectnumber">c64d9d1</span>
    </div>
   </td>
  </tr>
@@ -275,6 +275,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>ServiceSubscriptionStateChange
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#a7156002503df173bdce4afd5add78c01">chip::DeviceLayer::ChipDeviceEvent</a>
 </li>
+<li>Session
+: <a class="el" href="classchip_1_1_message_counter.html#a354c4b0f8395e527e389d11895339d47aa8137e793f092cb1a6a7ff864e2828bb">chip::MessageCounter</a>
+</li>
 <li>SessionEstablished
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_event.html#ab790f77dfaecfe400d80ac567244203b">chip::DeviceLayer::ChipDeviceEvent</a>
 </li>
@@ -399,6 +402,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetContainerOpen()
 : <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html#aedbe24ac2b79a9a6e65a84dfb822a0ca">chip::TLV::TLVReader</a>
 , <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_writer.html#ada0ace569eaf169fe2d1f31cc0a37668">chip::TLV::TLVWriter</a>
+</li>
+<li>SetCounter()
+: <a class="el" href="classchip_1_1_transport_1_1_peer_message_counter.html#adeb9e7c4e43e56c264a49accb0594148">chip::Transport::PeerMessageCounter</a>
 </li>
 <li>SetCRMPRetryIntervals()
 : <a class="el" href="classchip_1_1_mdns_1_1_operational_advertising_parameters.html#aa9372e327a522aa7790c28352d2eaf67">chip::Mdns::OperationalAdvertisingParameters</a>
@@ -568,9 +574,6 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetMode()
 : <a class="el" href="classchip_1_1_device_layer_1_1_time_sync_manager.html#a295768845aa89763a53aec74719628e4">chip::DeviceLayer::TimeSyncManager</a>
 </li>
-<li>SetMsgCounterSyncInProgress()
-: <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#ab8f8d0f18e728d9502386dac02ea6b5f">chip::Transport::PeerConnectionState</a>
-</li>
 <li>SetMulticastLoopback()
 : <a class="el" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#a6fc5c6c1b9ae04c5694d04a03480140f">chip::Inet::IPEndPointBasis</a>
 </li>
@@ -625,9 +628,6 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SetPeerKeyID()
 : <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a5ce54e9798ea8239a1f87a81f016e38c">chip::Transport::PeerConnectionState</a>
-</li>
-<li>SetPeerMessageIndex()
-: <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a5575892eddf1ce32dd31bef94115fb89">chip::Transport::PeerConnectionState</a>
 </li>
 <li>SetPeerNodeId()
 : <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html#a5a40eee3bfa060504f1414482e58fdf9">chip::Transport::PeerConnectionState</a>
@@ -866,7 +866,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classchip_1_1_encoding_1_1_buffer_writer.html#a64138a0f1618f7530b0cbee41ee86323">chip::Encoding::BufferWriter</a>
 </li>
 <li>size()
-: <a class="el" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">chip::Span&lt; T &gt;</a>
+: <a class="el" href="classchip_1_1_fixed_span.html#a811ff38e3d9e0bf47e6df9762d673f6e">chip::FixedSpan&lt; T, N &gt;</a>
+, <a class="el" href="classchip_1_1_span.html#a177e53df954656ea1130011a91a79ac9">chip::Span&lt; T &gt;</a>
 </li>
 <li>Size()
 : <a class="el" href="classchip_1_1_system_1_1_object_pool.html#afbce02934188c548772de71147dee5cb">chip::System::ObjectPool&lt; T, N &gt;</a>
@@ -893,7 +894,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#a9026406545c7ed9c8437748ecf8595df">chip::Ble::BtpEngine</a>
 </li>
 <li>SocketEvents()
-: <a class="el" href="classchip_1_1_inet_1_1_socket_events.html#aa7ebd8e528aa51fe766c4d26ae432d10">chip::Inet::SocketEvents</a>
+: <a class="el" href="classchip_1_1_inet_1_1_socket_events.html#a447e5c28058b35b2368eac9f5ec5b352">chip::Inet::SocketEvents</a>
 </li>
 <li>SoftwareUpdateFinished()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_software_update_manager_impl.html#ab402ccae0e87594599f146551ca7a291">chip::DeviceLayer::Internal::GenericSoftwareUpdateManagerImpl&lt; ImplClass &gt;</a>
@@ -914,7 +915,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="structhsm__pake__context__s.html#aa1b4982cd96f69960657744acac71d1e">hsm_pake_context_s</a>
 </li>
 <li>Span()
-: <a class="el" href="classchip_1_1_span.html#a81a812bf8f3c180438fa48db3571515a">chip::Span&lt; T &gt;</a>
+: <a class="el" href="classchip_1_1_span.html#ab21bf9745daad52b8ae0344bd1a0827c">chip::Span&lt; T &gt;</a>
 </li>
 <li>SrcAddress
 : <a class="el" href="classchip_1_1_inet_1_1_i_p_packet_info.html#adab12616896ecc5b6ecfde985654b4d1">chip::Inet::IPPacketInfo</a>
@@ -979,6 +980,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>startStructure()
 : <a class="el" href="classchip_1_1tlv_1_1_t_l_v_writer.html#a998bc5c34dbc05ef45a93b15696f7473">chip.tlv.TLVWriter</a>
+</li>
+<li>StartSync()
+: <a class="el" href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#ae0f321eaee87311eab0cc8f9a6a7b2e3">chip::Transport::MessageCounterManagerInterface</a>
 </li>
 <li>StartTagEmulation()
 : <a class="el" href="classchip_1_1_device_layer_1_1_n_f_c_manager.html#a612c4976215416275425a67a92e20d7f">chip::DeviceLayer::NFCManager</a>
@@ -1173,6 +1177,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#aa1217eec0295273242f3f31c1f7e0bb8">chip::Controller::PythonPersistentStorageDelegate</a>
 , <a class="el" href="classchip_1_1_persistent_storage_delegate.html#a11ffd31d1bb6fbb73a56997045c41dab">chip::PersistentStorageDelegate</a>
 </li>
+<li>SyncFailed()
+: <a class="el" href="classchip_1_1_transport_1_1_peer_message_counter.html#a5f9bd1222287d974f7f8528e61b44099">chip::Transport::PeerMessageCounter</a>
+</li>
 <li>SyncGetKeyValue()
 : <a class="el" href="class_android_device_controller_wrapper.html#aadef1048b1717450b90bb54cb80d6cfd">AndroidDeviceControllerWrapper</a>
 , <a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a78a820299e9ea3cd0d09cf50f7817934">chip::Controller::PythonPersistentStorageDelegate</a>
@@ -1182,6 +1189,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="class_android_device_controller_wrapper.html#ad3d606db601639fe5aea1f3adfb1b1bb">AndroidDeviceControllerWrapper</a>
 , <a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a362dd1c503ebc714492ec2c3cf188a43">chip::Controller::PythonPersistentStorageDelegate</a>
 , <a class="el" href="classchip_1_1_persistent_storage_delegate.html#a04f9642794689a81811ed1774adf3e76">chip::PersistentStorageDelegate</a>
+</li>
+<li>SyncStarting()
+: <a class="el" href="classchip_1_1_transport_1_1_peer_message_counter.html#af446539b178975eef0058ac21de91898">chip::Transport::PeerMessageCounter</a>
 </li>
 <li>systemErrorCode
 : <a class="el" href="classchip_1_1exceptions_1_1_device_error.html#af0cddcac4927e8497295de712a6a4480">chip.exceptions.DeviceError</a>
@@ -1200,7 +1210,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 12 2021 19:36:49 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 20:04:31 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

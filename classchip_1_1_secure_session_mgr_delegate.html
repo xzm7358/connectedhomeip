@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e36284f</span>
+   &#160;<span id="projectnumber">c64d9d1</span>
    </div>
   </td>
  </tr>
@@ -110,9 +110,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b91f516207a4196682ac4247db65b87"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr_delegate.html#a7b91f516207a4196682ac4247db65b87">OnConnectionExpired</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session, <a class="el" href="classchip_1_1_secure_session_mgr.html">SecureSessionMgr</a> *mgr)</td></tr>
 <tr class="memdesc:a7b91f516207a4196682ac4247db65b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new connection is closing.  <a href="classchip_1_1_secure_session_mgr_delegate.html#a7b91f516207a4196682ac4247db65b87">More...</a><br /></td></tr>
 <tr class="separator:a7b91f516207a4196682ac4247db65b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92986a778e4150dc4656a2fc1f2c6e7b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr_delegate.html#a92986a778e4150dc4656a2fc1f2c6e7b">QueueReceivedMessageAndSync</a> (<a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html">Transport::PeerConnectionState</a> *state, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)</td></tr>
-<tr class="memdesc:a92986a778e4150dc4656a2fc1f2c6e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when received message from a source node whose message counter is unknown.  <a href="classchip_1_1_secure_session_mgr_delegate.html#a92986a778e4150dc4656a2fc1f2c6e7b">More...</a><br /></td></tr>
-<tr class="separator:a92986a778e4150dc4656a2fc1f2c6e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab448e17881188b8adabb2af896d159ba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_secure_session_mgr_delegate.html#ab448e17881188b8adabb2af896d159ba">~SecureSessionMgrDelegate</a> ()</td></tr>
 <tr class="separator:ab448e17881188b8adabb2af896d159ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -362,59 +359,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a92986a778e4150dc4656a2fc1f2c6e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92986a778e4150dc4656a2fc1f2c6e7b">&#9670;&nbsp;</a></span>QueueReceivedMessageAndSync()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SecureSessionMgrDelegate::QueueReceivedMessageAndSync </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html">Transport::PeerConnectionState</a> *&#160;</td>
-          <td class="paramname"><em>state</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
-          <td class="paramname"><em>msgBuf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called when received message from a source node whose message counter is unknown. </p>
-<p>Queue the message and start sync if the sync procedure is not started yet.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">state</td><td>A pointer to the state of peer connection </td></tr>
-    <tr><td class="paramname">msgBuf</td><td>The received message</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname"><a class="el" href="_c_h_i_p_error_8h.html#a54dff71a2a2b567789ca4ba4c0fa1495" title="The attempt to allocate a buffer or object failed due to a lack of memory.">CHIP_ERROR_NO_MEMORY</a></td><td>If there is no empty slot left to queue the message. </td></tr>
-    <tr><td class="paramname"><a class="el" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e" title="This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...">CHIP_NO_ERROR</a></td><td>On success. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>transport/<a class="el" href="_secure_session_mgr_8h_source.html">SecureSessionMgr.h</a></li>
 </ul>
@@ -424,7 +368,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_secure_session_mgr_delegate.html">SecureSessionMgrDelegate</a></li>
-    <li class="footer">Generated on Wed May 12 2021 19:36:47 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 20:04:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

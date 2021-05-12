@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e36284f</span>
+   &#160;<span id="projectnumber">c64d9d1</span>
    </div>
   </td>
  </tr>
@@ -206,6 +206,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a5f986002eda42f468a642e874f944aed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a5f986002eda42f468a642e874f944aed">CHIP_CONFIG_NODE_ADDRESS_RESOLVE_TIMEOUT_MSECS</a>&#160;&#160;&#160;(5000)</td></tr>
 <tr class="memdesc:a5f986002eda42f468a642e874f944aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the default timeout for node addres resolve over mDNS.  <a href="_c_h_i_p_config_8h.html#a5f986002eda42f468a642e874f944aed">More...</a><br /></td></tr>
 <tr class="separator:a5f986002eda42f468a642e874f944aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15219e46166ddc071b1fe101cb956311"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a15219e46166ddc071b1fe101cb956311">CHIP_CONFIG_MCSP_RECEIVE_TABLE_SIZE</a>&#160;&#160;&#160;(<a class="el" href="qpg6100_2_c_h_i_p_platform_config_8h.html#a56f3094069136dfe32452bfb45b07b33">CHIP_CONFIG_MAX_EXCHANGE_CONTEXTS</a> - 2)</td></tr>
+<tr class="memdesc:a15219e46166ddc071b1fe101cb956311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the receive table for message counter synchronization protocol.  <a href="_c_h_i_p_config_8h.html#a15219e46166ddc071b1fe101cb956311">More...</a><br /></td></tr>
+<tr class="separator:a15219e46166ddc071b1fe101cb956311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735e46fc09dacc5c73e0970d5675aeed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a735e46fc09dacc5c73e0970d5675aeed">CHIP_CONFIG_MESSAGE_COUNTER_WINDOW_SIZE</a>&#160;&#160;&#160;32</td></tr>
+<tr class="memdesc:a735e46fc09dacc5c73e0970d5675aeed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Max number of messages behind message window can be accepted.  <a href="_c_h_i_p_config_8h.html#a735e46fc09dacc5c73e0970d5675aeed">More...</a><br /></td></tr>
+<tr class="separator:a735e46fc09dacc5c73e0970d5675aeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbba209332b69b15067b51fcdb318e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#acbbba209332b69b15067b51fcdb318e3">CHIP_CONFIG_CONNECT_IP_ADDRS</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memdesc:acbbba209332b69b15067b51fcdb318e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of IP addresses tried when connecting to a hostname.  <a href="_c_h_i_p_config_8h.html#acbbba209332b69b15067b51fcdb318e3">More...</a><br /></td></tr>
 <tr class="separator:acbbba209332b69b15067b51fcdb318e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,6 +275,8 @@ Macros</h2></td></tr>
 <tr class="memitem:a24c3781a3559d374f54857e5c0134999"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a24c3781a3559d374f54857e5c0134999">CHIP_CONFIG_SUPPORT_CASE_CONFIG1</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a24c3781a3559d374f54857e5c0134999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable use of CASE protocol configuration 1.  <a href="_c_h_i_p_config_8h.html#a24c3781a3559d374f54857e5c0134999">More...</a><br /></td></tr>
 <tr class="separator:a24c3781a3559d374f54857e5c0134999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834a6f01f14027f898e896ef2ca112a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#a834a6f01f14027f898e896ef2ca112a6">CHIP_CONFIG_PERSISTED_STORAGE_KEY_GLOBAL_MESSAGE_COUNTER</a>&#160;&#160;&#160;&quot;GlobalMCTR&quot;</td></tr>
+<tr class="separator:a834a6f01f14027f898e896ef2ca112a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa144a6e70c5cadc6d198058dc07aab2b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_config_8h.html#aa144a6e70c5cadc6d198058dc07aab2b">CHIP_CONFIG_DEFAULT_CASE_CURVE_ID</a>&#160;&#160;&#160;(chip::Profiles::Security::kChipCurveId_secp224r1)</td></tr>
 <tr class="memdesc:aa144a6e70c5cadc6d198058dc07aab2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default ECDH curve to be used when initiating a CASE session, if not overridden by the application.  <a href="_c_h_i_p_config_8h.html#aa144a6e70c5cadc6d198058dc07aab2b">More...</a><br /></td></tr>
 <tr class="separator:aa144a6e70c5cadc6d198058dc07aab2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2100,6 +2108,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a15219e46166ddc071b1fe101cb956311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15219e46166ddc071b1fe101cb956311">&#9670;&nbsp;</a></span>CHIP_CONFIG_MCSP_RECEIVE_TABLE_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_CONFIG_MCSP_RECEIVE_TABLE_SIZE&#160;&#160;&#160;(<a class="el" href="qpg6100_2_c_h_i_p_platform_config_8h.html#a56f3094069136dfe32452bfb45b07b33">CHIP_CONFIG_MAX_EXCHANGE_CONTEXTS</a> - 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Size of the receive table for message counter synchronization protocol. </p>
+
+</div>
+</div>
 <a id="a2da017299cd8840077ef21cdbbc3ffaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2da017299cd8840077ef21cdbbc3ffaf">&#9670;&nbsp;</a></span>CHIP_CONFIG_MEMORY_DEBUG_CHECKS</h2>
 
@@ -2181,6 +2205,22 @@ Variables</h2></td></tr>
 
 <p>Enable (1) or disable (0) support for a chip-provided implementation of chip Security Manager memory-management functions based on temporary network buffer allocation / release. </p>
 <dl class="section note"><dt>Note</dt><dd>This configuration is mutual exclusive with <a class="el" href="_c_h_i_p_config_8h.html#a94aec77eb6ce32d56f91cb6b0503c28d" title="Enable (1) or disable (0) support for platform-specific implementation of chip Security Manager memor...">CHIP_CONFIG_MEMORY_MGMT_PLATFORM</a> and <a class="el" href="_c_h_i_p_config_8h.html#a9e5e2913eed354fefdc228166ba520aa" title="Enable (1) or disable (0) support for a chip-provided implementation of chip Security Manager memory-...">CHIP_CONFIG_MEMORY_MGMT_MALLOC</a>. </dd></dl>
+
+</div>
+</div>
+<a id="a735e46fc09dacc5c73e0970d5675aeed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735e46fc09dacc5c73e0970d5675aeed">&#9670;&nbsp;</a></span>CHIP_CONFIG_MESSAGE_COUNTER_WINDOW_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_CONFIG_MESSAGE_COUNTER_WINDOW_SIZE&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Max number of messages behind message window can be accepted. </p>
 
 </div>
 </div>
@@ -2409,6 +2449,20 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The group key message counter persisted storage Id. </p>
+
+</div>
+</div>
+<a id="a834a6f01f14027f898e896ef2ca112a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834a6f01f14027f898e896ef2ca112a6">&#9670;&nbsp;</a></span>CHIP_CONFIG_PERSISTED_STORAGE_KEY_GLOBAL_MESSAGE_COUNTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CHIP_CONFIG_PERSISTED_STORAGE_KEY_GLOBAL_MESSAGE_COUNTER&#160;&#160;&#160;&quot;GlobalMCTR&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3325,7 +3379,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_92dd4b281d099a132d4a425cb79ee964.html">core</a></li><li class="navelem"><a class="el" href="_c_h_i_p_config_8h.html">CHIPConfig.h</a></li>
-    <li class="footer">Generated on Wed May 12 2021 19:36:47 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 20:04:29 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

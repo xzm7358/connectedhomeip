@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"_e_s_p32_2_connectivity_manager_impl_8cpp.html#a07b71ca3d46b4cfc4af2ad84bad12038":[11,0,7,3,9,1],
+"_e_s_p32_2_connectivity_manager_impl_8cpp.html#a4452c052a91d175ce446e6b1ca852200":[11,0,7,3,9,4],
+"_e_s_p32_2_connectivity_manager_impl_8cpp.html#a5eee3d95b4ab060d27a80d9c16ed818e":[11,0,7,3,9,0],
+"_e_s_p32_2_connectivity_manager_impl_8cpp.html#aa3b1f6443795b62e633975b25acb8999":[11,0,7,3,9,3],
 "_e_s_p32_2_connectivity_manager_impl_8cpp.html#acf719029b54dda3bbd3747a2ca2464a8":[11,0,7,3,9,2],
 "_e_s_p32_2_connectivity_manager_impl_8h.html":[11,0,7,3,10],
 "_e_s_p32_2_connectivity_manager_impl_8h.html#a17ec2ecb960975c25c4a890d7a72cbfb":[11,0,7,3,10,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "_generic_platform_manager_impl___p_o_s_i_x_8h_source.html":[11,0,4,0,0,25],
 "_generic_platform_manager_impl___zephyr_8cpp.html":[11,0,4,0,0,26],
 "_generic_platform_manager_impl___zephyr_8cpp.html#ace4a974d03334cd9d6ec71471e2f6b92":[11,0,4,0,0,26,0],
-"_generic_platform_manager_impl___zephyr_8cpp.html#ad3b10b2b5747687d003217aaba44b058":[11,0,4,0,0,26,1],
-"_generic_platform_manager_impl___zephyr_8h.html":[11,0,4,0,0,27],
-"_generic_platform_manager_impl___zephyr_8h_source.html":[11,0,4,0,0,27],
-"_generic_software_update_manager_impl_8cpp.html":[11,0,4,0,0,28],
-"_generic_software_update_manager_impl_8cpp.html#af96ef0792a7b372a1f8650c0fa32afaa":[11,0,4,0,0,28,0]
+"_generic_platform_manager_impl___zephyr_8cpp.html#ad3b10b2b5747687d003217aaba44b058":[11,0,4,0,0,26,1]
 };

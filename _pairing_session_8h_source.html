@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e36284f</span>
+   &#160;<span id="projectnumber">c64d9d1</span>
    </div>
   </td>
  </tr>
@@ -124,19 +124,27 @@ $(document).ready(function(){initNavTree('_pairing_session_8h_source.html',''); 
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">virtual</span> uint16_t GetLocalKeyId() = 0;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span> * GetI2RSessionInfo() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span> * GetR2ISessionInfo() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;};</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classchip_1_1_pairing_session.html#a72dc99a1ac7cc6e67ca0a6a9c368e4e8">   71</a></span>&#160;    <span class="keyword">virtual</span> uint32_t <a class="code" href="classchip_1_1_pairing_session.html#a72dc99a1ac7cc6e67ca0a6a9c368e4e8">GetPeerCounter</a>()</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">// TODO(#6652): This is a stub implementation, should be replaced by the real one when CASE and PASE is completed</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classchip_1_1_local_session_message_counter.html#a39f21bf837dea1feb08369901bb8412f">LocalSessionMessageCounter::kInitialValue</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span> * GetI2RSessionInfo() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">virtual</span> <span class="keyword">const</span> <span class="keywordtype">char</span> * GetR2ISessionInfo() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;};</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclasschip_1_1_local_session_message_counter_html_a39f21bf837dea1feb08369901bb8412f"><div class="ttname"><a href="classchip_1_1_local_session_message_counter.html#a39f21bf837dea1feb08369901bb8412f">chip::LocalSessionMessageCounter::kInitialValue</a></div><div class="ttdeci">static constexpr uint32_t kInitialValue</div><div class="ttdef"><b>Definition:</b> MessageCounter.h:118</div></div>
 <div class="ttc" id="aclasschip_1_1_pairing_session_html_aa62604d757a57543cd86c138ffdc1b24"><div class="ttname"><a href="classchip_1_1_pairing_session.html#aa62604d757a57543cd86c138ffdc1b24">chip::PairingSession::PairingSession</a></div><div class="ttdeci">PairingSession()</div><div class="ttdef"><b>Definition:</b> PairingSession.h:36</div></div>
 <div class="ttc" id="aclasschip_1_1_secure_session_html_abf2a1e83435a92306905809b4a43094a"><div class="ttname"><a href="classchip_1_1_secure_session.html#abf2a1e83435a92306905809b4a43094a">chip::SecureSession::SessionRole</a></div><div class="ttdeci">SessionRole</div><div class="ttdoc">Whether the current node initiated the session, or it is responded to a session request.</div><div class="ttdef"><b>Definition:</b> SecureSession.h:47</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
 <div class="ttc" id="a_secure_session_8h_html"><div class="ttname"><a href="_secure_session_8h.html">SecureSession.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_pairing_session_html_a80ce5fb3b119202d8dfccf5e316f51dc"><div class="ttname"><a href="classchip_1_1_pairing_session.html#a80ce5fb3b119202d8dfccf5e316f51dc">chip::PairingSession::~PairingSession</a></div><div class="ttdeci">virtual ~PairingSession()</div><div class="ttdef"><b>Definition:</b> PairingSession.h:37</div></div>
+<div class="ttc" id="aclasschip_1_1_pairing_session_html_a72dc99a1ac7cc6e67ca0a6a9c368e4e8"><div class="ttname"><a href="classchip_1_1_pairing_session.html#a72dc99a1ac7cc6e67ca0a6a9c368e4e8">chip::PairingSession::GetPeerCounter</a></div><div class="ttdeci">virtual uint32_t GetPeerCounter()</div><div class="ttdoc">Get the value of peer session counter which is synced during session establishment.</div><div class="ttdef"><b>Definition:</b> PairingSession.h:71</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html"><div class="ttname"><a href="_c_h_i_p_error_8h.html">CHIPError.h</a></div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Defines support for asserting that the chip stack is locked by the current thread via the macro:</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_pairing_session_html"><div class="ttname"><a href="classchip_1_1_pairing_session.html">chip::PairingSession</a></div><div class="ttdef"><b>Definition:</b> PairingSession.h:33</div></div>
@@ -146,7 +154,7 @@ $(document).ready(function(){initNavTree('_pairing_session_8h_source.html',''); 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_pairing_session_8h.html">PairingSession.h</a></li>
-    <li class="footer">Generated on Wed May 12 2021 19:36:46 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 20:04:29 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

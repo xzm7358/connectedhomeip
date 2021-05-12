@@ -19,6 +19,7 @@ var support_2logging_2_constants_8h =
       [ "kLogModule_Crypto", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdac5a74a550fa60eaee16c5b080f58fac6", null ],
       [ "kLogModule_Controller", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda267cd023c699e067fc9183e27818b88f", null ],
       [ "kLogModule_Alarm", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda8d894a19b28eeff64809b370b70d755b", null ],
+      [ "kLogModule_SecureChannel", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda4879c7827a1815eff0182c2e38dbbcf3", null ],
       [ "kLogModule_BDX", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda61219c2a8e988d5a0005eb29c2a79969", null ],
       [ "kLogModule_DataManagement", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda6718be4fe659e406c2b5f03f41a1f19b", null ],
       [ "kLogModule_DeviceControl", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda3dce41f748c50461dcee8b4e64dbc0fd", null ],

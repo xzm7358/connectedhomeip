@@ -29,6 +29,7 @@ var cc13x2__26x2_2_c_h_i_p_platform_config_8h =
     [ "CHIP_CONFIG_MAX_UNSOLICITED_MESSAGE_HANDLERS", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a5e3f88d3ddb04517e635b9cd0bae78be", null ],
     [ "CHIP_CONFIG_NO_ERROR", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a77341573532803679ccbd564e0f2542a", null ],
     [ "CHIP_CONFIG_PERSISTED_STORAGE_ENC_MSG_CNTR_ID", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#add070dbfaadd65cf200e6281347f6e4b", null ],
+    [ "CHIP_CONFIG_PERSISTED_STORAGE_KEY_GLOBAL_MESSAGE_COUNTER", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a834a6f01f14027f898e896ef2ca112a6", null ],
     [ "CHIP_CONFIG_PERSISTED_STORAGE_KEY_TYPE", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#afea07d1eae6258c3a7e411f6340f5550", null ],
     [ "CHIP_CONFIG_PERSISTED_STORAGE_MAX_KEY_LENGTH", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a47807484e5fd377203d003d0a1f8aeae", null ],
     [ "CHIP_CONFIG_RMP_TIMER_DEFAULT_PERIOD_SHIFT", "cc13x2__26x2_2_c_h_i_p_platform_config_8h.html#a2839eb8c235bbcc0abf18e1dc5adc017", null ],

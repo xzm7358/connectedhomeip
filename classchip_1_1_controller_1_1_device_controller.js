@@ -33,6 +33,7 @@ var classchip_1_1_controller_1_1_device_controller =
     [ "mInetLayer", "classchip_1_1_controller_1_1_device_controller.html#a6821389f0f9c5b392cb157b5a40bc165", null ],
     [ "mListenPort", "classchip_1_1_controller_1_1_device_controller.html#ac673218018126e36f2b5eafc5d1de9ae", null ],
     [ "mLocalDeviceId", "classchip_1_1_controller_1_1_device_controller.html#aa1b0b19d5b350cc57a36b36f1747c5d0", null ],
+    [ "mMessageCounterManager", "classchip_1_1_controller_1_1_device_controller.html#a1bd7134d0c13179d94c975c2d2e8d160", null ],
     [ "mPairedDevices", "classchip_1_1_controller_1_1_device_controller.html#a5b1aafa626affc3781e1e28fd694caf1", null ],
     [ "mPairedDevicesInitialized", "classchip_1_1_controller_1_1_device_controller.html#a9148c4659f07a15f02e87594da1e2572", null ],
     [ "mSessionMgr", "classchip_1_1_controller_1_1_device_controller.html#a22402c3c247a2590c2775981d99748af", null ],
