@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">453b118</span>
+   &#160;<span id="projectnumber">e36284f</span>
    </div>
   </td>
  </tr>
@@ -124,42 +124,46 @@ $(document).ready(function(){initNavTree('qpg6100_2_c_h_i_p_device_platform_conf
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0">   41</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY 4</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae">   42</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY 5</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// ========== Platform-specific Configuration =========</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// These are configuration options that are unique to the platform.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// These can be overridden by the application as needed.</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">// ...</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// ========== Platform-specific Configuration Overrides =========</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a207b13c004142631e49d9889ff9dccec">   44</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_MDNS 1</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#aebc41f873239ec77215bec5351d471c6">   45</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT 1</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad">   46</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES 1</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">// ========== Platform-specific Configuration =========</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">// These are configuration options that are unique to the platform.</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// These can be overridden by the application as needed.</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">   54</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE (3 * 1024 + 256)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">// ...</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">// ========== Platform-specific Configuration Overrides =========</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">   58</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (3 * 1024)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">   58</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE (3 * 1024 + 256)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">   61</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">   62</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">   63</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">   64</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">// Per 5.2.5.2. Commencement Section of CHIP spec, BLE advertisement is</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">// disabled for Locks and Barrier Access Devices.</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a66145c1b40a752120e05ce2ed15249af">   68</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIPOBLE_ENABLE_ADVERTISING_AUTOSTART 0</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1b1b0bd39deaca1675c4353a35d4e398">   69</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_PAIRING_AUTOSTART 0</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">// ========== Platform-specific Cluster Overrides =========</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a4877257fe01983b43e086fe89cafa86d">   72</a></span>&#160;<span class="preprocessor">#define CHIP_CLUSTER_NETWORK_COMMISSIONING_MAX_NETWORKS 1</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">   62</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (3 * 1024)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">   65</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">   66</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">   67</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">   68</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">// Per 5.2.5.2. Commencement Section of CHIP spec, BLE advertisement is</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">// disabled for Locks and Barrier Access Devices.</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a66145c1b40a752120e05ce2ed15249af">   72</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIPOBLE_ENABLE_ADVERTISING_AUTOSTART 0</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1b1b0bd39deaca1675c4353a35d4e398">   73</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_PAIRING_AUTOSTART 0</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">// ========== Platform-specific Cluster Overrides =========</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html#a4877257fe01983b43e086fe89cafa86d">   76</a></span>&#160;<span class="preprocessor">#define CHIP_CLUSTER_NETWORK_COMMISSIONING_MAX_NETWORKS 1</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_fcc1d09ed58181b7f4fc81b7a286e7d0.html">qpg6100</a></li><li class="navelem"><a class="el" href="qpg6100_2_c_h_i_p_device_platform_config_8h.html">CHIPDevicePlatformConfig.h</a></li>
-    <li class="footer">Generated on Wed May 12 2021 19:12:33 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 19:36:46 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

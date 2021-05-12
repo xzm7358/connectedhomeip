@@ -5,7 +5,9 @@ var qpg6100_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_CHIPOBLE_ENABLE_ADVERTISING_AUTOSTART", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a66145c1b40a752120e05ce2ed15249af", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIP_TIME_SERVICE_TIME_SYNC", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc", null ],
+    [ "CHIP_DEVICE_CONFIG_ENABLE_MDNS", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a207b13c004142631e49d9889ff9dccec", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_PAIRING_AUTOSTART", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1b1b0bd39deaca1675c4353a35d4e398", null ],
+    [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_SRP_CLIENT", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#aebc41f873239ec77215bec5351d471c6", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_AP", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d", null ],
@@ -16,5 +18,6 @@ var qpg6100_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae", null ],
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0", null ],
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_PROD_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa", null ],
+    [ "CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883", null ]
 ];
