@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a7dca519c005e9e3a4c22cabc94bec6fd":[10,0,1,6,1,28],
+"classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a7fad80d8324626288aafbeaeac23a834":[10,0,1,6,1,26],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a80546126f7c47546927d34fec359abe9":[10,0,1,6,1,17],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a8707a0253990bd588abe9ab3339c250f":[10,0,1,6,1,30],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_core_bluetooth_manager.html#a8cee97c9691b09365e153f61fc8a3f54":[10,0,1,6,1,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classchip_1_1_controller_1_1_device_controller.html#a825c1956e2b8f9d2d6b0b32b5cc51400":[10,0,1,11,8,35],
 "classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73":[10,0,1,11,8,18],
 "classchip_1_1_controller_1_1_device_controller.html#a9148c4659f07a15f02e87594da1e2572":[10,0,1,11,8,32],
-"classchip_1_1_controller_1_1_device_controller.html#a9532dc5fb61a36ffe5f3ade95d6fa527":[10,0,1,11,8,37],
-"classchip_1_1_controller_1_1_device_controller.html#a993e9ac0acef9ecc258c5510173d2b1f":[10,0,1,11,8,4],
-"classchip_1_1_controller_1_1_device_controller.html#aa03b4d7bd8aabcc8d28dda6243aef85c":[10,0,1,11,8,36]
+"classchip_1_1_controller_1_1_device_controller.html#a9532dc5fb61a36ffe5f3ade95d6fa527":[10,0,1,11,8,37]
 };

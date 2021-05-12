@@ -19,7 +19,7 @@ var dir_8ea9fa1ba554352f2068a9636e0a3470 =
     ] ],
     [ "Entropy.cpp", "_k32_w_2_entropy_8cpp.html", "_k32_w_2_entropy_8cpp" ],
     [ "gatt_db.h", "_k32_w_2gatt__db_8h.html", null ],
-    [ "gatt_uuid128.h", "gatt__uuid128_8h.html", null ],
+    [ "gatt_uuid128.h", "gatt__uuid128_8h.html", "gatt__uuid128_8h" ],
     [ "GroupKeyStoreImpl.cpp", "_k32_w_2_group_key_store_impl_8cpp.html", null ],
     [ "GroupKeyStoreImpl.h", "_k32_w_2_group_key_store_impl_8h.html", [
       [ "ChipGroupKey", "classchip_1_1_device_layer_1_1_internal_1_1_chip_group_key.html", "classchip_1_1_device_layer_1_1_internal_1_1_chip_group_key" ],
@@ -29,7 +29,7 @@ var dir_8ea9fa1ba554352f2068a9636e0a3470 =
     [ "k32w-chip-mbedtls-config.h", "k32w-chip-mbedtls-config_8h.html", "k32w-chip-mbedtls-config_8h" ],
     [ "K32WConfig.cpp", "_k32_w_config_8cpp.html", null ],
     [ "K32WConfig.h", "_k32_w_config_8h.html", "_k32_w_config_8h" ],
-    [ "KeyValueStoreManagerImpl.cpp", "_k32_w_2_key_value_store_manager_impl_8cpp.html", null ],
+    [ "KeyValueStoreManagerImpl.cpp", "_k32_w_2_key_value_store_manager_impl_8cpp.html", "_k32_w_2_key_value_store_manager_impl_8cpp" ],
     [ "KeyValueStoreManagerImpl.h", "_k32_w_2_key_value_store_manager_impl_8h.html", "_k32_w_2_key_value_store_manager_impl_8h" ],
     [ "Logging.cpp", "_k32_w_2_logging_8cpp.html", "_k32_w_2_logging_8cpp" ],
     [ "NFCManagerImpl.cpp", "_k32_w_2_n_f_c_manager_impl_8cpp.html", null ],

@@ -69,10 +69,13 @@ var classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config =
     [ "kMaxConfigKey_ChipConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a1a4ae77f94c0d10fb48bcd9493d826be", null ],
     [ "kMaxConfigKey_ChipCounter", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#ad61d06d0c4e2ba90a9fa2298c3776269", null ],
     [ "kMaxConfigKey_ChipFactory", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a6b6336e3e1d0678dede9c6bbf86ddfc6", null ],
+    [ "kMaxConfigKey_KVS", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a353bc15789c9ebc1b9ae65146d2cf97f", null ],
     [ "kMinConfigKey_ChipConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a52e1f1fbae1107a23cbe767c51f856d0", null ],
     [ "kMinConfigKey_ChipCounter", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#aec93183f8337f427ca7c0a92e03898cf", null ],
     [ "kMinConfigKey_ChipFactory", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#ada4a7985ab2b5717e173d0efd8fbc04c", null ],
+    [ "kMinConfigKey_KVS", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#ad1be7a51cd2fc852bdd0feaf906fc614", null ],
     [ "kPDMId_ChipConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a24bb447ddd4f3d83b3599d065b26f458", null ],
     [ "kPDMId_ChipCounter", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a9709903a052fb02b43a5e3575209c20a", null ],
-    [ "kPDMId_ChipFactory", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a66102454f8cc301856642dca3f851503", null ]
+    [ "kPDMId_ChipFactory", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a66102454f8cc301856642dca3f851503", null ],
+    [ "kPDMId_KVS", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html#a3534173a8e54f6503ad758221e204fa7", null ]
 ];
