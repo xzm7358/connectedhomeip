@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"_k32_w_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,5,5,11],
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,5,5,13],
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,5,5,19],
 "_k32_w_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,5,5],
@@ -126,8 +127,8 @@ var NAVTREEINDEX13 =
 "_k32_w_2_logging_8cpp.html#a0dfce62d534dadcd80a7446a1ba405a0":[11,0,7,5,25,5],
 "_k32_w_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,5,25,4],
 "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77":[11,0,7,5,25,8],
-"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,3],
+"_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a7239e2be33c8d7bb4471386fa5b65569":[11,0,7,5,25,6],
 "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,5,25,9],
 "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513":[11,0,7,5,25,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a93c7873dbd399a1adf4c808829216586":[11,0,7,6,5,1,24],
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aa586ad1729b3492474b05b38a46adfe8":[11,0,7,6,5,1,19],
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aad0ee644c18904a8a63cad869e9c3218":[11,0,7,6,5,1,20],
-"_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ab1dc817c28cd24fb6f200224bc922e7f":[11,0,7,6,5,1,23],
-"_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59abe7c99303fe552560650a54ec86dcf2c":[11,0,7,6,5,1,8]
+"_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ab1dc817c28cd24fb6f200224bc922e7f":[11,0,7,6,5,1,23]
 };

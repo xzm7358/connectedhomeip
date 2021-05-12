@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">c64d9d1</span>
+   &#160;<span id="projectnumber">b6ccd46</span>
    </div>
   </td>
  </tr>
@@ -109,6 +109,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html">HashSHA256OpaqueContext</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class that defines stream based implementation of SHA-256 hash It's expected that the object of this class can be safely copied.  <a href="structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_h_k_d_f__sha.html">HKDF_sha</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_h_k_d_f__sha_h_s_m.html">HKDF_shaHSM</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_crypto_1_1_p256_keypair.html">P256Keypair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_crypto_1_1_p256_keypair_context.html">P256KeypairContext</a></td></tr>
@@ -133,6 +137,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:acd332b43901330e169b8f38fb800586c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#acd332b43901330e169b8f38fb800586c">HKDF_sha_crypto</a> = <a class="el" href="classchip_1_1_crypto_1_1_h_k_d_f__sha.html">HKDF_sha</a></td></tr>
+<tr class="separator:acd332b43901330e169b8f38fb800586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c4c0c2852c1483fc3e7d253c21631f7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classchip_1_1_crypto_1_1_capacity_bound_buffer.html">CapacityBoundBuffer</a>&lt; <a class="el" href="namespacechip_1_1_crypto.html#a7f3c8462a8be0714e5bde4a4db10593e">kMax_ECDSA_Signature_Length</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#a4c4c0c2852c1483fc3e7d253c21631f7">P256ECDSASignature</a></td></tr>
 <tr class="separator:a4c4c0c2852c1483fc3e7d253c21631f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0266c80470444b4f9d765484bffbf6a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classchip_1_1_crypto_1_1_capacity_bound_buffer.html">CapacityBoundBuffer</a>&lt; <a class="el" href="namespacechip_1_1_crypto.html#a2e54786d81cb8f15b9bbfb72205997d4">kMax_ECDH_Secret_Length</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#ac0266c80470444b4f9d765484bffbf6a">P256ECDHDerivedSecret</a></td></tr>
@@ -202,9 +208,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ab5ed0f8737718b4a9bff6d139bf54c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#ab5ed0f8737718b4a9bff6d139bf54c6b">Hash_SHA1</a> (const uint8_t *data, size_t data_length, uint8_t *out_buffer)</td></tr>
 <tr class="memdesc:ab5ed0f8737718b4a9bff6d139bf54c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that implements SHA-1 hash.  <a href="namespacechip_1_1_crypto.html#ab5ed0f8737718b4a9bff6d139bf54c6b">More...</a><br /></td></tr>
 <tr class="separator:ab5ed0f8737718b4a9bff6d139bf54c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a312c90d8dc3230e723ddbbe427307a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#a312c90d8dc3230e723ddbbe427307a21">HKDF_SHA256</a> (const uint8_t *secret, size_t secret_length, const uint8_t *salt, size_t salt_length, const uint8_t *info, size_t info_length, uint8_t *out_buffer, size_t out_length)</td></tr>
-<tr class="memdesc:a312c90d8dc3230e723ddbbe427307a21"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that implements SHA-256 based HKDF.  <a href="namespacechip_1_1_crypto.html#a312c90d8dc3230e723ddbbe427307a21">More...</a><br /></td></tr>
-<tr class="separator:a312c90d8dc3230e723ddbbe427307a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a2d8a47210c5b3160797828217a7a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_crypto.html#a55a2d8a47210c5b3160797828217a7a4">DRBG_get_bytes</a> (uint8_t *out_buffer, size_t out_length)</td></tr>
 <tr class="memdesc:a55a2d8a47210c5b3160797828217a7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A cryptographically secure random number generator based on NIST SP800-90A.  <a href="namespacechip_1_1_crypto.html#a55a2d8a47210c5b3160797828217a7a4">More...</a><br /></td></tr>
 <tr class="separator:a55a2d8a47210c5b3160797828217a7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -336,6 +339,20 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 if success </dd></dl>
+
+</div>
+</div>
+<a id="acd332b43901330e169b8f38fb800586c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd332b43901330e169b8f38fb800586c">&#9670;&nbsp;</a></span>HKDF_sha_crypto</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacechip_1_1_crypto.html#acd332b43901330e169b8f38fb800586c">chip::Crypto::HKDF_sha_crypto</a> = typedef <a class="el" href="classchip_1_1_crypto_1_1_h_k_d_f__sha.html">HKDF_sha</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1361,86 +1378,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a312c90d8dc3230e723ddbbe427307a21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a312c90d8dc3230e723ddbbe427307a21">&#9670;&nbsp;</a></span>HKDF_SHA256()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Crypto::HKDF_SHA256 </td>
-          <td>(</td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>secret</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>secret_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>salt_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>info</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>info_length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t *&#160;</td>
-          <td class="paramname"><em>out_buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>out_length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>A function that implements SHA-256 based HKDF. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">secret</td><td>The secret to use as the key to the HKDF </td></tr>
-    <tr><td class="paramname">secret_length</td><td>Length of the secret </td></tr>
-    <tr><td class="paramname">salt</td><td><a class="el" href="classchip_1_1_optional.html" title="Pairs an object with a boolean value to determine if the object value is actually valid or not.">Optional</a> salt to use as input to the HKDF </td></tr>
-    <tr><td class="paramname">salt_length</td><td>Length of the salt </td></tr>
-    <tr><td class="paramname">info</td><td><a class="el" href="classchip_1_1_optional.html" title="Pairs an object with a boolean value to determine if the object value is actually valid or not.">Optional</a> info to use as input to the HKDF </td></tr>
-    <tr><td class="paramname">info_length</td><td>Length of the info </td></tr>
-    <tr><td class="paramname">out_buffer</td><td>Pointer to buffer to write output into. </td></tr>
-    <tr><td class="paramname">out_length</td><td>Resulting length of out_buffer </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Returns a CHIP_ERROR on error, CHIP_NO_ERROR otherwise </dd></dl>
-
-</div>
-</div>
 <a id="aa46590318a035faf2df9c2154cb4d957"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa46590318a035faf2df9c2154cb4d957">&#9670;&nbsp;</a></span>MapECName()</h2>
 
@@ -2117,7 +2054,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_crypto.html">Crypto</a></li>
-    <li class="footer">Generated on Wed May 12 2021 20:04:30 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 12 2021 21:27:30 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

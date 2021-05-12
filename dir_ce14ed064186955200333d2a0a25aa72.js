@@ -24,7 +24,7 @@ var dir_ce14ed064186955200333d2a0a25aa72 =
     ] ],
     [ "SecureMessageCodec.cpp", "_secure_message_codec_8cpp.html", "_secure_message_codec_8cpp" ],
     [ "SecureMessageCodec.h", "_secure_message_codec_8h.html", "_secure_message_codec_8h" ],
-    [ "SecureSession.cpp", "_secure_session_8cpp.html", null ],
+    [ "SecureSession.cpp", "_secure_session_8cpp.html", "_secure_session_8cpp" ],
     [ "SecureSession.h", "_secure_session_8h.html", [
       [ "SecureSession", "classchip_1_1_secure_session.html", "classchip_1_1_secure_session" ]
     ] ],
