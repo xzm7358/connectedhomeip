@@ -20,6 +20,7 @@ var namespacechip =
     [ "exceptions", "namespacechip_1_1exceptions.html", "namespacechip_1_1exceptions" ],
     [ "Inet", "namespacechip_1_1_inet.html", "namespacechip_1_1_inet" ],
     [ "interaction_model", "namespacechip_1_1interaction__model.html", null ],
+    [ "Internal", "namespacechip_1_1_internal.html", "namespacechip_1_1_internal" ],
     [ "internal", "namespacechip_1_1internal.html", "namespacechip_1_1internal" ],
     [ "Logging", "namespacechip_1_1_logging.html", null ],
     [ "logging", "namespacechip_1_1logging.html", null ],
@@ -35,8 +36,8 @@ var namespacechip =
     [ "System", "namespacechip_1_1_system.html", "namespacechip_1_1_system" ],
     [ "Thread", "namespacechip_1_1_thread.html", "namespacechip_1_1_thread" ],
     [ "Time", "namespacechip_1_1_time.html", "namespacechip_1_1_time" ],
-    [ "tlv", "namespacechip_1_1tlv.html", "namespacechip_1_1tlv" ],
     [ "TLV", "namespacechip_1_1_t_l_v.html", "namespacechip_1_1_t_l_v" ],
+    [ "tlv", "namespacechip_1_1tlv.html", "namespacechip_1_1tlv" ],
     [ "Transport", "namespacechip_1_1_transport.html", "namespacechip_1_1_transport" ],
     [ "AdditionalDataPayloadGenerator", "classchip_1_1_additional_data_payload_generator.html", "classchip_1_1_additional_data_payload_generator" ],
     [ "AdditionalDataPayloadParser", "classchip_1_1_additional_data_payload_parser.html", "classchip_1_1_additional_data_payload_parser" ],
@@ -86,5 +87,6 @@ var namespacechip =
     [ "test_suites_t", "structchip_1_1test__suites__t.html", "structchip_1_1test__suites__t" ],
     [ "TransportMgr", "classchip_1_1_transport_mgr.html", "classchip_1_1_transport_mgr" ],
     [ "TransportMgrBase", "classchip_1_1_transport_mgr_base.html", "classchip_1_1_transport_mgr_base" ],
-    [ "TransportMgrDelegate", "classchip_1_1_transport_mgr_delegate.html", "classchip_1_1_transport_mgr_delegate" ]
+    [ "TransportMgrDelegate", "classchip_1_1_transport_mgr_delegate.html", "classchip_1_1_transport_mgr_delegate" ],
+    [ "Variant", "structchip_1_1_variant.html", "structchip_1_1_variant" ]
 ];

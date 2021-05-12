@@ -84,5 +84,11 @@ var dir_07debba6119e8fae289f5c0650c95439 =
     [ "TimeUtils.cpp", "_time_utils_8cpp.html", "_time_utils_8cpp" ],
     [ "TimeUtils.h", "_time_utils_8h.html", "_time_utils_8h" ],
     [ "UnitTestRegistration.cpp", "_unit_test_registration_8cpp.html", "_unit_test_registration_8cpp" ],
-    [ "UnitTestRegistration.h", "_unit_test_registration_8h.html", "_unit_test_registration_8h" ]
+    [ "UnitTestRegistration.h", "_unit_test_registration_8h.html", "_unit_test_registration_8h" ],
+    [ "Variant.h", "_variant_8h.html", [
+      [ "VariantCurry", "structchip_1_1_internal_1_1_variant_curry.html", null ],
+      [ "VariantCurry< T, Ts... >", "structchip_1_1_internal_1_1_variant_curry_3_01_t_00_01_ts_8_8_8_01_4.html", "structchip_1_1_internal_1_1_variant_curry_3_01_t_00_01_ts_8_8_8_01_4" ],
+      [ "VariantCurry<>", "structchip_1_1_internal_1_1_variant_curry_3_4.html", "structchip_1_1_internal_1_1_variant_curry_3_4" ],
+      [ "Variant", "structchip_1_1_variant.html", "structchip_1_1_variant" ]
+    ] ]
 ];

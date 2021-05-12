@@ -297,11 +297,11 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
-    ] ],
-    [ "InteractionModelDelegate", null, [
       [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", null ],
       [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+    ] ],
+    [ "InteractionModelDelegate", null, [
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -530,8 +530,8 @@ var hierarchy =
     ] ],
     [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
@@ -600,6 +600,10 @@ var hierarchy =
     [ "mdns::Minimal::TxtRecordDelegate", "classmdns_1_1_minimal_1_1_txt_record_delegate.html", null ],
     [ "chip::Transport::UdpListenParameters", "classchip_1_1_transport_1_1_udp_listen_parameters.html", null ],
     [ "UtfString", "class_utf_string.html", null ],
+    [ "chip::Variant< Ts >", "structchip_1_1_variant.html", null ],
+    [ "chip::Internal::VariantCurry< Ts >", "structchip_1_1_internal_1_1_variant_curry.html", null ],
+    [ "chip::Internal::VariantCurry< T, Ts... >", "structchip_1_1_internal_1_1_variant_curry_3_01_t_00_01_ts_8_8_8_01_4.html", null ],
+    [ "chip::Internal::VariantCurry<>", "structchip_1_1_internal_1_1_variant_curry_3_4.html", null ],
     [ "Verhoeff", "class_verhoeff.html", null ],
     [ "Verhoeff10", "class_verhoeff10.html", null ],
     [ "Verhoeff16", "class_verhoeff16.html", null ],
