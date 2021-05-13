@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4c598b2</span>
+   &#160;<span id="projectnumber">22365d8</span>
    </div>
   </td>
  </tr>
@@ -130,6 +130,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_operational_credentials_delegate.html">OperationalCredentialsDelegate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callbacks for CHIP operational credentials generation.  <a href="classchip_1_1_controller_1_1_operational_credentials_delegate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_operational_credentials_provisioner.html">OperationalCredentialsProvisioner</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_interaction_model_delegate.html">PythonInteractionModelDelegate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html">PythonPersistentStorageDelegate</a></td></tr>
@@ -142,6 +144,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">SerializedDevice</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html">TrustedRootCertificatesProvisioner</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -151,6 +155,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac514b1820bbfc39c55353df9db9a0d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae82b171a1b3e706d9834148e8f8ff1b9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">chip::Controller::SerializedDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ae82b171a1b3e706d9834148e8f8ff1b9">SerializedDevice</a></td></tr>
 <tr class="separator:ae82b171a1b3e706d9834148e8f8ff1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5aec1a4b414f88e754ee941a64b9870"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ad5aec1a4b414f88e754ee941a64b9870">OperationalCredentialsClusterOpCSRResponseCallback</a>) (void *context, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSR, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSRNonce, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved1, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved2, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved3, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> Signature)</td></tr>
+<tr class="separator:ad5aec1a4b414f88e754ee941a64b9870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a242c4261805dc23450a507567f78c2f8"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a242c4261805dc23450a507567f78c2f8">OperationalCredentialsClusterOpCertResponseCallback</a>) (void *context, uint8_t StatusCode, uint64_t FabricIndex, uint8_t *DebugText)</td></tr>
+<tr class="separator:a242c4261805dc23450a507567f78c2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6eb7b94d84e966594ac2acd69e1a7e"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#aef6eb7b94d84e966594ac2acd69e1a7e">DefaultSuccessCallback</a>) (void *context)</td></tr>
+<tr class="separator:aef6eb7b94d84e966594ac2acd69e1a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f410dbee201f11b4ea09de431ebc809"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a7f410dbee201f11b4ea09de431ebc809">DefaultFailureCallback</a>) (void *context, uint8_t status)</td></tr>
+<tr class="separator:a7f410dbee201f11b4ea09de431ebc809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1a4138cabf1c33f357dc19d10ed2b05"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ab1a4138cabf1c33f357dc19d10ed2b05">PythonInteractionModelDelegate_OnCommandResponseStatusCodeReceivedFunct</a>) (uint64_t commandSenderPtr, void *commandStatusBuf, uint32_t commandStatusBufLen)</td></tr>
 <tr class="separator:ab1a4138cabf1c33f357dc19d10ed2b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e4ffc0f984fc7c06f63db99be9e5c46"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a1e4ffc0f984fc7c06f63db99be9e5c46">PythonInteractionModelDelegate_OnCommandResponseProtocolErrorFunct</a>) (uint64_t commandSenderPtr, uint8_t commandIndex)</td></tr>
@@ -189,16 +201,50 @@ Variables</h2></td></tr>
 <tr class="separator:aa77d28572454d256e1bdb30881098d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6883ce7af262979777fba9d520c94d7b"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a6883ce7af262979777fba9d520c94d7b">kSessionEstablishmentTimeout</a> = 30 * <a class="el" href="namespacechip.html#ae410888206461422e1abe0407f1b020aaadb6bc9e069223374ca172f170cc5c4e">kMillisecondPerSecond</a></td></tr>
 <tr class="separator:a6883ce7af262979777fba9d520c94d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">kMaxCHIPOpCertLength</a> = 600</td></tr>
+<tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">kMaxCHIPOpCertLength</a> = 1024</td></tr>
 <tr class="separator:a66c6db924fb85b19e8a93b3db2615eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22be60b4679cad2f9fea573ee750bd39"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a22be60b4679cad2f9fea573ee750bd39">kOpCSRNonceLength</a> = 32</td></tr>
+<tr class="separator:a22be60b4679cad2f9fea573ee750bd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8edce2a78a23c0c061bdd74141953287"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a8edce2a78a23c0c061bdd74141953287">kNumMaxActiveDevices</a> = 64</td></tr>
 <tr class="separator:a8edce2a78a23c0c061bdd74141953287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa789e723b4110464aee09a924f6176dd"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#aa789e723b4110464aee09a924f6176dd">kNumMaxPairedDevices</a> = 128</td></tr>
 <tr class="separator:aa789e723b4110464aee09a924f6176dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd97a3e553436f7e22fda19d4c6afc1a"><td class="memItemLeft" align="right" valign="top">constexpr ClusterId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#abd97a3e553436f7e22fda19d4c6afc1a">kOperationalCredentialsClusterIdLocal</a> = 0x003E</td></tr>
+<tr class="separator:abd97a3e553436f7e22fda19d4c6afc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ef5094fc64db0c0d5d49b047fbff75"><td class="memItemLeft" align="right" valign="top">constexpr ClusterId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a34ef5094fc64db0c0d5d49b047fbff75">kTrustedRootCertificatesClusterIdLocal</a> = 0x003F</td></tr>
+<tr class="separator:a34ef5094fc64db0c0d5d49b047fbff75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1db62df40a0c040f28b259004eb9901c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_controller_1_1_python_interaction_model_delegate.html">PythonInteractionModelDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a1db62df40a0c040f28b259004eb9901c">gPythonInteractionModelDelegate</a></td></tr>
 <tr class="separator:a1db62df40a0c040f28b259004eb9901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7f410dbee201f11b4ea09de431ebc809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f410dbee201f11b4ea09de431ebc809">&#9670;&nbsp;</a></span>DefaultFailureCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::DefaultFailureCallback) (void *context, uint8_t status)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef6eb7b94d84e966594ac2acd69e1a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6eb7b94d84e966594ac2acd69e1a7e">&#9670;&nbsp;</a></span>DefaultSuccessCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::DefaultSuccessCallback) (void *context)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a40bf162aa1d4d5914b4f46acb34db7ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40bf162aa1d4d5914b4f46acb34db7ca">&#9670;&nbsp;</a></span>DeviceAddressUpdateDelegate_OnUpdateComplete</h2>
 
@@ -235,6 +281,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacechip_1_1_controller.html#ac0b48550bc696fecb81c27141e89b4b7">chip::Controller::DeviceTransportMgr</a> = typedef <a class="el" href="classchip_1_1_transport_mgr.html">TransportMgr</a>&lt;<a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> , <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html">Transport::UDP</a> , <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">Transport::BLE</a>&lt;<a class="el" href="namespacechip_1_1_controller.html#a04f553cb3928f4d2a9fe35d136a4fa14">kMaxBlePendingPackets</a>&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a242c4261805dc23450a507567f78c2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242c4261805dc23450a507567f78c2f8">&#9670;&nbsp;</a></span>OperationalCredentialsClusterOpCertResponseCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::OperationalCredentialsClusterOpCertResponseCallback) (void *context, uint8_t StatusCode, uint64_t FabricIndex, uint8_t *DebugText)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5aec1a4b414f88e754ee941a64b9870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5aec1a4b414f88e754ee941a64b9870">&#9670;&nbsp;</a></span>OperationalCredentialsClusterOpCSRResponseCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::OperationalCredentialsClusterOpCSRResponseCallback) (void *context, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSR, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSRNonce, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved1, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved2, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved3, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> Signature)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -445,7 +519,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint32_t chip::Controller::kMaxCHIPOpCertLength = 600</td>
+          <td class="memname">constexpr uint32_t chip::Controller::kMaxCHIPOpCertLength = 1024</td>
         </tr>
       </table>
   </td>
@@ -545,6 +619,50 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a22be60b4679cad2f9fea573ee750bd39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22be60b4679cad2f9fea573ee750bd39">&#9670;&nbsp;</a></span>kOpCSRNonceLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint32_t chip::Controller::kOpCSRNonceLength = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd97a3e553436f7e22fda19d4c6afc1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd97a3e553436f7e22fda19d4c6afc1a">&#9670;&nbsp;</a></span>kOperationalCredentialsClusterIdLocal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr ClusterId chip::Controller::kOperationalCredentialsClusterIdLocal = 0x003E</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4bbca922a7a0025b2a6e443cc504b5d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4bbca922a7a0025b2a6e443cc504b5d3">&#9670;&nbsp;</a></span>kPairedDeviceKeyPrefix</h2>
 
@@ -611,13 +729,35 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a34ef5094fc64db0c0d5d49b047fbff75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ef5094fc64db0c0d5d49b047fbff75">&#9670;&nbsp;</a></span>kTrustedRootCertificatesClusterIdLocal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr ClusterId chip::Controller::kTrustedRootCertificatesClusterIdLocal = 0x003F</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li>
-    <li class="footer">Generated on Thu May 13 2021 16:43:06 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 17:14:05 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,5 +1,16 @@
 var NAVTREEINDEX8 =
 {
+"_chip_device_controller-_cluster_commands_8cpp.html#a46e7a58525804e513603717ab440d76f":[11,0,1,1,5,49],
+"_chip_device_controller-_cluster_commands_8cpp.html#a486e2dfead61833816a17e39da6405c6":[11,0,1,1,5,69],
+"_chip_device_controller-_cluster_commands_8cpp.html#a5c22cb4ec9a1b52c126c1691ae2aabd2":[11,0,1,1,5,40],
+"_chip_device_controller-_cluster_commands_8cpp.html#a5f3941509ff8677c474a29f78266d840":[11,0,1,1,5,22],
+"_chip_device_controller-_cluster_commands_8cpp.html#a5f929bf278a378619623b09f7d326082":[11,0,1,1,5,63],
+"_chip_device_controller-_cluster_commands_8cpp.html#a60ff7d222f61546c1f4a19d883683a12":[11,0,1,1,5,72],
+"_chip_device_controller-_cluster_commands_8cpp.html#a61f256f02f7ea645ce14e496f472283c":[11,0,1,1,5,47],
+"_chip_device_controller-_cluster_commands_8cpp.html#a62296b5cd8a0a2c42def6e8ea9012635":[11,0,1,1,5,38],
+"_chip_device_controller-_cluster_commands_8cpp.html#a6311890790868f44753cd06a23e0cc59":[11,0,1,1,5,74],
+"_chip_device_controller-_cluster_commands_8cpp.html#a6334e38f370989109298bf1749d93c75":[11,0,1,1,5,50],
+"_chip_device_controller-_cluster_commands_8cpp.html#a64394ecff4161b1027603136fcc8c915":[11,0,1,1,5,13],
 "_chip_device_controller-_cluster_commands_8cpp.html#a6925da9c5970fdda8ba17ca852cbcbb4":[11,0,1,1,5,67],
 "_chip_device_controller-_cluster_commands_8cpp.html#a694def293311cc774ab80339998e150b":[11,0,1,1,5,27],
 "_chip_device_controller-_cluster_commands_8cpp.html#a71975a6fa03790f51e79a309a7244359":[11,0,1,1,5,34],
@@ -238,16 +249,5 @@ var NAVTREEINDEX8 =
 "_darwin_2_c_h_i_p_platform_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689":[11,0,7,1,11,5],
 "_darwin_2_c_h_i_p_platform_config_8h.html#a37f61d1eb2010ee0d310452850285f44":[11,0,7,1,11,13],
 "_darwin_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80":[11,0,7,1,11,36],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,1,11,21],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a4cdfb50cb4dc961567ebaeda5ead167c":[11,0,7,1,11,9],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a4f6d9d0a0a2631e9569591f236ccd257":[11,0,7,1,11,8],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a56f3094069136dfe32452bfb45b07b33":[11,0,7,1,11,20],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a5ba4362277d1b4590c86e1113a653381":[11,0,7,1,11,4],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a5da64c40172199f3d4c5dfd376f23c37":[11,0,7,1,11,32],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a5e3f88d3ddb04517e635b9cd0bae78be":[11,0,7,1,11,22],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a6dd8c7f84720f334c5660d7a1690978a":[11,0,7,1,11,28],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a7ac5617767de0ed14976fb3b042e4280":[11,0,7,1,11,31],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a8867aa7a26debef00255a559ec087f01":[11,0,7,1,11,30],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a8918057a248c253a311c7e9e67754057":[11,0,7,1,11,7],
-"_darwin_2_c_h_i_p_platform_config_8h.html#a90e732b8888318763da3d6499a1e2981":[11,0,7,1,11,16]
+"_darwin_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,1,11,21]
 };

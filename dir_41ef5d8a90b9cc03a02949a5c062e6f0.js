@@ -8,6 +8,8 @@ var dir_41ef5d8a90b9cc03a02949a5c062e6f0 =
     [ "CHIPDevice.h", "_c_h_i_p_device_8h.html", "_c_h_i_p_device_8h" ],
     [ "CHIPDeviceController.cpp", "_c_h_i_p_device_controller_8cpp.html", "_c_h_i_p_device_controller_8cpp" ],
     [ "CHIPDeviceController.h", "_c_h_i_p_device_controller_8h.html", "_c_h_i_p_device_controller_8h" ],
+    [ "CHIPOperationalCredentialsProvisioner.cpp", "_c_h_i_p_operational_credentials_provisioner_8cpp.html", null ],
+    [ "CHIPOperationalCredentialsProvisioner.h", "_c_h_i_p_operational_credentials_provisioner_8h.html", "_c_h_i_p_operational_credentials_provisioner_8h" ],
     [ "DeviceAddressUpdateDelegate.h", "_device_address_update_delegate_8h.html", [
       [ "DeviceAddressUpdateDelegate", "classchip_1_1_controller_1_1_device_address_update_delegate.html", "classchip_1_1_controller_1_1_device_address_update_delegate" ]
     ] ],

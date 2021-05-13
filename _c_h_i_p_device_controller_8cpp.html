@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4c598b2</span>
+   &#160;<span id="projectnumber">22365d8</span>
    </div>
   </td>
  </tr>
@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
 <code>#include &lt;<a class="el" href="_c_h_i_p_core_8h_source.html">core/CHIPCore.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_encoding_8h_source.html">core/CHIPEncoding.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_safe_casts_8h_source.html">core/CHIPSafeCasts.h</a>&gt;</code><br />
+<code>#include &lt;credentials/CHIPCert.h&gt;</code><br />
 <code>#include &lt;messaging/ExchangeContext.h&gt;</code><br />
 <code>#include &lt;protocols/secure_channel/MessageCounterManager.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_q_r_code_setup_payload_parser_8h_source.html">setup_payload/QRCodeSetupPayloadParser.h</a>&gt;</code><br />
@@ -162,8 +163,10 @@ Variables</h2></td></tr>
 <tr class="separator:aa77d28572454d256e1bdb30881098d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6883ce7af262979777fba9d520c94d7b"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a6883ce7af262979777fba9d520c94d7b">chip::Controller::kSessionEstablishmentTimeout</a> = 30 * kMillisecondPerSecond</td></tr>
 <tr class="separator:a6883ce7af262979777fba9d520c94d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">chip::Controller::kMaxCHIPOpCertLength</a> = 600</td></tr>
+<tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">chip::Controller::kMaxCHIPOpCertLength</a> = 1024</td></tr>
 <tr class="separator:a66c6db924fb85b19e8a93b3db2615eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22be60b4679cad2f9fea573ee750bd39"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a22be60b4679cad2f9fea573ee750bd39">chip::Controller::kOpCSRNonceLength</a> = 32</td></tr>
+<tr class="separator:a22be60b4679cad2f9fea573ee750bd39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of CHIP Device Controller, a common class that implements discovery, pairing and provisioning of CHIP devices. </p>
@@ -273,7 +276,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Thu May 13 2021 16:43:05 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 17:14:04 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

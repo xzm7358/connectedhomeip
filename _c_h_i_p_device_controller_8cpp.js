@@ -8,6 +8,7 @@ var _c_h_i_p_device_controller_8cpp =
     [ "Write", "_c_h_i_p_device_controller_8cpp.html#a06e2c544012ab5b7d8282907406c9206", null ],
     [ "kMaxCHIPOpCertLength", "_c_h_i_p_device_controller_8cpp.html#a66c6db924fb85b19e8a93b3db2615eff", null ],
     [ "kNextAvailableKeyID", "_c_h_i_p_device_controller_8cpp.html#aa77d28572454d256e1bdb30881098d50", null ],
+    [ "kOpCSRNonceLength", "_c_h_i_p_device_controller_8cpp.html#a22be60b4679cad2f9fea573ee750bd39", null ],
     [ "kPairedDeviceKeyPrefix", "_c_h_i_p_device_controller_8cpp.html#a4bbca922a7a0025b2a6e443cc504b5d3", null ],
     [ "kPairedDeviceListKeyPrefix", "_c_h_i_p_device_controller_8cpp.html#a75d2e0ff612bbfed806521be5ba2b0d3", null ],
     [ "kSessionEstablishmentTimeout", "_c_h_i_p_device_controller_8cpp.html#a6883ce7af262979777fba9d520c94d7b", null ]

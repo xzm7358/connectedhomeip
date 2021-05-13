@@ -1,5 +1,16 @@
 var NAVTREEINDEX10 =
 {
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#a952b9ba684754818c7394f751b821d05":[11,0,7,2,6,13],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#a99af5c6b6e7749b03b003ca6da7ee33a":[11,0,7,2,6,49],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,2,6,42],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#aa8b734a5e4a184c82af017739a2c2939":[11,0,7,2,6,25],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#aa8cb98d017ed7e8bb3d37f122ebfe275":[11,0,7,2,6,22],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#aab03d621d59a610c7ceabe15aa617506":[11,0,7,2,6,50],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#ab3a57b99cbf7688721ba11532757f159":[11,0,7,2,6,1],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#ab6b2752c5c95b7d62c2fd5828974f5aa":[11,0,7,2,6,44],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#abeaa6c1fea9f3c82cfcdee92fabfc194":[11,0,7,2,6,7],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#ac19160859d981ff7068096c18ebc862a":[11,0,7,2,6,18],
+"_e_f_r32_2_c_h_i_p_platform_config_8h.html#ac59d5027b3677d6a4347652c1177be27":[11,0,7,2,6,17],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#ace8434c4c9d24512c02c4330f2629ed2":[11,0,7,2,6,9],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,7,2,6,14],
 "_e_f_r32_2_c_h_i_p_platform_config_8h.html#add070dbfaadd65cf200e6281347f6e4b":[11,0,7,2,6,34],
@@ -238,16 +249,5 @@ var NAVTREEINDEX10 =
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#ad23b0cee50e786f27970ec0dd63db75e":[11,0,7,3,6,16],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#adc978a07018b9805829cd0e3b32f9dfe":[11,0,7,3,6,25],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#add070dbfaadd65cf200e6281347f6e4b":[11,0,7,3,6,31],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,3,6,14],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,3,6,20],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,3,6,4],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#af272e272fa202559e508daaa392d1a5a":[11,0,7,3,6,0],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#af95740d6de2109ac97323c7380c8b02f":[11,0,7,3,6,49],
-"_e_s_p32_2_c_h_i_p_platform_config_8h.html#afee02f23687104c6b21f978b81482206":[11,0,7,3,6,36],
-"_e_s_p32_2_c_h_i_p_platform_config_8h_source.html":[11,0,7,3,6],
-"_e_s_p32_2_configuration_manager_impl_8cpp.html":[11,0,7,3,7],
-"_e_s_p32_2_configuration_manager_impl_8h.html":[11,0,7,3,8],
-"_e_s_p32_2_configuration_manager_impl_8h.html#a0c2b9fda49ebb693b70c024d7f086870":[11,0,7,3,8,2],
-"_e_s_p32_2_configuration_manager_impl_8h.html#aa339b4bbbc137aab908ac19ebd3460e3":[11,0,7,3,8,1],
-"_e_s_p32_2_configuration_manager_impl_8h_source.html":[11,0,7,3,8]
+"_e_s_p32_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,3,6,14]
 };

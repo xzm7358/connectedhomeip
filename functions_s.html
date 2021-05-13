@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4c598b2</span>
+   &#160;<span id="projectnumber">22365d8</span>
    </div>
   </td>
  </tr>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>Serialize()
 : <a class="el" href="classchip_1_1_controller_1_1_device.html#a11c0693a986d590333fda82abe6973a1">chip::Controller::Device</a>
 , <a class="el" href="classchip_1_1_controller_1_1_example_operational_credentials_issuer.html#acda81a7085b0fdbde44a1d728c4d7b13">chip::Controller::ExampleOperationalCredentialsIssuer</a>
-, <a class="el" href="classchip_1_1_crypto_1_1_p256_keypair.html#a02cdb4116fff4fc097ad0f5a6ee89e47">chip::Crypto::P256Keypair</a>
+, <a class="el" href="classchip_1_1_crypto_1_1_p256_keypair.html#afb24b8b0d5fe77ce13439e75f6b3bac9">chip::Crypto::P256Keypair</a>
 </li>
 <li>SerializeBase64()
 : <a class="el" href="classchip_1_1_serializable_u64_set_base.html#a6a9cdc99467b33d97cfcbddf84ea4369">chip::SerializableU64SetBase</a>
@@ -460,6 +460,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetExtendedPanId()
 : <a class="el" href="classchip_1_1_thread_1_1_operational_dataset.html#af16580e82e9c1a9d73d2e26e94d012e1">chip::Thread::OperationalDataset</a>
 </li>
+<li>SetFabric()
+: <a class="el" href="classchip_1_1_controller_1_1_operational_credentials_provisioner.html#a96d41a310db1d11663b873bc48790993">chip::Controller::OperationalCredentialsProvisioner</a>
+</li>
 <li>SetFabricId()
 : <a class="el" href="classchip_1_1_peer_id.html#a8014b7e242abfdccf622fa9d9da3cd2c">chip::PeerId</a>
 , <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a7416e5235efe5d2ccf36ce64dd27f009">chip::Transport::AdminPairingInfo</a>
@@ -607,8 +610,14 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetOnCommandResponseStatusCodeReceivedCallback()
 : <a class="el" href="classchip_1_1_controller_1_1_python_interaction_model_delegate.html#a88fc0da8b02278ef52d2db0c3014a26d">chip::Controller::PythonInteractionModelDelegate</a>
 </li>
+<li>SetOperationalCert()
+: <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a09628ee4ab6e0617b962f2ba2809c152">chip::Transport::AdminPairingInfo</a>
+</li>
 <li>SetOperationalCreds()
 : <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a1874ef1d498e3049b1ea24e607fedb28">chip::Transport::AdminPairingInfo</a>
+</li>
+<li>SetOperationalKey()
+: <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#aa85669646d8a97cdfe1fa62c1196e66c">chip::Transport::AdminPairingInfo</a>
 </li>
 <li>SetPairedDeviceList()
 : <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a3fe2148f4096a0b4e4f8864159253c07">chip::Controller::DeviceController</a>
@@ -695,6 +704,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetResponseDelegate()
 : <a class="el" href="classchip_1_1_mdns_1_1_global_minimal_mdns_server.html#a77b6458fbe5fc081c47e2c19377c594e">chip::Mdns::GlobalMinimalMdnsServer</a>
 </li>
+<li>SetRootCert()
+: <a class="el" href="classchip_1_1_transport_1_1_admin_pairing_info.html#a05a5301d3138aa7a803232f3bfeb70c6">chip::Transport::AdminPairingInfo</a>
+</li>
 <li>SetRotatingId()
 : <a class="el" href="classchip_1_1_mdns_1_1_commission_advertising_parameters.html#a3f819801541ff3a58f38890bb916a15b">chip::Mdns::CommissionAdvertisingParameters</a>
 </li>
@@ -775,7 +787,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="class_android_ble_platform_delegate.html#a6ce3d011d890585975ecb13718e1af78">AndroidBlePlatformDelegate</a>
 </li>
 <li>SetupPayload()
-: <a class="el" href="classchip_1_1setuppayload_1_1_setup_payload.html#a9d4d95a89f524a986bed202cf517ee04">chip.setuppayload.SetupPayload</a>
+: <a class="el" href="classchip_1_1setuppayload_1_1_setup_payload.html#a3167abf5124e357d25bdbc51fc4b449d">chip.setuppayload.SetupPayload</a>
 , <a class="el" href="classchip_1_1_setup_payload.html#a8ad1950961bc41e1bdb08d7e332d5ca0">chip::SetupPayload</a>
 </li>
 <li>setupPinCode
@@ -996,7 +1008,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_chip_group_key.html#ab93d5fdb4dd49bd785b9205ee0a7ecd2">chip::DeviceLayer::Internal::ChipGroupKey</a>
 </li>
 <li>StartTimer()
-: <a class="el" href="classchip_1_1_system_1_1_layer.html#a4c05ea0fbe3353e42a0d38e220c5716e">chip::System::Layer</a>
+: <a class="el" href="classchip_1_1_system_1_1_layer.html#acdfa234a097e97625e67894292fa648a">chip::System::Layer</a>
 </li>
 <li>StartWiFiLayer()
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_utils.html#a966a96805ccb034eb8ca803a429d905f">chip::DeviceLayer::Internal::ESP32Utils</a>
@@ -1212,7 +1224,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 13 2021 16:43:07 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 17:14:06 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

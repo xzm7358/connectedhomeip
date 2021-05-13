@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4c598b2</span>
+   &#160;<span id="projectnumber">22365d8</span>
    </div>
   </td>
  </tr>
@@ -94,7 +94,10 @@ $(document).ready(function(){initNavTree('_admin_pairing_table_8h.html',''); ini
 <div class="contents">
 <div class="textblock"><code>#include &lt;app/util/basic-types.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_persistent_storage_delegate_8h_source.html">core/CHIPPersistentStorageDelegate.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_h_i_p_crypto_p_a_l_8h_source.html">crypto/CHIPCryptoPAL.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_d_l_l_util_8h_source.html">support/DLLUtil.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_span_8h_source.html">support/Span.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_message_header_8h_source.html">transport/raw/MessageHeader.h</a>&gt;</code><br />
 </div>
 <p><a href="_admin_pairing_table_8h_source.html">Go to the source code of this file.</a></p>
@@ -137,6 +140,8 @@ Variables</h2></td></tr>
 <tr class="separator:a56d181d01b61fd804ed13acd4032836f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4fab8c397ef2923cfdaa313235a9dd4"><td class="memItemLeft" align="right" valign="top">constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_transport.html#ac4fab8c397ef2923cfdaa313235a9dd4">chip::Transport::kAdminTableCountKey</a> [] = &quot;CHIPAdminNextId&quot;</td></tr>
 <tr class="separator:ac4fab8c397ef2923cfdaa313235a9dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1c07169ff1393b5ff3b0452dc95366"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_transport.html#a8e1c07169ff1393b5ff3b0452dc95366">chip::Transport::kMaxChipCertSize</a> = 600</td></tr>
+<tr class="separator:a8e1c07169ff1393b5ff3b0452dc95366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -144,7 +149,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="_admin_pairing_table_8h.html">AdminPairingTable.h</a></li>
-    <li class="footer">Generated on Thu May 13 2021 16:43:05 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 17:14:04 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

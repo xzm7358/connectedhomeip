@@ -9,5 +9,5 @@ var classchip_1_1_crypto_1_1_p256_keypair =
     [ "Initialize", "classchip_1_1_crypto_1_1_p256_keypair.html#ac49137bb149a2040c97b6d510ab614f9", null ],
     [ "NewCertificateSigningRequest", "classchip_1_1_crypto_1_1_p256_keypair.html#a59c886ebf1cc5a320f8bb17b34e051dd", null ],
     [ "Pubkey", "classchip_1_1_crypto_1_1_p256_keypair.html#a262da9cbc05cb8bf59a57360fa366593", null ],
-    [ "Serialize", "classchip_1_1_crypto_1_1_p256_keypair.html#a02cdb4116fff4fc097ad0f5a6ee89e47", null ]
+    [ "Serialize", "classchip_1_1_crypto_1_1_p256_keypair.html#afb24b8b0d5fe77ce13439e75f6b3bac9", null ]
 ];
