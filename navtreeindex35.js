@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classchip_1_1_transport_1_1_peer_message_counter.html#adeb9e7c4e43e56c264a49accb0594148":[10,0,1,38,14,7],
 "classchip_1_1_transport_1_1_peer_message_counter.html#af446539b178975eef0058ac21de91898":[10,0,1,38,14,9],
 "classchip_1_1_transport_1_1_raw_transport_delegate.html":[10,0,1,38,16],
 "classchip_1_1_transport_1_1_raw_transport_delegate.html#ab15d11b32376d0fff65e365a47774c01":[10,0,1,38,16,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7d40c3276e9596c8bb3ff644bbbe6a47":[10,0,1,10,0,0,294],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7d51c264b2b90273390e3b1d42a4f8a0":[10,0,1,10,0,0,308],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7e826e6220402e05efd63f25a56a5462":[10,0,1,10,0,0,95],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7e876f9a4be4bf95d3f0cfa255e111c5":[10,0,1,10,0,0,139],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7ef103e1bb69dd75afeff27eb42d9fd1":[10,0,1,10,0,0,219]
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a7e876f9a4be4bf95d3f0cfa255e111c5":[10,0,1,10,0,0,139]
 };

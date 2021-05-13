@@ -1,8 +1,9 @@
 var NAVTREEINDEX42 =
 {
+"namespacemdns_1_1_minimal_1_1_flat_allocated_q_name.html":[10,0,3,0,0],
 "namespacemdns_1_1_minimal_1_1_flat_allocated_q_name_1_1_internal.html":[9,0,6,0,1,0],
-"namespacemdns_1_1_minimal_1_1_internal.html":[9,0,6,0,2],
 "namespacemdns_1_1_minimal_1_1_internal.html":[10,0,3,0,1],
+"namespacemdns_1_1_minimal_1_1_internal.html":[9,0,6,0,2],
 "namespacemembers.html":[9,1,0],
 "namespacemembers.html":[9,1,0,0],
 "namespacemembers_a.html":[9,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc":[11,0,7,10,3,4],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5":[11,0,7,10,3,14],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,10,3,13],
-"qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,10,3,16],
-"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,10,3,10]
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,10,3,16]
 };

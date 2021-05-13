@@ -29,6 +29,7 @@ var classchip_1_1_controller_1_1_device =
     [ "OpenPairingWindow", "classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941", null ],
     [ "Reset", "classchip_1_1_controller_1_1_device.html#a1774d84e0431e9cbc50eb1368799cf34", null ],
     [ "SendCommands", "classchip_1_1_controller_1_1_device.html#a831fd9089dfb26d9e92d7bae6e632311", null ],
+    [ "SendMessage", "classchip_1_1_controller_1_1_device.html#ad2255078e9316b042f972969b63dc4e3", null ],
     [ "SendMessage", "classchip_1_1_controller_1_1_device.html#aa92b0d9a494733b1c99532a28e89bb8e", null ],
     [ "Serialize", "classchip_1_1_controller_1_1_device.html#a11c0693a986d590333fda82abe6973a1", null ],
     [ "SetActive", "classchip_1_1_controller_1_1_device.html#a2d80a465810a4ffaff274c2df0c6af56", null ],

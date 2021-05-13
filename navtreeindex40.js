@@ -1,9 +1,10 @@
 var NAVTREEINDEX40 =
 {
+"functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2,0],
 "functions_vars.html":[10,3,2],
+"functions_vars.html":[10,3,2,0],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "md__home_runner_work_connectedhomeip_connectedhomeip__r_e_a_d_m_e.html#autotoc_md8":[0,5],
 "md__home_runner_work_connectedhomeip_connectedhomeip__r_e_a_d_m_e.html#autotoc_md9":[0,6],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html":[4],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md40":[0],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md41":[1]
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__b_u_i_l_d_i_n_g.html#autotoc_md40":[0]
 };

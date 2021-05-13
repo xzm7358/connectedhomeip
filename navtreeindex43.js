@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac0549bd8a7ac13d3811c5bcd5435b13d":[11,0,7,10,3,10],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3":[11,0,7,10,3,12],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,10,3,19],
 "qpg6100_2_c_h_i_p_device_platform_config_8h.html#aebc41f873239ec77215bec5351d471c6":[11,0,7,10,3,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "streamer__stdio_8cpp.html#a78c11eaf52c4dabd07de28c2dc7107bc":[11,0,6,2,7,2],
 "streamer__stdio_8cpp.html#ac0d640c8d3a5a83294803c8ac78d3d17":[11,0,6,2,7,0],
 "streamer__zephyr_8cpp.html":[11,0,6,2,8],
-"streamer__zephyr_8cpp.html#ac0d640c8d3a5a83294803c8ac78d3d17":[11,0,6,2,8,0],
-"struct_avahi_timeout.html":[10,0,9]
+"streamer__zephyr_8cpp.html#ac0d640c8d3a5a83294803c8ac78d3d17":[11,0,6,2,8,0]
 };
