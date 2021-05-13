@@ -20,5 +20,6 @@ var _mdns_8h =
     [ "kMdnsNameMaxSize", "_mdns_8h.html#af067a54e6e14cce4fd6d1cc10c37e4ea", null ],
     [ "kMdnsProtocolTextMaxSize", "_mdns_8h.html#afd0acff8d5ae9bbbb24180c02f476577", null ],
     [ "kMdnsTextMaxSize", "_mdns_8h.html#afe18388df82e4bf78e2b1763c5b0dfe8", null ],
+    [ "kMdnsTypeAndProtocolMaxSize", "_mdns_8h.html#adab2e667be32d5849e8c6e58e40b7b73", null ],
     [ "kMdnsTypeMaxSize", "_mdns_8h.html#a5ad2794d474d946a6bb144a0775d4535", null ]
 ];

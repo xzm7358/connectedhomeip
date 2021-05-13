@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"streamer__zephyr_8cpp.html#ac0d640c8d3a5a83294803c8ac78d3d17":[11,0,6,2,8,0],
 "struct_avahi_timeout.html":[10,0,9],
 "struct_avahi_timeout.html#a13156b7cf56da4eb4c6be5fa08a9b342":[10,0,9,0],
 "struct_avahi_timeout.html#a7cc8a98d3f52ef029374cdb09c811be1":[10,0,9,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "structchip_1_1_mdns_1_1_browse_context.html#a1e91580d502ec73095c5b947bc32fda4":[10,0,1,24,2,2],
 "structchip_1_1_mdns_1_1_browse_context.html#a35560c1d0c50d6b10c419b26b869682c":[10,0,1,24,2,3],
 "structchip_1_1_mdns_1_1_browse_context.html#a79435f37df8b5e7f06485867671cbc3b":[10,0,1,24,2,1],
-"structchip_1_1_mdns_1_1_browse_context.html#abe171fc9e6db8f926477813dbf2bda41":[10,0,1,24,2,0],
-"structchip_1_1_mdns_1_1_commissionable_node_data.html":[10,0,1,24,3]
+"structchip_1_1_mdns_1_1_browse_context.html#abe171fc9e6db8f926477813dbf2bda41":[10,0,1,24,2,0]
 };

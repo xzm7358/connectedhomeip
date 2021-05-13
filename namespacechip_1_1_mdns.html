@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3764f65</span>
+   &#160;<span id="projectnumber">9d0613e</span>
    </div>
   </td>
  </tr>
@@ -318,10 +318,12 @@ Variables</h2></td></tr>
 <tr class="separator:ae3a1d068aed0414e1a592440740fe9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af067a54e6e14cce4fd6d1cc10c37e4ea"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af067a54e6e14cce4fd6d1cc10c37e4ea">kMdnsNameMaxSize</a> = 33</td></tr>
 <tr class="separator:af067a54e6e14cce4fd6d1cc10c37e4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0acff8d5ae9bbbb24180c02f476577"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afd0acff8d5ae9bbbb24180c02f476577">kMdnsProtocolTextMaxSize</a> = 4 + 1</td></tr>
+<tr class="memitem:afd0acff8d5ae9bbbb24180c02f476577"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afd0acff8d5ae9bbbb24180c02f476577">kMdnsProtocolTextMaxSize</a> = 4</td></tr>
 <tr class="separator:afd0acff8d5ae9bbbb24180c02f476577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad2794d474d946a6bb144a0775d4535"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a> = 10</td></tr>
+<tr class="memitem:a5ad2794d474d946a6bb144a0775d4535"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a> = 6</td></tr>
 <tr class="separator:a5ad2794d474d946a6bb144a0775d4535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab2e667be32d5849e8c6e58e40b7b73"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#adab2e667be32d5849e8c6e58e40b7b73">kMdnsTypeAndProtocolMaxSize</a> = <a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a> + <a class="el" href="namespacechip_1_1_mdns.html#afd0acff8d5ae9bbbb24180c02f476577">kMdnsProtocolTextMaxSize</a> + 1</td></tr>
+<tr class="separator:adab2e667be32d5849e8c6e58e40b7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe18388df82e4bf78e2b1763c5b0dfe8"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#afe18388df82e4bf78e2b1763c5b0dfe8">kMdnsTextMaxSize</a> = 64</td></tr>
 <tr class="separator:afe18388df82e4bf78e2b1763c5b0dfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ebb44b2e656d650acad927c1e82521f"><td class="memItemLeft" align="right" valign="top">constexpr uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a5ebb44b2e656d650acad927c1e82521f">kUsPerSec</a> = 1000 * 1000</td></tr>
@@ -2024,7 +2026,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint8_t chip::Mdns::kMdnsProtocolTextMaxSize = 4 + 1</td>
+          <td class="memname">constexpr uint8_t chip::Mdns::kMdnsProtocolTextMaxSize = 4</td>
         </tr>
       </table>
   </td>
@@ -2058,6 +2060,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="adab2e667be32d5849e8c6e58e40b7b73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab2e667be32d5849e8c6e58e40b7b73">&#9670;&nbsp;</a></span>kMdnsTypeAndProtocolMaxSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t chip::Mdns::kMdnsTypeAndProtocolMaxSize = <a class="el" href="namespacechip_1_1_mdns.html#a5ad2794d474d946a6bb144a0775d4535">kMdnsTypeMaxSize</a> + <a class="el" href="namespacechip_1_1_mdns.html#afd0acff8d5ae9bbbb24180c02f476577">kMdnsProtocolTextMaxSize</a> + 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5ad2794d474d946a6bb144a0775d4535"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ad2794d474d946a6bb144a0775d4535">&#9670;&nbsp;</a></span>kMdnsTypeMaxSize</h2>
 
@@ -2068,7 +2092,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint8_t chip::Mdns::kMdnsTypeMaxSize = 10</td>
+          <td class="memname">constexpr uint8_t chip::Mdns::kMdnsTypeMaxSize = 6</td>
         </tr>
       </table>
   </td>
@@ -2240,7 +2264,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li>
-    <li class="footer">Generated on Thu May 13 2021 05:46:17 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 06:02:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

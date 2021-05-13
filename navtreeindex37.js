@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classchip_1_1exceptions_1_1_chip_stack_error.html#af4aa3b6d829c317519ee921e8bbb4bd3":[10,0,1,17,0,0],
 "classchip_1_1exceptions_1_1_chip_stack_exception.html":[10,0,1,17,1],
 "classchip_1_1exceptions_1_1_cluster_error.html":[10,0,1,17,2],
 "classchip_1_1exceptions_1_1_device_error.html":[10,0,1,17,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classmdns_1_1_minimal_1_1_query_responder_base.html#af47d9babbbbd5511fb2f937f7c5b8998":[10,0,3,0,19,0],
 "classmdns_1_1_minimal_1_1_query_responder_iterator.html":[10,0,3,0,20],
 "classmdns_1_1_minimal_1_1_query_responder_iterator.html#a0c03e5633c1b4e1fb2a895e36dea2976":[10,0,3,0,20,14],
-"classmdns_1_1_minimal_1_1_query_responder_iterator.html#a10526fc0a8ba43793a448bd90ecb706f":[10,0,3,0,20,2],
-"classmdns_1_1_minimal_1_1_query_responder_iterator.html#a27da4c87b58516dd67c5a5ae0e30d1fa":[10,0,3,0,20,8]
+"classmdns_1_1_minimal_1_1_query_responder_iterator.html#a10526fc0a8ba43793a448bd90ecb706f":[10,0,3,0,20,2]
 };

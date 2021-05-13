@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_verhoeff10.html#a7be08b5acdcc7c2a367009f45ae2a318":[10,0,25,2],
 "class_verhoeff10.html#a948adf749f54776db0182d85c4445aba":[10,0,25,6],
 "class_verhoeff10.html#ab9219cc795ae5c385ca3f0449c11464f":[10,0,25,3],
 "class_verhoeff10.html#ae1adf455971aef8a96e4517e960b5ed9":[10,0,25,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_ble_1_1_btp_engine.html#a815d3561ec558d84b7767ed2ebe24e48":[10,0,1,1,9,25],
 "classchip_1_1_ble_1_1_btp_engine.html#a9026406545c7ed9c8437748ecf8595df":[10,0,1,1,9,27],
 "classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941":[10,0,1,1,9,18],
-"classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd":[10,0,1,1,9,19],
-"classchip_1_1_ble_1_1_btp_engine.html#aa231cf759f1fca0d072ed05aa61e4f56":[10,0,1,1,9,17]
+"classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd":[10,0,1,1,9,19]
 };

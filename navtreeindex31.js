@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"classchip_1_1_mdns_1_1_commission_advertising_parameters.html#aa97d3a9d80d2474418c280ebdc81f0ef":[10,0,1,24,5,8],
 "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#aae6b9222f439c127435169fdc36d267c":[10,0,1,24,5,22],
 "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#ab461373ed8914a58ecbb6b45fc51eef8":[10,0,1,24,5,2],
 "classchip_1_1_mdns_1_1_commission_advertising_parameters.html#abf71a297c800d98c48f7be59737eb229":[10,0,1,24,5,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "classchip_1_1_q_r_code_setup_payload_generator.html":[10,0,1,67],
 "classchip_1_1_q_r_code_setup_payload_generator.html#a0661bdf9e8b0a409f51c392881fbd5f0":[10,0,1,67,1],
 "classchip_1_1_q_r_code_setup_payload_generator.html#a6f91c9565194d2b46e2b9f3c3bfbd39b":[10,0,1,67,2],
-"classchip_1_1_q_r_code_setup_payload_generator.html#a836021ecdda075944c25a64defdbe8b0":[10,0,1,67,0],
-"classchip_1_1_q_r_code_setup_payload_parser.html":[10,0,1,68]
+"classchip_1_1_q_r_code_setup_payload_generator.html#a836021ecdda075944c25a64defdbe8b0":[10,0,1,67,0]
 };
