@@ -7,9 +7,10 @@ var _linux_2_mdns_impl_8cpp =
     [ "ChipMdnsSetHostname", "_linux_2_mdns_impl_8cpp.html#a49bd665343abea118d41b69f96604e37", null ],
     [ "ChipMdnsStopPublish", "_linux_2_mdns_impl_8cpp.html#abb1a78179c950d386b70af49eb548e30", null ],
     [ "ChipMdnsStopPublishService", "_linux_2_mdns_impl_8cpp.html#ad6fb23a7eb8e61f9c3982ec36ec27f9a", null ],
+    [ "CopyTypeWithoutProtocol", "_linux_2_mdns_impl_8cpp.html#af029e3246b533d50380398875f8ae03c", null ],
     [ "GetAbsTimeout", "_linux_2_mdns_impl_8cpp.html#a90be7409a8111070d27b407773343c9d", null ],
+    [ "GetProtocolInType", "_linux_2_mdns_impl_8cpp.html#a6c38549f0f77603f94bf02c982fe274e", null ],
     [ "ProcessMdns", "_linux_2_mdns_impl_8cpp.html#a6b4a9d2fb9939c168272ae10ec9143f2", null ],
-    [ "TruncateProtocolInType", "_linux_2_mdns_impl_8cpp.html#abb3c17bd426ff6f3e938c2343afeb547", null ],
     [ "UpdateMdnsDataset", "_linux_2_mdns_impl_8cpp.html#a9df0eae0cd6b9243c35db9ec11e46171", null ],
     [ "kUsPerSec", "_linux_2_mdns_impl_8cpp.html#a5ebb44b2e656d650acad927c1e82521f", null ]
 ];

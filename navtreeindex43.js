@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"platform_2_darwin_2_ble_platform_delegate_8h_source.html":[11,0,7,1,7],
 "platform_2_e_f_r32_2_software_update_manager_impl_8h.html":[11,0,7,2,30],
 "platform_2_e_f_r32_2_software_update_manager_impl_8h_source.html":[11,0,7,2,30],
 "platform_2_e_s_p32_2_software_update_manager_impl_8h.html":[11,0,7,3,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "shell__core_8h.html#ae4d12099a2d1ac55f731d7e456b03c01":[11,0,6,2,3,8],
 "shell__core_8h.html#af1a273268893a5f7b906bbeaa285f25f":[11,0,6,2,3,9],
 "shell__core_8h_source.html":[11,0,6,2,3],
-"streamer_8cpp.html":[11,0,6,2,4],
-"streamer_8cpp.html#a263a8c192614e7c19b678fa057295c91":[11,0,6,2,4,4]
+"streamer_8cpp.html":[11,0,6,2,4]
 };

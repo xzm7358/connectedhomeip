@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html":[10,0,1,26,0,1],
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a02592fb5a69ef8a545f4d00191eba5e1":[10,0,1,26,0,1,11],
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a3692c1a95e6772403021ec2cdf424ffe":[10,0,1,26,0,1,7],
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#a42307310c5389e3272ef53a3b4df41da":[10,0,1,26,0,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classchip_1_1_system_1_1_packet_buffer.html":[10,0,1,33,10],
 "classchip_1_1_system_1_1_packet_buffer.html#a01bd9ad36fd45a4dd1a0edc707348b9d":[10,0,1,33,10,4],
 "classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17":[10,0,1,33,10,19],
-"classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61":[10,0,1,33,10,2],
-"classchip_1_1_system_1_1_packet_buffer.html#a4c28fb4145851d4181777b1dfa0bd14d":[10,0,1,33,10,25]
+"classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61":[10,0,1,33,10,2]
 };

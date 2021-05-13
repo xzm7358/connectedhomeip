@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">c7b49a9</span>
+   &#160;<span id="projectnumber">9a79283</span>
    </div>
   </td>
  </tr>
@@ -98,8 +98,9 @@ $(document).ready(function(){initNavTree('_linux_2_mdns_impl_8cpp.html',''); ini
 <code>#include &lt;time.h&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;netinet/in.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_c_h_i_p_mem_string_8h_source.html">support/CHIPMemString.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -113,8 +114,12 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a90be7409a8111070d27b407773343c9d"><td class="memItemLeft" align="right" valign="top">steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a90be7409a8111070d27b407773343c9d">chip::Mdns::GetAbsTimeout</a> (const struct timeval *timeout)</td></tr>
 <tr class="separator:a90be7409a8111070d27b407773343c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb3c17bd426ff6f3e938c2343afeb547"><td class="memItemLeft" align="right" valign="top">MdnsServiceProtocol&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#abb3c17bd426ff6f3e938c2343afeb547">chip::Mdns::TruncateProtocolInType</a> (char *type)</td></tr>
-<tr class="separator:abb3c17bd426ff6f3e938c2343afeb547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c38549f0f77603f94bf02c982fe274e"><td class="memItemLeft" align="right" valign="top">MdnsServiceProtocol&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a6c38549f0f77603f94bf02c982fe274e">chip::Mdns::GetProtocolInType</a> (const char *type)</td></tr>
+<tr class="separator:a6c38549f0f77603f94bf02c982fe274e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af029e3246b533d50380398875f8ae03c"><td class="memTemplParams" colspan="2">template&lt;size_t N&gt; </td></tr>
+<tr class="memitem:af029e3246b533d50380398875f8ae03c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af029e3246b533d50380398875f8ae03c">chip::Mdns::CopyTypeWithoutProtocol</a> (char(&amp;dest)[N], const char *typeAndProtocol)</td></tr>
+<tr class="memdesc:af029e3246b533d50380398875f8ae03c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the type from a string containing both type and protocol.  <a href="namespacechip_1_1_mdns.html#af029e3246b533d50380398875f8ae03c">More...</a><br /></td></tr>
+<tr class="separator:af029e3246b533d50380398875f8ae03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9df0eae0cd6b9243c35db9ec11e46171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a9df0eae0cd6b9243c35db9ec11e46171">chip::Mdns::UpdateMdnsDataset</a> (fd_set &amp;readFdSet, fd_set &amp;writeFdSet, fd_set &amp;errorFdSet, int &amp;maxFd, timeval &amp;timeout)</td></tr>
 <tr class="separator:a9df0eae0cd6b9243c35db9ec11e46171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b4a9d2fb9939c168272ae10ec9143f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a6b4a9d2fb9939c168272ae10ec9143f2">chip::Mdns::ProcessMdns</a> (fd_set &amp;readFdSet, fd_set &amp;writeFdSet, fd_set &amp;errorFdSet)</td></tr>
@@ -152,7 +157,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_73d3889ee67b63af7c3145b099b55cd9.html">Linux</a></li><li class="navelem"><a class="el" href="_linux_2_mdns_impl_8cpp.html">MdnsImpl.cpp</a></li>
-    <li class="footer">Generated on Thu May 13 2021 22:46:56 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 23:05:16 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

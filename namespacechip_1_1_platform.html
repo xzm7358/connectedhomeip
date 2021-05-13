@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">c7b49a9</span>
+   &#160;<span id="projectnumber">9a79283</span>
    </div>
   </td>
  </tr>
@@ -146,13 +146,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a3ee83aa4799a0c742bb194316c1311e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a3ee83aa4799a0c742bb194316c1311e9">MemoryDebugCheckPointer</a> (const void *p, size_t min_size=0)</td></tr>
 <tr class="memdesc:a3ee83aa4799a0c742bb194316c1311e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">In debug builds, test the validity of a pointer obtained from a <a class="el" href="namespacechip_1_1_platform.html">chip::Platform</a> memory allocation.  <a href="namespacechip_1_1_platform.html#a3ee83aa4799a0c742bb194316c1311e9">More...</a><br /></td></tr>
 <tr class="separator:a3ee83aa4799a0c742bb194316c1311e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6">CopyString</a> (char *dest, const char *source, size_t length)</td></tr>
-<tr class="memdesc:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a C-style string.  <a href="namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6">More...</a><br /></td></tr>
-<tr class="separator:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memTemplParams" colspan="2">template&lt;size_t N&gt; </td></tr>
-<tr class="memitem:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memTemplItemLeft" align="right" valign="top">char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a2df3dad9efdb3feeb75743f7f5411db4">CopyString</a> (char(&amp;dest)[N], const char *source)</td></tr>
-<tr class="memdesc:a2df3dad9efdb3feeb75743f7f5411db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method for CopyString to auto-detect destination size.  <a href="namespacechip_1_1_platform.html#a2df3dad9efdb3feeb75743f7f5411db4">More...</a><br /></td></tr>
-<tr class="separator:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7c95adcc593e92ebc13c88833c430d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#aea7c95adcc593e92ebc13c88833c430d">CopyString</a> (char *dest, size_t destLength, const char *source)</td></tr>
+<tr class="memdesc:aea7c95adcc593e92ebc13c88833c430d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a C-style string.  <a href="namespacechip_1_1_platform.html#aea7c95adcc593e92ebc13c88833c430d">More...</a><br /></td></tr>
+<tr class="separator:aea7c95adcc593e92ebc13c88833c430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c1b80efb185811be1685e626720585"><td class="memTemplParams" colspan="2">template&lt;size_t N&gt; </td></tr>
+<tr class="memitem:a47c1b80efb185811be1685e626720585"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a47c1b80efb185811be1685e626720585">CopyString</a> (char(&amp;dest)[N], const char *source)</td></tr>
+<tr class="memdesc:a47c1b80efb185811be1685e626720585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method for CopyString to auto-detect destination size.  <a href="namespacechip_1_1_platform.html#a47c1b80efb185811be1685e626720585">More...</a><br /></td></tr>
+<tr class="separator:a47c1b80efb185811be1685e626720585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">MemoryAllocString</a> (const char *string, size_t length)</td></tr>
 <tr class="memdesc:aa3d02605a2e4318d0229e0642e1fef2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">More...</a><br /></td></tr>
 <tr class="separator:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,8 +163,8 @@ Variables</h2></td></tr>
 <tr class="separator:aa469ce03bf4ccbf13b737d6e8a3f923e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a3e0f7bf473695f636ba4bfd38fbe88d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0f7bf473695f636ba4bfd38fbe88d6">&#9670;&nbsp;</a></span>CopyString() <span class="overload">[1/2]</span></h2>
+<a id="aea7c95adcc593e92ebc13c88833c430d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7c95adcc593e92ebc13c88833c430d">&#9670;&nbsp;</a></span>CopyString() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,7 +173,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char* chip::Platform::CopyString </td>
+          <td class="memname">void chip::Platform::CopyString </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
@@ -181,14 +181,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>destLength</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -210,9 +210,9 @@ Variables</h2></td></tr>
 </ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Destination string buffer (which must be at least <code>length</code>+1 bytes) or nullptr.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Destination string buffer or nullptr.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">destLength</td><td>Maximum length to be copied. Will need space for null terminator as well (string will be truncated if it does not fit). If 0 this method is a noop.</td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">source</td><td>String to be copied.</td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">length</td><td>Length to be copied.</td></tr>
   </table>
   </dd>
 </dl>
@@ -225,8 +225,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2df3dad9efdb3feeb75743f7f5411db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2df3dad9efdb3feeb75743f7f5411db4">&#9670;&nbsp;</a></span>CopyString() <span class="overload">[2/2]</span></h2>
+<a id="a47c1b80efb185811be1685e626720585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c1b80efb185811be1685e626720585">&#9670;&nbsp;</a></span>CopyString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +237,7 @@ template&lt;size_t N&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char* chip::Platform::CopyString </td>
+          <td class="memname">void chip::Platform::CopyString </td>
           <td>(</td>
           <td class="paramtype">char(&amp;)&#160;</td>
           <td class="paramname"><em>dest</em>[N], </td>
@@ -753,7 +753,7 @@ template&lt;typename T , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_platform.html">Platform</a></li>
-    <li class="footer">Generated on Thu May 13 2021 22:46:57 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 23:05:17 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

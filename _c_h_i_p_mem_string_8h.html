@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">c7b49a9</span>
+   &#160;<span id="projectnumber">9a79283</span>
    </div>
   </td>
  </tr>
@@ -113,13 +113,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6">chip::Platform::CopyString</a> (char *dest, const char *source, size_t length)</td></tr>
-<tr class="memdesc:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a C-style string.  <a href="namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6">More...</a><br /></td></tr>
-<tr class="separator:a3e0f7bf473695f636ba4bfd38fbe88d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memTemplParams" colspan="2">template&lt;size_t N&gt; </td></tr>
-<tr class="memitem:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memTemplItemLeft" align="right" valign="top">char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a2df3dad9efdb3feeb75743f7f5411db4">chip::Platform::CopyString</a> (char(&amp;dest)[N], const char *source)</td></tr>
-<tr class="memdesc:a2df3dad9efdb3feeb75743f7f5411db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method for CopyString to auto-detect destination size.  <a href="namespacechip_1_1_platform.html#a2df3dad9efdb3feeb75743f7f5411db4">More...</a><br /></td></tr>
-<tr class="separator:a2df3dad9efdb3feeb75743f7f5411db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7c95adcc593e92ebc13c88833c430d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#aea7c95adcc593e92ebc13c88833c430d">chip::Platform::CopyString</a> (char *dest, size_t destLength, const char *source)</td></tr>
+<tr class="memdesc:aea7c95adcc593e92ebc13c88833c430d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a C-style string.  <a href="namespacechip_1_1_platform.html#aea7c95adcc593e92ebc13c88833c430d">More...</a><br /></td></tr>
+<tr class="separator:aea7c95adcc593e92ebc13c88833c430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c1b80efb185811be1685e626720585"><td class="memTemplParams" colspan="2">template&lt;size_t N&gt; </td></tr>
+<tr class="memitem:a47c1b80efb185811be1685e626720585"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#a47c1b80efb185811be1685e626720585">chip::Platform::CopyString</a> (char(&amp;dest)[N], const char *source)</td></tr>
+<tr class="memdesc:a47c1b80efb185811be1685e626720585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience method for CopyString to auto-detect destination size.  <a href="namespacechip_1_1_platform.html#a47c1b80efb185811be1685e626720585">More...</a><br /></td></tr>
+<tr class="separator:a47c1b80efb185811be1685e626720585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">chip::Platform::MemoryAllocString</a> (const char *string, size_t length)</td></tr>
 <tr class="memdesc:aa3d02605a2e4318d0229e0642e1fef2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function copies a C-style string to memory newly allocated by <a class="el" href="namespacechip_1_1_platform.html#af1a25352e7486414fa03671cb9da8af1" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes.">Platform::MemoryAlloc()</a>.  <a href="namespacechip_1_1_platform.html#aa3d02605a2e4318d0229e0642e1fef2f">More...</a><br /></td></tr>
 <tr class="separator:aa3d02605a2e4318d0229e0642e1fef2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_c_h_i_p_mem_string_8h.html">CHIPMemString.h</a></li>
-    <li class="footer">Generated on Thu May 13 2021 22:46:56 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 13 2021 23:05:15 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
