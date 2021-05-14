@@ -305,11 +305,11 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", null ],
-      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
+      [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", null ],
+      [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -367,6 +367,14 @@ var hierarchy =
       [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", null ],
       [ "UUIDHelper", "interface_u_u_i_d_helper.html", null ]
     ] ],
+    [ "object", null, [
+      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
+      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
+      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
+      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
+      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
+      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
+    ] ],
     [ "chip::System::Object", "classchip_1_1_system_1_1_object.html", [
       [ "chip::Inet::InetLayerBasis", "classchip_1_1_inet_1_1_inet_layer_basis.html", [
         [ "chip::Inet::DNSResolver", "classchip_1_1_inet_1_1_d_n_s_resolver.html", null ],
@@ -379,14 +387,6 @@ var hierarchy =
         ] ]
       ] ],
       [ "chip::System::Timer", "classchip_1_1_system_1_1_timer.html", null ]
-    ] ],
-    [ "object", null, [
-      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
-      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
-      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
-      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
-      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
-      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
     ] ],
     [ "chip::System::ObjectArena< ALIGN, SIZE >", "unionchip_1_1_system_1_1_object_arena.html", null ],
     [ "chip::System::ObjectArena< void *, N *sizeof(chip::Inet::DNSResolver)>", "unionchip_1_1_system_1_1_object_arena.html", null ],
@@ -401,7 +401,6 @@ var hierarchy =
     [ "chip::System::ObjectPool< chip::Inet::TCPEndPoint, INET_CONFIG_NUM_TCP_ENDPOINTS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::System::ObjectPool< chip::Inet::UDPEndPoint, INET_CONFIG_NUM_UDP_ENDPOINTS >", "classchip_1_1_system_1_1_object_pool.html", null ],
     [ "chip::System::ObjectPool< chip::System::Timer, CHIP_SYSTEM_CONFIG_NUM_TIMERS >", "classchip_1_1_system_1_1_object_pool.html", null ],
-    [ "chip::Transport::OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", null ],
     [ "chip::Controller::OperationalCredentialsDelegate", "classchip_1_1_controller_1_1_operational_credentials_delegate.html", [
       [ "chip::Controller::ExampleOperationalCredentialsIssuer", "classchip_1_1_controller_1_1_example_operational_credentials_issuer.html", null ]
     ] ],
@@ -537,9 +536,9 @@ var hierarchy =
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
     [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],

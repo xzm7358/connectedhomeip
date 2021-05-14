@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['nfcmanager_12617',['NFCManager',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae56d5d0c5865417223dc396b789c12b7',1,'chip::DeviceLayer::NFCManagerImpl']]],
-  ['nfcmgr_12618',['NFCMgr',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgr()'],['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgr()']]],
-  ['nfcmgrimpl_12619',['NFCMgrImpl',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl()'],['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl()']]]
+  ['nfcmanager_12613',['NFCManager',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#ae56d5d0c5865417223dc396b789c12b7',1,'chip::DeviceLayer::NFCManagerImpl']]],
+  ['nfcmgr_12614',['NFCMgr',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgr()'],['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a7b9d53d3d598fbe4126135d5c41378ee',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgr()']]],
+  ['nfcmgrimpl_12615',['NFCMgrImpl',['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl()'],['../classchip_1_1_device_layer_1_1_n_f_c_manager_impl.html#a494dbf2bbf30d335e62a4cc8c388ed4d',1,'chip::DeviceLayer::NFCManagerImpl::NFCMgrImpl()']]]
 ];

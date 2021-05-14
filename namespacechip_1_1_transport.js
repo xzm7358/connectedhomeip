@@ -10,7 +10,6 @@ var namespacechip_1_1_transport =
     [ "BleListenParameters", "classchip_1_1_transport_1_1_ble_listen_parameters.html", "classchip_1_1_transport_1_1_ble_listen_parameters" ],
     [ "ConstAdminIterator", "classchip_1_1_transport_1_1_const_admin_iterator.html", "classchip_1_1_transport_1_1_const_admin_iterator" ],
     [ "MessageCounterManagerInterface", "classchip_1_1_transport_1_1_message_counter_manager_interface.html", "classchip_1_1_transport_1_1_message_counter_manager_interface" ],
-    [ "OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", "structchip_1_1_transport_1_1_operational_credentials" ],
     [ "PeerAddress", "classchip_1_1_transport_1_1_peer_address.html", "classchip_1_1_transport_1_1_peer_address" ],
     [ "PeerConnections", "classchip_1_1_transport_1_1_peer_connections.html", "classchip_1_1_transport_1_1_peer_connections" ],
     [ "PeerConnectionState", "classchip_1_1_transport_1_1_peer_connection_state.html", "classchip_1_1_transport_1_1_peer_connection_state" ],

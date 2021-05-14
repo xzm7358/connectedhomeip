@@ -208,18 +208,18 @@ var NAVTREEINDEX =
 "classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html",
 "classchip_1_1_system_1_1_packet_buffer.html#a4c28fb4145851d4181777b1dfa0bd14d",
 "classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a077deca6abee810f01806c344fd44ac3",
-"classchip_1_1_transport_1_1_peer_connection_state.html#aba4255f6fc43caf60cd18f88ae7c4a19",
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a6af69498caa2e4ac24004660363dfb7a",
-"classchip_1_1devicecontroller_1_1_chip_device_controller.html#afb8f2468b96417bc8e46c0343a85625b",
-"classmdns_1_1_minimal_1_1_query_data.html",
-"dir_5e8d51249c018aae9930080145937359.html",
-"functions_func_e.html",
-"logging_2types_8py.html#a0c529c805fccee8d789c80b01d0ecfbe",
-"namespacechip_1_1devicecontroller.html",
-"platform_2_darwin_2_ble_platform_delegate_8h_source.html",
-"streamer_8cpp.html#a263a8c192614e7c19b678fa057295c91",
-"structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html",
-"tlv_2____init_____8py.html#a2f1dcec86f9bd55809fa57846c8418da"
+"classchip_1_1_transport_1_1_peer_connection_state.html#acd3832878944700a0f438fd1f96ff6a1",
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#a6bb663145813d15e0a9e85007031e0a7",
+"classchip_1_1devicecontroller_1_1_chip_device_controller_exception.html",
+"classmdns_1_1_minimal_1_1_query_data.html#a1ae9b49304660ccbf0b8c17447c1b9e5",
+"dir_6120b5b067bc81dd9b9ded47874ed490.html",
+"functions_func_g.html",
+"md__home_runner_work_connectedhomeip_connectedhomeip__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md11",
+"namespacechip_1_1discovery.html",
+"platform_2_e_f_r32_2_software_update_manager_impl_8h_source.html",
+"streamer_8cpp.html#a604a9a4820621a92b024f225918787a6",
+"structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html#aa080089d1c850b9e4f8a976d168e0873",
+"tlv_2____init_____8py.html#a42ec315a9538cdecb587dc8ac15433f2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

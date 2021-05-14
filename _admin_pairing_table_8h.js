@@ -1,6 +1,5 @@
 var _admin_pairing_table_8h =
 [
-    [ "OperationalCredentials", "structchip_1_1_transport_1_1_operational_credentials.html", "structchip_1_1_transport_1_1_operational_credentials" ],
     [ "AccessControlList", "structchip_1_1_transport_1_1_access_control_list.html", "structchip_1_1_transport_1_1_access_control_list" ],
     [ "AdminPairingInfo", "classchip_1_1_transport_1_1_admin_pairing_info.html", "classchip_1_1_transport_1_1_admin_pairing_info" ],
     [ "AdminPairingTableDelegate", "classchip_1_1_transport_1_1_admin_pairing_table_delegate.html", "classchip_1_1_transport_1_1_admin_pairing_table_delegate" ],
