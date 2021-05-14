@@ -533,6 +533,7 @@ var hierarchy =
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
+      [ "chip::Controller::Device", "classchip_1_1_controller_1_1_device.html", null ],
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
     [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">1b5d2a7</span>
+   &#160;<span id="projectnumber">aeebd19</span>
    </div>
   </td>
  </tr>
@@ -169,6 +169,12 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>mCapacity
 : <a class="el" href="classchip_1_1_static_allocator_base.html#a5552d8255b011fc842b843cf784d29f8">chip::StaticAllocatorBase</a>
 </li>
+<li>mCASESessionKeyId
+: <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html#a87652b2b3a50120473986b02ba0a96d3">chip::Controller::SerializableDevice</a>
+</li>
+<li>mCertificates
+: <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad50be8c86b3f47ecd2c8d393c45f4481">chip::Controller::DeviceController</a>
+</li>
 <li>mChipEventQueue
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___free_r_t_o_s.html#a723d55a6cb916c49a82a48ac5be3909b">chip::DeviceLayer::Internal::GenericPlatformManagerImpl_FreeRTOS&lt; ImplClass &gt;</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#aa32d0a09de1da3f0048c443699aea6cc">chip::DeviceLayer::Internal::GenericPlatformManagerImpl_POSIX&lt; ImplClass &gt;</a>
@@ -223,6 +229,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>mCounterValue
 : <a class="el" href="classchip_1_1_monotonically_increasing_counter.html#aff423e3bc4d01ab78f6b77700b26ebb1">chip::MonotonicallyIncreasingCounter</a>
 </li>
+<li>mCredentials
+: <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a6010296ff74bf880c86768fb2cd4c176">chip::Controller::DeviceController</a>
+</li>
 <li>mCurNetif
 : <a class="el" href="classchip_1_1_inet_1_1_interface_iterator.html#a0ac59dd892ba000f5a78ee2e02eb7dd7">chip::Inet::InterfaceIterator</a>
 </li>
@@ -256,6 +265,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 </li>
 <li>mDevicePort
 : <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html#a8c2c81b34827d51ad38863eef74a688a">chip::Controller::SerializableDevice</a>
+</li>
+<li>mDeviceProvisioningComplete
+: <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html#aa376c5aed7f8a7cc8ddcb996d940359e">chip::Controller::SerializableDevice</a>
 </li>
 <li>mDeviceTransport
 : <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html#a3640212991a8d284858ddfa382eafbf9">chip::Controller::SerializableDevice</a>
@@ -389,6 +401,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>mNext
 : <a class="el" href="classchip_1_1_callback_1_1_cancelable.html#afe946bc84fe1d876088b39855cb1b678">chip::Callback::Cancelable</a>
 </li>
+<li>mNextKeyId
+: <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#aac1c131faf0fdad4be84d6c86565db33">chip::Controller::DeviceController</a>
+</li>
 <li>mNextTimeout
 : <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#aaa1f0c7bd283d1a3ec717561d7f2766e">chip::DeviceLayer::Internal::GenericPlatformManagerImpl_POSIX&lt; ImplClass &gt;</a>
 , <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a398fde48421ed4276d5b408990407dca">chip::DeviceLayer::Internal::GenericPlatformManagerImpl_Zephyr&lt; ImplClass &gt;</a>
@@ -402,6 +417,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <li>mOpaque
 : <a class="el" href="structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html#aa826d754483a782e7bbddcb1ed23d30b">chip::Crypto::HashSHA256OpaqueContext</a>
 , <a class="el" href="structchip_1_1_crypto_1_1_spake2p_opaque_context.html#a8fea65c6d282d58e9c7ab30a5ad466a0">chip::Crypto::Spake2pOpaqueContext</a>
+</li>
+<li>mOperationalCredentialsDelegate
+: <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad113952ec85d636b01b2fccd3122dba7">chip::Controller::DeviceController</a>
 </li>
 <li>mOpsCreds
 : <a class="el" href="structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201">chip::Controller::SerializableDevice</a>
@@ -462,6 +480,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 </li>
 <li>mResult
 : <a class="el" href="structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#adbc4f4108ccad3e10b8ee82bc04581c2">chip::TLV::Utilities::FindPredicateContext</a>
+</li>
+<li>mRootKeyId
+: <a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a958d31ee6c971898bffdeee15b09edad">chip::Controller::DeviceController</a>
 </li>
 <li>mSelectedProtocolVersion
 : <a class="el" href="classchip_1_1_ble_1_1_ble_transport_capabilities_response_message.html#a81ea0f1009f58424b0853db86ba2fb12">chip::Ble::BleTransportCapabilitiesResponseMessage</a>
@@ -558,7 +579,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 14 2021 20:14:58 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 14 2021 20:25:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

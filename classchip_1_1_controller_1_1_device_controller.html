@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">1b5d2a7</span>
+   &#160;<span id="projectnumber">aeebd19</span>
    </div>
   </td>
  </tr>
@@ -168,6 +168,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aa6ef39ecd6738b85bc5e77c361425e2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb143242a3e55252043a2decee1aac21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structchip_1_1_controller_1_1_controller_device_init_params.html">ControllerDeviceInitParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#aeb143242a3e55252043a2decee1aac21">GetControllerDeviceInitParams</a> ()</td></tr>
 <tr class="separator:aeb143242a3e55252043a2decee1aac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9c195aeed24fad5d4ab23e08c2cb32d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ab9c195aeed24fad5d4ab23e08c2cb32d">PersistNextKeyId</a> ()</td></tr>
+<tr class="separator:ab9c195aeed24fad5d4ab23e08c2cb32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -205,6 +207,16 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac0fd80a31652e6d3fd1c149288242218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23fb00406bf20fdb8003fdbb6b3f551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_transport_1_1_admin_pairing_table.html">Transport::AdminPairingTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad23fb00406bf20fdb8003fdbb6b3f551">mAdmins</a></td></tr>
 <tr class="separator:ad23fb00406bf20fdb8003fdbb6b3f551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad113952ec85d636b01b2fccd3122dba7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_controller_1_1_operational_credentials_delegate.html">OperationalCredentialsDelegate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad113952ec85d636b01b2fccd3122dba7">mOperationalCredentialsDelegate</a></td></tr>
+<tr class="separator:ad113952ec85d636b01b2fccd3122dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50be8c86b3f47ecd2c8d393c45f4481"><td class="memItemLeft" align="right" valign="top">Credentials::ChipCertificateSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#ad50be8c86b3f47ecd2c8d393c45f4481">mCertificates</a></td></tr>
+<tr class="separator:ad50be8c86b3f47ecd2c8d393c45f4481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6010296ff74bf880c86768fb2cd4c176"><td class="memItemLeft" align="right" valign="top">Credentials::OperationalCredentialSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a6010296ff74bf880c86768fb2cd4c176">mCredentials</a></td></tr>
+<tr class="separator:a6010296ff74bf880c86768fb2cd4c176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958d31ee6c971898bffdeee15b09edad"><td class="memItemLeft" align="right" valign="top">Credentials::CertificateKeyId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#a958d31ee6c971898bffdeee15b09edad">mRootKeyId</a></td></tr>
+<tr class="separator:a958d31ee6c971898bffdeee15b09edad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1c131faf0fdad4be84d6c86565db33"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html#aac1c131faf0fdad4be84d6c86565db33">mNextKeyId</a> = 0</td></tr>
+<tr class="separator:aac1c131faf0fdad4be84d6c86565db33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespacechip_1_1_controller.html">Controller</a> applications can use this class to communicate with already paired CHIP devices. </p>
@@ -537,6 +549,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab9c195aeed24fad5d4ab23e08c2cb32d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c195aeed24fad5d4ab23e08c2cb32d">&#9670;&nbsp;</a></span>PersistNextKeyId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip::Controller::DeviceController::PersistNextKeyId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7ef943f16778b2466a4637f89fce8767"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ef943f16778b2466a4637f89fce8767">&#9670;&nbsp;</a></span>ReleaseDevice() <span class="overload">[1/2]</span></h2>
 
@@ -856,6 +893,50 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad50be8c86b3f47ecd2c8d393c45f4481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50be8c86b3f47ecd2c8d393c45f4481">&#9670;&nbsp;</a></span>mCertificates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Credentials::ChipCertificateSet chip::Controller::DeviceController::mCertificates</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6010296ff74bf880c86768fb2cd4c176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6010296ff74bf880c86768fb2cd4c176">&#9670;&nbsp;</a></span>mCredentials</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Credentials::OperationalCredentialSet chip::Controller::DeviceController::mCredentials</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4ed7c653642c0385a4b5673eab06314a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ed7c653642c0385a4b5673eab06314a">&#9670;&nbsp;</a></span>mDefaultIMDelegate</h2>
 
@@ -988,6 +1069,50 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aac1c131faf0fdad4be84d6c86565db33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1c131faf0fdad4be84d6c86565db33">&#9670;&nbsp;</a></span>mNextKeyId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t chip::Controller::DeviceController::mNextKeyId = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad113952ec85d636b01b2fccd3122dba7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad113952ec85d636b01b2fccd3122dba7">&#9670;&nbsp;</a></span>mOperationalCredentialsDelegate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchip_1_1_controller_1_1_operational_credentials_delegate.html">OperationalCredentialsDelegate</a>* chip::Controller::DeviceController::mOperationalCredentialsDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5b1aafa626affc3781e1e28fd694caf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5b1aafa626affc3781e1e28fd694caf1">&#9670;&nbsp;</a></span>mPairedDevices</h2>
 
@@ -1021,6 +1146,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool chip::Controller::DeviceController::mPairedDevicesInitialized</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a958d31ee6c971898bffdeee15b09edad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a958d31ee6c971898bffdeee15b09edad">&#9670;&nbsp;</a></span>mRootKeyId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Credentials::CertificateKeyId chip::Controller::DeviceController::mRootKeyId</td>
         </tr>
       </table>
   </td>
@@ -1152,7 +1299,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device_controller.html">DeviceController</a></li>
-    <li class="footer">Generated on Fri May 14 2021 20:14:57 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 14 2021 20:25:08 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
