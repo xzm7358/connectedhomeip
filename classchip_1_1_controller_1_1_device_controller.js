@@ -20,7 +20,7 @@ var classchip_1_1_controller_1_1_device_controller =
     [ "ReleaseDeviceById", "classchip_1_1_controller_1_1_device_controller.html#ad00416087ce23a7ccc96f6c2cc4d811f", null ],
     [ "ServiceEvents", "classchip_1_1_controller_1_1_device_controller.html#a69600fa00b3c51cd6a5cd63aad9a1637", null ],
     [ "ServiceEventSignal", "classchip_1_1_controller_1_1_device_controller.html#a03d1f0cfbfa51009a451c3b0eb55701f", null ],
-    [ "SetPairedDeviceList", "classchip_1_1_controller_1_1_device_controller.html#a3fe2148f4096a0b4e4f8864159253c07", null ],
+    [ "SetPairedDeviceList", "classchip_1_1_controller_1_1_device_controller.html#aa6ef39ecd6738b85bc5e77c361425e2e", null ],
     [ "SetUdpListenPort", "classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73", null ],
     [ "Shutdown", "classchip_1_1_controller_1_1_device_controller.html#aa1192c98ab1d0bef09dc3651583f8184", null ],
     [ "UpdateDevice", "classchip_1_1_controller_1_1_device_controller.html#aec22c0f3a9e73bbc1859bfbb4f1addd4", null ],

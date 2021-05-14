@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6d42abd</span>
+   &#160;<span id="projectnumber">f72e0b7</span>
    </div>
   </td>
  </tr>
@@ -107,18 +107,19 @@ Inheritance diagram for chip::SerializableU64SetBase:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a775c6cb2c50bebcfec2eaf3e48195738"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a775c6cb2c50bebcfec2eaf3e48195738">SerializableU64SetBase</a> (uint64_t *data, uint16_t capacity, uint64_t emptyValue)</td></tr>
 <tr class="separator:a775c6cb2c50bebcfec2eaf3e48195738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a9cdc99467b33d97cfcbddf84ea4369"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a6a9cdc99467b33d97cfcbddf84ea4369">SerializeBase64</a> (char *buf, uint16_t &amp;buflen)</td></tr>
-<tr class="memdesc:a6a9cdc99467b33d97cfcbddf84ea4369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the sparse array into a base 64 encoded string.  <a href="classchip_1_1_serializable_u64_set_base.html#a6a9cdc99467b33d97cfcbddf84ea4369">More...</a><br /></td></tr>
-<tr class="separator:a6a9cdc99467b33d97cfcbddf84ea4369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b054c6c2c2fc3da2a8e56b0ab686f22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a1b054c6c2c2fc3da2a8e56b0ab686f22">DeserializeBase64</a> (const char *serialized, uint16_t buflen)</td></tr>
-<tr class="memdesc:a1b054c6c2c2fc3da2a8e56b0ab686f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a base64 encoded string into the sparse array.  <a href="classchip_1_1_serializable_u64_set_base.html#a1b054c6c2c2fc3da2a8e56b0ab686f22">More...</a><br /></td></tr>
-<tr class="separator:a1b054c6c2c2fc3da2a8e56b0ab686f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a9047c93e243f629331a702da0819a5"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a1a9047c93e243f629331a702da0819a5">SerializedSize</a> ()</td></tr>
-<tr class="memdesc:a1a9047c93e243f629331a702da0819a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of string if the array is serialized.  <a href="classchip_1_1_serializable_u64_set_base.html#a1a9047c93e243f629331a702da0819a5">More...</a><br /></td></tr>
-<tr class="separator:a1a9047c93e243f629331a702da0819a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7146557fca22847786469c5dc6180659"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a7146557fca22847786469c5dc6180659">MaxSerializedSize</a> ()</td></tr>
-<tr class="memdesc:a7146557fca22847786469c5dc6180659"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum length of string if the array were full and serialized.  <a href="classchip_1_1_serializable_u64_set_base.html#a7146557fca22847786469c5dc6180659">More...</a><br /></td></tr>
-<tr class="separator:a7146557fca22847786469c5dc6180659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f427847a552c76a0becdb21cfb1ee3"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:a24f427847a552c76a0becdb21cfb1ee3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a24f427847a552c76a0becdb21cfb1ee3">Serialize</a> (F <a class="el" href="_chip_thread_work_8cpp.html#a91b6c1a5164ca0b5a5ee39d0b77d452a">callback</a>)</td></tr>
+<tr class="memdesc:a24f427847a552c76a0becdb21cfb1ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the sparse array by calling a callback with a ByteSpan to serialize.  <a href="classchip_1_1_serializable_u64_set_base.html#a24f427847a552c76a0becdb21cfb1ee3">More...</a><br /></td></tr>
+<tr class="separator:a24f427847a552c76a0becdb21cfb1ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66231ae5c9dfce787eaf14b5249dd48e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a66231ae5c9dfce787eaf14b5249dd48e">Deserialize</a> (<a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a> serialized)</td></tr>
+<tr class="memdesc:a66231ae5c9dfce787eaf14b5249dd48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a previously serialized byte buffer into the sparse array.  <a href="classchip_1_1_serializable_u64_set_base.html#a66231ae5c9dfce787eaf14b5249dd48e">More...</a><br /></td></tr>
+<tr class="separator:a66231ae5c9dfce787eaf14b5249dd48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af13ec61c9fe32ba63b34b7e62faf26af"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#af13ec61c9fe32ba63b34b7e62faf26af">SerializedSize</a> ()</td></tr>
+<tr class="memdesc:af13ec61c9fe32ba63b34b7e62faf26af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the length of the byte data if the array is serialized.  <a href="classchip_1_1_serializable_u64_set_base.html#af13ec61c9fe32ba63b34b7e62faf26af">More...</a><br /></td></tr>
+<tr class="separator:af13ec61c9fe32ba63b34b7e62faf26af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3f96fe2120709ab77ae4aa4b387577"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a4b3f96fe2120709ab77ae4aa4b387577">MaxSerializedSize</a> ()</td></tr>
+<tr class="memdesc:a4b3f96fe2120709ab77ae4aa4b387577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum length of the byte data if the array were full and serialized.  <a href="classchip_1_1_serializable_u64_set_base.html#a4b3f96fe2120709ab77ae4aa4b387577">More...</a><br /></td></tr>
+<tr class="separator:a4b3f96fe2120709ab77ae4aa4b387577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e3af85e4d881cda5c1833f32220862d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_serializable_u64_set_base.html#a1e3af85e4d881cda5c1833f32220862d">Contains</a> (uint64_t <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>)</td></tr>
 <tr class="memdesc:a1e3af85e4d881cda5c1833f32220862d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the value is in the array.  <a href="classchip_1_1_serializable_u64_set_base.html#a1e3af85e4d881cda5c1833f32220862d">More...</a><br /></td></tr>
 <tr class="separator:a1e3af85e4d881cda5c1833f32220862d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,42 +209,30 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b054c6c2c2fc3da2a8e56b0ab686f22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b054c6c2c2fc3da2a8e56b0ab686f22">&#9670;&nbsp;</a></span>DeserializeBase64()</h2>
+<a id="a66231ae5c9dfce787eaf14b5249dd48e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66231ae5c9dfce787eaf14b5249dd48e">&#9670;&nbsp;</a></span>Deserialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SerializableU64SetBase::DeserializeBase64 </td>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SerializableU64SetBase::Deserialize </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>serialized</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a>&#160;</td>
+          <td class="paramname"><em>serialized</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>buflen</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Deserialize a base64 encoded string into the sparse array. </p>
+<p>Deserialize a previously serialized byte buffer into the sparse array. </p>
 <p>The mNextAvailable index is calculated based on how many values are in the deserialized array.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">serialized</td><td>Serialized buffer </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">buflen</td><td>Length of buffer </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>CHIP_NO_ERROR in case of success, or the error code </dd></dl>
 
 </div>
 </div>
@@ -269,8 +258,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7146557fca22847786469c5dc6180659"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7146557fca22847786469c5dc6180659">&#9670;&nbsp;</a></span>MaxSerializedSize()</h2>
+<a id="a4b3f96fe2120709ab77ae4aa4b387577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3f96fe2120709ab77ae4aa4b387577">&#9670;&nbsp;</a></span>MaxSerializedSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +268,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t chip::SerializableU64SetBase::MaxSerializedSize </td>
+          <td class="memname">size_t chip::SerializableU64SetBase::MaxSerializedSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -292,7 +281,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the maximum length of string if the array were full and serialized. </p>
+<p>Get the maximum length of the byte data if the array were full and serialized. </p>
 
 </div>
 </div>
@@ -316,47 +305,46 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6a9cdc99467b33d97cfcbddf84ea4369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a9cdc99467b33d97cfcbddf84ea4369">&#9670;&nbsp;</a></span>SerializeBase64()</h2>
+<a id="a24f427847a552c76a0becdb21cfb1ee3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f427847a552c76a0becdb21cfb1ee3">&#9670;&nbsp;</a></span>Serialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char * chip::SerializableU64SetBase::SerializeBase64 </td>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::SerializableU64SetBase::Serialize </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">F&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint16_t &amp;&#160;</td>
-          <td class="paramname"><em>buflen</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Serialize the sparse array into a base 64 encoded string. </p>
+<p>Serialize the sparse array by calling a callback with a ByteSpan to serialize. </p>
+<p>We ensure that this ByteSpan is architecture-agnostic, so it can be deserialized anywhere later.</p>
 <p>Only the values till mNextAvailable index are encoded. The empty indexes between 0, and mNextAvailable, are also encoded.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">buf</td><td>Buffer where serialized string is written </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">buflen</td><td>Length of buf </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">callback</td><td>the serialization callback to call. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pointer to buf, or nullptr in case of error </dd></dl>
 
 </div>
 </div>
-<a id="a1a9047c93e243f629331a702da0819a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a9047c93e243f629331a702da0819a5">&#9670;&nbsp;</a></span>SerializedSize()</h2>
+<a id="af13ec61c9fe32ba63b34b7e62faf26af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af13ec61c9fe32ba63b34b7e62faf26af">&#9670;&nbsp;</a></span>SerializedSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,7 +353,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t chip::SerializableU64SetBase::SerializedSize </td>
+          <td class="memname">size_t chip::SerializableU64SetBase::SerializedSize </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -378,7 +366,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the length of string if the array is serialized. </p>
+<p>Get the length of the byte data if the array is serialized. </p>
 
 </div>
 </div>
@@ -392,7 +380,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_serializable_u64_set_base.html">SerializableU64SetBase</a></li>
-    <li class="footer">Generated on Fri May 14 2021 16:45:43 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 14 2021 18:50:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

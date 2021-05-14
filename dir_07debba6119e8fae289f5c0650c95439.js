@@ -71,7 +71,10 @@ var dir_07debba6119e8fae289f5c0650c95439 =
       [ "ScopedMemoryBuffer", "classchip_1_1_platform_1_1_scoped_memory_buffer.html", "classchip_1_1_platform_1_1_scoped_memory_buffer" ]
     ] ],
     [ "SerializableIntegerSet.cpp", "_serializable_integer_set_8cpp.html", null ],
-    [ "SerializableIntegerSet.h", "_serializable_integer_set_8h.html", "_serializable_integer_set_8h" ],
+    [ "SerializableIntegerSet.h", "_serializable_integer_set_8h.html", [
+      [ "SerializableU64SetBase", "classchip_1_1_serializable_u64_set_base.html", "classchip_1_1_serializable_u64_set_base" ],
+      [ "SerializableU64Set", "classchip_1_1_serializable_u64_set.html", "classchip_1_1_serializable_u64_set" ]
+    ] ],
     [ "Span.h", "_span_8h.html", "_span_8h" ],
     [ "StringBuilder.h", "_string_builder_8h.html", [
       [ "StringBuilderBase", "classchip_1_1_string_builder_base.html", "classchip_1_1_string_builder_base" ],

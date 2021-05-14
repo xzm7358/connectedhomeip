@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">6d42abd</span>
+   &#160;<span id="projectnumber">f72e0b7</span>
    </div>
   </td>
  </tr>
@@ -85,14 +85,13 @@ $(document).ready(function(){initNavTree('_serializable_integer_set_8h.html','')
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">SerializableIntegerSet.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_base64_8h_source.html">support/Base64.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_span_8h_source.html">support/Span.h</a>&gt;</code><br />
 </div>
 <p><a href="_serializable_integer_set_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -108,41 +107,17 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacechip"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html">chip</a></td></tr>
 <tr class="memdesc:namespacechip"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines support for asserting that the chip stack is locked by the current thread via the macro: <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a93b365618d3ad90c22a9348748b0945b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_serializable_integer_set_8h.html#a93b365618d3ad90c22a9348748b0945b">CHIP_MAX_SERIALIZED_SIZE_U64</a>(count)&#160;&#160;&#160;static_cast&lt;uint16_t&gt;(<a class="el" href="_base64_8h.html#a1cb8be7a4fb7894b7b9139fa5570880b">BASE64_ENCODED_LEN</a>(sizeof(uint64_t) * (count)) + 1)</td></tr>
-<tr class="separator:a93b365618d3ad90c22a9348748b0945b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines a data structure that can store a set of uint64_t values in not contiguous indexes. The set is initialized with a constant capacity. The data structure supports serialize/deserialize operations, where, serialize converts the set to a base64 string, and deserializing the base64 string reconstructs the original set.</p>
 <p>The data is stored such that serialized data can be deserialized correctly on different machine architectures. </p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a93b365618d3ad90c22a9348748b0945b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93b365618d3ad90c22a9348748b0945b">&#9670;&nbsp;</a></span>CHIP_MAX_SERIALIZED_SIZE_U64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CHIP_MAX_SERIALIZED_SIZE_U64</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">count</td><td>)</td>
-          <td>&#160;&#160;&#160;static_cast&lt;uint16_t&gt;(<a class="el" href="_base64_8h.html#a1cb8be7a4fb7894b7b9139fa5570880b">BASE64_ENCODED_LEN</a>(sizeof(uint64_t) * (count)) + 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_serializable_integer_set_8h.html">SerializableIntegerSet.h</a></li>
-    <li class="footer">Generated on Fri May 14 2021 16:45:43 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 14 2021 18:50:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

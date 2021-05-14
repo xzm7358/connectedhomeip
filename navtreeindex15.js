@@ -246,8 +246,8 @@ var NAVTREEINDEX15 =
 "_secure_session_mgr_8h_source.html":[11,0,11,17],
 "_serializable_integer_set_8cpp.html":[11,0,6,3,46],
 "_serializable_integer_set_8h.html":[11,0,6,3,47],
-"_serializable_integer_set_8h.html#a93b365618d3ad90c22a9348748b0945b":[11,0,6,3,47,2],
 "_serializable_integer_set_8h_source.html":[11,0,6,3,47],
 "_server_8cpp.html":[11,0,6,1,0,13],
-"_server_8cpp.html#a032ce5c4f99f5ca98a1e54d4b90949e9":[11,0,6,1,0,13,1]
+"_server_8cpp.html#a032ce5c4f99f5ca98a1e54d4b90949e9":[11,0,6,1,0,13,1],
+"_server_8cpp.html#ad7447d40bd3a21f84c82c4aa74d6ee7e":[11,0,6,1,0,13,0]
 };

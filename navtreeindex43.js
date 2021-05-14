@@ -1,6 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"platform_2_e_f_r32_2_software_update_manager_impl_8h_source.html":[11,0,7,2,30],
 "platform_2_e_s_p32_2_software_update_manager_impl_8h.html":[11,0,7,3,31],
 "platform_2_e_s_p32_2_software_update_manager_impl_8h_source.html":[11,0,7,3,31],
 "platform_2_k32_w_2_software_update_manager_impl_8h.html":[11,0,7,5,31],
@@ -249,5 +248,6 @@ var NAVTREEINDEX43 =
 "shell__core_8h_source.html":[11,0,6,2,3],
 "streamer_8cpp.html":[11,0,6,2,4],
 "streamer_8cpp.html#a263a8c192614e7c19b678fa057295c91":[11,0,6,2,4,4],
-"streamer_8cpp.html#a2f6b773d92235e03a9859bda1f113ac7":[11,0,6,2,4,2]
+"streamer_8cpp.html#a2f6b773d92235e03a9859bda1f113ac7":[11,0,6,2,4,2],
+"streamer_8cpp.html#a604a9a4820621a92b024f225918787a6":[11,0,6,2,4,1]
 };
