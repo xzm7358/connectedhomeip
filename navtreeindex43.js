@@ -1,5 +1,9 @@
 var NAVTREEINDEX43 =
 {
+"nrfconnect_2_thread_stack_manager_impl_8h_source.html":[11,0,7,8,16],
+"openthread-core-cc13x2__26x2-config-check_8h.html":[11,0,7,0,22],
+"openthread-core-cc13x2__26x2-config-check_8h_source.html":[11,0,7,0,22],
+"openthread-core-cc13x2__26x2-config_8h.html":[11,0,7,0,23],
 "openthread-core-cc13x2__26x2-config_8h.html#a91a41770b3a538890c4a4031cbce39d1":[11,0,7,0,23,2],
 "openthread-core-cc13x2__26x2-config_8h.html#a9db6b2d30873d111b6d9962f8c6bb762":[11,0,7,0,23,3],
 "openthread-core-cc13x2__26x2-config_8h.html#abfe569099b1d18bd2cfed77cfcc0f051":[11,0,7,0,23,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX43 =
 "shell__core_8cpp.html":[11,0,6,2,2],
 "shell__core_8cpp.html#a10b6139de3d7e7f4550982c75a0909c4":[11,0,6,2,2,1],
 "shell__core_8cpp.html#a3ad8e895ad1a8b5ad5263c39693b7e87":[11,0,6,2,2,3],
-"shell__core_8cpp.html#a434ac8bd5253f052ec912a319da96e3e":[11,0,6,2,2,2],
-"shell__core_8cpp.html#a8278adc69dc2e2778c0a65ca29a5aee3":[11,0,6,2,2,0],
-"shell__core_8h.html":[11,0,6,2,3],
-"shell__core_8h.html#a03b29096c6c67027244a3bc1a9fff699":[11,0,6,2,3,2],
-"shell__core_8h.html#a05fc14fb72373470f040c879d3446ed8":[11,0,6,2,3,5]
+"shell__core_8cpp.html#a434ac8bd5253f052ec912a319da96e3e":[11,0,6,2,2,2]
 };

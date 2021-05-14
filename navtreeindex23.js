@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"classchip_1_1_controller_1_1_device_controller.html#a08b4a1fb32efd1067f989109c116e885":[10,0,1,11,8,25],
+"classchip_1_1_controller_1_1_device_controller.html#a14224ac80371b6fd54613fac614680de":[10,0,1,11,8,22],
 "classchip_1_1_controller_1_1_device_controller.html#a1bd7134d0c13179d94c975c2d2e8d160":[10,0,1,11,8,33],
 "classchip_1_1_controller_1_1_device_controller.html#a1c76296e9c02c24ebbe256dcabf96c51":[10,0,1,11,8,1],
 "classchip_1_1_controller_1_1_device_controller.html#a1d08219cd33cd80f5ad9064ce4c9fa8b":[10,0,1,11,8,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a4c9cef2ca1f3f1d617198f6f33782fa5":[10,0,1,12,15,9],
 "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a64488e56fda03efd7952c91e72e44b95":[10,0,1,12,15,14],
 "classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a66a814ef3487cdabe0c509eea1113e95":[10,0,1,12,15,12],
-"classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a721b5992fdbc88d932cdc11377944beb":[10,0,1,12,15,2],
-"classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a802bad2442708da97617b1d5dacc7403":[10,0,1,12,15,16],
-"classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a87a9dba3ff6c43a29f474ba8ff3c4b71":[10,0,1,12,15,13]
+"classchip_1_1_crypto_1_1_spake2p___p256___s_h_a256___h_k_d_f___h_m_a_c.html#a721b5992fdbc88d932cdc11377944beb":[10,0,1,12,15,2]
 };

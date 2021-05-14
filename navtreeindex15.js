@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"_minimal_mdns_server_8h.html":[11,0,6,1,9],
+"_minimal_mdns_server_8h.html#a62d8dc24a553ab565688c1dc5c02822b":[11,0,6,1,9,2],
 "_minimal_mdns_server_8h_source.html":[11,0,6,1,9],
 "_n_f_c_manager_8h.html":[11,0,4,0,10],
 "_n_f_c_manager_8h.html#a64db75e927ef847cf36ca674f4792c7c":[11,0,4,0,10,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "_secure_session_mgr_8h_source.html":[11,0,11,17],
 "_serializable_integer_set_8cpp.html":[11,0,6,3,46],
 "_serializable_integer_set_8h.html":[11,0,6,3,47],
-"_serializable_integer_set_8h_source.html":[11,0,6,3,47],
-"_server_8cpp.html":[11,0,6,1,0,13],
-"_server_8cpp.html#a032ce5c4f99f5ca98a1e54d4b90949e9":[11,0,6,1,0,13,1]
+"_serializable_integer_set_8h_source.html":[11,0,6,3,47]
 };

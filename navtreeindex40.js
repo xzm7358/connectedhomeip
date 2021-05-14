@@ -1,5 +1,9 @@
 var NAVTREEINDEX40 =
 {
+"functions__.html":[10,3,0,1],
+"functions_a.html":[10,3,0,2],
+"functions_b.html":[10,3,0,3],
+"functions_c.html":[10,3,0,4],
 "functions_d.html":[10,3,0,5],
 "functions_e.html":[10,3,0,6],
 "functions_enum.html":[10,3,4],
@@ -104,14 +108,14 @@ var NAVTREEINDEX40 =
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0],
 "globals.html":[11,1,0,0],
+"globals.html":[11,1,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX40 =
 "log__backend_8h.html":[11,0,6,3,1,1,0,0],
 "log__backend_8h_source.html":[11,0,6,3,1,1,0,0],
 "log__chip_8h.html":[11,0,6,3,1,0,0,0],
-"log__chip_8h.html#a203440485d839f9765a66c0c42993270":[11,0,6,3,1,0,0,0,0],
-"log__chip_8h_source.html":[11,0,6,3,1,0,0,0],
-"logging_2____init_____8py.html":[11,0,1,1,0,7,0],
-"logging_2____init_____8py.html#a0f6283a20f5bafcc67fe83298fc188a6":[11,0,1,1,0,7,0,1],
-"logging_2____init_____8py.html#a238e475e1e31e3ca1c51d47572fc3a90":[11,0,1,1,0,7,0,3]
+"log__chip_8h.html#a203440485d839f9765a66c0c42993270":[11,0,6,3,1,0,0,0,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a102815a89b2b35bcf14d12cfe076a454":[11,0,7,6,5,1,3],
+"_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a17651fd88cb3b8cce6e05efe4fe0d542":[11,0,7,6,5,1,1],
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a24043bbc912128fa197ba9190d3c425f":[11,0,7,6,5,1,10],
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a281974a018e6413c99435a5302096a96":[11,0,7,6,5,1,0],
 "_linux_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a2ddc82dd8677d0ea69b2f71dc4e10f6a":[11,0,7,6,5,1,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "_message_header_8h_source.html":[11,0,11,0,4],
 "_minimal_mdns_server_8cpp.html":[11,0,6,1,8],
 "_minimal_mdns_server_8cpp.html#a0c8bf806387d59c52a376c69dc54378e":[11,0,6,1,8,0],
-"_minimal_mdns_server_8cpp.html#a46ff0e10f242088195502d1ad2d7c7c1":[11,0,6,1,8,1],
-"_minimal_mdns_server_8h.html":[11,0,6,1,9],
-"_minimal_mdns_server_8h.html#a62d8dc24a553ab565688c1dc5c02822b":[11,0,6,1,9,2]
+"_minimal_mdns_server_8cpp.html#a46ff0e10f242088195502d1ad2d7c7c1":[11,0,6,1,8,1]
 };

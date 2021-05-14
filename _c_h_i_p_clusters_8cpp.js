@@ -246,6 +246,8 @@ var _c_h_i_p_clusters_8cpp =
     [ "chip_ime_ReadAttribute_GeneralCommissioning_Breadcrumb", "_c_h_i_p_clusters_8cpp.html#a743742a4f29088fe1480a004211ca514", null ],
     [ "chip_ime_ReadAttribute_GeneralCommissioning_ClusterRevision", "_c_h_i_p_clusters_8cpp.html#a247fa535b9d421d3aba484ca16da1c85", null ],
     [ "chip_ime_ReadAttribute_GeneralCommissioning_FabricId", "_c_h_i_p_clusters_8cpp.html#a7379b2ef255d512033a573c443903ddf", null ],
+    [ "chip_ime_ReadAttribute_GeneralDiagnostics_ClusterRevision", "_c_h_i_p_clusters_8cpp.html#abc9e93c35f0039d06b61a34521f6050b", null ],
+    [ "chip_ime_ReadAttribute_GeneralDiagnostics_RebootCount", "_c_h_i_p_clusters_8cpp.html#adae6533c54e4162a659fae133be8dacf", null ],
     [ "chip_ime_ReadAttribute_GroupKeyManagement_ClusterRevision", "_c_h_i_p_clusters_8cpp.html#a849e16da153cbf56e5dcc8b8b83d9da9", null ],
     [ "chip_ime_ReadAttribute_Groups_ClusterRevision", "_c_h_i_p_clusters_8cpp.html#a8a8235aeeec672546b50876c79357c7c", null ],
     [ "chip_ime_ReadAttribute_Groups_NameSupport", "_c_h_i_p_clusters_8cpp.html#ae6ff16e92cde686cd12e67027e028a34", null ],
