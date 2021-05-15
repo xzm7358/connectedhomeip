@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"class_verhoeff.html#a4b5679261a6f38253937ab9ac93eed37":[10,0,24,5],
 "class_verhoeff.html#a542c060d3e54ef002ec332d802be458f":[10,0,24,3],
 "class_verhoeff.html#a68e58697e035e7eb813df58a0a01dfc9":[10,0,24,10],
 "class_verhoeff.html#a75977c01251fe31dacb846f33e7c410f":[10,0,24,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_ble_1_1_ble_transport_capabilities_response_message.html#a9c7f9a94dca262f0662a67e281d549f4":[10,0,1,1,8,1],
 "classchip_1_1_ble_1_1_btp_engine.html":[10,0,1,1,9],
 "classchip_1_1_ble_1_1_btp_engine.html#a3902ea07886e2d810aab9aa6de0211da":[10,0,1,1,9,20],
-"classchip_1_1_ble_1_1_btp_engine.html#a394dfc23ad47687c43c9ec21b3f69242":[10,0,1,1,9,3],
-"classchip_1_1_ble_1_1_btp_engine.html#a515b72491c0a23b9575d45604bbfbe7c":[10,0,1,1,9,7]
+"classchip_1_1_ble_1_1_btp_engine.html#a394dfc23ad47687c43c9ec21b3f69242":[10,0,1,1,9,3]
 };

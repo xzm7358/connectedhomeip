@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classchip_1_1_ble_1_1_btp_engine.html#a515b72491c0a23b9575d45604bbfbe7c":[10,0,1,1,9,7],
 "classchip_1_1_ble_1_1_btp_engine.html#a54d6c09bfda42117f5770c97c2100db6":[10,0,1,1,9,13],
 "classchip_1_1_ble_1_1_btp_engine.html#a5953c1c152b5e34517e5c82f2eebcf88":[10,0,1,1,9,4],
 "classchip_1_1_ble_1_1_btp_engine.html#a59d2f62c78bdc1faa45e0854e3f3e33b":[10,0,1,1,9,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_manager.html#afce31bb6887539257eec8df54ceb0cfc":[10,0,1,5,4,21],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html":[10,0,1,6,0],
 "classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a0140159e481c2d0de61b134ced5e06bd":[10,0,1,6,0,4],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a51c24ff7bf1c70de380a8db636bdcc15":[10,0,1,6,0,2],
-"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a767c9cc23ede0cc2c4dccde7d98911a9":[10,0,1,6,0,0]
+"classchip_1_1_chip_core_bluetooth_mgr_1_1_ble_peripheral.html#a51c24ff7bf1c70de380a8db636bdcc15":[10,0,1,6,0,2]
 };

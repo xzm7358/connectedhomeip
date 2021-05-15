@@ -128,6 +128,7 @@ var NAVTREEINDEX11 =
 "_event_logging_8h.html#a6b704a6a52b7ff09ea49ef77169a5176":[11,0,4,0,0,6,0],
 "_event_logging_8h_source.html":[11,0,4,0,0,6],
 "_example_operational_credentials_issuer_8cpp.html":[11,0,1,12],
+"_example_operational_credentials_issuer_8cpp.html#a64e1078c3deaba16c85d8dfbcdc81cb6":[11,0,1,12,0],
 "_example_operational_credentials_issuer_8h.html":[11,0,1,13],
 "_example_operational_credentials_issuer_8h_source.html":[11,0,1,13],
 "_fibonacci_utils_8cpp.html":[11,0,6,3,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "_generic_connectivity_manager_impl___wi_fi_8h_source.html":[11,0,4,0,0,18],
 "_generic_device_network_provisioning_delegate_impl_8h.html":[11,0,4,0,0,19],
 "_generic_device_network_provisioning_delegate_impl_8h_source.html":[11,0,4,0,0,19],
-"_generic_platform_manager_impl_8cpp.html":[11,0,4,0,0,20],
-"_generic_platform_manager_impl_8cpp.html#abafa485000e9a9641af4725d2462885e":[11,0,4,0,0,20,0]
+"_generic_platform_manager_impl_8cpp.html":[11,0,4,0,0,20]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classchip_1_1_lifetime_persisted_counter.html":[10,0,1,51],
 "classchip_1_1_lifetime_persisted_counter.html#a5681369b281b25e6472a9b49f6abcc08":[10,0,1,51,3],
 "classchip_1_1_lifetime_persisted_counter.html#a64b47a483da126d15100a470e315c2ca":[10,0,1,51,1],
 "classchip_1_1_lifetime_persisted_counter.html#a7dcead81589af927c26e81a377e90622":[10,0,1,51,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "classchip_1_1_peer_id.html#a8014b7e242abfdccf622fa9d9da3cd2c":[10,0,1,64,5],
 "classchip_1_1_peer_id.html#a81bfcec2770076e02209465339568eb3":[10,0,1,64,6],
 "classchip_1_1_peer_id.html#aa220653183315fa435a1a76ab289b8d8":[10,0,1,64,3],
-"classchip_1_1_persisted_counter.html":[10,0,1,65]
+"classchip_1_1_persisted_counter.html":[10,0,1,65],
+"classchip_1_1_persisted_counter.html#a14903789785075a88e7b86d83c01815a":[10,0,1,65,1]
 };

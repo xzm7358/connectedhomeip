@@ -1,6 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"nrfconnect_2_thread_stack_manager_impl_8h_source.html":[11,0,7,8,16],
 "openthread-core-cc13x2__26x2-config-check_8h.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config-check_8h_source.html":[11,0,7,0,22],
 "openthread-core-cc13x2__26x2-config_8h.html":[11,0,7,0,23],
@@ -249,5 +248,6 @@ var NAVTREEINDEX43 =
 "shell__core_8cpp.html":[11,0,6,2,2],
 "shell__core_8cpp.html#a10b6139de3d7e7f4550982c75a0909c4":[11,0,6,2,2,1],
 "shell__core_8cpp.html#a3ad8e895ad1a8b5ad5263c39693b7e87":[11,0,6,2,2,3],
-"shell__core_8cpp.html#a434ac8bd5253f052ec912a319da96e3e":[11,0,6,2,2,2]
+"shell__core_8cpp.html#a434ac8bd5253f052ec912a319da96e3e":[11,0,6,2,2,2],
+"shell__core_8cpp.html#a8278adc69dc2e2778c0a65ca29a5aee3":[11,0,6,2,2,0]
 };

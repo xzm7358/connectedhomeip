@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"_generic_platform_manager_impl_8cpp.html#abafa485000e9a9641af4725d2462885e":[11,0,4,0,0,20,0],
 "_generic_platform_manager_impl_8cpp.html#acc57abe20d72e04587e826eb95708fac":[11,0,4,0,0,20,1],
 "_generic_platform_manager_impl_8h.html":[11,0,4,0,0,21],
 "_generic_platform_manager_impl_8h_source.html":[11,0,4,0,0,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a1b1b0bd39deaca1675c4353a35d4e398":[11,0,7,5,5,7],
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a2000a442ad5164571082fa0c31925420":[11,0,7,5,5,23],
 "_k32_w_2_c_h_i_p_device_platform_config_8h.html#a291b0da14b8d17a12478804babe840dd":[11,0,7,5,5,24],
-"_k32_w_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,7,5,5,10],
-"_k32_w_2_c_h_i_p_device_platform_config_8h.html#a305d654559a90a6d0f2acdb966a9b373":[11,0,7,5,5,25]
+"_k32_w_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,7,5,5,10]
 };

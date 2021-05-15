@@ -1,6 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classchip_1_1devicecontroller_1_1_chip_device_controller.html#a5bfc47c6ccbcd97bb2b24ba07df70ea7":[10,0,1,13,2,16],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a6505d997b14f74b82a272e5da04dae3f":[10,0,1,13,2,14],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a66c367f2bc97c7f9c1d072668175ccce":[10,0,1,13,2,20],
 "classchip_1_1devicecontroller_1_1_chip_device_controller.html#a6792daeb42a2775ee17c0f98340bb598":[10,0,1,13,2,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX37 =
 "classmdns_1_1_minimal_1_1_ptr_responder.html#a2658c1374cfa454980e5a80d24ce71ad":[10,0,3,0,13,0],
 "classmdns_1_1_minimal_1_1_ptr_responder.html#ad3b5d43d2680f5f038b485e37a0c58d4":[10,0,3,0,13,1],
 "classmdns_1_1_minimal_1_1_query.html":[10,0,3,0,14],
-"classmdns_1_1_minimal_1_1_query.html#a2ce50b571e11be39a0a378c234ec6fc3":[10,0,3,0,14,3]
+"classmdns_1_1_minimal_1_1_query.html#a2ce50b571e11be39a0a378c234ec6fc3":[10,0,3,0,14,3],
+"classmdns_1_1_minimal_1_1_query.html#a4cbd86b0efe777341f7389acb580ad2e":[10,0,3,0,14,0]
 };
