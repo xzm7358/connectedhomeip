@@ -1,12 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"_linux_2_b_l_e_manager_impl_8cpp.html":[11,0,7,6,1],
-"_linux_2_b_l_e_manager_impl_8h.html":[11,0,7,6,2],
-"_linux_2_b_l_e_manager_impl_8h_source.html":[11,0,7,6,2],
-"_linux_2_ble_platform_config_8h.html":[11,0,7,6,3],
-"_linux_2_ble_platform_config_8h.html#acb6e2ad865d7c11a97ad1410b95ff192":[11,0,7,6,3,0],
-"_linux_2_ble_platform_config_8h_source.html":[11,0,7,6,3],
-"_linux_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,6,4],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b":[11,0,7,6,4,3],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7":[11,0,7,6,4,8],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,6,4,5],
@@ -249,5 +242,12 @@ var NAVTREEINDEX14 =
 "_mdns_error_8h.html":[11,0,7,1,22],
 "_mdns_error_8h.html#abd9ea74d7a0d255d32c5937215d0a346":[11,0,7,1,22,0],
 "_mdns_error_8h_source.html":[11,0,7,1,22],
-"_message_counter_8cpp.html":[11,0,11,4]
+"_message_counter_8cpp.html":[11,0,11,4],
+"_message_counter_8h.html":[11,0,11,5],
+"_message_counter_8h_source.html":[11,0,11,5],
+"_message_counter_manager_interface_8h.html":[11,0,11,6],
+"_message_counter_manager_interface_8h_source.html":[11,0,11,6],
+"_message_header_8cpp.html":[11,0,11,0,3],
+"_message_header_8h.html":[11,0,11,0,4],
+"_message_header_8h.html#a1517b608fb94efae480e080bec7d4096":[11,0,11,0,4,11]
 };

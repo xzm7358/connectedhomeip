@@ -1,12 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a4703dd5dcfa7252252d990a73baf565d":[11,0,4,0,3,11,5],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a5bbd140b171f4de86220123d7dc08e0a":[11,0,4,0,3,11,1],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a674eeed935760bc41a0ce40fea378f22":[11,0,4,0,3,11,6],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a7db549947bf5f11287628f454d6c4c5f":[11,0,4,0,3,11,7],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a85ff563141f73efb51e4714ddc408d1c":[11,0,4,0,3,11,3],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a87b59b94c219e8972b79fd384ff7706c":[11,0,4,0,3,11,8],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50aa5678ef468fd5f3949d00da79d50878d":[11,0,4,0,3,11,2],
 "_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50abf4b549d2b5c3cafbd672a962cd74121":[11,0,4,0,3,11,0],
 "_c_h_i_p_device_event_8h.html#a7d1dc096420ee05b923d1cb67bb38dfd":[11,0,4,0,3,17],
 "_c_h_i_p_device_event_8h.html#ab3c3ea311c2305ed17b0cf44ccddf534":[11,0,4,0,3,8],
@@ -249,5 +242,12 @@ var NAVTREEINDEX5 =
 "_c_h_i_p_error_8h.html#ac26354ae01694e2e17e55cc239c9bfa1":[11,0,6,0,7,21],
 "_c_h_i_p_error_8h.html#ac2a917676b2be869f5259446bb0c90a2":[11,0,6,0,7,49],
 "_c_h_i_p_error_8h.html#ac422ca489f1bc8dc4b31cb01009472a2":[11,0,6,0,7,7],
-"_c_h_i_p_error_8h.html#ac5ea5d1b66dd2a93d7e04dbe3b9fa05a":[11,0,6,0,7,157]
+"_c_h_i_p_error_8h.html#ac5ea5d1b66dd2a93d7e04dbe3b9fa05a":[11,0,6,0,7,157],
+"_c_h_i_p_error_8h.html#ac6362e43816e81b76d65c27e00818d09":[11,0,6,0,7,19],
+"_c_h_i_p_error_8h.html#ac79aceafe1c164f992c6ec5f303d7583":[11,0,6,0,7,90],
+"_c_h_i_p_error_8h.html#acffac45025207a5723a97cda72882a9c":[11,0,6,0,7,38],
+"_c_h_i_p_error_8h.html#ad06f083949d8bb7f102b783e421c2e08":[11,0,6,0,7,31],
+"_c_h_i_p_error_8h.html#ad0954dfcfec5b9df536f440385edc677":[11,0,6,0,7,177],
+"_c_h_i_p_error_8h.html#ad1379d3c4d1dda4f3fea09d860dbfd79":[11,0,6,0,7,5],
+"_c_h_i_p_error_8h.html#ad1b06f08b761f83c4ab819990123f058":[11,0,6,0,7,65]
 };
