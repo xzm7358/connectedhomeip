@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a1b05911f50542b40b8ed4f2e88169de2":[10,0,1,14,7,20],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2a7b487712c6610a3b6ca387248b018c":[10,0,1,14,7,19],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a2cd10826b01f8d51a128ff2edb370b35":[10,0,1,14,7,29],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a3357a00f44a25a458c6e2b12db07d022":[10,0,1,14,7,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "support_2_base64_8cpp.html#a052ea53e749c26d2dbbd44b1c290a742":[11,0,6,3,3,5],
 "support_2_base64_8cpp.html#a1e8ad41057aaea048d714c141e78d85d":[11,0,6,3,3,2],
 "support_2_base64_8cpp.html#a3684ea6b198787b7dc28d1f4b0c598b9":[11,0,6,3,3,7],
-"support_2_base64_8cpp.html#a6205127f87376ed035cfe586155d6b20":[11,0,6,3,3,13],
-"support_2_base64_8cpp.html#a78131f019e0d9e00fc0b0ca265dad358":[11,0,6,3,3,4]
+"support_2_base64_8cpp.html#a6205127f87376ed035cfe586155d6b20":[11,0,6,3,3,13]
 };

@@ -8,6 +8,7 @@ var delegate_8py =
     [ "_SetCommandIndexStatus", "delegate_8py.html#a559f375020be7001f4bcbcea45934ba2", null ],
     [ "_SetCommandStatus", "delegate_8py.html#ac63544a16fc10ce6deb7118a6b400060", null ],
     [ "ClearCommandStatus", "delegate_8py.html#aa5ed833e0abd8f1f7a7a6a8c758e5778", null ],
+    [ "GetCommandSenderHandle", "delegate_8py.html#a242f0a1543fb493f15b03a3861411a66", null ],
     [ "InitIMDelegate", "delegate_8py.html#a1a877026bcb8efa0b79a4f7cbaad4dfa", null ],
     [ "WaitCommandIndexStatus", "delegate_8py.html#a3eb90b314af25a6a852c3c8d90d79f85", null ],
     [ "WaitCommandStatus", "delegate_8py.html#a2eb49aa02ef67a49c33fd85a02a005f4", null ],

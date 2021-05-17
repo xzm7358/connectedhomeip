@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">5780db7</span>
+   &#160;<span id="projectnumber">8d7486f</span>
    </div>
   </td>
  </tr>
@@ -90,22 +90,23 @@ $(document).ready(function(){initNavTree('classchip_1_1_controller_1_1_cluster_b
 
 <p>This is the complete list of members for <a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c">Associate</a>(Device *device, EndpointId endpoint)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a115ae17fb6ca4bedbb3707c9485f6528">Associate</a>(Device *device, EndpointId endpoint, app::CommandSender *commandSender=nullptr)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a6998e57d21f971220aa162e03037b20a">ClusterBase</a>(uint16_t cluster)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a3c80eaa8501572b805c3747ab4515922">Dissociate</a>()</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a70965bf0709092b458afc6cb59065f9b">GetClusterId</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#aa7f9000058e0fa69bb5ecafa5b109954">mClusterId</a></td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a492335e2b06f55ea11cc2594851fd42f">mDevice</a></td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#af5a91affa4cc3774ebc078bffe2d3425">mEndpoint</a></td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#af8951402d310215e124c92cd1d2e0bdb">RequestAttributeReporting</a>(AttributeId attributeId, Callback::Cancelable *reportHandler)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6">SendCommand</a>(uint8_t seqNum, chip::System::PacketBufferHandle payload, Callback::Cancelable *successHandler, Callback::Cancelable *failureHandler)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#afcd0a650bf04fcd8118e4eadac42f60d">~ClusterBase</a>()</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#ab1b176534b5777bc6c766e8fb6339a10">mpCommandSender</a></td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#af8951402d310215e124c92cd1d2e0bdb">RequestAttributeReporting</a>(AttributeId attributeId, Callback::Cancelable *reportHandler)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6">SendCommand</a>(uint8_t seqNum, chip::System::PacketBufferHandle payload, Callback::Cancelable *successHandler, Callback::Cancelable *failureHandler)</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html#afcd0a650bf04fcd8118e4eadac42f60d">~ClusterBase</a>()</td><td class="entry"><a class="el" href="classchip_1_1_controller_1_1_cluster_base.html">chip::Controller::ClusterBase</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 17 2021 16:04:20 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 17 2021 16:17:11 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

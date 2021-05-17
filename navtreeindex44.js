@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"qpg6100_2_thread_stack_manager_impl_8cpp.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,10,25,0],
 "qpg6100_2_thread_stack_manager_impl_8h.html":[11,0,7,10,26],
 "qpg6100_2_thread_stack_manager_impl_8h.html#a6fdd8b56021d425791ff32c29fe5bc5b":[11,0,7,10,26,1],
 "qpg6100_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,10,26,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "structchip_1_1_device_layer_1_1_chip_device_event.html#af434bf1230c94e8b637106a8d9823943":[10,0,1,14,6,51],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#af96f6f59f7125f13d9d0b44fd4456324":[10,0,1,14,6,49],
 "structchip_1_1_device_layer_1_1_chip_device_platform_event.html":[10,0,1,14,7],
-"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a0c40f460cbff864a56219a5815294fc1":[10,0,1,14,7,34],
-"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a1b05911f50542b40b8ed4f2e88169de2":[10,0,1,14,7,20]
+"structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a0c40f460cbff864a56219a5815294fc1":[10,0,1,14,7,34]
 };

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">5780db7</span>
+   &#160;<span id="projectnumber">8d7486f</span>
    </div>
   </td>
  </tr>
@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('_delegate_8cpp.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cinttypes&gt;</code><br />
+<code>#include &lt;app/CommandSender.h&gt;</code><br />
 <code>#include &lt;app/InteractionModelEngine.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_delegate_8h_source.html">controller/python/chip/interaction_model/Delegate.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_logging_8h_source.html">support/logging/CHIPLogging.h</a>&gt;</code><br />
@@ -101,34 +102,51 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacechip"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip.html">chip</a></td></tr>
 <tr class="memdesc:namespacechip"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines support for asserting that the chip stack is locked by the current thread via the macro: <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacechip_1_1app"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1app.html">chip::app</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacechip_1_1_controller"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html">chip::Controller</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a281dd0b578601b2b75c81178ba6ac913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1app.html#a281dd0b578601b2b75c81178ba6ac913">chip::app::DispatchSingleClusterCommand</a> (chip::ClusterId aClusterId, chip::CommandId aCommandId, chip::EndpointId aEndPointId, <a class="el" href="classchip_1_1_t_l_v_1_1_t_l_v_reader.html">chip::TLV::TLVReader</a> &amp;aReader, Command *apCommandObj)</td></tr>
-<tr class="separator:a281dd0b578601b2b75c81178ba6ac913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb8e076c65dc611cfab4837d38eb4b8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#afb8e076c65dc611cfab4837d38eb4b8e">chip::Controller::pychip_InteractionModelDelegate_SetCommandResponseStatusCallback</a> (PythonInteractionModelDelegate_OnCommandResponseStatusCodeReceivedFunct f)</td></tr>
 <tr class="separator:afb8e076c65dc611cfab4837d38eb4b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3832ef8a62aa153bf15bf65ec5a17a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ab3832ef8a62aa153bf15bf65ec5a17a8">chip::Controller::pychip_InteractionModelDelegate_SetCommandResponseProtocolErrorCallback</a> (PythonInteractionModelDelegate_OnCommandResponseProtocolErrorFunct f)</td></tr>
 <tr class="separator:ab3832ef8a62aa153bf15bf65ec5a17a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a757db07ae9a9ba92c631892742042099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a757db07ae9a9ba92c631892742042099">chip::Controller::pychip_InteractionModelDelegate_SetCommandResponseErrorCallback</a> (PythonInteractionModelDelegate_OnCommandResponseFunct f)</td></tr>
 <tr class="separator:a757db07ae9a9ba92c631892742042099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d837dd0e8bc1aa062bb86b3dca7e71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_delegate_8cpp.html#a10d837dd0e8bc1aa062bb86b3dca7e71">pychip_InteractionModel_GetCommandSenderHandle</a> (uint64_t *commandSender)</td></tr>
+<tr class="separator:a10d837dd0e8bc1aa062bb86b3dca7e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1db62df40a0c040f28b259004eb9901c"><td class="memItemLeft" align="right" valign="top">PythonInteractionModelDelegate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a1db62df40a0c040f28b259004eb9901c">chip::Controller::gPythonInteractionModelDelegate</a></td></tr>
+<tr class="memitem:a1db62df40a0c040f28b259004eb9901c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_controller_1_1_python_interaction_model_delegate.html">PythonInteractionModelDelegate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a1db62df40a0c040f28b259004eb9901c">chip::Controller::gPythonInteractionModelDelegate</a></td></tr>
 <tr class="separator:a1db62df40a0c040f28b259004eb9901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a10d837dd0e8bc1aa062bb86b3dca7e71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d837dd0e8bc1aa062bb86b3dca7e71">&#9670;&nbsp;</a></span>pychip_InteractionModel_GetCommandSenderHandle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> pychip_InteractionModel_GetCommandSenderHandle </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>commandSender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_222316c22a317cf9f0602db9df3fe8e5.html">python</a></li><li class="navelem"><a class="el" href="dir_ba457397843b1104e00563bf45838bd5.html">chip</a></li><li class="navelem"><a class="el" href="dir_8fc19ae3396ae7a12a22fd8791ab971d.html">interaction_model</a></li><li class="navelem"><a class="el" href="_delegate_8cpp.html">Delegate.cpp</a></li>
-    <li class="footer">Generated on Mon May 17 2021 16:04:19 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 17 2021 16:17:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
