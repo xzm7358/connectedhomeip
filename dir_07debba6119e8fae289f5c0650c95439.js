@@ -3,7 +3,7 @@ var dir_07debba6119e8fae289f5c0650c95439 =
     [ "logging", "dir_1ab93294912a29c42c7f039dbc44f430.html", "dir_1ab93294912a29c42c7f039dbc44f430" ],
     [ "pw_log_chip", "dir_8721c09398e673dc0a3cbc5b5d550b85.html", "dir_8721c09398e673dc0a3cbc5b5d550b85" ],
     [ "verhoeff", "dir_eb770341e44a21b9268b234a82066de6.html", "dir_eb770341e44a21b9268b234a82066de6" ],
-    [ "Base64.cpp", "_base64_8cpp.html", "_base64_8cpp" ],
+    [ "Base64.cpp", "support_2_base64_8cpp.html", "support_2_base64_8cpp" ],
     [ "Base64.h", "_base64_8h.html", "_base64_8h" ],
     [ "BitFlags.h", "_bit_flags_8h.html", [
       [ "BitFlags", "classchip_1_1_bit_flags.html", "classchip_1_1_bit_flags" ]

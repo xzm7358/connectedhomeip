@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Connected Home over IP: lib/shell/shell_core.h File Reference</title>
+<title>Connected Home over IP: lib/shell/Engine.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2f9dce3</span>
+   &#160;<span id="projectnumber">a9b8ade</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('shell__core_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_engine_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,14 +90,14 @@ $(document).ready(function(){initNavTree('shell__core_8h.html',''); initResizabl
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">shell_core.h File Reference</div>  </div>
+<div class="title">Engine.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="streamer_8h_source.html">streamer.h</a>&quot;</code><br />
 <code>#include &lt;stdarg.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
-<p><a href="shell__core_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="_engine_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -117,13 +117,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a05fc14fb72373470f040c879d3446ed8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell__core_8h.html#a05fc14fb72373470f040c879d3446ed8">CHIP_SHELL_PROMPT</a>&#160;&#160;&#160;&quot;&gt; &quot;</td></tr>
+<tr class="memitem:a05fc14fb72373470f040c879d3446ed8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_engine_8h.html#a05fc14fb72373470f040c879d3446ed8">CHIP_SHELL_PROMPT</a>&#160;&#160;&#160;&quot;&gt; &quot;</td></tr>
 <tr class="separator:a05fc14fb72373470f040c879d3446ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ae54b782309af9dbf7c2c9d6bfa22a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell__core_8h.html#a77ae54b782309af9dbf7c2c9d6bfa22a">CHIP_SHELL_MAX_MODULES</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memitem:a77ae54b782309af9dbf7c2c9d6bfa22a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_engine_8h.html#a77ae54b782309af9dbf7c2c9d6bfa22a">CHIP_SHELL_MAX_MODULES</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:a77ae54b782309af9dbf7c2c9d6bfa22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03b29096c6c67027244a3bc1a9fff699"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell__core_8h.html#a03b29096c6c67027244a3bc1a9fff699">CHIP_SHELL_MAX_LINE_SIZE</a>&#160;&#160;&#160;256</td></tr>
+<tr class="memitem:a03b29096c6c67027244a3bc1a9fff699"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_engine_8h.html#a03b29096c6c67027244a3bc1a9fff699">CHIP_SHELL_MAX_LINE_SIZE</a>&#160;&#160;&#160;256</td></tr>
 <tr class="separator:a03b29096c6c67027244a3bc1a9fff699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad67c2fe547c0a09481b8a94065232494"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell__core_8h.html#ad67c2fe547c0a09481b8a94065232494">CHIP_SHELL_MAX_TOKENS</a>&#160;&#160;&#160;10</td></tr>
+<tr class="memitem:ad67c2fe547c0a09481b8a94065232494"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_engine_8h.html#ad67c2fe547c0a09481b8a94065232494">CHIP_SHELL_MAX_TOKENS</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:ad67c2fe547c0a09481b8a94065232494"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -139,18 +139,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af1a273268893a5f7b906bbeaa285f25f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#af1a273268893a5f7b906bbeaa285f25f">chip::Shell::shell_command_foreach</a> (shell_command_iterator_t *on_command, void *arg)</td></tr>
-<tr class="memdesc:af1a273268893a5f7b906bbeaa285f25f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility macro for running ForEachCommand on root shell.  <a href="namespacechip_1_1_shell.html#af1a273268893a5f7b906bbeaa285f25f">More...</a><br /></td></tr>
-<tr class="separator:af1a273268893a5f7b906bbeaa285f25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77970d9dbd3ede02a7a5977470cde223"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a77970d9dbd3ede02a7a5977470cde223">chip::Shell::shell_register</a> (shell_command_t *command_set, unsigned count)</td></tr>
-<tr class="memdesc:a77970d9dbd3ede02a7a5977470cde223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility macro for running ForEachCommand on Root shell.  <a href="namespacechip_1_1_shell.html#a77970d9dbd3ede02a7a5977470cde223">More...</a><br /></td></tr>
-<tr class="separator:a77970d9dbd3ede02a7a5977470cde223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3993c30053f9843330daedc2fe2d5e43"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a3993c30053f9843330daedc2fe2d5e43">chip::Shell::shell_line_tokenize</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, char **tokens, int max_tokens)</td></tr>
-<tr class="memdesc:a3993c30053f9843330daedc2fe2d5e43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility macro for to tokenize an input line.  <a href="namespacechip_1_1_shell.html#a3993c30053f9843330daedc2fe2d5e43">More...</a><br /></td></tr>
-<tr class="separator:a3993c30053f9843330daedc2fe2d5e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f218e57625d751caf1759579d307fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a71f218e57625d751caf1759579d307fe">chip::Shell::shell_task</a> (void *arg)</td></tr>
-<tr class="memdesc:a71f218e57625d751caf1759579d307fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility macro to run main shell task loop.  <a href="namespacechip_1_1_shell.html#a71f218e57625d751caf1759579d307fe">More...</a><br /></td></tr>
-<tr class="separator:a71f218e57625d751caf1759579d307fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f6fecaa635399cbf4ca6f58d52b85f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a80f6fecaa635399cbf4ca6f58d52b85f">chip::Shell::shell_command_foreach</a> (shell_command_iterator_t *on_command, void *arg)</td></tr>
+<tr class="memdesc:a80f6fecaa635399cbf4ca6f58d52b85f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for running ForEachCommand on root shell.  <a href="namespacechip_1_1_shell.html#a80f6fecaa635399cbf4ca6f58d52b85f">More...</a><br /></td></tr>
+<tr class="separator:a80f6fecaa635399cbf4ca6f58d52b85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81612c1b361114af1037792ff857d6e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a81612c1b361114af1037792ff857d6e5">chip::Shell::shell_register</a> (shell_command_t *command_set, unsigned count)</td></tr>
+<tr class="memdesc:a81612c1b361114af1037792ff857d6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for running ForEachCommand on Root shell.  <a href="namespacechip_1_1_shell.html#a81612c1b361114af1037792ff857d6e5">More...</a><br /></td></tr>
+<tr class="separator:a81612c1b361114af1037792ff857d6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64052c0317a399f56444805337256327"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a64052c0317a399f56444805337256327">chip::Shell::shell_line_tokenize</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, char **tokens, int max_tokens)</td></tr>
+<tr class="memdesc:a64052c0317a399f56444805337256327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for to tokenize an input line.  <a href="namespacechip_1_1_shell.html#a64052c0317a399f56444805337256327">More...</a><br /></td></tr>
+<tr class="separator:a64052c0317a399f56444805337256327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b74bebab7c2c983e53c1c9ccdaedf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_shell.html#a38b74bebab7c2c983e53c1c9ccdaedf9">chip::Shell::shell_task</a> (void *arg)</td></tr>
+<tr class="memdesc:a38b74bebab7c2c983e53c1c9ccdaedf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to run main shell task loop.  <a href="namespacechip_1_1_shell.html#a38b74bebab7c2c983e53c1c9ccdaedf9">More...</a><br /></td></tr>
+<tr class="separator:a38b74bebab7c2c983e53c1c9ccdaedf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header that defines a generic shell API for CHIP examples </p>
@@ -216,8 +216,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_11db44e4a9995d4c08e16a533c71ead5.html">shell</a></li><li class="navelem"><a class="el" href="shell__core_8h.html">shell_core.h</a></li>
-    <li class="footer">Generated on Mon May 17 2021 14:48:39 for Connected Home over IP by
+    <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_11db44e4a9995d4c08e16a533c71ead5.html">shell</a></li><li class="navelem"><a class="el" href="_engine_8h.html">Engine.h</a></li>
+    <li class="footer">Generated on Mon May 17 2021 15:01:54 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
