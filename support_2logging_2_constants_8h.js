@@ -43,8 +43,6 @@ var support_2logging_2_constants_8h =
       [ "kLogModule_SetupPayload", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdaa9015db0fc2fda43740b89faedee75a2", null ],
       [ "kLogModule_AppServer", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda2ff1b185d83024e8461d2389881ecba4", null ],
       [ "kLogModule_Discovery", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda014d8cc6b8a84728fd2913db2fbeb02b", null ],
-      [ "kLogModule_PASE", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bda3d9bfaa7e0b97affe09c7b4b5aaa56e5", null ],
-      [ "kLogModule_CASE", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdaceb5ad312e1db4a14d09314dbd61d0f8", null ],
       [ "kLogModule_Max", "support_2logging_2_constants_8h.html#acb598f98115de6dadbc0226ee337f1bdac64a4843053a048da474a4b26c7ed2d3", null ]
     ] ]
 ];
