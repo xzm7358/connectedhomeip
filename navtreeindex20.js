@@ -1,5 +1,12 @@
 var NAVTREEINDEX20 =
 {
+"class_android_ble_platform_delegate.html#a6ce3d011d890585975ecb13718e1af78":[10,0,7,11],
+"class_android_ble_platform_delegate.html#a8ea24e280ccbd93cbd5d38b71e933afc":[10,0,7,7],
+"class_android_ble_platform_delegate.html#aac9b4e4f581721d84366a1b7b02ce778":[10,0,7,5],
+"class_android_ble_platform_delegate.html#ac57c0adb2e098e01171b7cfa4f596a71":[10,0,7,0],
+"class_android_ble_platform_delegate.html#aeb246a77bbef2b642478d6e0a2cfec41":[10,0,7,8],
+"class_android_device_controller_wrapper.html":[10,0,8],
+"class_android_device_controller_wrapper.html#a025ce2a10845616d165774df1b78dd20":[10,0,8,12],
 "class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160":[10,0,8,5],
 "class_android_device_controller_wrapper.html#a25de8fff08e9b12e714cc09e57389453":[10,0,8,3],
 "class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d":[10,0,8,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_ble_1_1_ble_layer.html#abe8b0a98cf1b3e053a621e88e1a44ff0":[10,0,1,1,4,12],
 "classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a5a753d82be70d79ed2c343a6e9abef4e":[10,0,1,1,4,1],
 "classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a908dadf2acf5eb1b4348dda865191d2c":[10,0,1,1,4,2],
-"classchip_1_1_ble_1_1_ble_layer.html#ac0603dfed49c6233e4fc2763083a0154":[10,0,1,1,4,27],
-"classchip_1_1_ble_1_1_ble_layer.html#acf4f4cf7770f7ef152a2e887d6a74e9b":[10,0,1,1,4,13],
-"classchip_1_1_ble_1_1_ble_layer.html#ad631a55e9d141fe417793665cfa69cf9":[10,0,1,1,4,24],
-"classchip_1_1_ble_1_1_ble_layer.html#ad9d81e4d015fcbd56d8308397b047eba":[10,0,1,1,4,11],
-"classchip_1_1_ble_1_1_ble_layer.html#adbf061f08434344e9667781576c35016":[10,0,1,1,4,26],
-"classchip_1_1_ble_1_1_ble_layer.html#addbebbb912665b78e089ca4c175489c9":[10,0,1,1,4,23],
-"classchip_1_1_ble_1_1_ble_layer.html#adfd1b1ca5efc273150981cf0e3fc5de7":[10,0,1,1,4,10],
-"classchip_1_1_ble_1_1_ble_layer.html#ae69a3f0cbf03a3605e254900607b1b17":[10,0,1,1,4,22]
+"classchip_1_1_ble_1_1_ble_layer.html#ac0603dfed49c6233e4fc2763083a0154":[10,0,1,1,4,27]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX19 =
 {
+"cc13x2__26x2-mbedtls-config_8h.html#a6f285fd8cf87b2169373154d219011a6":[11,0,7,0,3,40],
+"cc13x2__26x2-mbedtls-config_8h.html#a756fb086e76be2a76954beb682195a49":[11,0,7,0,3,45],
+"cc13x2__26x2-mbedtls-config_8h.html#a79098f46901a7da949424ca81fcb4be2":[11,0,7,0,3,4],
+"cc13x2__26x2-mbedtls-config_8h.html#a7cec1de79c434f1053488b1d3b9454c4":[11,0,7,0,3,35],
+"cc13x2__26x2-mbedtls-config_8h.html#a813d4cf0b3fc03db0f9dbec52ba04b40":[11,0,7,0,3,65],
+"cc13x2__26x2-mbedtls-config_8h.html#a819aa4f3046aa257738f0dafe481ca1f":[11,0,7,0,3,24],
+"cc13x2__26x2-mbedtls-config_8h.html#a82777395be62d667a657dc1372d6b975":[11,0,7,0,3,59],
 "cc13x2__26x2-mbedtls-config_8h.html#a85f2821433dbf22916e865a49f2652df":[11,0,7,0,3,63],
 "cc13x2__26x2-mbedtls-config_8h.html#a8a7aca10569198cf8e8dbff1c40677c6":[11,0,7,0,3,61],
 "cc13x2__26x2-mbedtls-config_8h.html#a8cc51fc9b077f5b669bc4dfba0bde43e":[11,0,7,0,3,50],
@@ -242,12 +249,5 @@ var NAVTREEINDEX19 =
 "class_android_ble_platform_delegate.html#a40063789393636b7dedb419ede97a5c0":[10,0,7,9],
 "class_android_ble_platform_delegate.html#a425e7f02315ad86cb0c2dc155b93624b":[10,0,7,10],
 "class_android_ble_platform_delegate.html#a4694e25765c8a95fb035057ab23714fc":[10,0,7,12],
-"class_android_ble_platform_delegate.html#a5b097f582c7716842940a09414fbc1e5":[10,0,7,1],
-"class_android_ble_platform_delegate.html#a6ce3d011d890585975ecb13718e1af78":[10,0,7,11],
-"class_android_ble_platform_delegate.html#a8ea24e280ccbd93cbd5d38b71e933afc":[10,0,7,7],
-"class_android_ble_platform_delegate.html#aac9b4e4f581721d84366a1b7b02ce778":[10,0,7,5],
-"class_android_ble_platform_delegate.html#ac57c0adb2e098e01171b7cfa4f596a71":[10,0,7,0],
-"class_android_ble_platform_delegate.html#aeb246a77bbef2b642478d6e0a2cfec41":[10,0,7,8],
-"class_android_device_controller_wrapper.html":[10,0,8],
-"class_android_device_controller_wrapper.html#a025ce2a10845616d165774df1b78dd20":[10,0,8,12]
+"class_android_ble_platform_delegate.html#a5b097f582c7716842940a09414fbc1e5":[10,0,7,1]
 };

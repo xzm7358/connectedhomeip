@@ -1,5 +1,12 @@
 var NAVTREEINDEX4 =
 {
+"_c_h_i_p_device_config_8h.html#a2ae53038ff4009af57d0623db0ddd0eb":[11,0,4,0,1,81],
+"_c_h_i_p_device_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,4,0,1,42],
+"_c_h_i_p_device_config_8h.html#a2e5807fbba29597af696bf8671501b61":[11,0,4,0,1,36],
+"_c_h_i_p_device_config_8h.html#a2eec42409c5be61762b33ab08d393afb":[11,0,4,0,1,49],
+"_c_h_i_p_device_config_8h.html#a30918440005df2737588a4abc9022762":[11,0,4,0,1,79],
+"_c_h_i_p_device_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2":[11,0,4,0,1,27],
+"_c_h_i_p_device_config_8h.html#a35a05089cb958f2d90a7979fb7175308":[11,0,4,0,1,98],
 "_c_h_i_p_device_config_8h.html#a374abd9472c88f2d68ad7a9c742cb574":[11,0,4,0,1,21],
 "_c_h_i_p_device_config_8h.html#a3c4b23fd654977804515f5b600eb5a80":[11,0,4,0,1,91],
 "_c_h_i_p_device_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad":[11,0,4,0,1,87],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "_c_h_i_p_device_event_8h.html#a4536f0203bb21f8661c3fa8aacbf20e4":[11,0,4,0,3,1],
 "_c_h_i_p_device_event_8h.html#a4ff7472e7c3a7dfca140e7b18798cd2b":[11,0,4,0,3,14],
 "_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50":[11,0,4,0,3,11],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a161e59c999b90844149d0083adc2a744":[11,0,4,0,3,11,4],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a4703dd5dcfa7252252d990a73baf565d":[11,0,4,0,3,11,5],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a5bbd140b171f4de86220123d7dc08e0a":[11,0,4,0,3,11,1],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a674eeed935760bc41a0ce40fea378f22":[11,0,4,0,3,11,6],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a7db549947bf5f11287628f454d6c4c5f":[11,0,4,0,3,11,7],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a85ff563141f73efb51e4714ddc408d1c":[11,0,4,0,3,11,3],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a87b59b94c219e8972b79fd384ff7706c":[11,0,4,0,3,11,8],
-"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50aa5678ef468fd5f3949d00da79d50878d":[11,0,4,0,3,11,2]
+"_c_h_i_p_device_event_8h.html#a7aa0be93d6d46d98e312115703b9fd50a161e59c999b90844149d0083adc2a744":[11,0,4,0,3,11,4]
 };
