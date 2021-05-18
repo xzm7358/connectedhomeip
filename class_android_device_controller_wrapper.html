@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -127,9 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42a30b2d21ab72b52d83c37f2da66a6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d">OnPairingDeleted</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error) override</td></tr>
 <tr class="memdesc:a42a30b2d21ab72b52d83c37f2da66a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the pairing is deleted (with success or error)  <a href="class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d">More...</a><br /></td></tr>
 <tr class="separator:a42a30b2d21ab72b52d83c37f2da66a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ae9b6390c8e98b7939bfc2fffecd160"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160">OnMessage</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> msg) override</td></tr>
-<tr class="memdesc:a1ae9b6390c8e98b7939bfc2fffecd160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is received from the device.  <a href="class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160">More...</a><br /></td></tr>
-<tr class="separator:a1ae9b6390c8e98b7939bfc2fffecd160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0535ff2d2f6d7e5faf814f8c3ffb3674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a0535ff2d2f6d7e5faf814f8c3ffb3674">OnMessage</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;msg) override</td></tr>
+<tr class="memdesc:a0535ff2d2f6d7e5faf814f8c3ffb3674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is received from the device.  <a href="class_android_device_controller_wrapper.html#a0535ff2d2f6d7e5faf814f8c3ffb3674">More...</a><br /></td></tr>
+<tr class="separator:a0535ff2d2f6d7e5faf814f8c3ffb3674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb3e882f00ec06e11efd4e1aaebb75e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e">OnStatusChange</a> (void) override</td></tr>
 <tr class="memdesc:a5fb3e882f00ec06e11efd4e1aaebb75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when device status is updated.  <a href="class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e">More...</a><br /></td></tr>
 <tr class="separator:a5fb3e882f00ec06e11efd4e1aaebb75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,8 +335,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ae9b6390c8e98b7939bfc2fffecd160"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ae9b6390c8e98b7939bfc2fffecd160">&#9670;&nbsp;</a></span>OnMessage()</h2>
+<a id="a0535ff2d2f6d7e5faf814f8c3ffb3674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0535ff2d2f6d7e5faf814f8c3ffb3674">&#9670;&nbsp;</a></span>OnMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +347,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void AndroidDeviceControllerWrapper::OnMessage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -367,7 +367,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#a6541b0d8ae09fb8431338501eb20e398">chip::Controller::DeviceStatusDelegate</a>.</p>
+<p>Implements <a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#abe693739bb86848b2d9211a4102f9fba">chip::Controller::DeviceStatusDelegate</a>.</p>
 
 </div>
 </div>
@@ -742,7 +742,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:02 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:12 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -107,9 +107,9 @@ Inheritance diagram for chip::Transport::Tuple&lt; TransportTypes &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a915f1928eeff03eaa41916c31ca494d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">SendMessage</a> (const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp;address, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) override</td></tr>
-<tr class="memdesc:a915f1928eeff03eaa41916c31ca494d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to the specified target.  <a href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">More...</a><br /></td></tr>
-<tr class="separator:a915f1928eeff03eaa41916c31ca494d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e3a451f65a29957e6a6015363bda4ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_tuple.html#a1e3a451f65a29957e6a6015363bda4ac">SendMessage</a> (const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp;address, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;msgBuf) override</td></tr>
+<tr class="memdesc:a1e3a451f65a29957e6a6015363bda4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a message to the specified target.  <a href="classchip_1_1_transport_1_1_tuple.html#a1e3a451f65a29957e6a6015363bda4ac">More...</a><br /></td></tr>
+<tr class="separator:a1e3a451f65a29957e6a6015363bda4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea84c70e47a02941e746ece28573d29f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">CanSendToPeer</a> (const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">PeerAddress</a> &amp;address) override</td></tr>
 <tr class="memdesc:aea84c70e47a02941e746ece28573d29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine if this transport can SendMessage to the specified peer address.  <a href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">More...</a><br /></td></tr>
 <tr class="separator:aea84c70e47a02941e746ece28573d29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,7 +155,7 @@ class chip::Transport::Tuple&lt; TransportTypes &gt;</h3>
 <div class="line">      TCP mTcp3;</div>
 <div class="line">   <span class="keyword">public</span>:</div>
 <div class="line">      <a class="code" href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">Init</a>(UDPListenParameters &amp;, UDPListenParameters&amp;, TCPListenParameters) {...}</div>
-<div class="line">      <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">SendMessage</a>(...) <span class="keyword">override</span>;</div>
+<div class="line">      <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#a1e3a451f65a29957e6a6015363bda4ac">SendMessage</a>(...) <span class="keyword">override</span>;</div>
 <div class="line">      <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">CanSendToPeer</a>(...) <span class="keyword">override</span>;</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The intent of this is to allow applications to use any transport types without CHIP pre-defining popular mappings (like <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> only, <a class="el" href="classchip_1_1_transport_1_1_u_d_p.html" title="Implements a transport using UDP.">UDP</a> and <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a>, <a class="el" href="classchip_1_1_transport_1_1_b_l_e.html">BLE</a> only etc.) and without using #ifdefs to create a single 'standard transport'.</p>
@@ -323,8 +323,8 @@ template&lt;typename... Args, typename std::enable_if&lt;(sizeof...(Args)==sizeo
 
 </div>
 </div>
-<a id="a915f1928eeff03eaa41916c31ca494d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a915f1928eeff03eaa41916c31ca494d5">&#9670;&nbsp;</a></span>SendMessage()</h2>
+<a id="a1e3a451f65a29957e6a6015363bda4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e3a451f65a29957e6a6015363bda4ac">&#9670;&nbsp;</a></span>SendMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +343,7 @@ template&lt;typename... TransportTypes&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>msgBuf</em>&#160;</td>
         </tr>
         <tr>
@@ -362,7 +362,7 @@ template&lt;typename... TransportTypes&gt; </div>
 <p>Send a message to the specified target. </p>
 <p>On connection-oriented transports, sending a message implies connecting to the target first. </p>
 
-<p>Implements <a class="el" href="classchip_1_1_transport_1_1_base.html#a135cb22d68ef3b12863f5e2bbc933c7f">chip::Transport::Base</a>.</p>
+<p>Implements <a class="el" href="classchip_1_1_transport_1_1_base.html#ad005ce1b5971c083ec85b135debb3d60">chip::Transport::Base</a>.</p>
 
 </div>
 </div>
@@ -373,13 +373,13 @@ template&lt;typename... TransportTypes&gt; </div>
 </div><!-- doc-content -->
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_aea84c70e47a02941e746ece28573d29f"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#aea84c70e47a02941e746ece28573d29f">chip::Transport::Tuple::CanSendToPeer</a></div><div class="ttdeci">bool CanSendToPeer(const PeerAddress &amp;address) override</div><div class="ttdoc">Determine if this transport can SendMessage to the specified peer address.</div><div class="ttdef"><b>Definition:</b> Tuple.h:89</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
-<div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a915f1928eeff03eaa41916c31ca494d5"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a915f1928eeff03eaa41916c31ca494d5">chip::Transport::Tuple::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(const PeerAddress &amp;address, System::PacketBufferHandle msgBuf) override</div><div class="ttdoc">Send a message to the specified target.</div><div class="ttdef"><b>Definition:</b> Tuple.h:84</div></div>
+<div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a1e3a451f65a29957e6a6015363bda4ac"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a1e3a451f65a29957e6a6015363bda4ac">chip::Transport::Tuple::SendMessage</a></div><div class="ttdeci">CHIP_ERROR SendMessage(const PeerAddress &amp;address, System::PacketBufferHandle &amp;&amp;msgBuf) override</div><div class="ttdoc">Send a message to the specified target.</div><div class="ttdef"><b>Definition:</b> Tuple.h:84</div></div>
 <div class="ttc" id="aclasschip_1_1_transport_1_1_tuple_html_a7d50ebb0e337838909f0e7eb86a833e3"><div class="ttname"><a href="classchip_1_1_transport_1_1_tuple.html#a7d50ebb0e337838909f0e7eb86a833e3">chip::Transport::Tuple::Init</a></div><div class="ttdeci">CHIP_ERROR Init(RawTransportDelegate *delegate, Args &amp;&amp;... args)</div><div class="ttdoc">Initialization method that forwards arguments for initialization to each of the underlying transports...</div><div class="ttdef"><b>Definition:</b> Tuple.h:106</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_transport.html">Transport</a></li><li class="navelem"><a class="el" href="classchip_1_1_transport_1_1_tuple.html">Tuple</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:03 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:14 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

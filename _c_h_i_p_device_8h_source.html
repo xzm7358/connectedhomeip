@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_8h_source.html',''); i
 <div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classchip_1_1_controller_1_1_device.html#a8c61bcbd6e09201d791cddb5e868e1c7">  116</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_controller_1_1_device.html#a8c61bcbd6e09201d791cddb5e868e1c7">SetDelegate</a>(<a class="code" href="classchip_1_1_controller_1_1_device_status_delegate.html">DeviceStatusDelegate</a> * delegate) { mStatusDelegate = delegate; }</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="comment">// ----- Messaging -----</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment"></span>    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessage(Protocols::Id protocolId, uint8_t msgType, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> message);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment"></span>    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessage(Protocols::Id protocolId, uint8_t msgType, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; message);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">template &lt;typename MessageType, typename = std::enable_if_t&lt;std::is_enum&lt;MessageType&gt;::value</a>&gt;&gt;</div>
 <div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="classchip_1_1_controller_1_1_device.html#ad2255078e9316b042f972969b63dc4e3">  135</a></span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="classchip_1_1_controller_1_1_device.html#ad2255078e9316b042f972969b63dc4e3">SendMessage</a>(MessageType msgType, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; message)</div>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_8h_source.html',''); i
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">void</span> OnConnectionExpired(<a class="code" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordtype">void</span> OnMessageReceived(Messaging::ExchangeContext * exchange, <span class="keyword">const</span> <a class="code" href="classchip_1_1_packet_header.html">PacketHeader</a> &amp; header, <span class="keyword">const</span> <a class="code" href="classchip_1_1_payload_header.html">PayloadHeader</a> &amp; payloadHeader,</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                           <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                           <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; msgBuf) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordtype">void</span> OnResponseTimeout(Messaging::ExchangeContext * exchange) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
@@ -368,7 +368,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_8h_source.html',''); i
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00454"></a><span class="lineno"><a class="line" href="classchip_1_1_controller_1_1_device_status_delegate.html#a38e1df41167a347414e77166416ff4da">  454</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classchip_1_1_controller_1_1_device_status_delegate.html#a38e1df41167a347414e77166416ff4da">~DeviceStatusDelegate</a>() {}</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnMessage(<a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg) = 0;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnMessage(<a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; msg) = 0;</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
 <div class="line"><a name="l00470"></a><span class="lineno"><a class="line" href="classchip_1_1_controller_1_1_device_status_delegate.html#a02aea01e5fdffd242a5da040ca7b963c">  470</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_controller_1_1_device_status_delegate.html#a02aea01e5fdffd242a5da040ca7b963c">OnPairingWindowOpenStatus</a>(<a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> status){};</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
@@ -574,7 +574,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_8h_source.html',''); i
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_8h.html">CHIPDevice.h</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:39:59 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

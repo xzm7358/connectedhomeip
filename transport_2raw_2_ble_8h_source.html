@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('transport_2raw_2_ble_8h_source.html','
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_ble_service_data_8h.html#ab2092db68feac59b46195c0872527bcb">Init</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_ble_listen_parameters.html">BleListenParameters</a> &amp; param);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessage(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp; address, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendMessage(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp; address, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; msgBuf) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="classchip_1_1_transport_1_1_b_l_e_base.html#aa6bb28ed050b40a299725c08cbfada2b">   87</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classchip_1_1_transport_1_1_b_l_e_base.html#aa6bb28ed050b40a299725c08cbfada2b">CanSendToPeer</a>(<span class="keyword">const</span> <a class="code" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp; address)<span class="keyword"> override</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keyword">    </span>{</div>
@@ -163,7 +163,7 @@ $(document).ready(function(){initNavTree('transport_2raw_2_ble_8h_source.html','
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> ClearState();</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendAfterConnect(<a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SendAfterConnect(<a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; msg);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">// Those functions are BLEConnectionDelegate callbacks used when the connection</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="comment">// parameters used a name instead of a BLE_CONNECTION_OBJECT.</span></div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('transport_2raw_2_ble_8h_source.html','
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">void</span> ClearPendingPackets();</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// Those functions are BLEEndPoint callbacks</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">void</span> OnEndPointMessageReceived(<a class="code" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> * endPoint, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">void</span> OnEndPointMessageReceived(<a class="code" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> * endPoint, <a class="code" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp; <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">void</span> OnEndPointConnectComplete(<a class="code" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> * endPoint, <a class="code" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">void</span> OnEndPointConnectionClosed(<a class="code" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> * endPoint, <a class="code" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
@@ -234,7 +234,7 @@ $(document).ready(function(){initNavTree('transport_2raw_2_ble_8h_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_ce14ed064186955200333d2a0a25aa72.html">transport</a></li><li class="navelem"><a class="el" href="dir_a311810e72fdebe288f4c04505dd73fe.html">raw</a></li><li class="navelem"><a class="el" href="transport_2raw_2_ble_8h.html">BLE.h</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:39:59 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

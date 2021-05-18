@@ -24,7 +24,7 @@ var classchip_1_1_ble_1_1_btp_engine =
     [ "GetNewestUnackedSentSequenceNumber", "classchip_1_1_ble_1_1_btp_engine.html#abcfffe4e40c8ae81e702a825ea70ab37", null ],
     [ "GetRxFragmentSize", "classchip_1_1_ble_1_1_btp_engine.html#a743e5567b9c33d00d3665aca054ca7cc", null ],
     [ "GetTxFragmentSize", "classchip_1_1_ble_1_1_btp_engine.html#a54d6c09bfda42117f5770c97c2100db6", null ],
-    [ "HandleCharacteristicReceived", "classchip_1_1_ble_1_1_btp_engine.html#aef3714678640bd8f004b8b5cad512f9a", null ],
+    [ "HandleCharacteristicReceived", "classchip_1_1_ble_1_1_btp_engine.html#a38cb88f241adf3403d6780851ef58495", null ],
     [ "HandleCharacteristicSend", "classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3", null ],
     [ "HasUnackedData", "classchip_1_1_ble_1_1_btp_engine.html#a5a2d593d0e69f3a1d015c84cdb806a95", null ],
     [ "Init", "classchip_1_1_ble_1_1_btp_engine.html#aa231cf759f1fca0d072ed05aa61e4f56", null ],

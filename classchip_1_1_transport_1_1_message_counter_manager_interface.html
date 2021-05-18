@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -100,9 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae0f321eaee87311eab0cc8f9a6a7b2e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#ae0f321eaee87311eab0cc8f9a6a7b2e3">StartSync</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session, <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html">Transport::PeerConnectionState</a> *state)=0</td></tr>
 <tr class="memdesc:ae0f321eaee87311eab0cc8f9a6a7b2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start sync if the sync procedure is not started yet.  <a href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#ae0f321eaee87311eab0cc8f9a6a7b2e3">More...</a><br /></td></tr>
 <tr class="separator:ae0f321eaee87311eab0cc8f9a6a7b2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3befb17db489823c32dcd5413b7e814"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#aa3befb17db489823c32dcd5413b7e814">QueueReceivedMessageAndStartSync</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session, <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html">Transport::PeerConnectionState</a> *state, const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;peerAddress, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msgBuf)=0</td></tr>
-<tr class="memdesc:aa3befb17db489823c32dcd5413b7e814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when have received a message but session message counter is not synced.  <a href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#aa3befb17db489823c32dcd5413b7e814">More...</a><br /></td></tr>
-<tr class="separator:aa3befb17db489823c32dcd5413b7e814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bf605aa088f353bed4ae348b580fb19"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#a4bf605aa088f353bed4ae348b580fb19">QueueReceivedMessageAndStartSync</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session, <a class="el" href="classchip_1_1_transport_1_1_peer_connection_state.html">Transport::PeerConnectionState</a> *state, const <a class="el" href="classchip_1_1_transport_1_1_peer_address.html">Transport::PeerAddress</a> &amp;peerAddress, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;msgBuf)=0</td></tr>
+<tr class="memdesc:a4bf605aa088f353bed4ae348b580fb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when have received a message but session message counter is not synced.  <a href="classchip_1_1_transport_1_1_message_counter_manager_interface.html#a4bf605aa088f353bed4ae348b580fb19">More...</a><br /></td></tr>
+<tr class="separator:a4bf605aa088f353bed4ae348b580fb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa0b982ba274420295da6feb5e565dfbe"></a>
@@ -131,8 +131,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa3befb17db489823c32dcd5413b7e814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3befb17db489823c32dcd5413b7e814">&#9670;&nbsp;</a></span>QueueReceivedMessageAndStartSync()</h2>
+<a id="a4bf605aa088f353bed4ae348b580fb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bf605aa088f353bed4ae348b580fb19">&#9670;&nbsp;</a></span>QueueReceivedMessageAndStartSync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>msgBuf</em>&#160;</td>
         </tr>
         <tr>
@@ -229,7 +229,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_transport.html">Transport</a></li><li class="navelem"><a class="el" href="classchip_1_1_transport_1_1_message_counter_manager_interface.html">MessageCounterManagerInterface</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:03 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:14 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

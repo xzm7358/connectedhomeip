@@ -5,6 +5,6 @@ var classchip_1_1_ble_1_1_ble_layer_delegate =
     [ "OnBleConnectionError", "classchip_1_1_ble_1_1_ble_layer_delegate.html#a49af96cecc747f2ee086559f4f473ea8", null ],
     [ "OnEndPointConnectComplete", "classchip_1_1_ble_1_1_ble_layer_delegate.html#acfe0c4bd974c9545715765370a267abd", null ],
     [ "OnEndPointConnectionClosed", "classchip_1_1_ble_1_1_ble_layer_delegate.html#a714e350bd97cd21210820debd400d691", null ],
-    [ "OnEndPointMessageReceived", "classchip_1_1_ble_1_1_ble_layer_delegate.html#ae2994b487a3c95342bf0747c9b850bdc", null ],
+    [ "OnEndPointMessageReceived", "classchip_1_1_ble_1_1_ble_layer_delegate.html#af1b6d9e6a0dcc4277873b77dee7e4a48", null ],
     [ "SetEndPoint", "classchip_1_1_ble_1_1_ble_layer_delegate.html#a4af95ec01012f06139a682e981c801ca", null ]
 ];

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -148,8 +148,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a815d3561ec558d84b7767ed2ebe24e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a2d593d0e69f3a1d015c84cdb806a95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#a5a2d593d0e69f3a1d015c84cdb806a95">HasUnackedData</a> () const</td></tr>
 <tr class="separator:a5a2d593d0e69f3a1d015c84cdb806a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef3714678640bd8f004b8b5cad512f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#aef3714678640bd8f004b8b5cad512f9a">HandleCharacteristicReceived</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> data, <a class="el" href="namespacechip_1_1_ble.html#a9753f53b52d3b8503839744806a9da57">SequenceNumber_t</a> &amp;receivedAck, bool &amp;didReceiveAck)</td></tr>
-<tr class="separator:aef3714678640bd8f004b8b5cad512f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38cb88f241adf3403d6780851ef58495"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#a38cb88f241adf3403d6780851ef58495">HandleCharacteristicReceived</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;data, <a class="el" href="namespacechip_1_1_ble.html#a9753f53b52d3b8503839744806a9da57">SequenceNumber_t</a> &amp;receivedAck, bool &amp;didReceiveAck)</td></tr>
+<tr class="separator:a38cb88f241adf3403d6780851ef58495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab258c6594642545c5a6da37065eea9c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3">HandleCharacteristicSend</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> data, bool send_ack)</td></tr>
 <tr class="separator:ab258c6594642545c5a6da37065eea9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a733215c20fc167cc809aa14550b821ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html#a733215c20fc167cc809aa14550b821ff">EncodeStandAloneAck</a> (const <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a> &amp;data)</td></tr>
@@ -505,8 +505,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aef3714678640bd8f004b8b5cad512f9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3714678640bd8f004b8b5cad512f9a">&#9670;&nbsp;</a></span>HandleCharacteristicReceived()</h2>
+<a id="a38cb88f241adf3403d6780851ef58495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38cb88f241adf3403d6780851ef58495">&#9670;&nbsp;</a></span>HandleCharacteristicReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +514,7 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> chip::Ble::BtpEngine::HandleCharacteristicReceived </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -837,7 +837,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_ble.html">Ble</a></li><li class="navelem"><a class="el" href="classchip_1_1_ble_1_1_btp_engine.html">BtpEngine</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:02 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:13 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

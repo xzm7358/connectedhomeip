@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -139,9 +139,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:a2886c093f9eed2c9a37542a6c9cfd670"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2886c093f9eed2c9a37542a6c9cfd670">OnConnectCompleteFunct</a>) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, <a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>)</td></tr>
 <tr class="memdesc:a2886c093f9eed2c9a37542a6c9cfd670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of connection establishment event handling function.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2886c093f9eed2c9a37542a6c9cfd670">More...</a><br /></td></tr>
 <tr class="separator:a2886c093f9eed2c9a37542a6c9cfd670"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe1579ce8b634bc8c731e8a7aa54d124"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abe1579ce8b634bc8c731e8a7aa54d124">OnDataReceivedFunct</a>) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data)</td></tr>
-<tr class="memdesc:abe1579ce8b634bc8c731e8a7aa54d124"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data reception event handling function.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abe1579ce8b634bc8c731e8a7aa54d124">More...</a><br /></td></tr>
-<tr class="separator:abe1579ce8b634bc8c731e8a7aa54d124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e23c6d6fc3c7f92a29081d6e31c512"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab8e23c6d6fc3c7f92a29081d6e31c512">OnDataReceivedFunct</a>) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;data)</td></tr>
+<tr class="memdesc:ab8e23c6d6fc3c7f92a29081d6e31c512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data reception event handling function.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab8e23c6d6fc3c7f92a29081d6e31c512">More...</a><br /></td></tr>
+<tr class="separator:ab8e23c6d6fc3c7f92a29081d6e31c512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51c755e2f753e3ac69d38e6f5e4b1aae"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a51c755e2f753e3ac69d38e6f5e4b1aae">OnDataSentFunct</a>) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, uint16_t len)</td></tr>
 <tr class="memdesc:a51c755e2f753e3ac69d38e6f5e4b1aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of data transmission event handling function.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a51c755e2f753e3ac69d38e6f5e4b1aae">More...</a><br /></td></tr>
 <tr class="separator:a51c755e2f753e3ac69d38e6f5e4b1aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,9 +180,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb26c26b7274d379884b9682edb23e21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21">GetLocalInfo</a> (<a class="el" href="classchip_1_1_inet_1_1_i_p_address.html">IPAddress</a> *retAddr, uint16_t *retPort)</td></tr>
 <tr class="memdesc:abb26c26b7274d379884b9682edb23e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract IP address and TCP port of local endpoint.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21">More...</a><br /></td></tr>
 <tr class="separator:abb26c26b7274d379884b9682edb23e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e9050166dc324018dbb5c564380cb7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e">Send</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data, bool push=<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a930920b2bc42824a5c03be681830f4b2">true</a>)</td></tr>
-<tr class="memdesc:a0e9050166dc324018dbb5c564380cb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send message text on TCP connection.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e">More...</a><br /></td></tr>
-<tr class="separator:a0e9050166dc324018dbb5c564380cb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d2f84293905b2a95d46932c4dc3136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab5d2f84293905b2a95d46932c4dc3136">Send</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;data, bool push=<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a930920b2bc42824a5c03be681830f4b2">true</a>)</td></tr>
+<tr class="memdesc:ab5d2f84293905b2a95d46932c4dc3136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send message text on TCP connection.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab5d2f84293905b2a95d46932c4dc3136">More...</a><br /></td></tr>
+<tr class="separator:ab5d2f84293905b2a95d46932c4dc3136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb9631a151a97f218c295a0d1e306e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2bb9631a151a97f218c295a0d1e306e3">DisableReceive</a> ()</td></tr>
 <tr class="memdesc:a2bb9631a151a97f218c295a0d1e306e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable reception.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2bb9631a151a97f218c295a0d1e306e3">More...</a><br /></td></tr>
 <tr class="separator:a2bb9631a151a97f218c295a0d1e306e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,9 +204,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e4315d2ef57a54081618d7b6401ccf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6">AckReceive</a> (uint16_t len)</td></tr>
 <tr class="memdesc:a5e4315d2ef57a54081618d7b6401ccf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acknowledge receipt of message text.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6">More...</a><br /></td></tr>
 <tr class="separator:a5e4315d2ef57a54081618d7b6401ccf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd41450dc94e036c49181b12f99b797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adfd41450dc94e036c49181b12f99b797">SetReceivedDataForTesting</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data)</td></tr>
-<tr class="memdesc:adfd41450dc94e036c49181b12f99b797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the receive queue, for testing.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adfd41450dc94e036c49181b12f99b797">More...</a><br /></td></tr>
-<tr class="separator:adfd41450dc94e036c49181b12f99b797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f96b1f86f854f1ebefb34e53e6dabe1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5f96b1f86f854f1ebefb34e53e6dabe1">SetReceivedDataForTesting</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;data)</td></tr>
+<tr class="memdesc:a5f96b1f86f854f1ebefb34e53e6dabe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the receive queue, for testing.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5f96b1f86f854f1ebefb34e53e6dabe1">More...</a><br /></td></tr>
+<tr class="separator:a5f96b1f86f854f1ebefb34e53e6dabe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d3231cba15727598114bf158275d77"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77">PendingSendLength</a> ()</td></tr>
 <tr class="memdesc:ac0d3231cba15727598114bf158275d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the length of the data awaiting first transmit.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77">More...</a><br /></td></tr>
 <tr class="separator:ac0d3231cba15727598114bf158275d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,7 +279,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a08a683a7c204b2fbb2367fac67abe6e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2886c093f9eed2c9a37542a6c9cfd670">OnConnectCompleteFunct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a08a683a7c204b2fbb2367fac67abe6e1">OnConnectComplete</a></td></tr>
 <tr class="memdesc:a08a683a7c204b2fbb2367fac67abe6e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The endpoint's connection establishment event handling function delegate.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a08a683a7c204b2fbb2367fac67abe6e1">More...</a><br /></td></tr>
 <tr class="separator:a08a683a7c204b2fbb2367fac67abe6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeadf6b8e794c2925b208a38e9ae3d161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abe1579ce8b634bc8c731e8a7aa54d124">OnDataReceivedFunct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aeadf6b8e794c2925b208a38e9ae3d161">OnDataReceived</a></td></tr>
+<tr class="memitem:aeadf6b8e794c2925b208a38e9ae3d161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab8e23c6d6fc3c7f92a29081d6e31c512">OnDataReceivedFunct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aeadf6b8e794c2925b208a38e9ae3d161">OnDataReceived</a></td></tr>
 <tr class="memdesc:aeadf6b8e794c2925b208a38e9ae3d161"><td class="mdescLeft">&#160;</td><td class="mdescRight">The endpoint's message text reception event handling function delegate.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aeadf6b8e794c2925b208a38e9ae3d161">More...</a><br /></td></tr>
 <tr class="separator:aeadf6b8e794c2925b208a38e9ae3d161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad48da3a37485cf41d7f7eeb2f4f0faf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a51c755e2f753e3ac69d38e6f5e4b1aae">OnDataSentFunct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ad48da3a37485cf41d7f7eeb2f4f0faf4">OnDataSent</a></td></tr>
@@ -478,14 +478,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="abe1579ce8b634bc8c731e8a7aa54d124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe1579ce8b634bc8c731e8a7aa54d124">&#9670;&nbsp;</a></span>OnDataReceivedFunct</h2>
+<a id="ab8e23c6d6fc3c7f92a29081d6e31c512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e23c6d6fc3c7f92a29081d6e31c512">&#9670;&nbsp;</a></span>OnDataReceivedFunct</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>(* chip::Inet::TCPEndPoint::OnDataReceivedFunct) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data)</td>
+          <td class="memname">typedef <a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>(* chip::Inet::TCPEndPoint::OnDataReceivedFunct) (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1213,8 +1213,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e9050166dc324018dbb5c564380cb7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9050166dc324018dbb5c564380cb7e">&#9670;&nbsp;</a></span>Send()</h2>
+<a id="ab5d2f84293905b2a95d46932c4dc3136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5d2f84293905b2a95d46932c4dc3136">&#9670;&nbsp;</a></span>Send()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1222,7 +1222,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a> chip::Inet::TCPEndPoint::Send </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -1284,8 +1284,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adfd41450dc94e036c49181b12f99b797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd41450dc94e036c49181b12f99b797">&#9670;&nbsp;</a></span>SetReceivedDataForTesting()</h2>
+<a id="a5f96b1f86f854f1ebefb34e53e6dabe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f96b1f86f854f1ebefb34e53e6dabe1">&#9670;&nbsp;</a></span>SetReceivedDataForTesting()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1293,7 +1293,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a> chip::Inet::TCPEndPoint::SetReceivedDataForTesting </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1526,7 +1526,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abe1579ce8b634bc8c731e8a7aa54d124">OnDataReceivedFunct</a> chip::Inet::TCPEndPoint::OnDataReceived</td>
+          <td class="memname"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab8e23c6d6fc3c7f92a29081d6e31c512">OnDataReceivedFunct</a> chip::Inet::TCPEndPoint::OnDataReceived</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1612,7 +1612,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_inet.html">Inet</a></li><li class="navelem"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:03 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:13 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

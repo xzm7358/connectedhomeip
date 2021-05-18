@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -109,9 +109,9 @@ Inheritance diagram for chip::Controller::DeviceStatusDelegate:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38e1df41167a347414e77166416ff4da"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#a38e1df41167a347414e77166416ff4da">~DeviceStatusDelegate</a> ()</td></tr>
 <tr class="separator:a38e1df41167a347414e77166416ff4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6541b0d8ae09fb8431338501eb20e398"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#a6541b0d8ae09fb8431338501eb20e398">OnMessage</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg)=0</td></tr>
-<tr class="memdesc:a6541b0d8ae09fb8431338501eb20e398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is received from the device.  <a href="classchip_1_1_controller_1_1_device_status_delegate.html#a6541b0d8ae09fb8431338501eb20e398">More...</a><br /></td></tr>
-<tr class="separator:a6541b0d8ae09fb8431338501eb20e398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe693739bb86848b2d9211a4102f9fba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#abe693739bb86848b2d9211a4102f9fba">OnMessage</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;msg)=0</td></tr>
+<tr class="memdesc:abe693739bb86848b2d9211a4102f9fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is received from the device.  <a href="classchip_1_1_controller_1_1_device_status_delegate.html#abe693739bb86848b2d9211a4102f9fba">More...</a><br /></td></tr>
+<tr class="separator:abe693739bb86848b2d9211a4102f9fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02aea01e5fdffd242a5da040ca7b963c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html#a02aea01e5fdffd242a5da040ca7b963c">OnPairingWindowOpenStatus</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> status)</td></tr>
 <tr class="memdesc:a02aea01e5fdffd242a5da040ca7b963c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when response to OpenPairingWindow is received from the device.  <a href="classchip_1_1_controller_1_1_device_status_delegate.html#a02aea01e5fdffd242a5da040ca7b963c">More...</a><br /></td></tr>
 <tr class="separator:a02aea01e5fdffd242a5da040ca7b963c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,8 +149,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6541b0d8ae09fb8431338501eb20e398"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6541b0d8ae09fb8431338501eb20e398">&#9670;&nbsp;</a></span>OnMessage()</h2>
+<a id="abe693739bb86848b2d9211a4102f9fba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe693739bb86848b2d9211a4102f9fba">&#9670;&nbsp;</a></span>OnMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void chip::Controller::DeviceStatusDelegate::OnMessage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>msg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -181,7 +181,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160">AndroidDeviceControllerWrapper</a>.</p>
+<p>Implemented in <a class="el" href="class_android_device_controller_wrapper.html#a0535ff2d2f6d7e5faf814f8c3ffb3674">AndroidDeviceControllerWrapper</a>.</p>
 
 </div>
 </div>
@@ -258,7 +258,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device_status_delegate.html">DeviceStatusDelegate</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:02 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:13 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

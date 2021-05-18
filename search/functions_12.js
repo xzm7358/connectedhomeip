@@ -27,7 +27,7 @@ var searchData=
   ['readvalue_10222',['ReadValue',['../classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a726dc334d69dcd5cfe6b1bbf1856593d',1,'chip::DeviceLayer::Internal::ChipLinuxStorage::ReadValue(const char *key, bool &amp;val)'],['../classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#aff1db1346aa346c37f80cbff0b10652e',1,'chip::DeviceLayer::Internal::ChipLinuxStorage::ReadValue(const char *key, uint32_t &amp;val)'],['../classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#ad971505b39b51c8a184a5bdc1c06e718',1,'chip::DeviceLayer::Internal::ChipLinuxStorage::ReadValue(const char *key, uint64_t &amp;val)']]],
   ['readvaluebin_10223',['ReadValueBin',['../classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#af99004e00009563eaf827b616a39ea0d',1,'chip::DeviceLayer::Internal::ChipLinuxStorage']]],
   ['readvaluestr_10224',['ReadValueStr',['../classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#af07429be91afda3491b182974ddf3d95',1,'chip::DeviceLayer::Internal::ChipLinuxStorage']]],
-  ['receive_10225',['Receive',['../classchip_1_1_ble_1_1_b_l_e_end_point.html#a7ecc4042907099cc172e769e87e07443',1,'chip::Ble::BLEEndPoint']]],
+  ['receive_10225',['Receive',['../classchip_1_1_ble_1_1_b_l_e_end_point.html#a5b4ab72dab131166c5a1272eaeab2f84',1,'chip::Ble::BLEEndPoint']]],
   ['recvmsg_10226',['recvmsg',['../_zephyr_socket_8h.html#a6145592f431b7ba7b4ae1869b22cb359',1,'ZephyrSocket.h']]],
   ['redirecttopythonlogging_10227',['RedirectToPythonLogging',['../namespacechip_1_1logging.html#a0f6283a20f5bafcc67fe83298fc188a6',1,'chip::logging']]],
   ['register_10228',['Register',['../namespacechip_1_1_mdns.html#a696ad1f92bcdea7c50f6fe7fa4ace854',1,'chip::Mdns']]],

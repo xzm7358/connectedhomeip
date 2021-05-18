@@ -5,7 +5,7 @@ var class_android_device_controller_wrapper =
     [ "Controller", "class_android_device_controller_wrapper.html#afc711a21db9141899e4e932dc9a28163", null ],
     [ "FromJNIHandle", "class_android_device_controller_wrapper.html#a25de8fff08e9b12e714cc09e57389453", null ],
     [ "JavaObjectRef", "class_android_device_controller_wrapper.html#ac6b3707b2c001ad1a5a8451dc47f5d06", null ],
-    [ "OnMessage", "class_android_device_controller_wrapper.html#a1ae9b6390c8e98b7939bfc2fffecd160", null ],
+    [ "OnMessage", "class_android_device_controller_wrapper.html#a0535ff2d2f6d7e5faf814f8c3ffb3674", null ],
     [ "OnPairingComplete", "class_android_device_controller_wrapper.html#ac0fc6106c06cd92515d3de1f049ab014", null ],
     [ "OnPairingDeleted", "class_android_device_controller_wrapper.html#a42a30b2d21ab72b52d83c37f2da66a6d", null ],
     [ "OnStatusChange", "class_android_device_controller_wrapper.html#a5fb3e882f00ec06e11efd4e1aaebb75e", null ],

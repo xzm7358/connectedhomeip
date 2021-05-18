@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">d8afa39</span>
+   &#160;<span id="projectnumber">860a204</span>
    </div>
   </td>
  </tr>
@@ -113,8 +113,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a49af96cecc747f2ee086559f4f473ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe0c4bd974c9545715765370a267abd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#acfe0c4bd974c9545715765370a267abd">OnEndPointConnectComplete</a> (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a> *endPoint, <a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>)=0</td></tr>
 <tr class="separator:acfe0c4bd974c9545715765370a267abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2994b487a3c95342bf0747c9b850bdc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#ae2994b487a3c95342bf0747c9b850bdc">OnEndPointMessageReceived</a> (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> msg)=0</td></tr>
-<tr class="separator:ae2994b487a3c95342bf0747c9b850bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b6d9e6a0dcc4277873b77dee7e4a48"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#af1b6d9e6a0dcc4277873b77dee7e4a48">OnEndPointMessageReceived</a> (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a> *endPoint, <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;msg)=0</td></tr>
+<tr class="separator:af1b6d9e6a0dcc4277873b77dee7e4a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a714e350bd97cd21210820debd400d691"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a714e350bd97cd21210820debd400d691">OnEndPointConnectionClosed</a> (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a> *endPoint, <a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>)=0</td></tr>
 <tr class="separator:a714e350bd97cd21210820debd400d691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4af95ec01012f06139a682e981c801ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html#a4af95ec01012f06139a682e981c801ca">SetEndPoint</a> (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">BLEEndPoint</a> *endPoint)=0</td></tr>
@@ -271,8 +271,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2994b487a3c95342bf0747c9b850bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2994b487a3c95342bf0747c9b850bdc">&#9670;&nbsp;</a></span>OnEndPointMessageReceived()</h2>
+<a id="af1b6d9e6a0dcc4277873b77dee7e4a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b6d9e6a0dcc4277873b77dee7e4a48">&#9670;&nbsp;</a></span>OnEndPointMessageReceived()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +289,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">System::PacketBufferHandle</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>msg</em>&#160;</td>
         </tr>
         <tr>
@@ -344,7 +344,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_ble.html">Ble</a></li><li class="navelem"><a class="el" href="classchip_1_1_ble_1_1_ble_layer_delegate.html">BleLayerDelegate</a></li>
-    <li class="footer">Generated on Tue May 18 2021 16:40:02 for Connected Home over IP by
+    <li class="footer">Generated on Tue May 18 2021 17:42:13 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
