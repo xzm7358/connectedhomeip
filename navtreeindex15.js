@@ -1,9 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"_message_counter_8h_source.html":[11,0,11,5],
-"_message_counter_manager_interface_8h.html":[11,0,11,6],
-"_message_counter_manager_interface_8h_source.html":[11,0,11,6],
-"_message_header_8cpp.html":[11,0,11,0,3],
 "_message_header_8h.html":[11,0,11,0,4],
 "_message_header_8h.html#a1517b608fb94efae480e080bec7d4096":[11,0,11,0,4,11],
 "_message_header_8h.html#a19d9b7d115cbe8612608982730ea19d1":[11,0,11,0,4,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX15 =
 "_response_sender_8cpp.html#aabfb124a22e2b796a7c64854394db76d":[11,0,6,1,0,11,0],
 "_response_sender_8h.html":[11,0,6,1,0,12],
 "_response_sender_8h_source.html":[11,0,6,1,0,12],
-"_safe_int_8h.html":[11,0,6,3,42]
+"_safe_int_8h.html":[11,0,6,3,42],
+"_safe_int_8h.html#a06380c10d587341d7647de899ff8b601":[11,0,6,3,42,0],
+"_safe_int_8h.html#a8205c30bb95fb13aa400284110944165":[11,0,6,3,42,1],
+"_safe_int_8h_source.html":[11,0,6,3,42],
+"_safe_pointer_cast_8h.html":[11,0,6,3,43]
 };

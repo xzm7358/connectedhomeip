@@ -84,8 +84,6 @@ var _c_h_i_p_device_controller__j_n_i_8cpp =
     [ "deviceId", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8a7cc02e3dc07fddda8ab93a73713ee9", null ],
     [ "deviceIPAddr", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3588ed74362cafabd84faa6554fbcf25", null ],
     [ "duration", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2ed9ee5fb5fe689fe410fa69e4c842cb", null ],
-    [ "else", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0544c3fe466e421738dae463968b70ba", null ],
-    [ "endpoint", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a7d397493728da2bca8d55b2d61c4ec5d", null ],
     [ "env", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e", null ],
     [ "err", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f", null ],
     [ "handle", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91", null ],

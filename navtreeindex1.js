@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"_ble_u_u_i_d_8h.html#a92d0c5b1b534923b35b73e0c6756f4ac":[11,0,0,14,2],
-"_ble_u_u_i_d_8h_source.html":[11,0,0,14],
 "_bluez_object_iterator_8h.html":[11,0,7,6,0,2],
 "_bluez_object_iterator_8h_source.html":[11,0,7,6,0,2],
 "_bluez_object_list_8h.html":[11,0,7,6,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "_c_h_i_p_clusters_8cpp.html#a73da9a3f17dd6c9abe044c7ebeb66a4d":[11,0,1,1,0,1,1,302],
 "_c_h_i_p_clusters_8cpp.html#a743742a4f29088fe1480a004211ca514":[11,0,1,1,0,1,1,246],
 "_c_h_i_p_clusters_8cpp.html#a755323ea47b7adeb0765e92a056e8f72":[11,0,1,1,0,1,1,96],
-"_c_h_i_p_clusters_8cpp.html#a7604cbf7efd35a89f68a0ab35ce0b4c7":[11,0,1,1,0,1,1,62]
+"_c_h_i_p_clusters_8cpp.html#a7604cbf7efd35a89f68a0ab35ce0b4c7":[11,0,1,1,0,1,1,62],
+"_c_h_i_p_clusters_8cpp.html#a77c0e28ea4514e7e2257c2a63d5a4cc7":[11,0,1,1,0,1,1,187],
+"_c_h_i_p_clusters_8cpp.html#a7b717c193f096eadfd50b0ced6e46cc0":[11,0,1,1,0,1,1,290]
 };
