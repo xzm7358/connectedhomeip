@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4e7505f</span>
+   &#160;<span id="projectnumber">4826f70</span>
    </div>
   </td>
  </tr>
@@ -112,9 +112,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_data.html">CommissionableNodeData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_filter.html">CommissionableNodeFilter</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_commission_advertising_parameters.html">CommissionAdvertisingParameters</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_discovery_filter.html">DiscoveryFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_discovery_impl_platform.html">DiscoveryImplPlatform</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,17 +186,23 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a440ac2443e9cad79596da62ae3490092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2f8a808cb2791685b15ff815a5019b1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1">CommissionableNodeFilterType</a> { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a35c3ace1970663a16e5c65baa5941b13">CommissionableNodeFilterType::kNone</a>, 
+<tr class="memitem:a3b34c607ad9973f7c59c7824a1ab0d5d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5d">DiscoveryFilterType</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da35c3ace1970663a16e5c65baa5941b13">DiscoveryFilterType::kNone</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a22b78d480ec689e8c987dbd9367e393a">CommissionableNodeFilterType::kShort</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da22b78d480ec689e8c987dbd9367e393a">DiscoveryFilterType::kShort</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a6a285ab26ec7ec4c22536626eeaaf52e">CommissionableNodeFilterType::kLong</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da6a285ab26ec7ec4c22536626eeaaf52e">DiscoveryFilterType::kLong</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a01f0d1e7301e11cad1f4a4650cea0777">CommissionableNodeFilterType::kVendor</a>
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da01f0d1e7301e11cad1f4a4650cea0777">DiscoveryFilterType::kVendor</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5dae470ac522bb48438322fd627e6bc8e77">DiscoveryFilterType::kDeviceType</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da928f5664c63de794539ce5406feacdcf">DiscoveryFilterType::kCommissioningMode</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da19af6c6776d9b899d2abf40a987f8aa9">DiscoveryFilterType::kCommissioningModeFromCommand</a>
 <br />
  }</td></tr>
-<tr class="separator:af2f8a808cb2791685b15ff815a5019b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a3b34c607ad9973f7c59c7824a1ab0d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed12ad4982822268431b690f1755e4bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#aed12ad4982822268431b690f1755e4bd">ContextType</a> { <br />
 &#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#aed12ad4982822268431b690f1755e4bda0ba7583639a274c434bbe6ef797115a4">ContextType::Register</a>, 
 <br />
@@ -245,6 +251,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">MakeHostName</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, const <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> &amp;macOrEui64)</td></tr>
 <tr class="memdesc:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the host name that a CHIP device is to use for a given unique identifier (MAC address or EUI64)  <a href="namespacechip_1_1_mdns.html#ad105aa0ca0e1fc91c2b545e1e397f507">More...</a><br /></td></tr>
 <tr class="separator:ad105aa0ca0e1fc91c2b545e1e397f507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24b0344bfba37fa1e45acab450ea2b90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a24b0344bfba37fa1e45acab450ea2b90">MakeServiceSubtype</a> (char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, size_t bufferLen, <a class="el" href="structchip_1_1_mdns_1_1_discovery_filter.html">DiscoveryFilter</a> subtype)</td></tr>
+<tr class="separator:a24b0344bfba37fa1e45acab450ea2b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111008ab60c7f65d1a22a11fcd3c75b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a111008ab60c7f65d1a22a11fcd3c75b9">PopulateTextRecord</a> (TXTRecordRef *record, char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a>, uint16_t bufferLen, <a class="el" href="structchip_1_1_mdns_1_1_text_entry.html">TextEntry</a> *textEntries, size_t textEntrySize)</td></tr>
 <tr class="separator:a111008ab60c7f65d1a22a11fcd3c75b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55a7be50a09fc35c35117aca11cd3328"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328">CheckForSuccess</a> (<a class="el" href="structchip_1_1_mdns_1_1_generic_context.html">GenericContext</a> *context, const char *name, DNSServiceErrorType <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>, bool useCallback=false)</td></tr>
@@ -400,34 +408,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="af2f8a808cb2791685b15ff815a5019b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2f8a808cb2791685b15ff815a5019b1">&#9670;&nbsp;</a></span>CommissionableNodeFilterType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1">chip::Mdns::CommissionableNodeFilterType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af2f8a808cb2791685b15ff815a5019b1a35c3ace1970663a16e5c65baa5941b13"></a>kNone&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af2f8a808cb2791685b15ff815a5019b1a22b78d480ec689e8c987dbd9367e393a"></a>kShort&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af2f8a808cb2791685b15ff815a5019b1a6a285ab26ec7ec4c22536626eeaaf52e"></a>kLong&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af2f8a808cb2791685b15ff815a5019b1a01f0d1e7301e11cad1f4a4650cea0777"></a>kVendor&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <a id="adf573d350431e66f24ce6567f580062f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf573d350431e66f24ce6567f580062f">&#9670;&nbsp;</a></span>CommssionAdvertiseMode</h2>
 
@@ -478,6 +458,37 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="aed12ad4982822268431b690f1755e4bda1b9abf135ccb7ed2f2cd9c155137c351"></a>Browse&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aed12ad4982822268431b690f1755e4bda05d26e7d7c53744b903ae1f6f8a8c7ed"></a>Resolve&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aed12ad4982822268431b690f1755e4bda6b73490666fe3e01a342e1dc4ca0ad8c"></a>GetAddrInfo&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a3b34c607ad9973f7c59c7824a1ab0d5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b34c607ad9973f7c59c7824a1ab0d5d">&#9670;&nbsp;</a></span>DiscoveryFilterType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5d">chip::Mdns::DiscoveryFilterType</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da35c3ace1970663a16e5c65baa5941b13"></a>kNone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da22b78d480ec689e8c987dbd9367e393a"></a>kShort&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da6a285ab26ec7ec4c22536626eeaaf52e"></a>kLong&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da01f0d1e7301e11cad1f4a4650cea0777"></a>kVendor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5dae470ac522bb48438322fd627e6bc8e77"></a>kDeviceType&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da928f5664c63de794539ce5406feacdcf"></a>kCommissioningMode&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3b34c607ad9973f7c59c7824a1ab0d5da19af6c6776d9b899d2abf40a987f8aa9"></a>kCommissioningModeFromCommand&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1182,6 +1193,40 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>builds the MDNS advertising name for a given fabric + nodeid pair </p>
+
+</div>
+</div>
+<a id="a24b0344bfba37fa1e45acab450ea2b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24b0344bfba37fa1e45acab450ea2b90">&#9670;&nbsp;</a></span>MakeServiceSubtype()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Mdns::MakeServiceSubtype </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferLen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structchip_1_1_mdns_1_1_discovery_filter.html">DiscoveryFilter</a>&#160;</td>
+          <td class="paramname"><em>subtype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2302,7 +2347,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_mdns.html">Mdns</a></li>
-    <li class="footer">Generated on Wed May 19 2021 13:05:20 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 19 2021 14:50:59 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

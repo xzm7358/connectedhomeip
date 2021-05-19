@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4e7505f</span>
+   &#160;<span id="projectnumber">4826f70</span>
    </div>
   </td>
  </tr>
@@ -106,7 +106,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_data.html">chip::Mdns::CommissionableNodeData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_commissionable_node_filter.html">chip::Mdns::CommissionableNodeFilter</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_mdns_1_1_discovery_filter.html">chip::Mdns::DiscoveryFilter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_mdns_1_1_resolver_delegate.html">chip::Mdns::ResolverDelegate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groups callbacks for CHIP service resolution requests.  <a href="classchip_1_1_mdns_1_1_resolver_delegate.html#details">More...</a><br /></td></tr>
@@ -125,17 +125,23 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:af2f8a808cb2791685b15ff815a5019b1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1">chip::Mdns::CommissionableNodeFilterType</a> { <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a35c3ace1970663a16e5c65baa5941b13">chip::Mdns::CommissionableNodeFilterType::kNone</a>, 
+<tr class="memitem:a3b34c607ad9973f7c59c7824a1ab0d5d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5d">chip::Mdns::DiscoveryFilterType</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da35c3ace1970663a16e5c65baa5941b13">chip::Mdns::DiscoveryFilterType::kNone</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a22b78d480ec689e8c987dbd9367e393a">chip::Mdns::CommissionableNodeFilterType::kShort</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da22b78d480ec689e8c987dbd9367e393a">chip::Mdns::DiscoveryFilterType::kShort</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a6a285ab26ec7ec4c22536626eeaaf52e">chip::Mdns::CommissionableNodeFilterType::kLong</a>, 
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da6a285ab26ec7ec4c22536626eeaaf52e">chip::Mdns::DiscoveryFilterType::kLong</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#af2f8a808cb2791685b15ff815a5019b1a01f0d1e7301e11cad1f4a4650cea0777">chip::Mdns::CommissionableNodeFilterType::kVendor</a>
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da01f0d1e7301e11cad1f4a4650cea0777">chip::Mdns::DiscoveryFilterType::kVendor</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5dae470ac522bb48438322fd627e6bc8e77">chip::Mdns::DiscoveryFilterType::kDeviceType</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da928f5664c63de794539ce5406feacdcf">chip::Mdns::DiscoveryFilterType::kCommissioningMode</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_mdns.html#a3b34c607ad9973f7c59c7824a1ab0d5da19af6c6776d9b899d2abf40a987f8aa9">chip::Mdns::DiscoveryFilterType::kCommissioningModeFromCommand</a>
 <br />
  }</td></tr>
-<tr class="separator:af2f8a808cb2791685b15ff815a5019b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a3b34c607ad9973f7c59c7824a1ab0d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -143,7 +149,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_6120b5b067bc81dd9b9ded47874ed490.html">mdns</a></li><li class="navelem"><a class="el" href="_resolver_8h.html">Resolver.h</a></li>
-    <li class="footer">Generated on Wed May 19 2021 13:05:19 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 19 2021 14:50:57 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

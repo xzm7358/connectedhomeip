@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"class_android_ble_platform_delegate.html#a40063789393636b7dedb419ede97a5c0":[10,0,7,9],
+"class_android_ble_platform_delegate.html#a425e7f02315ad86cb0c2dc155b93624b":[10,0,7,10],
+"class_android_ble_platform_delegate.html#a4694e25765c8a95fb035057ab23714fc":[10,0,7,12],
+"class_android_ble_platform_delegate.html#a5b097f582c7716842940a09414fbc1e5":[10,0,7,1],
+"class_android_ble_platform_delegate.html#a6ce3d011d890585975ecb13718e1af78":[10,0,7,11],
 "class_android_ble_platform_delegate.html#a8ea24e280ccbd93cbd5d38b71e933afc":[10,0,7,7],
 "class_android_ble_platform_delegate.html#aac9b4e4f581721d84366a1b7b02ce778":[10,0,7,5],
 "class_android_ble_platform_delegate.html#ac57c0adb2e098e01171b7cfa4f596a71":[10,0,7,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_ble_1_1_ble_layer.html#aaf6220e4014659c302f78cbe6da88f98":[10,0,1,1,4,17],
 "classchip_1_1_ble_1_1_ble_layer.html#ab0908ff5385c8cc5aa718df15343a29a":[10,0,1,1,4,19],
 "classchip_1_1_ble_1_1_ble_layer.html#abe8b0a98cf1b3e053a621e88e1a44ff0":[10,0,1,1,4,12],
-"classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a5a753d82be70d79ed2c343a6e9abef4e":[10,0,1,1,4,1],
-"classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a908dadf2acf5eb1b4348dda865191d2c":[10,0,1,1,4,2],
-"classchip_1_1_ble_1_1_ble_layer.html#ac0603dfed49c6233e4fc2763083a0154":[10,0,1,1,4,27],
-"classchip_1_1_ble_1_1_ble_layer.html#acf4f4cf7770f7ef152a2e887d6a74e9b":[10,0,1,1,4,13],
-"classchip_1_1_ble_1_1_ble_layer.html#ad058845b40297613b580b03539d54060":[10,0,1,1,4,9],
-"classchip_1_1_ble_1_1_ble_layer.html#ad0810c8abc53c2ecf383041ffc033786":[10,0,1,1,4,16]
+"classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a5a753d82be70d79ed2c343a6e9abef4e":[10,0,1,1,4,1]
 };

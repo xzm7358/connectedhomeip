@@ -147,7 +147,6 @@ var hierarchy =
       [ "chip::Controller::TrustedRootCertificatesProvisioner", "classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html", null ]
     ] ],
     [ "chip::Mdns::CommissionableNodeData", "structchip_1_1_mdns_1_1_commissionable_node_data.html", null ],
-    [ "chip::Mdns::CommissionableNodeFilter", "structchip_1_1_mdns_1_1_commissionable_node_filter.html", null ],
     [ "chip.internal.commissioner.Commissioner", "classchip_1_1internal_1_1commissioner_1_1_commissioner.html", null ],
     [ "chip.devicecontroller.ChipDeviceController.CompletionListener", "interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html", null ],
     [ "chip::DeviceLayer::ConfigurationManager", "classchip_1_1_device_layer_1_1_configuration_manager.html", [
@@ -191,6 +190,7 @@ var hierarchy =
     [ "chip::Controller::DeviceStatusDelegate", "classchip_1_1_controller_1_1_device_status_delegate.html", [
       [ "AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html", null ]
     ] ],
+    [ "chip::Mdns::DiscoveryFilter", "structchip_1_1_mdns_1_1_discovery_filter.html", null ],
     [ "chip::TLV::Debug::DumpContext", "structchip_1_1_t_l_v_1_1_debug_1_1_dump_context.html", null ],
     [ "chip::Crypto::ECPKey< Sig >", "classchip_1_1_crypto_1_1_e_c_p_key.html", null ],
     [ "chip::Crypto::ECPKey< P256ECDSASignature >", "classchip_1_1_crypto_1_1_e_c_p_key.html", [

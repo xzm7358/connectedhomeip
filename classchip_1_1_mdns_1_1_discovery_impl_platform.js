@@ -2,7 +2,7 @@ var classchip_1_1_mdns_1_1_discovery_impl_platform =
 [
     [ "Advertise", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded", null ],
     [ "Advertise", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9fe46e764b4f6ddcfe99ff1436f741ea", null ],
-    [ "FindCommissionableNodes", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a83832d23a229a4ef3ea00168aa33c502", null ],
+    [ "FindCommissionableNodes", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#aaff0c57bc4a9bdc0e439db01fa4e17eb", null ],
     [ "GetInstance", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a19d5a9174437b347f9bc0ef9af58bc67", null ],
     [ "Init", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a89a1e367aeb6713ab3c038438853bc36", null ],
     [ "ResolveNodeId", "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a49f10dc0c93a33edb5db38b6f91836d8", null ],
