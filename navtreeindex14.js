@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"_linux_2_b_l_e_manager_impl_8cpp.html":[11,0,7,6,1],
 "_linux_2_b_l_e_manager_impl_8h.html":[11,0,7,6,2],
 "_linux_2_b_l_e_manager_impl_8h_source.html":[11,0,7,6,2],
 "_linux_2_ble_platform_config_8h.html":[11,0,7,6,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "_mdns_error_8h.html":[11,0,7,1,22],
 "_mdns_error_8h.html#abd9ea74d7a0d255d32c5937215d0a346":[11,0,7,1,22,0],
 "_mdns_error_8h_source.html":[11,0,7,1,22],
-"_message_counter_8cpp.html":[11,0,11,4]
+"_message_counter_8cpp.html":[11,0,11,4],
+"_message_counter_8h.html":[11,0,11,5]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"_generic_configuration_manager_impl_8h_source.html":[11,0,4,0,0,8],
 "_generic_connectivity_manager_impl_8h.html":[11,0,4,0,0,9],
 "_generic_connectivity_manager_impl_8h_source.html":[11,0,4,0,0,9],
 "_generic_connectivity_manager_impl___b_l_e_8cpp.html":[11,0,4,0,0,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2a82a81d585f13f0d275d4fb2f5ada168c":[11,0,5,22,1],
 "_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2a932a39b7b154374a9b0ef2ac79ffd9bf":[11,0,5,22,7],
 "_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2a972b0ec50a1dd7ec53053089241bad64":[11,0,5,22,2],
-"_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2aa9c5de66ab1e636fa892acc3722c7743":[11,0,5,22,4]
+"_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2aa9c5de66ab1e636fa892acc3722c7743":[11,0,5,22,4],
+"_inet_layer_events_8h.html#a2db70f0b8352f2e2826c9b97174287c2aaf4753dcdc68ced592e19834d3c51668":[11,0,5,22,0]
 };

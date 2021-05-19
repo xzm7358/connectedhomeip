@@ -1,6 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"classchip_1_1_ble_1_1_ble_layer.html#ad0810c8abc53c2ecf383041ffc033786":[10,0,1,1,4,16],
 "classchip_1_1_ble_1_1_ble_layer.html#ad631a55e9d141fe417793665cfa69cf9":[10,0,1,1,4,24],
 "classchip_1_1_ble_1_1_ble_layer.html#ad9d81e4d015fcbd56d8308397b047eba":[10,0,1,1,4,11],
 "classchip_1_1_ble_1_1_ble_layer.html#adbf061f08434344e9667781576c35016":[10,0,1,1,4,26],
@@ -249,5 +248,6 @@ var NAVTREEINDEX21 =
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#a75309415b7f209a9d9b978e15070de44":[10,0,1,5,3,2],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#a7c80109f2e56bb7227bf7fd5e01649eb":[10,0,1,5,3,13],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#a9b6d0cc196b804e4b873a0f6cd852399":[10,0,1,5,3,5],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#aa5c0f33823bb24c68368abe0968f9a74":[10,0,1,5,3,1]
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#aa5c0f33823bb24c68368abe0968f9a74":[10,0,1,5,3,1],
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_gatt_service.html#ab09e9ec99f3b15fc43b767c9b8662a4d":[10,0,1,5,3,10]
 };

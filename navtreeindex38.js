@@ -1,6 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classmdns_1_1_minimal_1_1_header_ref.html#adffdc818af100dcbe1e52019af96e84c":[10,0,3,0,6,5],
 "classmdns_1_1_minimal_1_1_i_p_resource_record.html":[10,0,3,0,7],
 "classmdns_1_1_minimal_1_1_i_p_resource_record.html#ad00ae65ffd586ae9bd7713cd349d49f6":[10,0,3,0,7,0],
 "classmdns_1_1_minimal_1_1_i_p_resource_record.html#afc94f2e84518ed81d363c70ee8455139":[10,0,3,0,7,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX38 =
 "commissioner_8py.html":[11,0,1,1,0,6,3],
 "commissioner_8py.html#a1873bf0fbe026a2a657f1010e58d73df":[11,0,1,1,0,6,3,6],
 "commissioner_8py.html#a1d79b53e8da59e68f13a997108300bb7":[11,0,1,1,0,6,3,8],
-"commissioner_8py.html#a2f78005a39205d7715680b13f63101c7":[11,0,1,1,0,6,3,5]
+"commissioner_8py.html#a2f78005a39205d7715680b13f63101c7":[11,0,1,1,0,6,3,5],
+"commissioner_8py.html#acee22e1347196568630c54edbd78ce58":[11,0,1,1,0,6,3,7]
 };
