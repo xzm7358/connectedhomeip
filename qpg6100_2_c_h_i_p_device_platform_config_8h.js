@@ -14,6 +14,7 @@ var qpg6100_2_c_h_i_p_device_platform_config_8h =
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7", null ],
     [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3", null ],
     [ "CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff", null ],
+    [ "CHIP_DEVICE_CONFIG_MAX_EVENT_QUEUE_SIZE", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#ac93a8e595f5571df77ed9a9a98d7827a", null ],
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_CRIT_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5", null ],
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_DEBUG_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae", null ],
     [ "CHIP_DEVICE_CONFIG_PERSISTED_STORAGE_INFO_EIDC_KEY", "qpg6100_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0", null ],
