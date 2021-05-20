@@ -55,8 +55,6 @@ var hierarchy =
       [ "chip::DeviceLayer::Internal::BleApplicationDelegateImpl", "classchip_1_1_device_layer_1_1_internal_1_1_ble_application_delegate_impl.html", null ]
     ] ],
     [ "bleBondDeviceEntry", "structble_bond_device_entry.html", null ],
-    [ "chip::DeviceLayer::BleC1WriteEventType", "structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html", null ],
-    [ "chip::DeviceLayer::BleC2IndDoneEventType", "structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html", null ],
     [ "chip::DeviceLayer::BleCCCWriteEventType", "structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type.html", null ],
     [ "BleConnection()", "category_ble_connection_07_08.html", null ],
     [ "chip::Ble::BleConnectionDelegate", "classchip_1_1_ble_1_1_ble_connection_delegate.html", [
@@ -79,9 +77,11 @@ var hierarchy =
       [ "chip::DeviceLayer::Internal::BlePlatformDelegateImpl", "classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html", null ]
     ] ],
     [ "chip.ChipBleUtility.BleRxEvent", "classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html", null ],
+    [ "chip::DeviceLayer::BleRXWriteEventType", "structchip_1_1_device_layer_1_1_ble_r_x_write_event_type.html", null ],
     [ "chip.ChipBleUtility.BleSubscribeEvent", "classchip_1_1_chip_ble_utility_1_1_ble_subscribe_event.html", null ],
     [ "chip::Ble::BleTransportCapabilitiesRequestMessage", "classchip_1_1_ble_1_1_ble_transport_capabilities_request_message.html", null ],
     [ "chip::Ble::BleTransportCapabilitiesResponseMessage", "classchip_1_1_ble_1_1_ble_transport_capabilities_response_message.html", null ],
+    [ "chip::DeviceLayer::BleTXCompleteEventType", "structchip_1_1_device_layer_1_1_ble_t_x_complete_event_type.html", null ],
     [ "chip.ChipBleUtility.BleTxEvent", "classchip_1_1_chip_ble_utility_1_1_ble_tx_event.html", null ],
     [ "chip.ChipBluezMgr.BluezDbusAdapter", "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html", null ],
     [ "chip.ChipBluezMgr.BluezDbusDevice", "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_device.html", null ],

@@ -2,8 +2,8 @@ var _zephyr_2_c_h_i_p_device_platform_event_8h =
 [
     [ "BleConnEventType", "structchip_1_1_device_layer_1_1_ble_conn_event_type.html", "structchip_1_1_device_layer_1_1_ble_conn_event_type" ],
     [ "BleCCCWriteEventType", "structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type.html", "structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type" ],
-    [ "BleC1WriteEventType", "structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html", "structchip_1_1_device_layer_1_1_ble_c1_write_event_type" ],
-    [ "BleC2IndDoneEventType", "structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html", "structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type" ],
+    [ "BleRXWriteEventType", "structchip_1_1_device_layer_1_1_ble_r_x_write_event_type.html", "structchip_1_1_device_layer_1_1_ble_r_x_write_event_type" ],
+    [ "BleTXCompleteEventType", "structchip_1_1_device_layer_1_1_ble_t_x_complete_event_type.html", "structchip_1_1_device_layer_1_1_ble_t_x_complete_event_type" ],
     [ "ChipDevicePlatformEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html", "structchip_1_1_device_layer_1_1_chip_device_platform_event" ],
     [ "InternalPlatformSpecificEventTypes", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59", [
       [ "kPlatformDarwinEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a281974a018e6413c99435a5302096a96", null ],
@@ -30,8 +30,8 @@ var _zephyr_2_c_h_i_p_device_platform_event_8h =
       [ "kPlatformZephyrBleConnected", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a6964fe7d6ad96561a57143f0f8deab24", null ],
       [ "kPlatformZephyrBleDisconnected", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a79891243634d6a35221b7f5259830b17", null ],
       [ "kPlatformZephyrBleCCCWrite", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ab1dc817c28cd24fb6f200224bc922e7f", null ],
-      [ "kPlatformZephyrBleC1WriteEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a93c7873dbd399a1adf4c808829216586", null ],
-      [ "kPlatformZephyrBleC2IndDoneEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a69240afcd05a9793eced11284e1806e1", null ],
+      [ "kPlatformZephyrBleRXWrite", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59af73dc9daf04d40a01f7ede3a776c4e5a", null ],
+      [ "kPlatformZephyrBleTXComplete", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae37ec6ad5719bd8381a0ca1600ae3597", null ],
       [ "kPlatformZephyrBleOutOfBuffersEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a2ddc82dd8677d0ea69b2f71dc4e10f6a", null ]
     ] ],
     [ "PublicPlatformSpecificEventTypes", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#a4cbbf8da21943033fc2967e8aa475e52", null ]

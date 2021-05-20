@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">e3a06d9</span>
+   &#160;<span id="projectnumber">ee6defd</span>
    </div>
   </td>
  </tr>
@@ -173,9 +173,6 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>BleC1WriteEvent
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a741d87cbb979f78b9f37bb6bc702163c">chip::DeviceLayer::ChipDevicePlatformEvent</a>
 </li>
-<li>BleC2IndDoneEvent
-: <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a3357a00f44a25a458c6e2b12db07d022">chip::DeviceLayer::ChipDevicePlatformEvent</a>
-</li>
 <li>BleCCCWriteEvent
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ad9ad673951e9a590de2c512c5596e373">chip::DeviceLayer::ChipDevicePlatformEvent</a>
 </li>
@@ -209,7 +206,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 , <a class="el" href="structchip_1_1_controller_1_1_controller_init_params.html#a5a2d7e2ac97c398610b0f9ec2399ca86">chip::Controller::ControllerInitParams</a>
 </li>
 <li>BleListenParameters()
-: <a class="el" href="classchip_1_1_transport_1_1_ble_listen_parameters.html#a554fdb493636843ff1e5def9ece72abd">chip::Transport::BleListenParameters</a>
+: <a class="el" href="classchip_1_1_transport_1_1_ble_listen_parameters.html#a8367a14ab03b5c82df371b8eecd713ce">chip::Transport::BleListenParameters</a>
 </li>
 <li>bleMgr
 : <a class="el" href="classchip-device-ctrl_1_1_device_mgr_cmd.html#a3d95ac11d0bea3b213ed7fd3f3b14294">chip-device-ctrl.DeviceMgrCmd</a>
@@ -229,8 +226,14 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <li>BLEPeripheralRegisterAppComplete
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#af3e4122cfead89cb89ca3a8c0f75bc34">chip::DeviceLayer::ChipDevicePlatformEvent</a>
 </li>
+<li>BleRXWriteEvent
+: <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#af4ac75cabd61908450b32d0eff0a0968">chip::DeviceLayer::ChipDevicePlatformEvent</a>
+</li>
 <li>BLESubscribeOpComplete
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a4668ebaaf427a180102639855f63181a">chip::DeviceLayer::ChipDevicePlatformEvent</a>
+</li>
+<li>BleTXCompleteEvent
+: <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a9d83a74a88513d500e974a919708924b">chip::DeviceLayer::ChipDevicePlatformEvent</a>
 </li>
 <li>BLEWriteComplete
 : <a class="el" href="structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ae2ad63f1bd34654ebc12ec4a7879de28">chip::DeviceLayer::ChipDevicePlatformEvent</a>
@@ -270,10 +273,10 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="structchip_1_1_mdns_1_1_browse_context.html#abe171fc9e6db8f926477813dbf2bda41">chip::Mdns::BrowseContext</a>
 </li>
 <li>BtConn
-: <a class="el" href="structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html#a90db7d2037839f75cdd16361e365f23f">chip::DeviceLayer::BleC1WriteEventType</a>
-, <a class="el" href="structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html#a2693438e784d35f52bbc0d15ce2918db">chip::DeviceLayer::BleC2IndDoneEventType</a>
-, <a class="el" href="structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type.html#a741b7e72dc03694adbdbf03eeb6c82ac">chip::DeviceLayer::BleCCCWriteEventType</a>
+: <a class="el" href="structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type.html#a741b7e72dc03694adbdbf03eeb6c82ac">chip::DeviceLayer::BleCCCWriteEventType</a>
 , <a class="el" href="structchip_1_1_device_layer_1_1_ble_conn_event_type.html#aa6ee42bdb765643b708486ea2df5a159">chip::DeviceLayer::BleConnEventType</a>
+, <a class="el" href="structchip_1_1_device_layer_1_1_ble_r_x_write_event_type.html#a8fe7f53ff9bfd345c1b26c8c51132abb">chip::DeviceLayer::BleRXWriteEventType</a>
+, <a class="el" href="structchip_1_1_device_layer_1_1_ble_t_x_complete_event_type.html#a66f1d3083267ffa3512d9669bbba9b93">chip::DeviceLayer::BleTXCompleteEventType</a>
 </li>
 <li>Buffer
 : <a class="el" href="classchip_1_1_chip_ble_utility_1_1_ble_rx_event.html#a375e1acad286d625da3dfccd479848d9">chip.ChipBleUtility.BleRxEvent</a>
@@ -301,7 +304,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 : <a class="el" href="structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html#a3a0b89b6b6bdee0cc0cb21681a35af97">chip::Ble::ChipBleUUID</a>
 </li>
 <li>BytesRange()
-: <a class="el" href="classmdns_1_1_minimal_1_1_bytes_range.html#a82140e4c403571b95b6547419f1da82d">mdns::Minimal::BytesRange</a>
+: <a class="el" href="classmdns_1_1_minimal_1_1_bytes_range.html#a850effa5df7f9ccd60ac8410e19c469e">mdns::Minimal::BytesRange</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -309,7 +312,7 @@ $(document).ready(function(){initNavTree('functions_b.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 20 2021 13:49:31 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 20 2021 14:04:58 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

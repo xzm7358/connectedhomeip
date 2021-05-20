@@ -2,8 +2,6 @@ var structchip_1_1_device_layer_1_1_chip_device_platform_event =
 [
     [ "Base", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a4d62d148da6ce0d702929b9054b66c5a", null ],
     [ "BleC1WriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a741d87cbb979f78b9f37bb6bc702163c", null ],
-    [ "BleC1WriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a89b893635c1e2d70473f624decfed924", null ],
-    [ "BleC2IndDoneEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a3357a00f44a25a458c6e2b12db07d022", null ],
     [ "BleCCCWriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ad9ad673951e9a590de2c512c5596e373", null ],
     [ "BLECentralConnected", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a3fb0451e77c7b33a3e93a7122fef95cb", null ],
     [ "BLECentralConnectFailed", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a75454869ef0bb10e3dd56cbe3048c3a4", null ],
@@ -13,7 +11,9 @@ var structchip_1_1_device_layer_1_1_chip_device_platform_event =
     [ "BLEPeripheralAdvStartComplete", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a565ff85b593456030207f5a3faba862a", null ],
     [ "BLEPeripheralAdvStopComplete", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ab3f62afd7e1410779b5ab6cc4739629d", null ],
     [ "BLEPeripheralRegisterAppComplete", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#af3e4122cfead89cb89ca3a8c0f75bc34", null ],
+    [ "BleRXWriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#af4ac75cabd61908450b32d0eff0a0968", null ],
     [ "BLESubscribeOpComplete", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a4668ebaaf427a180102639855f63181a", null ],
+    [ "BleTXCompleteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#a9d83a74a88513d500e974a919708924b", null ],
     [ "BLEWriteComplete", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ae2ad63f1bd34654ebc12ec4a7879de28", null ],
     [ "CHIPoBLECCCWriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#abd181c75e560ab568a60807267ae7064", null ],
     [ "CHIPoBLERXCharWriteEvent", "structchip_1_1_device_layer_1_1_chip_device_platform_event.html#ae165f9f72fcca6866f3a0dfb0c3fcda0", null ],
