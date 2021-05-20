@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"_time_utils_8h.html#ae410888206461422e1abe0407f1b020aac9cf64dc76cfc88a013b3ec9e180c126":[11,0,6,3,53,12],
+"_time_utils_8h.html#ae410888206461422e1abe0407f1b020aafce058c944a647e5f8b1a9d2936a9640":[11,0,6,3,53,10],
 "_time_utils_8h.html#aea44f91899954463f0ac0954bbdb485f":[11,0,6,3,53,49],
 "_time_utils_8h.html#aebb6cdcb55735c8ed14b2668af79a525":[11,0,6,3,53,42],
 "_time_utils_8h.html#af5bf15d4665381c3f8641ef1391dc948":[11,0,6,3,53,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "build-chip-wheel_8py.html#aee795de512286112a6b49830f0843ef3":[11,0,1,1,2,9],
 "build-chip-wheel_8py.html#af72173dc077ccdfdb2bcc7e24fe382b5":[11,0,1,1,2,14],
 "build-chip-wheel_8py.html#af8bd899af0f0a2fbe21440d70af7d19a":[11,0,1,1,2,32],
-"category_ble_connection_07_08.html":[10,0,13],
-"cc13x2__26x2-mbedtls-config_8h.html":[11,0,7,0,3],
-"cc13x2__26x2-mbedtls-config_8h.html#a02bfffc46b7b2e10c0080d29bb56e6b0":[11,0,7,0,3,34]
+"category_ble_connection_07_08.html":[10,0,13]
 };

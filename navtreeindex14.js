@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"_k32_w_2_thread_stack_manager_impl_8h_source.html":[11,0,7,5,34],
+"_k32_w_2_warm_platform_config_8h.html":[11,0,7,5,35],
 "_k32_w_2_warm_platform_config_8h.html#a17a2a8051941105b9797c22d6b73a12f":[11,0,7,5,35,1],
 "_k32_w_2_warm_platform_config_8h.html#a1968bd5a2fca4685f167bf947220a542":[11,0,7,5,35,0],
 "_k32_w_2_warm_platform_config_8h.html#a5d117f2d8cf5d4a579d0e71360a0965d":[11,0,7,5,35,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "_mdns_8h.html":[11,0,6,1,1,0],
 "_mdns_8h.html#a0754a398f1b32ce97bb2158f0e632975":[11,0,6,1,1,0,6],
 "_mdns_8h.html#a440ac2443e9cad79596da62ae3490092":[11,0,6,1,1,0,5],
-"_mdns_8h.html#a440ac2443e9cad79596da62ae3490092a04ad499e4d402961bfb6a5b109d2b51e":[11,0,6,1,1,0,5,0],
-"_mdns_8h.html#a440ac2443e9cad79596da62ae3490092a3d185fafc6e81389f3d612753b172e52":[11,0,6,1,1,0,5,1],
-"_mdns_8h.html#a440ac2443e9cad79596da62ae3490092a73428695c5688752034fb3fc15e7a270":[11,0,6,1,1,0,5,2]
+"_mdns_8h.html#a440ac2443e9cad79596da62ae3490092a04ad499e4d402961bfb6a5b109d2b51e":[11,0,6,1,1,0,5,0]
 };

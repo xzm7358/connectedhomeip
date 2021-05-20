@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"efr32-chip-mbedtls-config_8h_source.html":[11,0,7,2,13],
+"enumchip_1_1devicecontroller_1_1_chip_command_type.html":[10,0,2,13,1],
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html#a15f61a40a2da8952691c57fbd46506bd":[10,0,2,13,1,0],
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html#a16a94db2b23f40ad41de6c76e74d7c0b":[10,0,2,13,1,3],
 "enumchip_1_1devicecontroller_1_1_chip_command_type.html#a55354104236a4603562202b599b99603":[10,0,2,13,1,1],
@@ -74,8 +76,8 @@ var NAVTREEINDEX40 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,18,12],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,18,19],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,18],
-"functions.html":[10,3,0],
 "functions.html":[10,3,0,0],
+"functions.html":[10,3,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
 "functions_b.html":[10,3,0,3],
@@ -190,8 +192,8 @@ var NAVTREEINDEX40 =
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
 "globals_d.html":[11,1,0,4],
-"globals_defs.html":[11,1,6,0],
 "globals_defs.html":[11,1,6],
+"globals_defs.html":[11,1,6,0],
 "globals_defs_a.html":[11,1,6,1],
 "globals_defs_b.html":[11,1,6,2],
 "globals_defs_c.html":[11,1,6,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "globals_l.html":[11,1,0,12],
 "globals_m.html":[11,1,0,13],
 "globals_n.html":[11,1,0,14],
-"globals_o.html":[11,1,0,15],
-"globals_p.html":[11,1,0,16],
-"globals_q.html":[11,1,0,17]
+"globals_o.html":[11,1,0,15]
 };
