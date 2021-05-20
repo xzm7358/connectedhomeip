@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "base", "namespacebase.html", null ],
     [ "Ble", "namespace_ble.html", null ],
     [ "build-chip-wheel", "namespacebuild-chip-wheel.html", null ],
     [ "chip", "namespacechip.html", "namespacechip" ],
