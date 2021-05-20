@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">fb7cd0f</span>
+   &#160;<span id="projectnumber">8dc938d</span>
    </div>
   </td>
  </tr>
@@ -168,30 +168,34 @@ $(document).ready(function(){initNavTree('_e_f_r32_2_c_h_i_p_device_platform_con
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_BLE_APP_TASK_STACK_SIZE</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">  113</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE 3584</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8">  113</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE (5 * 1024)</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">  117</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (3 * 1024)</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">  120</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">  121</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">  122</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#if defined(EFR32MG21)</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (2 * 1024)</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883">  120</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE (3 * 1024)</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_THREAD_TASK_STACK_SIZE</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a763b6eb45987150fac7f061b5c86b440">  125</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME &quot;BLE_EVENT&quot;</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">  127</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ac93a8e595f5571df77ed9a9a98d7827a">  129</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_MAX_EVENT_QUEUE_SIZE 25</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#acad19e7385da5f597eb0fee94773aed3">  124</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_TELEMETRY 0</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831">  125</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY 0</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85">  126</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_ENABLE_THREAD_TELEMETRY_FULL 0</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#ifndef CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a763b6eb45987150fac7f061b5c86b440">  129</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME &quot;BLE_EVENT&quot;</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff">  131</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_LOG_PROVISIONING_HASH 0</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ac93a8e595f5571df77ed9a9a98d7827a">  133</a></span>&#160;<span class="preprocessor">#define CHIP_DEVICE_CONFIG_MAX_EVENT_QUEUE_SIZE 25</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_e35fa8df61d0eca1a5c0776eb4996f5b.html">EFR32</a></li><li class="navelem"><a class="el" href="_e_f_r32_2_c_h_i_p_device_platform_config_8h.html">CHIPDevicePlatformConfig.h</a></li>
-    <li class="footer">Generated on Thu May 20 2021 15:30:39 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 20 2021 16:07:38 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
