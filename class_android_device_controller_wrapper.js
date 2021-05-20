@@ -2,6 +2,7 @@ var class_android_device_controller_wrapper =
 [
     [ "~AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html#a7033fe9f637dabfbf52d3531a6ee408a", null ],
     [ "AllocateNew", "class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58", null ],
+    [ "CallJavaMethod", "class_android_device_controller_wrapper.html#a196205bc49e82780f4e5fc9133affe35", null ],
     [ "Controller", "class_android_device_controller_wrapper.html#afc711a21db9141899e4e932dc9a28163", null ],
     [ "FromJNIHandle", "class_android_device_controller_wrapper.html#a25de8fff08e9b12e714cc09e57389453", null ],
     [ "JavaObjectRef", "class_android_device_controller_wrapper.html#ac6b3707b2c001ad1a5a8451dc47f5d06", null ],

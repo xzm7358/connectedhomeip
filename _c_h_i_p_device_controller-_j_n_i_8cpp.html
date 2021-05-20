@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">a1159ad</span>
+   &#160;<span id="projectnumber">2bc67d7</span>
    </div>
   </td>
  </tr>
@@ -113,6 +113,8 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller-_j_n_i_8cpp
 <code>#include &lt;<a class="el" href="_safe_int_8h_source.html">support/SafeInt.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_thread_operational_dataset_8h_source.html">support/ThreadOperationalDataset.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_logging_8h_source.html">support/logging/CHIPLogging.h</a>&gt;</code><br />
+<code>#include &lt;gen/CHIPClientCallbacks.h&gt;</code><br />
+<code>#include &lt;gen/CHIPClusters.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -219,6 +221,24 @@ Functions</h2></td></tr>
 <tr class="separator:aae7ea4a249c7f15fa9535f3de7e1689b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac303354bfa95266f9761161488814860"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac303354bfa95266f9761161488814860">switch</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac633e8eddcdc1ad6f4a339f53a8c3e0f">commandID</a>)</td></tr>
 <tr class="separator:ac303354bfa95266f9761161488814860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af909ed90e270dbffecf74c6d12675a49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af909ed90e270dbffecf74c6d12675a49">memcpy</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a>, extPanIdAccessor.data(), kSizeExtendedPanId)</td></tr>
+<tr class="separator:af909ed90e270dbffecf74c6d12675a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f733dd3034d9ed87961137ffa94b208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5f733dd3034d9ed87961137ffa94b208">memcpy</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3c81a4dca66e83c3becfd7eedf1af81">masterKeyBytes</a>, masterKeyAccessor.data(), kSizeMasterKey)</td></tr>
+<tr class="separator:a5f733dd3034d9ed87961137ffa94b208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e83585ec3df78af7250e010b5eeb7ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5e83585ec3df78af7250e010b5eeb7ce">SetChannel</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a08ee0e5513f7acdde4f6a8569ed160f7">channel</a>)</td></tr>
+<tr class="separator:a5e83585ec3df78af7250e010b5eeb7ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9256e4bf1da81cdc1815ffa50074a59d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9256e4bf1da81cdc1815ffa50074a59d">SetPanId</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac9c34763726735677efb5615bb0620ce">panId</a>)</td></tr>
+<tr class="separator:a9256e4bf1da81cdc1815ffa50074a59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bcb510ad3728d029b7a17e61baca65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad1bcb510ad3728d029b7a17e61baca65">SetExtendedPanId</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a>)</td></tr>
+<tr class="separator:ad1bcb510ad3728d029b7a17e61baca65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086ea5597f93315fd7ed02eda0dda5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a086ea5597f93315fd7ed02eda0dda5b1">SetMasterKey</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3c81a4dca66e83c3becfd7eedf1af81">masterKeyBytes</a>)</td></tr>
+<tr class="separator:a086ea5597f93315fd7ed02eda0dda5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4398bcd22c08a3a64e117339d5a9752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2a83dde4171bc43eb7e59485589970b8">cluster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae4398bcd22c08a3a64e117339d5a9752">Associate</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9faecbe85c3fcba5affaecd64cbc9394">chipDevice</a>, kNodeEndpoint)</td></tr>
+<tr class="separator:ae4398bcd22c08a3a64e117339d5a9752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970aae4e0461e3298eb44256b524f0f5"><td class="memItemLeft" align="right" valign="top">ctx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a970aae4e0461e3298eb44256b524f0f5">release</a> ()</td></tr>
+<tr class="separator:a970aae4e0461e3298eb44256b524f0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa96c079c1510f3cab837e401bce90658"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aa96c079c1510f3cab837e401bce90658">ThrowError</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>)</td></tr>
+<tr class="separator:aa96c079c1510f3cab837e401bce90658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50f3563fec3eca2f8752fe1c43abb14e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a50f3563fec3eca2f8752fe1c43abb14e">JNI_METHOD</a> (jboolean, openPairingWindow)(JNIEnv *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></td></tr>
 <tr class="separator:a50f3563fec3eca2f8752fe1c43abb14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4739c77ddcb4a1bab8b8d96d48343aac"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4739c77ddcb4a1bab8b8d96d48343aac">JavaBytesToUUID</a> (JNIEnv *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, jbyteArray <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, <a class="el" href="structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html">chip::Ble::ChipBleUUID</a> &amp;uuid)</td></tr>
@@ -304,14 +324,40 @@ Variables</h2></td></tr>
 <tr class="separator:a815dc6d3b5f5e5f2bacb249c1509317b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac633e8eddcdc1ad6f4a339f53a8c3e0f"><td class="memItemLeft" align="right" valign="top">jint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac633e8eddcdc1ad6f4a339f53a8c3e0f">commandID</a> = <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>-&gt;CallIntMethod(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a029f0aa1378034b4a69f47a5a3171833">commandObj</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a815dc6d3b5f5e5f2bacb249c1509317b">commandMethodID</a>)</td></tr>
 <tr class="separator:ac633e8eddcdc1ad6f4a339f53a8c3e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da6ff25c6c9b60f70461a9658d30f2e"><td class="memItemLeft" align="right" valign="top">JNIEnv *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></td></tr>
+<tr class="separator:a9da6ff25c6c9b60f70461a9658d30f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ee0e5513f7acdde4f6a8569ed160f7"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jlong jlong jint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a08ee0e5513f7acdde4f6a8569ed160f7">channel</a></td></tr>
+<tr class="separator:a08ee0e5513f7acdde4f6a8569ed160f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c34763726735677efb5615bb0620ce"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jlong jlong jint jint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac9c34763726735677efb5615bb0620ce">panId</a></td></tr>
+<tr class="separator:ac9c34763726735677efb5615bb0620ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b078010586ccc2821a6ca6cbd60ca2"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jlong jlong jint jint jbyteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af7b078010586ccc2821a6ca6cbd60ca2">extPanId</a></td></tr>
+<tr class="separator:af7b078010586ccc2821a6ca6cbd60ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bbac25b75bd8548026e9e2343f05ac6"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jlong jlong jint jint jbyteArray jbyteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4bbac25b75bd8548026e9e2343f05ac6">masterKey</a></td></tr>
+<tr class="separator:a4bbac25b75bd8548026e9e2343f05ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0400dfb59fa9bfc585c3ed1906c03d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_thread_1_1_operational_dataset.html">OperationalDataset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a> = {}</td></tr>
+<tr class="separator:ae0400dfb59fa9bfc585c3ed1906c03d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa99543cb32103ac6f291df1232d27f8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_jni_byte_array.html">JniByteArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aa99543cb32103ac6f291df1232d27f8c">extPanIdAccessor</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af7b078010586ccc2821a6ca6cbd60ca2">extPanId</a>)</td></tr>
+<tr class="separator:aa99543cb32103ac6f291df1232d27f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa417b82ed870de2ae6d74bff85e987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_jni_byte_array.html">JniByteArray</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4fa417b82ed870de2ae6d74bff85e987">masterKeyAccessor</a> (<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4bbac25b75bd8548026e9e2343f05ac6">masterKey</a>)</td></tr>
+<tr class="separator:a4fa417b82ed870de2ae6d74bff85e987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e71e105d6fac8a8215333fbcdd6f8cc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a> [kSizeExtendedPanId]</td></tr>
+<tr class="separator:a4e71e105d6fac8a8215333fbcdd6f8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3c81a4dca66e83c3becfd7eedf1af81"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3c81a4dca66e83c3becfd7eedf1af81">masterKeyBytes</a> [kSizeMasterKey]</td></tr>
+<tr class="separator:ae3c81a4dca66e83c3becfd7eedf1af81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1310e55d32bdbdc40a345b1b3aad7d"><td class="memItemLeft" align="right" valign="top">ScopedPthreadLock lock &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a></td></tr>
+<tr class="separator:a2f1310e55d32bdbdc40a345b1b3aad7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a83dde4171bc43eb7e59485589970b8"><td class="memItemLeft" align="right" valign="top">NetworkCommissioningCluster&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2a83dde4171bc43eb7e59485589970b8">cluster</a></td></tr>
+<tr class="separator:a2a83dde4171bc43eb7e59485589970b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7daed84dce1be2401fb0d965488608d"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad7daed84dce1be2401fb0d965488608d">__pad1__</a></td></tr>
+<tr class="separator:ad7daed84dce1be2401fb0d965488608d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90d087223c31e5911feb697d75b29f3e"><td class="memItemLeft" align="right" valign="top">exit Failed to enable Thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a90d087223c31e5911feb697d75b29f3e">network</a></td></tr>
+<tr class="separator:a90d087223c31e5911feb697d75b29f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ed9ee5fb5fe689fe410fa69e4c842cb"><td class="memItemLeft" align="right" valign="top">jobject jlong jlong jint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2ed9ee5fb5fe689fe410fa69e4c842cb">duration</a></td></tr>
 <tr class="separator:a2ed9ee5fb5fe689fe410fa69e4c842cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f78ecdb81360a609ee997b3e3efa2b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_setup_payload.html">chip::SetupPayload</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4f78ecdb81360a609ee997b3e3efa2b2">setupPayload</a></td></tr>
 <tr class="separator:a4f78ecdb81360a609ee997b3e3efa2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a930920b2bc42824a5c03be681830f4b2"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a930920b2bc42824a5c03be681830f4b2">true</a></td></tr>
 <tr class="separator:a930920b2bc42824a5c03be681830f4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da6ff25c6c9b60f70461a9658d30f2e"><td class="memItemLeft" align="right" valign="top">JNIEnv *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></td></tr>
-<tr class="separator:a9da6ff25c6c9b60f70461a9658d30f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3836345291c9268bfe537fefebf1081"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3836345291c9268bfe537fefebf1081">conn</a></td></tr>
 <tr class="separator:ae3836345291c9268bfe537fefebf1081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a795f9de877ce3d7d15dcac4cfaad9023"><td class="memItemLeft" align="right" valign="top">JNIEnv jobject jint jbyteArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a></td></tr>
@@ -328,14 +374,14 @@ Variables</h2></td></tr>
 <tr class="separator:a297f13553aa59612c2d63b2ec9f6b92b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd0535ba1901d3e24b608e83a1e068f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html">chip::Ble::ChipBleUUID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#abd0535ba1901d3e24b608e83a1e068f7">charUUID</a></td></tr>
 <tr class="separator:abd0535ba1901d3e24b608e83a1e068f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7daed84dce1be2401fb0d965488608d"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad7daed84dce1be2401fb0d965488608d">__pad1__</a></td></tr>
-<tr class="separator:ad7daed84dce1be2401fb0d965488608d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed6f6e74a445eefdfeec30adf6a89604"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aed6f6e74a445eefdfeec30adf6a89604">__pad2__</a></td></tr>
 <tr class="separator:aed6f6e74a445eefdfeec30adf6a89604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0de25f08604289233b79a379bbed34"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9f0de25f08604289233b79a379bbed34">__pad3__</a></td></tr>
 <tr class="separator:a9f0de25f08604289233b79a379bbed34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dfc0c2c755c563d4faa27ec9c38d902"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3dfc0c2c755c563d4faa27ec9c38d902">__pad4__</a></td></tr>
 <tr class="separator:a3dfc0c2c755c563d4faa27ec9c38d902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f74ec887e9d47e04eeb90b9aa22679"><td class="memItemLeft" align="right" valign="top">exit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a77f74ec887e9d47e04eeb90b9aa22679">__pad5__</a></td></tr>
+<tr class="separator:a77f74ec887e9d47e04eeb90b9aa22679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of JNI bridge for CHIP Device Controller for Android apps </p>
@@ -425,6 +471,34 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae4398bcd22c08a3a64e117339d5a9752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4398bcd22c08a3a64e117339d5a9752">&#9670;&nbsp;</a></span>Associate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2a83dde4171bc43eb7e59485589970b8">cluster</a> Associate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9faecbe85c3fcba5affaecd64cbc9394">chipDevice</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">kNodeEndpoint&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a970964ab5110fcea8b6157a07003e444"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a970964ab5110fcea8b6157a07003e444">&#9670;&nbsp;</a></span>ChipLogProgress() <span class="overload">[1/9]</span></h2>
 
@@ -1838,6 +1912,74 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af909ed90e270dbffecf74c6d12675a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af909ed90e270dbffecf74c6d12675a49">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">memcpy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">extPanIdAccessor.&#160;</td>
+          <td class="paramname"><em>data</em>(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">kSizeExtendedPanId&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f733dd3034d9ed87961137ffa94b208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f733dd3034d9ed87961137ffa94b208">&#9670;&nbsp;</a></span>memcpy() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">memcpy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3c81a4dca66e83c3becfd7eedf1af81">masterKeyBytes</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">masterKeyAccessor.&#160;</td>
+          <td class="paramname"><em>data</em>(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">kSizeMasterKey&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad1f0b8d74820890af62d182b5444770f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1f0b8d74820890af62d182b5444770f">&#9670;&nbsp;</a></span>N2J_ByteArray()</h2>
 
@@ -1946,6 +2088,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a970aae4e0461e3298eb44256b524f0f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a970aae4e0461e3298eb44256b524f0f5">&#9670;&nbsp;</a></span>release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ctx release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e4dd379d849d732aa3ea84234072dc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e4dd379d849d732aa3ea84234072dc2">&#9670;&nbsp;</a></span>ReleaseStringUTFChars() <span class="overload">[1/2]</span></h2>
 
@@ -2044,6 +2203,78 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e83585ec3df78af7250e010b5eeb7ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e83585ec3df78af7250e010b5eeb7ce">&#9670;&nbsp;</a></span>SetChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a> SetChannel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a08ee0e5513f7acdde4f6a8569ed160f7">channel</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1bcb510ad3728d029b7a17e61baca65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1bcb510ad3728d029b7a17e61baca65">&#9670;&nbsp;</a></span>SetExtendedPanId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a> SetExtendedPanId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a086ea5597f93315fd7ed02eda0dda5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086ea5597f93315fd7ed02eda0dda5b1">&#9670;&nbsp;</a></span>SetMasterKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a> SetMasterKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3c81a4dca66e83c3becfd7eedf1af81">masterKeyBytes</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9256e4bf1da81cdc1815ffa50074a59d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9256e4bf1da81cdc1815ffa50074a59d">&#9670;&nbsp;</a></span>SetPanId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae0400dfb59fa9bfc585c3ed1906c03d2">dataset</a> SetPanId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac9c34763726735677efb5615bb0620ce">panId</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac303354bfa95266f9761161488814860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac303354bfa95266f9761161488814860">&#9670;&nbsp;</a></span>switch()</h2>
 
@@ -2062,8 +2293,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa96c079c1510f3cab837e401bce90658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa96c079c1510f3cab837e401bce90658">&#9670;&nbsp;</a></span>ThrowError() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ThrowError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a69f20c097142820809649ad1c5dc158a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69f20c097142820809649ad1c5dc158a">&#9670;&nbsp;</a></span>ThrowError()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f20c097142820809649ad1c5dc158a">&#9670;&nbsp;</a></span>ThrowError() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2187,6 +2446,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a77f74ec887e9d47e04eeb90b9aa22679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f74ec887e9d47e04eeb90b9aa22679">&#9670;&nbsp;</a></span>__pad5__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">exit __pad5__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c3ea1928b2efa1d7e23825de2652b24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c3ea1928b2efa1d7e23825de2652b24">&#9670;&nbsp;</a></span>addr</h2>
 
@@ -2227,7 +2500,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2239,6 +2512,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> buffer = System::PacketBufferHandle::NewWithData(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a80dc0c9a842d7737674a2be6cc9816d9">messageStr</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4acf475a48a29453c9b84d901bf2ee0e">messageLen</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08ee0e5513f7acdde4f6a8569ed160f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ee0e5513f7acdde4f6a8569ed160f7">&#9670;&nbsp;</a></span>channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JNIEnv jobject jlong jlong jint channel</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2257,7 +2544,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2283,6 +2570,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> * chipDevice = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a83dde4171bc43eb7e59485589970b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a83dde4171bc43eb7e59485589970b8">&#9670;&nbsp;</a></span>cluster</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NetworkCommissioningCluster cluster</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2357,7 +2658,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2369,6 +2670,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="qpg6100_2_ble_platform_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> connObj = reinterpret_cast&lt;<a class="el" href="qpg6100_2_ble_platform_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a>&gt;(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3836345291c9268bfe537fefebf1081">conn</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0400dfb59fa9bfc585c3ed1906c03d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0400dfb59fa9bfc585c3ed1906c03d2">&#9670;&nbsp;</a></span>dataset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classchip_1_1_thread_1_1_operational_dataset.html">OperationalDataset</a> dataset = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2387,7 +2702,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2417,7 +2732,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2447,7 +2762,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2479,6 +2794,48 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af7b078010586ccc2821a6ca6cbd60ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b078010586ccc2821a6ca6cbd60ca2">&#9670;&nbsp;</a></span>extPanId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JNIEnv jobject jlong jlong jint jint jbyteArray extPanId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa99543cb32103ac6f291df1232d27f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa99543cb32103ac6f291df1232d27f8c">&#9670;&nbsp;</a></span>extPanIdAccessor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_jni_byte_array.html">JniByteArray</a> extPanIdAccessor(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af7b078010586ccc2821a6ca6cbd60ca2">extPanId</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e71e105d6fac8a8215333fbcdd6f8cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e71e105d6fac8a8215333fbcdd6f8cc">&#9670;&nbsp;</a></span>extPanIdBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t extPanIdBytes[kSizeExtendedPanId]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a32a32b86dffbaaf5cb24fd1760ac1a91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32a32b86dffbaaf5cb24fd1760ac1a91">&#9670;&nbsp;</a></span>handle</h2>
 
@@ -2491,7 +2848,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2537,6 +2894,50 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4bbac25b75bd8548026e9e2343f05ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bbac25b75bd8548026e9e2343f05ac6">&#9670;&nbsp;</a></span>masterKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JNIEnv jobject jlong jlong jint jint jbyteArray jbyteArray masterKey</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a>             = <a class="code" href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4fa417b82ed870de2ae6d74bff85e987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa417b82ed870de2ae6d74bff85e987">&#9670;&nbsp;</a></span>masterKeyAccessor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_jni_byte_array.html">JniByteArray</a> masterKeyAccessor(<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4bbac25b75bd8548026e9e2343f05ac6">masterKey</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3c81a4dca66e83c3becfd7eedf1af81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3c81a4dca66e83c3becfd7eedf1af81">&#9670;&nbsp;</a></span>masterKeyBytes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t masterKeyBytes[kSizeMasterKey]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4acf475a48a29453c9b84d901bf2ee0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4acf475a48a29453c9b84d901bf2ee0e">&#9670;&nbsp;</a></span>messageLen</h2>
 
@@ -2563,7 +2964,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2589,6 +2990,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">Controller::SerializedDevice</a> mSerializedTestDevice</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90d087223c31e5911feb697d75b29f3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90d087223c31e5911feb697d75b29f3e">&#9670;&nbsp;</a></span>network</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">exit Failed to enable Thread network</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9c34763726735677efb5615bb0620ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9c34763726735677efb5615bb0620ce">&#9670;&nbsp;</a></span>panId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JNIEnv jobject jlong jlong jint jint panId</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2626,7 +3055,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2670,7 +3099,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2686,6 +3115,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a2f1310e55d32bdbdc40a345b1b3aad7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1310e55d32bdbdc40a345b1b3aad7d">&#9670;&nbsp;</a></span>sStackLock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ScopedPthreadLock lock&amp; sStackLock</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">        <span class="keyword">auto</span> ctx = std::make_unique&lt;NetworkCommissioningCtx&gt;(<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a>, <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91">handle</a>, <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8a7cc02e3dc07fddda8ab93a73713ee9">deviceId</a>, <a class="code" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">ByteSpan</a>(<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a>, <a class="code" href="namespacechip_1_1_thread.html#a0e4697cee4728866c310a2ee05f7785f">kSizeExtendedPanId</a>))</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a795f9de877ce3d7d15dcac4cfaad9023"></a>
@@ -2742,7 +3187,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    ScopedPthreadLock lock(&amp;sStackLock)</div>
+<div class="line">    ScopedPthreadLock lock(&amp;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a>)</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2791,13 +3236,23 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_ble_config_8h_html_a733cdf268d79c0e6edf76a3c2a809727"><div class="ttname"><a href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a></div><div class="ttdeci">#define BLE_CONNECTION_OBJECT</div><div class="ttdoc">This defines the type of BLE_CONNECTION_OBJECT parameters passed between BLE platform code and the Bl...</div><div class="ttdef"><b>Definition:</b> BleConfig.h:104</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_aaf81dc6e5363a3e74da01c8175639e22"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aaf81dc6e5363a3e74da01c8175639e22">connObj</a></div><div class="ttdeci">jobject jlong jlong jint connObj</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:268</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_acae33846b7813fd5c41b31f9432990cb"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acae33846b7813fd5c41b31f9432990cb">pinCode</a></div><div class="ttdeci">jobject jlong jlong jint jlong pinCode</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:269</div></div>
+<div class="ttc" id="anamespacechip_1_1_thread_html_a0e4697cee4728866c310a2ee05f7785f"><div class="ttname"><a href="namespacechip_1_1_thread.html#a0e4697cee4728866c310a2ee05f7785f">chip::Thread::kSizeExtendedPanId</a></div><div class="ttdeci">constexpr size_t kSizeExtendedPanId</div><div class="ttdef"><b>Definition:</b> ThreadOperationalDataset.h:39</div></div>
+<div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_aaf81dc6e5363a3e74da01c8175639e22"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#aaf81dc6e5363a3e74da01c8175639e22">connObj</a></div><div class="ttdeci">jobject jlong jlong jint connObj</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:276</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a2f1310e55d32bdbdc40a345b1b3aad7d"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2f1310e55d32bdbdc40a345b1b3aad7d">sStackLock</a></div><div class="ttdeci">ScopedPthreadLock lock &amp; sStackLock</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:582</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a4e71e105d6fac8a8215333fbcdd6f8cc"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a4e71e105d6fac8a8215333fbcdd6f8cc">extPanIdBytes</a></div><div class="ttdeci">uint8_t extPanIdBytes[kSizeExtendedPanId]</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:564</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a32a32b86dffbaaf5cb24fd1760ac1a91"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91">handle</a></div><div class="ttdeci">jobject jlong handle</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:276</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">CHIP_ERROR err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:248</div></div>
+<div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a8a7cc02e3dc07fddda8ab93a73713ee9"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8a7cc02e3dc07fddda8ab93a73713ee9">deviceId</a></div><div class="ttdeci">jobject jlong jlong deviceId</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:276</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_acae33846b7813fd5c41b31f9432990cb"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#acae33846b7813fd5c41b31f9432990cb">pinCode</a></div><div class="ttdeci">jobject jlong jlong jint jlong pinCode</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:277</div></div>
+<div class="ttc" id="anamespacechip_html_a96f429e9adf7dbc278167a45674cb1b3"><div class="ttname"><a href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a></div><div class="ttdeci">Span&lt; uint8_t &gt; ByteSpan</div><div class="ttdef"><b>Definition:</b> Span.h:61</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a9da6ff25c6c9b60f70461a9658d30f2e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a9da6ff25c6c9b60f70461a9658d30f2e">env</a></div><div class="ttdeci">JNIEnv * env</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:556</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_3ff1561482c489189ee255c04d29efa4.html">java</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html">CHIPDeviceController-JNI.cpp</a></li>
-    <li class="footer">Generated on Thu May 20 2021 19:49:21 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 20 2021 20:14:16 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
