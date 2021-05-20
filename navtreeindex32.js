@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classchip_1_1_packet_header.html#a84eadb192518dfceaa979fa01b0cec34":[10,0,2,61,22],
 "classchip_1_1_packet_header.html#a9a8dd152f038c036aa9c21e7cd368d6e":[10,0,2,61,19],
 "classchip_1_1_packet_header.html#a9eb2d1719daa24ae22370fe9261bf3c2":[10,0,2,61,20],
 "classchip_1_1_packet_header.html#ab45d286e2d1ad8ff032fcda297f83250":[10,0,2,61,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classchip_1_1_string_builder_base.html":[10,0,2,83],
 "classchip_1_1_string_builder_base.html#a5f478a4535d7de8276cd0f81df605c5a":[10,0,2,83,4],
 "classchip_1_1_string_builder_base.html#a97bec87a76dd95b5847d4fb5db5be285":[10,0,2,83,0],
-"classchip_1_1_string_builder_base.html#abaabe663a5a01ea945484f238a17407c":[10,0,2,83,2],
-"classchip_1_1_string_builder_base.html#ac89aa163016230677a23a4570c8c1808":[10,0,2,83,3]
+"classchip_1_1_string_builder_base.html#abaabe663a5a01ea945484f238a17407c":[10,0,2,83,2]
 };

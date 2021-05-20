@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">38e12dd</span>
+   &#160;<span id="projectnumber">dfb2285</span>
    </div>
   </td>
  </tr>
@@ -134,59 +134,60 @@ $(document).ready(function(){initNavTree('_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__u
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629ab2461e2c95e6276b2719dd043607a552">   45</a></span>&#160;    <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629ab2461e2c95e6276b2719dd043607a552">kKeyId_NotInitialized</a>           = 0,</div>
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a6467707ec24383096e1f0e6d7fd9b170">   46</a></span>&#160;    <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a6467707ec24383096e1f0e6d7fd9b170">kKeyId_pbkdf2_sha256_hmac_keyid</a> = 0xBCBCBCBC,</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a84803a6711c82c51366347dd30b898b4">   47</a></span>&#160;    <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a84803a6711c82c51366347dd30b898b4">kKeyId_hkdf_sha256_hmac_keyid</a>,</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">// Enable the below macro to make spake HSM imlementation reentrant.</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#ae8d2c131ebda375ea5735d3cda9ae6ec">   51</a></span>&#160;<span class="preprocessor">#define ENABLE_REENTRANCY 0</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define MAX_SPAKE_CRYPTO_OBJECT 20</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_IDX_OBJID 0</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_IDX_STATUS 1</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_OBJID_STATUS_USED 1</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_OBJID_STATUS_FREE 0</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define LIMIT_CRYPTO_OBJECTS 2</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">/* To keep track of number of spake crypto objects created */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> spake_objects_created;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/* Open session to se05x */</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a472034d4fec014d21c3394c6ea693387">se05x_sessionOpen</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">/* Delete key in se05x */</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a5768e2a64c9f3a31e77c04f07d3d8857">se05x_delete_key</a>(uint32_t keyid);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">/* Set key in se05x */</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#ad36f6169ab95ed19ed6996b288be868f">se05x_set_key</a>(uint32_t keyid, <span class="keyword">const</span> uint8_t * key, <span class="keywordtype">size_t</span> keylen, sss_key_part_t keyPart, sss_cipher_type_t cipherType);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">/* Init crypto object mutext */</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">void</span> init_cryptoObj_mutex(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">/* Delete all crypto objects in se05x */</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keywordtype">void</span> delete_crypto_objects(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">/* Get unused object id */</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;SE05x_CryptoObjectID_t getObjID(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/* Set object id status */</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">void</span> setObjID(SE05x_CryptoObjectID_t objId, uint8_t status);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif //#if ENABLE_REENTRANCY</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/*_CHIP_CRYPTO_PAL_HSM_SE05X_UTILS_*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a239978b5590b28a7bdfd2ffdd879906a">   48</a></span>&#160;    <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a239978b5590b28a7bdfd2ffdd879906a">kKeyId_sha256_ecc_pub_keyid</a>,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// Enable the below macro to make spake HSM imlementation reentrant.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#ae8d2c131ebda375ea5735d3cda9ae6ec">   52</a></span>&#160;<span class="preprocessor">#define ENABLE_REENTRANCY 0</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define MAX_SPAKE_CRYPTO_OBJECT 20</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_IDX_OBJID 0</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_IDX_STATUS 1</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_OBJID_STATUS_USED 1</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#define OBJ_ID_TABLE_OBJID_STATUS_FREE 0</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define LIMIT_CRYPTO_OBJECTS 2</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">/* To keep track of number of spake crypto objects created */</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> spake_objects_created;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">/* Open session to se05x */</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a472034d4fec014d21c3394c6ea693387">se05x_sessionOpen</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">/* Delete key in se05x */</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a5768e2a64c9f3a31e77c04f07d3d8857">se05x_delete_key</a>(uint32_t keyid);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">/* Set key in se05x */</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#ad36f6169ab95ed19ed6996b288be868f">se05x_set_key</a>(uint32_t keyid, <span class="keyword">const</span> uint8_t * key, <span class="keywordtype">size_t</span> keylen, sss_key_part_t keyPart, sss_cipher_type_t cipherType);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#if ENABLE_REENTRANCY</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">/* Init crypto object mutext */</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordtype">void</span> init_cryptoObj_mutex(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">/* Delete all crypto objects in se05x */</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> delete_crypto_objects(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">/* Get unused object id */</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;SE05x_CryptoObjectID_t getObjID(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">/* Set object id status */</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> setObjID(SE05x_CryptoObjectID_t objId, uint8_t status);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif //#if ENABLE_REENTRANCY</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/*_CHIP_CRYPTO_PAL_HSM_SE05X_UTILS_*/</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_c_h_i_p_crypto_p_a_l_8h_html"><div class="ttname"><a href="_c_h_i_p_crypto_p_a_l_8h.html">CHIPCryptoPAL.h</a></div></div>
@@ -252,7 +253,9 @@ $(document).ready(function(){initNavTree('_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__u
 <div class="ttc" id="a_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h_html_a5768e2a64c9f3a31e77c04f07d3d8857"><div class="ttname"><a href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a5768e2a64c9f3a31e77c04f07d3d8857">se05x_delete_key</a></div><div class="ttdeci">void se05x_delete_key(uint32_t keyid)</div><div class="ttdef"><b>Definition:</b> CHIPCryptoPALHsm_SE05X_utils.cpp:119</div></div>
 <div class="ttc" id="anamespacechip_1_1_crypto_html_a79d460d3af6280c5cff31d710d512b4aa86a1b7a8a0174e8544b075c7d53529b3"><div class="ttname"><a href="namespacechip_1_1_crypto.html#a79d460d3af6280c5cff31d710d512b4aa86a1b7a8a0174e8544b075c7d53529b3">chip::Crypto::CHIP_SPAKE2P_ROLE::VERIFIER</a></div><div class="ttdeci">@ VERIFIER</div></div>
 <div class="ttc" id="anamespacechip_1_1_uint8_html_a70fbcc4088bad20ebc9e3f409455f19d"><div class="ttname"><a href="namespacechip_1_1_uint8.html#a70fbcc4088bad20ebc9e3f409455f19d">chip::Uint8::to_const_uchar</a></div><div class="ttdeci">const unsigned char * to_const_uchar(const uint8_t *in)</div><div class="ttdoc">Safely typecast a pointer to const uint8_t to const unsigned char.</div><div class="ttdef"><b>Definition:</b> CHIPSafeCasts.h:128</div></div>
+<div class="ttc" id="a_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h_html_a9d29adf00dfa98e931643b3ff12ce629a239978b5590b28a7bdfd2ffdd879906a"><div class="ttname"><a href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629a239978b5590b28a7bdfd2ffdd879906a">kKeyId_sha256_ecc_pub_keyid</a></div><div class="ttdeci">@ kKeyId_sha256_ecc_pub_keyid</div><div class="ttdef"><b>Definition:</b> CHIPCryptoPALHsm_SE05X_utils.h:48</div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html_a9b0000281e6340c0477a884d87f579a1"><div class="ttname"><a href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a></div><div class="ttdeci">#define ChipLogError(MOD, MSG,...)</div><div class="ttdoc">Log a chip message for the specified module in the 'Error' category.</div><div class="ttdef"><b>Definition:</b> CHIPLogging.h:98</div></div>
+<div class="ttc" id="a_c_h_i_p_error_8h_html_a1e3af6ae980be3b6539ae74e29734950"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a1e3af6ae980be3b6539ae74e29734950">CHIP_ERROR_INVALID_SIGNATURE</a></div><div class="ttdeci">#define CHIP_ERROR_INVALID_SIGNATURE</div><div class="ttdoc">Invalid signature.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:281</div></div>
 <div class="ttc" id="anamespacechip_1_1_crypto_html_a46741b2cb6f71eefcc4f7906ce00d1f7"><div class="ttname"><a href="namespacechip_1_1_crypto.html#a46741b2cb6f71eefcc4f7906ce00d1f7">chip::Crypto::kMax_Salt_Length</a></div><div class="ttdeci">const size_t kMax_Salt_Length</div><div class="ttdef"><b>Definition:</b> CHIPCryptoPAL.h:51</div></div>
 <div class="ttc" id="aclasschip_1_1_crypto_1_1_h_k_d_f__sha_h_s_m_html_ae1c5e1d32e056216323a4cf71232e995"><div class="ttname"><a href="classchip_1_1_crypto_1_1_h_k_d_f__sha_h_s_m.html#ae1c5e1d32e056216323a4cf71232e995">chip::Crypto::HKDF_shaHSM::~HKDF_shaHSM</a></div><div class="ttdeci">~HKDF_shaHSM()</div></div>
 <div class="ttc" id="a_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h_html_a9d29adf00dfa98e931643b3ff12ce629"><div class="ttname"><a href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html#a9d29adf00dfa98e931643b3ff12ce629">keyid_values</a></div><div class="ttdeci">keyid_values</div><div class="ttdef"><b>Definition:</b> CHIPCryptoPALHsm_SE05X_utils.h:43</div></div>
@@ -283,7 +286,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__u
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4261af1259721e3e39e0d2dd7354b511.html">crypto</a></li><li class="navelem"><a class="el" href="dir_b7ff730521c4c61d81ed41de05dcb7e2.html">hsm</a></li><li class="navelem"><a class="el" href="dir_a4b8d95f087b73d1ea3a9223fa1d21ff.html">nxp</a></li><li class="navelem"><a class="el" href="_c_h_i_p_crypto_p_a_l_hsm___s_e05_x__utils_8h.html">CHIPCryptoPALHsm_SE05X_utils.h</a></li>
-    <li class="footer">Generated on Thu May 20 2021 17:39:37 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 20 2021 18:03:32 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

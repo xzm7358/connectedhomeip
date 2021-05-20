@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"_safe_pointer_cast_8h.html":[11,0,6,3,43],
 "_safe_pointer_cast_8h.html#aee017799f072a54ed1aeab9f343b8675":[11,0,6,3,43,0],
 "_safe_pointer_cast_8h_source.html":[11,0,6,3,43],
 "_safe_string_8h.html":[11,0,6,3,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "_system_error_8h.html#a3e4d1acd6887e3c80792935d87566e8f":[11,0,9,5,5],
 "_system_error_8h.html#a4ca1ffebca320af5394417b4b2acfd70":[11,0,9,5,7],
 "_system_error_8h.html#a4d36b3c7fe04a93583a87a283375fd21":[11,0,9,5,9],
-"_system_error_8h.html#a854633735a8b90cce116542d8870753d":[11,0,9,5,4],
-"_system_error_8h.html#aa8af2715e33a8746d04f2438fb64ebe4":[11,0,9,5,2]
+"_system_error_8h.html#a854633735a8b90cce116542d8870753d":[11,0,9,5,4]
 };

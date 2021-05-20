@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ad117d1b82f4401e43ae4cc7844f6d6de":[10,0,2,14,0,12,56],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ad5f897a3190f0678fa7db9db95247d1b":[10,0,2,14,0,12,3],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ad7c9cdc19c2eb6fc07ffc9da91516f8d":[10,0,2,14,0,12,24],
 "classchip_1_1_device_layer_1_1_internal_1_1_e_f_r32_config.html#ada7fda28af4146ef87709bc77a877573":[10,0,2,14,0,12,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html":[10,0,2,14,0,22],
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a0428e5d32fef4fef2b20fd1d27ac1bc1":[10,0,2,14,0,22,7],
 "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a0c99c0bbe8e2a30a4e7e8f60b2145f9d":[10,0,2,14,0,22,4],
-"classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a13f9108893e55a4f4bbd8e94539a265e":[10,0,2,14,0,22,18],
-"classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a1459138b6e9ae07fedb44d6813f43f05":[10,0,2,14,0,22,13]
+"classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html#a13f9108893e55a4f4bbd8e94539a265e":[10,0,2,14,0,22,18]
 };

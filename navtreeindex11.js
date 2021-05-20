@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"_e_s_p32_2_c_h_i_p_platform_config_8h.html#ae366c4c689a670ff593bb13aac35237f":[11,0,7,3,6,14],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#ae3fb731b68c0b7bb776dd7fc89d9fa0f":[11,0,7,3,6,20],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#aeb5e46f4bd0e9d4a790ce359b72033e1":[11,0,7,3,6,4],
 "_e_s_p32_2_c_h_i_p_platform_config_8h.html#af272e272fa202559e508daaa392d1a5a":[11,0,7,3,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "_generic_configuration_manager_impl_8h_source.html":[11,0,4,0,0,8],
 "_generic_connectivity_manager_impl_8h.html":[11,0,4,0,0,9],
 "_generic_connectivity_manager_impl_8h_source.html":[11,0,4,0,0,9],
-"_generic_connectivity_manager_impl___b_l_e_8cpp.html":[11,0,4,0,0,10],
-"_generic_connectivity_manager_impl___b_l_e_8cpp.html#a43fa817215159bea8b6d7203c5936336":[11,0,4,0,0,10,0]
+"_generic_connectivity_manager_impl___b_l_e_8cpp.html":[11,0,4,0,0,10]
 };

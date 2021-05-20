@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"_linux_2_ble_platform_config_8h.html#acb6e2ad865d7c11a97ad1410b95ff192":[11,0,7,6,3,0],
 "_linux_2_ble_platform_config_8h_source.html":[11,0,7,6,3],
 "_linux_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,6,4],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b":[11,0,7,6,4,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "_message_counter_8h.html":[11,0,11,5],
 "_message_counter_8h_source.html":[11,0,11,5],
 "_message_counter_manager_interface_8h.html":[11,0,11,6],
-"_message_counter_manager_interface_8h_source.html":[11,0,11,6],
-"_message_header_8cpp.html":[11,0,11,0,3]
+"_message_counter_manager_interface_8h_source.html":[11,0,11,6]
 };

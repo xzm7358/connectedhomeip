@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"nrfconnect_2_c_h_i_p_platform_config_8h.html#aa3e4561a1a56490753b2439dd46b337f":[11,0,7,8,5,30],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#aa8b734a5e4a184c82af017739a2c2939":[11,0,7,8,5,17],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#aa8cb98d017ed7e8bb3d37f122ebfe275":[11,0,7,8,5,14],
 "nrfconnect_2_c_h_i_p_platform_config_8h.html#aab03d621d59a610c7ceabe15aa617506":[11,0,7,8,5,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "qpg6100_2_system_platform_config_8h.html#a9e6575bf3bf0bbd6761fb9e3b0052ab9":[11,0,7,10,24,8],
 "qpg6100_2_system_platform_config_8h.html#a9fca2cd00b3f20d8d5b46563a2a6f588":[11,0,7,10,24,4],
 "qpg6100_2_system_platform_config_8h.html#aa1327437ab12ec65a58722a5ce8285bc":[11,0,7,10,24,3],
-"qpg6100_2_system_platform_config_8h.html#aa7ee58ed85cad8761d763616660d5a58":[11,0,7,10,24,14],
-"qpg6100_2_system_platform_config_8h.html#abca852524c4bf223f6e23416015c0c7b":[11,0,7,10,24,9]
+"qpg6100_2_system_platform_config_8h.html#aa7ee58ed85cad8761d763616660d5a58":[11,0,7,10,24,14]
 };

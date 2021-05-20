@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classmdns_1_1_minimal_1_1_txt_responder.html":[10,0,4,0,40],
 "classmdns_1_1_minimal_1_1_txt_responder.html#a13e3e55632cd49b5c18b01ca3fd592b4":[10,0,4,0,40,1],
 "classmdns_1_1_minimal_1_1_txt_responder.html#a3f76c95408a1c6cc31531e1a85ccdf60":[10,0,4,0,40,0],
 "clusters_2____init_____8py.html":[11,0,1,1,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "freertos__bluetooth_8c.html#a36c9475702d63fe8c573e83b181dd4b5":[11,0,7,2,17,33],
 "freertos__bluetooth_8c.html#a387e12db7793219b03e14ecedcaa98a6":[11,0,7,2,17,25],
 "freertos__bluetooth_8c.html#a41af01a6f8328e3c709b3f206eb46d0e":[11,0,7,2,17,12],
-"freertos__bluetooth_8c.html#a498ebade47fe569443874e6f4c7292a2":[11,0,7,2,17,14],
-"freertos__bluetooth_8c.html#a5fa0a6135963f0979343d2be850c427b":[11,0,7,2,17,28]
+"freertos__bluetooth_8c.html#a498ebade47fe569443874e6f4c7292a2":[11,0,7,2,17,14]
 };
