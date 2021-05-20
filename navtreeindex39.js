@@ -1,5 +1,11 @@
 var NAVTREEINDEX39 =
 {
+"classmdns_1_1_minimal_1_1_server_delegate.html#a52e1e387bd683913fa74d342dbc0d812":[10,0,4,0,34,0],
+"classmdns_1_1_minimal_1_1_server_delegate.html#ad31b9ebaaa811bd95c9d546193049f6d":[10,0,4,0,34,1],
+"classmdns_1_1_minimal_1_1_srv_record.html":[10,0,4,0,35],
+"classmdns_1_1_minimal_1_1_srv_record.html#a0da6828c6f1c1f4d71534a81ed0174c2":[10,0,4,0,35,5],
+"classmdns_1_1_minimal_1_1_srv_record.html#a3cc4000d44a17a1e4724202a5443a234":[10,0,4,0,35,3],
+"classmdns_1_1_minimal_1_1_srv_record.html#a58a3d4ed33a0744114dd0694a6db5a95":[10,0,4,0,35,1],
 "classmdns_1_1_minimal_1_1_srv_record.html#a6ea433672d42553c61e0dafde9216d31":[10,0,4,0,35,4],
 "classmdns_1_1_minimal_1_1_srv_record.html#a9cbdf8e07ecdafa467f4f89fcea8f072":[10,0,4,0,35,0],
 "classmdns_1_1_minimal_1_1_srv_record.html#ae576f91587bad07eb74386eab75e58a3":[10,0,4,0,35,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX39 =
 "efr32-chip-mbedtls-config_8h.html#af4c97c30b6084ceb60392781b93c9f58":[11,0,7,2,13,17],
 "efr32-chip-mbedtls-config_8h.html#af94154babf29f672996ee60bd046f5cf":[11,0,7,2,13,29],
 "efr32-chip-mbedtls-config_8h_source.html":[11,0,7,2,13],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html":[10,0,2,13,1],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a15f61a40a2da8952691c57fbd46506bd":[10,0,2,13,1,0],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a16a94db2b23f40ad41de6c76e74d7c0b":[10,0,2,13,1,3],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a55354104236a4603562202b599b99603":[10,0,2,13,1,1],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a5adf64cbb2ed5fa37253184bc1476405":[10,0,2,13,1,2],
-"enumchip_1_1devicecontroller_1_1_chip_command_type.html#a61998163e2ed763c7cda73ac4d13de14":[10,0,2,13,1,4],
-"enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html":[10,0,2,30,0,0]
+"enumchip_1_1devicecontroller_1_1_chip_command_type.html":[10,0,2,13,1]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"_resolver___impl_minimal_mdns_8cpp.html#a09cd4b302b11deb0a8a0390a374cecc2":[11,0,6,1,11,3],
+"_resolver___impl_minimal_mdns_8cpp.html#a36bb446c6632fad09a455b135226cc41":[11,0,6,1,11,7],
+"_resolver___impl_minimal_mdns_8cpp.html#a4cf64a072d913fb0de5ef0fb0e46a74a":[11,0,6,1,11,9],
 "_resolver___impl_minimal_mdns_8cpp.html#a4e28032b34822686e1d1d0bbc58b2544":[11,0,6,1,11,4],
 "_resolver___impl_minimal_mdns_8cpp.html#a5c6d156d7ca4f142fc9a8e11f8388c27":[11,0,6,1,11,1],
 "_resolver___impl_minimal_mdns_8cpp.html#a758081b08a26b6049be7b1f32f9c64fd":[11,0,6,1,11,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "_system_config_8h.html#ad68a121d966f5b6c66401e93622b9044":[11,0,9,3,2],
 "_system_config_8h.html#ae3783135bfac3f20bd27543c81484e47":[11,0,9,3,13],
 "_system_config_8h.html#af9a57000525ee61c1447933e8d84f74f":[11,0,9,3,1],
-"_system_config_8h_source.html":[11,0,9,3],
-"_system_error_8cpp.html":[11,0,9,4],
-"_system_error_8cpp.html#a08beabeb2850e8594a07ecdf12e2b51f":[11,0,9,4,0],
-"_system_error_8cpp.html#a16b6ca60b95e36e451fe73a71c0d4171":[11,0,9,4,9]
+"_system_config_8h_source.html":[11,0,9,3]
 };
