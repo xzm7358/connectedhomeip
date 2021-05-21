@@ -218,8 +218,8 @@ var NAVTREEINDEX =
 "namespacechip_1_1_chip_ble_base.html",
 "nrfconnect_2_c_h_i_p_device_platform_config_8h.html#a756d1617d7a9b4b471711fc3dee3f3ab",
 "qpg6100_2_inet_platform_config_8h.html#a025fec14f12c20ac5d9994f88317990d",
-"structchip_1_1_device_layer_1_1_chip_device_event.html#a4cce0142d70d0ce4873bbcd2cfbc9cfb",
-"structchip_1_1_variant.html#aad2348819ad62b6f42413448bba048e4"
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a47c6da698f378615697fdb1d5d8f932c",
+"structchip_1_1_variant.html#a6541290e5bb2aabe8ebdaf1537650faa"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

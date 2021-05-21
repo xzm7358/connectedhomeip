@@ -1,5 +1,7 @@
 var NAVTREEINDEX46 =
 {
+"structchip_1_1_variant.html#a6541290e5bb2aabe8ebdaf1537650faa":[10,0,2,88,3],
+"structchip_1_1_variant.html#a65af3d4168e898613a2fef5e0eec51a9":[10,0,2,88,2],
 "structchip_1_1_variant.html#aad2348819ad62b6f42413448bba048e4":[10,0,2,88,4],
 "structchip_1_1_variant.html#ac1ff2f04b07f79c436e9f3802dba420f":[10,0,2,88,1],
 "structchip_1_1_variant.html#ad56b9492d7bd11dee97805f5fe336d6d":[10,0,2,88,9],
