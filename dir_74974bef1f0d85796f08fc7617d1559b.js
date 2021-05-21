@@ -34,6 +34,7 @@ var dir_74974bef1f0d85796f08fc7617d1559b =
     [ "openthread-core-cc13x2_26x2-config.h", "openthread-core-cc13x2__26x2-config_8h.html", "openthread-core-cc13x2__26x2-config_8h" ],
     [ "PlatformManagerImpl.cpp", "cc13x2__26x2_2_platform_manager_impl_8cpp.html", "cc13x2__26x2_2_platform_manager_impl_8cpp" ],
     [ "PlatformManagerImpl.h", "cc13x2__26x2_2_platform_manager_impl_8h.html", "cc13x2__26x2_2_platform_manager_impl_8h" ],
+    [ "Random.c", "_random_8c.html", "_random_8c" ],
     [ "SystemPlatformConfig.h", "cc13x2__26x2_2_system_platform_config_8h.html", "cc13x2__26x2_2_system_platform_config_8h" ],
     [ "ThreadStackManagerImpl.cpp", "cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html", "cc13x2__26x2_2_thread_stack_manager_impl_8cpp" ],
     [ "ThreadStackManagerImpl.h", "cc13x2__26x2_2_thread_stack_manager_impl_8h.html", "cc13x2__26x2_2_thread_stack_manager_impl_8h" ]

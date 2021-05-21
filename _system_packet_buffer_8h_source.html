@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7dbc566</span>
+   &#160;<span id="projectnumber">82a8544</span>
    </div>
   </td>
  </tr>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('_system_packet_buffer_8h_source.html',
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#if !CHIP_SYSTEM_CONFIG_USE_LWIP</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keyword">struct </span>pbuf</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">struct </span>pbuf * next;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">struct </span>pbuf * <a class="code" href="_random_8c.html#ae3d9c203031a75cf83ae5b2aa5cde689">next</a>;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">void</span> * <a class="code" href="_setup_payload_parser-_j_n_i_8cpp.html#a5ea97d2c9a0075e8da5e7f1bd36523d5">payload</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    uint16_t tot_len;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    uint16_t len;</div>
@@ -295,7 +295,7 @@ $(document).ready(function(){initNavTree('_system_packet_buffer_8h_source.html',
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> Free(PacketBuffer * aPacket);</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keyword">static</span> PacketBuffer * FreeHead(PacketBuffer * aPacket);</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    PacketBuffer * ChainedBuffer()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>PacketBuffer *<span class="keyword">&gt;</span>(this-&gt;next); }</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    PacketBuffer * ChainedBuffer()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>PacketBuffer *<span class="keyword">&gt;</span>(this-&gt;<a class="code" href="_random_8c.html#ae3d9c203031a75cf83ae5b2aa5cde689">next</a>); }</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    PacketBuffer * Consume(uint16_t aConsumeLength);</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordtype">void</span> Clear();</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="keywordtype">void</span> SetDataLength(uint16_t aNewLen, PacketBuffer * aChainHead);</div>
@@ -619,6 +619,7 @@ $(document).ready(function(){initNavTree('_system_packet_buffer_8h_source.html',
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_handle_html_a0917ef83743d123d742c485871c3d8c1"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a0917ef83743d123d742c485871c3d8c1">chip::System::PacketBufferHandle::HasSoleOwnership</a></div><div class="ttdeci">bool HasSoleOwnership() const</div><div class="ttdoc">Test whether the PacketBuffer owned by this PacketBufferHandle has unique ownership.</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:501</div></div>
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_handle_html_a969b989269644ed8222cf725c8cde641"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a969b989269644ed8222cf725c8cde641">chip::System::PacketBufferHandle::GetLwIPpbuf</a></div><div class="ttdeci">static struct pbuf * GetLwIPpbuf(const PacketBufferHandle &amp;handle)</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:680</div></div>
 <div class="ttc" id="anamespacechip_1_1_platform_html_a950456e26ddbc713055c6fdb56136247"><div class="ttname"><a href="namespacechip_1_1_platform.html#a950456e26ddbc713055c6fdb56136247">chip::Platform::New</a></div><div class="ttdeci">T * New(Args &amp;&amp;... args)</div><div class="ttdoc">This function wraps the operator new with placement-new using MemoryAlloc().</div><div class="ttdef"><b>Definition:</b> CHIPMem.h:142</div></div>
+<div class="ttc" id="a_random_8c_html_ae3d9c203031a75cf83ae5b2aa5cde689"><div class="ttname"><a href="_random_8c.html#ae3d9c203031a75cf83ae5b2aa5cde689">next</a></div><div class="ttdeci">static unsigned long int next</div><div class="ttdef"><b>Definition:</b> Random.c:25</div></div>
 <div class="ttc" id="aclasschip_1_1_encoding_1_1_packet_buffer_writer_base_html_a841a45805e9e5cb3448bb4b05b5f65c8"><div class="ttname"><a href="classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8">chip::Encoding::PacketBufferWriterBase::IsNull</a></div><div class="ttdeci">bool IsNull() const</div><div class="ttdoc">Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer.</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:796</div></div>
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_html_ac11c699a8ec904363af2af0d4cd46014"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer.html#ac11c699a8ec904363af2af0d4cd46014">chip::System::PacketBuffer::AddToEnd</a></div><div class="ttdeci">void AddToEnd(PacketBufferHandle &amp;&amp;aPacket)</div><div class="ttdoc">Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer...</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.cpp:257</div></div>
 <div class="ttc" id="aclasschip_1_1_system_1_1_packet_buffer_html"><div class="ttname"><a href="classchip_1_1_system_1_1_packet_buffer.html">chip::System::PacketBuffer</a></div><div class="ttdoc">The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...</div><div class="ttdef"><b>Definition:</b> SystemPacketBuffer.h:134</div></div>
@@ -663,7 +664,7 @@ $(document).ready(function(){initNavTree('_system_packet_buffer_8h_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d501334aeb1b78ad67cd3c72c37b1e87.html">system</a></li><li class="navelem"><a class="el" href="_system_packet_buffer_8h.html">SystemPacketBuffer.h</a></li>
-    <li class="footer">Generated on Thu May 20 2021 23:04:08 for Connected Home over IP by
+    <li class="footer">Generated on Fri May 21 2021 06:06:27 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

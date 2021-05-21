@@ -1,5 +1,9 @@
 var NAVTREEINDEX39 =
 {
+"classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7":[10,0,4,0,33,2],
+"classmdns_1_1_minimal_1_1_server_base.html#ae58d8ce89ca1628df48eef6030cc2e19":[10,0,4,0,33,10],
+"classmdns_1_1_minimal_1_1_server_base.html#af6b4f7d2958dc0c884ed414361ddd0c4":[10,0,4,0,33,5],
+"classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933":[10,0,4,0,33,9],
 "classmdns_1_1_minimal_1_1_server_delegate.html":[10,0,4,0,34],
 "classmdns_1_1_minimal_1_1_server_delegate.html#a055492ea95f57d3b5d247a32fec5e175":[10,0,4,0,34,2],
 "classmdns_1_1_minimal_1_1_server_delegate.html#a52e1e387bd683913fa74d342dbc0d812":[10,0,4,0,34,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX39 =
 "efr32-chip-mbedtls-config_8h.html#adba50fdb786e1708b3360bd04bb77bd1":[11,0,7,2,13,16],
 "efr32-chip-mbedtls-config_8h.html#ae0290beb1dc98ac21d930144d34ae2d0":[11,0,7,2,13,8],
 "efr32-chip-mbedtls-config_8h.html#ae46bbbec93735b6d601991c5ff22b767":[11,0,7,2,13,67],
-"efr32-chip-mbedtls-config_8h.html#ae58dba1b4a4c30f8c4d2f0e6080351af":[11,0,7,2,13,48],
-"efr32-chip-mbedtls-config_8h.html#ae9d24fd58758d905e43ace39f9798b46":[11,0,7,2,13,18],
-"efr32-chip-mbedtls-config_8h.html#af1b8731adc061cf1cc1826035e32e941":[11,0,7,2,13,6],
-"efr32-chip-mbedtls-config_8h.html#af4c97c30b6084ceb60392781b93c9f58":[11,0,7,2,13,17],
-"efr32-chip-mbedtls-config_8h.html#af94154babf29f672996ee60bd046f5cf":[11,0,7,2,13,29]
+"efr32-chip-mbedtls-config_8h.html#ae58dba1b4a4c30f8c4d2f0e6080351af":[11,0,7,2,13,48]
 };

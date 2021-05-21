@@ -1294,7 +1294,7 @@ var searchData=
   ['chiputility_2epy_1974',['ChipUtility.py',['../_chip_utility_8py.html',1,'']]],
   ['chipvendoridentifiers_2ehpp_1975',['CHIPVendorIdentifiers.hpp',['../_c_h_i_p_vendor_identifiers_8hpp.html',1,'']]],
   ['chipworkqueue_1976',['chipWorkQueue',['../interface_ble_connection.html#af11a047638b4a5cd34f7be737be401f9',1,'BleConnection']]],
-  ['chromecast_5fsetup_5fservice_1977',['chromecast_setup_service',['../namespacechip_1_1_chip_bluez_mgr.html#a17b2c0433842ccab1e88e6fcca0aba3e',1,'chip.ChipBluezMgr.chromecast_setup_service()'],['../namespacechip_1_1_chip_core_bluetooth_mgr.html#a90fe40d39ef9a80a009357220df90c10',1,'chip.ChipCoreBluetoothMgr.CHROMECAST_SETUP_SERVICE()']]],
+  ['chromecast_5fsetup_5fservice_1977',['CHROMECAST_SETUP_SERVICE',['../namespacechip_1_1_chip_core_bluetooth_mgr.html#a90fe40d39ef9a80a009357220df90c10',1,'chip.ChipCoreBluetoothMgr.CHROMECAST_SETUP_SERVICE()'],['../namespacechip_1_1_chip_bluez_mgr.html#a17b2c0433842ccab1e88e6fcca0aba3e',1,'chip.ChipBluezMgr.chromecast_setup_service()']]],
   ['chromecast_5fsetup_5fservice_5fshort_1978',['chromecast_setup_service_short',['../namespacechip_1_1_chip_bluez_mgr.html#a217ff905697507914d46cad1f13bd532',1,'chip.ChipBluezMgr.chromecast_setup_service_short()'],['../namespacechip_1_1_chip_core_bluetooth_mgr.html#a7bd0aab0eaff9d596fe72d0c93ce411e',1,'chip.ChipCoreBluetoothMgr.CHROMECAST_SETUP_SERVICE_SHORT()']]],
   ['chunk1payloadrepresentation_1979',['chunk1PayloadRepresentation',['../namespacechip.html#aa835075dfd547b36543e853190e590f7',1,'chip']]],
   ['chunk2payloadrepresentation_1980',['chunk2PayloadRepresentation',['../namespacechip.html#a165d8d9104dc13f03d823c55f490341d',1,'chip']]],

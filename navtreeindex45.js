@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a4cce0142d70d0ce4873bbcd2cfbc9cfb":[10,0,2,14,6,29],
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a52d0cb761055b6148184e24c2e633507":[10,0,2,14,6,38],
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a55fb095fbe79d35e198ee09ac9e04370":[10,0,2,14,6,34],
+"structchip_1_1_device_layer_1_1_chip_device_event.html#a5bbc23a55d89b366ad682f1f345da7e4":[10,0,2,14,6,22],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a66ca98d39670cb6a6346295d967787ba":[10,0,2,14,6,48],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a69658bc1838537dc18a40400cb26a557":[10,0,2,14,6,17],
 "structchip_1_1_device_layer_1_1_chip_device_event.html#a6a2a5679091def98773d6a84a110e9ae":[10,0,2,14,6,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "structchip_1_1_variant.html#a128c1809280be58973c88deca33492f0":[10,0,2,88,7],
 "structchip_1_1_variant.html#a42388719d301d16cfc3d3766f988bacb":[10,0,2,88,10],
 "structchip_1_1_variant.html#a6541290e5bb2aabe8ebdaf1537650faa":[10,0,2,88,3],
-"structchip_1_1_variant.html#a65af3d4168e898613a2fef5e0eec51a9":[10,0,2,88,2],
-"structchip_1_1_variant.html#aad2348819ad62b6f42413448bba048e4":[10,0,2,88,4],
-"structchip_1_1_variant.html#ac1ff2f04b07f79c436e9f3802dba420f":[10,0,2,88,1],
-"structchip_1_1_variant.html#ad56b9492d7bd11dee97805f5fe336d6d":[10,0,2,88,9],
-"structchip_1_1_variant.html#aeaa5e405c4f3aef94859625b5ac212a7":[10,0,2,88,8]
+"structchip_1_1_variant.html#a65af3d4168e898613a2fef5e0eec51a9":[10,0,2,88,2]
 };
