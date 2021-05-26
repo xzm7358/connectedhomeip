@@ -1,6 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classchip_1_1_transport_1_1_admin_pairing_info.html#a881b220200ab982f8d3fc898ff560a0e":[10,0,2,38,1,4],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#a9209a0da6002322045b5cf071dcce328":[10,0,2,38,1,14],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#a95cd4a523760af95655a0861b24e1a1c":[10,0,2,38,1,3],
 "classchip_1_1_transport_1_1_admin_pairing_info.html#aa07258e0a18e98b7986b1aa2e28fb0a9":[10,0,2,38,1,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX35 =
 "classchip_1_1ble_1_1scan__devices_1_1___device_info_receiver.html#a6f39ce1097d9557a9a4f5035c7d81113":[10,0,2,0,3,0,0],
 "classchip_1_1ble_1_1scan__devices_1_1___device_info_receiver.html#adee44424e888b1d0dc2f73cc050904b4":[10,0,2,0,3,0,2],
 "classchip_1_1ble_1_1scan__devices_1_1___device_info_receiver.html#aff1094eff8b0a72f2d92f984b894f2ce":[10,0,2,0,3,0,1],
-"classchip_1_1ble_1_1scan__devices_1_1_device_info.html":[10,0,2,0,3,1]
+"classchip_1_1ble_1_1scan__devices_1_1_device_info.html":[10,0,2,0,3,1],
+"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html":[10,0,2,10,0,0]
 };

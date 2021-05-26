@@ -19,5 +19,6 @@ var delegate_8py =
     [ "_OnCommandResponseFunct", "delegate_8py.html#aaecebe4ef51e447f33d3c375055fcbf1", null ],
     [ "_OnCommandResponseProtocolErrorFunct", "delegate_8py.html#a14ecebd03447535bc8f5b744c7479a5d", null ],
     [ "_OnCommandResponseStatusCodeReceivedFunct", "delegate_8py.html#aa6d876e8f79d29d45624d07730e53d09", null ],
-    [ "IMCommandStatus", "delegate_8py.html#a8048ecbf6f1f9283934f1107108b04b8", null ]
+    [ "IMCommandStatus", "delegate_8py.html#a8048ecbf6f1f9283934f1107108b04b8", null ],
+    [ "PLACEHOLDER_COMMAND_HANDLE", "delegate_8py.html#a73630794bef3c0c305139d60e5fa33ea", null ]
 ];
