@@ -947,10 +947,7 @@ public:
      * riscv toolchain of esp-idf defines int32_t from long int instead of int
      */
 #ifdef __riscv
-    CHIP_ERROR Put(uint64_t tag, int v)
-    {
-        return Put(tag, static_cast<int32_t>(v));
-    };
+    CHIP_ERROR Put(uint64_t tag, int v) { return Put(tag, static_cast<int32_t>(v)); };
 #endif
 
     /**
@@ -1048,10 +1045,7 @@ public:
      * riscv toolchain of esp-idf defines int32_t from long int instead of int
      */
 #ifdef __riscv
-    CHIP_ERROR Put(uint64_t tag, unsigned int v)
-    {
-        return Put(tag, static_cast<uint32_t>(v));
-    };
+    CHIP_ERROR Put(uint64_t tag, unsigned int v) { return Put(tag, static_cast<uint32_t>(v)); };
 #endif
 
     /**
