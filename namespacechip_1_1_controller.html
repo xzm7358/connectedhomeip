@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7f841f0</span>
+   &#160;<span id="projectnumber">e86bb35</span>
    </div>
   </td>
  </tr>
@@ -86,6 +86,7 @@ $(document).ready(function(){initNavTree('namespacechip_1_1_controller.html','')
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -155,6 +156,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac514b1820bbfc39c55353df9db9a0d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae82b171a1b3e706d9834148e8f8ff1b9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">chip::Controller::SerializedDevice</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ae82b171a1b3e706d9834148e8f8ff1b9">SerializedDevice</a></td></tr>
 <tr class="separator:ae82b171a1b3e706d9834148e8f8ff1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f42fed412b1e4485297f1408282f45"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a51f42fed412b1e4485297f1408282f45">BasicSuccessCallback</a>) (void *context, uint16_t val)</td></tr>
+<tr class="separator:a51f42fed412b1e4485297f1408282f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a7f7a6ab877fe8832646cf00ae9e30"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a19a7f7a6ab877fe8832646cf00ae9e30">BasicFailureCallback</a>) (void *context, uint8_t status)</td></tr>
+<tr class="separator:a19a7f7a6ab877fe8832646cf00ae9e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5aec1a4b414f88e754ee941a64b9870"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ad5aec1a4b414f88e754ee941a64b9870">OperationalCredentialsClusterOpCSRResponseCallback</a>) (void *context, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSR, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> CSRNonce, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved1, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved2, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> VendorReserved3, <a class="el" href="namespacechip.html#a96f429e9adf7dbc278167a45674cb1b3">chip::ByteSpan</a> Signature)</td></tr>
 <tr class="separator:ad5aec1a4b414f88e754ee941a64b9870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242c4261805dc23450a507567f78c2f8"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a242c4261805dc23450a507567f78c2f8">OperationalCredentialsClusterOpCertResponseCallback</a>) (void *context, uint8_t StatusCode, uint64_t FabricIndex, uint8_t *DebugText)</td></tr>
@@ -174,8 +179,42 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3fc15c5e43ea7b58c96e0b85768a6274"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a3fc15c5e43ea7b58c96e0b85768a6274">DevicePairingDelegate_OnPairingCompleteFunct</a>) (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="el" href="_setup_payload_parser-_j_n_i_8cpp.html#a52482fdd3721e7db69dc740aefee8ad4">err</a>)</td></tr>
 <tr class="separator:a3fc15c5e43ea7b58c96e0b85768a6274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae012d7eb08f5514cf11652ff9aaffc9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9d">CommissioningStage</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da87439c211200d0263fa8ad3dbfc61119">kError</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daa181092f9012ac22d3a3611536a6137d">kSecurePairing</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da10978341f3acdc21f80673df6f8a26c0">kArmFailsafe</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9dafb798aeaf45d17872d768b59d478ea86">kConfigRegulatory</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da5dca55df84604171340b5ed68837cdb6">kCheckCertificates</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da2bc3187b03b1a9715030fe236a6c1446">kConfigACL</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da668d141555e5e740175d948464e74475">kNetworkSetup</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daa5ce2b850a7822acb6ca7e8a412407f5">kScanNetworks</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daddaf05861faea9e3649bea250752b7f9">kNetworkEnable</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da7da049b4754609fe07b8c1f0ee67ef6e">kFindOperational</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da64c30365567afb74078742f2bad649a5">kSendComplete</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da89e7d039bc7ed1d166392d25cbc43ba9">kCleanup</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae012d7eb08f5514cf11652ff9aaffc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a09063d4697a340441f42f96db4807d35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a09063d4697a340441f42f96db4807d35">BasicSuccess</a> (void *context, uint16_t val)</td></tr>
+<tr class="separator:a09063d4697a340441f42f96db4807d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f4cc39b321f4983e724ec013e3ce88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a88f4cc39b321f4983e724ec013e3ce88">BasicFailure</a> (void *context, uint8_t status)</td></tr>
+<tr class="separator:a88f4cc39b321f4983e724ec013e3ce88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb8e076c65dc611cfab4837d38eb4b8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#afb8e076c65dc611cfab4837d38eb4b8e">pychip_InteractionModelDelegate_SetCommandResponseStatusCallback</a> (<a class="el" href="namespacechip_1_1_controller.html#ab1a4138cabf1c33f357dc19d10ed2b05">PythonInteractionModelDelegate_OnCommandResponseStatusCodeReceivedFunct</a> f)</td></tr>
 <tr class="separator:afb8e076c65dc611cfab4837d38eb4b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3832ef8a62aa153bf15bf65ec5a17a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ab3832ef8a62aa153bf15bf65ec5a17a8">pychip_InteractionModelDelegate_SetCommandResponseProtocolErrorCallback</a> (<a class="el" href="namespacechip_1_1_controller.html#a1e4ffc0f984fc7c06f63db99be9e5c46">PythonInteractionModelDelegate_OnCommandResponseProtocolErrorFunct</a> f)</td></tr>
@@ -199,7 +238,7 @@ Variables</h2></td></tr>
 <tr class="separator:a4bbca922a7a0025b2a6e443cc504b5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa77d28572454d256e1bdb30881098d50"><td class="memItemLeft" align="right" valign="top">constexpr const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#aa77d28572454d256e1bdb30881098d50">kNextAvailableKeyID</a> [] = &quot;StartKeyID&quot;</td></tr>
 <tr class="separator:aa77d28572454d256e1bdb30881098d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6883ce7af262979777fba9d520c94d7b"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a6883ce7af262979777fba9d520c94d7b">kSessionEstablishmentTimeout</a> = 30 * <a class="el" href="namespacechip.html#ae410888206461422e1abe0407f1b020aaadb6bc9e069223374ca172f170cc5c4e">kMillisecondPerSecond</a></td></tr>
+<tr class="memitem:a6883ce7af262979777fba9d520c94d7b"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a6883ce7af262979777fba9d520c94d7b">kSessionEstablishmentTimeout</a> = 30 * <a class="el" href="namespacechip.html#a019ce0f21746a6c85c30a83524f2b0deaadb6bc9e069223374ca172f170cc5c4e">kMillisecondPerSecond</a></td></tr>
 <tr class="separator:a6883ce7af262979777fba9d520c94d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">kMaxCHIPOpCertLength</a> = 1024</td></tr>
 <tr class="separator:a66c6db924fb85b19e8a93b3db2615eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +260,34 @@ Variables</h2></td></tr>
 <tr class="separator:a1db62df40a0c040f28b259004eb9901c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a19a7f7a6ab877fe8832646cf00ae9e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19a7f7a6ab877fe8832646cf00ae9e30">&#9670;&nbsp;</a></span>BasicFailureCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::BasicFailureCallback) (void *context, uint8_t status)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51f42fed412b1e4485297f1408282f45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f42fed412b1e4485297f1408282f45">&#9670;&nbsp;</a></span>BasicSuccessCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* chip::Controller::BasicSuccessCallback) (void *context, uint16_t val)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7f410dbee201f11b4ea09de431ebc809"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f410dbee201f11b4ea09de431ebc809">&#9670;&nbsp;</a></span>DefaultFailureCallback</h2>
 
@@ -389,6 +456,35 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae012d7eb08f5514cf11652ff9aaffc9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae012d7eb08f5514cf11652ff9aaffc9d">&#9670;&nbsp;</a></span>CommissioningStage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9d">chip::Controller::CommissioningStage</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da87439c211200d0263fa8ad3dbfc61119"></a>kError&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9daa181092f9012ac22d3a3611536a6137d"></a>kSecurePairing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da10978341f3acdc21f80673df6f8a26c0"></a>kArmFailsafe&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9dafb798aeaf45d17872d768b59d478ea86"></a>kConfigRegulatory&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da5dca55df84604171340b5ed68837cdb6"></a>kCheckCertificates&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da2bc3187b03b1a9715030fe236a6c1446"></a>kConfigACL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da668d141555e5e740175d948464e74475"></a>kNetworkSetup&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9daa5ce2b850a7822acb6ca7e8a412407f5"></a>kScanNetworks&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9daddaf05861faea9e3649bea250752b7f9"></a>kNetworkEnable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da7da049b4754609fe07b8c1f0ee67ef6e"></a>kFindOperational&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da64c30365567afb74078742f2bad649a5"></a>kSendComplete&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae012d7eb08f5514cf11652ff9aaffc9da89e7d039bc7ed1d166392d25cbc43ba9"></a>kCleanup&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a374041b489d63f5c2e37f4a0cdd0b4a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a374041b489d63f5c2e37f4a0cdd0b4a3">&#9670;&nbsp;</a></span>__attribute__()</h2>
@@ -402,6 +498,62 @@ Variables</h2></td></tr>
           <td class="paramtype">(packed)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88f4cc39b321f4983e724ec013e3ce88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88f4cc39b321f4983e724ec013e3ce88">&#9670;&nbsp;</a></span>BasicFailure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip::Controller::BasicFailure </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09063d4697a340441f42f96db4807d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09063d4697a340441f42f96db4807d35">&#9670;&nbsp;</a></span>BasicSuccess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void chip::Controller::BasicSuccess </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -765,7 +917,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr uint32_t chip::Controller::kSessionEstablishmentTimeout = 30 * <a class="el" href="namespacechip.html#ae410888206461422e1abe0407f1b020aaadb6bc9e069223374ca172f170cc5c4e">kMillisecondPerSecond</a></td>
+          <td class="memname">constexpr uint32_t chip::Controller::kSessionEstablishmentTimeout = 30 * <a class="el" href="namespacechip.html#a019ce0f21746a6c85c30a83524f2b0deaadb6bc9e069223374ca172f170cc5c4e">kMillisecondPerSecond</a></td>
         </tr>
       </table>
   </td>
@@ -805,7 +957,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li>
-    <li class="footer">Generated on Wed May 26 2021 23:04:20 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 26 2021 23:21:10 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7f841f0</span>
+   &#160;<span id="projectnumber">e86bb35</span>
    </div>
   </td>
  </tr>
@@ -86,6 +86,9 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8h.html',''
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">CHIPDeviceController.h File Reference</div>  </div>
@@ -143,6 +146,50 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacechip_1_1_controller"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html">chip::Controller</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a51f42fed412b1e4485297f1408282f45"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a51f42fed412b1e4485297f1408282f45">chip::Controller::BasicSuccessCallback</a>) (void *context, uint16_t val)</td></tr>
+<tr class="separator:a51f42fed412b1e4485297f1408282f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19a7f7a6ab877fe8832646cf00ae9e30"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a19a7f7a6ab877fe8832646cf00ae9e30">chip::Controller::BasicFailureCallback</a>) (void *context, uint8_t status)</td></tr>
+<tr class="separator:a19a7f7a6ab877fe8832646cf00ae9e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae012d7eb08f5514cf11652ff9aaffc9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9d">chip::Controller::CommissioningStage</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da87439c211200d0263fa8ad3dbfc61119">chip::Controller::kError</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daa181092f9012ac22d3a3611536a6137d">chip::Controller::kSecurePairing</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da10978341f3acdc21f80673df6f8a26c0">chip::Controller::kArmFailsafe</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9dafb798aeaf45d17872d768b59d478ea86">chip::Controller::kConfigRegulatory</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da5dca55df84604171340b5ed68837cdb6">chip::Controller::kCheckCertificates</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da2bc3187b03b1a9715030fe236a6c1446">chip::Controller::kConfigACL</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da668d141555e5e740175d948464e74475">chip::Controller::kNetworkSetup</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daa5ce2b850a7822acb6ca7e8a412407f5">chip::Controller::kScanNetworks</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9daddaf05861faea9e3649bea250752b7f9">chip::Controller::kNetworkEnable</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da7da049b4754609fe07b8c1f0ee67ef6e">chip::Controller::kFindOperational</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da64c30365567afb74078742f2bad649a5">chip::Controller::kSendComplete</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da89e7d039bc7ed1d166392d25cbc43ba9">chip::Controller::kCleanup</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae012d7eb08f5514cf11652ff9aaffc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a09063d4697a340441f42f96db4807d35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a09063d4697a340441f42f96db4807d35">chip::Controller::BasicSuccess</a> (void *context, uint16_t val)</td></tr>
+<tr class="separator:a09063d4697a340441f42f96db4807d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f4cc39b321f4983e724ec013e3ce88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a88f4cc39b321f4983e724ec013e3ce88">chip::Controller::BasicFailure</a> (void *context, uint8_t status)</td></tr>
+<tr class="separator:a88f4cc39b321f4983e724ec013e3ce88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a8edce2a78a23c0c061bdd74141953287"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a8edce2a78a23c0c061bdd74141953287">chip::Controller::kNumMaxActiveDevices</a> = 64</td></tr>
@@ -158,7 +205,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8h.html">CHIPDeviceController.h</a></li>
-    <li class="footer">Generated on Wed May 26 2021 23:04:19 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 26 2021 23:21:09 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

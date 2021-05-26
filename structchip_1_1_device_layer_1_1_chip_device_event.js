@@ -35,8 +35,10 @@ var structchip_1_1_device_layer_1_1_chip_device_event =
     [ "IsServiceProvisioned", "structchip_1_1_device_layer_1_1_chip_device_event.html#a3f3c9e8884b6046a0f0f76b0e6fd48a3", null ],
     [ "IsTimeSynchronized", "structchip_1_1_device_layer_1_1_chip_device_event.html#a7272d372d0c85c101f1748e3f8bd74d2", null ],
     [ "NetDataChanged", "structchip_1_1_device_layer_1_1_chip_device_event.html#a55fb095fbe79d35e198ee09ac9e04370", null ],
-    [ "OpenThread", "structchip_1_1_device_layer_1_1_chip_device_event.html#a8d6f6fbb54ec4ca578495f5cda72eca0", null ],
-    [ "Overall", "structchip_1_1_device_layer_1_1_chip_device_event.html#ad313c50f258f662078a86539ad37f706", null ],
+    [ "network", "structchip_1_1_device_layer_1_1_chip_device_event.html#aec913bf7c12f0baf2911552f7bf14505", null ],
+    [ "OpenThread", "structchip_1_1_device_layer_1_1_chip_device_event.html#a583bcec89899df838d49ee2b23e4d141", null ],
+    [ "OperationalNetwork", "structchip_1_1_device_layer_1_1_chip_device_event.html#a234f3003940d9efe83fa28e600a829d7", null ],
+    [ "Overall", "structchip_1_1_device_layer_1_1_chip_device_event.html#a7cb433142684e26801c61d3bbcfdf799", null ],
     [ "PeerNodeId", "structchip_1_1_device_layer_1_1_chip_device_event.html#a18d0d899e6f6c6bd8f9668dfbfd97c3c", null ],
     [ "Platform", "structchip_1_1_device_layer_1_1_chip_device_event.html#a52d0cb761055b6148184e24c2e633507", null ],
     [ "Reason", "structchip_1_1_device_layer_1_1_chip_device_event.html#adde823bfe035e8b3e792ae8316ea8bde", null ],
@@ -57,7 +59,7 @@ var structchip_1_1_device_layer_1_1_chip_device_event =
     [ "Type", "structchip_1_1_device_layer_1_1_chip_device_event.html#a22555d5c9bf04f0cc98b378fc7288fc4", null ],
     [ "Type", "structchip_1_1_device_layer_1_1_chip_device_event.html#a41ab443c55384ea2486caf4d3c932ea4", null ],
     [ "Type", "structchip_1_1_device_layer_1_1_chip_device_event.html#a89379e1cdb493e23a7cb8d8406e7bf5d", null ],
-    [ "ViaThread", "structchip_1_1_device_layer_1_1_chip_device_event.html#a0eb2f7d7b872186dbbfa2dc728291072", null ],
+    [ "ViaThread", "structchip_1_1_device_layer_1_1_chip_device_event.html#aaa5227d0f86cf5e7d4831c6624f63728", null ],
     [ "WiFiConnectivityChange", "structchip_1_1_device_layer_1_1_chip_device_event.html#ad7c3384283305688294d5365227c67f1", null ],
     [ "WorkFunct", "structchip_1_1_device_layer_1_1_chip_device_event.html#a4b8c0dd106d905655f074d5a77af047b", null ]
 ];

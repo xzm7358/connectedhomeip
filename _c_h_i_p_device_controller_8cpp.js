@@ -4,6 +4,8 @@ var _c_h_i_p_device_controller_8cpp =
     [ "__STDC_LIMIT_MACROS", "_c_h_i_p_device_controller_8cpp.html#aeb7e7a856ab7a794b05b6b63ef36ea3e", null ],
     [ "PERSISTENT_KEY_OP", "_c_h_i_p_device_controller_8cpp.html#a9b77c22dba407ff253af9f7d8ef577c8", null ],
     [ "__attribute__", "_c_h_i_p_device_controller_8cpp.html#aca041256441cb351d2da0fbda58c6d02", null ],
+    [ "BasicFailure", "_c_h_i_p_device_controller_8cpp.html#a88f4cc39b321f4983e724ec013e3ce88", null ],
+    [ "BasicSuccess", "_c_h_i_p_device_controller_8cpp.html#a09063d4697a340441f42f96db4807d35", null ],
     [ "Read", "_c_h_i_p_device_controller_8cpp.html#a562e2fd2665578a6e231a69b8365d521", null ],
     [ "Write", "_c_h_i_p_device_controller_8cpp.html#a06e2c544012ab5b7d8282907406c9206", null ],
     [ "kMaxCHIPCSRLength", "_c_h_i_p_device_controller_8cpp.html#a127f5594d0a468da09c5466f816b092e", null ],

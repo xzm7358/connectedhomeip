@@ -55,7 +55,8 @@ var _c_h_i_p_device_event_8h =
       [ "kThreadInterfaceStateChange", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41ca8cad3cd6220a3e2c7c22a6f438e7744e", null ],
       [ "kCHIPoBLEAdvertisingChange", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41ca1d7cc9d0a56debb418382312a042cd14", null ],
       [ "kInterfaceIpAddressChanged", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41caaf4d332e4ef400d14ea3f55beb4bd75b", null ],
-      [ "kCommissioningComplete", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41ca33ade72c1104bd75ca4d0a49a9b4344a", null ]
+      [ "kCommissioningComplete", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41ca33ade72c1104bd75ca4d0a49a9b4344a", null ],
+      [ "kOperationalNetworkEnabled", "_c_h_i_p_device_event_8h.html#a06d37ccd4891b45fe9303a788558c41ca223f23866886b6b67e0ca8bb63e9a551", null ]
     ] ],
     [ "GetConnectivityChange", "_c_h_i_p_device_event_8h.html#ae023912fc2c263a09ad7f43f92f7e84a", null ],
     [ "IsInternal", "_c_h_i_p_device_event_8h.html#a4ff7472e7c3a7dfca140e7b18798cd2b", null ],

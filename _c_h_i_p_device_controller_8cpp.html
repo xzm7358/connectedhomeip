@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">7f841f0</span>
+   &#160;<span id="projectnumber">e86bb35</span>
    </div>
   </td>
  </tr>
@@ -93,6 +93,8 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_c_h_i_p_device_controller_8h_source.html">controller/CHIPDeviceController.h</a>&gt;</code><br />
+<code>#include &lt;app/common/gen/enums.h&gt;</code><br />
+<code>#include &lt;controller/data_model/gen/CHIPClusters.h&gt;</code><br />
 <code>#include &lt;app/InteractionModelEngine.h&gt;</code><br />
 <code>#include &lt;app/util/DataModelHandler.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_core_8h_source.html">core/CHIPCore.h</a>&gt;</code><br />
@@ -146,6 +148,10 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aca041256441cb351d2da0fbda58c6d02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller_8cpp.html#aca041256441cb351d2da0fbda58c6d02">__attribute__</a> ((weak)) IMDefaultResponseCallback(const chip</td></tr>
 <tr class="separator:aca041256441cb351d2da0fbda58c6d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09063d4697a340441f42f96db4807d35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a09063d4697a340441f42f96db4807d35">chip::Controller::BasicSuccess</a> (void *context, uint16_t val)</td></tr>
+<tr class="separator:a09063d4697a340441f42f96db4807d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88f4cc39b321f4983e724ec013e3ce88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a88f4cc39b321f4983e724ec013e3ce88">chip::Controller::BasicFailure</a> (void *context, uint8_t status)</td></tr>
+<tr class="separator:a88f4cc39b321f4983e724ec013e3ce88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a562e2fd2665578a6e231a69b8365d521"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">chip::Platform::PersistedStorage::Read</a> (Key aKey, uint32_t &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3acc4e52fdb57eeb69effbe5041e3986">aValue</a>)</td></tr>
 <tr class="memdesc:a562e2fd2665578a6e231a69b8365d521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read integer value of a key from persistent storage.  <a href="namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521">More...</a><br /></td></tr>
 <tr class="separator:a562e2fd2665578a6e231a69b8365d521"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,7 +284,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Wed May 26 2021 23:04:19 for Connected Home over IP by
+    <li class="footer">Generated on Wed May 26 2021 23:21:09 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
