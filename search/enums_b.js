@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['optionalqrcodeinfotype_12236',['optionalQRCodeInfoType',['../namespacechip.html#af01e14e9a7cf70c1be1c9f5f0f5523a3',1,'chip']]]
+  ['optionalqrcodeinfotype_12238',['optionalQRCodeInfoType',['../namespacechip.html#af01e14e9a7cf70c1be1c9f5f0f5523a3',1,'chip']]]
 ];
