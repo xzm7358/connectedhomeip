@@ -6,5 +6,6 @@ var classchip_1_1_global_encrypted_message_counter =
     [ "GetType", "classchip_1_1_global_encrypted_message_counter.html#a24e8c065c710b383e529b23d95e8c353", null ],
     [ "Init", "classchip_1_1_global_encrypted_message_counter.html#a27ad113e6b743ad7de92954f1ef89c06", null ],
     [ "Reset", "classchip_1_1_global_encrypted_message_counter.html#a4d54b74e669d29318d2700612d69623f", null ],
+    [ "SetCounter", "classchip_1_1_global_encrypted_message_counter.html#a96dd377f169bda27828bc7dbc3e29ef0", null ],
     [ "Value", "classchip_1_1_global_encrypted_message_counter.html#af80059e630e32b068356ce3b56aee905", null ]
 ];

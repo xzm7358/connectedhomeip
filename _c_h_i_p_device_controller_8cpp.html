@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2fb66c3</span>
+   &#160;<span id="projectnumber">09bfa9d</span>
    </div>
   </td>
  </tr>
@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('_c_h_i_p_device_controller_8cpp.html',
 <code>#include &lt;<a class="el" href="_c_h_i_p_mem_8h_source.html">support/CHIPMem.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_error_str_8h_source.html">support/ErrorStr.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_persistent_storage_macros_8h_source.html">support/PersistentStorageMacros.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_safe_int_8h_source.html">support/SafeInt.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_scoped_buffer_8h_source.html">support/ScopedBuffer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_time_utils_8h_source.html">support/TimeUtils.h</a>&gt;</code><br />
@@ -141,8 +142,6 @@ Macros</h2></td></tr>
 <tr class="separator:aeb7e7a856ab7a794b05b6b63ef36ea3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacbb9e1f38be71e22df1584a37c56693"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller_8cpp.html#aacbb9e1f38be71e22df1584a37c56693">__STDC_FORMAT_MACROS</a></td></tr>
 <tr class="separator:aacbb9e1f38be71e22df1584a37c56693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b77c22dba407ff253af9f7d8ef577c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_c_h_i_p_device_controller_8cpp.html#a9b77c22dba407ff253af9f7d8ef577c8">PERSISTENT_KEY_OP</a>(node,  keyPrefix,  key,  action)</td></tr>
-<tr class="separator:a9b77c22dba407ff253af9f7d8ef577c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -161,12 +160,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a75d2e0ff612bbfed806521be5ba2b0d3"><td class="memItemLeft" align="right" valign="top">constexpr const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a75d2e0ff612bbfed806521be5ba2b0d3">chip::Controller::kPairedDeviceListKeyPrefix</a> [] = &quot;ListPairedDevices&quot;</td></tr>
-<tr class="separator:a75d2e0ff612bbfed806521be5ba2b0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bbca922a7a0025b2a6e443cc504b5d3"><td class="memItemLeft" align="right" valign="top">constexpr const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a4bbca922a7a0025b2a6e443cc504b5d3">chip::Controller::kPairedDeviceKeyPrefix</a> [] = &quot;PairedDevice&quot;</td></tr>
-<tr class="separator:a4bbca922a7a0025b2a6e443cc504b5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa77d28572454d256e1bdb30881098d50"><td class="memItemLeft" align="right" valign="top">constexpr const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#aa77d28572454d256e1bdb30881098d50">chip::Controller::kNextAvailableKeyID</a> [] = &quot;StartKeyID&quot;</td></tr>
-<tr class="separator:aa77d28572454d256e1bdb30881098d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6883ce7af262979777fba9d520c94d7b"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a6883ce7af262979777fba9d520c94d7b">chip::Controller::kSessionEstablishmentTimeout</a> = 30 * kMillisecondPerSecond</td></tr>
 <tr class="separator:a6883ce7af262979777fba9d520c94d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c6db924fb85b19e8a93b3db2615eff"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">chip::Controller::kMaxCHIPOpCertLength</a> = 1024</td></tr>
@@ -207,56 +200,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b77c22dba407ff253af9f7d8ef577c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b77c22dba407ff253af9f7d8ef577c8">&#9670;&nbsp;</a></span>PERSISTENT_KEY_OP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define PERSISTENT_KEY_OP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">node, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">keyPrefix, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">key, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">action&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                                                                             \</div>
-<div class="line">    {                                                                                                                              \</div>
-<div class="line">        constexpr <span class="keywordtype">size_t</span> len = std::extent&lt;decltype(keyPrefix)&gt;<a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">::value</a>;                                                            \</div>
-<div class="line">        nlSTATIC_ASSERT_PRINT(len &gt; 0, <span class="stringliteral">&quot;keyPrefix length must be known at compile time&quot;</span>);                                          \</div>
-<div class="line">        <span class="comment">/* 2 * sizeof(NodeId) to accomodate 2 character for each byte in Node Id */</span>                                                \</div>
-<div class="line">        char key[len + 2 * <span class="keyword">sizeof</span>(<a class="code" href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">NodeId</a>) + 1];                                                                                    \</div>
-<div class="line">        nlSTATIC_ASSERT_PRINT(<span class="keyword">sizeof</span>(node) &lt;= <span class="keyword">sizeof</span>(uint64_t), <span class="stringliteral">&quot;Node ID size is greater than expected&quot;</span>);                          \</div>
-<div class="line">        snprintf(key, <span class="keyword">sizeof</span>(key), <span class="stringliteral">&quot;%s%&quot;</span> PRIx64, keyPrefix, node);                                                                 \</div>
-<div class="line">        action;                                                                                                                    \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aca041256441cb351d2da0fbda58c6d02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca041256441cb351d2da0fbda58c6d02">&#9670;&nbsp;</a></span>__attribute__()</h2>
@@ -278,13 +221,11 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacechip_html_ac741422ab936732a88bb008cf631cbd2"><div class="ttname"><a href="namespacechip.html#ac741422ab936732a88bb008cf631cbd2">chip::NodeId</a></div><div class="ttdeci">uint64_t NodeId</div><div class="ttdoc">Convenience types to make it clear what different number types mean.</div><div class="ttdef"><b>Definition:</b> PeerId.h:23</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ac50abae6d98e9974b60124d04929c51e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a></div><div class="ttdeci">JNIEnv jobject jint jbyteArray jbyteArray jbyteArray value</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:634</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="_c_h_i_p_device_controller_8cpp.html">CHIPDeviceController.cpp</a></li>
-    <li class="footer">Generated on Thu May 27 2021 19:24:53 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 27 2021 23:15:14 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

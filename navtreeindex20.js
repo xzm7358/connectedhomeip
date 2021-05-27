@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"chip-device-ctrl_8py.html#a9847cdb0502f636a2bb581871a284b35":[11,0,1,1,3,5],
+"chip-device-ctrl_8py.html#aa92172d82e38dbb16ab97e5b31d917d5":[11,0,1,1,3,7],
 "chip-device-ctrl_8py.html#af58b46c4320f8b670364c1d3c6bda1b4":[11,0,1,1,3,10],
 "chip-repl_8py.html":[11,0,1,1,4],
 "chip-repl_8py.html#af92785a08a0a468ade6bdf46f366db0b":[11,0,1,1,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_bit_flags.html#a488c845ca8ff8bcf90968ab1c00e1c06":[10,0,2,41,0],
 "classchip_1_1_bit_flags.html#a606172a1a4c79901a04e1f2778b08cfb":[10,0,2,41,5],
 "classchip_1_1_bit_flags.html#a7e04bc082ef554be82e01ee17f4d2d23":[10,0,2,41,18],
-"classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65":[10,0,2,41,23],
-"classchip_1_1_bit_flags.html#a87c81b987338a961ac024a92b5d4aa45":[10,0,2,41,2],
-"classchip_1_1_bit_flags.html#a8da1922658a4c8b7375deccffb0d654e":[10,0,2,41,15]
+"classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65":[10,0,2,41,23]
 };

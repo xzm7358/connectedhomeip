@@ -9,5 +9,6 @@ var classchip_1_1_message_counter =
     [ "Advance", "classchip_1_1_message_counter.html#aa88e59d87c538b59027adcb7d8632ed3", null ],
     [ "GetType", "classchip_1_1_message_counter.html#a927ac8f1f31efc699a3022d4800f0575", null ],
     [ "Reset", "classchip_1_1_message_counter.html#a6cc0d37d268518ca7f71caf3973d6eff", null ],
+    [ "SetCounter", "classchip_1_1_message_counter.html#a8013b08f6dba65132d05a26750e449cc", null ],
     [ "Value", "classchip_1_1_message_counter.html#af0d8ffeef05668c108df145ee58697b5", null ]
 ];

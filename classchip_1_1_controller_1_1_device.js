@@ -30,6 +30,7 @@ var classchip_1_1_controller_1_1_device =
     [ "OnSessionEstablished", "classchip_1_1_controller_1_1_device.html#af94c510bcd72ae3dd2e5ee050288a7e8", null ],
     [ "OnSessionEstablishmentError", "classchip_1_1_controller_1_1_device.html#a656667caa74284eb2495d07f86a96509", null ],
     [ "OpenPairingWindow", "classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941", null ],
+    [ "Persist", "classchip_1_1_controller_1_1_device.html#a8a9bf9c888d9065dea1bbf44c32fed1a", null ],
     [ "ProvisioningComplete", "classchip_1_1_controller_1_1_device.html#a44ed53b65330f059c7e2a2ae25260caa", null ],
     [ "Reset", "classchip_1_1_controller_1_1_device.html#a1774d84e0431e9cbc50eb1368799cf34", null ],
     [ "SendCommands", "classchip_1_1_controller_1_1_device.html#a651276a4464eec023fac0f2fb3ae58b0", null ],

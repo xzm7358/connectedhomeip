@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2fb66c3</span>
+   &#160;<span id="projectnumber">09bfa9d</span>
    </div>
   </td>
  </tr>
@@ -147,6 +147,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a25dc99776841306d50148fa4211bdaa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#a25dc99776841306d50148fa4211bdaa4">Deserialize</a> (const <a class="el" href="structchip_1_1_controller_1_1_serialized_device.html">SerializedDevice</a> &amp;input)</td></tr>
 <tr class="memdesc:a25dc99776841306d50148fa4211bdaa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the Pairing Session from the string.  <a href="classchip_1_1_controller_1_1_device.html#a25dc99776841306d50148fa4211bdaa4">More...</a><br /></td></tr>
 <tr class="separator:a25dc99776841306d50148fa4211bdaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a9bf9c888d9065dea1bbf44c32fed1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#a8a9bf9c888d9065dea1bbf44c32fed1a">Persist</a> ()</td></tr>
+<tr class="memdesc:a8a9bf9c888d9065dea1bbf44c32fed1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize and store the <a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> in persistent storage.  <a href="classchip_1_1_controller_1_1_device.html#a8a9bf9c888d9065dea1bbf44c32fed1a">More...</a><br /></td></tr>
+<tr class="separator:a8a9bf9c888d9065dea1bbf44c32fed1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd4316f60c3dedc2762a5cd5cf447b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#a4dd4316f60c3dedc2762a5cd5cf447b3">OnNewConnection</a> (<a class="el" href="classchip_1_1_secure_session_handle.html">SecureSessionHandle</a> session)</td></tr>
 <tr class="memdesc:a4dd4316f60c3dedc2762a5cd5cf447b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new pairing is being established.  <a href="classchip_1_1_controller_1_1_device.html#a4dd4316f60c3dedc2762a5cd5cf447b3">More...</a><br /></td></tr>
 <tr class="separator:a4dd4316f60c3dedc2762a5cd5cf447b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,9 +247,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">chip::Controller::Device::~Device </td>
@@ -255,11 +255,6 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -1050,6 +1045,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a9bf9c888d9065dea1bbf44c32fed1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a9bf9c888d9065dea1bbf44c32fed1a">&#9670;&nbsp;</a></span>Persist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> chip::Controller::Device::Persist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize and store the <a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a> in persistent storage. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns a CHIP_ERROR if either serialization or storage fails </dd></dl>
+
+</div>
+</div>
 <a id="a44ed53b65330f059c7e2a2ae25260caa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44ed53b65330f059c7e2a2ae25260caa">&#9670;&nbsp;</a></span>ProvisioningComplete()</h2>
 
@@ -1353,7 +1368,7 @@ template&lt;typename MessageType , typename  = std::enable_if_t&lt;std::is_enum&
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a></li>
-    <li class="footer">Generated on Thu May 27 2021 19:24:54 for Connected Home over IP by
+    <li class="footer">Generated on Thu May 27 2021 23:15:15 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

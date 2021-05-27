@@ -52,6 +52,7 @@ var dir_07debba6119e8fae289f5c0650c95439 =
     [ "PersistedCounter.h", "_persisted_counter_8h.html", [
       [ "PersistedCounter", "classchip_1_1_persisted_counter.html", "classchip_1_1_persisted_counter" ]
     ] ],
+    [ "PersistentStorageMacros.h", "_persistent_storage_macros_8h.html", "_persistent_storage_macros_8h" ],
     [ "Pool.cpp", "_pool_8cpp.html", null ],
     [ "Pool.h", "_pool_8h.html", [
       [ "StaticAllocatorBase", "classchip_1_1_static_allocator_base.html", "classchip_1_1_static_allocator_base" ],
