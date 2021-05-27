@@ -209,6 +209,7 @@ var hierarchy =
     [ "chip::Platform::PersistedStorage::internal::EmptyKey< T >", "structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key.html", null ],
     [ "chip::Platform::PersistedStorage::internal::EmptyKey< const char * >", "structchip_1_1_platform_1_1_persisted_storage_1_1internal_1_1_empty_key_3_01const_01char_01_5_01_4.html", null ],
     [ "mdns::Minimal::ServerBase::EndpointInfo", "structmdns_1_1_minimal_1_1_server_base_1_1_endpoint_info.html", null ],
+    [ "chip::Shell::Engine", "classchip_1_1_shell_1_1_engine.html", null ],
     [ "chip::Crypto::EntropyContext", "structchip_1_1_crypto_1_1_entropy_context.html", null ],
     [ "chip::ErrorFormatter", "structchip_1_1_error_formatter.html", null ],
     [ "chip::DeviceLayer::Internal::ESP32Config", "classchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config.html", null ],
@@ -308,12 +309,12 @@ var hierarchy =
       [ "chip.ChipDeviceCtrl.DCState", "classchip_1_1_chip_device_ctrl_1_1_d_c_state.html", null ]
     ] ],
     [ "InteractionModelDelegate", null, [
-      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
-    ] ],
-    [ "InteractionModelDelegate", null, [
       [ "chip::Controller::DeviceControllerInteractionModelDelegate", "classchip_1_1_controller_1_1_device_controller_interaction_model_delegate.html", [
         [ "chip::Controller::PythonInteractionModelDelegate", "classchip_1_1_controller_1_1_python_interaction_model_delegate.html", null ]
       ] ]
+    ] ],
+    [ "InteractionModelDelegate", null, [
+      [ "chip::Controller::DeviceController", "classchip_1_1_controller_1_1_device_controller.html", null ]
     ] ],
     [ "chip::Inet::InterfaceAddressIterator", "classchip_1_1_inet_1_1_interface_address_iterator.html", null ],
     [ "chip::Inet::InterfaceIterator", "classchip_1_1_inet_1_1_interface_iterator.html", null ],
@@ -541,11 +542,10 @@ var hierarchy =
     ] ],
     [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],
     [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
-    [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
     [ "chip::Shell::shell_command", "structchip_1_1_shell_1_1shell__command.html", null ],
     [ "sizeCounterStruct_tag", "structsize_counter_struct__tag.html", null ],
     [ "chip::System::Stats::Snapshot", "classchip_1_1_system_1_1_stats_1_1_snapshot.html", null ],

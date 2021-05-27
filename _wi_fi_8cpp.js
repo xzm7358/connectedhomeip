@@ -7,5 +7,5 @@ var _wi_fi_8cpp =
     [ "WiFiDispatch", "_wi_fi_8cpp.html#a0d20cac708359824e7245cf629bee9f1", null ],
     [ "WiFiHelpHandler", "_wi_fi_8cpp.html#a634e75ff1f1e8cfb8a9d957ceb94f41f", null ],
     [ "WiFiModeHandler", "_wi_fi_8cpp.html#ad44ae6f4d6248fadf8d98f5991551d7d", null ],
-    [ "sShellWifiSubCommands", "_wi_fi_8cpp.html#a62976bb35bdfcea8bf233ceae5b44bc9", null ]
+    [ "sShellWifiSubCommands", "_wi_fi_8cpp.html#a50394368af9c5e96bc71785f879069d3", null ]
 ];

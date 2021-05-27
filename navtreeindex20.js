@@ -1,16 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,0,29,5],
-"cc13x2__26x2_2_thread_stack_manager_impl_8h.html#aeb0c28823f132fcaa928fc74712bb515":[11,0,7,0,29,4],
-"cc13x2__26x2_2_thread_stack_manager_impl_8h_source.html":[11,0,7,0,29],
-"chip-device-ctrl_8py.html":[11,0,1,1,3],
-"chip-device-ctrl_8py.html#a0e7d93b27f3192a170b6ee5c75db0482":[11,0,1,1,3,3],
-"chip-device-ctrl_8py.html#a2faf6e7a91727411dd78ed268dd8a255":[11,0,1,1,3,8],
-"chip-device-ctrl_8py.html#a56c1f55335d588e562f831ef9ba9c99f":[11,0,1,1,3,9],
-"chip-device-ctrl_8py.html#a5878d827bb1d3355cf5e1df615f8fdcf":[11,0,1,1,3,4],
-"chip-device-ctrl_8py.html#a5c12915034d8408407f5430ddbba0633":[11,0,1,1,3,6],
-"chip-device-ctrl_8py.html#a9847cdb0502f636a2bb581871a284b35":[11,0,1,1,3,5],
-"chip-device-ctrl_8py.html#aa92172d82e38dbb16ab97e5b31d917d5":[11,0,1,1,3,7],
 "chip-device-ctrl_8py.html#af58b46c4320f8b670364c1d3c6bda1b4":[11,0,1,1,3,10],
 "chip-repl_8py.html":[11,0,1,1,4],
 "chip-repl_8py.html#af92785a08a0a468ade6bdf46f366db0b":[11,0,1,1,4,0],
@@ -249,5 +238,16 @@ var NAVTREEINDEX20 =
 "classchip_1_1_bit_flags.html#a028be3ba4b42329da91d4bf63507711a":[10,0,2,41,13],
 "classchip_1_1_bit_flags.html#a04875371925b8d689f598eb35f361c1d":[10,0,2,41,10],
 "classchip_1_1_bit_flags.html#a075f286ede25709967ebcaf7253fc496":[10,0,2,41,19],
-"classchip_1_1_bit_flags.html#a13f270fe1946ada373677fb1651a8272":[10,0,2,41,17]
+"classchip_1_1_bit_flags.html#a13f270fe1946ada373677fb1651a8272":[10,0,2,41,17],
+"classchip_1_1_bit_flags.html#a1f4fbdd1486e303c0c85c33e7f1606e0":[10,0,2,41,20],
+"classchip_1_1_bit_flags.html#a2341ceb3cf18a0b7e4efa9fdd67ebd9f":[10,0,2,41,14],
+"classchip_1_1_bit_flags.html#a333af0529e3db57fe3a2563fd8876532":[10,0,2,41,24],
+"classchip_1_1_bit_flags.html#a3ac6864a27e5b7ab3c11dda76e743076":[10,0,2,41,22],
+"classchip_1_1_bit_flags.html#a47ed3ba5434fe5e2fb57c3042f6fc70d":[10,0,2,41,12],
+"classchip_1_1_bit_flags.html#a488c845ca8ff8bcf90968ab1c00e1c06":[10,0,2,41,0],
+"classchip_1_1_bit_flags.html#a606172a1a4c79901a04e1f2778b08cfb":[10,0,2,41,5],
+"classchip_1_1_bit_flags.html#a7e04bc082ef554be82e01ee17f4d2d23":[10,0,2,41,18],
+"classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65":[10,0,2,41,23],
+"classchip_1_1_bit_flags.html#a87c81b987338a961ac024a92b5d4aa45":[10,0,2,41,2],
+"classchip_1_1_bit_flags.html#a8da1922658a4c8b7375deccffb0d654e":[10,0,2,41,15]
 };

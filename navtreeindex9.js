@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"_darwin_2_ble_platform_config_8h_source.html":[11,0,7,1,6],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,1,9],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b":[11,0,7,1,9,3],
 "_darwin_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7":[11,0,7,1,9,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ae2f0c36e9f8810fff719653ab3e94883":[11,0,7,2,3,24],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#ae2fda11201a4e21f38c492dcdc4f8e86":[11,0,7,2,3,2],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#afbe663cc572059d93e9a7aa725652b7a":[11,0,7,2,3,19],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,2,3]
+"_e_f_r32_2_c_h_i_p_device_platform_config_8h_source.html":[11,0,7,2,3],
+"_e_f_r32_2_c_h_i_p_device_platform_event_8h.html":[11,0,7,2,4]
 };
