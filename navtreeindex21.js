@@ -1,5 +1,10 @@
 var NAVTREEINDEX21 =
 {
+"classchip_1_1_bit_flags.html#a47ed3ba5434fe5e2fb57c3042f6fc70d":[10,0,2,41,12],
+"classchip_1_1_bit_flags.html#a488c845ca8ff8bcf90968ab1c00e1c06":[10,0,2,41,0],
+"classchip_1_1_bit_flags.html#a606172a1a4c79901a04e1f2778b08cfb":[10,0,2,41,5],
+"classchip_1_1_bit_flags.html#a7e04bc082ef554be82e01ee17f4d2d23":[10,0,2,41,18],
+"classchip_1_1_bit_flags.html#a82a211b11d27064af0cb2ca31bbe4b65":[10,0,2,41,23],
 "classchip_1_1_bit_flags.html#a87c81b987338a961ac024a92b5d4aa45":[10,0,2,41,2],
 "classchip_1_1_bit_flags.html#a8da1922658a4c8b7375deccffb0d654e":[10,0,2,41,15],
 "classchip_1_1_bit_flags.html#a934741de070915a942cf74a0c22be4f1":[10,0,2,41,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX21 =
 "classchip_1_1_chip_ble_utility_1_1_ble_tx_event_struct.html#a67513c3f7daacb1c1bd8fbbc3277c19e":[10,0,2,4,8,1],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html":[10,0,2,5,0],
 "classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a0640cff40076672844afb57d602d3cca":[10,0,2,5,0,21],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a083aca8e243a428ab282c3b31db347e3":[10,0,2,5,0,9],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a11f24630fc176d62d1020e37789f3369":[10,0,2,5,0,1],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a1cc0d4dc6ea79a27d7c42389519b2700":[10,0,2,5,0,7],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a1f42c12bc3f946009de64c8ecc47e818":[10,0,2,5,0,2],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a2395f588683acf490ed60973dc5e2d54":[10,0,2,5,0,0],
-"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a2f86d87a8c1a035fac99c9ce6494b447":[10,0,2,5,0,3]
+"classchip_1_1_chip_bluez_mgr_1_1_bluez_dbus_adapter.html#a083aca8e243a428ab282c3b31db347e3":[10,0,2,5,0,9]
 };

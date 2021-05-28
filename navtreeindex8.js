@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"_chip_bluez_mgr_8py.html#a593611e42626470448790442acfe7f3c":[11,0,1,1,0,14,15],
+"_chip_bluez_mgr_8py.html#a5fb2a124b5204a32a739dd3af148c755":[11,0,1,1,0,14,24],
+"_chip_bluez_mgr_8py.html#a608b0a477e07c3787c4b680b4dc70516":[11,0,1,1,0,14,9],
+"_chip_bluez_mgr_8py.html#a81daa14aae5c81dd0a2d274c95075436":[11,0,1,1,0,14,5],
+"_chip_bluez_mgr_8py.html#a90cca01316da2eed2fc441bad428d348":[11,0,1,1,0,14,7],
 "_chip_bluez_mgr_8py.html#a916fce8cbc57863e7141fd70e094d310":[11,0,1,1,0,14,13],
 "_chip_bluez_mgr_8py.html#a97bd7c86a7013f770b8fc20ee8101577":[11,0,1,1,0,14,12],
 "_chip_bluez_mgr_8py.html#ad297dacc6c57fdc66f802f8b1472edbe":[11,0,1,1,0,14,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "_darwin_2_b_l_e_manager_impl_8cpp.html":[11,0,7,1,4],
 "_darwin_2_b_l_e_manager_impl_8h.html":[11,0,7,1,5],
 "_darwin_2_b_l_e_manager_impl_8h_source.html":[11,0,7,1,5],
-"_darwin_2_ble_platform_config_8h.html":[11,0,7,1,6],
-"_darwin_2_ble_platform_config_8h_source.html":[11,0,7,1,6],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,1,9],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b":[11,0,7,1,9,3],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7":[11,0,7,1,9,8],
-"_darwin_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,1,9,5]
+"_darwin_2_ble_platform_config_8h.html":[11,0,7,1,6]
 };

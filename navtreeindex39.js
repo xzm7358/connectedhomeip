@@ -1,5 +1,15 @@
 var NAVTREEINDEX39 =
 {
+"classmdns_1_1_minimal_1_1_resource_record.html#a0feb60eb0a87612a4a0a79c8e160c96e":[10,0,4,0,26,1],
+"classmdns_1_1_minimal_1_1_resource_record.html#a30afa1ae0efc677a422bc2c00a57fe3e":[10,0,4,0,26,0],
+"classmdns_1_1_minimal_1_1_resource_record.html#a3a1de9e26d38381fdd51df770aceb982":[10,0,4,0,26,5],
+"classmdns_1_1_minimal_1_1_resource_record.html#a3c43944d4f204529824ad4376c9e1f3c":[10,0,4,0,26,7],
+"classmdns_1_1_minimal_1_1_resource_record.html#a5e28ca96adc227ad78fd010ad4028f58":[10,0,4,0,26,4],
+"classmdns_1_1_minimal_1_1_resource_record.html#a72cdc70bd79cb28cf64a4ba76360a4d7":[10,0,4,0,26,9],
+"classmdns_1_1_minimal_1_1_resource_record.html#aa83cd3192fe6e25dbc28fea6d75569a6":[10,0,4,0,26,8],
+"classmdns_1_1_minimal_1_1_resource_record.html#ad103d9412b0822dccdf395127e4561b6":[10,0,4,0,26,2],
+"classmdns_1_1_minimal_1_1_resource_record.html#adcefaec8632a7d1fc86aed06613fea1d":[10,0,4,0,26,10],
+"classmdns_1_1_minimal_1_1_resource_record.html#afa3d4b577bfa70a92ed96a76a6d56990":[10,0,4,0,26,6],
 "classmdns_1_1_minimal_1_1_responder.html":[10,0,4,0,27],
 "classmdns_1_1_minimal_1_1_responder.html#a0079a284cf3d6b594df9cb95faf75ef6":[10,0,4,0,27,2],
 "classmdns_1_1_minimal_1_1_responder.html#a4358ee7b3acd188c1a85f2460f991f54":[10,0,4,0,27,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX39 =
 "efr32-chip-mbedtls-config_8h.html#a2d9853334811c4e2220fb5c6266e908e":[11,0,7,2,13,46],
 "efr32-chip-mbedtls-config_8h.html#a311e2a994e4e5f25b550e170ca9605e0":[11,0,7,2,13,72],
 "efr32-chip-mbedtls-config_8h.html#a34142af6045ce51995f621c5f7648f31":[11,0,7,2,13,14],
-"efr32-chip-mbedtls-config_8h.html#a37056e26ff582813ab505fa8e59287b6":[11,0,7,2,13,59],
-"efr32-chip-mbedtls-config_8h.html#a38112435a93c8cf0e9c9e9c15cb3f516":[11,0,7,2,13,62],
-"efr32-chip-mbedtls-config_8h.html#a3a74b34386b00896b50e2809d2b5bbfc":[11,0,7,2,13,64],
-"efr32-chip-mbedtls-config_8h.html#a3ab9b922c4f1ba4511d7c4f5ef2b2e69":[11,0,7,2,13,61],
-"efr32-chip-mbedtls-config_8h.html#a3ddaec887496f6a2b18975d52afc87d5":[11,0,7,2,13,32],
-"efr32-chip-mbedtls-config_8h.html#a44adbf6ab596bdbcff486313978eee04":[11,0,7,2,13,11],
-"efr32-chip-mbedtls-config_8h.html#a493cf54dbd2c093c8541b1ad106436e9":[11,0,7,2,13,12],
-"efr32-chip-mbedtls-config_8h.html#a4a186eda38ce80f484524f3f12de2923":[11,0,7,2,13,7],
-"efr32-chip-mbedtls-config_8h.html#a4a5b73bae4d762a05684812ad6c6b1b2":[11,0,7,2,13,68],
-"efr32-chip-mbedtls-config_8h.html#a50fe70e2e5da2dda496e0432261136a5":[11,0,7,2,13,39],
-"efr32-chip-mbedtls-config_8h.html#a54a11655ee76cbd7b4d8b159e377adef":[11,0,7,2,13,0]
+"efr32-chip-mbedtls-config_8h.html#a37056e26ff582813ab505fa8e59287b6":[11,0,7,2,13,59]
 };

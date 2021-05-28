@@ -1,5 +1,15 @@
 var NAVTREEINDEX45 =
 {
+"structchip_1_1_controller_1_1_serializable_device.html#aa9584620f2cc064f30e638a890312416":[10,0,2,11,19,8],
+"structchip_1_1_controller_1_1_serializable_device.html#abb7496b0b806fc2064fc142458922114":[10,0,2,11,19,2],
+"structchip_1_1_controller_1_1_serializable_device.html#ae2c73636a84a9081ba5cbc3b3d0ff4b7":[10,0,2,11,19,10],
+"structchip_1_1_controller_1_1_serializable_device.html#ae96e9850edf75935fca19ba703f37f87":[10,0,2,11,19,7],
+"structchip_1_1_controller_1_1_serialized_device.html":[10,0,2,11,20],
+"structchip_1_1_controller_1_1_serialized_device.html#ae39a74a571db639ffbf4bbdb8ae0caec":[10,0,2,11,20,0],
+"structchip_1_1_crypto_1_1_entropy_context.html":[10,0,2,12,3],
+"structchip_1_1_crypto_1_1_entropy_context.html#a6c45107c6d9d823f02d91c9583abc97a":[10,0,2,12,3,2],
+"structchip_1_1_crypto_1_1_entropy_context.html#aafe492e18fec07a3aa81c27efaa00c99":[10,0,2,12,3,0],
+"structchip_1_1_crypto_1_1_entropy_context.html#ab0e8fc6b4ffab1ed598b9b90d687d4e9":[10,0,2,12,3,3],
 "structchip_1_1_crypto_1_1_entropy_context.html#ac1b7f8954e031dbd4b7f5daceb46e89a":[10,0,2,12,3,1],
 "structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html":[10,0,2,12,5],
 "structchip_1_1_crypto_1_1_hash_s_h_a256_opaque_context.html#aa826d754483a782e7bbddcb1ed23d30b":[10,0,2,12,5,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX45 =
 "structchip_1_1_mdns_1_1_resolved_node_data.html#ab70cf48de043e12f5e94d7e0f29f51bf":[10,0,2,24,18,3],
 "structchip_1_1_mdns_1_1_resolved_node_data.html#adcd383927ed4f7bb2166a44536e100c7":[10,0,2,24,18,0],
 "structchip_1_1_mdns_1_1_text_entry.html":[10,0,2,24,22],
-"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,2,24,22,2],
-"structchip_1_1_mdns_1_1_text_entry.html#a58e9e54ffa2a492db9b0254d195a1345":[10,0,2,24,22,1],
-"structchip_1_1_mdns_1_1_text_entry.html#afa8f6f7fba30d94a75037b94926f1f17":[10,0,2,24,22,0],
-"structchip_1_1_optional_q_r_code_info.html":[10,0,2,59],
-"structchip_1_1_optional_q_r_code_info.html#a15bae050dac061fe4ed7e575a53155e7":[10,0,2,59,0],
-"structchip_1_1_optional_q_r_code_info.html#a1b7e8ebd3859ce0c8e0d010c08932003":[10,0,2,59,1],
-"structchip_1_1_optional_q_r_code_info.html#a4de127fe3a9cf7320d391d498cedf4fa":[10,0,2,59,2],
-"structchip_1_1_optional_q_r_code_info.html#a9500dc6fc7f73669dd91785a52c801fb":[10,0,2,59,4],
-"structchip_1_1_optional_q_r_code_info.html#add553c281ff5982224bbf9602236fa5f":[10,0,2,59,3],
-"structchip_1_1_optional_q_r_code_info_extension.html":[10,0,2,60],
-"structchip_1_1_optional_q_r_code_info_extension.html#a134ededed5c65e21090dcb279645643d":[10,0,2,60,0]
+"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,2,24,22,2]
 };
