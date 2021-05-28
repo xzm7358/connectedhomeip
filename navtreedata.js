@@ -43,9 +43,9 @@ var NAVTREE =
       [ "Enforcement", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md15", null ],
       [ "Attribution", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md16", null ]
     ] ],
-    [ "Contributing to Project Connected Home over IP", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html", [
+    [ "Contributing to Matter (formerly Project CHIP)", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html", [
       [ "Contributing as an Open Source Contributor", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md18", null ],
-      [ "Contributing as a Zigbee Alliance Project CHIP Working Group Member", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md19", null ],
+      [ "Contributing as a Connectivity Standards Alliance Project CHIP Working Group Member", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md19", null ],
       [ "Bugs", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md20", null ],
       [ "New Features", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md21", null ],
       [ "Contributing Code", "md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md22", null ]

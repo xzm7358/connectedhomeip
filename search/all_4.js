@@ -1911,7 +1911,7 @@ var searchData=
   ['library_5fhandle_2596',['library_handle',['../namespacechip_1_1ble_1_1library__handle.html',1,'chip.ble.library_handle'],['../namespacechip_1_1discovery_1_1library__handle.html',1,'chip.discovery.library_handle'],['../namespacechip_1_1logging_1_1library__handle.html',1,'chip.logging.library_handle']]],
   ['littleendian_2597',['LittleEndian',['../namespacechip_1_1_encoding_1_1_little_endian.html',1,'chip::Encoding']]],
   ['logging_2598',['Logging',['../namespacechip_1_1_logging.html',1,'chip::Logging'],['../namespacechip_1_1logging.html',1,'chip.logging']]],
-  ['contributing_20to_20project_20connected_20home_20over_20ip_2599',['Contributing to Project Connected Home over IP',['../md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
+  ['contributing_20to_20matter_20_28formerly_20project_20chip_29_2599',['Contributing to Matter (formerly Project CHIP)',['../md__home_runner_work_connectedhomeip_connectedhomeip__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
   ['chip_20project_20flow_2600',['CHIP Project Flow',['../md__home_runner_work_connectedhomeip_connectedhomeip_docs__p_r_o_j_e_c_t__f_l_o_w.html',1,'']]],
   ['chip_20documentation_20style_20guide_2601',['CHIP Documentation Style Guide',['../md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html',1,'']]],
   ['connected_20home_20over_20ip_2602',['Connected Home over IP',['../md__home_runner_work_connectedhomeip_connectedhomeip__r_e_a_d_m_e.html',1,'']]],
