@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"_k32_w_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f":[11,0,7,5,32,13],
+"_k32_w_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753":[11,0,7,5,32,2],
+"_k32_w_2_system_platform_config_8h.html#a557a2ac88dcd244f0e1309ce8fd3143c":[11,0,7,5,32,7],
 "_k32_w_2_system_platform_config_8h.html#a5e2fb93c4d3de6299e8e5ae683159b60":[11,0,7,5,32,5],
 "_k32_w_2_system_platform_config_8h.html#a65a6b30a5e9267291935b4fb7bea03c1":[11,0,7,5,32,12],
 "_k32_w_2_system_platform_config_8h.html#a73a8947deedb9b9cb1ed44d1193a79df":[11,0,7,5,32,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "_lock_tracker_8h_source.html":[11,0,4,0,9],
 "_log_v_8h.html":[11,0,7,7,1],
 "_log_v_8h.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,7,1,0],
-"_log_v_8h_source.html":[11,0,7,7,1],
-"_logging_redirect_8cpp.html":[11,0,1,1,0,7,2],
-"_logging_redirect_8cpp.html#a0addb443b065fef4c99be6d9ec393c24":[11,0,1,1,0,7,2,0],
-"_lw_i_p_core_lock_8cpp.html":[11,0,7,3,24]
+"_log_v_8h_source.html":[11,0,7,7,1]
 };

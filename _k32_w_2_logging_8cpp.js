@@ -10,5 +10,7 @@ var _k32_w_2_logging_8cpp =
     [ "GetMessageString", "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513", null ],
     [ "K32WWriteBlocking", "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77", null ],
     [ "LogV", "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367", null ],
-    [ "LwIPLog", "_k32_w_2_logging_8cpp.html#afafdb1a9c8c17c1c5b6069ac6a5c0131", null ]
+    [ "LwIPLog", "_k32_w_2_logging_8cpp.html#afafdb1a9c8c17c1c5b6069ac6a5c0131", null ],
+    [ "gOtLogUartInstance", "_k32_w_2_logging_8cpp.html#a6eda17ce09204bce5603db2df733ee9e", null ],
+    [ "isLogInitialized", "_k32_w_2_logging_8cpp.html#a0bb86efc6aae1a4da7eaa9e49d1eca7c", null ]
 ];

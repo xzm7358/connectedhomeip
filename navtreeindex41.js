@@ -1,5 +1,8 @@
 var NAVTREEINDEX41 =
 {
+"gatt__db_8c.html#a9a8912b0862d02ae5e88581c51e362de":[11,0,7,2,19,6],
+"gatt__db_8c.html#ac3d2ed3739c1d87dbb86cd759b541a93":[11,0,7,2,19,11],
+"gatt__db_8c.html#acdd1b16421949e88a3be9c24133b977e":[11,0,7,2,19,13],
 "gatt__db_8c.html#ad1084781c0c29f37be9ab2d958b11d42":[11,0,7,2,19,12],
 "gatt__db_8c.html#ae9306a94dfc6851f635ea50425f5cda1":[11,0,7,2,19,3],
 "gatt__db_8c.html#af79c92f5d8a9f8a4f164cc3540300a0c":[11,0,7,2,19,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX41 =
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md81":[7,3,8],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md82":[7,3,9],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md83":[7,3,10],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md84":[7,3,11],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html":[5],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md54":[5,0],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md55":[5,1]
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md84":[7,3,11]
 };

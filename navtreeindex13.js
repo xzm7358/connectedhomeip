@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"_inet_error_8h.html#af2c3e8781d213f0f096b2308ef1aaf24":[11,0,5,13,18],
 "_inet_error_8h.html#af3ee14f9b0d544b6ec407ee947430b70":[11,0,5,13,19],
 "_inet_error_8h.html#afc73f2a3585b25b1af2f56d8f06d7fa4":[11,0,5,13,2],
 "_inet_error_8h.html#afde041b20ec5f45d516c57933d24f13d":[11,0,5,13,29],
@@ -217,11 +218,13 @@ var NAVTREEINDEX13 =
 "_k32_w_2_key_value_store_manager_impl_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,7,5,24,1],
 "_k32_w_2_key_value_store_manager_impl_8h_source.html":[11,0,7,5,24],
 "_k32_w_2_logging_8cpp.html":[11,0,7,5,25],
+"_k32_w_2_logging_8cpp.html#a0bb86efc6aae1a4da7eaa9e49d1eca7c":[11,0,7,5,25,12],
 "_k32_w_2_logging_8cpp.html#a0dfce62d534dadcd80a7446a1ba405a0":[11,0,7,5,25,5],
 "_k32_w_2_logging_8cpp.html#a2317ac81b6fb6b5a38488ad9e71c4945":[11,0,7,5,25,4],
 "_k32_w_2_logging_8cpp.html#a2d36f351d3edc7242b2295567c083a77":[11,0,7,5,25,8],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,2],
 "_k32_w_2_logging_8cpp.html#a5211fc5df7a3b8262867144844347c89":[11,0,7,5,25,3],
+"_k32_w_2_logging_8cpp.html#a6eda17ce09204bce5603db2df733ee9e":[11,0,7,5,25,11],
 "_k32_w_2_logging_8cpp.html#a7239e2be33c8d7bb4471386fa5b65569":[11,0,7,5,25,6],
 "_k32_w_2_logging_8cpp.html#a7259a872f0b5cb8b70d74f29e23f7367":[11,0,7,5,25,9],
 "_k32_w_2_logging_8cpp.html#a82ad1681e5a7011b4d1341e61a795513":[11,0,7,5,25,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "_k32_w_2_platform_manager_impl_8h.html#a9b90588e3accea89d79094c29fc07261":[11,0,7,5,29,1],
 "_k32_w_2_platform_manager_impl_8h_source.html":[11,0,7,5,29],
 "_k32_w_2_software_update_manager_impl_8cpp.html":[11,0,7,5,30],
-"_k32_w_2_system_platform_config_8h.html":[11,0,7,5,32],
-"_k32_w_2_system_platform_config_8h.html#a08beabeb2850e8594a07ecdf12e2b51f":[11,0,7,5,32,13],
-"_k32_w_2_system_platform_config_8h.html#a26d1b3203c079e14c95b6c88ffd43753":[11,0,7,5,32,2],
-"_k32_w_2_system_platform_config_8h.html#a557a2ac88dcd244f0e1309ce8fd3143c":[11,0,7,5,32,7]
+"_k32_w_2_system_platform_config_8h.html":[11,0,7,5,32]
 };

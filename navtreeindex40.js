@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"efr32-chip-mbedtls-config_8h.html#a17ad52b9c597d50d6bab1557e96dd2e2":[11,0,7,2,13,33],
+"efr32-chip-mbedtls-config_8h.html#a19bd05cfdb812a81e4727a679e5d5472":[11,0,7,2,13,66],
+"efr32-chip-mbedtls-config_8h.html#a1a0f22be83a0b34bd8e8251b77a680a0":[11,0,7,2,13,26],
 "efr32-chip-mbedtls-config_8h.html#a1bd8bee51fb122e552a4cbc1bbdb0b96":[11,0,7,2,13,53],
 "efr32-chip-mbedtls-config_8h.html#a1cceb2b05fcbf777d24948d63a1aa74c":[11,0,7,2,13,5],
 "efr32-chip-mbedtls-config_8h.html#a24884ce4da3fed0ceff29962dd7a01fc":[11,0,7,2,13,24],
@@ -148,8 +151,8 @@ var NAVTREEINDEX40 =
 "freertos__bluetooth_8h.html#af8fd03a1a754dade58d251d6a0bc64fe":[11,0,7,2,18,12],
 "freertos__bluetooth_8h.html#afdd91381de4d24aa8e31a536d5214f12":[11,0,7,2,18,19],
 "freertos__bluetooth_8h_source.html":[11,0,7,2,18],
-"functions.html":[10,3,0],
 "functions.html":[10,3,0,0],
+"functions.html":[10,3,0],
 "functions__.html":[10,3,0,1],
 "functions_a.html":[10,3,0,2],
 "functions_b.html":[10,3,0,3],
@@ -159,8 +162,8 @@ var NAVTREEINDEX40 =
 "functions_enum.html":[10,3,4],
 "functions_eval.html":[10,3,5],
 "functions_f.html":[10,3,0,7],
-"functions_func.html":[10,3,1],
 "functions_func.html":[10,3,1,0],
+"functions_func.html":[10,3,1],
 "functions_func_a.html":[10,3,1,1],
 "functions_func_b.html":[10,3,1,2],
 "functions_func_c.html":[10,3,1,3],
@@ -205,8 +208,8 @@ var NAVTREEINDEX40 =
 "functions_type.html":[10,3,3],
 "functions_u.html":[10,3,0,22],
 "functions_v.html":[10,3,0,23],
-"functions_vars.html":[10,3,2],
 "functions_vars.html":[10,3,2,0],
+"functions_vars.html":[10,3,2],
 "functions_vars_a.html":[10,3,2,1],
 "functions_vars_b.html":[10,3,2,2],
 "functions_vars_c.html":[10,3,2,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "gatt__db_8c.html#a6f3f7f8f83fef0f6280ebbb67ea35ca1":[11,0,7,2,19,14],
 "gatt__db_8c.html#a81f83e8169d438531194dd21c3f45525":[11,0,7,2,19,1],
 "gatt__db_8c.html#a8368ddee800c46f9e219f00e73c17930":[11,0,7,2,19,10],
-"gatt__db_8c.html#a8fb00cae77d1e426e23a1e3cf8c24265":[11,0,7,2,19,8],
-"gatt__db_8c.html#a9a8912b0862d02ae5e88581c51e362de":[11,0,7,2,19,6],
-"gatt__db_8c.html#ac3d2ed3739c1d87dbb86cd759b541a93":[11,0,7,2,19,11],
-"gatt__db_8c.html#acdd1b16421949e88a3be9c24133b977e":[11,0,7,2,19,13]
+"gatt__db_8c.html#a8fb00cae77d1e426e23a1e3cf8c24265":[11,0,7,2,19,8]
 };

@@ -85,6 +85,7 @@ var _c_h_i_p_device_config_8h =
     [ "CHIP_DEVICE_CONFIG_SWU_WAIT_TIME_MULTIPLIER_MS", "_c_h_i_p_device_config_8h.html#a8ef2b946a5fa9217742e06898fe9d104", null ],
     [ "CHIP_DEVICE_CONFIG_TEST_SERIAL_NUMBER", "_c_h_i_p_device_config_8h.html#ae79d5e66e856f8a9650a0d9167b15848", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_CONNECTIVITY_TIMEOUT", "_c_h_i_p_device_config_8h.html#a011c0553246ac8255672464353a94f57", null ],
+    [ "CHIP_DEVICE_CONFIG_THREAD_ENABLE_CLI", "_c_h_i_p_device_config_8h.html#a251731ac16e20687975cc2a086be63bf", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_FTD", "_c_h_i_p_device_config_8h.html#a756d1617d7a9b4b471711fc3dee3f3ab", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_IF_MTU", "_c_h_i_p_device_config_8h.html#a3deefb6a1b7079fa20fad7890f06db54", null ],
     [ "CHIP_DEVICE_CONFIG_THREAD_SRP_MAX_SERVICES", "_c_h_i_p_device_config_8h.html#a3ddd5aa8f5572a09996051460193f8ad", null ],
