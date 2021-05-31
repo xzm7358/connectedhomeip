@@ -191,4 +191,3 @@ fi
 if [ $run = true ]; then
   run_cmd $filename
 fi
-
