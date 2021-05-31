@@ -1,11 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"structchip_1_1_controller_1_1_controller_init_params.html#a70f69c67be633f875baf5534ae1ceb79":[10,0,2,11,3,1],
-"structchip_1_1_controller_1_1_controller_init_params.html#a77c6457e445126f1324d80f4dccb991f":[10,0,2,11,3,3],
-"structchip_1_1_controller_1_1_controller_init_params.html#ab10bde9f8f1ce552f8dcaec0d892bf52":[10,0,2,11,3,5],
-"structchip_1_1_controller_1_1_controller_init_params.html#af4dfac6f2c4a353e1e17059d106c239b":[10,0,2,11,3,4],
-"structchip_1_1_controller_1_1_serializable_device.html":[10,0,2,11,19],
-"structchip_1_1_controller_1_1_serializable_device.html#a1d9533653cb124beef076e2495339381":[10,0,2,11,19,3],
 "structchip_1_1_controller_1_1_serializable_device.html#a2d10cd6bcf8a01984722f13eb252948b":[10,0,2,11,19,0],
 "structchip_1_1_controller_1_1_serializable_device.html#a3640212991a8d284858ddfa382eafbf9":[10,0,2,11,19,6],
 "structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201":[10,0,2,11,19,9],
@@ -182,8 +176,8 @@ var NAVTREEINDEX45 =
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html":[10,0,2,14,0,35,0],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#a1f15216c9b89844dc6780d1750478192":[10,0,2,14,0,35,0,3],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#a5cb26b591b8c08a693e98beb3134fa08":[10,0,2,14,0,35,0,2],
-"structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,1],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,0],
+"structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,1],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html":[10,0,2,14,1,2],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html#a5d4b06539be82f33c219d87e00489d9e":[10,0,2,14,1,2,3],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html#a6b4da433b89d752dba53234b6df5aa72":[10,0,2,14,1,2,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX45 =
 "structchip_1_1_mdns_1_1_mdns_service.html#af0de63876450eec96ecb1441c84a5029":[10,0,2,24,13,6],
 "structchip_1_1_mdns_1_1_register_context.html":[10,0,2,24,16],
 "structchip_1_1_mdns_1_1_register_context.html#a5f92e8c1ed67826ce636963b536558a0":[10,0,2,24,16,2],
-"structchip_1_1_mdns_1_1_register_context.html#abb3c1749d465a31852679e7392d1c7f9":[10,0,2,24,16,0]
+"structchip_1_1_mdns_1_1_register_context.html#abb3c1749d465a31852679e7392d1c7f9":[10,0,2,24,16,0],
+"structchip_1_1_mdns_1_1_register_context.html#ad34fc33009b7210be6ebfb9e01321e42":[10,0,2,24,16,1],
+"structchip_1_1_mdns_1_1_resolve_context.html":[10,0,2,24,17],
+"structchip_1_1_mdns_1_1_resolve_context.html#a52cf98b3cccefcbd1e2c524b306007e7":[10,0,2,24,17,0],
+"structchip_1_1_mdns_1_1_resolve_context.html#a820bd78096e2f055aff55736061eddef":[10,0,2,24,17,2],
+"structchip_1_1_mdns_1_1_resolve_context.html#a9251099b8c539f269957d47b76125210":[10,0,2,24,17,1],
+"structchip_1_1_mdns_1_1_resolved_node_data.html":[10,0,2,24,18]
 };

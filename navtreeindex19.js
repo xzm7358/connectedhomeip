@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"ble__function__mux_8c.html#abc4c4d1a43e3e17e55ec96c2d06f5a5f":[11,0,7,5,0,22],
-"ble__function__mux_8c.html#ad1a3c23e3caa74e0dd2a65722ece0f68":[11,0,7,5,0,12],
 "ble__function__mux_8c.html#ae9caccab311fa865397fc0cffcc8bb1e":[11,0,7,5,0,8],
 "ble__function__mux_8c.html#aebc9cc113b8cfc28c11c9945ad8c722e":[11,0,7,5,0,16],
 "ble__function__mux_8c.html#af1f034aa0f476014d0cadf3dad19372c":[11,0,7,5,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html":[11,0,7,0,28],
 "cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a00e7c0274434f58261393bf8987f4802":[11,0,7,0,28,2],
 "cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a910ebbddd7f84aee20cde04258d7895f":[11,0,7,0,28,0],
-"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,28,3]
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a9743e72706c8b7435c62348a4ded64cf":[11,0,7,0,28,3],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3":[11,0,7,0,28,1],
+"cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#aad8d4dbae6b55b8487c68a46f528a467":[11,0,7,0,28,4]
 };

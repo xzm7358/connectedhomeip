@@ -1,18 +1,12 @@
 var NAVTREEINDEX41 =
 {
-"gatt__db_8c.html#a9a8912b0862d02ae5e88581c51e362de":[11,0,7,2,19,6],
-"gatt__db_8c.html#ac3d2ed3739c1d87dbb86cd759b541a93":[11,0,7,2,19,11],
-"gatt__db_8c.html#acdd1b16421949e88a3be9c24133b977e":[11,0,7,2,19,13],
-"gatt__db_8c.html#ad1084781c0c29f37be9ab2d958b11d42":[11,0,7,2,19,12],
-"gatt__db_8c.html#ae9306a94dfc6851f635ea50425f5cda1":[11,0,7,2,19,3],
-"gatt__db_8c.html#af79c92f5d8a9f8a4f164cc3540300a0c":[11,0,7,2,19,9],
 "gatt__uuid128_8h.html":[11,0,7,5,16],
 "gatt__uuid128_8h.html#ad705ef05bb0a2d54fb3bbf7777067c14":[11,0,7,5,16,0],
 "gatt__uuid128_8h_source.html":[11,0,7,5,16],
 "get__adapters_8py.html":[11,0,1,1,0,0,3],
 "get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
-"globals.html":[11,1,0],
 "globals.html":[11,1,0,0],
+"globals.html":[11,1,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -44,8 +38,8 @@ var NAVTREEINDEX41 =
 "globals_enum.html":[11,1,4],
 "globals_eval.html":[11,1,5],
 "globals_f.html":[11,1,0,6],
-"globals_func.html":[11,1,1],
 "globals_func.html":[11,1,1,0],
+"globals_func.html":[11,1,1],
 "globals_func_a.html":[11,1,1,1],
 "globals_func_b.html":[11,1,1,2],
 "globals_func_c.html":[11,1,1,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX41 =
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md81":[7,3,8],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md82":[7,3,9],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md83":[7,3,10],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md84":[7,3,11]
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md84":[7,3,11],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html":[5],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md54":[5,0],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md55":[5,1],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md56":[5,2],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md57":[5,3],
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md58":[5,3,9]
 };

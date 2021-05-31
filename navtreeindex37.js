@@ -1,11 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa10dc95fc0932a73edf7dbdf4ae9988f":[10,0,2,10,0,0,274],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa1b76080034bfd9748b5dcaa61f271df":[10,0,2,10,0,0,135],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa2248f669c664843ebcd4c6cb6fd7e10":[10,0,2,10,0,0,171],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa29cfb9d588a0366eb2f45ec924c8652":[10,0,2,10,0,0,53],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa49d0be825d9b48dca8e8dd661e5145b":[10,0,2,10,0,0,175],
-"classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa4da4a073a6e0042e44cf246ecd4ba31":[10,0,2,10,0,0,240],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa4dec940ac5ba853187f023f9bf6eed0":[10,0,2,10,0,0,106],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa59d9b9ff367628db52f5ba7d5224d65":[10,0,2,10,0,0,93],
 "classchip_1_1clusters_1_1_c_h_i_p_clusters_1_1_chip_clusters.html#aa5db57781ea8c424fb23683d67c833c7":[10,0,2,10,0,0,120],
@@ -249,5 +243,11 @@ var NAVTREEINDEX37 =
 "classchip_1_1exceptions_1_1_unknown_cluster.html#a422df98aa56930df9cbbdbbe521130d8":[10,0,2,17,7,0],
 "classchip_1_1exceptions_1_1_unknown_cluster.html#aabad1c4ca37f023fe2023a703ce9b430":[10,0,2,17,7,2],
 "classchip_1_1exceptions_1_1_unknown_cluster.html#ae27f1d8166741176f776699b983884b2":[10,0,2,17,7,1],
-"classchip_1_1exceptions_1_1_unknown_command.html":[10,0,2,17,8]
+"classchip_1_1exceptions_1_1_unknown_command.html":[10,0,2,17,8],
+"classchip_1_1exceptions_1_1_unknown_command.html#a1396a5228396d8ab622c73e2786d38f7":[10,0,2,17,8,2],
+"classchip_1_1exceptions_1_1_unknown_command.html#a2d07b2e76f475daad4681dbf338f9f2d":[10,0,2,17,8,1],
+"classchip_1_1exceptions_1_1_unknown_command.html#ac499d4defd1da43badfbb458d6eb33b7":[10,0,2,17,8,3],
+"classchip_1_1exceptions_1_1_unknown_command.html#af0b00822b9dbdf445b78e7f572a60a05":[10,0,2,17,8,0],
+"classchip_1_1internal_1_1commissioner_1_1_commissioner.html":[10,0,2,20,0,0],
+"classchip_1_1internal_1_1commissioner_1_1_commissioner.html#a0bda32ec210dcb28710e716204652977":[10,0,2,20,0,0,1]
 };

@@ -76,7 +76,6 @@ var namespacechip =
     [ "SecureSessionMgrDelegate", "classchip_1_1_secure_session_mgr_delegate.html", "classchip_1_1_secure_session_mgr_delegate" ],
     [ "SerializableU64Set", "classchip_1_1_serializable_u64_set.html", "classchip_1_1_serializable_u64_set" ],
     [ "SerializableU64SetBase", "classchip_1_1_serializable_u64_set_base.html", "classchip_1_1_serializable_u64_set_base" ],
-    [ "SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", "classchip_1_1_session_establishment_delegate" ],
     [ "SetupPayload", "classchip_1_1_setup_payload.html", "classchip_1_1_setup_payload" ],
     [ "SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", "structchip_1_1_setup_payload_parameter" ],
     [ "Span", "classchip_1_1_span.html", "classchip_1_1_span" ],

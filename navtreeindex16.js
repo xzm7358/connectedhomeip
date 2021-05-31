@@ -133,10 +133,8 @@ var NAVTREEINDEX16 =
 "_service_provisioning_8h.html":[11,0,7,3,29],
 "_service_provisioning_8h.html#a68625edfbb5f840d6857e40618ce0d60":[11,0,7,3,29,0],
 "_service_provisioning_8h_source.html":[11,0,7,3,29],
-"_session_establishment_delegate_8h.html":[11,0,11,18],
-"_session_establishment_delegate_8h_source.html":[11,0,11,18],
-"_session_message_counter_8h.html":[11,0,11,19],
-"_session_message_counter_8h_source.html":[11,0,11,19],
+"_session_message_counter_8h.html":[11,0,11,18],
+"_session_message_counter_8h_source.html":[11,0,11,18],
 "_setup_payload_8cpp.html":[11,0,8,16],
 "_setup_payload_8cpp.html#aa85eb7557597ed46b22fa073c47fb4ce":[11,0,8,16,0],
 "_setup_payload_8cpp.html#aa87b60dfea9a58f70ede40f400fbf2a9":[11,0,8,16,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX16 =
 "_system_align_size_8h.html#ab6dd27bd1167986e80e616772ea47eae":[11,0,9,0,0],
 "_system_align_size_8h_source.html":[11,0,9,0],
 "_system_clock_8cpp.html":[11,0,9,1],
-"_system_clock_8cpp.html#a786132414c30f947907be33a4c28125a":[11,0,9,1,0]
+"_system_clock_8cpp.html#a786132414c30f947907be33a4c28125a":[11,0,9,1,0],
+"_system_clock_8cpp.html#aeb7e7a856ab7a794b05b6b63ef36ea3e":[11,0,9,1,1],
+"_system_clock_8h.html":[11,0,9,2]
 };

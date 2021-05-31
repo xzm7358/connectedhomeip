@@ -1,7 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classchip_1_1_chip_key_id.html#a9dbfa56fc1f9503e578daf8e7e197404a6b625019e176fc6389da74f29b5f226c":[10,0,2,43,10],
-"classchip_1_1_chip_key_id.html#a9dbfa56fc1f9503e578daf8e7e197404a7698956c918c8c48943acdd7389a5a82":[10,0,2,43,16],
 "classchip_1_1_chip_key_id.html#a9dbfa56fc1f9503e578daf8e7e197404a8c06fc1e2b130d2a106a1a4f6806cb6a":[10,0,2,43,13],
 "classchip_1_1_chip_key_id.html#a9dbfa56fc1f9503e578daf8e7e197404a92a544ad8099fea168032a6088235ec6":[10,0,2,43,0],
 "classchip_1_1_chip_key_id.html#a9dbfa56fc1f9503e578daf8e7e197404aa61f8b4f08ba28b346bae0866738f760":[10,0,2,43,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX23 =
 "classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a76ea91f22dbf74b9a3b014dc4cc20a7b":[10,0,2,11,18,2],
 "classchip_1_1_controller_1_1_script_device_pairing_delegate.html#ae569f793fb1c6c2953e550f3b2ec60fb":[10,0,2,11,18,0],
 "classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html":[10,0,2,11,21],
-"classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html#a044c0c1e25f8004e3d3101e89cccc5bd":[10,0,2,11,21,0]
+"classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html#a044c0c1e25f8004e3d3101e89cccc5bd":[10,0,2,11,21,0],
+"classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html#a34c438e2c2195aae3fa39746be4d3c39":[10,0,2,11,21,1],
+"classchip_1_1_controller_1_1_trusted_root_certificates_provisioner.html#a620ebd34459b692b7f0c3ba21a3029b3":[10,0,2,11,21,5]
 };

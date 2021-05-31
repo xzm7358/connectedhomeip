@@ -1,11 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"efr32-chip-mbedtls-config_8h.html#a17ad52b9c597d50d6bab1557e96dd2e2":[11,0,7,2,13,33],
-"efr32-chip-mbedtls-config_8h.html#a19bd05cfdb812a81e4727a679e5d5472":[11,0,7,2,13,66],
-"efr32-chip-mbedtls-config_8h.html#a1a0f22be83a0b34bd8e8251b77a680a0":[11,0,7,2,13,26],
-"efr32-chip-mbedtls-config_8h.html#a1bd8bee51fb122e552a4cbc1bbdb0b96":[11,0,7,2,13,53],
-"efr32-chip-mbedtls-config_8h.html#a1cceb2b05fcbf777d24948d63a1aa74c":[11,0,7,2,13,5],
-"efr32-chip-mbedtls-config_8h.html#a24884ce4da3fed0ceff29962dd7a01fc":[11,0,7,2,13,24],
 "efr32-chip-mbedtls-config_8h.html#a2aabd723030209c1eba787c33143f05a":[11,0,7,2,13,81],
 "efr32-chip-mbedtls-config_8h.html#a2abc88498566e351dc97660f5aecf46c":[11,0,7,2,13,52],
 "efr32-chip-mbedtls-config_8h.html#a2d9853334811c4e2220fb5c6266e908e":[11,0,7,2,13,46],
@@ -162,8 +156,8 @@ var NAVTREEINDEX40 =
 "functions_enum.html":[10,3,4],
 "functions_eval.html":[10,3,5],
 "functions_f.html":[10,3,0,7],
-"functions_func.html":[10,3,1,0],
 "functions_func.html":[10,3,1],
+"functions_func.html":[10,3,1,0],
 "functions_func_a.html":[10,3,1,1],
 "functions_func_b.html":[10,3,1,2],
 "functions_func_c.html":[10,3,1,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX40 =
 "gatt__db_8c.html#a6f3f7f8f83fef0f6280ebbb67ea35ca1":[11,0,7,2,19,14],
 "gatt__db_8c.html#a81f83e8169d438531194dd21c3f45525":[11,0,7,2,19,1],
 "gatt__db_8c.html#a8368ddee800c46f9e219f00e73c17930":[11,0,7,2,19,10],
-"gatt__db_8c.html#a8fb00cae77d1e426e23a1e3cf8c24265":[11,0,7,2,19,8]
+"gatt__db_8c.html#a8fb00cae77d1e426e23a1e3cf8c24265":[11,0,7,2,19,8],
+"gatt__db_8c.html#a9a8912b0862d02ae5e88581c51e362de":[11,0,7,2,19,6],
+"gatt__db_8c.html#ac3d2ed3739c1d87dbb86cd759b541a93":[11,0,7,2,19,11],
+"gatt__db_8c.html#acdd1b16421949e88a3be9c24133b977e":[11,0,7,2,19,13],
+"gatt__db_8c.html#ad1084781c0c29f37be9ab2d958b11d42":[11,0,7,2,19,12],
+"gatt__db_8c.html#ae9306a94dfc6851f635ea50425f5cda1":[11,0,7,2,19,3],
+"gatt__db_8c.html#af79c92f5d8a9f8a4f164cc3540300a0c":[11,0,7,2,19,9]
 };

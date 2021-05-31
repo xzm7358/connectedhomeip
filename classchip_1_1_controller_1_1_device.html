@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">b916826</span>
+   &#160;<span id="projectnumber">cf3a721</span>
    </div>
   </td>
  </tr>
@@ -97,11 +97,8 @@ $(document).ready(function(){initNavTree('classchip_1_1_controller_1_1_device.ht
 Inheritance diagram for chip::Controller::Device:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="classchip_1_1_controller_1_1_device.png" usemap="#chip::Controller::Device_map" alt=""/>
-  <map id="chip::Controller::Device_map" name="chip::Controller::Device_map">
-<area href="classchip_1_1_session_establishment_delegate.html" alt="chip::SessionEstablishmentDelegate" shape="rect" coords="222,0,434,24"/>
-  </map>
-</div></div>
+  <img src="classchip_1_1_controller_1_1_device.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -202,16 +199,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af13c224ba6adf2b249d1cbbf4191f1e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#af13c224ba6adf2b249d1cbbf4191f1e4">IsProvisioningComplete</a> () const</td></tr>
 <tr class="separator:af13c224ba6adf2b249d1cbbf4191f1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a656667caa74284eb2495d07f86a96509"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#a656667caa74284eb2495d07f86a96509">OnSessionEstablishmentError</a> (<a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> error) override</td></tr>
-<tr class="memdesc:a656667caa74284eb2495d07f86a96509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when session establishment fails with an error.  <a href="classchip_1_1_controller_1_1_device.html#a656667caa74284eb2495d07f86a96509">More...</a><br /></td></tr>
 <tr class="separator:a656667caa74284eb2495d07f86a96509"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af94c510bcd72ae3dd2e5ee050288a7e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#af94c510bcd72ae3dd2e5ee050288a7e8">OnSessionEstablished</a> () override</td></tr>
-<tr class="memdesc:af94c510bcd72ae3dd2e5ee050288a7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the new secure session has been established.  <a href="classchip_1_1_controller_1_1_device.html#af94c510bcd72ae3dd2e5ee050288a7e8">More...</a><br /></td></tr>
 <tr class="separator:af94c510bcd72ae3dd2e5ee050288a7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af33eb6b6b620ce5e1137783d7b2e9638"><td class="memItemLeft" align="right" valign="top">CASESession &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_device.html#af33eb6b6b620ce5e1137783d7b2e9638">GetCASESession</a> ()</td></tr>
 <tr class="separator:af33eb6b6b620ce5e1137783d7b2e9638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classchip_1_1_session_establishment_delegate"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classchip_1_1_session_establishment_delegate')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classchip_1_1_session_establishment_delegate.html">chip::SessionEstablishmentDelegate</a></td></tr>
-<tr class="memitem:a241cc1d606a71a92dd845e2ddf3c4595 inherit pub_methods_classchip_1_1_session_establishment_delegate"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_session_establishment_delegate.html#a241cc1d606a71a92dd845e2ddf3c4595">~SessionEstablishmentDelegate</a> ()</td></tr>
-<tr class="separator:a241cc1d606a71a92dd845e2ddf3c4595 inherit pub_methods_classchip_1_1_session_establishment_delegate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="aa1f3a86bfa200253e61cabfeb4b03f52"></a>
@@ -949,15 +941,10 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Called when the new secure session has been established. </p>
-<p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
-
-<p>Reimplemented from <a class="el" href="classchip_1_1_session_establishment_delegate.html#ad070fd1a076adf713436d381bc5c567c">chip::SessionEstablishmentDelegate</a>.</p>
 
 </div>
 </div>
@@ -980,21 +967,10 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Called when session establishment fails with an error. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">error</td><td>error code</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>TODO: Rename function as per issue: <a href="https://github.com/project-chip/connectedhomeip/issues/4468">https://github.com/project-chip/connectedhomeip/issues/4468</a> </p>
-
-<p>Reimplemented from <a class="el" href="classchip_1_1_session_establishment_delegate.html#a1784dca3315724e4dd6cf0db5f746fe1">chip::SessionEstablishmentDelegate</a>.</p>
 
 </div>
 </div>
@@ -1368,7 +1344,7 @@ template&lt;typename MessageType , typename  = std::enable_if_t&lt;std::is_enum&
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_device.html">Device</a></li>
-    <li class="footer">Generated on Mon May 31 2021 17:29:00 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 31 2021 17:52:43 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

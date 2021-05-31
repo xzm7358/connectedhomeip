@@ -536,13 +536,13 @@ var hierarchy =
     [ "chip::Mdns::ServiceAdvertiser", "classchip_1_1_mdns_1_1_service_advertiser.html", [
       [ "chip::Mdns::DiscoveryImplPlatform", "classchip_1_1_mdns_1_1_discovery_impl_platform.html", null ]
     ] ],
-    [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
+    [ "SessionEstablishmentDelegate", null, [
       [ "chip::Controller::Device", "classchip_1_1_controller_1_1_device.html", null ],
       [ "chip::Controller::DeviceCommissioner", "classchip_1_1_controller_1_1_device_commissioner.html", null ]
     ] ],
     [ "chip::Transport::SessionMessageCounter", "classchip_1_1_transport_1_1_session_message_counter.html", null ],
-    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip.setup_payload.setup_payload.SetupPayload", "classchip_1_1setup__payload_1_1setup__payload_1_1_setup_payload.html", null ],
     [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
