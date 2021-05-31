@@ -1,5 +1,14 @@
 var NAVTREEINDEX45 =
 {
+"structchip_1_1_controller_1_1_controller_init_params.html#af4dfac6f2c4a353e1e17059d106c239b":[10,0,2,11,3,4],
+"structchip_1_1_controller_1_1_serializable_device.html":[10,0,2,11,19],
+"structchip_1_1_controller_1_1_serializable_device.html#a1d9533653cb124beef076e2495339381":[10,0,2,11,19,3],
+"structchip_1_1_controller_1_1_serializable_device.html#a2d10cd6bcf8a01984722f13eb252948b":[10,0,2,11,19,0],
+"structchip_1_1_controller_1_1_serializable_device.html#a3640212991a8d284858ddfa382eafbf9":[10,0,2,11,19,6],
+"structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201":[10,0,2,11,19,9],
+"structchip_1_1_controller_1_1_serializable_device.html#a87652b2b3a50120473986b02ba0a96d3":[10,0,2,11,19,1],
+"structchip_1_1_controller_1_1_serializable_device.html#a8c2c81b34827d51ad38863eef74a688a":[10,0,2,11,19,4],
+"structchip_1_1_controller_1_1_serializable_device.html#aa376c5aed7f8a7cc8ddcb996d940359e":[10,0,2,11,19,5],
 "structchip_1_1_controller_1_1_serializable_device.html#aa9584620f2cc064f30e638a890312416":[10,0,2,11,19,8],
 "structchip_1_1_controller_1_1_serializable_device.html#abb7496b0b806fc2064fc142458922114":[10,0,2,11,19,2],
 "structchip_1_1_controller_1_1_serializable_device.html#ae2c73636a84a9081ba5cbc3b3d0ff4b7":[10,0,2,11,19,10],
@@ -170,8 +179,8 @@ var NAVTREEINDEX45 =
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html":[10,0,2,14,0,35,0],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#a1f15216c9b89844dc6780d1750478192":[10,0,2,14,0,35,0,3],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#a5cb26b591b8c08a693e98beb3134fa08":[10,0,2,14,0,35,0,2],
-"structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,0],
 "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,1],
+"structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html#adbafe797bbaa0cea3aa27f14bfa9b962":[10,0,2,14,0,35,0,0],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html":[10,0,2,14,1,2],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html#a5d4b06539be82f33c219d87e00489d9e":[10,0,2,14,1,2,3],
 "structchip_1_1_device_layer_1_1_persisted_storage_1_1_read_entry.html#a6b4da433b89d752dba53234b6df5aa72":[10,0,2,14,1,2,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX45 =
 "structchip_1_1_mdns_1_1_register_context.html#abb3c1749d465a31852679e7392d1c7f9":[10,0,2,24,16,0],
 "structchip_1_1_mdns_1_1_register_context.html#ad34fc33009b7210be6ebfb9e01321e42":[10,0,2,24,16,1],
 "structchip_1_1_mdns_1_1_resolve_context.html":[10,0,2,24,17],
-"structchip_1_1_mdns_1_1_resolve_context.html#a52cf98b3cccefcbd1e2c524b306007e7":[10,0,2,24,17,0],
-"structchip_1_1_mdns_1_1_resolve_context.html#a820bd78096e2f055aff55736061eddef":[10,0,2,24,17,2],
-"structchip_1_1_mdns_1_1_resolve_context.html#a9251099b8c539f269957d47b76125210":[10,0,2,24,17,1],
-"structchip_1_1_mdns_1_1_resolved_node_data.html":[10,0,2,24,18],
-"structchip_1_1_mdns_1_1_resolved_node_data.html#a0f9b7304029fdd2c20501130dbb8ae62":[10,0,2,24,18,1],
-"structchip_1_1_mdns_1_1_resolved_node_data.html#a5c89e1654ff312568d75bf29f8aaabb5":[10,0,2,24,18,2],
-"structchip_1_1_mdns_1_1_resolved_node_data.html#ab70cf48de043e12f5e94d7e0f29f51bf":[10,0,2,24,18,3],
-"structchip_1_1_mdns_1_1_resolved_node_data.html#adcd383927ed4f7bb2166a44536e100c7":[10,0,2,24,18,0],
-"structchip_1_1_mdns_1_1_text_entry.html":[10,0,2,24,22],
-"structchip_1_1_mdns_1_1_text_entry.html#a1bfc17fe27acd727482505a2f38f11e3":[10,0,2,24,22,2]
+"structchip_1_1_mdns_1_1_resolve_context.html#a52cf98b3cccefcbd1e2c524b306007e7":[10,0,2,24,17,0]
 };

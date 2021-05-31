@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2c81a99</span>
+   &#160;<span id="projectnumber">4f122bc</span>
    </div>
   </td>
  </tr>
@@ -248,8 +248,17 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 <li>kCleanup
 : <a class="el" href="namespacechip_1_1_controller.html#ae012d7eb08f5514cf11652ff9aaffc9da89e7d039bc7ed1d166392d25cbc43ba9">chip::Controller</a>
 </li>
+<li>kCommissionableServiceName
+: <a class="el" href="namespacechip_1_1_mdns.html#a2de1a2c241f9b6119a5b75802e6cea91">chip::Mdns</a>
+</li>
+<li>kCommissionerServiceName
+: <a class="el" href="namespacechip_1_1_mdns.html#a43b73fd1c7ba62ffb48f87d65116115c">chip::Mdns</a>
+</li>
 <li>kCommissioningComplete
 : <a class="el" href="namespacechip_1_1_device_layer_1_1_device_event_type.html#a06d37ccd4891b45fe9303a788558c41ca33ade72c1104bd75ca4d0a49a9b4344a">chip::DeviceLayer::DeviceEventType</a>
+</li>
+<li>kCommissionProtocol
+: <a class="el" href="namespacechip_1_1_mdns.html#a8c888a12e0028efefe30bcf8a216ade8">chip::Mdns</a>
 </li>
 <li>kCommonProfileId
 : <a class="el" href="namespacechip_1_1_t_l_v.html#a9ed9279caf406981dc6c81278326341faa46c50fec8a4ca1fb6ac62aff48e0dcd">chip::TLV</a>
@@ -536,6 +545,9 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 <li>kLifetimeCounterSize
 : <a class="el" href="namespacechip_1_1_rotating_device_id.html#a22fb64e1bfa95031a2c80c2c80e7299e">chip::RotatingDeviceId</a>
 </li>
+<li>kLocalDomain
+: <a class="el" href="namespacechip_1_1_mdns.html#a5428c4d6c69328be66be708286e20694">chip::Mdns</a>
+</li>
 <li>kLogCategory_Detail
 : <a class="el" href="namespacechip_1_1_logging.html#a0c911e4b46b73ea3124a20cee4d5dfcea76d16fa090e67ebf1065afb44b46d891">chip::Logging</a>
 </li>
@@ -758,6 +770,9 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 <li>kMaxCHIPOpCertLength
 : <a class="el" href="namespacechip_1_1_controller.html#a66c6db924fb85b19e8a93b3db2615eff">chip::Controller</a>
 </li>
+<li>kMaxCommisisonableServiceNameSize
+: <a class="el" href="namespacechip_1_1_mdns.html#add1a87fb1496683c10f9adab212a3936">chip::Mdns</a>
+</li>
 <li>kMaxDaysPerMonth
 : <a class="el" href="namespacechip.html#a019ce0f21746a6c85c30a83524f2b0dea7e8cce126963afb175cf04fc996eb6bd">chip</a>
 </li>
@@ -796,6 +811,9 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 </li>
 <li>kMaxSeparatorLen
 : <a class="el" href="namespacechip_1_1_logging.html#a7616831f52a1624311a78c5e702fd61d">chip::Logging</a>
+</li>
+<li>kMaxSubtypeDescSize
+: <a class="el" href="namespacechip_1_1_mdns.html#abca5c9afd149e87d63979359367b0b39">chip::Mdns</a>
 </li>
 <li>kMaxTagLen
 : <a class="el" href="namespacechip.html#a1517b608fb94efae480e080bec7d4096">chip</a>
@@ -895,6 +913,12 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 </li>
 <li>kOperationalNetworkEnabled
 : <a class="el" href="namespacechip_1_1_device_layer_1_1_device_event_type.html#a06d37ccd4891b45fe9303a788558c41ca223f23866886b6b67e0ca8bb63e9a551">chip::DeviceLayer::DeviceEventType</a>
+</li>
+<li>kOperationalProtocol
+: <a class="el" href="namespacechip_1_1_mdns.html#a66127f674b521e1e06b057dce86610e2">chip::Mdns</a>
+</li>
+<li>kOperationalServiceName
+: <a class="el" href="namespacechip_1_1_mdns.html#ac403a4d185af3d05c20fe0ba8451aacc">chip::Mdns</a>
 </li>
 <li>kP256_FE_Length
 : <a class="el" href="namespacechip_1_1_crypto.html#a95c96fc62342d6fc131536354085165d">chip::Crypto</a>
@@ -1120,6 +1144,9 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 </li>
 <li>kSubTypeLongDiscriminatorMaxLength
 : <a class="el" href="namespacechip_1_1_mdns.html#ac0bee40c4e8692e4833d4ab40c3cc240">chip::Mdns</a>
+</li>
+<li>kSubtypeServiceNamePart
+: <a class="el" href="namespacechip_1_1_mdns.html#acd7d450f5eb0093b51228fd7417261e7">chip::Mdns</a>
 </li>
 <li>kSubTypeShortDiscriminatorMaxLength
 : <a class="el" href="namespacechip_1_1_mdns.html#a7d1eda6a118c80be7f72db0dd9ff12e4">chip::Mdns</a>
@@ -1355,7 +1382,7 @@ $(document).ready(function(){initNavTree('namespacemembers_k.html',''); initResi
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 31 2021 16:36:53 for Connected Home over IP by
+    <li class="footer">Generated on Mon May 31 2021 16:59:19 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

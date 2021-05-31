@@ -1,6 +1,15 @@
 var NAVTREEINDEX41 =
 {
+"gatt__db_8c.html#ad1084781c0c29f37be9ab2d958b11d42":[11,0,7,2,19,12],
+"gatt__db_8c.html#ae9306a94dfc6851f635ea50425f5cda1":[11,0,7,2,19,3],
+"gatt__db_8c.html#af79c92f5d8a9f8a4f164cc3540300a0c":[11,0,7,2,19,9],
+"gatt__uuid128_8h.html":[11,0,7,5,16],
+"gatt__uuid128_8h.html#ad705ef05bb0a2d54fb3bbf7777067c14":[11,0,7,5,16,0],
+"gatt__uuid128_8h_source.html":[11,0,7,5,16],
+"get__adapters_8py.html":[11,0,1,1,0,0,3],
+"get__adapters_8py.html#a8f4e1a21814f7d1dd588116f64527643":[11,0,1,1,0,0,3,1],
 "globals.html":[11,1,0],
+"globals.html":[11,1,0,0],
 "globals_a.html":[11,1,0,1],
 "globals_b.html":[11,1,0,2],
 "globals_c.html":[11,1,0,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX41 =
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__s_t_y_l_e__g_u_i_d_e.html#autotoc_md84":[7,3,11],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html":[5],
 "md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md54":[5,0],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md55":[5,1],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md56":[5,2],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md57":[5,3],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md58":[5,3,9],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md59":[5,4],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md60":[5,5],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md61":[5,5,0],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md62":[5,6],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md63":[5,7],
-"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md64":[5,8]
+"md__home_runner_work_connectedhomeip_connectedhomeip_docs__v_s_c_o_d_e__d_e_v_e_l_o_p_m_e_n_t.html#autotoc_md55":[5,1]
 };

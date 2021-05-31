@@ -1,5 +1,14 @@
 var NAVTREEINDEX44 =
 {
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a33ef68a3fe8194463ee35f37cb1b7689":[11,0,7,10,5,9],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a37f61d1eb2010ee0d310452850285f44":[11,0,7,10,5,21],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a3aa01c76a63f43b5e827b36d1618ea80":[11,0,7,10,5,51],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a3e5e666a806d50198be1c625f62d43e3":[11,0,7,10,5,30],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a47807484e5fd377203d003d0a1f8aeae":[11,0,7,10,5,37],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a4cdfb50cb4dc961567ebaeda5ead167c":[11,0,7,10,5,12],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a4e4b42aee371511a5707555fbed41c1d":[11,0,7,10,5,16],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a56f3094069136dfe32452bfb45b07b33":[11,0,7,10,5,29],
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a57990ab87af2262fd64b6514644dfdd7":[11,0,7,10,5,50],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5ba4362277d1b4590c86e1113a653381":[11,0,7,10,5,8],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5da64c40172199f3d4c5dfd376f23c37":[11,0,7,10,5,46],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a5e3f88d3ddb04517e635b9cd0bae78be":[11,0,7,10,5,32],
@@ -240,14 +249,5 @@ var NAVTREEINDEX44 =
 "structchip_1_1_controller_1_1_controller_init_params.html#a5a2d7e2ac97c398610b0f9ec2399ca86":[10,0,2,11,3,0],
 "structchip_1_1_controller_1_1_controller_init_params.html#a70f69c67be633f875baf5534ae1ceb79":[10,0,2,11,3,1],
 "structchip_1_1_controller_1_1_controller_init_params.html#a77c6457e445126f1324d80f4dccb991f":[10,0,2,11,3,3],
-"structchip_1_1_controller_1_1_controller_init_params.html#ab10bde9f8f1ce552f8dcaec0d892bf52":[10,0,2,11,3,5],
-"structchip_1_1_controller_1_1_controller_init_params.html#af4dfac6f2c4a353e1e17059d106c239b":[10,0,2,11,3,4],
-"structchip_1_1_controller_1_1_serializable_device.html":[10,0,2,11,19],
-"structchip_1_1_controller_1_1_serializable_device.html#a1d9533653cb124beef076e2495339381":[10,0,2,11,19,3],
-"structchip_1_1_controller_1_1_serializable_device.html#a2d10cd6bcf8a01984722f13eb252948b":[10,0,2,11,19,0],
-"structchip_1_1_controller_1_1_serializable_device.html#a3640212991a8d284858ddfa382eafbf9":[10,0,2,11,19,6],
-"structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201":[10,0,2,11,19,9],
-"structchip_1_1_controller_1_1_serializable_device.html#a87652b2b3a50120473986b02ba0a96d3":[10,0,2,11,19,1],
-"structchip_1_1_controller_1_1_serializable_device.html#a8c2c81b34827d51ad38863eef74a688a":[10,0,2,11,19,4],
-"structchip_1_1_controller_1_1_serializable_device.html#aa376c5aed7f8a7cc8ddcb996d940359e":[10,0,2,11,19,5]
+"structchip_1_1_controller_1_1_controller_init_params.html#ab10bde9f8f1ce552f8dcaec0d892bf52":[10,0,2,11,3,5]
 };
